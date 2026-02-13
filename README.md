@@ -58,7 +58,7 @@ quarto preview
 
 ## Pristup knjizi
 
-Knjiga je dostupna online na: **[LINK]** *(uskoro)*
+Knjiga je dostupna online na: **[https://lusiki.github.io/Metodologija-za-komunikologe-v2/](https://lusiki.github.io/Metodologija-za-komunikologe-v2/)**
 
 ## Licencija
 
