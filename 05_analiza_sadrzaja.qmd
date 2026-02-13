@@ -1,0 +1,429 @@
+---
+title: "Analiza sadržaja"
+---
+
+Uz anketu, analiza sadržaja najčešće je korištena kvantitativna metoda istraživanja u komunikologiji, ali i metoda koja se razvija upravo unutar komunikologije. Za razvoj analize sadržaja posebice je zaslužan istraživački tim Harolda Laswella koji je ovu metodu razvijao i koristio za potrebe analize propagandnog materijala Sila osovine, ali i nakon II svjetskog rata u okviru tzv. Hooverovih studija.
+
+Za razliku od ankete, analiza sadržaja može se okarakterizirati kao nenametljiva metoda. To znači da za realizaciju istraživanja posredstvom ove metode nisu potrebni ispitanici, tj. sudionici istraživanja. Dovoljan je neki medijski sadržaj i osoba koja analizira taj sadržaj kako bi se uspješno provelo istraživanje (Milas, 2009). Riječ je o metodi za klasificiranje različitih verbalnih i neverbalnih poruka prema njihovim sadržajnim karakteristikama. Njome se na objektivan i sustavan način kvantitativno opisuje sadržaj nekog aspekta komunikacije (Milas, 2009: 500), tj. nastoji se proizvesti objektivan, kvantitativan i opravdan opis sadržaja. Drugim riječima, praćenjem sadržaja pokušavaju se proizvesti odgovarajuće veze i odnosi između pojava (Elezović, 2012).
+
+Analizom sadržaja moguće je istražiti:
+
+-   Koliko pojedini mediji prostora posvećuju pojedinim temama, npr. politici, kulturi, turizmu, sportu, obrazovanju?
+
+-   U kojoj mjeri pojedini mediji promoviraju pojedine ideje, stavove, ideološke obrasce, vrijednosne obrasce, tj. moguće je istražiti koje se ideje i vrijednosti šire putem medija masovnog komuniciranja.
+
+-   Koliko pojedini mediji prostora posvećuju pojedinim osobama iz javnog ili političkog života?
+
+-   Kako mediji opisuju pojedine događaje, pojedina zbivanja te pojedine osobe?
+
+Također, analiza sadržaja je metoda koja je pogodna za historijsku analizu društvenih događaja i procesa budući da se posredstvom nje mogu analizirani načini medijskog izvještavanja u prošlosti. Posredstvom analize sadržaja moguće je ispitati**:**
+
+-   Koji su društveni problemi u određenom razdoblju dominirali u medijskim izvještavanjima?
+
+-   Kako su mediji izvještavali o njima?
+
+-   Tko su bili dominantni društveni akteri?
+
+-   Kako su opisani dominantni društveni akteri?
+
+Iako je Laswell najzaslužniji za utemeljenje suvremene analize sadržaja kao znanstveno-istraživačke metode, u određenim inačicama ova metoda koristi se i ranije. Primjerice, već krajem 19. stoljeća postoje evidencije o korištenju pojedinih vrsta proto-analize sadržaja kojima se analizira tematska struktura novina (Milas, 2009:500). Međutim, istinski razvoj ove metode obilježen je razvojem medija masovne komunikacije tijekom 20 stoljeća kao i razvojem empirijskih istraživačkih metoda u društvenim znanostima. Uz Laswellovo djelovanje za razvoj analize sadržaja zaslužni su i Berleson i Lazarsfeld koji 1948. godine izdaju knjigu *Analiza sadržaja u istraživanju komunikacije* (Milas, 2009:501). Oni ističu tri glavna cilja upotrebe analize sadržaja:
+
+1.  Istraživanje osobina sadržaja.
+
+2.  Istraživanje osobina autora.
+
+3.  Istraživanje osobina publike.
+
+Holsti (1969) kao namjenu analize sadržaja izdvaja sljedeće:
+
+1.  Opisivanje obilježja komunikacije.
+
+2.  Zaključivanje o događajima koji su prethodili komunikaciji.
+
+3.  Zaključivanje o učincima komunikacije.
+
+Wimmer i Dominick (2010) kao ciljeve analize sadržaja spominju sljedeće:
+
+1.  Opis sadržaja komunikacije.
+
+2.  Testiranje hipoteza o karakteristikama poruke.
+
+3.  Kompariranje sadržaja medija sa „stvarnim svijetom".
+
+4.  Medijski opis imidža određenih društvenih grupa.
+
+5.  Prikupljanje podataka koji će koristiti kao početna točka za studije medijskih učinaka
+
+Predočena određenja analize sadržaja navode da analizom sadržaja možemo smatrati postupak istraživanja i proučavanja pisanog, vizualnog ili izgovorenog sadržaja kako bi se analizirala neka njegova obilježja.
+
+**Obilježja analize sadržaja**
+
+Četiri su temeljna metodska obilježja analize sadržaja.
+
+1.  *Analiza sadržaja je kvantitativna metoda istraživanja*
+
+Iako postoje i kvalitativne inačice metode, analiza sadržaja primarno se razvija kao kvantitativna metoda istraživanja. Podaci prikupljeni analizom sadržaja imaju kvantitativni karakter, a zaključci se donose nakon njihove statističke analize. Također, za analizu sadržaja je karakterističan uobičajeni proces kvantitativnog istraživanja. To znači da se u istraživanje kreće od operativno definiranih pojmova, razrađenih ciljeva istraživanja i istraživačkih hipoteza koje se prikupljenim empirijskim podacima testiraju (prihvaćaju, odbijaju ili modificiraju).
+
+2.  *Sistematičnost i metodičnost istraživačkog postupka*
+
+Analiza sadržaja provodi se temeljem unaprijed definiranog nacrta istraživanja kojim su unaprijed određeni svi koraci u istraživanju kao i obilježja svih instrumenata i procedura (npr. analitičke matrice i uzorka medija). Na taj način osigurava se sistematičnost i metodičnost postupka istraživanja.
+
+3.  *Objektivnost u zaključivanju*
+
+Sistematičnost i metodičnost istraživačkog postupka kao i kvantitativna priroda metode minimiziraju utjecaj istraživača u postupku interpretacije podataka. Na taj način se osigurava veća objektivnost u zaključivanju.
+
+*3. Pouzdanost*
+
+Zbog svega navedenog nalazi istraživanja prikupljeni posredstvom ove metode tretiraju se kao pouzdani. To znači da se pretpostavlja da bi se replikacijom istraživanja od strane nekih drugih istraživača trebali izvesti identični zaključci.
+
+**Vrste (oblici) sadržaja koji se analiziraju metodom analize sadržaja**
+
+Analizom sadržaja mogu se analizirati različite forme sadržaja i njihove kombinacije. No, najčešće forme koje se analiziraju su **pisana, govorna te vizualna komunikacija**. Drugim riječima, analizom sadržaja istražuju se pisani, verbalni i vizualni komunikacijski oblici (Riffe, Lacy i Fico, 2005: 65).
+
+*Pisana komunikacija* se izražava tekstom koji je kombinacija različitih simbola. Pisani tekst može biti na papiru, elektroničkom ekranu ili na nekoj drugoj podlozi. Bitna karakteristika pisane komunikacije je da čitatelj mora razumjeti jezik kako bi razumio samu komunikaciju. Većina povijesnih dokumenata koja se proučavala metodom analize sadržaja je sadržavala tekst zbog toga što je upravo tekst bio osnovni način na koji je masovna komunikacija očuvana.
+
+*Verbalna (govorna) komunikacija* može biti posredovana i izravna. Većina izravne verbalne komunikacije nije očuvana i stoga ju je teško proučavati. Stoga se analizom sadržaja uglavnom analizira posredovana verbalna komunikacija (snimljen govor).
+
+*Vizualna komunikacija* je komunikacija putem netekstualnih simbola koje ljudi procesuiraju vidom. Vizualna komunikacija obično je posredovana posredstvom fotografija, crteža i video materijala (Riffe, Lacy i Fico, 2005).
+
+**Analiza sadržaja tradicionalnih medija masovne komunikacije i analiza sadržaja u digitalnom medijskom okružju**
+
+Priroda analize sadržaja i njena metodološko obilježja mijenjala su se kroz vrijeme. Naime, analiza sadržaja kao istraživačka metoda razvijala se paralelno s razvojem medija masovne komunikacije, što znači je od svojih početaka najvećim dijelom bila usmjerena na analizu sadržaja tiskanih medija te tradicionalnih elektroničkih medija – radija i televizije. Međutim, u zadnjih dvadesetak godina, od nakon pojave interneta i ubrzanog razvoja digitalnog medijskog okružja fokus analize sadržaja premješta se i na nove medijske forme. Počinju se analizirati različiti oblici online komunikacije, poput sadržaja na društvenim mrežama, blogova, foruma, komentara korisnika, multimedijskih objava te drugih digitalnih tragova koje korisnici svakodnevno ostavljaju u virtualnom prostoru. Ovaj predmetni pomak ne mijenja samo vrstu analiziranog materijala, nego i samu metodu analize sadržaja. Naime, digitalno okružje donosi velike, dinamične i nestrukturirane skupove podataka, interaktivnost korisnika te potrebu za novim analitičkim alatima i tehnikama poput automatiziranog prikupljanja podataka, strojnog učenja i obrade prirodnog jezika.
+
+U tradicionalnom medijskom okružju istraživači su imali posla s relativno stabilnim, linearnim i jasno definiranim tekstovima. Izvori su bili ograničeni (npr. novine, časopisi, televizijske emisije), količina podataka manja, a sam analitički proces analize provodio se „ručno" te je iziskivao puno vremena. Naglasak se stavljao na precizno kodiranje uz pomoć matrica za analizu sadržaja, pri čemu se posebice pazilo na tzv. interkodersku pouzdanosti.
+
+Nasuprot tome, analiza sadržaja u digitalnom okružju podrazumijeva uglavnom goleme količine dostupnih podataka, često u rasponu od nekoliko tisuća do nekoliko milijuna jedinica, što zahtijeva znatno drugačije analitičke pristupe. Ne radi se samo o znatno većem broju podataka koji se analiziraju, već i o njihovoj znatno većoj heterogenosti. Oni obično kombiniraju tekst, slike, videozapise, hiperveze, emojije i interakcijske metrike poput lajkova, komentara i dijeljenja. Upravo enormna brojnost i heterogenost sadržaja onemogućuje korištenje tradicionalnih ručnih postupaka i uvjetuje primjenu računalno potpomognutih metoda, uključujući algoritme strojnog učenja, tehnike obrade prirodnog jezika, mrežnu analizu te različite oblike automatiziranog kodiranja.
+
+Osim u metodološkom smislu, digitalno okružje uvodi i bitne promjene u epistemološkom okviru analize sadržaja. Dok su tradicionalni mediji proizvodili stabilne i relativno trajne tekstove, digitalni sadržaji mijenjaju se iz minute u minutu, često nestaju, prilagođavaju se algoritamskim pravilima i oblikuju ih interakcije korisnika. Analitičari stoga više ne proučavaju samo sadržaj, nego i obrasce ponašanja korisnika, ritam cirkulacije informacija, algoritamske procese filtriranja te dinamiku online zajednica. Upravo zbog toga analiza sadržaja u digitalnom okružju nadilazi klasično mjerenje frekvencija pojmova i ulazi u kompleksnije procese razumijevanja konteksta, odnosa i tokova komunikacije.
+
+Kako se radi o dva suštinski različita metodološka postupka, prvo će biti predstavljena osnovna obilježja i pravilnosti tradicionalne analize sadržaja. Nakon toga, detaljno će biti predočene spoznajne mogućnosti, metodološki pristupi i analitički procesi svojstvene analizi sadržaja u digitalnom okružju.
+
+
+## Analiza sadržaja tradicionalnih medija masovne komunikacije (tradicionalna analiza sadržaja)
+
+**Istraživački proces analize sadržaja**
+
+Proces tradicionalne analize sadržaja može se predočiti kao kumulativni slijed sastavljen od većeg broja etapa ili koraka. Predočiti ćemo kako proces analize sadržaja opisuju Wimmer i Dominick u knjizi *Mass Media Research* (2010).
+
+*1. Formuliranje istraživačkog pitanja ili hipoteze*
+
+Analiza sadržaja, kako Wimmer i Dominick (2010: 160) navode, treba biti vođena dobro formuliranim istraživačkim pitanjima ili hipotezama. Istraživačko pitanje moguće je generirati na temelju postojećih teorija, prethodnih istraživanja, praktičnih problema, ili pak kao odgovor na promjene društvenih uvjeta. Važnost dobro definiranog istraživačkog pitanja ili hipoteze je u tome što se na taj način osigurava razvoj preciznih jedinica proučavanja.
+
+*2. Definiranje univerzuma*
+
+Definiranje univerzuma, prema Wimmeru i Dominicku (2010: 160-161) uključuje određivanje granica tijela sadržaja koje treba uzeti u obzir. Primjerice, ako se želi analizirati 50 najbolje ocjenjenih SF filmova na IMDB web stranici, potrebno je precizno definirati pojam SF filma. Ili, ako se žele analizirati sadržane karakteristike tjednika Lider u 2017. godini, tada će univerzum definirati kao svi brojevi tjednika Lider iz 2017.
+
+Wimmer i Dominick (2010: 161) navode da se za određivanje univerzuma sadržaja koji će se analizirati obično koriste dvije dimenzije – *područje teme* i *vremensko razdoblje*. Tematsko područje treba biti logički konzistentno s istraživačkim pitanjem i povezano s ciljevima istraživanja, a vremensko razdoblje koje obuhvaća izabrani sadržaj treba biti dovoljno dugo, tako da fenomen koji se istražuje ima dovoljno vremena da se dogodi.
+
+*3. Izbor odgovarajućeg uzorka iz populacije*
+
+Nakon što je univerzum definiran, slijedi izbor uzorka. Većina analiza sadržaja u masovnim medijima uključuje višeetapno uzorkovanje (Wimmer i Dominick, 2010: 162). Ovaj proces se uglavnom sastoji od dvije faze. Prva faza obično uključuje izbor uzorka izvora sadržaja. Npr. analizirati će se pisanje tjednika Globus o razlozima financijskog sloma poduzeća Agrokor. Druga faza je izbor datuma kada je objavljen sadržaja koji se planira analizirati. Npr. analizirat će svi neparni brojevi časopisa Globus u 2017 i 2018. godini U mnogim istraživanjima, vremenski period kojeg obuhvaća analiza određen je ciljem projekta. Potrebno je napomenuti da odluka o veličini uzorka ovisi o istim ili sličnim faktorima kao i u slučaju ankete. Dakle, veći uzorak je potreban ako se želi postići veća pouzdanost u zaključivanju i ako se procjenjuje da su obilježja sadržaja koje koji će biti podvrgnuta analizi varijabilna. Također, veći uzorak je potreban i ukoliko se analizom žele uspostavljati i neki unutarnji odnose između podataka – npr. usporediti pisanje Globusa o krizi u Agrokoru u 2017. u odnosu na 2018.
+
+*4. Izbor i definiranje jedinice analize*
+
+Ovaj korak u analizi sadržaja može se poistovjetiti s onim što Riffe, Lacy i Fico (2005) nazivaju **definiranje jedinica proučavanja.** One se mogu podijeliti na *jedinice analize* i *jedinice sadržaja*.
+
+**Jedinice analize** odnose se na sadržajne cjeline koje se obuhvaćaju analizom. Primjerice, jedinca analize može biti novinski komentar, kolumna, večernja centralna informativna emisije, promotivna poruka na Internetu, promotivna poruka na radiju. Jedinice analize neki autori nazivaju i jedinicama uzorkovanja. Riffe, Lacy i Fico (2005) jedinice uzorkovanja definiraju kao *dijelove sadržaja koji će biti izabrani za proučavanje u odnosu na cijeli sadržaj*.
+
+Primjerice, ako bi se želio analizirati sadržaj grafita na pročeljima zgrada u Zagrebu, tada bi *pojedinačni grafit* bio određen kao jedinica analize koja će se podvrgnuti analizi.
+
+**Jedinice sadržaja** su manji dijelovi jedinica analize koje se obuhvaćaju analizom. Dakle, prilikom analize sadržaja, sadržaj koji se analizira svodi se na manje dijelove. Oni se analiziraju kako bi se došlo do zaključaka o cjelini sadržaja. Jedinice sadržaja takvi su manji dijelovi sadržaja koji se obuhvaćaju analizom. Primjerice, jedinice analize mogu biti:
+
+-   Kadar u TV spotu
+
+-   Vizual u tiskovnim oglasima
+
+-   Slogan u TV spotu
+
+-   Naslov ili podnaslov u tekstu
+
+-   Predizborni slogan
+
+U slučaju analize sadržaja grafita na pročeljima zagrebačkih zgrada moglo bi se odrediti nekoliko jedinica sadržaja koje će biti podvrgnute analizi. Npr., pojedine jedince sadržaja mogle bi se odrediti na sljedeći način: *broj riječi, vrsta grafita, tema grafita, položaj grafita, je li grafit reakcija na neki događaj itd.*
+
+*5. Konstruiranje kategorija sadržaja – kodova*
+
+Kategorije sadržaja najjednostavnije se mogu definirati kao obilježja jedinice sadržaja koja se zamjećuju, tj. obilježja koja se kroz sustav kodiranja kategoriziraju. Kodiranje podrazumijeva proces prevođenja sirovih podataka (npr. teksta) u unaprijed određene kategorije značenja ili kategorije nekih obilježja. Postoje dva načina uspostavljanja kategorija sadržaja koji će se analizirati. To su *a-priorno* kodiranje i *izranjajuće* kodiranje. A priori kodiranjem određuju se kategorije koje će se analizirati prije nego što se uđe u ikakvu analizu, tj. prije nego što se podaci prikupljaju. Obično se određuju na temelju neke teorijskog koncepta (Wimmer i Dominick, 2010: 166).
+
+Izranjajućim kodiranjem kategorije se uspostavljaju nakon preliminarnog istraživanja. Dakle, kreće se u preliminarnu analizu, analiziraju se podaci, a na temelju toga izranjaju kategorije koje se analiziraju u istraživanju koje slijedi (Wimmer i Dominick, 2010: 165).
+
+Naveli smo da bi u slučaju analize grafita na pročeljima zagrebačkih zgrada (jedinica analize) jedna od jedinica sadržaja mogla biti *tema grafita*. Moguće kategorije ove jedinice sadržaja mogle bi se odrediti na sljedeći način:
+
+1.  Glazba
+
+2.  Sport
+
+3.  Društvena zbivanja
+
+4.  Politika
+
+5.  Osobna poruka
+
+6.  Teritorijalna pripadnost
+
+Prema tome ova jedinica sadržaja – tema grafita – prilikom analize kodirati će se posredstvom navedenih šest kategorija, tj. svakom analiziranom grafitu dodijeliti će se jedna od navedenih šest vrijednosti.
+
+Kako bi sustav kodiranja bio precizan, sve kategorije sadržaja međusobno bi trebale biti isključive, iscrpne i pouzdane (Wimmer i Dominick, 2010: 166). Sustav kategorija sadržaja je međusobno isključiv ako se neka kategorija sadržaja, tj. neko obilježje sadržaja može smjestiti u jednu i samo jednu kategoriju. Ako se otkriju obilježja sadržaja koja se ne mogu smjestit u samo jednu kategoriju, oni se mogu staviti u kategoriju s oznakom "drugo" ili "ostalo". Ako previše stavki spada u ovu kategoriju, Wimmer i Dominick napominju da se treba preispitati izvorne definicije kategorija. Istraživanje s 10% ili više sadržaja smještenog u kategoriju „ostalo" vjerojatno je previdjelo neke relevantne karakteristike sadržaja.
+
+*6. Uspostavljanje sustava kvantifikacije*
+
+Kvantifikacija u analizi sadržaja obično uključuje nominalno, intervalno i omjerno mjerenje obilježja sadržaja koji se analizira (Wimmer i Dominick, 2010: 167).
+
+Na nominalnoj razini, analitičari jednostavno broje učestalost pojave pojedine kategorije sadržaja, tj. broje frekventnost pojavljivanja pojedinih kodova. Taj proces može se opisati riječima „pojavilo se ili se nije pojavilo". Npr. bilježi se da li je neka osobina koja je od interesa istraživača prisutna u tekstu. Na intervalnoj razini moguće je razviti ljestvice koje analitičari koriste za kako bi po nekom kriteriju ocijenili neko svojstvo analiziranog sadržaja. Bitno je napomenuti da upotreba intervalnih ljestvica u analizi sadržaja uvijek podrazumijeva subjektivnu procjenu istraživača o onom aspektu sadržaja koji se na taj način procjenjuje. Stoga, ukoliko se ne obavi trening i priprema analitičara, korištenje ovih ljestvica može utjecati na pouzdanost istraživanja.
+
+Omjerna mjerenja u analizi sadržaja općenito se primjenjuju na prostor i vrijeme koje zauzima određeni medijski sadržaj ili jedinica analize. U slučaju primjera analize sadržaja tjednika Globus na temu financijske krize u Agrokoru, omjerno mjerenje bi podrazumijevalo brojanje slova ili riječi u svakom članku kako bi se utvrdila prosječna veličina članaka koji se bave ovom tematikom.
+
+*7. Uvježbavanje analitičara i provođenje pilot istraživanja*
+
+Kao što smo naveli, klasificiranje obilježja pojedinih jedinica analize u kategorije sadržaja naziva se kodiranje. Proces kodiranja provede utrenirani i pripremljeni koderi. U jednom istraživačkom projektu koji se provodi analizom sadržaja obično sudjeluje veći broj kodera. Time se želi osigurati veća razina pouzdanosti i objektivnosti u analizi.
+
+Proces kodiranja obično počinje sa pilot istraživanjem. Pilot istraživanjem, ili pilot analizom, želi se provjeriti pouzdanost kodera (Wimmer i Dominick, 2010: 168). Ona se provodi kako bi se ujednačio postupak kodiranja od strane većeg broja kodera.
+
+*8. Kodiranje sadržaja*
+
+Kodiranje se provodi posredstvom analitičke matrice koja omogućuju koderima da klasificiraju sadržaj tj. da ga kodiraju. Ona predstavlja standardizirani obrazac u kojima je predočena struktura kodova. Zadnjih godina razvijeni su i brojni računalni programi koji omogućuju računalno kodiranje.
+
+*9. Analiziranje prikupljenih podataka*
+
+Budući da je analiza sadržaja kvantitativna metoda istraživanja, u obradi podatka analitičari se služe uobičajenim statističkim procedurama. Na razini deskriptivne analize obavlja se analiza frekvencija. Također, u slučaju nominalnih varijabli, analitičari često koriste i hi-kvadrat test. U slučaju podataka koji su prikupljeni mjerenjem na intervalnim ili omjernim varijablama mogu se koristiti i parametrijske statističke procedure kao što su t-test, analiza varijance ili računanje Pearsonovog koeficijenta korelacije.
+
+*10. Interpretacija podataka*
+
+Zadnji korak u analizi sadržaja je interpretacija podataka. Način interpretacije ovisi o ciljevima istraživanja i o načinu na koji su varijable definirane. Ukoliko je cilj istraživanja samo deskriptivne prirode, tada se istraživači mogu zaustaviti na frekvencijskoj analizi. Ukoliko se u istraživanje kreće od točno definiranih hipoteza, interpretacija podataka ići će u smjeru njihovog testiranja (prihvaćanja, odbacivanja ili modificiranja).
+
+**Analitička matrica**
+
+Analitička matrica ili protokol za analizu sadržaja u istraživanjima metodom analize sadržaja ima funkciju mjernog instrumenta. U suštini, ona je obrazac posredstvom kojeg se „čita", tj. kodira neki medijski sadržaj. Stoga analitička matrica predstavlja osnovni alat za utvrđivanje obilježja nekog sadržaja, tj. za njegovu kategorizaciju. Ono što je u metodi ankete anketi upitnik, to je u metodi analize sadržaja matrica za analizu sadržaja. Zbog toga je izrada analitičke matrice jedno od središnjih mjesta pripremi analize sadržaja.
+
+Matrica za analizu sadržaja sastoji se od niza analitičkih čestica koje upućuju na mogućnosti kodiranja pojedinih jedinica sadržaja. Dakle, svaka analitička čestica podrazumijeva neku mogućnost kategorizacije obilježja pojedine jedinice sadržaja. Primjerice, kada bismo analizom sadržaja analizirali poruke koje se pojavljuju u grafitima na pročeljima gradskih ulica, između ostalog mogli bismo analizirati i mjesta na kojima se grafiti nalaze. U tom slučaju analitička čestica koja bi služila za kategorizaciju grafita s obzirom na ovaj kriterij, u analitičkoj matrici bi mogla imati sljedeću formu:
+
+*Mjesto na kojem se nalazi grafit:*
+
+1.  Zid stambene zgrade
+
+2.  Pothodnik
+
+3.  Škola ili neka druga obrazovna institucija
+
+4.  Autobusna ili tramvajska stanica
+
+5.  Javna ustanova
+
+6.  Negdje drugdje
+
+Dakle, po svojoj strukturi analitičke čestice slične su zatvorenim pitanjima u anketi. Primjerice, u analizi televizijskih spotova stranaka u predizbornim kampanjama u Hrvatskoj 1995. i 1997. Lalić i Kunac (1999) navode da se korištena matrica za analizu sadržaja sastojala od dvije grupe analitičkih čestica. Prvo, to su one temeljem kojih je obavljena tzv. kvantitativna analiza. Čestice kvantitativne analize bile su datum emitiranja spota, program na kojemu je spot emitiran, vremenska lokacija emitiranja spota, trajanje spota, naznačivanje političke stranke čiji je političko-propagandni spot emitiran (radi jednostavnijeg protokoliranja podataka spotovi su označeni brojevima i to prema datumima pojavljivanja). Nasuprot toga, čestice sadržajne analize bile su: osobe (vizualna razina spota) ostali vizualni označitelji (vizualna razina) slogan (pisana i zvučna razina) tema (vizualna, zvučna i pisana razina).
+
+**Primjer analitičke matrice:** Analiza sadržaja grafita u gradu Zagrebu.
+
+**Jedinica analize:** pojedinačni grafit.
+
+**M1. Lokacija grafita:**
+
+**M2. Mjesto na kojem se nalazi grafit**
+
+7.  Zid stambene zgrade
+
+8.  Pothodnik
+
+9.  Škola ili neka druga obrazovna institucija
+
+10. Autobusna ili tramvajska stanica
+
+11. Javna ustanova
+
+12. Drugo
+
+**M3. Da li je grafit vidljiv sa ulice ili neke druge prometnice:**
+
+1.  Da
+
+2.  Ne
+
+**M4. Kolika je udaljenost grafita od tla:**
+
+1.  Do dva metra
+
+2.  Do četiri metra
+
+3.  Preko četiri metra
+
+**M5. Da li se grafit javlja u grupi, zajedno s drugim natpisima:**
+
+1.  Javlja se u grupi zajedno s grafitima istog tipa
+
+2.  Javlja se u grupi zajedno sa grafitima različite vrste
+
+3.  Javlja se na mjestu gdje nema grafita
+
+**M6. Da li je autor grafita izričito određen:**
+
+1.  Jasno je potpisan
+
+2.  Autor se može odrediti tek posredno
+
+3.  Autor grafita se uopće ne može odrediti
+
+**M7 Koliko riječi sadrži grafit:**
+
+**M8. Kojom bojom / bojama je napisan grafit:**
+
+**M9. Tip grafita:**
+
+1.  Subkulturni
+
+2.  Klasični – osobna poruka ili stav
+
+3.  Teritorijalni
+
+4.  Likovni
+
+**M10. Tema grafita:**
+
+1.  Glazba
+
+2.  Sport
+
+3.  Društveno zbivanje / pojava
+
+4.  Politika
+
+5.  Osobna poruka
+
+6.  Teritorijalna pripadnost
+
+**M11. Prostorna dimenzija sadržaja:**
+
+1.  Ne može se odrediti
+
+2.  Lokalna
+
+3.  Gradska
+
+4.  Odnosi se na čitavu zemlju
+
+5.  Globalna
+
+**M12. Kakva je vremenska dimenzija sadržaja grafita:**
+
+1.  Grafit se odnosi na događaj koji se zbio u prošlosti
+
+2.  Grafit se odnosi na događaj koji se nedavno desio
+
+3.  Grafit se odnosi na budući događaj
+
+4.  Ne može se odrediti
+
+**M13. Da li je sadržaj grafita reakcija na nekakav konkretan događaj ili pojavu?**
+
+1.  Da 2. Ne
+
+**M14. Da li je poruka koju sadrži grafit nekome upućena:**
+
+1.  Da, onaj kome je upućena izričito se spominje:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+2.  Da, ali samo se implicitnom može odrediti kome:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+3.  Ne može se odrediti kome je poruka upućena
+
+**Pouzdanost analize sadržaja**
+
+Pouzdanost je jedan o krucijalnih zahtjeva analize sadržaja. Ako analiza sadržaja želi biti objektivna, korištene mjere i procedure trebaju biti pouzdane. Generalno, znanstveno istraživanje je pouzdano kada ponovljeno mjerenje istog materija rezultira istim ili vrlo sličnim zaključcima.
+
+Pouzdanost u analizi sadržaja osigurava se na nekoliko načina. Prvo, ukoliko je moguće koristi se veći broj kodera. Drugo, koderi se uvježbavaju kako bi što uspješnije na jednak način kodirali identičan sadržaj. Treće, provodi se pilot istraživanje kako bi se uočili problemi u kodiranju. I četvrto, nakon provedenog procesa kodiranja utvrđuje se tzv. *interkoderska pouzdanost*. Ona se odnosi na razinu suglasnosti između međusobno nezavisnih kodera koji kodiraju isti materijal posredstvom identične analitičke matrice. Ukoliko je interkoderska pouzdanost niska, to znači da postoji pogreška u kodiranju; bilo u radu kodera, u instrukcijama za kodiranja, u definiciji kategorija ili u jedinicama analize (Wimmer i Dominick, 2010).
+
+Interkoderska pouzdanost može se utvrditi posredstvom nekoliko metoda.
+
+Holsti (1969) određuje interkodersku pouzdanost na sljedeći način:
+
+**Pouzdanost** = 2 M / N1+N2
+
+**M**=broj koderskih odluka oko kojih postoji suglasnost kodera
+
+**N1 i N2** = ukupan broj koderskih odluka prvog i drugog kodera
+
+Primjerice ako dva koder procjenjuju poduzorak od 50 jedinica i slažu se s 35 njih tada je izračunata vrijednost sljedeća:
+
+**Pouzdanost** = 2 * 35 / 50+50 = 75/100 = 0,75
+
+Drugi mogući način računanja intekoderske pouzdanosti je računanje tzv. **Scottovog *pi***
+
+**Scott *pi*** se računa po sljedećoj formuli
+
+**Scott *pi*** = % empirijskog (uočenog) slaganja – % očekivanog slaganja / 1 – % očekivanog slaganja
+
+Primjerice, pretpostavimo da dva kodera procjenjuju neki oglas u magazinu temeljem pet kategorija te da je dobivena sljedeća matrica slaganja nakon što su kodirali 100 oglasa.
+
+|  | **Koder A** |  |  |  |  |  | Rubne frekvencije total |
+|---|---|---|---|---|---|---|---|
+| **Koder B** | ***Kategorija*** | ***1*** | ***2*** | ***3*** | ***4*** | ***5*** |  |
+|  | ***1*** | 42 | 2 | 1 | 3 | 0 | *48* |
+|  | ***2*** | 1 | 12 | 2 | 0 | 0 | *15* |
+|  | ***3*** | 0 | 0 | 10 | 0 | 2 | *12* |
+|  | ***4*** | 0 | 2 | 1 | 8 | 1 | *12* |
+|  | ***5*** | 2 | 0 | 1 | 2 | 8 | *13* |
+|  | Rubne frekvencije (total) | *45* | *16* | *15* | *13* | *11* | **100** |
+
+Postotak **uočenog slaganja** može se izračunati sumiranjem vrijednosti u dijagonali matrice (broj slučajeva oko kojih se koderi slažu). U ovom primjeru to je 42 + 12 +10 + 8 + 8 = 80. Kada se to podjeli s N (100) dobije se proporcija, tj. vrijednost 0,80.
+
+Postotak **očekivanog slaganja** može se izračunati na sljedeći način:
+
+| ***Kategorija*** | ***Rubna frek. – koder A*** | ***Rubna frek. – koder B*** | ***Suma rubnih frek. (koder A + B)*** | ***Zajedničke proporcije rubnih frek.*** |
+|---|---|---|---|---|
+| ***1*** | 45 | 48 | 93 | 93/200 = 0,465 |
+| ***2*** | 16 | 15 | 31 | 31/200 = 0,155 |
+| ***3*** | 15 | 12 | 27 | 27/200 = 0,135 |
+| ***4*** | 13 | 12 | 25 | 25/200 = 0,125 |
+| ***5*** | 11 | 13 | 24 | 24 /200 = 0,120 |
+| **Total** | 100 | 100 | 200 | 1.00 |
+
+Sada se može izračunati postotak očekivanog slaganja na način da se kvadriraju proporcije u koloni *zajedničke proporcije rubnih frekvencija.*
+
+(0,465)² + (0,155)² + (0,135)² + (0,125)² + (0,120)² = 0,288.
+
+Shodno tome **Scott** ***pi*** iznosi:
+
+0,80-0,288/1-0,288 = **0,719**
+
+Jedan od indikatora interkoderske pouzdanosti je i **Cohen Kappa**. I on ukazuje na stupanj slaganja između dva različita kodera u slučaju kategorijalnih varijabli. Budući da je ručno računanje ovog indikatora nešto je kompleksnije on se obično računa u okviru računalnih statističkih programa (npr. moguće ga je izračunati u SPSS-u).
+
+Kada je riječ o interkoderskoj pouzdanosti u slučaju intervalnih ili omjernih varijabli, kao indikator pouzdanosti može se koristiti i koeficijent Pearsonove korelacije. Primjerice, ukoliko je korelacija veća od 0.8 intekoderska pouzdanost može se uzeti kao zadovoljavajuća.
+
+**Dva primjera tradicionalne analize sadržaja**
+
+U članku *What Newspapers Reported? Content Analysis of Newspaper Headlines (January – June 2011)* Elezović (2012) prezentira rezultate analize sadržaja šest hrvatskih dnevnih novina. Cilj istraživanja bio je usporediti osnovne karakteristike novina, to jest utvrditi njihove specifičnosti i različitosti u analiziranom periodu. Istraživanje se zasnivalo na nekoliko hipoteza. Primjerice, u istraživanje se krenulo od pretpostavki da su najzastupljenije teme iz područja pravosuđe, sudstva i kriminala, da su sportske teme zastupljenije tema s područja kulture i obrazovanje te da na naslovnicama prevladavaju osobe iz političkog miljea.
+
+Analizirane su sljedeće dnevne novine: Jutarnji list, Večernji list, 24 sata, Vjesnik, Slobodna Dalmacija i Novi list. Istraživanjem je obuhvaćeno prvih 6 mjeseci 2011. godine. Analizirano je ukupno 4277 naslova. Kao jedinice analize određeni su novinski naslovi. Analitička matrica je sadržavala 16 klasifikacijskih kategorija. Izdvojeni podaci su: izvor naslovnice, tema zastupljena u naslovu, opremljenost naslova, veličina i razina naslova, pristup naslovu, osobe najzastupljenije u naslovu, institucije najzastupljenije u naslovu, oglašivači najzastupljeniji u naslovima i prikriveno oglašavanje.
+
+Sukladno početnoj hipotezi, najveći broj naslovnica odnosio se na temu *pravosuđe, sudstvo i kriminal*. Na drugom mjestu pojavljivale su se naslovnice s temom *gospodarstva i financija*. Naslovi s područja *sporta* bili su zastupljeniji su od naslova s područja *kulture i umjetnosti i odgoja i obrazovanja*. Nadalje, u 4277 naslova pojavilo se 2819 ključnih osoba od kojih su 80% muškarci, a 20% žene. Najspominjanija osoba bila je tadašnja premijerka Jadranka Kosor, dok je drugi bio bivši predsjednik Vlade Ivo Sanader. Naslovi su prema pristupu podijeljeni na nacionalne, lokalne, osobne, općenite i globalne. Najčešći su oni na nacionalnoj razini dok su drugi lokalni, a treći globalni. Isto tako analiziran je i pristup obradi teme. Određena su tri moguća pristupa obradi teme u naslovima: negativan, neutralan i pozitivan (82.3%, negativan, 16.5% neutralan, 1.1% pozitivan). Istraživanjem je utvrđeno da naslovi najčešće zauzimaju 1/8 stranice.
+
+Viktorija Car, Karolina Leaković, Anja Stević i Jelena Stipović provele su medijsko istraživanje pod nazivom *Žene i muškarci u televizijskim vijestima: glasovi nejednake vrijednosti* (2017). Proučavale su rodnu reprezentaciju u središnjim informativnim emisijama HTV-a, Nove TV i RTL-a. Glavni cilj istraživanja bio je utvrditi postoji li korelacija između autorstva i zastupljenosti žena i muškaraca u vijestima – „tko i o kome izvještava, koga se (re)prezentira, čiji se glasovi čuju", i naposljetku, „je li i u kojoj mjeri televizijski posredovana slika svijeta rodno označena?"
+
+Istraživanje je provođeno u razdoblju od pet godina (2009.-2013.), a obuhvaćalo je 36 varijabli podijeljenih u 10 cjelina: "tehnički podaci o vijestima; uredništvo televizijskih vijesti; voditelji/ice vijesti; autorstvo vijesti; nositelji/ice vijesti; izvori informacija; rodno osjetljivo potpisivanje autora/ ica vijesti, nositelja/ica vijesti te izvora informacija; novinarske vrste i teme vijesti; glavne najave te rodni stereotipi u vijestima".
+
+Postavljene su dvije glavne i tri pomoćne hipoteze. Prva glavna hipoteza je tvrdila da žene, u usporedbi s muškarcima, više sudjeluju u proizvodnji vijesti, i kao urednice i kao novinarke. Druga glavna hipoteza je tvrdila da se muškarci preferiraju kao vjerodostojniji izvor informacija od žena.
+
+Istraživanje je provedeno na probabilističkom uzorak od 180 središnjih informativnih emisija emitiranih na tri nacionalne televizije u razdoblju od 5 godina. Jedinica analize bila je "pojedinačna vijest (televizijski prilog s pripadajućom studijskom najavom), novinarski pripremljena i montirana, ne preuzeta kao cjelina od neke druge televizijske kuće ili agencije." Ukupno je analizirano 3148 vijesti (939 emitirano u emisiji Dnevnik HTV-a, 1228 u emisiji Dnevnik Nove TV, a 981 vijest u emisiji Vijesti RTL-a).
+
+Neki od najvažnijih rezultata istraživanja su:
+
+1.  Postoji ravnomjerna zastupljenost žena i muškaraca na uredničkim pozicijama:
+
+Od 180 analiziranih emisija, žene su ih uredile 69, muškarci 71, dok su ih zajedno uredili 40. Stoga autorice zaključuju da je zastupljenost žena i muškaraca na uredničkim pozicijama ravnomjerna.
+
+2.  Muškarci su vidljiviji od žena kao voditelji središnjih informativnih emisija:
+
+Dnevnik Nove TV uvijek vodi voditeljski par, na HTV-u i RTL-u muškarci su vodili 73 emisije, a žene 47. Također, primijećeno je kako vijesti RTL-a radnim danom uvijek vodi muškarac, a vikendom žena.
+
+3.  Žene su radnice – one pripremaju vijesti, muškarci su lice – pojavljuju se pred kamerom:
+
+Ovim rezultatom su autorice zaključile kako većinu posla u redakcijama obavljaju žene. Naime, od 3148 analiziranih vijesti, žene su autorice 1341 vijesti, a muškarci 752 vijesti. Također, pokazala se statistički značajna razlika u javljanju uživo u odnosu na pojedine televizijske kuće, pa su tako muškarci najvidljiviji na Novoj TV.
+
+4.  Žene su autorice najvažnijih vijesti središnjih informativnih emisija.
+
+Od ukupno analiziranih 3148 vijesti, 732 vijesti su bile najavljene na početku emisije, što znači da ih urednici smatraju najvažnijima. Od tih 732, žene su autorice 424 vijesti, a muškarci 243. Dakle, zaključuju autorice, žene potpisuju većinu najvažnijih vijesti dana.
+
+5.  Politika i političari i dalje su glavna tema i glavni junaci u vijestima.
+
+Autorice zaključuju kako ovaj rezultat nije iznenađujući, s obzirom na to da je većina glavnih vijesti iz politike i kriminala, a u oba slučaja dominiraju muškarci.
+
+## Analiza sadržaja u digitalnom medijskom okružju

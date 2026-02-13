@@ -1,0 +1,121 @@
+---
+title: "Mješovita metodologija"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+lang: hr
+---
+
+# Uvod u mješovitu metodologiju
+
+Kvalitativne i kvantitativne metode razlikuju se po svojim spoznajno-teorijskim ishodištima. Zbog toga svaka od ove dvije vrste metoda posjeduje spoznajne specifičnosti, ali i specifična spoznajna ograničenja. Primjerice, kvalitativne metode istraživanja ograničenog su dometa u pogledu mogućnosti uspostavljanja kauzalnih odnosa među varijablama, dok kvantitativnim metodama nedostaje mogućnost pobližeg razumijevanja motiva i iskustva socijalnih aktera. Mejovšek (2013) navodi da se nedostaci kvantitativnog pristupa odnose se na nemogućnost obuhvaćanja konteksta, kao i nemogućnost dovoljno "dubokog" obuhvaćanja svega onog što je potrebno za potpuno razumijevanje socijalne interakcije, dok su glavne poteškoće i problemi s kvalitativnim istraživanjima pitanje vjerodostojnosti i dosljednosti podataka, pitanje objektivnosti zaključaka te generalizacije rezultata istraživanja.
+
+U pokušajima da se iskoriste njihove prednosti te neutraliziraju njihova ograničenja, istraživači sve češće kombiniraju, odnosno "miješaju" kvalitativne i kvantitativne metode u istraživanjima (Sekol i Maurović, 2017). To čine stoga kako bi ukupna spoznajna snaga istraživanja bila veća od pojedinačnog kvalitativnog ili kvantitativnog istraživanja (Creswell, 2009: 4).
+
+Primjerice analizirajući članke koji su se bavili problematikom društvenih medija, Chareen L. Snelson (2016) zaključila je da se u periodu između 2007 i 2013 od ukupno 229 "kvalitativnih" studija u njih 55 koristila se kombinacija kvalitativnih i kvantitativnih metoda istraživanja. Pri tom su se u takvim studijama najčešće koristile različite kombinacije koje su uključivale metodu intervjua i/ili ankete i/ili grupnih diskusija. Korištenje različitih metoda istraživanja, najčešće kombinacija kvalitativnih i kvalitativnih metoda istraživanja unutar jednog istraživačkog projekta, opisuje suštinu sintagmi kao što su *mješovita metodologija*, *mješoviti pristup* ili *miješane metode*.
+
+
+# Definicija mješovitog pristupa
+
+Objašnjavajući suštinu ovakvog metodskog pristupa Sekol i Maurović (2017) prenose tumačenje Creswella i Clarka (2007) koji naglašavaju kako se na *mješoviti pristup* može gledati i kao na miješanje metoda, ali i metodologija. Oni navode da je istraživanje mješovitog pristupa tip istraživanja koje ima svoje filozofske postavke i metode istraživanja. Kao metodologija, ono uključuje filozofske postavke koje određuju način prikupljanja, analize i miješanje kvalitativnog i kvantitativnog pristupa u mnogim fazama istraživačkog procesa. Kao metoda, ovaj tip istraživanja, usmjeren je na prikupljanje, analiziranje i miješanje kvantitativnih i kvalitativnih podataka u pojedinom istraživanju ili seriji istraživanja.
+
+
+# Spoznajne koristi mješovitog pristupa
+
+Konkretne spoznajne koristi koje se mogu polučiti korištenjem *mješovitog pristupa* su brojne. Primjerice, korištenjem kvantitativnih metoda istraživanja mogu se pokušati generalizirati nalazi do koji se došlo korištenjem kvalitativnih metoda istraživanja. Korištenje kvantitativnih metoda istraživanja može se pobliže detektirati određeni populacijski segment ili društvena grupa koja se zatim želi podrobnije istražiti posredstvom kvalitativnih metoda istraživanja. (Hesse-Bieber, 2010). Kvalitativne metode često se koriste kako bi se i dodatno objasnili najvažniji nalazi prikupljeni istraživanjem posredstvom kvantitativnih metoda istraživanja ili kako bi se razriješila moguća proturječja u nalazima kvantitativnih istraživanja (Hesse-Bieber, 2010).
+
+Primjerice, komunikacijski pre-testovi u tržišnim istraživanjima često se provode na način da se različite ideje komunikacijskih poruka u prvom koraku testiraju metodom ankete na uzorku od 50 do 100 ispitanika. Sudionicima istraživanja prezentiraju se različite inačice komunikacijskih poruka, a oni ih evaluiraju putem klasičnog anketnog upitnika ili posredstvom tzv. *responsemetera* — uređaja za elektroničko mjerenje stavova. Podaci se obrađuju odmah nakon što je anketno istraživanje gotovo, a zatim se između sudionika istraživanja izabire određeni broj njih (npr. pet do deset) koji se uključuju u grupnu diskusiju čiji je cilj doći do boljeg razumijevanja podataka prikupljenih kvantitativnim istraživanjem. Dakle, s izabranim sudionicima anketnog istraživanja u drugom koraku provode se fokus grupe kako bi se iscrpnije raspravili njihovi odgovori u anketi. Npr. raspravlja se o tome zašto su na određeni način validirali pojedinu od testiranih inačica komunikacijske poruke, traži se da svojim riječima opišu što im se sviđa u poruci, što je razumljivo, što je nerazumljivo itd.
+
+Vrlo često mješoviti pristup podrazumijeva korištenje kvalitativnih metoda istraživanja sa svrhom boljeg profiliranja ciljeva kvantitativnog istraživanja ili preciznijeg određenja hipoteza koje će se testirati kvantitativnim istraživanjem. U tom kontekstu kvalitativne metode se koriste u tzv. eksplorativnoj istraživačkoj fazi. Njima se "ulazi u problematiku" kako bi se preciznije fokusiralo kvantitativno istraživanje. Dakle, suština mješovitog pristupa je u tome da se posredstvom različitih metoda (tzv. triangulacije metoda) pokrije veći broj perspektiva fenomena koji se istražuje te da se na taj način dođe do iscrpnijih spoznaja o predmetu istraživanja.
+
+
+# Vrste nacrta mješovitog istraživačkog pristupa
+
+Nekoliko je mogućih vrsta nacrta mješovitog istraživačkog pristupa, a razlikuju prema sljedećem (Sekol i Maurović, 2017):
+
+- kojem metodološkom pristupu (kvantitativnom ili kvalitativnom) daju prioritet;
+- implementaciji, odnosno redoslijedu kojim slijede pristupi;
+- fazi u kojoj se podaci integriraju.
+
+
+## Prioritet metodološkog pristupa
+
+S obzirom na prioritet koji se daje jednom tipu istraživanja, mješoviti pristup može se odnositi na:
+
+**Nacrt s jednakim statusom**
+: Uloga kvalitativnog i kvantitativnog pristupa u istraživanju je jednako važna.
+
+**Nacrt s različitim statusom**
+: Istraživanje je dominantno kvalitativno ili kvantitativno, a drugi pristup ga samo nadopunjuje.
+
+
+## Implementacija i vrijeme provođenja
+
+S obzirom na implementaciju, odnosno vrijeme provođenja kvantitativnog i kvalitativnog dijela, mješovita istraživanja mogu biti:
+
+**Sekvencijalna**
+: Istraživanje se prvo provede uz pomoć jednog pristupa, a potom drugog.
+
+**Paralelna/simultana**
+: Kvalitativno i kvantitativno istraživanje provode se u isto vrijeme (Sekol i Maurović, 2017).
+
+
+# Klasifikacija mješovitih nacrta
+
+Kombinacijom navedenih obilježja, Creswell i Plano Clark (2007, prema Sekol i Maurović 2017) predložili su sljedeće četiri vrste klasifikacije mješovitog nacrta:
+
+## Konvergentno paralelni nacrt
+
+Vrsta istraživanja u kojem oba pristupa imaju jednaku važnost te se odvijaju u isto vrijeme, neovisno jedno o drugome. Pristupi se miješaju u vrijeme interpretacije podataka. Ovaj tip nacrta koristan je za validaciju podataka (prilikom usporedbe rezultata jednog i drugog pristupa) te ilustriranje kvantitativnih rezultata kvalitativnim opisima, odnosno za sveobuhvatnije razumijevanje pojave koja se istražuje.
+
+## Eksplanatorni sekvencijalni nacrt
+
+Podaci se prikupljaju prvo kvantitativnim, a potom kvalitativnim metodama. Ovaj pristup može se koristiti kako bi se uz pomoć kvalitativnih podataka razumjeli kvantitativni. Također, kvantitativni podaci mogu služiti za odabir uzorka za kvalitativno istraživanje.
+
+## Eksplorativni sekvencijalni nacrt
+
+Podrazumijeva prvo upotrebu kvalitativnog, a potom kvantitativnog istraživačkog pristupa. Upotrebljava se kako bi istraživač, provodeći drugo, kvantitativno istraživanje, generalizirao rezultate kvalitativnog istraživanja. Ovaj pristup često se koristi prilikom razvijanja i testiranja mjernih instrumenata. Jednako tako, ovaj tip nacrta može pomoći u rasvjetljavanju neke nepoznate pojave, kao i u kvantificiranju njenih varijabli.
+
+## Ugrađeni mješoviti nacrt
+
+Istraživanje se temelji na jednom od tradicionalnih pristupa, a drugi pristup je ugrađen unutar dominantnog pristupa. Svrha prikupljanja kvantitativnih i kvalitativnih podataka nije u njihovom uspoređivanju, već u adresiranju različitih aspekata istraživanja. Ovaj nacrt prikladan je slučajevima u kojima istraživač ima različita istraživačka pitanja koja zahtijevaju različite vrste podataka.
+
+@tbl-nacrti prikazuje pregled četiri vrste mješovitih nacrta.
+
+| Vrsta nacrta | Redoslijed | Status pristupa | Svrha |
+|:-------------|:-----------|:----------------|:------|
+| Konvergentno paralelni | Istovremeno | Jednak | Validacija, sveobuhvatno razumijevanje |
+| Eksplanatorni sekvencijalni | KVAN → KVAL | Kvantitativni dominira | Razumijevanje kvantitativnih nalaza |
+| Eksplorativni sekvencijalni | KVAL → KVAN | Kvalitativni dominira | Generalizacija, razvoj instrumenata |
+| Ugrađeni mješoviti | Fleksibilno | Jedan dominira | Adresiranje različitih aspekata |
+
+: Pregled četiri vrste mješovitih istraživačkih nacrta {#tbl-nacrti}
+
+
+# Zaključak
+
+Koncept kombiniranja različitih metoda istraživanja naglašava da pristranosti koje su svojstvene pojedinoj metodi mogle biti neutralizirane ili poništene uslijed kombiniranja s drugim metodama. Ova ideje proširila se od jednostavnog traženja podudarnosti prema stvarnoj integraciji i povezivanju kvantitativnih i kvalitativnih podataka.
+
+Primjerice, rezultati jedne metode mogu pomoći u odabiru sudionika za drugu metodu ili u oblikovanju istraživačkih pitanja koja će se postaviti (Tashakkori & Teddlie, 1998). Alternativno, kvalitativni i kvantitativni podaci mogu se objediniti u jednu veliku bazu podataka ili se rezultati mogu koristiti paralelno kako bi se međusobno poduprli (npr. kvalitativni citati koji potkrepljuju statističke rezultate; Creswell & Plano Clark, 2007).
+
+Navedeni benefiti koji proizlaze iz kombiniranja metoda istraživanja potaknuli su autore diljem svijeta na njihovu sve učestaliju primjenu kao i na razvoj postupaka primjene kombiniranih metoda istraživanja.
+
+
+# Literatura {.unnumbered}
+
+Creswell, J. W. (2009). *Research design: Qualitative, quantitative, and mixed methods approaches* (3rd ed.). Sage.
+
+Creswell, J. W., & Plano Clark, V. L. (2007). *Designing and conducting mixed methods research*. Sage.
+
+Hesse-Biber, S. N. (2010). *Mixed methods research: Merging theory with practice*. Guilford Press.
+
+Mejovšek, M. (2013). *Metode znanstvenog istraživanja u društvenim i humanističkim znanostima*. Naklada Slap.
+
+Sekol, I., & Maurović, I. (2017). Miješanje kvantitativnog i kvalitativnog istraživačkog pristupa u društvenim znanostima — miješanje metoda ili miješanje metodologije? *Ljetopis socijalnog rada*, 24(1), 7-32.
+
+Snelson, C. L. (2016). Qualitative and mixed methods social media research: A review of the literature. *International Journal of Qualitative Methods*, 15(1), 1-15.
+
+Tashakkori, A., & Teddlie, C. (1998). *Mixed methodology: Combining qualitative and quantitative approaches*. Sage.

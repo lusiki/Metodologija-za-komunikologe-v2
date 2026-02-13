@@ -1,0 +1,64 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Metode istraživanja masovne komunikacije"
+  subtitle: "Metodološke osnove istraživanja masovne komunikacije u komunikologiji, sociologiji i drugim društvenim znanostima"
+  author:
+    - Ivan Burić
+    - Luka Šikić
+  language: hr
+  chapters:
+    - index.qmd
+    - 00_uvod.qmd
+
+    - part: "Temelji znanstvenog istraživanja"
+      chapters:
+        - 01_znanost.qmd
+        - 02_metode.qmd
+        - 03_nacrt.qmd
+
+    - part: "Metode prikupljanja podataka"
+      chapters:
+        - 04_anketa.qmd
+        - 05_analiza_sadrzaja.qmd
+        - 06_kvalitativne.qmd
+        - 07_mjesovita.qmd
+
+    - part: "Analiza podataka"
+      chapters:
+        - 08_deskriptivna_statistika.qmd
+        - 09_statisticko_zakljucivanje.qmd
+        - 10_statisticki_testovi.qmd
+
+    - part: "Računalne metode"
+      chapters:
+        - 11_racunalna_analiza_teksta.qmd
+        - 12_analiza_mreza.qmd
+
+    - part: "Okvir i perspektive"
+      chapters:
+        - 13_etika.qmd
+        - 14_valjanost.qmd
+        - 15_racunalna_drustvena_znanost.qmd
+
+    - literatura.qmd
+
+format:
+  html:
+    theme: cosmo
+    lang: hr
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    number-depth: 3
+    code-fold: true
+    code-tools: true
+  pdf:
+    documentclass: book
+    lang: hr
+    number-sections: true
+  docx:
+    number-sections: true
+    lang: hr

@@ -1,0 +1,786 @@
+---
+title: "Računalni obrat u istraživanju komunikacije"
+subtitle: "Računalna društvena znanost i budućnost komunikologije"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+lang: hr
+---
+
+# DIO I: RAČUNALNI OBRAT U ISTRAŽIVANJU KOMUNIKACIJE
+
+## Uvod i ishodi učenja
+
+Ovo poglavlje zamišljeno je kao svojevrsno zaključno poglavlje koje nastoji integrirati metodološke pristupe predstavljene u prethodnim dijelovima ove knjige te ih smjestiti u širi kontekst suvremenih transformacija koje obilježavaju istraživanje komunikacijskih fenomena. Naime, dok su prethodna poglavlja detaljno obradila specifične metode poput analize teksta i mrežne analize, ovo poglavlje pruža paradigmatski okvir koji omogućuje razumijevanje načina na koji se te metode uklapaju u širu sliku onoga što se u suvremenoj literaturi naziva računalnom društvenom znanošću (eng. *Computational Social Science*).
+
+Shodno tome, primarna ciljna skupina kojoj je ovaj sadržaj namijenjen jesu studenti komunikologije, novinarstva i odnosa s javnošću koji se pripremaju za profesionalne karijere u kojima će analiza podataka činiti sve značajniji dio njihova strukovnog repertoara, no sadržaj je jednako relevantan i za praktičare koji već djeluju u medijskoj industriji te žele produbiti svoje razumijevanje novih analitičkih mogućnosti.
+
+Nakon proučavanja ovog poglavlja čitatelj će biti u mogućnosti ostvariti nekoliko ključnih ishoda učenja:
+
+1. Čitatelj će steći konceptualni okvir koji mu omogućuje kritičku evaluaciju istraživanja temeljenih na računalnim metodama, tj. sposobnost procjene valjanosti i pouzdanosti nalaza proizašlih iz primjene računalnih analitičkih postupaka.
+
+2. Čitatelj će razumjeti epistemološke implikacije računalnog obrata u društvenim znanostima, naime načine na koji suvremene tehnologije mijenjaju samu narav pitanja koja možemo postaviti i odgovora koje možemo dobiti.
+
+3. Čitatelj će steći uvid u etičke izazove koje donosi algoritamska posredovanost suvremene komunikacije te razumjeti zašto upravo komunikolozi moraju preuzeti aktivnu ulogu u nadzoru sustava koji oblikuju javni diskurs.
+
+
+## Što je računalna društvena znanost
+
+### Definicija i opseg
+
+Računalna društvena znanost predstavlja interdisciplinarno znanstveno polje koje koristi računalne alate i tehnike za proučavanje društvenih fenomena. Sam pojam u znanstvenu je literaturu uveden člankom Lazera i suradnika objavljenim 2009. godine u časopisu *Science*, u kojem autori artikuliraju viziju nove istraživačke paradigme koja kombinira mogućnosti obrade velikih podatkovnih skupova s teorijskim tradicijama društvenih znanosti (Lazer i sur., 2009). Na najopćenitijoj razini mogli bismo reći da je riječ o pristupu koji nastoji iskoristiti digitalne tragove ljudskog ponašanja, tj. podatke koji nastaju kao nusprodukt svakodnevnih digitalnih aktivnosti, za stjecanje spoznaja o društvenim procesima i strukturama.
+
+Pod pojmom **velikih podataka** (eng. *Big Data*) u kontekstu društvenih istraživanja podrazumijevaju se podatkovni skupovi čiji volumen, brzina generiranja te raznolikost formata nadilaze kapacitete tradicionalnih analitičkih alata (Salganik, 2018:17). Potrebno je napomenuti da sam volumen podataka nije dovoljan kriterij za određenje ovog pojma budući da ono što velike podatke čini metodološki značajnima jest činjenica da ti podaci nastaju spontano kao digitalni tragovi ljudskog ponašanja u mrežnom okruženju, a ne kao rezultat namjernog istraživačkog dizajna. Upravo ta razlika u genezi podataka ima dalekosežne metodološke implikacije koje će biti podrobnije razmotrene u nastavku ovog poglavlja.
+
+
+### Posebnosti u odnosu na tradicionalne pristupe
+
+Ključna razlika između računalne društvene znanosti i tradicionalnih pristupa društvenom istraživanju ne ogleda se isključivo u količini podataka koju je moguće obraditi, već ponajprije u sposobnosti zahvaćanja dinamičkih procesa u stvarnom vremenu. Drugim riječima, računalna društvena znanost omogućuje istraživačima da promatraju društvene procese dok se oni odvijaju, što tradicionalnim metodama poput anketa ili eksperimenata uglavnom nije bilo dostupno (Watts, 2011). Naime, dok tradicionalne metode tipično zahvaćaju statične presjeke društvene stvarnosti u diskretnim vremenskim točkama, računalne metode omogućuju kontinuirano praćenje evolucije fenomena kroz vrijeme.
+
+Nadalje, računalna društvena znanost karakterizirana je mogućnošću proučavanja ponašanja umjesto isključivog oslanjanja na izjave o ponašanju. Tradicionalna istraživanja komunikacije u velikoj su mjeri ovisila o samoiskazima ispitanika prikupljenima anketnim upitnicima, no digitalni tragovi pružaju neposredan uvid u stvarno ponašanje korisnika digitalnih platformi (Salganik, 2018:24). Ova distinkcija između deklariranog i opaženog ponašanja ima značajne implikacije za valjanost istraživačkih zaključaka, premda donosi i vlastite metodološke izazove o kojima će biti govora u kasnijim dijelovima ovog poglavlja.
+
+
+## Povijesni kontekst
+
+### Od analize sadržaja do računalne društvene znanosti
+
+Primjena računalnih metoda u istraživanju komunikacije ima dužu povijest nego što se to na prvi pogled može činiti. Naime, već su rani teoretičari analize sadržaja poput Bernarda Berelsona prepoznali potencijal mehanizacije analitičkih postupaka, premda su tehnološke mogućnosti njihova vremena bile znatno ograničenije (Berelson, 1952). Prvi pokušaji računalne analize teksta datiraju iz šezdesetih godina dvadesetog stoljeća kada su istraživači poput Philipa Stonea razvili sustav *General Inquirer* koji je omogućavao automatsku kategorizaciju tekstualnih jedinica prema unaprijed definiranim rječnicima (Stone i sur., 1966). Dakle, težnja za automatizacijom analitičkih postupaka prisutna je u komunikologiji znatno duže nego što bi sugerirala recentna popularnost pojma računalne društvene znanosti.
+
+Međutim, potrebno je napomenuti da su rani računalni pristupi bili ograničeni na relativno jednostavne operacije poput brojanja riječi i pridruživanja kategorija, dok su sofisticiranije analize značenja i konteksta ostajale izvan dosega tadašnje tehnologije. Tek je razvoj metoda strojnog učenja i dubokog učenja tijekom prvog i drugog desetljeća dvadeset i prvog stoljeća omogućio kvalitativni skok u sposobnostima računalne obrade tekstualnih i drugih podataka, skok koji opravdava govor o paradigmatskom obratu u metodologiji društvenih istraživanja.
+
+
+### Ključne prekretnice i protagonisti
+
+Nekoliko je ključnih prekretnica obilježilo razvoj računalne društvene znanosti kakvu danas poznajemo. Već spomenuti članak Lazera i suradnika iz 2009. godine predstavlja simboličnu točku kristalizacije polja jer je eksplicitno artikulirao viziju nove istraživačke paradigme i okupio istraživače iz različitih disciplina oko zajedničkog programa (Lazer i sur., 2009). Usporedno s tim, razvoj platformi poput Twittera i Facebooka stvorio je neviđene količine podataka o ljudskoj komunikaciji koje su postale dostupne istraživačima putem programskih sučelja (eng. *Application Programming Interface*, skraćeno API).
+
+Duncan Watts, fizičar koji je svoju karijeru preusmjerio prema proučavanju društvenih fenomena, svojim je radom na malim svjetovima i kaskadama društvenog utjecaja demonstrirao kako se metode kompleksnih sustava mogu primijeniti na pitanja relevantna za komunikologiju (Watts, 2003). Matthew Salganik svojim udžbenikom *Bit by Bit* pružio je prvu sustavnu metodološku sintezu računalne društvene znanosti usmjerenu prema široj publici društvenih znanstvenika (Salganik, 2018).
+
+Važno je napomenuti da razvoj računalne društvene znanosti nije bio linearan proces već je obilježen nizom tehnoloških i institucionalnih promjena koje su postupno stvarale uvjete za njezinu konsolidaciju. Osnivanje specijaliziranih istraživačkih centara poput Lazerlab mreže na Northeastern University te Social Dynamics laboratorija na Microsoft Research predstavlja institucionalnu dimenziju ovog razvoja, dok pokretanje specijaliziranih časopisa i konferencija poput *Journal of Computational Social Science* i IC2S2 konferencije označava akademsko etabliranje polja.
+
+
+## Tri konvergentna trenda
+
+Mogli bismo konstatirati da tri konvergentna trenda čine računalnu pismenost imperativom za istraživače komunikacije u sadašnjem trenutku. Razumijevanje ovih trendova od ključne je važnosti za shvaćanje konteksta u kojem se odvija suvremeno istraživanje komunikacijskih fenomena te za razumijevanje zašto kompetencije koje su prije bile rezervirane za informatičare i računalne inženjere danas postaju neophodne za društvene znanstvenike.
+
+### Eksponencijalni rast digitalnih tragova
+
+Prvi trend odnosi se na eksponencijalni rast digitalnih tragova komunikacijskog ponašanja. Svakodnevne aktivnosti korisnika digitalnih platformi generiraju ogromne količine podataka o njihovim preferencijama, interakcijama i obrascima konzumacije sadržaja. Procjenjuje se da globalna produkcija podataka raste eksponencijalnom brzinom, udvostručujući se svakih nekoliko godina (Salganik, 2018:19). Ti podaci, koji nastaju kao nusprodukt digitalnog djelovanja, predstavljaju potencijalno izuzetno bogat izvor spoznaja o komunikacijskim praksama suvremenog društva.
+
+Primjerice, analiza digitalnih tragova omogućuje istraživačima uvid u obrasce širenja informacija, dinamiku formiranja javnog mnijenja te strukture komunikacijskih mreža na razinama preciznosti koje tradicionalnim metodama nisu bile dostupne. Međutim, njihovo korištenje zahtijeva računalne kompetencije koje tradicionalno metodološko obrazovanje u društvenim znanostima nije nužno osiguravalo, što stvara imperativ za reformom kurikuluma i profesionalnim usavršavanjem.
+
+
+### Algoritamska posredovanost komunikacije
+
+Drugi trend odnosi se na algoritamsku posredovanost javne komunikacije, tj. na činjenicu da je suvremena javna komunikacija u sve većoj mjeri posredovana računalnim sustavima koji odlučuju što ćemo vidjeti, kada ćemo to vidjeti i u kojem redoslijedu. Algoritmi preporuke sadržaja fundamentalno oblikuju komunikacijski prostor u kojem se odvija razmjena informacija, ideja i mišljenja (Napoli, 2014). Shodno tome, istraživač koji ne razumije logiku tih sustava ne može adekvatno analizirati fenomene koje proučava jer mu izmiče ključna odrednica koja oblikuje kontekst u kojem se ti fenomeni manifestiraju. Drugim riječima, algoritmi nisu neutralni posrednici već aktivni čimbenici koji suoblikuju komunikacijske procese.
+
+
+### Demokratizacija analitičkih alata
+
+Treći trend odnosi se na demokratizaciju analitičkih alata. Tehnike koje su prije samo nekoliko desetljeća bile dostupne isključivo specijaliziranim laboratorijima s velikim proračunima danas su implementirane u bibliotekama otvorenog koda dostupnima svakome s osnovnim poznavanjem programiranja. Primjerice, algoritmi za tematsko modeliranje, klasifikaciju teksta ili analizu sentimenta dostupni su besplatno u programskim paketima za jezike Python i R (Grimmer i sur., 2022).
+
+Ova demokratizacija analitičkih mogućnosti ima paradoksalne implikacije jer upravo ta dostupnost povećava potrebu za metodološkom rigoroznošću budući da omogućuje i zloporabu od strane nedovoljno obrazovanih praktičara koji primjenjuju sofisticirane alate bez adekvatnog razumijevanja njihovih pretpostavki i ograničenja.
+
+
+## Epistemološke implikacije
+
+### Nove vrste pitanja
+
+Računalni obrat u društvenim znanostima ne donosi samo nove alate za odgovaranje na stara pitanja već omogućuje postavljanje sasvim novih vrsta pitanja koja tradicionalnim metodama nije bilo moguće adresirati. Primjerice, istraživač sada može postaviti pitanje o tome kako se informacije šire mrežom u stvarnom vremenu, koje strukturne karakteristike mreže facilitiraju ili inhibiraju širenje određenih tipova sadržaja te kako se dinamika širenja mijenja ovisno o kontekstualnim faktorima (Watts, 2011). Takva pitanja pretpostavljaju pristup temporalno granularnim podacima o mrežnoj strukturi i tokovima informacija, pristup koji je postao moguć tek s pojavom digitalnih platformi i računalnih metoda za analizu nastalih podataka.
+
+Nadalje, računalne metode omogućuju proučavanje rijetkih fenomena koji bi u tradicionalnim uzorcima bili podzastupljeni. Naime, anketa s tisuću ispitanika možda neće zahvatiti dovoljno slučajeva nekog rijetkog ponašanja da bi se o njemu moglo pouzdano zaključivati, dok digitalni tragovi mogu sadržavati milijune relevantnih slučajeva (Salganik, 2018:22). Ova mogućnost proučavanja heterogenosti i rubnih slučajeva predstavlja značajnu epistemološku prednost računalnih pristupa.
+
+
+### Nova pitanja valjanosti
+
+Uz nove mogućnosti dolaze i novi izazovi za valjanost istraživačkih zaključaka.
+
+**Konstruktna valjanost** (eng. *construct validity*) postaje osobito problematična kada istraživač koristi digitalne tragove kao indikatore teorijskih konstrukata koji su izvorno konceptualizirani neovisno o digitalnom kontekstu (Salganik, 2018:31). Primjerice, mjeri li broj pratitelja na Twitteru doista društveni utjecaj ili nešto sasvim drugo? Odgovor na takva pitanja zahtijeva pažljivu teorijsku argumentaciju koja povezuje operacionalne mjere s konceptualnim definicijama konstrukata.
+
+**Eksterna valjanost** (eng. *external validity*) također predstavlja značajan izazov s obzirom na činjenicu da podaci prikupljeni s jedne platforme ne moraju biti reprezentativni za širu populaciju ili za ponašanje na drugim platformama (Tufekci, 2014). Korisnici Twittera nisu reprezentativan uzorak opće populacije, a njihovo ponašanje na toj platformi ne mora odražavati njihovo ponašanje u drugim kontekstima. Slično tome, algoritamska selekcija sadržaja koji postaje vidljiv istraživaču može uvesti sustavne pristranosti u podatke koje je teško detektirati i korigirati.
+
+Shodno tome, generalizacija nalaza dobivenih analizom podataka s jedne platforme zahtijeva oprez i eksplicitnu argumentaciju o uvjetima pod kojima je takva generalizacija opravdana. Istraživač mora biti svjestan ograničenja svojih podataka i transparentno ih komunicirati u izvještajima o istraživanju.
+
+
+# DIO II: PROGRAMIRANJE KAO TEMELJNA PISMENOST
+
+## Argument pismenosti
+
+Pismenost u tradicionalnom smislu ne označava samo sposobnost dekodiranja simbola već kompetenciju za sudjelovanje u procesima proizvodnje i kritičke evaluacije znanja. Naime, nepismen čovjek u društvu temeljenom na pisanoj riječi nije samo tehnički hendikepiran u smislu nemogućnosti čitanja i pisanja već je isključen iz čitavog spektra spoznajnih praksi koje pretpostavljaju vladanje pisanom riječju (Grimmer i sur., 2022:15). Analogno tome, istraživač koji ne razumije osnove programiranja u eri računalne društvene znanosti nije samo tehnički ograničen već gubi sposobnost pune participacije u procesima koji definiraju suvremenu proizvodnju znanja o društvu.
+
+Upravo zbog toga možemo konstatirati da programiranje u sadašnjem trenutku predstavlja novu pismenost za istraživače u društvenim znanostima, pismenost bez koje istraživač ostaje na margini suvremenih metodoloških kretanja.
+
+U prilog ovoj tezi mogu se navesti tri temeljna argumenta koji se tiču reproducibilnosti, fleksibilnosti i transparentnosti istraživačkog procesa.
+
+
+### Reproducibilnost
+
+Prvi argument odnosi se na **reproducibilnost** (eng. *reproducibility*) koja predstavlja jedan od temeljnih kriterija znanstvene prakse. Istraživanje koje drugi znanstvenici ne mogu replicirati ostaje na razini anegdote, koliko god sofisticirano izgledalo u svojoj izvornoj prezentaciji (Freese i Peterson, 2017). Kada analizu provodimo kroz grafičko sučelje nekog statističkog programa, svaki klik i svaka odabrana opcija moraju biti ručno dokumentirani da bi postupak bio reproducibilan, a u praksi se takva dokumentacija rijetko provodi s potrebnom preciznošću.
+
+Programski kod, nasuprot tome, sam po sebi predstavlja kompletnu dokumentaciju analitičkog postupka jer je svaka odluka eksplicitno zapisana i može se identično ponovno izvršiti. Shodno tome, u reproducibilnom istraživanju svaki kvantitativni rad trebao bi biti popraćen kodom koji omogućuje potpunu replikaciju rezultata, od početnih podataka do finalnih tablica i grafova.
+
+
+### Fleksibilnost
+
+Drugi argument odnosi se na **fleksibilnost** (eng. *flexibility*), tj. na ograničenja koja grafička sučelja nužno nameću. Svako grafičko sučelje implementira konačan skup funkcionalnosti koje su programeri predvidjeli, no istraživačka pitanja često zahtijevaju postupke koji izlaze izvan tih unaprijed predviđenih okvira (Wickham i Grolemund, 2017:8).
+
+Istraživač koji ovisi isključivo o grafičkim alatima ograničen je na pitanja koja ti alati mogu adresirati, dok istraživač koji vlada programiranjem može implementirati bilo koju proceduru koja je matematički definirana, prilagoditi postojeće algoritme specifičnim potrebama projekta ili kombinirati različite pristupe na načine koje autori originalnih alata nisu predvidjeli. Dakle, programerska kompetencija oslobađa istraživača od ograničenja nametnuti dizajnerskim odlukama razvojnih timova komercijalnog softvera.
+
+
+### Transparentnost
+
+Treći argument tiče se **transparentnosti** (eng. *transparency*), tj. razumijevanja onoga što se zapravo događa s podacima tijekom analize. Grafički alati nerijetko funkcioniraju kao crne kutije u kojima korisnik unese podatke, klikne nekoliko opcija i dobije rezultate, no često bez jasnog uvida u transformacije koje su se odvile između unosa i izlaza.
+
+Ova netransparentnost nije samo praktični problem već i epistemološki jer postavlja pitanje kako možemo tvrditi da razumijemo fenomen koji proučavamo ako ne razumijemo u potpunosti postupak kojim smo došli do zaključaka (Salganik, 2018:45). Pisanje koda prisiljava istraživača na eksplicitno suočavanje sa svakim korakom analize čime se smanjuje rizik od nerazumijevanja vlastitih rezultata te se povećava mogućnost identificiranja potencijalnih problema u analitičkom postupku.
+
+
+## Koja vrsta programiranja
+
+### Skriptiranje nasuprot softverskom inženjerstvu
+
+Potrebno je napomenuti da programiranje za istraživača komunikacije ne označava osposobljavanje za razvoj komercijalnog softvera, dizajniranje mobilnih aplikacija ili administraciju računalnih sustava. Te vještine pripadaju softverskom inženjerstvu kao zasebnoj profesiji s vlastitim standardima i kompetencijskim profilom (Wilson i sur., 2017).
+
+Ono što istraživač treba jest kompetencija **skriptiranja** (eng. *scripting*), tj. sposobnost pisanja kraćih programa koji automatiziraju specifične istraživačke zadatke, manipuliraju podatkovnim skupovima i implementiraju analitičke procedure. Razlika između softverskog inženjera i istraživača koji koristi programiranje može se ilustrirati analogijom s razlikom između profesionalnog građevinara i vlasnika kuće koji zna izvesti manje popravke. Oboje koriste neke iste alate, no dubina ekspertize i širina primjene fundamentalno se razlikuju. Istraživač ne mora znati izgraditi kompleksan softverski sustav, no mora biti sposoban napisati skriptu koja će prikupiti podatke, očistiti ih, transformirati i pripremiti za analizu.
+
+
+### Programski jezici za istraživanje komunikacije
+
+U kontekstu istraživanja komunikacije dva se programska jezika nameću kao primarni izbori: **Python** i **R**. Svaki od njih ima vlastite prednosti i karakteristično područje primjene.
+
+| Jezik | Prednosti | Tipična primjena |
+|:------|:----------|:-----------------|
+| R | Razvijen za statističku analizu, bogat ekosustav paketa (tidyverse, ggplot2) | Statistička analiza, vizualizacija |
+| Python | Jezik opće namjene, razvijene biblioteke za strojno učenje i NLP | Strojno učenje, prikupljanje podataka s mreže |
+
+: Usporedba programskih jezika za istraživanje komunikacije {#tbl-jezici}
+
+R je jezik koji je izvorno razvijen za statističku analizu i vizualizaciju podataka te posjeduje iznimno bogat ekosustav paketa za društvena istraživanja, uključujući tidyverse kolekciju paketa za manipulaciju podacima i ggplot2 za vizualizaciju (Wickham i Grolemund, 2017). Python je jezik opće namjene s vrlo razvijenim bibliotekama za strojno učenje, obradu prirodnog jezika i prikupljanje podataka s mreže (VanderPlas, 2016).
+
+U praksi, istraživači koji se primarno bave statističkom analizom i vizualizacijom često preferiraju R, dok oni koji se fokusiraju na strojno učenje i automatsko prikupljanje podataka gravitiraju prema Pythonu. Potrebno je napomenuti da izbor jezika nije binarno pitanje te da mnogi istraživači koriste oba jezika ovisno o specifičnim zahtjevima projekta.
+
+
+## Strukture podataka kao konceptualni okvir
+
+Jedan od temeljnih koncepata računalne znanosti koji ima izravnu primjenu u istraživačkoj praksi jest pojam **strukture podataka** (eng. *data structure*). Struktura podataka označava način organizacije i pohrane informacija koji omogućuje efikasan pristup i manipulaciju tim informacijama (Grimmer i sur., 2022:42). Različite strukture optimizirane su za različite tipove operacija, a odabir prikladne strukture može značajno utjecati na izvedivost analitičkih postupaka.
+
+Potrebno je napomenuti da razumijevanje struktura podataka nije samo tehnički preduvjet za korištenje određenih alata već konceptualni okvir koji oblikuje način na koji istraživač percipira i formulira probleme.
+
+
+### Pravokutni podaci
+
+**Pravokutna tablica** (eng. *data frame*) predstavlja najpoznatiju strukturu podataka za istraživače društvenih znanosti. U ovoj strukturi retci predstavljaju jedinice analize kao što su ispitanici, članci ili objave, stupci predstavljaju varijable, a ćelije sadrže vrijednosti. Ova struktura prirodno odgovara matrici podataka s kojom rade tradicionalni statistički paketi i adekvatna je za većinu standardnih analiza u okviru kvantitativnih društvenih istraživanja poput regresijske analize ili analize varijance.
+
+Međutim, mnogi fenomeni suvremene komunikacije ne uklapaju se elegantno u pravokutni format te zahtijevaju kompleksnije strukturne reprezentacije koje bolje odražavaju relacijsku i hijerarhijsku narav digitalnih komunikacijskih podataka.
+
+
+### Hijerarhijske i ugniježđene strukture
+
+**Hijerarhijske strukture** (eng. *tree structures*) reprezentiraju ugniježđene relacije između entiteta. Primjeri takvih struktura uključuju komentare na objavu koji sami imaju odgovore, organizacijske hijerarhije ili taksonomije kategorija (Wickham i Grolemund, 2017:283). Format JSON (eng. *JavaScript Object Notation*) koji predstavlja dominantan format za razmjenu podataka na internetu inherentno je hijerarhijski strukturiran, što znači da istraživač koji prikuplja podatke putem programskih sučelja nužno mora razumjeti ovu strukturu kako bi mogao ekstrahirati relevantne informacije.
+
+
+### Relacijske i mrežne strukture
+
+**Mrežne strukture** (eng. *graph* ili *network*) reprezentiraju entitete i veze među njima. Kao što je detaljno opisano u poglavlju o mrežnoj analizi, ova struktura posebno je relevantna za istraživanje komunikacije jer omogućuje modeliranje relacijskih fenomena poput interakcija između korisnika, citiranja između medijskih aktera ili semantičkih veza između koncepata. Istraživač koji razumije mrežne strukture može postaviti pitanja koja su nezamisliva u pravokutnoj paradigmi, primjerice kako pozicija u komunikacijskoj mreži utječe na sposobnost aktera da postavlja agendu javne rasprave.
+
+
+## Infrastruktura reproducibilnosti
+
+Argument za reproducibilnost ostaje apstraktan bez konkretnih alata koji tu reproducibilnost omogućuju. U ovom odjeljku ukratko su predstavljeni ključni elementi infrastrukture reproducibilnosti koje bi svaki istraživač trebao poznavati i koristiti u svojoj praksi.
+
+
+### Kontrola verzija
+
+**Kontrola verzija** (eng. *version control*) označava sustav za praćenje promjena u datotekama kroz vrijeme. Najrašireniji sustav kontrole verzija jest Git, a najpoznatija platforma za dijeljenje repozitorija jest GitHub (Bryan, 2018). Kontrola verzija omogućuje istraživaču da u svakom trenutku može vratiti bilo koju prethodnu verziju svog koda, da može paralelno eksperimentirati s različitim pristupima bez straha od gubitka rada te da može surađivati s kolegama na istom projektu bez rizika od međusobnog prepisivanja rada.
+
+
+### Računalne bilježnice
+
+**Računalne bilježnice** (eng. *computational notebooks*) poput Jupyter Notebooka za Python ili RMarkdown za R omogućuju integraciju koda, rezultata i narativnog teksta u jedinstveni dokument (Rule i sur., 2018). Ovaj format posebno je koristan za dokumentiranje analitičkog procesa jer omogućuje istraživaču da uz sam kod uključi i objašnjenje logike iza pojedinih koraka, vizualizacije koje ilustriraju međurezultate te interpretacije koje povezuju tehničke operacije s teorijskim pitanjima.
+
+
+### Kontejnerizacija
+
+**Kontejnerizacija** (eng. *containerization*) putem alata poput Dockera omogućuje pakiranje cjelokupnog računalnog okruženja, uključujući operativni sustav, instalirane pakete i njihove verzije, u prenosivu jedinicu koja se može identično reproducirati na bilo kojem računalu (Boettiger, 2015). Ova tehnologija adresira problem koji se javlja kada kod koji savršeno funkcionira na jednom računalu prestaje funkcionirati na drugom zbog razlika u verzijama instaliranih paketa ili konfiguraciji sustava.
+
+Premda kontejnerizacija predstavlja napredniju razinu tehničke kompetencije, osnovno razumijevanje njezine logike korisno je za sve istraživače koji žele osigurati dugoročnu reproducibilnost svojih analiza.
+
+
+## Mapa puta za stjecanje vještina
+
+Za studente komunikologije koji žele razviti programerske kompetencije preporuča se strukturiran pristup koji napreduje od temelja prema specijaliziranim primjenama. Naime, stjecanje programerskih vještina predstavlja proces koji zahtijeva postupno napredovanje kroz nekoliko razvojnih faza, pri čemu svaka faza gradi na kompetencijama stečenima u prethodnoj (Grimmer i sur., 2022:52).
+
+| Faza | Sadržaj | Resursi |
+|:-----|:--------|:--------|
+| 1. Osnove programske logike | Varijable, tipovi podataka, kontrolne strukture, funkcije | Codecademy, DataCamp, Coursera |
+| 2. Manipulacija podataka | tidyverse/dplyr za R, pandas za Python, vizualizacija | Udžbenici, online tečajevi |
+| 3. Domenske primjene | Prikupljanje podataka s mreže, analiza teksta, mrežna analiza | Specijalizirane radionice |
+| 4. Napredne metode | Strojno učenje, veliki jezični modeli | Napredni tečajevi, istraživački projekti |
+
+: Faze stjecanja programerskih kompetencija {#tbl-faze}
+
+**Prva faza** obuhvaća usvajanje osnova programske logike, tj. temeljnih koncepata kao što su varijable, tipovi podataka, kontrolne strukture koje uključuju uvjete i petlje te funkcije. Ovi koncepti zajednički su praktički svim programskim jezicima i čine temelj bez kojeg daljnje napredovanje nije moguće.
+
+**Druga faza** fokusira se na manipulaciju podataka u kontekstu specifičnog programskog jezika. Za R to podrazumijeva ovladavanje tidyverse ekosustavom, a posebice paketom dplyr za transformacije podataka te paketom ggplot2 za vizualizaciju. Za Python ekvivalentni alati jesu biblioteka pandas za manipulaciju podatkovnim okvirima te biblioteke matplotlib i seaborn za vizualizaciju.
+
+**Treća faza** uvodi specifične domenske primjene relevantne za istraživanje komunikacijskih fenomena. Riječ je o tehnikama poput prikupljanja podataka s mreže, osnovne analize teksta i mrežne analize.
+
+**Četvrta faza** obuhvaća naprednije metode poput strojnog učenja i rada s velikim jezičnim modelima. Važno je napomenuti da ova faza ne bi trebala prethoditi solidnom ovladavanju ranijim fazama jer primjena sofisticiranih algoritama bez temeljnog razumijevanja programiranja i manipulacije podacima vodi u mehaničku primjenu alata bez razumijevanja njihove logike.
+
+Glavna preporuka koja vrijedi za sve navedene faze jest **učenje kroz projekte** jer se apstraktno znanje konsolidira tek u primjeni na konkretne probleme s kojima se istraživač suočava u svakodnevnoj praksi.
+
+
+# DIO III: RAZUMIJEVANJE ALGORITAMSKE POSREDOVANOSTI
+
+## Algoritamska arhitektura platformi
+
+Izvan neposredno metodološke vrijednosti, poznavanje temeljnih koncepata računalne znanosti nužno je za razumijevanje samih fenomena koje komunikologija proučava. Naime, suvremena javna komunikacija nije samo digitalizirana već je algoritamski posredovana, što znači da računalni sustavi aktivno odlučuju koji sadržaji postaju vidljivi kojim korisnicima, u kojem trenutku i u kojem kontekstu (Napoli, 2014:341).
+
+Shodno tome, istraživač koji ne razumije logiku tih sustava ne može adekvatno teorijski zahvatiti fenomene poput formiranja javnog mnijenja, polarizacije diskursa ili širenja dezinformacija. **Algoritam preporuke sadržaja** (eng. *recommendation algorithm*) može se konceptualno razumjeti kroz nekoliko ključnih komponenti koje zajedno čine arhitekturu sustava za personalizaciju sadržaja.
+
+
+### Reprezentacija korisnika
+
+**Reprezentacija korisnika** (eng. *user representation*) označava način na koji sustav modelira preferencije individualnog korisnika. Sustav uzima u obzir kategorije sadržaja koje korisnik preferira, koliko dugo zadržava pažnju na različitim tipovima sadržaja te s kojim sadržajima interagira putem reakcija, komentara ili dijeljenja (Ricci i sur., 2015:13).
+
+Ova reprezentacija tipično ima formu vektora u visokodimenzionalnom prostoru gdje svaka dimenzija zahvaća određeni aspekt korisničkog profila. Potrebno je napomenuti da korisnik uglavnom nema uvid u vlastitu reprezentaciju niti mogućnost njezine korekcije, što otvara pitanja transparentnosti i korisničke autonomije.
+
+
+### Reprezentacija sadržaja
+
+**Reprezentacija sadržaja** (eng. *content representation*) analogno tome modelira obilježja svakog sadržaja koji cirkulira platformom. Ona uključuje tekstualne elemente poput ključnih riječi i tematskih oznaka, vizualne karakteristike ekstrahirane algoritmima računalnog vida, metapodatke o autoru i vremenu objave te dosadašnju povijest interakcija drugih korisnika s tim sadržajem (Covington i sur., 2016).
+
+Kombinacija ovih značajki omogućuje sustavu da svaki sadržaj pozicionira u istom visokodimenzionalnom prostoru u kojem su reprezentirani korisnici, čime se stvaraju preduvjeti za procjenu podudarnosti između korisnika i sadržaja.
+
+
+### Funkcije podudaranja
+
+**Funkcija podudaranja** (eng. *matching function*) procjenjuje vjerojatnost da će određeni korisnik pozitivno reagirati na određeni sadržaj. U najjednostavnijem slučaju ova funkcija izračunava sličnost između korisničkog i sadržajnog vektora, no u praksi suvremeni sustavi koriste složene modele dubokog učenja koji mogu zahvatiti nelinearne interakcije između značajki (Covington i sur., 2016).
+
+Rezultat funkcije podudaranja jest rang lista sadržaja sortirana prema predviđenoj vjerojatnosti pozitivne reakcije, a ta lista određuje što će korisnik vidjeti kada otvori aplikaciju ili osvježi feed.
+
+
+### Funkcije cilja
+
+**Funkcija cilja** (eng. *objective function*) definira što sustav optimizira, tj. prema kojem kriteriju se ocjenjuje uspješnost algoritma. Tipične funkcije cilja uključuju maksimizaciju vremena provedenog na platformi, broja interakcija, retencije korisnika ili neke kombinacije ovih metrika (Milano i sur., 2020:5).
+
+Ova komponenta arhitekture posebno je značajna za razumijevanje društvenih posljedica algoritamskog posredovanja jer definicija funkcije cilja implicitno određuje koje vrste sadržaja će biti favorizirane. Primjerice, ako algoritam optimizira vrijeme provedeno na platformi, postoji strukturni poticaj za promociju sadržaja koji izaziva snažne emocionalne reakcije jer takvi sadržaji dulje zadržavaju pažnju korisnika, neovisno o tome jesu li informativno vrijedni ili društveno korisni.
+
+Potrebno je napomenuti da ovo nije pitanje namjerne malicioznosti dizajnera sustava već svrsiishodna posljedica načina na koji je funkcija cilja definirana. Teorija o efektima medija koja ne uzima u obzir ovu algoritamsku logiku propušta ključnu odrednicu suvremene medijske dinamike.
+
+
+## Povratne veze i emergentne dinamike
+
+Razumijevanje koncepata poput **povratne veze** (eng. *feedback loop*) omogućuje analizu načina na koji algoritamsko posredovanje može pojačavati postojeće tendencije i producirati emergentne dinamike koje nisu nužno bile namjera dizajnera sustava.
+
+
+### Filter mjehurići
+
+Fenomen **filter mjehurića** (eng. *filter bubble*), pojam koji je popularizirao Eli Pariser, označava situaciju u kojoj algoritmi personalizacije postupno sužavaju raspon sadržaja kojem je korisnik izložen, stvarajući svojevrsni informacijski mjehurić koji filtrira perspektive različite od onih koje korisnik već preferira (Pariser, 2011:9).
+
+Mehanizam je jednostavan: kada sustav detektira da korisnik pokazuje interes za određeni tip sadržaja, on servira više sličnog sadržaja, što potencijalno vodi u spiralu sve užeg tematskog fokusa. Potrebno je napomenuti da empirijska istraživanja nude mješovite dokaze o stvarnoj rasprostranjenosti i intenzitetu filter mjehurića, pri čemu neki autori sugeriraju da je fenomen manje izražen nego što popularni diskurs implicira (Zuiderveen Borgesius i sur., 2016).
+
+
+### Dinamike polarizacije
+
+Usko povezan fenomen jest potencijalni doprinos algoritama polarizaciji javnog diskursa. Ako algoritmi favoriziraju sadržaj koji izaziva snažne emocionalne reakcije, a takav sadržaj često uključuje ekstremne pozicije i konfliktnu retoriku, tada algoritamsko posredovanje može pojačavati polarizacijske tendencije u društvu (Bail i sur., 2018).
+
+Važno je napomenuti da ova hipoteza ostaje predmet aktivne znanstvene debate te da kauzalni odnos između algoritamskog posredovanja i polarizacije nije jednostavno ustanoviti zbog brojnih konfundirajućih faktora. Međutim, sama mogućnost takvog odnosa čini razumijevanje algoritamske arhitekture nužnim za istraživače koji proučavaju suvremenu javnu komunikaciju.
+
+
+## Zašto komunikolozi moraju razumjeti ove sustave
+
+Moglo bi se postaviti pitanje zašto bi komunikolozi trebali razumjeti tehničke detalje algoritamskih sustava umjesto da tu zadaću prepuste informatičarima i računalnim inženjerima. Odgovor na to pitanje proizlazi iz same naravi fenomena o kojima je riječ. Naime, algoritamski sustavi javne komunikacije nisu primarno tehnički već društveni fenomeni jer njihov značaj proizlazi iz njihovih učinaka na društvene procese poput formiranja javnog mnijenja, distribucije informacija i artikulacije političkih konflikata (Gillespie, 2014).
+
+Razumijevanje ovih učinaka zahtijeva teorijske okvire i metodološke kompetencije koje pripadaju društvenim znanostima, a ne informatici. Komunikologija kao disciplina posjeduje desetljeća istraživanja medijskih efekata, javnog mnijenja i političke komunikacije koja pružaju konceptualni aparat za analizu kako komunikacijski sustavi utječu na pojedince i društvo.
+
+Teorije postavljanja dnevnog reda (eng. *agenda-setting*), uokvirivanja (eng. *framing*) i usmjeravanja pažnje (eng. *priming*), razvijene desetljećima prije pojave algoritamskih medija, pružaju okvire za analizu kako selekcija i prezentacija informacija oblikuje percepcije i stavove publike (McCombs i Shaw, 1972; Entman, 1993). Ovi teorijski resursi mogu se adaptirati za analizu algoritamskog postavljanja dnevnog reda, tj. načina na koji algoritmi određuju koje teme postaju vidljive i salijentne za različite segmente publike.
+
+Shodno tome, tehnička ekspertiza nije dovoljna za evaluaciju društvenih posljedica algoritamskih sustava. Inženjer može dizajnirati algoritam koji izvrsno optimizira definiranu ciljnu funkciju, no procjena je li ta ciljna funkcija društveno poželjna izlazi izvan domene tehničke ekspertize.
+
+
+## Metode za proučavanje algoritamskih sustava
+
+Istraživanje algoritamskih sustava suočava se s izazovom ograničenog pristupa. Platforme tretiraju algoritme kao poslovnu tajnu te istraživačima uglavnom ne omogućuju izravan uvid u njihovo funkcioniranje. Shodno tome, istraživači su razvili niz metoda koje omogućuju proučavanje algoritama izvana, bez pristupa izvornom kodu ili internim podacima.
+
+
+### Revizijske studije
+
+**Revizijske studije** (eng. *audit studies*) predstavljaju metodološki pristup koji testira ponašanje algoritama kroz sistematične eksperimente s kontroliranim unosima (Sandvig i sur., 2014). Istraživač kreira profile korisnika s različitim karakteristikama, izlaže ih istim ili različitim sadržajima te prati kako sustav reagira na te manipulacije.
+
+Primjerice, studija može kreirati profile koji se razlikuju samo po naznačenoj političkoj orijentaciji te pratiti razlikuje li se sadržaj koji algoritam preporučuje tim profilima. Alternativno, istraživač može pratiti kako se preporuke mijenjaju nakon što profil interagira s određenim tipom sadržaja, testirajući tako mehanizme personalizacije.
+
+
+### Obrnuto inženjerstvo i platformski eksperimenti
+
+**Obrnuto inženjerstvo** (eng. *reverse engineering*) označava pokušaj rekonstrukcije logike algoritma na temelju opažanja njegovih outputa. Istraživač sistematično varira inpute i bilježi outpute, pokušavajući iz tih opažanja inducirati pravila ili obrasce prema kojima algoritam funkcionira (Diakopoulos, 2015).
+
+**Platformski eksperimenti** koriste mogućnosti koje same platforme nude za eksperimentalnu manipulaciju. Primjerice, istraživač može nasumično dodijeliti sudionike u uvjete koji se razlikuju po izloženosti određenim tipovima sadržaja te mjeriti posljedice te izloženosti na stavove ili ponašanje (Bail i sur., 2018).
+
+
+# DIO IV: METODE IZVAN TEKSTA I MREŽA
+
+## Veliki jezični modeli kao istraživački alati
+
+### Što su veliki jezični modeli i kako funkcioniraju
+
+**Veliki jezični modeli** (eng. *Large Language Models*, skraćeno LLM) poput GPT serije, Claude obitelji ili Gemini modela predstavljaju transformativnu tehnologiju koja u temeljima mijenja način na koji je moguće pristupiti analizi tekstualnih podataka. Ovi modeli trenirani su na korpusima koji obuhvaćaju stotine milijardi riječi teksta prikupljenog iz raznolikih izvora te demonstriraju sposobnost razumijevanja i generiranja teksta koja nadilazi sve prethodne pristupe obradi prirodnog jezika (Brown i sur., 2020).
+
+Za razliku od tradicionalnih statističkih modela koji zahtijevaju eksplicitno definiranje značajki i treniranje na specifičnim zadacima, veliki jezični modeli posjeduju opće sposobnosti razumijevanja jezika koje se mogu primijeniti na raznolike zadatke s minimalnom ili čak nikakvom dodatnom prilagodbom.
+
+Arhitektura ovih modela temelji se na **transformerskoj arhitekturi** (eng. *transformer architecture*) koja koristi mehanizam samopažnje (eng. *self-attention*) za dinamičko procjenjivanje relevantnosti svakog dijela ulazne sekvence za obradu bilo kojeg drugog dijela (Vaswani i sur., 2017).
+
+
+### Klasifikacija bez primjera i s malo primjera
+
+Jedna od najznačajnijih mogućnosti velikih jezičnih modela za istraživanje komunikacije jest sposobnost klasifikacije teksta bez potrebe za opsežnim procesom treniranja.
+
+**Učenje bez primjera** (eng. *zero-shot learning*) označava pristup u kojem model klasificira tekstove samo na temelju tekstualnog opisa željenih kategorija, bez ijednog označenog primjera (Brown i sur., 2020). Primjerice, istraživač može jednostavno opisati kategorije koje želi razlikovati u prirodnom jeziku, a model će na temelju tog opisa biti sposoban klasificirati nove tekstove.
+
+**Učenje s malo primjera** (eng. *few-shot learning*) predstavlja srodan pristup u kojem se modelu pruža mali broj označenih primjera, tipično od tri do deset, koji ilustriraju željenu klasifikaciju (Brown i sur., 2020). Model koristi te primjere za razumijevanje zadatka i zatim primjenjuje naučeno na nove tekstove.
+
+Praktične implikacije ovih mogućnosti za istraživanje komunikacije dalekosežne su. Klasifikacija koja bi tradicionalnim pristupom zahtijevala tjedne pripreme podataka i tehničku ekspertizu sada se može provesti u satima.
+
+
+### Ekstrakcija informacija iz nestrukturiranih tekstova
+
+**Ekstrakcija informacija** (eng. *information extraction*) iz nestrukturiranih tekstova predstavlja drugu domenu koju su veliki jezični modeli temeljito transformirali. Identifikacija aktera, njihovih tvrdnji, odnosa i atributa u velikom korpusu tekstova tradicionalno bi zahtijevala ili mukotrpno ručno čitanje ili sofisticirano programiranje specijaliziranih sustava za ekstrakciju informacija (Ziems i sur., 2024).
+
+Veliki jezični modeli mogu izvršiti ovu ekstrakciju na temelju instrukcija formuliranih u prirodnom jeziku, vraćajući strukturirane podatke iz nestrukturiranog teksta.
+
+
+### Augmentacija kvalitativnih metoda
+
+**Augmentacija kvalitativnih metoda** predstavlja posebno perspektivnu primjenu velikih jezičnih modela koja zaslužuje posebnu pozornost istraživača komunikacije. Naime, veliki jezični modeli mogu pomoći u induktivnom generiranju kodova iz tekstualnih materijala, sugeriranju tematskih kategorija te identifikaciji obrazaca u intervjuima ili fokus grupama (Ziems i sur., 2024).
+
+Važno je napomenuti da ovo ne zamjenjuje ljudsku interpretaciju već je proširuje i obogaćuje. Istraživač zadržava odgovornost za finalnu interpretaciju i evaluaciju, no model može ubrzati proces analize i ukazati na obrasce koje bi ljudski analitičar mogao previdjeti.
+
+
+### Ograničenja: halucinacije, pristranosti, netransparentnost
+
+Kritički osvrt na velike jezične modele zahtijeva adresiranje značajnih ograničenja i rizika koji prate njihovu primjenu u istraživačkom kontekstu.
+
+| Ograničenje | Opis | Implikacije za istraživanje |
+|:------------|:-----|:---------------------------|
+| Halucinacije | Tendencija generiranja uvjerljivog ali faktički netočnog sadržaja | Verifikacija svakog kritičnog outputa |
+| Pristranosti | Reflektiranje pristranosti iz podataka za treniranje | Kritička evaluacija outputa |
+| Netransparentnost | Nemogućnost preciznog objašnjenja odluka modela | Problemi validacije i interpretacije |
+| Reproducibilnost | Varijabilnost rezultata kroz vrijeme | Dokumentacija verzija i parametara |
+
+: Ograničenja velikih jezičnih modela u istraživačkom kontekstu {#tbl-llm-ogranicenja}
+
+**Halucinacije** (eng. *hallucinations*) označavaju tendenciju modela da generira uvjerljiv ali faktički netočan sadržaj (Ji i sur., 2023).
+
+**Pristranosti** (eng. *biases*) prisutne u podacima za treniranje reflektiraju se u outputima modela (Bender i sur., 2021).
+
+**Netransparentnost** (eng. *opacity*) velikih jezičnih modela znači da često ne možemo precizno objasniti zašto je model donio određenu odluku.
+
+
+## Vizualna i multimodalna analiza
+
+### Računalni vid za istraživanje komunikacije
+
+Ekspanzija računalne analize na vizualne podatke otvara nove mogućnosti za istraživanje komunikacije, domenu koja je tradicionalno bila ograničena na kvalitativnu analizu relativno malih uzoraka. **Računalni vid** (eng. *computer vision*) označava granu umjetne inteligencije koja se bavi automatskom ekstrakcijom informacija iz slika i video materijala (Joo i Steinert-Threlkeld, 2022).
+
+Konvolucijske neuralne mreže i noviji modeli temeljeni na transformerskoj arhitekturi sposobni su automatski ekstrahirati značajke iz vizualnih podataka, omogućujući analizu vizualne komunikacije na skalama koje fundamentalno nadilaze mogućnosti ručnog kodiranja.
+
+Suvremeni multimodalni modeli poput CLIP-a (eng. *Contrastive Language-Image Pre-training*) dodatno omogućuju povezivanje vizualnih i tekstualnih reprezentacija, čime se otvara mogućnost pretraživanja slika pomoću tekstualnih opisa ili klasifikacije slika prema proizvoljnim kategorijama opisanim prirodnim jezikom (Radford i sur., 2021).
+
+
+### Strategije multimodalne integracije
+
+Suvremena digitalna komunikacija inherentno je multimodalna, tj. kombinira različite modalitete izražavanja u jedinstvene komunikacijske cjeline. Objava na društvenoj mreži tipično kombinira tekst, sliku, ponekad video, ugrađene linkove i hashtagove koji zajedno tvore koherentnu komunikacijsku poruku (Bateman i sur., 2017).
+
+**Multimodalna analiza** nastoji integrirati obradu različitih modaliteta u koherentan istraživački dizajn. Jedan pristup jest kreiranje multimodalnih reprezentacija koje kombiniraju značajke iz različitih modalnosti u jedinstveni vektor. Alternativni pristup jest zasebna analiza svake modalnosti praćena integracijom na razini interpretacije.
+
+
+## Temporalna i dinamička analiza
+
+### Pristupi vremenskim serijama
+
+Jedna od ključnih prednosti računalne društvene znanosti jest sposobnost zahvaćanja temporalne dimenzije društvenih fenomena. **Analiza vremenskih serija** (eng. *time series analysis*) omogućuje proučavanje kako se komunikacijski fenomeni razvijaju kroz vrijeme, identificiranje trendova, sezonskih obrazaca i anomalija (Box i sur., 2015).
+
+U kontekstu istraživanja komunikacije, vremenske serije mogu reprezentirati volumen medijskog izvještavanja o određenoj temi, intenzitet javne rasprave na društvenim mrežama, evoluciju sentimenta prema određenom akteru ili promjene u mrežnoj strukturi komunikacijskih zajednica.
+
+
+### Detekcija događaja i točaka promjene
+
+**Detekcija događaja** (eng. *event detection*) označava skupinu tehnika za automatsku identifikaciju značajnih događaja u tokovima podataka (Atefeh i Khreich, 2015). U kontekstu analize društvenih medija, događaj može biti iznenadni porast rasprave o određenoj temi, pojava novog aktora u javnom diskursu ili promjena dominantnog okvira u izvještavanju.
+
+**Analiza točaka promjene** (eng. *change point analysis*) fokusira se na identifikaciju trenutaka u kojima se statistička svojstva vremenske serije značajno mijenjaju (Aminikhanghahi i Cook, 2017).
+
+
+## Simulacija i modeliranje temeljeno na agentima
+
+### Generativni nasuprot analitičkim pristupima
+
+Do sada razmatrane metode pripadaju analitičkim pristupima koji ekstrahiraju spoznaje iz empirijskih podataka. Međutim, računalna društvena znanost uključuje i **generativne pristupe** koji koriste računalne modele za simulaciju društvenih procesa (Epstein, 2006).
+
+Umjesto analize opaženih podataka, generativni pristupi polaze od teorijskih pretpostavki o mehanizmima koji upravljaju ponašanjem aktera i interakcijama među njima, implementiraju te pretpostavke u računalni model te promatraju emergentne obrasce koji proizlaze iz simuliranih interakcija.
+
+
+### Modeli dinamike mišljenja
+
+**Modeli dinamike mišljenja** (eng. *opinion dynamics models*) simuliraju kako se stavovi i mišljenja mijenjaju kroz interakcije među akterima (Castellano i sur., 2009). Jednostavni modeli pretpostavljaju da akteri koji interagiraju usklađuju svoje stavove, pri čemu se stavovi kroz vrijeme konvergiraju prema konsenzusu ili polariziraju u distinktne skupine ovisno o specifičnim pravilima interakcije.
+
+Za istraživače komunikacije, modeli dinamike mišljenja nude način za testiranje hipoteza o mehanizmima formiranja javnog mnijenja.
+
+
+## Kauzalna inferencija s računalnim podacima
+
+### Problem kauzalnih tvrdnji s opažajnim podacima
+
+Računalna društvena znanost ne eliminira izazove kauzalnog zaključivanja, no donosi nove mogućnosti za **kauzalnu inferenciju** (eng. *causal inference*) koje tradicionalnim metodama nisu bile dostupne (Salganik, 2018:295).
+
+Ključni izazov kauzalne inferencije jest problem konfundiranja, tj. mogućnost da opažena povezanost između varijabli proizlazi iz trećeg faktora koji utječe na obje varijable.
+
+
+### Prirodni eksperimenti u digitalnim okruženjima
+
+**Prirodni eksperimenti** (eng. *natural experiments*) nastaju kada neki vanjski faktor, koji nije pod kontrolom istraživača, producira varijaciju koja aproksimira nasumičnu dodjelu (Dunning, 2012). U digitalnom okruženju takve situacije mogu nastati iz raznih izvora, primjerice postupno uvođenje nove značajke platforme koje zahvaća različite korisnike u različito vrijeme.
+
+
+### Regresijska diskontinuiranost i razlika u razlikama
+
+**Regresijska diskontinuiranost** (eng. *regression discontinuity design*, skraćeno RDD) predstavlja kvazi-eksperimentalni dizajn koji iskorištava situacije u kojima je tretman dodijeljen na temelju numeričkog praga (Lee i Lemieux, 2010).
+
+**Razlika u razlikama** (eng. *difference-in-differences*, skraćeno DiD) predstavlja dizajn koji uspoređuje promjene kroz vrijeme između tretmanske i kontrolne skupine (Angrist i Pischke, 2009:227).
+
+
+# DIO V: METODOLOŠKA INTEGRACIJA
+
+## Kombiniranje metoda različitih modaliteta
+
+### Integracija teksta i mreža
+
+Analiza teksta i mrežna analiza predstavljaju komplementarne pristupe koji se mogu plodonosno kombinirati u integrirane istraživačke dizajne. Naime, dok analiza teksta zahvaća sadržajnu dimenziju komunikacije, tj. što se komunicira, mrežna analiza zahvaća relacijsku dimenziju, tj. tko komunicira s kime i u kakvim strukturama (Bail, 2014).
+
+Kombinacija ovih pristupa omogućuje odgovaranje na pitanja koja nijedan pristup zasebno ne može adekvatno adresirati.
+
+
+### Dodavanje temporalne i vizualne dimenzije
+
+Integracija temporalne dimenzije omogućuje praćenje kako se tekstualni sadržaji i mrežne strukture mijenjaju kroz vrijeme.
+
+Integracija vizualne dimenzije dodaje još jedan sloj kompleksnosti koji može biti ključan za razumijevanje suvremene digitalne komunikacije.
+
+
+## Integracija računalnih i tradicionalnih metoda
+
+### Sinergije kvalitativnog i računalnog pristupa
+
+Računalne metode i kvalitativni pristupi često se percipiraju kao alternativne paradigme, no u praksi se mogu plodonosno kombinirati na načine koji iskorištavaju prednosti obaju pristupa (Nelson, 2020).
+
+Kvalitativna faza može prethoditi računalnoj analizi, pomažući u formulaciji istraživačkih pitanja, razvoju kategorija za klasifikaciju i interpretaciji preliminarnih nalaza.
+
+Računalna faza može prethoditi kvalitativnoj analizi, identificirajući obrasce i podskupove podataka koji zaslužuju detaljnije kvalitativno istraživanje.
+
+
+### Kombinacija anketnih i digitalnih podataka
+
+Posebno plodna mogućnost integracije jest kombinacija tradicionalnih anketnih podataka s podacima digitalnih tragova. Ankete pružaju informacije o stavovima, percepcijama i samoiskazanom ponašanju koje digitalni tragovi ne mogu izravno zahvatiti, dok digitalni tragovi pružaju informacije o stvarnom ponašanju koje ankete mogu zahvatiti samo neizravno i neprecizno (Stier i sur., 2020).
+
+
+## Predikcija nasuprot objašnjenju: kada koristiti što
+
+**Predikcija** je primjeren cilj kada je praktična korist istraživanja u sposobnosti anticipiranja budućih ishoda ili klasifikacije novih slučajeva.
+
+**Objašnjenje** je primjeren cilj kada je svrha istraživanja razumijevanje kauzalnih mehanizama koji generiraju opažene obrasce.
+
+
+## Strategije validacije
+
+### Protokoli ljudske anotacije
+
+Ljudska anotacija ostaje zlatni standard za validaciju automatske klasifikacije teksta i drugih računalnih postupaka. Protokol anotacije uključuje razvoj jasnih kodnih uputa koje definiraju kategorije i kriterije za pridruživanje jedinica kategorijama, treniranje kodera na uzorku primjera, nezavisno kodiranje od strane više kodera te izračun mjera slaganja između kodera poput Cohenove kappa ili Krippendorffove alpha (Krippendorff, 2018).
+
+
+### Crowdsourcing za validaciju
+
+**Crowdsourcing** putem platformi poput Amazon Mechanical Turk ili Prolific omogućuje prikupljanje ljudskih anotacija na većem broju primjera nego što bi bilo izvedivo s tradicionalnim pristupom (Benoit i sur., 2016).
+
+
+### Unakrsna validacija i strategije zadržanih uzoraka
+
+Za validaciju prediktivnih modela, **unakrsna validacija** (eng. *cross-validation*) i strategije zadržanih uzoraka predstavljaju standardne pristupe. Logika ovih pristupa jest evaluacija modela na podacima koji nisu korišteni za njegovo treniranje (James i sur., 2021:197).
+
+
+## Granice automatizacije
+
+Usprkos impresivnim sposobnostima suvremenih računalnih metoda, određene komponente istraživačkog procesa ostaju nereducibilno ljudske i ne mogu se delegirati algoritmima:
+
+- **Formulacija istraživačkog pitanja** predstavlja kreativni čin koji zahtijeva teorijsko poznavanje domene
+- **Operacionalizacija teorijskih konstrukata** zahtijeva prosudbu o odnosu između apstraktnih koncepata i empirijskih indikatora
+- **Interpretacija nalaza** transformira statističke rezultate u supstantivne zaključke o fenomenima od interesa
+
+Automatizacija preuzima rutinske zadatke obrade podataka, oslobađajući kognitivne resurse istraživača za konceptualni rad koji zahtijeva ljudsku prosudbu i kreativnost.
+
+
+# DIO VI: ETIKA KAO INTEGRALNA DIMENZIJA
+
+## Zašto etika nije naknadna misao
+
+Uvriježena pretpostavka da su tehnološki sustavi vrijednosno neutralni alati čija etička komponenta ovisi isključivo o načinu korištenja predstavlja fundamentalnu zabludu koju istraživači komunikacije moraju prepoznati i osporiti. Naime, algoritamski sustavi koji posreduju suvremenu javnu komunikaciju nisu pasivni kanali koji neutralno prenose poruke od pošiljatelja do primatelja već aktivno oblikuju što postaje vidljivo, kome i u kojem kontekstu, čineći odluke koje imaju dalekosežne posljedice za javni diskurs, formiranje mišljenja i distribuciju moći u društvu (Noble, 2018).
+
+Shodno tome, etička razmatranja ne mogu biti relegirana u zasebno poglavlje koje se čita nakon što se savladaju tehničke kompetencije. Etička osjetljivost mora biti integrirana u sve faze istraživačkog procesa, od formulacije pitanja preko dizajna i provedbe istraživanja do interpretacije i komunikacije nalaza.
+
+
+## Algoritamska pristranost kao komunikacijski problem
+
+### Mehanizmi nastanka pristranosti
+
+**Algoritamska pristranost** (eng. *algorithmic bias*) označava sistematske pogreške u outputima algoritamskih sustava koje neproporcionalno pogađaju određene društvene skupine. Ova pristranost nije nužno rezultat namjerne diskriminacije već može nastati iz naizgled neutralnih tehničkih odluka koje se donose tijekom dizajna i implementacije sustava (Barocas i Selbst, 2016).
+
+| Izvor pristranosti | Mehanizam | Primjer |
+|:-------------------|:----------|:--------|
+| Podaci za treniranje | Podzastupljenost skupina u podacima | Model lošije performira za govornike dijalekata |
+| Definicija problema | Ciljna funkcija favorizira određene ishode | Maksimizacija angažmana favorizira senzacionalistički sadržaj |
+| Povratne petlje | Pojačavanje inicijalnih pristranosti | Popularan sadržaj postaje još popularniji |
+
+: Mehanizmi nastanka algoritamske pristranosti {#tbl-pristranost}
+
+
+### Studije slučaja
+
+Istraživanje sustava za automatsku moderaciju sadržaja pokazalo je da ti sustavi neproporcionalno uklanjaju sadržaje koji koriste afroamerički vernakularni engleski, klasificirajući ih kao govor mržnje zbog prisutnosti određenih izraza koji imaju različita značenja u različitim jezičnim zajednicama (Sap i sur., 2019).
+
+Analiza algoritama preporuke vijesti pokazala je da ti sustavi mogu pojačavati izloženost senzacionalističkom i emocijski nabijenom sadržaju nauštrb informativno vrijednijeg ali manje angažirajućeg sadržaja (Bakshy i sur., 2015).
+
+
+## Transparentnost i problem crne kutije
+
+### Tehnička neprozirnost
+
+Suvremeni sustavi temeljeni na dubokom učenju funkcioniraju kao **crne kutije** (eng. *black boxes*) čiji se interni procesi ne mogu lako interpretirati čak ni od strane njihovih kreatora (Burrell, 2016).
+
+Polje **objašnjive umjetne inteligencije** (eng. *Explainable AI*, skraćeno XAI) razvija tehnike za naknadnu interpretaciju odluka modela, poput identifikacije značajki koje su najviše doprinijele određenoj predikciji ili generiranja tekstualnih objašnjenja odluka (Arrieta i sur., 2020).
+
+
+### Komercijalna tajnost
+
+Izvan tehničke neprozirnosti, komercijalna tajnost dodatno ograničava transparentnost algoritamskih sustava. Platforme tretiraju algoritme preporučivanja kao poslovnu tajnu čije bi otkrivanje narušilo konkurentsku prednost (Pasquale, 2015).
+
+
+## Privatnost, pristanak i etika podataka
+
+### Informirani pristanak u istraživanju digitalnih tragova
+
+Tradicionalni okvir istraživačke etike temelji se na konceptu **informiranog pristanka** (eng. *informed consent*) prema kojem ispitanici moraju biti informirani o svrsi istraživanja i slobodno pristati na sudjelovanje prije nego što se prikupe bilo kakvi podaci o njima. Ovaj okvir problematičan je u kontekstu istraživanja digitalnih tragova jer ti tragovi nastaju neovisno o bilo kakvom istraživačkom dizajnu (Zimmer, 2010).
+
+
+### Granice anonimizacije
+
+Anonimizacija podataka, tradicionalno smatrana dovoljnom zaštitom privatnosti, pokazuje se nedostatnom u kontekstu velikih podataka. Istraživanja su demonstrirala da se naizgled anonimizirani podaci mogu reidentificirati kombiniranjem s drugim izvorima podataka (de Montjoye i sur., 2013).
+
+
+## Distribuirana odgovornost
+
+### Mapiranje aktera i odgovornosti
+
+Pitanje odgovornosti za posljedice algoritamskih sustava komplicirano je distribuiranom prirodom agencije u sociotehničkim sustavima. Kada algoritam preporučivanja doprinese širenju dezinformacija koje utječu na ishod izbora, tko je odgovoran? Tradicionalni koncepti odgovornosti teško se primjenjuju na distribuirane sustave gdje posljedice emergiraju iz interakcija mnogih aktera (Floridi i Sanders, 2004).
+
+
+### Okviri proporcionalne odgovornosti
+
+Koncept **distribuirane odgovornosti** nudi okvir u kojem se uvažava da u kompleksnim sociotehničkim sustavima odgovornost ne može biti lokalizirana u pojedinačnom agentu već mora biti distribuirana proporcionalno ulozi i moći svakog aktera (Nissenbaum, 1996).
+
+
+## Komunikolog kao čuvar javnog interesa
+
+### Zašto ne samo inženjeri
+
+Istraživači komunikacije, a ne samo ili primarno informatičari i inženjeri, moraju preuzeti aktivnu ulogu u nadzoru algoritamskih sustava koji oblikuju javnu komunikaciju. Algoritamski sustavi javne komunikacije nisu primarno tehnički već društveni fenomeni čiji značaj proizlazi iz njihovih učinaka na društvene procese.
+
+Komunikologija posjeduje relevantne resurse za ulogu nadzornika i kritičara algoritamskih sustava. Teorije medijskih efekata, javnog mnijenja i političke komunikacije pružaju konceptualni aparat za analizu kako komunikacijski sustavi utječu na pojedince i društvo.
+
+
+## Od analize prema djelovanju
+
+Etička evaluacija algoritamskih sustava nije sama sebi svrha već temelj za informirano djelovanje usmjereno prema poboljšanju postojećeg stanja. Komunikolozi mogu doprinijeti promjenama na više razina:
+
+- **Istraživanje** u službi javnog interesa uključuje dokumentiranje efekata algoritamskih sustava
+- **Zagovaranje** uključuje artikuliranje zašto je transparentnost nužna za zdravu javnu sferu
+- **Savjetovanje** regulatora uključuje pružanje znanstvene ekspertize
+- **Obrazovanje** budućih profesionalaca uključuje integraciju etičkih razmatranja u kurikulume
+
+
+# DIO VII: DISCIPLINARNE BUDUĆNOSTI
+
+## Pet teza: sinteza
+
+Sadržaj ovog poglavlja može se kondenzirati u pet temeljnih teza koje zajedno čine argument za transformaciju komunikologije u hibridnu disciplinu koja integrira tehničke i društvenoznanstvene kompetencije:
+
+1. **Prva teza:** Digitalna transformacija komunikacije nije samo kvantitativna promjena u količini dostupnih podataka već kvalitativna promjena u samoj naravi fenomena koje komunikologija proučava.
+
+2. **Druga teza:** Programiranje i računalna pismenost za istraživača komunikacije predstavljaju nužnu kompetenciju, a ne samo poželjnu specijalizaciju.
+
+3. **Treća teza:** Metode poput velikih jezičnih modela, vizualne analize i simulacije nude mogućnosti koje nadilaze klasične pristupe, no te mogućnosti dolaze s vlastitim ograničenjima.
+
+4. **Četvrta teza:** Računalne metode omogućuju metodološku sintezu koja transcendira tradicionalnu razliku kvantitativnog i kvalitativnog pristupa.
+
+5. **Peta teza:** Komunikolozi moraju preuzeti aktivnu ulogu u etičkoj evaluaciji i nadzoru algoritamskih sustava koji oblikuju javnu komunikaciju.
+
+
+## Komunikologija kao hibridna disciplina
+
+Navedene teze konvergiraju prema viziji komunikologije kao hibridne discipline koja s jednakom kompetencijom navigira teorijskim pitanjima o javnoj sferi, identitetu i moći te tehničkim pitanjima o arhitekturi podataka, validaciji modela i algoritamskoj optimizaciji.
+
+Hibridnost o kojoj govorimo nije površno dodavanje tehničkih kolegija postojećem kurikulumu niti prepuštanje tehničkih pitanja informatičarima uz zadržavanje tradicionalne disciplinarne orijentacije. Riječ je o dubinskoj transformaciji koja pretpostavlja da su tehnička i društvenoteorijska pitanja neodvojivo isprepletena u proučavanju suvremene komunikacije.
+
+
+## Implikacije za obrazovanje i kurikulum
+
+Vizija hibridne discipline ima izravne implikacije za obrazovanje budućih komunikologa. Potrebna je integrirana koncepcija obrazovanja koja od početka povezuje teorijsko i metodološko, kvalitativno i kvantitativno, tradicionalno i računalno.
+
+Predloženi kurikularni elementi:
+
+- **Uvod u programiranje** trebao bi biti obavezan kolegij za sve studente
+- **Računalne metode analize teksta** trebale bi činiti nastavak temeljnih kolegija analize sadržaja
+- **Etika algoritamskih sustava** trebala bi se izučavati kao kolegij koji integrira filozofsku etiku s empirijskom analizom
+
+Izvan zasebnih kolegija, računalne kompetencije trebale bi biti integrirane kroz čitav kurikulum.
+
+
+## Kontinuirano učenje
+
+Obrazovanje za hibridnu disciplinu zahtijeva kulturu kontinuiranog učenja koja nadilazi završetak formalnog studija. Tehnološki krajolik mijenja se brzinom koja nadilazi cikluse revizije kurikuluma. Alati koji su relevantni danas možda će biti zamijenjeni za pet godina, a metode koje danas ne postoje mogu postati ključne za istraživačku praksu budućnosti.
+
+Stjecanje trajne kompetencije stoga zahtijeva ne samo ovladavanje specifičnim alatima već razvoj metakognitivnih vještina učenja novih alata i sposobnost praćenja evolucije polja.
+
+
+## Demokratski ulozi
+
+Zaključno, potrebno je naglasiti da rasprava o metodološkim kompetencijama i disciplinarnoj transformaciji nije isključivo akademsko pitanje već ima šire društvene implikacije. Algoritamski sustavi koji posreduju sve veći udio ljudske komunikacije oblikuju uvjete mogućnosti za demokratsku deliberaciju, formiranje javnog mnijenja i artikulaciju kolektivnih identiteta.
+
+Smjer u kojem će ti sustavi evoluirati nije tehnološki determiniran već ovisi o odlukama koje donose brojni akteri, uključujući istraživače koji proučavaju te sustave i produciraju znanje koje može informirati regulatorne i dizajnerske odluke.
+
+Budućnost komunikologije kao znanstvene discipline u značajnoj mjeri ovisi o sposobnosti novih generacija istraživača da integriraju teorijsku osjetljivost za pitanja značenja, moći i društvenih odnosa s tehničkom kompetencijom za navigiranje sve složenijim podatkovnim i algoritamskim krajolikom u kojem se suvremena komunikacija odvija.
+
+
+# Literatura {.unnumbered}
+
+Aminikhanghahi, S., & Cook, D. J. (2017). A survey of methods for time series change point detection. *Knowledge and Information Systems*, 51(2), 339-367.
+
+Angrist, J. D., & Pischke, J. S. (2009). *Mostly harmless econometrics: An empiricist's companion*. Princeton University Press.
+
+Arrieta, A. B., Díaz-Rodríguez, N., Del Ser, J., Bennetot, A., Tabik, S., Barbado, A., ... & Herrera, F. (2020). Explainable artificial intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. *Information Fusion*, 58, 82-115.
+
+Atefeh, F., & Khreich, W. (2015). A survey of techniques for event detection in Twitter. *Computational Intelligence*, 31(1), 132-164.
+
+Bail, C. A. (2014). The cultural environment: Measuring culture with big data. *Theory and Society*, 43(3-4), 465-482.
+
+Bail, C. A., Argyle, L. P., Brown, T. W., Bumpus, J. P., Chen, H., Hunzaker, M. F., ... & Volfovsky, A. (2018). Exposure to opposing views on social media can increase political polarization. *Proceedings of the National Academy of Sciences*, 115(37), 9216-9221.
+
+Bakshy, E., Messing, S., & Adamic, L. A. (2015). Exposure to ideologically diverse news and opinion on Facebook. *Science*, 348(6239), 1130-1132.
+
+Barocas, S., & Selbst, A. D. (2016). Big data's disparate impact. *California Law Review*, 104, 671-732.
+
+Bateman, J., Wildfeuer, J., & Hiippala, T. (2017). *Multimodality: Foundations, research and analysis*. De Gruyter Mouton.
+
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT*, 610-623.
+
+Benoit, K., Conway, D., Lauderdale, B. E., Laver, M., & Mikhaylov, S. (2016). Crowd-sourced text analysis: Reproducible and agile production of political data. *American Political Science Review*, 110(2), 278-295.
+
+Berelson, B. (1952). *Content analysis in communication research*. Free Press.
+
+Boettiger, C. (2015). An introduction to Docker for reproducible research. *ACM SIGOPS Operating Systems Review*, 49(1), 71-79.
+
+Box, G. E., Jenkins, G. M., Reinsel, G. C., & Ljung, G. M. (2015). *Time series analysis: Forecasting and control* (5th ed.). John Wiley & Sons.
+
+Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., ... & Amodei, D. (2020). Language models are few-shot learners. *Advances in Neural Information Processing Systems*, 33, 1877-1901.
+
+Bryan, J. (2018). Excuse me, do you have a moment to talk about version control? *The American Statistician*, 72(1), 20-27.
+
+Burrell, J. (2016). How the machine 'thinks': Understanding opacity in machine learning algorithms. *Big Data & Society*, 3(1), 1-12.
+
+Castellano, C., Fortunato, S., & Loreto, V. (2009). Statistical physics of social dynamics. *Reviews of Modern Physics*, 81(2), 591-646.
+
+Covington, P., Adams, J., & Sargin, E. (2016). Deep neural networks for YouTube recommendations. *Proceedings of the 10th ACM Conference on Recommender Systems*, 191-198.
+
+de Montjoye, Y. A., Hidalgo, C. A., Verleysen, M., & Blondel, V. D. (2013). Unique in the crowd: The privacy bounds of human mobility. *Scientific Reports*, 3, 1376.
+
+Diakopoulos, N. (2015). Algorithmic accountability: Journalistic investigation of computational power structures. *Digital Journalism*, 3(3), 398-415.
+
+Dunning, T. (2012). *Natural experiments in the social sciences*. Cambridge University Press.
+
+Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. *Journal of Communication*, 43(4), 51-58.
+
+Epstein, J. M. (2006). *Generative social science: Studies in agent-based computational modeling*. Princeton University Press.
+
+European Commission. (2022). *Digital Services Act*. Official Journal of the European Union.
+
+Floridi, L., & Sanders, J. W. (2004). On the morality of artificial agents. *Minds and Machines*, 14(3), 349-379.
+
+Freese, J., & Peterson, D. (2017). Replication in social science. *Annual Review of Sociology*, 43, 147-165.
+
+Gilardi, F., Alizadeh, M., & Kubli, M. (2023). ChatGPT outperforms crowd workers for text-annotation tasks. *Proceedings of the National Academy of Sciences*, 120(30), e2305016120.
+
+Gillespie, T. (2014). The relevance of algorithms. In T. Gillespie, P. J. Boczkowski, & K. A. Foot (Eds.), *Media technologies* (pp. 167-194). MIT Press.
+
+Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). *Text as data: A new framework for machine learning and the social sciences*. Princeton University Press.
+
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An introduction to statistical learning* (2nd ed.). Springer.
+
+Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., ... & Fung, P. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys*, 55(12), 1-38.
+
+Joo, J., & Steinert-Threlkeld, Z. C. (2022). Image as data: Automated visual content analysis for political science. *Political Analysis*, 30(3), 468-485.
+
+Krippendorff, K. (2018). *Content analysis: An introduction to its methodology* (4th ed.). Sage.
+
+Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabási, A. L., Brewer, D., ... & Van Alstyne, M. (2009). Computational social science. *Science*, 323(5915), 721-723.
+
+Lee, D. S., & Lemieux, T. (2010). Regression discontinuity designs in economics. *Journal of Economic Literature*, 48(2), 281-355.
+
+McCombs, M. E., & Shaw, D. L. (1972). The agenda-setting function of mass media. *Public Opinion Quarterly*, 36(2), 176-187.
+
+Milano, S., Taddeo, M., & Floridi, L. (2020). Recommender systems and their ethical challenges. *AI & Society*, 35, 957-967.
+
+Napoli, P. M. (2014). Automated media: An institutional theory perspective on algorithmic media production and consumption. *Communication Theory*, 24(3), 340-360.
+
+Nelson, L. K. (2020). Computational grounded theory: A methodological framework. *Sociological Methods & Research*, 49(1), 3-42.
+
+Nissenbaum, H. (1996). Accountability in a computerized society. *Science and Engineering Ethics*, 2(1), 25-42.
+
+Noble, S. U. (2018). *Algorithms of oppression: How search engines reinforce racism*. NYU Press.
+
+Pariser, E. (2011). *The filter bubble: What the Internet is hiding from you*. Penguin.
+
+Pasquale, F. (2015). *The black box society*. Harvard University Press.
+
+Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., ... & Sutskever, I. (2021). Learning transferable visual models from natural language supervision. *Proceedings of ICML*, 8748-8763.
+
+Ricci, F., Rokach, L., & Shapira, B. (2015). *Recommender systems handbook* (2nd ed.). Springer.
+
+Rule, A., Tabard, A., & Hollan, J. D. (2018). Exploration and explanation in computational notebooks. *Proceedings of CHI*, 1-12.
+
+Salganik, M. J. (2018). *Bit by bit: Social research in the digital age*. Princeton University Press.
+
+Sandvig, C., Hamilton, K., Karahalios, K., & Langbort, C. (2014). Auditing algorithms: Research methods for detecting discrimination on internet platforms. *Data and Discrimination: Converting Critical Concerns into Productive Inquiry*, 1-23.
+
+Sap, M., Card, D., Gabriel, S., Choi, Y., & Smith, N. A. (2019). The risk of racial bias in hate speech detection. *Proceedings of ACL*, 1668-1678.
+
+Stier, S., Breuer, J., Siegers, P., & Thorson, K. (2020). Integrating survey data and digital trace data: Key issues in developing an emerging field. *Social Science Computer Review*, 38(5), 503-516.
+
+Stone, P. J., Dunphy, D. C., Smith, M. S., & Ogilvie, D. M. (1966). *The General Inquirer: A computer approach to content analysis*. MIT Press.
+
+Tufekci, Z. (2014). Big questions for social media big data: Representativeness, validity and other methodological pitfalls. *Proceedings of ICWSM*, 505-514.
+
+VanderPlas, J. (2016). *Python data science handbook*. O'Reilly Media.
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems*, 30, 5998-6008.
+
+Watts, D. J. (2003). *Six degrees: The science of a connected age*. W. W. Norton.
+
+Watts, D. J. (2011). *Everything is obvious: Once you know the answer*. Crown Business.
+
+Wickham, H., & Grolemund, G. (2017). *R for data science*. O'Reilly Media.
+
+Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., & Teal, T. K. (2017). Good enough practices in scientific computing. *PLOS Computational Biology*, 13(6), e1005510.
+
+Ziems, C., Held, W., Shaikh, O., Chen, J., Zhang, Z., & Yang, D. (2024). Can large language models transform computational social science? *Computational Linguistics*, 50(1), 237-291.
+
+Zimmer, M. (2010). "But the data is already public": On the ethics of research in Facebook. *Ethics and Information Technology*, 12(4), 313-325.
+
+Zuiderveen Borgesius, F. J., Trilling, D., Möller, J., Bodó, B., De Vreese, C. H., & Helberger, N. (2016). Should we worry about filter bubbles? *Internet Policy Review*, 5(1), 1-16.

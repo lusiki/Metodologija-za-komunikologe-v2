@@ -1,0 +1,34 @@
+# Quarto build output
+_book/
+_output/
+.quarto/
+
+# Quarto generated figure directories
+*_files/
+
+# R
+.Rproj.user/
+.Rhistory
+.Rdata
+.RData
+.httr-oauth
+.Renviron
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+
+# Temporary files
+*.tmp
+*.bak

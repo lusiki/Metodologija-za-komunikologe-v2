@@ -1,0 +1,459 @@
+---
+title: "Kvalitativne metode"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+lang: hr
+---
+
+# Uvod u kvalitativne metode istraživanja
+
+Kao što smo spomenuli, kvalitativne metode istraživanja primarno se razvijaju iz hermeneutičke i fenomenologijske spoznajno-teorijske tradicije. Ne koriste se kako bi se spoznale kauzalne relacije ili kvantitativna obilježja društvenih pojava, već se u pravilu koriste kada istraživače zanima na koji način društveni akteri interpretiraju svijet oko sebe kao i svoje postupke. Marshal i Rossman (2011) ističu da se kvalitativne metode istraživanja fokusiraju na individualno proživljeno iskustvo, društvo i kulturu te jezik i komunikaciju. Tkalac Verčić i suradnice (2010:18-19) naglašavaju da kvalitativne metode istraživanja, između ostalog, definiraju i sljedeće odrednice: istraživač je zainteresiran za proces, naglasak je na značenju, istraživač je osnovni instrument za prikupljanje i interpretaciju rezultata, istraživanja podrazumijevaju terenski rad i odlazak u stvarno okruženje, proces zaključivanja je induktivan.
+
+Dakle, svrha kvalitativnih metoda istraživanja je razumjeti ili interpretirati način na koji ljudi vide neki fenomen, način na koji objašnjavaju svoje djelovanje ili opisuju motive svog djelovanja. Stoga niti ne barataju matematičko-statističkim kvantifikacijama fenomena kojima se bave. One nisu zainteresirane za kvantitativna obilježja, već za dokumentiranje svijeta s različitih pozicija ljudi, nastoje razumjeti kako ljudi izrađuju i organiziraju svoj društveni svijet (Tomić-Koludrović i Leborić, Anči, 2002: 209, 251). Drugačije rečeno, kvalitativne metode istraživanja bave se iskustvom ljudi, načinom na koji se društven fenomeni "upisuju" u svijest pojedinaca, tj. načinom na koji on doživljava svijet oko sebe, kako ga tumači i kako shodno tome organizira svoje društveno djelovanje.
+
+Zbog toga se kvalitativnim metodama istraživanja prikuplja, a zatim i analizira prilično raznolik materija (Strauss, 2003). Npr., transkripti intervjua i fokus grupa, rezultati terenskog promatranja, različiti dnevnici i pisma, fotografije i video zapisi su samo neki od primjera podataka koji se koriste kako bi se rekonstruirala značenja koja ljudi pridaju svojim iskustvima i društvenim interakcijama. Ovakve vrste empirijskog materijala omogućuju istraživačima da uđu u svakodnevni svijet ispitanika, promatraju obrasce ponašanja, otkriju skrivene norme i vrijednosti te steknu dublje razumijevanje konteksta u kojem se određeni fenomen pojavljuje.
+
+Uz ovu temeljnu svrhu, istraživači često koriste kvalitativne metode kao eksploratorni istraživački alat kojim se ulazi u "nepoznati teren" društvenih pojava. Primjerice, kada bismo željeli istražiti navike i prakse studenata komunikologije u korištenju društvene mreže *Snapchat*, o čemu trenutno nema znanstvenih evidencija, prikladno bi bilo istraživanje započeti s nizom intervjua ili grupnih diskusija. Na osnovu tih istraživanja mogla bi se spoznati osnovna obilježja studentskih praksi u korištenju ove društvene mreže, mogli bi se interpretirati razlozi njenog korištenja te doći do refleksija studenata na uobičajene prilike kada se ova društvena mreža koristi itd.
+
+Također, za razliku od kvantitativnih metoda istraživanja kvalitativne metode ne koriste se kako bi se testirale znanstvene teorije. One nisu primjerene za testiranje teorija i iz njih izvedenih hipoteza! Istraživanja koja se provode posredstvom kvalitativnih metoda uglavnom imaju upravo suprotnu intenciju — stvaranje empirijskih generalizacija o obilježjima predmeta istraživanja na čemu posebice inzistira tzv. utemeljena teorija (vidi poglavlje Utemljena teorija). Dakle, kvalitativne metode istraživanja prvenstveno su induktivnog karaktera — temeljem prikupljenih podataka stvaraju se empirijske generalizacije, tj. teorijski koncepti (koji se zatim mogu provjeravati kvantitativnim istraživanjima) (Daymon i Hollaway, 2002).
+
+Danas kvalitativne metode istraživanja imaju široku primjenu u okviru komunikacijskih znanosti. Posebice u kontekstu istraživačkih pitanja koja se odnose na način recepcije medijskih poruka i načina njihovog procesuiranja. Primjerice, istraživačka pitanja na koje je moguće odgovoriti kvalitativnim metodama istraživanja odnose na to kako primatelji tumače medijske objave — na koji način ih dekodiraju, interpretiraju i razumiju, koje tipične "portrete stvarnosti" prepoznaju u medijskom izvještavanju, kako tumače komunikacijske poruke, što su izvori povjerenja ili nepovjerenja u medije. Također, kvalitativne metode istraživanja pogodne su za istraživanje navika u konzumaciji medija kao i iskustva konzumenata medija.
+
+Iako među kvalitativne metode istraživanja ulaze brojne istraživačke tehnike i postupci kao što su *etnografska metoda*, *narativna analiza*, *analiza usmene predaje*, *analiza slučaja*, *promatranje*, *konverzacijska analiza*, u idućim poglavljima detaljnije će biti opisana metodska svojstva i izvedbena pravila sljedećih triju metode: *etnografska metoda*, *analiza diskursa*, *metoda intervjua* i *metoda grupnih diskusija*.
+
+Naime, ove tri metode omogućuju realizaciju najvećeg broja potencijalnih ciljeva istraživanja s kojima se susreću komunikolozi koji, bilo u akademskim institucijama, bilo u komercijalnim institucijama, provode istraživanja posredstvom kvalitativnih metoda.
+
+
+# Etnografska metoda
+
+Etnografska metoda vjerojatno je jedna od najstarijih kvalitativnih metoda istraživanja. *(Poglavlje u izradi)*
+
+
+# Analiza diskursa
+
+Kao i analiza sadržaja i analiza diskursa ili analiza rasprave je nenametljiva istraživačka metoda. Riječ je o kvalitativnoj metodi istraživanja koja se bavi jezikom i njegovom ulogom u konstruiranju društvenog života. Njome se istražuju kako pojedini modaliteti govora i obilježja teksta utječu na način konstrukcije društvene zbilje, tj. kako utječu na način na koji ljudi vide i interpretiraju društveni svijet. Posljedično tome, analiza diskursa usmjerena je na interpretacije značenja teksta te kritičko propitivanje društvenog, političkog, kulturnog i ideološkog konteksta u kojem se neko značenje formira.
+
+Halmi, Belušić i Ogresta (2004) ističu da je analiza diskursa naziv za mnoge različite pristupe u proučavanju teksta ili nekog drugog empirijskog materijala. Navode da se ova metoda razvila iz različitih teoretskih tradicija i disciplinarnih područja te da shodno tome postoji mnogo različitih stilova analize diskursa. Zajedničko obilježje različitih inačica analize diskursa je odbacivanje shvaćanja prema kojima je jezik isključivo jednostavno, neutralno sredstvo održavanja i opisivanja riječi. Među praktičarima analize diskursa jezik se drži kao jedan od glavnih mehanizama za konstrukciju društvene zbilje. Drugim riječima, diskursi se mogu odrediti kao skupovi iskaza koji konstruiraju objekte i različite subjektivne pozicije društvenih aktera. Kada se takve pozicije od strane socijalnih aktera jednom usvoje one definiraju način viđenja svijeta i određene načine bivanja u njemu (Willig, 2016).
+
+Dakle, diskursi definiraju način viđenja društvenog svijeta i razumijevanja vlastitog položaja u njemu te utječu na legitimaciju društvenog poretka. Zbog tog razloga analiza diskursa često je usmjerena na istraživanje veze između jezika i različitih ideoloških koncepata. Istražuje se koji je efekt jezika i kako on utječe na ostvarivanje određenih političkih ili ekonomskih interesa (Waugh i suradnici, 2015). Primjerice, može se postaviti hipoteza da "dominantni diskursi privilegiraju one verzije društvene stvarnosti koje legitimiraju postojeće odnose moći i društvene strukture" (Willig, 2016:280). Zbog toga analiza diskursa polazi i od premise da su diskursi neodvojivi od institucionalnih praksi, tj. od načina organiziranja, reguliranja društvenog života i upravljanja njime (Willig, 2016:281).
+
+
+## Ishodišta analize diskursa
+
+Analiza diskursa relativno je mlada istraživačka metoda. Uslijed utjecaja različitih intelektualnih tradicija razvija se od 60-tih godina prošlog stoljeća. Halmi, Belušić i Ogresta (2004:36) navode da se razvija potaknuta kritikama neopozitivizma i pod snažnim utjecajem strukturalističkih i poststrukturalističkih ideja te uslijed postmodernističkih napada na tradicionalnu epistemologiju. Dakle, analiza diskursa razvija se kao dio šireg epistemološkog obrata, tj. kao jedan moment u afirmaciji tzv. socijalno-konstruktivističkog pristupa u proučavanju društvene stvarnosti.
+
+Tip znanja kojem se stremi u istraživanjima koja proizlaze iz ove epistemološke paradigme nije znanje o svijetu ili znanje o tome kakve su stvari "u stvarnosti", već prije znanje o procesu putem kojeg je to znanje konstruirano. Shodno tome ovaj pristup reafirmira i društvenu funkciju jezika. On polazi od toga da nije stvarnost ta koja određuje kako će se opisivati ili kako će se o njoj govoriti već je jezik taj koji određuje stvarnost (Willig, 2016:52-53). Drugačije rečeno, jezik se ne shvaća kao neutralno sredstvo komunikacije već kao instrument putem kojeg se konstruira društvena zbilja.
+
+Zbog ovako istaknute pozicije jezika, analiza diskursa usko je povezana sa lingvistikom i semiotikom. Primjerice Halmi, Belušić i Ogresta (2004) navode da se među mnoštvom teorijskih tradicija iz kojih se razvija analiza diskursa posebice ističe kritička lingvistika ili socijalna semiotika. Njezina glavna pretpostavka je da smisao određenog pojma "ne proizlazi iz prirođene značajke odnosa između riječi koja služi za objašnjenje i samog pojma koji ta riječ objašnjava, nego iz sustava suprotnosti u koji je taj odnos usađen" (Halmi, Belušić i Ogresta, 2004: 37). Za ovu tradiciju je važna činjenica da pojedina lingvistička forma može imati jak učinak na to kako će neki događaj biti shvaćen ili protumačen u medijima ili društvu općenito.
+
+Također, teorijska podloga za analizu diskursa može se pronaći i u *konverzacijskoj analizi*. Ona se usmjerava na funkcionalnu ili akcijsku orijentaciju neke rasprave. Ne bavi se vezom između riječi i značenja već razlogom zašto neka značenja vezuju uz određenu riječ (Halmi, Belušić i Ogresta, 2004:37). Važna teorijska tradicija koja motivira analizu diskursa je i poststrukturalizam, posebice Foucaultovi radovi. Bitna značajka poststrukturalizma je njegova orijentacija na latentnu strukturu teksta, a ne na ono što je eksplicitno izgovoreno ili napisano (Halmi, Belušić i Ogresta, 2004: 37). Primjerice, Foucaultov predmet interesa nisu detalji izgovorenoga ili već napisanog teksta, već njegova latentna struktura i njeno povijesno ishodište. Ova teorijska tradicija rezultirala je jednom specifičnom inačicom analize diskursa koja se obično opisuje terminom Foucaultovska analiza diskrusa (vidi Willig, 2016).
+
+Potrebno je napomenuti da se analiza diskursa značajno razlikuje od analize sadržaja. Naime, iako postoje kvalitativne verzije, analiza sadržaja primarno je kvantitativna metoda istraživanja. Također, za razliku od analize sadržaja koja se uglavnom zadržava u gabaritima samog sadržaja, tj. interpretacija se uglavnom zadržava u okvirima sadržaja koji se analizira, važan moment u analizi diskursa je analiza konteksta u kojem se jezik upotrebljava, a koji generira specifičnosti određenog diskursa. Dakle, za razliku od analize sadržaja, za analizu diskursa možemo konstatirati da proučava jezik "izvan nivoa rečenice, odnosno govora i pisanog teksta" (Lakić, 2009: 91).
+
+
+## Područje primjene analize diskursa unutar komunikologije
+
+Analiza diskursa zadnjih godina sve češće se koristi unutar komunikoloških istraživanja. Naime, istraživanja posredstvom ove metode mogu značajno doprinijeti razumijevanju načina na koji se kroz medije posreduju narativi o društvenim fenomenima prisutnim u nekom društvu. Primjerice, mediji funkcioniraju kao agensi javnog mnijenja, tj. imaju utjecaj na javno mnijenje o određenom društvenom problemu ili određenom društvenom fenomenu.
+
+U tom kontekstu, analiza diskursa može se koristiti kao metoda kojom će se istražiti kako mediji konstruiraju neki društveni problem, kako ga opisuju, govore li o njemu iz perspektive određenih društvenih grupa koje raspolažu društvenom moći, zastupaju li određene interese ili kroz taj govor prenose određene ideologije. Primjerice, u članku *Nezaposlenost i neformalna ekonomija u Hrvatskoj: analiza diskursa*, Tihana Rubić (2013) analizira medijski i kolokvijalni diskurs o nezaposlenima i nezaposlenosti, tj. analizira kako se kroz medije i kroz naracije nezaposlenih perpetuiraju tipične predodžbe o nezaposlenima kao trpećim pojedincima.
+
+Dakle, sama činjenica da mediji predstavljaju značajno sredstvo konstrukcije društvene zbilje, tj. načina na koji pojedinci vide svijet oko sebe, legitimira opravdanost korištenja ove metode u komunikacijskim znanostima. Kada se tome doda činjenica da mediji nikada nisu u potpunosti ideološki neutralni, tj. da se kroz medijske objave prelamaju određeni svjetonazori ili ideološki narativi, analiza diskursa i više je nego koristan metodološki alat u rukama komunikologa. Kako se određene ideologije "upisuju" u medijske objave, prelamaju li se kroz njih određene pozicije društvene moći, može li se u njima prepoznati manifestacija partikularnih političkih ili ekonomskih interesa, samo su neka od pitanja na koje komunikolozi mogu odgovoriti posredstvom analize diskursa.
+
+
+## Provođenje analize diskursa
+
+Analiza diskursa nije "stroga" metoda. To znači da postoji mnoštvo različitih pristupa u analizi diskursa pri čemu nisu zadani strogi metodološki zahtjevi u pogledu njene izvedbe. Zbog tog razloga Fairclough metodu analize diskursa naziva transdiciplinarnom. Iz toga proizlazi da istraživač treba biti otvoren prema pomicanju ionako slabih granica koje određuju ovu metodu. On ih može razmicati, proširivati, uvoditi nove momente u pristupu analizi i interpretaciji. Ovakav status analize diskursa ujedno onemogućuje striktno, taksativno definiranje etapa i faza u njenoj provedbi kao i striktno određenje njenih najbintijih metodskih postupaka. Stoga ćemo navesti samo ključne točke u analizi diskursa koje navode pojedini autori.
+
+Fairclough (2003) ističe kako je u analizi diskursa važno pronaći ključne riječi u nekom tekstu, a zatim otkriti karakteristične obrasce odnosno veze između detektiranih riječi i onih koje se pojavljuju uz njih i koje zajedno daju određeni kontekst i specifično značenje sadržaja koji se prenosi. Sama detekcija riječi iziskuje interpretaciju. Ona je složen proces. S jedne strane ona je stvar razumijevanja rečenica ili konteksta većih dijelova teksta, razumijevanja onoga što govornik namjerava poručiti, odnosno što želi postići svojim izjavama. S druge strane, interpretacija je stvar rasuđivanja odnosno istraživačeve procjene o različitim aspektima govora, npr. govori li subjekt ozbiljno ili ne, jesu li njegove tvrdnje istinite ili nisu, govori li u skladu s realnim stanjem u društvu i institucijama kojima pripada.
+
+Polazeći od toga, može se konstatirati da Fairclough implicitno sugerira tri osnovna koraka u analizi diskursa:
+
+**1. Tekst.** Analiza teksta fokusira se na formalne karakteristike tekstova (rječnik, gramatika, kohezija, struktura teksta).
+
+**2. Diskurzivna praksa.** Analiza je usmjerena na proizvodnju, upotrebu i distribuciju diskursa koji je predmet proučavanja.
+
+**3. Društvena praksa.** Analiza društvene prakse (ili socio-kulutrne prakse) se bavi društvenim i kulturnim zbivanjima. Primjerice, proučava se politički konteksta diskurzivnih događaja te kako ideološki efekti utiču i doprinose društvenim promjenama. Ovaj razina analize navodi istraživača da ne proučava ne samo formu teksta već i to kako se tekst koristi u odgovarajućem društvenom kontekstu.
+
+
+## Foucaultovska analiza diskursa
+
+Predstavljajući jednu specifičnu inačicu analize, a koju naziva Foucaultovskom analizom diskursa, Willig (2016) predočava nekoliko osnovnih etapa posredstvom kojih se ova vrsta analize provodi. Pri tom treba napomenuti da Willig ovu vrstu analize diskursa opisuje kao analizu koja postavlja pitanja o odnosu između diskursa i načina mišljenja i osjećaja ljudi te o odnosu djelovanja (prakse) i materijalnih uvjeta pod kojim može doći do određenih iskustava i djelovanja. Dakle, njena specifičnost može se pronaći u tome što je između ostalog usmjerena i na analizu konstruiranja psihičkog života pojedinca (Willig, 2016:280-281).
+
+Prema autorici, ova inačica analize diskursa provodi se na posredstvom šest faza (Willig, 2016: 284-287):
+
+1. **Faza: Diskurzivne konstrukcije.** Prva faza analize posvećena je načinima na koji su konstruirani diskurzivni objekt. O tome na koji će se diskurzivni objekt istraživač usredotočiti ovisi o istraživačkog pitanja. Primjerice, ako smo zainteresirano za to kako ljudi govore o "bolesti", kao diskurzivni objekt definira se pojam "bolesti". Prva faza analize podrazumijeva identificiranje različitih načina na koje se diskurzivni objekt konstruira u tekstu. Dakle, izdvajaju se svi slučajevi referiranja na pojam bolesti.
+
+2. **Faza: Diskursi.** U ovoj fazi istraživač se usredotočuje na razlike među različitim diskurzivnim konstrukcijama. Naime, ono što može izgledati kao jedan isti diskurzivni objekt može biti konstruirano na različite načine. Cilj ove faze je odrediti mjesto različitih diskurzivnih konstrukcija unutar širih diskursa.
+
+3. **Faza: Praktično usmjerenje.** Ova faza sastoji se od detaljnijeg ispitivanja diskurzivnih konteksta unutar kojih se javljaju različite konstrukcije diskurzivnih objekata. Dakle, pokušava se otkriti što se postiže konstrukcijom objekta na konkretan način, na konkretnom mjestu unutar teksta.
+
+4. **Faza: Pozicioniranost.** U ovoj fazi analizira se koje subjektivne pozicije pojedini diskursi konstruiraju. Naime, diskursi konstruiraju i subjekte, tj. određuju pozicije unutar neke mreže značenja kojima se korisnici jezika mogu poslužiti.
+
+5. **Faza: Praksa.** U ovoj fazi utvrđuju se prakse koje se vežu uz određene diskurse, tj. koje socijalne prakse iz perspektive određenog diskursa postaju legitimne.
+
+6. **Faza: Subjektivnost.** Završna faza podrazumijeva istraživanje odnosa između diskursa i subjektivnosti. Diskursi čine dostupnima određene načine gledanja na svijet i određene načine života u svijetu.
+
+
+## Kritička analiza diskursa
+
+Kao što smo naveli, među teoretičarima analize diskursa, diskurs se često povezuje s konceptom društvene moći. Pretpostavka prema kojoj diskursi izražavaju težnju društvenih aktera za manifestacijom moći te socijalnom dominacijom osnovno je uporište one inačice analize diskursa koja se naziva *kritička analiza diskursa* (*eng. Critical Discourse Analysis — CDA*). Ova inačica analize diskursa smjera pokazati kako određeni diskursi funkcioniraju u specifičnim socijalnim i kulturnim praksama, kako se posredstvom njih manifestiraju odnosi moći u društvu i kako se prenose određene ideologije.
+
+Drugim riječima, kritička analiza diskursa polazi od diskursa kao čina govorenja ili pisanja, kao korpusa znanja i kao skupa postupaka koji određuju prihvatljive načine komuniciranja i uporabe tog znanja, no kojima se zagovaraju određeni društveni interesi. Kritičkom analizom diskursa želi se istražiti kako jezik funkcionira u specifičnim socijalnim i kulturnim praksama te kako je diskurs oblikovan odnosima moći.
+
+Iako postoje različite inačice ovog analitičkog pristupa Waugh i suradnici navode da postoji niz elemenata koji su zajednički svim verzijama kritičke analize diskursa (Waugh i suradnici, 2015:75):
+
+- Kritička analiza diskursa je problemski orijentirana, interdisciplinarna i eklektična metoda.
+- U fokusu njenog interesa je interes za demistifikaciju ideologija i društvene moći kroz sustavno istraživanje semiotičkih podataka.
+- Ona polazi od uvjerenja da su društvena i politička pitanja konstruirana kroz diskurs i da se manifestiraju kroz diskurs.
+- Odnosi moći se pregovaraju i ostvaruju kroz diskurs.
+- Diskurs reproducira i reflektira društvene odnose.
+- Ideologije se reproduciraju kroz diskurs.
+- Diskurs ima važnu povijesnu dimenziju.
+- Diskurs je oblik socijalne prakse i akcije.
+
+Waugh i suradnici (2015) navode da postoji pet glavnih teorijskih modela kritičke analize diskursa. Prvi je *dijalektalno-relacijski pristup* Normana Fairclougha. Drugi je Van Dijkov *sociološko-kognitivistički pristup*. Treći pristup je *pristup društvenih aktera* (*Social Actors Approach*) Thea van Leeuwena. Četvrti je *diskursno-povijesni pristup* Ruth Wodak (*Dyscourse Hystorical Approach*). Peti pristup, tzv. *dispozitivna analiza* temelji se na teoriji diskursa Michaela Focaulta te je fokusirana na kulturološke i društvene momente unutar diskursa.
+
+Iako je analiza diskursa interdisciplinarna i kvalitativna metoda istraživanja, iako je primjenjiva na istraživanje različitih društvenih fenomena, moguće joj je uputiti i nekoliko metodoloških kritika. Prije svega, to se odnosi na vrijednosnu neutralnost istraživanja, te na objektivnost u zaključivanju. Naime, u slučaju analize diskursa postoji mogućnost prevelike subjektivnosti u pojedinim etapama istraživanja.
+
+
+# Intervju
+
+Intervju se najčešće koristi kada se želi doprijeti do mišljenja i stavove pojedinaca o određenoj temi ili određenom fenomenu. On omogućuje istraživaču da sasluša sudionika istraživanja, tj. da iz prve ruke čuje njegova razmišljanja ili pojedine aspekte njegovog životnog iskustva. Jedan od uobičajenih zahtjeva intervjua je uspostavljanje prisnog odnosa između istraživača i sudionika istraživanja, a što omogućuje da pitanja, kao i odgovori idu "u dubinu", tj. omogućuje sudioniku opširno obrazloženje i tumačenje stavova, navika, ponašanja i emotivnih stanja. Zbog tog razloga, kao sinonim, vrlo često se koristi i naziv *dubinski intervju* (eng. *in-depth interwiev*).
+
+U najvećem broju slučajeva intervju se provodi kao "nedirektivni" intervju. To znači da je struktura intervjua ograničena tematikom, ali istovremeno i otvorena za njeno proširivanje. Drugim riječima, sudionik istraživanja raspravlja ili diskutira o definiranoj temi, a ne odgovara na specifična pitanja koja iziskuju odgovore tipa *da* ili *ne*, *slažem se* ili *ne slažem se* i tsl. Isto tako, iako postoji definirana tema samog intervjua, intervjuer je slobodan da istraži pojedino pitanje/temu te vodi intervju u različitim smjerovima ovisno o pojedinom sudioniku istraživanja. Prema tome, ukoliko se za to ukaže potreba, intervjuer tijekom intervjua ima slobodu kreirati nova, dodatna pitanja. Zbog navedenog intervju se najčešće provodi u formi polustrukturiranog intervjua.
+
+
+## Primjena intervjua
+
+Intervju se može primijeniti u različitim situacijama:
+
+- U eksploratornim istraživanjima, kao sredstvo familijariziranja istraživača s nekom problematikom
+- Prilikom istraživanja pripadnika nekih rijetkih populacija (npr. stručnjaci u određenom području)
+- Prilikom istraživanja tema koje mogu biti potencijalno neugodne za sudionike istraživanja
+- Kao sredstvo bolje interpretacije kvantitativnih podataka
+
+Generalno gledajući, intervjui se najčešće koriste u slučajevima kada se istraživanjem želi:
+
+- dobiti iscrpniji, dublji, bolji uvid, u stavove i razmišljanje pojedinaca
+- objasniti podrijetlo stavova i razmišljanja
+- tipologizirati određene obrasce mišljenja, stavova ili ponašanja
+- steći uvid u iskustvo ljudi
+- istražiti i opisati motive koji pokreću ljude na određene akcije
+- doći do interpretacije pojedinaca o pojedinim događajima iz njihovog života ili njihove društvene okoline
+- opisati emocije, vrednovanje i analizu neke situacije
+
+Danas se intervjui intenzivno primjenjuju u brojnim medijskim istraživanjima. Primjerice, istraživanje medijskih učinaka tema je koja je jako pogodna za istraživanje ovom metodom. Posredstvom intervjua može se doći do niza evidencija konzumenata različitih medijskih sadržaja o tome kako doživljavaju medije, kako mediji utječu na formiranje njihovih stavova imaju li utjecaja na njihovo ponašanje i sl.
+
+
+## Vođenje intervjua
+
+Intervju se uvijek provodi u formi razgovora "jedan na jedan". Obično se provodi na mjestu kojeg predloži sam sudionik istraživanja (kućanstvo, kancelarija, itd.). Uglavnom traje od 40 minuta do dva sata.
+
+Početak intervjua vrlo je bitna faza od koje u velikoj mjeri ovisi hoće li intervju biti uspješan ili ne. Na početku intervjua potrebno je uspostaviti kontakt s ispitanikom te steći njegovo povjerenje. Naime, svaki intervju za ispitanika je pomalo neprirodna situacija. On se nalazi u centru pažnje, od njega se nešto očekuje, on treba izražavati svoje mišljenje i pričati o svojim iskustvima. To za ljude u velikom broju slučajeva može biti izvor neugode što posljedično može rezultirati i različitim inhibicijama — npr. neiskrenošću, davanjem djelomičnih odgovora, brzanjem i sl.
+
+Intervju se obavlja temeljem tzv. *vodiča za intervjue* ili *protokola za intervjue*. On ima sličnu funkciju kao upitnik u anketnom istraživanju. Služi kako bi se pomoću njega vodio i usmjeravao intervju. Međutim za razliku od upitnika, u *vodiču* nisu prisutna pitanja s ponuđenim opcijama odgovora. Ponuđena su slabo strukturirana pitanja, tematske natuknice ili instrukcija za vođenje intervjua.
+
+Kao važno obilježje metode intervjua obično se ističe njegova "otvorenost". To znači da intervjuer ima slobodu proširivati ili nadopunjivati postojeća pitanja ili postaviti nova pitanja za koja smatra da su relevantna, iako ona nisu predviđena samim vodičem.
+
+
+## Pravilo iscrpnosti
+
+Vrlo bitno je da se poštuje "pravilo iscrpnosti" u vođenju intervjua. Pravilo iscrpnosti podrazumijeva da intervjuer uvijek treba tražiti da sudionik istraživanja objasni svoje odgovore, tj. ne smije se zadovoljiti šturim, kratkim, nepotpunim odgovorima.
+
+Različite vrste pod-pitanja kojima se služe intervjueri kako bi se ispunio zahtjev iscrpnosti mogu se klasificirati na sljedeći način:
+
+- **Otvoreno sondiranje:** pitanja koja počinju sa *kako, što, koji, kada i tko*. Uspješno potiču odgovor i reduciraju opreznost (defanzivnost) sudionika istraživanja.
+- **Usporedbe i kontrasti:** pitanja su to koja od sudionika zahtijevaju da diskutiraju o sličnostima i razlikama.
+- **Proširenje:** pitanja koja se nastavljaju na već pružene informacije.
+- **Pojašnjenje:** pitanja koja traže dodatna objašnjena o nečem što je već rečeno.
+
+Vođenje intervjua zahtjeva kombinaciju triju vještina: *postavljanja pitanja, slušanja i vođenja bilješki*. Bitno je napomenuti da je uobičajena praksa pri vođenju intervjua snimanje tijeka intervjua diktafonom.
+
+
+## Obrada podatka prikupljenih intervjuom
+
+Prvo korak u obradi podataka je transkripcija snimljenog govornog materijala. Transkripcija podrazumijeva prenošenje odgovora sudionika istraživanja sa snimke u pisanu formu. Primjerice, za intervju koji traje 90 min uobičajeno utroši nekoliko sati za izradu transkripata. Transkripcija obično uključuje i neverbalne podatke (uzdasi, stanke, smijeh).
+
+Iako se u konkretnim istraživačkim praksama vrlo često s obradom podataka započinjane tek nakon kraja terenskog rada, bolja solucija je da se poštuje princip simultanosti terenskog rada i interpretacije. Dakle, analizu podataka ne treba tretirati kao zasebnu faza istraživanja već kao fazu koja se odvija zajedno s prikupljanjem podataka.
+
+Prije početka završne faze u interpretaciji podataka, poželjno je da se podaci klasificiraju i reduciraju, tj. da se uobliče u formu koja omogućuje lakšu interpretaciju. Taj postupak "sređivanja podataka" obično se provodi posredstvom procesa kodiranja. Kodiranje pretpostavlja kategoriziranje / tipologiziranje iskaza, odgovora, stavova sudionika intervjua.
+
+
+# Fokus grupe (grupne diskusije)
+
+Fokus grupe ili grupne diskusije su pažljivo planirane rasprave sa svrhom stjecanja uvida u određenu temu. Osnovni cilj njihove primjene je razviti diskusiju kako bi se prikupile informacije o percepciji ili stavovima sudionika fokus grupa o specifičnoj temi (Kruger i Casey, 2004). Stoga fokus grupe nisu samo grupe ljudi koji o nečemu diskutiraju ili razgovaraju već su to posebno dizajnirane grupe u smislu da imaju svrhu, određenu veličinu, sastav i procedure (Kruger i Casey, 2004:4).
+
+U okviru jednog istraživačkog projekta uvijek se provodi veći broj fokus grupa. Minimalno dvije ili tri, a uglavnom i više od tri grupe. Broj grupa koje se realiziraju u sklopu jednog istraživanja ovisi o temi, o populaciji koji se istražuje kao i o tome koliko je potrebno dok se spoznaje ne saturiraju.
+
+U okviru jedne grupne diskusije obično sudjeluje 6 do 8 diskutanata, a sama diskusija u prosjeku traje između sat i pol i dva sata.
+
+
+## Svrhe i ciljevi grupnih diskusija
+
+Generlano može se reći da fokus grupe imaju dvije svrhe.
+
+**Prva svrha** može se definirati kao spoznajna svrha. To znači da se fokus grupe provode kako bi se došlo do određenih spoznaja. Primjerice, Skoko i Benković (2009:220) navode da se fokus grupe, između ostalog, koriste i za:
+
+- Razumijevanje ponašanja (npr. ponašanje potrošača, ponašanje glasača itd.)
+- Razumijevanje motiva i značenja koji leže ispod tih pogleda i mišljenja
+- Obrazlaganje nalaza kvantitativnog istraživanja (dubinski pogled)
+- Brzinsko istraživanje novih područja
+
+**Druga svrha** fokus grupa je metodološke prirode. To znači da se grupne diskusije često provode kako bi se prikupile informacije koje će poslužiti kako bi se bolje pripremilo neko kvantitativno istraživanje.
+
+
+## Principi izbora sudionika grupnih diskusija
+
+U izboru sudionika grupnih diskusija, kao i u slučaju intervjua, principi uzorkovanja razlikuju se od uobičajenih principa uzorkovanja u istraživanjima metodom ankete. U grupnim diskusijama kao sudionike istraživanja najčešće se pokušava uključiti one osobe koje su relevantne za određenu temu.
+
+Pri izboru sudionika grupnih diskusija važno je ispuniti dva zahtjeva:
+
+1. **Homogenost:** sudionici diskusija moraju biti homogeni po karakteristikama koje su važne s obzirom na samu temu grupne diskusije
+2. **Nepoznavanje:** fokus grupe trebaju sačinjavati osobe koje se ne poznaju
+
+
+## Uloga sudionika grupnih diskusija
+
+Sudionici fokus grupa istraživačima pružaju potrebne informacije (mišljenja, iskustva, emocije) o onome što je predmet istraživanja. Mogu se izdvojiti tri specifične uloge:
+
+1. **Sudionici kao reporteri:** od sudionika se traži da svjedoče, izvještavaju o određenim događajima
+2. **Sudionici kao interpretatori:** od sudionika fokus grupa se traži da interpretiraju određene događaje ili fenomene ili da ih komentiraju
+3. **Sudionici kao suradnici:** diskutantni se tretiraju kao suradnici u procesi generiranja ideja
+
+
+## Moderator i vođenje grupnih diskusija
+
+Fokus grupe vodi moderator. Najčešće je riječ o istraživaču koji je uključen u sve faze (ili u većinu faza) istraživačkog projekta i koji ima iskustvo u vođenju, tj. moderiranju grupnih diskusija. On moderira grupnu diskusiju na temelju *vodiča* ili *protokola za vođenje fokus grupe*.
+
+Uloga moderatora uključuje poticanje sudionika da slobodno izražavaju svoje stavove, mišljenja, osjećaje i emocije bez ikakve pristranosti ili pritiska od strane ostalih sudionika fokus grupe i samog moderatora. Moderator "kormilari" grupom što znači da je njegova uloga više pasivna nego aktivna.
+
+Kvalitetno vođenje fokus grupa moguće je samo ukoliko je istraživač-moderator znalac u problematici koja se istražuje, znalac u vođenju grupa kao i osoba talentirana za rad u tako kompleksnom mikro-socijalnom okružju kao što su grupne diskusije.
+
+
+## Vodič ili protokol za moderiranje fokus grupa
+
+Vodič ili protokol za grupne diskusije ima istu funkciju kao vodič ili protokol u slučaju intervjua. On je uglavnom slabo strukturiran, tj. sastoji se od natuknica, provizornih pitanja koja usmjeravaju diskusiju u određenom smjeru.
+
+Kruger i Casey navode kako postoji nekoliko tipičnih grupa pitanja kroz koja moderator prolazi tijekom fokus grupa:
+
+1. **Pitanja kojima se otvara diskusija:** Svrha ovih pitanja nije prikupljanje nekih informacija bitnih s obzirom na ciljeve istraživanja, već poticanje sudionika diskusija da govore i da se osjećaju ugodno.
+2. **Uvodna pitanja:** Služe za upoznavanje s temom rasprave i osvješćivanje potencijalne povezanosti sudionika s temom.
+3. **Prijelazna pitanja:** Ova pitanja usmjeravaju diskusiju prema ključnim temama zbog kojih se ona i provodi.
+4. **Ključna pitanja:** Riječ je o pitanjima koja su ključna u pogledu ispunjavanja glavnih ciljeva istraživanja.
+5. **Završna pitanja:** Radi se o pitanjima kojima obično moderator omogućuje sudionicima diskusije da sumiraju sve ključne činjenice.
+
+
+## Projektivne tehnike
+
+Krueger i Casey (2000: 40) ističu kako svaku fokus grupu možemo protumačiti kao jedan društveni eksperiment. U grupnim diskusijama često se koriste tzv. projektivne tehnike. One se koriste kako bi se doprlo do dubljih aspekata / dimenzija mišljenja i stavova diskutanata. Suština projektivnih tehnika ogleda se u izlaganju nedovoljno strukturiranih materijala, a koji služe kao "podražaj", ili sredstvo poticanja grupne diskusije.
+
+Neke od osnovnih koristi upotrebe projektivnih tehnika u fokus grupama su: potiče se diskusija, neutralizira se "efekt-inkvizicije", potiče se kreativnost, potiče se imaginativnost, lakše se dopire do skrivenih / latentnih dimenzija stavova.
+
+### Primjeri projektivnih tehnika
+
+**Sortiranje pojmova**
+Ova tehnika korisna je u situacijama u kojima se od sudionika fokus grupa traži da karakteriziraju neki predmet, osobu, objekt.
+
+**Bull eye / pikado**
+Najčešće se koristi u istraživanjima imidža — npr. imidž političkog kandidata, stranke, branda, medija.
+
+**Tehnika asocijacija na riječ**
+Npr. *Što Vam prvo padne na pamet kad kažem Instagram story?* Cilj ove projektive tehnike je brzo i spontano otkriti prve asocijacije, osjećaje i stavove.
+
+**Tehnika personifikacije**
+Od ispitanika se traže da zamisle da je određeni objekt osoba te da opišu njegove demografske i statusne karakteristike.
+
+**Tehnika umne mape**
+Tehnika umne (ili *mind map*) mape podrazumijeva vizualno prikazivanje mentalne slike i asocijacija koje su povezane s određenim konceptom.
+
+**Tehnika kolaža**
+Sudionicima fokus grupa daju se različiti materijali — časopisi, novine, slike, fotografije, kartice s riječima, flomasteri, post-it papirići, škare i ljepilo, a s ciljem da izrade kolaž na određenu temu.
+
+
+## Spoznajne koristi i ograničenja grupnih diskusija
+
+Važna spoznajna korist koja se postiže korištenjem metode fokus grupa proizlazi upravo iz "rada grupe". Naime, ideja fokus grupa nije pronaći 6 do 8 osoba, smjestiti ih u jednu prostoriju i onda im postavljati pitanja na koja oni pojedinačno odgovaraju. Dakle, ne radi se o osam intervjua koji se simultano provode na jednom mjestu.
+
+Osnovna ideja koja leži u pozadini provođenja grupnih diskusija je ideja o stvaranju grupne kohezije i grupne dinamike koja će poticajno djelovati na iznošenje stavova, ideja, mišljenja, prijedloga.
+
+**Ograničenja:** u određenim situacijama grupnu dinamiku teško je postići. Također, problem se može javiti i kada su prisutne velike varijacije u podacima koji se prikupljaju grupnim diskusijama. I treće, kao i u slučaju ostalih kvalitativnih metoda, način interpretacije podataka može rezultirati prevelikom subjektivnosti pri izvođenju zaključaka.
+
+
+# Utemeljena teorija i kodiranje
+
+Utemeljenu teoriju (eng. *Grounded Theory*) fundirali su sociolozi Barney Glaser i Anselm Strauss. Predstavili su je u knjizi *The Discovery of Grounded Theory. Strategies of Qualitative Research* (1967). Smatrali su da istraživačka kultura u društvenim znanostima favorizira kvantitativnu verifikaciju te da podcjenjuje kvalitativne studije čiji je cilj generiranje teorija. Stoga su razvili kvalitativnu metodološku strategiju koja razvija teorijske uvide o društvu temeljem podataka prikupljenih različitim kvalitativnim metodama istraživanja.
+
+Najznačajnije obilježje utemeljene teorije je da se u istraživanje ne kreće od postojeće teorije koju se pokušava testirati, nego se kreće od prikupljanju podatka koji će pružiti razumljivu i dostatnu osnovu za oblikovanje novih znanstvenih teorija (Škrbić Alempijević, Potkonjak i Rubić 2016).
+
+Dakle, suština utemeljene teorije nalazi se u propoziciji da teorija nastaje iz podataka, a ne odvojeno od njih. To znači da istraživači ne započinju istraživanje s unaprijed formuliranim hipotezama ili teorijskim propozicijama, već dopuštaju da podaci koje prikupljaju sami oblikuju teorijske okvire i uvide.
+
+
+## Ključne uporišne točke utemeljene teorije
+
+Ključne uporišne točke utemeljene teorije su metoda stalne usporedbe, teorijsko uzokovanje te kodiranje (Jeđud, 2007:87).
+
+**Metoda stalne usporedbe** ili "kruženje po podacima" podrazumijeva da istraživač istovremeno prikuplja, analizira i povezuje podatke i kroz cijeli proces istraživanja.
+
+**Teorijsko uzorkovanje** podrazumijeva proces prikupljanja podataka te selekciju građe koja se analizira na temelju njene relevantnosti za istraživačko pitanje, teoretsku poziciju, analitički okvir i teoriju koju razvijamo.
+
+**Teorijska zasićenost** označava trenutak kada novi podaci više ne donose nove informacije, kategorije ili uvide. Drugim riječima, kada istraživač vidi da se slične stvari ponavljaju dovoljno puta, istraživač može biti siguran da je kategorija dovoljno zasićena.
+
+
+## Tri razine kodiranja
+
+Kodiranje podrazumijeva grupiranje sličnih podataka, npr. iskaza prikupljenih intervjuima, pri čemu se to grupiranje temelji na nekoj, najčešće tematskoj logici. Kodiranje je osnovni analitički postupak utemeljenje teorije (Škrbić Alempijević, Potkonjak i Rubić 2016).
+
+Corbin i Strauss razlikuju tri faze u kodiranju kvalitativnog materijala:
+
+### 1. Otvoreno kodiranje (Open Coding)
+
+Otvoreno kodiranje je početna faza analize podataka, u kojoj istraživači identificiraju i označavaju značajne dijelove podataka (kao što su rečenice, izrazi ili događaji) koji mogu biti relevantni za istraživačko pitanje. Ono se sadžajno odnosi na kompariranje podataka i definiranje sličnosti i razlika.
+
+Cilj otvorenog kodiranja je prepoznati što više mogućih tema, kategorija i fenomena u podacima, bez prethodnih pretpostavki.
+
+### 2. Aksijalno / osno kodiranje
+
+Osno kodiranje se odvija nakon što su podaci inicijalno kodirani u fazi otvorenog kodiranja. Ovdje se nastoji povezati različite kategorije i kodove iz prve faze. Cilj je stvoriti međusobne veze između kodova i razumjeti kako se pojedini aspekti podataka odnose na središnje pojmove ili tematske kategorije.
+
+U ovoj fazi se traže uzročno-posljedične veze, kontrasti i varijacije, te se razvijaju centralne kategorije koje objašnjavaju glavne fenomene.
+
+### 3. Selektivno kodiranje (Selective Coding)
+
+Selektivno kodiranje je posljednja faza kodiranja u utemeljenoj teoriji. Ona pretpostavlja da već imamo razvijene dostatne kategorije. U ovoj fazi kodiranja istraživači se fokusiraju na razvijanje središnje kategorije koja najbolje objašnjava sve ostale kategorije i fenomene identificirane tijekom otvorenog i osnog kodiranja.
+
+Ideja središnje kategorije je da daje "jasnu sliku koja to kategorija ili konceptualna etiketa integrira cjelokupnu analizu" (Corbin i Strauss 1990: 14).
+
+
+## Primjer kodiranja kvalitativnog materijala
+
+Provedeno je deset dubinskih intervjua s građanima Pule kako bi se istražila njihova percepcija grada, kvalitete života u Puli i obilježja Pule kao specifičnog urbanog centra.
+
+**Neki od prikupljenih odgovora:**
+*"rimski grad", položaj uz more, ni premali ni prevelik, mirniji život, ni grad — ni selo, život bez stresa, sve je nadohvat ruke, tolerancija prema ljudima različitih vjera i nacija, suživot, nema velikih socijalnih razlika, politički sukobi u zoni "normalnog", brojne povijesne atrakcije, idealan omjer veličine grada i broja stanovnika, arena, hrvatska verzija multikulturalizma, lakše za obitelj, "blizu kontinentu", austro-ugarska na moru, opušteniji život, blizu turistima iz EU, mediteran na kontinentu, konsenzus oko bitnih političkih pitanja.*
+
+### Inicijalno kodiranje
+
+| Kod | Sadržaj |
+|:----|:--------|
+| Kod br. 1: Optimalna veličina grada | ni premali ni prevelik, niti grad niti selo, idealan omjer veličine grada i broja stanovnika |
+| Kod br. 2: Lakša organizacija svakodnevnice | mirniji, opušteniji život, život bez stresa, lakše za obitelj, sve je nadohvat ruke |
+| Kod br. 3: Tolerantnost | tolerancija prema ljudima različitih vjera i nacija, suživot, hrvatska verzija multikulturalizma |
+| Kod br. 4: Nekonfliktnost | nema velikih socijalnih razlika, konsenzus oko bitnih pitanja, politički sukobi u zoni "normalnog" |
+| Kod br. 5: Povijest | brojne povijesne atrakcije, arena, "rimski grad" |
+| Kod br. 6: Geografski položaj | položaj uz more, "blizu kontinentu", austro-ugarska na moru, blizu turistima iz EU, mediteran na kontinentu |
+
+: Inicijalno kodiranje iskaza o percepciji Pule {#tbl-init-kod}
+
+### Osno kodiranje
+
+| Inicijalni kodovi | Osni kodovi |
+|:------------------|:------------|
+| Kod br. 1: Optimalna veličina grada | **"Grad po mjeri čovjeka"** |
+| Kod br. 2: Lakša organizacija svakodnevnice | |
+| Kod br. 3: Tolerantnost | **"Društvena stabilnost i sigurnost"** |
+| Kod br. 4: Nekonfliktnost | |
+| Kod br. 5: Povijest | **"Bogata tradicija i povoljan geografski položaj"** |
+| Kod br. 6: Geografski položaj | |
+
+: Osno kodiranje — povezivanje inicijalnih kodova {#tbl-osno-kod}
+
+### Selektivno kodiranje — tumačenje ishoda
+
+Pula se od njenih stanovnika doživljava kao grad bogate urbane povijesti i kvalitetnog života u sadašnjosti. Njena bogata povijest te povoljan geografski položaj određuju i njegovu sadašnjost. Obilježava ju kvalitetan urbani ambijent, sigurnost, niska razina konflikta te društvena tolerancija. Pula je grad po mjeri građana — grad optimalne veličine u kojem je kvalitetno moguće organizirati svakodnevnice socijalni život.
+
+
+# Pisanje istraživačkog izvještaja zasnovanog na kvalitativnim podacima
+
+Nakon što je dovršena prva faza analize kvalitativnih podataka — njihovo sređivanje kroz proces kodiranja — slijedi pisanje kvalitativnog istraživačkog izvještaja. Riječ je o složenom i zahtjevnom zadatku.
+
+Pisanje kvalitativnog izvještaja, prije svega, zahtijeva vrijeme. Kvalitativni podaci — bilo da su rezultat intervjua, fokus grupa, opservacija ili analize dokumenata — i nakon kodiranja bogati su značenjem, višeslojni su i često proturječni. Njihovo interpretativno oblikovanje traži mnogo više od pukog rezimiranja kodiranja: ono zahtijeva dubinsko razumijevanje konteksta i vrlo često kontinuirano vraćanje na sirovi empirijski materijal.
+
+Za razliku od kvantitativnih istraživanja, pisanje kvalitativnog izvještaja uglavnom je puno manje standardizirano. Obično je istraživač taj koji uspostavlja vlastitu logiku izlaganja, utemeljenu na teorijskom okviru, istraživačkim pitanjima i naravi samih podataka.
+
+
+## Gusta deskripcija
+
+Središnje mjesto u kvalitativnom pisanju zauzima koncept guste deskripcije (*thick description*), koji je u znanstveni diskurs uveo antropolog Clifford Geertz (1973). Ovaj pristup podrazumijeva da se ponašanje i izjave sudionika ne promatraju izolirano, već se interpretiraju u njihovom širem kulturnom, društvenom i simboličkom kontekstu.
+
+Gusta deskripcija omogućuje čitatelju da dublje razumije društveni svijet sudionika kvalitativnih istraživanja, gotovo iz njihove vlastite perspektive, pri čemu interpretacije istraživača ostaju ukorijenjene u značenjskim strukturama samih aktera.
+
+U praksi, ona uključuje:
+
+- detaljan prikaz konteksta u kojemu se podaci pojavljuju
+- odnosi među akterima, prostor, jezik, vremenski okvir
+- subjektivnu perspektivu sudionika, njihova značenja, emocije i namjere
+- povezivanje pojedinačnih izjava s kolektivnim obrascima ponašanja
+- refleksivan pristup ulozi istraživača i njegovom utjecaju na proces interpretacije
+
+
+## Uloga citata
+
+Jedan od ključnih elemenata guste deskripcije jesu upravo citati sudionika. U izvještajima koji se temelje na rezultatima intervjua ili fokus grupa, istraživači često uključuju brojne citate, kojima podupiru vlastite interpretacije i osiguravaju njihovu empirijsku utemeljenost.
+
+No citati ne služe samo kao ilustracija već i kao sredstvo za prikaz nijansi unutar iste tematske cjeline te kao način da se prikažu razlike u iskustvima i perspektivama sudionika.
+
+Kako bi citati ispunili svoju analitičku funkciju, potrebno ih je uključivati promišljeno i uz pridržavanje tehničkih i etičkih smjernica:
+
+- Svaki citat treba biti jasno smješten unutar analitičkog okvira
+- Moguće je skraćivati duže iskaze radi preglednosti, ali bez narušavanja njihova značenja
+- Posebna pažnja posvećuje se zaštiti identiteta sudionika — koristi se pseudonime
+- Potrebno je održati ravnotežu između količine citata i analitičkog teksta
+
+
+## Struktura kvalitativnog izvještaja
+
+Kvalitativni izvještaj najčešće sadrži sljedeće dijelove:
+
+- **Uvod:** definira se istraživački problem, postavljaju istraživačka pitanja i iznosi teorijski okvir
+- **Metodologija:** opisuje se način prikupljanja podataka, profil sudionika, kodiranje i analitički pristup
+- **Analitički dio:** središnji segment izvještaja, organiziran kroz tematske cjeline ili analitičke kategorije. Interpretacije se isprepleću s ilustrativnim citatima
+- **Diskusija i zaključci:** rezultati se povezuju s teorijskim pretpostavkama, ukazuje se na ograničenja istraživanja te se otvaraju nova pitanja i pravci za buduća istraživanja
+
+Na kraju, važno je istaknuti da je pisanje kvalitativnog izvještaja više od pukog prenošenja podataka. Riječ je o stvaralačkom činu u kojem se empirijski materijal pretače u analitički narativ.
+
+
+# Literatura {.unnumbered}
+
+Corbin, J., & Strauss, A. (1990). Grounded theory research: Procedures, canons, and evaluative criteria. *Qualitative Sociology*, 13(1), 3-21.
+
+Creswell, J. W. (2009). *Research design: Qualitative, quantitative, and mixed methods approaches* (3rd ed.). Sage.
+
+Daymon, C., & Holloway, I. (2002). *Qualitative research methods in public relations and marketing communications*. Routledge.
+
+Fairclough, N. (2003). *Analysing discourse: Textual analysis for social research*. Routledge.
+
+Geertz, C. (1973). *The interpretation of cultures*. Basic Books.
+
+Glaser, B. G., & Strauss, A. L. (1967). *The discovery of grounded theory: Strategies for qualitative research*. Aldine.
+
+Halmi, A., Belušić, R., & Ogresta, J. (2004). Metodološki aspekti analize diskursa. *Hrvatska revija za rehabilitacijska istraživanja*, 40(1), 35-52.
+
+Jeđud, I. (2007). Alisa u zemlji čuda — kvalitativna metodologija i izrada utemeljene teorije. *Hrvatska revija za rehabilitacijska istraživanja*, 43(2), 83-98.
+
+Krueger, R. A., & Casey, M. A. (2000). *Focus groups: A practical guide for applied research* (3rd ed.). Sage.
+
+Lakić, I. (2009). Diskurs i moć: Kritička analiza diskursa. *Anali Filološkog fakulteta*, 21, 89-103.
+
+Marshall, C., & Rossman, G. B. (2011). *Designing qualitative research* (5th ed.). Sage.
+
+Rubić, T. (2013). Nezaposlenost i neformalna ekonomija u Hrvatskoj: analiza diskursa. *Studia ethnologica Croatica*, 25(1), 61-91.
+
+Seidman, I. (2006). *Interviewing as qualitative research: A guide for researchers in education and the social sciences* (3rd ed.). Teachers College Press.
+
+Skoko, B., & Benković, V. (2009). Znanstvena metoda fokus grupa — mogućnosti i načini primjene. *Politička misao*, 46(3), 217-236.
+
+Škrbić Alempijević, N., Potkonjak, S., & Rubić, T. (2016). *Misliti etnografski: kvalitativni pristupi i metode u etnologiji i kulturnoj antropologiji*. Filozofski fakultet, FF Press.
+
+Strauss, A. (2003). *Qualitative analysis for social scientists*. Cambridge University Press.
+
+Tkalac Verčić, A., Sinčić Ćorić, D., & Pološki Vokić, N. (2010). *Priručnik za metodologiju istraživačkog rada*. M.E.P.
+
+Tomić-Koludrović, I., & Leburić, A. (2002). *Sociologija životnog stila: Prema novoj metodološkoj strategiji*. Naklada Jesenski i Turk.
+
+Waugh, L. R., Catalano, T., Al Masaeed, K., Hong Do, T., & Renigar, P. G. (2015). Critical discourse analysis: Definition, approaches, relation to pragmatics, critique, and trends. In A. Capone & J. L. Mey (Eds.), *Interdisciplinary Studies in Pragmatics, Culture and Society* (pp. 71-135). Springer.
+
+Willig, C. (2016). *Introducing qualitative research in psychology* (3rd ed.). Open University Press.

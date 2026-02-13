@@ -1,0 +1,359 @@
+---
+title: "Epistemološke osnove istraživanja"
+---
+
+DruÅ¡tvene znanosti, pa tako i komunikologija, su multimetodske. To znaÄi
+da su u okviru njih razvijene brojne metode, istraÅ¾ivaÄke tehnike i
+metodski postupci kojima se znanstvenici koriste prilikom istraÅ¾ivanja
+druÅ¡tvenih fenomena. Na najopÄ‡enitijoj razini, spomenuto metodsko
+bogatstvo moÅ¾e se klasificirati u dvije kategorije: *kvantitativne i
+kvalitativne metode istraÅ¾ivanja.*
+
+[Jednostavno reÄeno, kvantitativne metodama pokuÅ¡avaju se objasniti
+kvantitativne relacije u pojavama koje se istraÅ¾uju (npr. broj ljudi
+koji konzumira odreÄ‘eni medij), dok se kvantitativnim metodama
+pokuÅ¡avaju interpretirati motivi socijalnih aktera (npr. Å¡to ih potiÄe
+da konzumiraju odreÄ‘eni medij) ili znaÄenja koji oni daju svojim
+akcijama ili pojedinim fenomenima u socijalnom
+svijetu]{.mark}[^9][.]{.mark}
+
+Bez obzira na razlike koje meÄ‘u njima postoje, istraÅ¾ivaÄi koji koriste
+bilo kvantitativne, bilo kvalitativne metode, polaze od toga da
+znanstveno spoznavanje druÅ¡tvenih fenomena mora biti utemeljeno na
+podacima iz stvarnog svijeta (Maravsti, 2004). Dakle, ove dvije metodske
+grupe nastoje posredstvom empirijskih podataka opisati, objasniti,
+razumjeti i interpretirati kompleksnu socijalnu stvarnosti. Iako se radi
+o dva pristupa koja su po svojem temeljnom cilju komplementarni,
+obiljeÅ¾avaju ih razlike u filozofskim korijenima i epistemoloÅ¡kim
+izvorima (Halmi, 1996).
+
+Kvantitativne metode istraÅ¾ivanja svoje ishodiÅ¡te pronalaze primarno u
+empiristiÄkoj i pozitivistiÄkoj spoznajno-teorijskoj tradiciji.
+Kvalitativne metode istraÅ¾ivanja svoje spoznajno-teorijske korijene
+baÅ¡tine u hermeneutiÄkoj tradiciji, fenomenologiji kao i opÄ‡enito u
+interpretativnim pristupima razvijenim u okviru druÅ¡tvenih znanosti --
+npr. etnometodologiji i simboliÄkom interakcionizmu.
+
+## Spoznajno-teorijske osnove kvantitativnih metoda istraÅ¾ivanja
+
+Empirizam kao specifiÄna filozofsko-gnoseoloÅ¡ka tradicija pojavljuje se
+u Engleskoj u drugoj polovini 17. stoljeÄ‡a. Najistaknutiji predstavnici
+empirizma su John Lock, Francis Bacon i David Hume. Osnovni postulat
+empiristiÄke filozofije je onaj prema kojem je spoznaja moguÄ‡a samo
+temeljem iskustva. Pozitivizam kao specifiÄan filozofski smjer, blizak
+empirizmu, nastaje u 19. stoljeÄ‡u, a njegove ideje prvi je proklamirao
+Auguste Comte. U svom djelu *Kurs pozitivne filozofije* on odbacuje
+metafiziku kao princip spoznaje te kao i empiristi, takoÄ‘er postulira
+iskustvo kao jedini izvor pozitivne spoznaje. Smatra da je spoznaja
+moguÄ‡a samo na temelju empirijskih Äinjenica, a idealni naÄin
+spoznavanja je onaj koji je utemeljen u okviru prirodnih znanosti.
+Daljnji doprinos razradi pozitivistiÄkih i empiristiÄkih principa
+poÄetkom dvadesetog stoljeÄ‡a dali su filozofi koji su zastupali naÄela
+tzv. logiÄkog pozitivizma. LogiÄki pozitivisti tzv. *BeÄkog kruga* (npr.
+Hahn, Neurath, Carnap)[^10] znanstveno shvaÄ‡anje svijeta prvenstveno
+odreÄ‘uju s dvije oznake -- kao empiristiÄko i pozitivistiÄko: â€žpostoji
+samo iskustvena spoznaja, koja postoji na onome neposredno danome"
+(Hahn, Neurath, Carnap: 2005,29). Smatraju da znanstveno shvaÄ‡anje
+svijeta na poznaje nikakvu bezuvjetno valjanu spoznaju iz Äistog uma,
+nikakve sintetiÄke sudove â€ža priori" te da znanstveno shvaÄ‡anje svijeta
+ne poznaje nikakve nerjeÅ¡ive zagonetke, veÄ‡ da je usmjereno na
+rjeÅ¡avanje empirijskih problema (Hahn, Neurath, Carnap: 2005). MoÅ¾e se
+konstatirati da logiÄki pozitivizam promiÄe naÄelo verifikacije koje
+naglaÅ¡ava empiristiÄko stajaliÅ¡te, a metafiziÄke principe odbacuje kao
+besmislene.
+
+U jednom Å¡irem smislu, tradicija pozitivistiÄke filozofije promiÄe i
+ideju da fenomeni koji se opaÅ¾aju na jedan direktan naÄin utjeÄu na naÅ¡e
+i opaÅ¾anje, tj. da postoji direktna korespondencija izmeÄ‘u stvari i
+njihovih reprezentacija. Zbog toga je i moguÄ‡e opisati vanjski svijet i
+to na ispravan naÄin (Willig: 2016:25). Prema Milasu (2009:15)
+pozitivizmu je svojstveno uvjerenje o postojanju spoznatljive zbilje
+upravljane nepromjenjivim prirodnim zakonima. Stoga se znanost, sukladno
+pozitivistiÄkom uÄenju, treba baviti otkrivanjem zakona koji uobliÄuju
+ono Å¡to prepoznajemo pod objektivnom stvarnoÅ¡Ä‡u. PozitivistiÄko glediÅ¡te
+shodno Milasu moÅ¾e se razloÅ¾iti na nekoliko temeljnih naÄela:
+
+1.  Prirodom vlada red.
+
+2.  Priroda je spoznatljiva.
+
+3.  Znanje je nadmoÄ‡no neznanju.
+
+4.  Sve prirodne pojave imaju prirodne uzroke.
+
+5.  NiÅ¡ta nije samo po sebi razumljivo.
+
+6.  Znanje se usvaja iskustvom.
+
+Prema pozitivistiÄkom shvaÄ‡anju, ova naÄela mogu se primijeniti i na
+druÅ¡tvene znanosti. Prvenstveno to se odnosi na shvaÄ‡anje da se druÅ¡tvo
+moÅ¾e razumjeti kao ureÄ‘eni sustav u kojem vlada red. To podrazumijeva da
+u druÅ¡tvu djeluje niz zakona neovisnih od individualnog djelovanja
+druÅ¡tvenih aktera, tj. da druÅ¡tveni zakoni djeluju neovisno od
+pojedinaca. Primjerice, prema francuskom sociologu Emilu Durkheimu,
+sociologija se bavi prouÄavanjem *druÅ¡tvenih Äinjenica*, tj. bavi se
+onime Å¡to je izvanjsko pojedincu i Å¡to je nezavisno od pojedinaÄnog
+djelovanja (Durkheim, 1999). DruÅ¡tveni zakoni koji opisuju objektivnu,
+od pojedinca neovisnu druÅ¡tvenu stvarnost mogu se spoznati empirijskim
+Äinjenicama. PosljediÄno tome, kao i prirodne znanosti i druÅ¡tvene
+znanosti trebale bi biti usmjerene ka spoznaji druÅ¡tvenih zakona, tj.
+trebale bi biti usmjerene ka spoznaji kauzalnih odnosa izmeÄ‘u varijabli
+kojima se mogu opisati pojedine druÅ¡tvene pojave. Zbog toga bi se iz
+pozitivistiÄke perspektive istraÅ¾ivaÄki postupci druÅ¡tvenih znanosti
+trebali temeljiti na identiÄnim metodskim principima kao i istraÅ¾ivaÄki
+postupci u prirodnim znanostima. To znaÄi da usprkos razlika u predmetu
+istraÅ¾ivanja, pozitivizam promiÄe ideju **metodoloÅ¡kog monizma**, tj.
+promiÄe ideju o jedinstvu metoda prirodnih i druÅ¡tvenih znanosti (Halmi,
+1999:12). Drugim rijeÄima, pozitivistiÄka spoznajno-teorijska tradicija
+sugerira da naÄin bavljenja znanoÅ¡Ä‡u, naÄin na koji se postavljaju
+znanstvena pitanja i daju znanstveni odgovori u sluÄaju druÅ¡tvenih i
+prirodnih znanosti treba biti identiÄan. Kao i prirodne, i druÅ¡tvene
+znanosti trebaju se usmjeriti prema traganju za kauzalnim odnosima. Kao
+i u prirodnim znanostima, i u druÅ¡tvenim znanostima istraÅ¾ivaÄ â€žnastoji
+utvrditi Å¡te se zbilo s deskriptivnim varijablama, pa zbivanja pretvara
+u ljestvice, mjerenja, brojeve, tabele, grafikone itd.., a matematiÄko
+statistiÄke formalizacije sastavni su dio znanstvenog istraÅ¾ivanja"
+(TomiÄ‡-KoludroviÄ‡ i LeboriÄ‡: 2002: 203-204). Dakle, ova
+spoznajno-teorijska tradicija promiÄe ideju da druÅ¡tvene znanosti svoje
+predmete trebaju prouÄavati na identiÄan naÄin kao Å¡to to rade i
+prirodne znanosti. Upravo navedenu epistemoloÅ¡ku postavku moÅ¾emo
+smatrati kamenom temeljcem razvoja kvantitativnih metoda istraÅ¾ivanja u
+druÅ¡tvenim znanostima. Ona se moÅ¾e opisati i putem sljedeÄ‡ih obiljeÅ¾ja:
+
+-   DruÅ¡tveni svijet je neovisan od pojedinaÄnog djelovanja.
+
+-   Spoznaja druÅ¡tvenog svijeta pretpostavlja spoznaju druÅ¡tvenih
+    zakona.
+
+-   Osjetilno / empirijsko opaÅ¾anje utemeljuje pravo znanje o druÅ¡tvu.
+
+-   Ideal empirijskih evidencija onaj je iz prirodnih znanosti --
+    svojstva druÅ¡tvenog svijeta mogu se objasniti kvantitativnim
+    podacima (statistiÄka forma podataka).
+
+-   IstraÅ¾ivanje zapoÄinje teorijom iz koje se izvode hipoteze koje se
+    zatim testiraju temeljem empirijskih podataka. Testiranjem se
+    hipoteze prihvaÄ‡aju, modificiraju ili odbacuju. Time se i sama
+    teorija od koje se kreÄ‡e u istraÅ¾ivanje prihvaÄ‡a, nadograÄ‘uje,
+    modificira ili odbacuje.
+
+PosljediÄno ovim spoznajno-teorijskim postulatima, kao osnovna obiljeÅ¾ja
+kvantitativnih metoda u druÅ¡tvenim znanostima moÅ¾emo izdvojiti sljedeÄ‡e:
+
+**Tablica 2.** *Osnovna obiljeÅ¾ja kvantitativnih metoda istraÅ¾ivanja u
+druÅ¡tvenim znanostima*
+
++-----------------------------------------------------------------------+
+| **Pretpostavke**:                                                     |
+|                                                                       |
+| -   DruÅ¡tvene Äinjenice imaju objektivnu realnost                     |
+|                                                                       |
+| -   Varijable se mogu identificirati, a odnosi mjeriti                |
+|                                                                       |
+| -   Pogled izvana                                                     |
+|                                                                       |
+| -   IstraÅ¾ivaÄ unaprijed zna Å¡to traÅ¾i                                |
+|                                                                       |
+| -   Dizajn istraÅ¾ivanja je zatvoren -- svi aspekti istraÅ¾ivanja       |
+|     paÅ¾ljivo su dizajnirani prije nego Å¡to se krene u istraÅ¾ivanje    |
++=======================================================================+
+| **Svrha**:                                                            |
+|                                                                       |
+| -   Testiranje hipoteza                                               |
+|                                                                       |
+| -   PoopÄ‡avanje                                                       |
+|                                                                       |
+| -   Predikcija                                                        |
+|                                                                       |
+| -   Kauzalna objaÅ¡njenja                                              |
++-----------------------------------------------------------------------+
+| **Pristup**:                                                          |
+|                                                                       |
+| -   PoÄinje hipotezom i teorijama                                     |
+|                                                                       |
+| -   Upotreba formalnih instrumenata                                   |
+|                                                                       |
+| -   Deduktivno zakljuÄivanje                                          |
+|                                                                       |
+| -   Reducira podatke na numeriÄke indicije                            |
++-----------------------------------------------------------------------+
+| **Uloga istraÅ¾ivaÄa:**                                                |
+|                                                                       |
+| -   Odvojenost i nepristranost                                        |
+|                                                                       |
+| -   Objektivna interpretacija -- precizno mjerenje, objektivnost,     |
+|     pouzdanost                                                        |
++-----------------------------------------------------------------------+
+
+Izvor: Adaptirano prema Skoko-BenkoviÄ‡ (2009).
+
+Dobar primjer komunikoloÅ¡kog istraÅ¾ivanja koje bi bilo provedeno metodom
+kojoj su svojstvena sva predoÄena obiljeÅ¾ja kvantitativnih metoda,
+istraÅ¾ivanje je medijske pismenosti metodom ankete. Takvo istraÅ¾ivanje
+moglo bi biti provedeno na naÄin da se u izradu mjernog instrumenta -
+ankete, krene od nekih od postojeÄ‡ih definicija medijske pismenosti.
+Primjerice, medijska pismenost se uobiÄajeno definira kao sposobnost
+pristupanja, analize i vrednovanja medija u razliÄitim formama te kao
+kompetentna komunikacija unutar tih formi (Livingstone, 2004, Bulger,
+2012). Na osnovu ove definicije mogu se razviti empirijski indikatori
+(pitanja u upitniku, tj. mjerne ljestvice) posredstvom kojih Ä‡e se
+mjeriti medijska pismenost na odreÄ‘enoj populaciji (npr. svi punoljetni
+graÄ‘ani RH). Prilikom konstrukcije mjernog instrumenta (upitnika) pazit
+Ä‡e se na pouzdanost i valjanost konstruiranih mjernih ljestvica. U
+nacrtu istraÅ¾ivanja biti Ä‡e postavljeno nekoliko istraÅ¾ivaÄkih hipoteza
+koje Ä‡e se testirati na osnovu prikupljenih podataka. Npr. moguÄ‡e je
+postaviti hipotezu da razina medijske pismenosti ovisi o obrazovanju
+osobe. Ili, moguÄ‡e je postaviti hipotezu da su osobe mlaÄ‘e od 40 godina
+medijski pismenije od osoba starijih od 40 godina. Nakon Å¡to se na
+odreÄ‘enom znanstveno konstruiranom uzorku provede istraÅ¾ivanje i prikupe
+podaci, temeljem statistiÄkih procedura testirat Ä‡e se postavljene
+hipoteze te Ä‡e se na osnovu rezultata statistiÄkih testova kao
+objektivnih mjerila one odbaciti ili prihvatiti. Shodno tome donijeti Ä‡e
+se i zakljuÄci.
+
+
+## Spoznajno-teorijske osnove kvalitativnih metoda istraÅ¾ivanja
+
+Glavni prigovor zagovornika koriÅ¡tenja kvalitativnih metoda u druÅ¡tvenim
+znanostima je taj Å¡to oni smatraju da â€žkvantifikacija nameÄ‡e odreÄ‘enu
+(laÅ¾nu) ÄvrstoÄ‡u druÅ¡tvenom Å¾ivotu koju on ne posjeduje" (TomiÄ‡-
+KoludroviÄ‡ i LeboriÄ‡, 2002:204). Zagovornici ovih metoda istraÅ¾ivanja
+drÅ¾e da su druÅ¡tveni fenomeni uvijek socijalno konstruirani, da su
+posljedica druÅ¡tvenih interakcija, komunikacije, posredovanja znaÄenja i
+interpretacija. Zbog toga ih nije niti moguÄ‡e prouÄavati na naÄin na
+koji prirodne znanosti prouÄavaju svoje predmete, veÄ‡ je potrebno
+koristiti drugaÄiji metodski pristup. Taj drugaÄiji metodski pristup u
+prouÄavanju druÅ¡tvenih pojava promoviraju tzv. *kvalitativne metode
+istraÅ¾ivanja*.
+
+Kvalitativne metode mogu se definirati kao multiparadigmatski i
+multimetodski usmjerena istraÅ¾ivanja koja ukljuÄuju naturalistiÄki i
+interpretativni pristup predmetu istraÅ¾ivanja (Halmi i Crnoja, 2003:1).
+To znaÄi da istraÅ¾ivanja koja se provode posredstvom kvalitativnih
+metoda uvijek pristupaju prouÄavanju subjekta u njegovom povijesnom i
+druÅ¡tvenom kontekstu nastojeÄ‡i razumjeti i interpretirati smisao ili
+znaÄenje njegovih akcija, doÅ¾ivljaja, svakodnevnog iskustva.
+
+Spomenuto odreÄ‘enje kvalitativnih metoda sintetizira njihova najÄeÅ¡Ä‡e
+isticana obiljeÅ¾ja. Primjerice, Marshall i Rossman (2011:3) navode da se
+osnovna obiljeÅ¾ja kvalitativnih metoda istraÅ¾ivanja mogu svesti na
+sljedeÄ‡e:
+
+-   IstraÅ¾ivanja koja se provode posredstvom kvalitativnih metoda
+    odvijaju se u prirodnom socijalnom okruÅ¾enju;
+
+-   oslanjaju se na viÅ¡estrukost metoda koje poÅ¡tuju prirodu sudionika
+    istraÅ¾ivanja;
+
+-   fokusirana su na kontekst;
+
+-   fundamentalno su interpretativna.
+
+Shodno tome, Marshall i Rosman navode da â€žkvalitativni istraÅ¾ivaÄi":
+
+-   vide socijalni svijet kao hositiÄki i kompleksan;
+
+-   sistematski reflektiraju korake u provoÄ‘enju istraÅ¾ivanja;
+
+-   ostaju senzitivni prema osobnoj biografije / druÅ¡tvenom identitetu
+    sudionika istraÅ¾ivanja i naÄinu na koji oni utjeÄe na istraÅ¾ivanje;
+
+-   koriste kompleksne naÄine rezoniranja i zakljuÄivanja koji su
+    viÅ¡eznaÄni i iterativni.
+
+Willig (2016: 35) napominje da su â€žkvalitativni istraÅ¾ivaÄi" obiÄno
+zainteresirani za znaÄenje, tj. zainteresirani su za to kako ljudi
+pridaju smisao svijetu i kako doÅ¾ivljavaju ono Å¡to im se dogaÄ‘a. Dakle,
+kvalitativni istraÅ¾ivaÄi skloni su baviti se kvalitetom i teksturom
+ljudskog iskustva prije nego identifikacijom uzroÄno-posljediÄnih
+odnosa. SliÄno istiÄe i Marvasti (2004:7) kada kaÅ¾e da istraÅ¾ivanja koja
+se provode kvalitativnim metodama pruÅ¾aju detaljan opis suÅ¡tine ljudskog
+iskustva. SumirajuÄ‡i specifiÄnosti kvalitativnih metoda istraÅ¾ivanja u
+odnosu na kvantitativne, TomiÄ‡- KoludroviÄ‡ i LeboriÄ‡ (2002) istiÄu da su
+kvalitativne metode istraÅ¾ivanja koncentrirane na znaÄenje ili na
+ponaÅ¡anje, tj. da se osnovni cilj kvalitativnog istraÅ¾ivanja svodi na
+dokumentiranje svijeta s razliÄitih pozicija sudionika istraÅ¾ivanja.
+Prema tome, jedno od najvaÅ¾nijih obiljeÅ¾ja kvalitativnih metoda
+istraÅ¾ivanja je â€žcentralnost interpretacije" (TomiÄ‡- KoludroviÄ‡ i
+LeboriÄ‡, 2002:209). Svrha interpretacije je â€žrazumijevanje svijeta",
+razumijevanje znaÄenja koji ljudi pridaju svojim akcijama ili
+razumijevanje motiva koji ih pokreÄ‡u u njihovom djelovanju. SpasiÄ‡
+(1998:9) navodi da je zastupnicima interpretativnog pristupa u
+druÅ¡tvenim znanostima vaÅ¾no zahvaÄ‡anje akterovog unutraÅ¡njeg doÅ¾ivljaja
+situacije i vlastitog djelovanja. Upravo na temelju tog impulsa poÄinje
+se razvijati kvalitativna metodologija u druÅ¡tvenim znanostima (SpasiÄ‡,
+1998:9).
+
+U jednom Å¡irem smislu, kvalitativne metode istraÅ¾ivanja svoje korijene
+baÅ¡tine u hermeneutiÄkoj tradiciji i fenomenologiji te u pojedinim
+propozicijama etnometodologije i simboliÄkog interakcionizma.
+
+Hermeneutika je izvorno filozofski nauk o razumijevanju i tumaÄenju
+biblijskih, pravnih, knjiÅ¾evnih i filozofskihÂ spisa[^11]. U jednom Å¡irem
+smislu moÅ¾e se odrediti kao vjeÅ¡tina tumaÄenja i razumijevanja tekstova.
+Kao specifiÄna spoznajna vjeÅ¡tina u druÅ¡tvene znanosti ulazi posredstvom
+filozofije Wilhelma Diltheya. VeÄ‡ smo napomenuli da on razvija koncept
+duhovnih znanosti kojim one znanosti koje se bave posljedicom djelovanja
+ljudi pokuÅ¡ava odijeliti od prirodnih znanosti. Prema Diltheyu, duhovne
+znanosti utemeljenje su u psiholoÅ¡koj ili duhovnoj prirodi ljudskog
+djelovanja. BuduÄ‡i da se bave duhovnom prirodom Äovjeka i njegovog
+djelovanja one su inherentno interpretativne. Zbog toga je i
+hermeneutiÄki princip razumijevanja ono Å¡to ih prema Diltheyu razlikuje
+od prirodnih znanosti[^12]. Diltheyovu koncepciju prihvatio je, a zatim
+i dalje razradio jedan od utemeljitelja suvremene sociologije Max Weber.
+Njegov metodoloÅ¡ki pristup znan je kao *metodoloÅ¡ki individualizam*.
+Weber smatra da se sve druÅ¡tvene pojave mogu svesti na individualno
+djelovanje. Stoga je i zadatak druÅ¡tvenih znanosti upravo rekonstrukcija
+individualnog djelovanja. Rekonstruirati individualno djelovanje znaÄi
+razumjeti ga, tj. razumjeti motive koji pokreÄ‡u aktivnosti pojedinca
+(Weber, 1989). Prema tome, tradicija druÅ¡tvenih znanosti koja proizlazi
+iz hermeneutiÄkog pristupa kao i Weberovog metodoloÅ¡kog individualizma
+promiÄe ideju da su druÅ¡tveni dogaÄ‘aji posljedica pojedinaÄnog
+djelovanja i kao takvi obiÄno jednokratni i neponovljivi, da druÅ¡tvene
+znanosti prouÄavaju upravo pojedinaÄne dogaÄ‘aje, a da bi se oni mogli
+razumjeti potrebno je razumjeti unutarnja stanja pojedinaca i motive
+koji stoje u pozadini njihovog djelovanja[^13].
+
+Uz hermeneutiÄku tradiciju, vaÅ¾no zaleÄ‘e razvoja kvalitativnih metoda
+istraÅ¾ivanja moÅ¾e se pronaÄ‡i i u fenomenologijskoj spoznajno-teorijskoj
+tradiciji. Njen utemeljitelj je njemaÄki filozof Edmund Husserl. On je
+ideju fenomenologije predstavio u djelu *LogiÄka istraÅ¾ivanja*
+(objavljeno 1900./1901.). Filozofija se prema Husserlu treba baviti
+â€žfenomenima", tj. onim Å¡to se pojavljuje u ljudskoj svijesti, naÄinom na
+koji se iskustvo o stvarima koje nas okruÅ¾uju upisuje u naÅ¡u svijest.
+Husserl smatra da srediÅ¡nje mjesto filozofske analize treba postati
+individualno iskustvo, tj. manifestiranje suÅ¡tina pojava u ljudskoj
+svijesti. Dakle, fenomenologija na prvo mjesto stavlja ljude, njihovo
+iskustvo, naÄin na koji ljudi doÅ¾ivljavaju svijet oko sebe. Ova temeljna
+fenomenologijska pozicija inspirira jednu od suÅ¡tinskih propozicija
+kvalitativnih metoda istraÅ¾ivanja -- usmjerenost na iskustvo. Cilj
+istraÅ¾ivanja inspiriranog fenomenologijskim principima je â€žÅ¡to bliÅ¾e
+priÄ‡i iskustvu pojedinaca te dobiti pristup njihovom doÅ¾ivljajnom
+svijetu" (Willig, 2013:50). Upravo u kontekstu fenomenologijske
+tradicije treba promatrati i Äinjenicu da kvalitativne metode
+istraÅ¾ivanja u jednom velikom dijelu nastoje pruÅ¾iti odgovor na pitanje
+â€žkako izgleda svijet za ovog sudionika istraÅ¾ivanja" (Willig, 2013:50).
+
+Glavne fenomenologijske propozicije korespondiraju i s osnovnim
+postavkama one teorijske tradicije u sociologiji koja se naziva
+etnometodologija. Ona stavlja naglasak na naÄin na koji ljudi
+konstruiraju smisao svog druÅ¡tvenog djelovanja. PromiÄe istraÅ¾ivanja
+â€žmetoda" koje Älanovi druÅ¡tva koriste u konstrukciji druÅ¡tvenog poretka
+(Abercrombie i Hill, 2008:83).
+
+Pojedina ishodiÅ¡ta kvalitativnih metoda istraÅ¾ivanja mogu se pronaÄ‡i i u
+teorijskoj tradiciji simboliÄkog interakcionizma. Ona se razvija na
+uÄenju Georga Herberta Meada o prirodi druÅ¡tvenih interakcija kao i na
+radovima sociologa Herberta Blumera. SimboliÄki interakcionizam
+postulira tezu da ljudi u meÄ‘usobnim interakcijama ne reagiraju
+â€ždirektno", veÄ‡ da se njihova reakcija zasniva na znaÄenjima koje oni
+takovim akcijama pridaju. U ovom je smislu artikulirana i temeljna
+teorijska pretpostavka simboliÄkog interakcionizma, pretpostavka da
+druÅ¡tvena stvarnost onakva kakova se osjeÄ‡a, spoznaje i razumijeva jest
+producirana druÅ¡tvenom simboliÄkom interakcijom (AfriÄ‡, 1988: 2). Upravo
+u navedenoj teorijskoj propoziciji simboliÄkog interakcionizma moÅ¾emo
+potraÅ¾iti ishodiÅ¡te joÅ¡ jednog znaÄajnog obiljeÅ¾ja kvalitativnih metoda
+istraÅ¾ivanja - nastojanja da se protumaÄe razliÄita znaÄenja koja ljudi
+pridaju svojem djelovanju te znaÄenja koje pridaju razliÄitim druÅ¡tvenim
+procesima u kojima sudjeluju.
+

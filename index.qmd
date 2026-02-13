@@ -1,0 +1,9 @@
+---
+title: "Metode istraživanja masovne komunikacije"
+subtitle: "Metodološke osnove istraživanja masovne komunikacije u komunikologiji, sociologiji i drugim društvenim znanostima"
+author:
+  - name: Ivan Burić
+  - name: Luka Šikić
+---
+
+Ova knjiga zamišljena je kao svojevrsno uputstvo za upotrebu metodološkog strukovnog alata kojim raspolaže komunikacijska znanost. Iako je prvenstveno namijenjena studentima komunikacijskih znanosti, kako bi se na sustavan i metodičan način mogli familijarizirati s osnovnim metodama empirijskih društvenih istraživanja, ona će biti korisna i studentima sociologije, politologije, pedagogije, informacijskih znanosti kao i svima onima koji žele razumjeti, primijeniti ili unaprijediti svoje metodološko znanje.

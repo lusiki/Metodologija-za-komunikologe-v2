@@ -1,0 +1,651 @@
+---
+title: "Anketa"
+---
+
+Prve primjene ankete kao kvantitativne metode istraživanja datiraju iz 19. stoljeća kada se u sklopu ispitivanja socijalnih problema na području Francuske i Engleske razvijalo sustavno prikupljanje podataka o pojedinim socijalnim problemima unutar lokalnih zajednica (Halmi, 1999). Primjerice, potkraj 18. stoljeća u Engleskoj, u sklopu istraživanja socijalnih problema počelo se razvijati sustavno prikupljanje podataka o stanovnicima specifičnih društveni okruženja, pa je za tu svrhu prvi put primijenjen obrazac nalik anketnom upitniku (Lamza-Posavec, 2021:2017). također i francuski inženjer i društveni analitičar Frederic Le Play u različitim je zemljama prikupljao podatke o načinu života mnogobrojnih, a osobito radničkih obitelji. Gotovo istodobno, neki oblici prikupljanja podataka, slični anketnim istraživanjima provodili su se i u sklopu razvoja istraživačkog novinarstva u 19. stoljeću u Sjedinjenim Američkim Državama (Lamza-Posavec, 2021:117). Od tada do danas metoda ankete se etablirala kao najčešće korištena metoda u društvenim znanostima.
+
+U širem smislu, pojam ankete označava „prikupljanje podataka ispitivanjem uz primjenu posebnog formulara – anketnog upitnika" (Tkalac Verčić, Sinčić Ćorić, Pološki Vokić, 2010:103). Dakle, riječ je o metodi istraživanja kojom se prikupljaju informacije o različitim obilježjima neke populacije ili nekih društvenih grupa. Npr., metodom ankete prikupljaju se podaci o demografskim ili socioekonomskim populacijskim obilježjima. Također, posredstvom ove metode istražuju se stavovi i mišljenja ljudi, njihove navike, vrijednosne orijentacije, aspiracije i tsl.
+
+U komunikacijskim znanostima anketa je također jedna od najčešće korištenih metoda istraživanja. Koristi se kako bi se istražili medijski učinci (npr. utjecaj medijskih kampanja na stavove ili ponašanje medijskih publika), kako bi se istražile medijske navike i trendovi u konzumaciji medija ili kako bi se istražila sociodemografska ili socioekonomska obilježja medijskih publika.
+
+Prema tome, anketa se koristi kada se želi spoznati:
+
+-   Što ljudi misle o nekom društvenom fenomenu ili pojavi?
+
+-   Uz koje vrijednosti pristaju, kakve su im aspiracije?
+
+-   Kako se ponašaju – kakve su njihove navike i svakodnevne rutine?
+
+-   Kako su se ponašali u prošlosti ili kako će se ponašati u budućnosti?
+
+-   Kakve su karakteristike pojedinih društvenih grupa?
+
+-   Kakvo je fizičko, prirodno ili socijalno okružje u kojem ljudi žive?
+
+U suštini, anketa je strukturirani razgovor između dvije osobe; istraživača ili anketara i sudionika istraživanja. Razgovor je strukturiran jer se vodi po točno određenom obrascu – upitniku, tj. anketi koja se sastoji od niza unaprijed osmišljenih pitanja na koja su u većini slučajeva i ponuđene opcije odgovora. Stoga se anketa ili upitnik smatra i instrumentom strukturiranog prikupljanja podataka. Anketa se smatra metodom koja u velikoj mjeri ispunjava metodske zahtjeve koje promiče pozitivistička spoznajno-teorijska tradicija. Primjerice:
+
+-   Anketa ima formu sistematičnog i standardiziranog mjernog instrumenta (npr. pitanja su koncipirana tako da smanjuju mogućnost njihovog krivog tumačenja, a slijed pitanja je optimiziran prema određenom kriteriju).
+
+-   Rezultati istraživanja se kvantificiraju – rezultati istraživanja predočavaju se kao numerički podaci što omogućuje usporedbu mjerenih svojstava između različitih sudionika istraživanja, ali i longitudinalno mjerenje društvenih pojava.
+
+-   Ukoliko se istraživanje propisno provodi tada je utjecaj istraživača minimiziran, tj. anketa se smatra metodom koja potiče objektivnost istraživačkog procesa.
+
+-   Smatra se da anketa osigurava pouzdano mjerenje.
+
+**Vrste anketa**
+
+Ankete se mogu podijeliti s obzirom na način na koji se obavlja komunikacija između istraživača i sudionika istraživanja. Danas se najčešće provode sljedeće vrste anketa:
+
+1.  Anketa licem u lice
+
+2.  Telefonska anketa
+
+3.  Anketa posredstvom Interneta
+
+*Anketa licem u lice*
+
+Anketa licem u lice (eng. *face to face*) podrazumijeva izravni razgovor s uvježbanim anketarom (Milas 2005: 467). Dakle, anketar čita pitanja sudioniku istraživanja te unosi odgovore u anketni upitnik – na papiru ili na računalu. Prednosti ove tehnike anketiranja su brojne. Primjerice, u slučaju nerazumijevanja anketar može način postavljanja pitanja prilagoditi pojedinom ispitaniku. Komunikacija licem u licem obično rezultira boljim odazivom nego na telefonsku anketu i pogodna je u slučaju složenijih anketa, npr. u slučaju anketa koje sadrže veći broj pitanja ili u slučaju anketa koje sadrže složenija pitanja (primjerice kada je ponuđen veći broj opcija odgovora, ili kada se koriste ljestvice sa specifično imenovanim kategorijama odgovora). Također, ove tehnika anketiranja koristi se kada je sudionicima istraživanja potrebno pokazati neke vizualne materijale koji se testiraju (npr. testiranje komunikacijskih performansi neke komunikacijske poruke). Glavni je nedostatak ove metode obično su veliki financijski troškovi, prvenstveno zbog anketara koje treba platiti, ali i zbog ostalog osoblja, kao i zbog putnih i smještajnih troškova samih anketara (Milas 2005: 468). Rasprešenost sudionika istraživanja, zbog čega anketari potom trebaju puno putovati, rezultiraju time da ankete traju poprilično dugo. Uz to, sudionik istraživanja anketu ne može odložiti niti je odgoditi, zbog čega zadnja pitanja mogu biti riješena u žurbi ili bez razmišljanja, što ponekad umanjuje kvalitetu ankete. Problemi pri provođenju ove vrste ankete mogu proizaći i u pristranosti vezanoj uz anketara, npr. ispitanik može odgovoriti sukladno onome što smatra da je anketaru prihvatljivo čuti na temelju njegovih nesvjesnih izraza lica. Izuzev toga, anketar može pogriješiti, bilo greškama pri postavljanju (ili nepostavljanju) pitanja ili potpitanja, pri bilježenju odgovora ili izmišljanju podataka (Milas 2005: 468). Danas se ankete licem u lice uglavnom provode posredstvom računala. To znači da anketar ne čita pitanja s papira, već sa zaslona računala, a također i odgovore sudionika istraživanja unosi direktno u računalo (bazu podataka). Takva vrsta anketiranja lice u lice naziva se CAPI (Computer Asissted Personal Interwieving).
+
+*Telefonska anketa*
+
+Glavna prednost telefonskog anketiranja jest brzina (Milas 2005:467). Također ova metoda je ekonomičnija od razgovora licem u lice. U zadnjih dvadesetak godina telefonske ankete obično se provode posredstvom tzv. CATI (Computer Assisted Telephone Interviewing) sustava. Riječ je o računalno podržanom sustavu anketiranja gdje veći broj anketara iz jednog telefonskog studija obavlja pozivanje ispitanika. Uzorak telefonskih brojeva bira računalo prema zadanom algoritmu. Nakon što se poziv uspostavi anketari čitaju pitanja s monitora računala te odgovore unose direktno u bazu podataka čime se skraćuje vrijeme potrebno za njihovo procesuiranje.
+
+Telefonskom anketom moguće je postići veću disperziju uzorka, a troškovi istraživanja su znatno niži nego u slučaju terenske ankete. Glavni nedostatak ove metode istraživanja u prošlosti bila je slaba pokrivenost kućanstava telefonskim priključcima. Danas to više ne predstavlja problem, pogotovo otkad je gotovo čitava populacija ujedno i populacija vlasnika mobilnih telefona, no zbog sve većeg broja različitih anketnih istraživanja, sve veći broj potencijalnih ispitanika, nakon kontaktiranja od strane anketara odbija sudjelovati u istraživanju. Ovaj fenomen naziva se „niska stopa odgovora" (eng. response rate), a problematičan je stoga što utječe na reprezentativnost i generabilnost prikupljenih podataka.
+
+Primjerice, ukoliko veliki broj ljudi odbije sudjelovati u anketi, velika je vjerojatnost da uzorak koji se odazvao **ne odražava stvarnu strukturu populacije**. Na primjer, ako mlađi ljudi češće ignoriraju pozive anketara, rezultati će biti pristrani prema starijoj populaciji. Također, moguće je da oni koji pristaju odgovarati na anketni upitnik imaju drugačije stavove od onih koji odbijaju. Zbog takvih razloga u slučajevima kada je stopa odbijanja visoka rezultate istraživanja nije moguće generalizirati na čitavu populaciju.
+
+Nedostaci telefonskog anketiranja mogu se pronaći i u tome što je teže istraživati kompleksnije kao i za ispitanika intimnije teme. Također, telefonske ankete ne omogućuju testiranje vizualnih materijala i postavljanja složenih pitanja. Potrebno je paziti na i na maksimalnu dužinu trajanja ankete. Preporuča se da prosječno trajanje jedne telefonske ankete ne bi trebalo biti znatno duže od 15 minuta.
+
+*Anketa posredstvom Interneta (online anketa ili CAWI)*
+
+Anketiranje posredstvom Interneta razvija se intenzivno od početka ovog stoljeća kao posljedica razvoja Interneta. Danas vjerojatno čini najčešće korištenu metodu anketnog istraživanja.
+
+Osnovne prednosti online ili CAWI (Computer Assisted Web Interviewing) metode anketiranja su brzina provođenja terenskog rada, veliki doseg potencijalnih ispitanika i mogućnost brzog procesuiranja podataka. Naime, online anketa štedi vrijeme potrebno za organizaciju i provedbu procesa anketiranja kao i za proces obrade podataka. Nakon što se anketa napravi na nekoj od tehnoloških platformi namijenjenih toj svrsi (npr. LimeSurvey, MonkeySurvey ili Google docs) ona online posreduje ispitanicima, tj. nije potrebno organizirati anketarsku mrežu. Trajanje prikupljanja podataka ovisi isključivo o odluci istraživača. I drugo, kao i u slučaju CATI metode, paralelno s popunjavanjem upitnika odgovori se unose direktno u bazu podataka te mogu odmah biti analizirani. Važna prednost ove metode anketiranja je da se ankete izrađuju u online okružju, tj. posredstvom tehnoloških platformi namijenjenih izradi upitnika. One omogućuju istraživačima korištenje širokog dijapazona različnih vrsta pitanja i ljestvica, brojne mogućnosti u formatiranju upitnika, integraciju audio i video materijala i slično. Ovome treba dodati da su online istraživanja jeftinija od tradicionalnih metoda poput osobnih intervjua ili telefonskih anketa budući da ne uključuju troškove za anketare, a troškovi distribucije anketa i prikupljanja podataka su minimalni. Također, benefit ove metode sastoji se i u tome da se online upitnicima može pristupati putem različitih uređaja (računala, pametni telefoni, tableti).
+
+Anketa posredstvom Interneta može biti nekontrolirana i kontrolirana. O nekontroliranim internetskim anketama govorima kada nisu poznata niti kontrolirana osnovna obilježja uzorka na kojem se istraživanje provodi. Npr. takve su ankete koje provode Internet portali kada na svoju stranicu postave neko pitanje, ponude odgovore, a na pitanje odgovara tko god želi. O kontroliranim internetskim anketama govori se kada se na sudjelovanje u istraživanju pozivaju točno određeni ispitanici iz neke poznate populacije ili kada se ispitanici biraju na temelju nekog specifičnog kriterija. Kontrolirane internetske ankete najčešće se provode tako da se iz tzv. panel uzorka po određenom kriteriju izabiru ispitanici koji se pozivaju putem e-maila te se upućuju na internetsku poveznicu na kojoj se nalazi anketa. Panel je u suštini baza ili skupina ljudi koji su dali svoj pristanak da ih istraživači mogu kontaktirati za sudjelovanje u istraživanjima. Danas se u internetskim anketnim istraživanjima koriste dvije vrste panela. U prvom slučaju je riječ o tzv. opt-in panelima ispitanika. Sastoji se od osoba koje su se *dobrovoljno prijavile* (tj. "opt-in") kako bi sudjelovale u online anketama, najčešće preko neke platforme, na poziv istraživačke agencije ili znanstvenog instituta.
+
+U tom slučaju proces istraživanja je sljedeći:
+
+1.  Institut ili istraživačka agencija šalje poziv (npr. preko svoje web stranice ili društvenih mreža) za formiranje panela.
+
+2.  Formira se baza s podacima osoba koje su voljne sudjelovati u istraživanju (tzv. panel ispitanika) – npr., 10.000 – 15.000 osoba.
+
+3.  Svaki od članova panela popunjava „bazni" upitnik kojim se utvrđuju njegove socio-demografske karakteristike, socio-ekonomske karakteristike te niz drugih socijalnih i psihografskih obilježja.
+
+4.  Na taj način panel zapravo postaje poznata „populacija" (poznata su sva bitna obilježja panela) iz koje se zatim u konkretnom istraživačkom projektu vadi uzorak ispitanika (npr. njih 500).
+
+5.  Online upitnik se postavlja na određenu web stranicu.
+
+6.  Odabranim ispitanicima (uzorku) šalje se e-mail s pozivom za sudjelovanjem u istraživanju.
+
+7.  Ispitanici pristupaju stranici na kojoj se nalazi upitnik te ga popunjavaju.
+
+Glavni problem opt-in panela leži u tome što panelisti nisu izabrani slučajnim uzorkovanjem, već su postali članovi panela prema nekoj svojoj specifičnoj motivaciji – primjerice, zbog zainteresiranosti za temu istraživanja ili želje za zaradom (sudjelovanje u online istraživanjima u pravilu se honorira). Također, vjerojatno je riječ o osobama koje više vremena provode uz računalo i informatički su pismenije. Stoga je opt-in panel uvijek panel osoba koje su na neki način samoselekcionirane, što rezultira time da su uzorci generirani iz takvih panela često iskrivljeni, tj. po nekim, najčešće sociokulturnim ili psihografskim obilježjima nisu reprezentativni za opću populaciju. To u brojnim slučajevima negativno utječe na preciznost i pouzdanost rezultata istraživanja. Iz tog razloga, u akademskoj zajednici i među praktikantima primijenjenih društvenih istraživanja, zadnjih se godina sve češće razvijaju tzv. probabilistički ili "science-based" paneli. Ključna razlika u odnosu na opt-in panele odnosi se na prvu fazu – regrutaciju članova panela (ostale faze istraživanja ostaju identične). Naime, u ovom se slučaju panelisti ne prijavljuju sami, već ih istraživači odabiru slučajnim uzorkovanjem iz određene, unaprijed definirane populacije (npr. korisnika mobilnih telefona). Nakon odabira, istraživači ih kontaktiraju i pozivaju na sudjelovanje u panelu. Kao metode slučajnog uzorkovanja panelista najčešće se koriste RDD (random digit dialing) – slučajno generiranje telefonskih brojeva, ili address-based sampling – slučajni izbor adresa iz registara.
+
+Prednost ovakvog pristupa jest u tome što svaki član populacije ima jednaku šansu za uključivanje u panel, čime se smanjuje selekcijska pristranost i povećava reprezentativnost uzorka. Osim toga, budući da je poznata vjerojatnost uključivanja svakog pojedinca, moguće je primijeniti inferencijalne statističke metode, što omogućuje precizniju procjenu populacijskih parametara i veću vjerodostojnost zaključaka.
+
+**Anketomanija kao masovni fenomen i problemi s metodom ankete**
+
+Danas je lakše nego ikada realizirati anketno istraživanje. Bez imalo problema može ga provesti svaka institucija, organizacija, poduzeće, medij, udruga građana, skupina pojedinaca ili zainteresiran i informatički pismen pojedinac. Dovoljno je preuzeti besplatnu verziju nekog, na internetu dostupnog alata za izradu upitnika, ili nadoplatiti stotinjak eura za njegovu složeniju inačicu te sastaviti anketni obrazac. To se može napraviti tako da se iz menija ponuđenih formi pitanja izaberu željena i onda kao od lego kockica sastavi upitnik. Nakon toga lako je od nekog dobavljača uzoraka u Hrvatskoj ili svijetu kupiti određeni online uzorak, npr. 300, 400, 1000 ili n ispitanika (e-mail adresa) kojima se zatim elektroničkom poštom pošalje poveznica na upitnik. Kada se tome doda da je posredstvom interneta lako moguće dostaviti ispitanicima, razumljivo je zašto je provođenje anketnih istraživanja danas jednostavnije i puno jeftinije nego ikada u prošlosti. Upravo zbog toga zadnjih godina svjedočimo pravoj eksploziji internetskih anketnih istraživanja. Sve češće ih samostalno provode mediji, poslovne organizacije, nevladine udruge, državne agenciji i sl. Drugim riječima, anketa kao metoda postaje nalik robi široke potrošnje, nešto kao convenience spoznajni alat, nalik je proizvodu koji se kupuje često i uz malo truda pri donošenju odluka. Ili drugačije rečeno, danas svjedočimo bujanju anketnih istraživanja, svojevrsnoj „anketomaniji" koju pri tom prati i deprofesionalizacija istraživačkog posla. Kada se tome doda činjenica da se brojna istraživanja, posebice žurnalističkog, aktivističkog ili zagovaračkog karaktera, danas provode na prigodnim, dakle nereprezentativnim uzorcima, nimalo nije čudno da javnosti gubi povjerenje u anketna istraživanja. Zbog tog razloga zahtjevi poznavanja metodoloških pravila pri sastavljanju upitnika; tehnika skaliranja, pravila postavljanja i verbalizacije pitanja, uz pravilan dizajn uzorka, za suvremene društvene znanstvenika postaje važnije nego ikad. Ono ih razdvaja od „priučenih prakitanata" te omogućuje realizaciju istraživanja koja će rezultirati valjanim i pouzdanim podacima, onim što je conditio sine qua non svake znanost. Tim zahtjevima posvećena su poglavlja koja slijede.
+
+**Postupak izrade upitnika**
+
+Anketa ili upitnik, u istraživanjima koja se provode u društvenim znanostima ima striktno određenu funkciju – anketa je mjerni instrument. To znači da se posredstvom ankete obavlja neko mjerenje, tj. kvantificiranje nekih svojstava koja su od predmeta interesa istraživača. Npr. mjeri se hijerarhija stavova u nekoj populaciji, broj konzumenta nekog elektroničkog medija ili povjerenje u izvještavanje web portala. U suštini, radi se o obrascu namijenjenom za precizno prikupljanje kvantitativnih podataka. Budući da se prikupljanje podataka obavlja u formi komunikacije upitnik mora ispuniti dva temeljna zahtjeva (Foddy, 1993).
+
+1.  Mora izraziti ciljeve istraživanja u obliku posebnih pitanja, tj. istraživač mora voditi računa o tome što će pitati sudionike istraživanja.
+
+2.  Mora omogućiti ispitaniku da pruži potrebne odgovore, tj. istraživač mora voditi računa o tome kako će postavljati pitanja.
+
+Kako bi se ispunila ova dva zahtjeva posebnu pažnju potrebno je posvetiti izradi upitnika. Taj postupak odvija se kroz nekoliko faza. Prva faza je izrada nacrta istraživanja. Kao što je objašnjeno u poglavlju *Priprema istraživanja posredstvom kvantitativnih metoda*, nacrt istraživanja je dokument u kojem je na sistematski i metodičan način predstavljen dizajn cjelokupnog istraživačkog projekta. Nacrtom istraživanja, između ostalog, definiraju se ciljevi istraživanja koje je potrebno izraziti u formi pitanja kojima će se prikupiti podaci potrebni za njihovu realizaciju. Primjerice, Aaker, Kumay i Day (2008) navode da istraživač mora pratiti pet koraka kako bi izradio kvalitetan upitnik, tj. kako bi se postavio kvalitetna pitanja. Prvo je potrebno isplanirati što će se mjeriti. Nakon toga formiraju se pitanja koja će omogućiti da se prikupe potrebne informacije. Treći je korak određivanje redoslijeda pitanja i njihova verbalizacija. Četvrti korak je tzv. pilot istraživanje – testiranje upitnika na manjem uzorku kako bi istraživači mogli provjeriti postoje li u kakve greške u pitanjima ili potencijalni izvori nerazumijevanja, a zatim slijedi ispravljanje uočenih pogrešaka i nedostataka. Bradburn, Sudman i Wansink (2004) navode da se izrada upitnika realizira posredstvom šest koraka. Istraživač prvo mora odlučiti koje su informacije najvažnije. Drugi korak je pretraga po bazama podataka kako bi se pronašla relevantna pitanja na odabranu temu. Ovu funkciju uspješno obavlja i umjetna inteligencija. Nakon tog slijedi izrada skice novih pitanja kao i provjera postojećih pitanja. Četvrti korak je definiranje redoslijeda pitanja. Nakon toga slijedi finalna verbalizacija pitanja. Sumirajući ova dva pristupa možemo konstatirati da se tipičan slijed aktivnosti koje se provode u procesu izrade upitnika sastoji od:
+
+1.  Određivanje broja pitanja i forme pitanja
+
+2.  Verbalizacija pitanja
+
+3.  Definiranje poretka pitanja
+
+4.  Finalizacija upitnika
+
+a.  **Određivanje broja pitanja i forme pitanja**
+
+Pitanja u upitniku služe da bi se s njima prikupili podaci koji su potrebni kako bi se realizirali ciljevi istraživanja! To znači da ciljevi istraživanja postavljeni u nacrtu istraživanja značajno utječu na odluku koja je pitanja potrebno postaviti u upitniku. Drugim riječima, u upitnik nije potrebno uvrštavati ona pitanja koja nisu relevantna s obzirom na postavljenje ciljeve istraživanja. Pitanja uvijek predstavljaju instrumente za prikupljanje informacija koje su potrebne s obzirom na ciljeve istraživanja ili instrumente koji se koriste kako bi se prikupili podaci potrebni za testiranje postavljenih hipoteza! Koliko će pitanja biti uključeno u sam upitnik ovisi o kompleksnosti ciljeva istraživanja. Naime, kompleksniji ciljevi istraživanja obično iziskuju veći broj pitanja, a manje kompleksni manji broj pitanja.
+
+Osnovno obilježje dobrog anketnog pitanja je to da bi ono trebalo izlučiti pouzdan i valjan odgovor (Bickman, Rog, 1998: 344). Kako bi se to ostvarilo, istraživač u procesu izrade upitnika mora donijeti odluku o tome koja i kakva pitanja koristiti na određenim mjestima u upitniku. U jednom širem smislu to znači da istraživač mora donijeti sljedeće odluke:
+
+-   Da li koristiti *zatvorena* ili *otvorena* pitanja?
+
+-   U slučaju zatvorenih pitanja – *koliko opcija odgovora uključiti*?
+
+-   *Koje opcije* odgovora su *moguće* i relevantne?
+
+-   U slučaju da istražuje stavove / mišljenja sudionika istraživanja potrebno je odlučiti koje vrste ljestvica za mjerenja stavova koristiti?
+
+*Otvorena vs zatvorena pitanja*
+
+Otvorena pitanja su pitanja kod kojih sudionik istraživanja ima slobodu u odgovorima, tj. odgovora svojim riječima (Bechhofer i Paterson, 2000: 84). Iza pitanja se obično ostavlja rubrika u koju ispitanik ili anketar upisuje odgovor. Otvorena pitanja se koriste kako bi se sudionicima istraživanja dozvolilo da odgovore onako kako žele. Nasuprot toga, zatvorena pitanja su pitanja kod kojih je predočena lista s mogućim odgovorima. S obzirom na broj ponuđenih odgovora mogu se razlikovati zatvorena pitanja s dihotomno ponuđenim opcijama te zatvorena pitanja s višestruko ponuđenim opcijama odgovora. Ljestvice za mjerenje stavova i mišljenja također se mogu klasificirati kao jedna vrsta zatvorenih pitanja s višestruko ponuđenim opcijama odgovora.
+
+Glavne razlike između otvorenih i zatvorenih pitanja predočene su u tablici 3
+
+**Tablica 3**: *Osnovne razlike između otvorenih i zatvorenih pitanja*
+
+| **Otvorena pitanja** | **Zatvorena pitanja** |
+|----------------------|----------------------|
+| Dopuštaju ispitaniku da se izjasni u terminima vlastitih riječi | Omogućuju kompariranje istih odgovora različitih ispitanika. |
+| Ne sugeriraju odgovore. | Izazivaju manje varijacije u prikupljenim odgovorima. |
+| Ukazuju na stupanj informiranosti o problematici koja se istražuje. | Ispitanici na njih mnogo lakše odgovaraju budući da uzrokuju prepoznavanje odgovora, a ne njihovo izvorno konstruiranje. |
+| Ukazuju na koji dio problema ispitanik obraća najviše pažnje. | Lakše se statistički obrađuju. |
+| Ne izazivaju problem "format efekt". | |
+| Ponekad služe kao mehanizam odabira opcija odgovora s kojima će se pitanje „zatvoriti" u nekom budućem istraživanju. | |
+
+*Broj opcija odgovora u zatvorenim pitanjima*
+
+Zatvorena pitanja generalno se mogu podijeli na dihotomna zatvorena pitanja te zatvorena pitanja s višestruko ponuđenim opcijama odgovora. U slučaju zatvorenih pitanja s većim brojem odgovora, odluke koje istraživač treba donijeti odnose se na broj odgovora kao i na njihov poredak. Pri donošenju odluke o broju odgovora treba biti svjestan da prevelik broj ponuđenih odgovora može predstavljati problem u procesu njihove evaluacije. Iako broj opcija odgovora ovisi o složenosti samog predmeta istraživanja te je u nekim slučajevima veći broj opcija odgovora nemoguće izbjeći, u metodološkim udžbenicima obično se sugerira da se, ukoliko je to moguće, pri odluci o broju opcija odgovora prati pravilo 7 +/- 2 – tj. da se na listu uključi između pet i devet opcija odgovora. Naime, prema teoriji koju je prvi iznio kognitivni psiholog George Miller 7 +/-2 najčešći je interval broja predmeta koje ljudi mogu pamtiti u njihovoj kratkoročnoj memoriji (Miller, 1956). Prema tome, pri konstrukciji zatvorenih pitanja s višestruko ponuđenim opcijama odgovora, ukoliko je to moguće, potrebno je izbjegavati više od 9 opcija odgovora.
+
+U slučaju kada zbog tematike istraživanja nije moguće izbjeći veći broj opcija odgovora, npr. 8 ili 9 opcija odgovora, preporučljivo je „rotirati opcije" odgovora, tj. napraviti nekoliko različitih verzija poretka opcija. Razlog tome je mogućnost tzv. „učinka formata", tj. mogućnost da poredak odgovora utječe na izbor ispitanika. Primjerice, Foddy (1993) navodi da ukoliko ispitanici imaju mogućnost vidjeti listu s odgovorima, tada postoji veća vjerojatnost da će izabrati one koje se nalaze pri dnu popisa odgovora. Ovaj efekt naziva se „efekt nedavne stavke". Dakle, zbog mogućnosti da sam poredak opcija odgovora utječe na ispitanike, u anketnim istraživanjima preporuča se „rotirati" njihov poredak.
+
+*Činjenična pitanja i pitanja o mišljenjima i stavovima*
+
+Bechhofer i Paterson (2000:78) navode da se pitanja u anketi generalno mogu podijeliti na činjenična pitanja i pitanja o mišljenjima i stavovima. Činjenično pitanje može se odnositi na ponašanje pojedinca, kao što je to slučaj sa sljedećim pitanjem: „Jeste li korisnik društvene mreže Facebook?" ili se može odnositi na obilježja pojedinca. Npr. „koji je stupanj vašeg obrazovanja. No, anketom se ne istražuju samo činjenice o ponašanjima ispitanika ili njihovim obilježjima već se istražuju i njihova mišljenja, uvjerenja, stavovi ili vrijednosti. U takvim slučajevima koriste se specifična zatvorena pitanja koja se nazivaju ljestvice (skale) za mjerenje stavova.
+
+*Ljestvice (skale) za mjerenje stavova*
+
+Ljestvice (skale) za mjerenje stavova. Koriste se kada se istražuju mišljenja ili stavovi ljudi o nekoj temi, o nekoj društvenoj pojavi ili procesi. Njima se želi izmjeriti smjer stava (pozitivan ili negativan odnos prema nečemu) i stupnjevati njegov intenzitet. Npr. posredstvom ljestvica za mjerenje stavova može se izmjeriti da li ljudi uz nešto pristaju ili ne pristaju, da li nešto podržavaju ili nepodržavaju, da li se s nečim slažu ili ne slažu i tsl. Primjerice, u istraživanju čiji bi cilj bio mjerenje zadovoljstva programom HRT-a, korištenjem ljestvica za mjerenje stavova bilo bi moguće utvrditi kakvo je mišljenje gledatelja o kvaliteti središnjeg dnevnika HRT-a; je li pozitivno ili negativno i kojeg je intenziteta. Proces izrade mjernih ljestvica ili skala naziva se skaliranje. Riječ je o specifikaciji pravila za dodjeljivanje brojeva ili nekih drugih obilježja predmetu mjerenja.
+
+Ljestvice koje se koriste u društvenim znanostima mogu se podijeliti u dvije temeljne grupe: *usporedne* *(komparativne)* i *neusporedne* *(nekomparativne)* *ljestvice* (Churchill i Iacobucci, 2002).
+
+*Usporedne ljestvice*
+
+Koriste se kada se želi istražiti odnos sudionika istraživanja prema dva ili više različitih objekata koje su od znanstvenog interesa. Npr. usporedne ljestvice mogle bi se koristiti ukoliko bi se istraživanjem željela utvrditi učestalost čitanosti Jutarnjeg lista u odnosu na Večernji list. Osnovno svojstvo ovih ljestvica je njihova ordinalnost. To znači da se nalazi mjerenja mogu interpretirati isključivo u terminima ordinalnog poretka. Npr. može se utvrditi da li sudionici istraživanja neki objekt mjerenja smatraju boljim ili lošijim, vrjednijim ili manje vrijednim, prikladnim ili manje prikladnim i tsl. Isto tako, budući da je broj objekata koji se uspoređuju uvijek unaprijed zadan, podaci koji su prikupljeni ovim ljestvicama moraju se uvijek interpretirati u relativnim terminima, tj. ne može se zaključivati samo o ordinalnom poretku objekata koji su uključeni u mjerenje.
+
+Prednosti usporednih ljestvica su sljedeće (Churchill i Iacobucci, 2002):
+
+1.  Mogu se ustanoviti ordinalne razlike između objekata koji se mjere jer je sudionik istraživanja prinuđen napraviti kompromis (eng. „trade off") u poretku objekata. Prinuđen je napraviti neku vrstu rangiranja ili usporedbe, tj. s obzirom na zadani kriterij mjerenja prisiljen je neke objekte pozicionirati na nižim, a neke na višim pozicijama.
+
+2.  Sudionik istraživanja pristupa mjerenju s točno definirane referentne točke. Ona predstavlja zadani kriterij usporedbe objekta mjerenja. Npr. ***Čitate li češće** Jutarnji list ili Večernji list?*
+
+3.  Lako se razumiju i lako se upotrebljavaju.
+
+Osnovni nedostaci ove vrste ljestvica su sljedeći:
+
+1.  Ordinalnost prikupljenih podataka – o odnosu objekata koji su predmet mjerenja može se govoriti samo u terminima poput lošije-bolje, prikladnije-neprikladnije, manje-više. Ne može se ništa zaključiti o intenzitetu razlika između objekata (Churchill i Iacobucci, 2002).
+
+2.  Nemogućnost zaključivanja izvan konteksta objekata koji su obuhvaćeni mjerenjem (Churchill i Iacobucci, 2002). Npr. spoznaje se da sudionici istraživanja češće čitaju Jutarnji list od Večernjeg lista, ali ništa se ne može zaključiti o intenzitetu čitanosti Novog lista budući da njegova čitanost nije bila predmet mjerenja.
+
+3.  Sudionici istraživanja obično ne mogu kvalitetno rangirati veći broj objekata. Problem nije u rangiranju prvog i posljednjeg objekta, već onih u neizdiferenciranoj sredini. (Aaker, Kumay i Day 2008).
+
+Najčešće korištene usporedne ljestvice su:
+
+1.  Rangiranje
+
+2.  Usporedba u parovima
+
+3.  Ljestvica s konstantnim zbrojem (constant sum scaling)
+
+*Rangiranje*
+
+Rangiranje je najjednostavnija vrsta usporedne ljestvice. Koristi se kada je određeni broj objekata potrebno rangirati, tj. rasporediti prema nekom zadanom kriteriju.
+
+**Npr. *S obzirom na intenzitet kupnje rangirajte dnevne novine tako da na prvo mjesto izdvojite one koje najčešće kupujete, a na posljednje one koje najrjeđe kupujete:***
+
+|  | *Rang* |
+|---|---|
+| Jutarnji list | |
+| Večernji list | |
+| 24 sata | |
+| Slobodna Dalmacija | |
+
+*Usporedba u parovima*
+
+Usporedba u parovima u suštini je jedan vid rangiranja koji se koristi kada se s obzirom na neki kriterij želi utvrditi odnos između tri ili više objekta. Primjerice:
+
+**Npr*. Čitate li češće:***
+
+1.  a. Jutarnji list ili b. Večernji list
+
+2.  b. Večernji list ili c. 24 sata
+
+3.  c. 24 sata ili a. jutarnji list
+
+Osnovni nedostatak ove ljestvice je što se moraju odrediti sve moguće kombinacije parova te što veći broj objekata rezultira većim brojem usporedbi. Primjerice, kada bi se željelo na ovaj način usporediti 10 objekata bilo bi potrebno napraviti 45 usporedbi. Broj mogućih usporedbi određuje se po sljedećoj formuli: N(N-1)/2.
+
+*Ljestvica s konstantnim zbrojem (constant sum scaling)*
+
+Riječ je o ljestvici na kojoj sudionici istraživanja alociraju konstantnu sumu jedinca (npr. bodovi ili postoci) između objekata ili atributa s obzirom na određeni kriterij. Svrha korištenja ove ljestvice je da se kroz alokaciju bodova odrazi relativna preferencija svakog od analiziranih objekata (Aaker, Kumay i Day 2008).
+
+**Npr. *S obzirom na intenzitet kupnje rangirajte sljedeće dnevne novine tako da od 100% svakoj novini dodijelite postotni udio koji odražava učestalost njene kupnje u zadnjih mjesec dana.***
+
+|  | **%** |
+|---|---|
+| Jutarnji list | |
+| Večernji list | |
+| 24 sata | |
+| Slobodna Dalmacija | |
+
+Osnovna prednost ljestvice s konstantnim zbrojem je što se može koristiti i kao kvazi-intervalna ljestvica. Njeni osnovni nedostaci manifestiraju se u sljedećem:
+
+1.  Nemogućnost mjerenja preferencija prema većem broju objekata: povećanjem broja objekata koji se procjenjuju smanjuje se preciznost procjene. Drugačije rečeno, povećanjem broja objekata smanjuje se mogućnost sudionika istraživanja da precizno alociraju bodove što može imati konzekvence na preciznost mjerenja.
+
+2.  Relativnost ljestvice – ustanovljene razlike vrijede samo za objekte koji su uključeni u proces mjerenja.
+
+*Neusporedne ljestvice:*
+
+Neusporedne ljestvice se koriste kada se mjeri odnos prema jednom objektu, kada se istražuje mišljenje o jednoj društvenoj pojavi ili fenomenu. Primjerice, istraživanjem se želi izmjeriti smjer i intenzitet stavova gledatelja prema nekom reality-show programu. Dakle, ovim ljestvicama ne obavlja se nikakva vrsta usporedbe. Stoga se ove ljestvice nazivaju i *monadičke ljestvice*.
+
+S obzirom na formu, neusporedne ljestvice obično se dijele na:
+
+-   *Kontinuirane*
+
+-   *"Itemizirane" ("ljestvice sa stavcima")*
+
+*Kontinuirane ljestvice* se obično konstruiraju kao grafičke ljestvice (*grafic rating scale*). U slučaju grafičkih ljestvica sudionici izražavaju svoj stav na način da se pozicioniraju na dužini (liniji) koju omeđuju dvije ponuđene ekstremne vrijednosti. Dakle, ispitanici nisu ograničeni u tome da odaberu vrijednost koja je unaprijed određena od istraživača.
+
+U slučaju tzv. *ljestvica sa stavcima* sudionici istraživanja izražavaju svoj stav o nekom objektu ili fenomenu na način da ga procjenjuju po jednom ili po više kriterija. Pri tom su kategorije kojima se mjeri intenzitet i smjer stava numerički označene, a vrlo često i verbalno opisane. Dakle, ljestvice sa stavcima obično imaju formu „ljestvica razloženih po kategorijama". To znači da se sastoje od određenog i ograničenog (diskretnog) broja kategorija koje opisuju nekakav kontinuum.
+
+U praksi suvremenih komunikoloških empirijskih istraživanja ljestvice sa stavcima koriste se puno češće od usporednih ljestvica. Glavni razlog za to je što se obično tretiraju kao kvazi-intervalne ljestvice, tj. ljestvice na kojima se mogu provoditi parametrijske statističke procedure (Pearsonov koeficijent korelacije, t-test, ANOVA, faktorska analiza) što je vrlo čest imperativ u empirijskim istraživanjima. Posebice u onim slučajevima kada realizacija ciljeva istraživanja zahtjeva izračun aritmetičke sredine kao i istovremenu analizu većeg broja varijabli, tj. provedbu multivarijatnih statističkih procedura kao što su višestruka regresijska analiza, faktorska ili diskriminativna analiza, a koje se temelje na aritmetičkoj sredini kao mjeri centralne tendencije. Prednost neusporednih ljestvica može se pronaći i u njihovoj jednostavnosti te intuitivnosti za ispitanike. Naime, jasno definirane kategorije olakšavaju proces odlučivanja i smanjuju kognitivno opterećenje prilikom odgovaranja što olakšava proces ispunjavanja ankete.
+
+Ljestvice sa stavcima mogu se podijeliti na:
+
+-   ljestvice s jednom stavkom (eng. „single-item" scale).
+
+-   ljestvice s više stavaka (eng. „multi-item" scale).
+
+Kada se neka procjena, stav sudionika istraživanja o nekom fenomenu, obavlja na temelju **jednog kriterija** govori se o *ljestvicama s jednom stavkom*
+
+*Primjer:*
+
+***Ocjenama od 1-5 ocijenite kvalitetu informativnog programa HRT: 1 2 3 4 5***
+
+Kada se neka procjena, stav sudionika istraživanja o nekom fenomenu, obavlja na temelju **većeg broja kriterija** govori se o ljestvicama s više stavaka
+
+*Primjer:*
+
+***Ocjenama od 1-5 ocijenite kvalitetu informativnog programa HRT temeljem sljedećih obilježja:***
+
+*Nepristranost u izvještavanju 1 2 3 4 5*
+
+*Kvaliteta rada novinara 1 2 3 4 5*
+
+*Produkcija 1 2 3 4 5*
+
+U istraživanjima posredstvom ankete najčešće se koriste sljedeće neusporedne ljestvice sa više stavaka:
+
+1.  Likertova ljestvica
+
+2.  Semantički diferencijal
+
+3.  Stapel ljestvica
+
+*Likertova ljestvica*
+
+Likertova ljestvica vjerojatno je najčešće korištena ljestvica s više stavaka u društvenim znanostima. Konstruirao ju je američki psiholog Rensis Likert. Konstruira se na način da se fenomen koji se istražuje izrazi kroz niz tvrdnji (čestica) (čestica ili eng. *itema*), a svaka tvrdnja se ocjenjuje na kontinuumu od pet kategorija koje su verbalizirane u rasponu od (*uopće) se ne slažem* do *slažem se u (potpunosti)*.
+
+To znači da je prvi koraka u konstrukciji ljestvice generiranje većeg broja tvrdnji sukladnih konceptualnom određenju fenomena koji se istražuje. Generirane tvrdnje zatim se uvrštavaju u upitnik, a u procesu istraživanja od sudionika istraživanja se traži da iskaže svoj stupanj slaganja sa pridruženim tvrdnjama. Npr.
+
+***U kojoj mjeri se slažete sa sljedećim tvrdnjama? Odgovorite koristeći se opcijama odgovora od 1 do 5, gdje 1 znači „uopće se ne slažem", 2 „uglavnom se ne slažem", 3 „niti se slažem niti se ne slažem", 4 „donekle se slažem", 5. „slažem se u potpunosti".***
+
+| | |
+|---|---|
+| U mom domu televizor je stalno upaljen. | 1 2 3 4 5 |
+| Većinu slobodnog vremena provedem gledajući televiziju. | 1 2 3 4 5 |
+| Vrijeme mi najugodnije prođe uz televizijski program. | 1 2 3 4 5 |
+
+Likertova ljestvica jedna je vrsta tzv. sumativnih ljestvica (eng. *summated scales*) stoga što se rezultati na pojedinačnim česticama / stavkama mogu sumirati kako bi se dobio ukupan skor po sudioniku istraživanja. Važna pretpostavka mjerenja na bazi ove ljestvice je da svaka stavka / čestica mjeri neki aspekt jedinstvenog zajedničkog faktora, tj. latentne dimenzije. U suprotnom se rezultati po stavkama ne bi mogli sumirati. Drugim riječima, ljestvica treba biti jednodimenzionalna (Aaker, Kumar i Day 2008). Stoga istraživači u procesu obrade podataka provide eksploratornu faktorsku analizu kako bi pročistili čestice, tj. utvrdili je li riječ o jednodimenzionalnoj ili višedimenzionalnoj ljestvici, tj mjeri li ljestvica jedan latentni konstrukt (fenomen) ili više njih.
+
+Likertova ljestvica obično se tretira kao kvazi-intervalna ljestvica te se stoga u procesu obrade podataka koji se njome prikupljaju koriste parametrijske statističke procedure[^18]; računa se prosječna vrijednost, testira se statistička značajnost razlika između različitih grupa sudionika istraživanja, računa se korelacija[^19].
+
+Bitno je napomenuti da Likertova ljestvica ima uvijek pet kategorija te da su kategorije uvijek opisane u terminima slaganja ili neslaganja s predočenim tvrdnjama. Ukoliko se koristi neki drugi opis kategorija tada nije riječ o Likertovoj ljestvici. U tim slučajevima govorimo o nekoj od *ljestvica procjene*. Takve ljestvice obično sadrže pet, sedam ili deset kategorija. Primjerice, posredstvom *ljestvica procjene* možemo steći uvid u to da li sudionici istraživanja nešto podržavaju ili ne podržavaju (1 – ne podržavam....5-podržavam), jesu li nečim zadovoljni ili nezadovoljni (1-nezadovoljan..10-zadovoljan), u kojoj mjeri pristaju uz nešto (1-ne pristajem...5-pristajem) i tsl.
+
+*Semantički diferencijal*
+
+Ovu ljestvicu konstruirao je američki psiholog Charles Osgood. Stoga se još naziva i Osgoodov semantički diferencijal. Ljestvica se sastoji od bipolarnih pridjeva koji služe da se u njihovim terminima procjeni stav sudionika istraživanja prema predmetu mjerenja. Svaki par pridjeva ocjenjuje se na skali od 7 stupnjeva pri čemu je srednji stupanj neutralan[^20]. Pozitivni i negativni pridjevi trebaju biti razbacani na obje strane ljestvice budući da se time priječi automatizam kod odgovaranja.
+
+**Npr. *Kako biste ocijenili kvalitetu informativnog programa HRT-a?***
+
+| | | | | | | | | |
+|---|---|---|---|---|---|---|---|---|
+| Loš | 3 | 2 | 1 | 0 | 1 | 2 | 3 | Dobar |
+| Privlačan | 3 | 2 | 1 | 0 | 1 | 2 | 3 | Neprivlačan |
+| Topao | 3 | 2 | 1 | 0 | 1 | 2 | 3 | Hladan |
+| Neugodan | 3 | 2 | 1 | 0 | 1 | 2 | 3 | Ugodan |
+| Blizak | 3 | 2 | 1 | 0 | 1 | 2 | 3 | Dalek |
+| Nejasan | 3 | 2 | 1 | 0 | 1 | 2 | 3 | Jasan |
+| Prijateljski | 3 | 2 | 1 | 0 | 1 | 2 | 3 | Neprijateljski |
+
+Originalni Osgoodov semantički diferenijcal podrazumijeva korištenje pridjeva kojima se mjere tri dimenzije odnosa prema nekom objektu. (Curchill i Iacobucci, 2002, 382). To su: **Evaluacija** (dobar – loš, pomaže – ne pomaže), **potencijal** (moćan – nemoćan, jak-slab, dubok – plitak) i **aktivnost** (brz – spor, živ – mrtav, bučan – tih). Međutim, u različitim istraživačkim situacijama, istraživači koriste i druge vrste bipolarnih pridjeva, tako da se ova ljestvica upotrebljava kao ljestvica kojom se često mjere različita latentna obilježja nekog objekta ili fenomena. Kao i Likertova i ova ljestvica se može tretirati kao kvazi-intervalna ljestvica.
+
+*Stapel ljestvica*
+
+U suštini riječ je o modifikaciji semantičkog diferencijala. Od njega se razlikuje po tome što se pridjevi ili deskriptivne fraze ocjenjuju separatno te po tome što ljestvica ima 10, a ne 7 stupnjeva – obično od -5 do +5, bez 0. Također se može tretirati kao kvazi-intervalna ljestvica.
+
+**Npr. *Kako biste ocijenili informativni program HRT-a?***
+
+| | |
+|---|---|
+| Kvalitetan | -5 -4 -3 -2 -1 +1 +2 +3 +4 +5 |
+| vjerodostojan | -5 -4 -3 -2 -1 +1 +2 +3 +4 +5 |
+| iscrpan | -5 -4 -3 -2 -1 +1 +2 +3 +4 +5 |
+
+Poseban slučaj nekomparativne ljestvice je i tzv. *Thurstonova ljestvica*.
+
+Iako se radi o jednoj od najstarijih ljestvica u društvenim znanostima, koristi se vrlo rijetko i to zbog relativno kompleksne procedure njene izrade. Naime, Thurstonova ljestvica se konstruira na sljedeći način:
+
+1.  Prikupi se veliki broj stavova / tvrdnji na neku temu.
+
+2.  Tvrdnje se ocjenjuju od strane žirija eksperata da bi im se dao položaj na ljestvici te kako bi se odbacile one oko kojih ne postoji suglasnost.
+
+3.  Svakoj zadržanoj tvrdnji pridaje se određena vrijednost.
+
+4.  Vrši se konačan izbor tvrdnji tako da se oni ravnomjerno raspoređuju uzduž čitave ljestvice.
+
+Osim odluke o tome koju vrstu ljestvice će koristiti, prilikom konstrukcije ljestvica sa stavcima, istraživači moraju donijeti nekoliko važnih odluka od kojih ovisi konačna forma ljestvice, a shodno tome i sama priroda odgovora sudionika istraživanja. Pri tom je jedna od najvažnijih odluka o broju kategorija na ljestvici. Pronalazak optimalnog broja kategorija na ljestvici važan je stoga što veći broj kategorija omogućuje je bolja diskriminativnost u mjerenju, no s druge strane, kao što smo naveli, ljudi uglavnom nisu u mogućnosti precizno se izjašnjavati u slučaju velikog broja kategorija. Stoga se i u ovom slučaju sugerira da se, ukoliko je to moguće, poštuje tradicionalna uputa o tome da je najprimjereniji broj kategorija 7 +/- 2.
+
+Bitno je napomenuti se optimalni broj kategorija na nekoj ljestvici može odrediti i temeljem uvriježenih kulturnih normi. Primjerice, građani u Hrvatskoj socijalizirani su na procjenjivanje ili vrednovanje posredstvom ljestvice koja ima pet kategorija. Dakle, „kulturno su normirani" na ovu vrstu ljestvice. Zbog tog razloga ljestvica od pet kategorija u Hrvatskoj dobro funkcionira i preporuča se za korištenje.
+
+Prilikom odluke o broju kategorija na ljestvici potrebno je uzeti u obzir i sljedeće:
+
+a.  Ako se pretpostavlja da će sudionici istraživanja biti zainteresirani za predmet istraživanja ili da dobro poznaju predmet mjerenja tada se može koristiti ljestvica s većim brojem kategorija. U suprotnom slučaju bolje je koristiti manji broj kategorija.
+
+b.  Sama obilježja predmeta mjerenja mogu utjecati na odluku o bruju kategorija na ljestvici. Npr. neki predmeti mjerenja nisu pogodni za finu diskriminaciju. Stoga je u takvim slučajevima bolje koristiti manji broj kategorija.
+
+c.  Način prikupljanja podataka također ima utjecaj na odluku o broju kategorija na ljestvici. Zbog toga što se sudionicima istraživanja mogu pokazati opcije odgovora ankete *licem u lice* pogodnije su za korištenje ljestvica s većim brojem kategorija. Isti je slučaj i s anketama posredstvom Interneta. Nasuprot toga telefonske ankete nisu pogodne za korištenje ljestvica s većim brojem kategorija.
+
+Bez obzira na spomenute dobre strane neusporednih ljestvica, pri njihovom korištenju važno je imati na umu i njihova ograničenja ili određene nedostatke. Primjerice, u neusporednim ljestvicama odgovori se obično označavaju brojevima, posebice kada se radi o ljestvicama koje mjere neki intenzitet (npr. intenzitet slaganja ili ne slaganja s nekom tvrdnjom, ili npr. intenzitet konzumacije nekog medija). U takvim slučajevima interpretacija značenja ponuđenih brojeva može biti prožeta brojnim subjektivnostima, tj. ovisna o interpretaciji ispitanika. Npr. na ljestvici od 7 stupnjeva, ispitanici različito mogu tumačiti vrijednost 5 ili vrijednost 3. Ovaj problem posebice je svojstven ljestvicama s većim brojem opcija odgovora (npr. 7 ili 10) i to u slučaju tzv. „nelabeliranih" ljestvica, tj. u slučaju onih ljestvica u kojima brojevima nisu pridodani i verbalni opisi njihovih značenja. Također, način na koji ispitanici koriste ljestvice može biti i pod utjecajem kulturnih normi. U nekim kulturama postoji tendencija izbjegavanja ekstremnih odgovora (tzv. germanski stil odgovaranja), dok su u drugima ekstremni odgovori češće prisutni (tzv. brazilski ili latinoamerički stil odgovaranja). To naročito može biti problem u međunarodnim studijama jer može otežati usporedbe podataka između različitih zemalja. Zbog toga razloga istraživači u studijama koje se provode u većem broju zemalja, npr. u studiji Europsko društveno istraživanje, da bi donekle neutralizirali ovaj problem, u obradi podatka „centriraju podatke oko aritmetičke sredine". Ovaj postupak omogućuje istraživačima da neutraliziraju sistematske razlike u korištenju ljestvice između različitih skupina te olakšava interpretaciju rezultata u multivarijatnim analizama. Centriranje oko aritmetičke sredine je postupak u kojem se od svake vrijednosti varijable oduzima prosječna (aritmetička) vrijednost te varijable. Time se dobiva nova, centrirana varijabla sa sredinom jednakom nuli[^21].
+
+Uz to, neusporedne ljestvice osjetljive su na to da li je riječ o tzv. „forsiranim" ili „neforsiranim ljestvicama". Forsirane ljestvice su one bez opcije „ne znam / ne želim odgovoriti". U njihovom slučaju ispitanici nepostojanje ove opcije odgovora često supstituiraju izborom srednje opcije (npr opcije 3 na ljestvici od 1 do 3). Ova tendencija, poznata kao pristranost prema središnjem odgovoru (engl. *central tendency bias*), može utjecati na smanjenje varijabilnosti u prikupljenim podacima te dovesti do iskrivljene slike o stvarnom rasponu i intenzitetu stavova.
+
+b.  **Verbalizacija pitanja u anketi**
+
+Nakon određivanja broja i forme pitanja, drugi korak u izradi ankete je precizna verbalizacija pitanja. Na ovu fazu u izradi ankete potrebno je obratiti pažnju stoga što je istraživanje metodom ankete je u svojoj suštini komunikacijski proces. Stoga je i verbalna konstrukcija pitanja jedan od zadataka kojem u anketi treba posvetiti posebnu pažnju. Naime, da bi anketa ispunila svoju svrhu, tj. da bi rezultirala s pouzdanim i valjanim nalazima istraživanja, svako pitanje u anketi treba biti postavljeno na način (Foddy, 1993):
+
+-   da omogući prikupljanje one vrste informacija koja proizlazi iz postavljenog cilja istraživanja;
+
+-   da posjeduje mogućnost "dekodiranja" od strane ispitanika na način na koji je to istraživač predvidio;
+
+-   da omogućuje ispitaniku da pruži odgovor u obliku koji sadrži sve informacije sukladne postavljenim ciljevima istraživanja.
+
+Zbog navedenog razloga anketa kao metoda istraživanja postavlja jedan važan komunikacijski imperativ: imperativ jasnih, razumljivih i jednoznačnih pitanja. Stoga i postupak verbalnog definiranja pitanja ima jedno od centralnih mjesta u izradi ankete. Postoji niz uobičajenih pravila dobre prakse verbalne konstrukcije pitanja koja se obično ističu u različitim priručnicima o izradi upitnika. Primjerice, na temelju preporuka koje daju Foddy (1993) Bickman i Rog (1998) te (Bechhofer i Paterson, 2000) istraživači bi prilikom verbalne konstrukcije pitanja pažnju trebali obratiti na sljedeće:
+
+1.  Pitanja trebaju biti jasna i nedvosmislena.
+
+2.  Pitanja moraju točno komunicirati ono što se traži od ispitanika.
+
+3.  Kompleksnost jezika kojim su postavljena pitanja treba biti primjerena (kompleksnosti) jeziku kojim se služe ispitanici. Načelno, trebaju biti korištene riječi koje su razumljive prosječnom članu populacije koja se istražuje (što je neka riječ manje jasna, veća je vjerojatnost da će odgovor ispitanika biti *ne znam*).
+
+4.  Pitanja trebaju biti jednostavna i što kraća. Dugačka pitanja, ukoliko je to moguće, treba izbjegavati.
+
+5.  Svako pitanje treba postaviti "kao jedno" – treba izbjegavati tzv. "višestruka pitanja" *(*Npr*: Što sve pročitali u tisku ili vidjeli na TV u svezi novih poreza?").*
+
+6.  Pitanja treba postaviti tako da ne sugeriraju odgovore. Također, potrebno je izbjegavati sugestivne riječi ili fraze. (Primjerice, pitanje ne bi trebalo glasiti na sljedeći način: *Vjerojatno ste upoznati s nepravilnostima u vođenju stranke xy, kakvo je Vaše mišljenje o vodstvu te stranke?*).
+
+7.  Riječi kojima se služimo prilikom formuliranja pitanja trebaju biti što je moguće više specifične i konkretne, tj. treba izbjegavati riječi bez empirijskih referenci budući da je takve riječi teško jednoznačno interpretirati. Npr. riječi kao što su *dobro, zlo, prijatelj, neprijatelj, davno,* riječi su bez empirijskih referenci. Mala je vjerojatnost da će spomenute riječi sudionici istraživanja jednoznačno interpretirati.
+
+8.  Treba izbjegavati apstraktne riječi i pojmove (opće, društvo, često, rijetko).
+
+9.  Treba izbjegavati postavljanje tzv "skrivenih pitanja", onih pitanja koja pretpostavljaju i nepostavljeno pitanje. Npr. *Za koga ćete glasati na idućim parlamentarnim izborima*? Ovakva pitanja treba razbiti u dva ili više pitanja. Primjerice: *Hoćete li izaći na iduće parlamentarne izbore?* *Za koju stranku ćete glasati?*
+
+10. Treba voditi računa o tome kamo će se smjestiti pojedina pitanja zbog razloga da prethodna pitanja ne uvjetuju, odgovore na pitanja koja slijede na način da postoji određena logička nepodudarnost odgovora.
+
+c.  **Definiranje poretka pitanja**
+
+Nakon verbalne konstrukcije pitanja, idući korak u konstrukciji ankete obično je određivanje poretka pitanja. U ovoj fazi određuje se koji će se blok pitanja koristiti kao uvod u anketu, gdje će se smjestiti kompleksnija, a gdje jednostavnija pitanja, koja pitanja će se koristiti kao pitanja za prelazak s jednog bloka na drugi te kojim će se pitanjima završiti anketa.
+
+Generalno, postoje dvije temeljne strategije definiranja poretka pitanja u anketi: *logička i psihološka.* Korištenjem logičke strategije slijed pojedinih setova pitanja vodi se nekom specifičnom logikom – npr. logikom ciljeva istraživanja ili logikom složenosti pitanja (npr. može se koristiti *logika lijevka* – od složenijih do jednostavnijih pitanja). Korištenje psihološke strategije podrazumijeva da se vodi računa o tome kako će se uspostaviti optimalna komunikacija s ispitanikom. Obično se koristi kada je tema koja se istražuje osjetljive prirode ili je nelagodna za ispitanika. Primjerice, psihološka strategija definiranja poretka pitanja koristi se kada se istražuju devijantni oblici ponašanja, podložnost različitim bolestima, psihičkim smetnjama i tsl. Psihološka strategija postavljanja pitanja omogućuje:
+
+-   održavanje procesa komunikacije,
+
+-   održanje interesa za sudjelovanje u anketi,
+
+-   reducira nelagodu koja može biti izazvana pojedinim pitanjima,
+
+-   djeluje kao svojevrsni motivator za pružanje potrebnih odgovora
+
+Prilikom definiranja poretka pitanja potrebno je uzeti u obzir činjenicu da prethodno postavljena pitanja mogu na više različitih načina utjecati na odgovore ispitanika na kasnije postavljena pitanja. Primjerice, prethodno postavljeno pitanje može izazvati tzv. "učinak prethodnog odgovora" (Foddy, 1993). Ovaj učinak podrazumijeva da ispitanici svoje odgovore usklađuju s odgovorima koja su prethodno dali. Primjerice, ukoliko postavite pitanje „koliko često sudjelujete u vjerskim obredima", vrlo vjerojatno će odgovor na takvo pitanje utjecati na odgovor na pitanje „koliko vam je važna religija u svakodnevnom životu". Ovaj učinak nije uvijek nešto što je nužno negativno. Dapače, konzistentnost u odgovorima na različita pitanja je nešto što je odlika ispravnog mjerenja u metodi ankete. No, problem je u situacijama kada učinak prethodnog odgovora dovodi do umjetnog usklađivanja odgovora, odnosno kada ispitanici nastoje pokazati konzistentnost čak i onda kada bi njihovi spontani, iskreni odgovori bili različiti. Takvo ponašanje ispitanika može umanjiti valjanost podataka jer takvi odgovori mogu odražavati strategiju prezentacije sebe ili nastojanje da se izbjegne prividna kontradiktornost, a ne nužno stvarna uvjerenja ili stavove ispitanika. Ovaj učinak posebice se može očekivati u onim situacijama kada se istražuje neka tema na način da se kombiniraju specifična i općenita pitanja. Primjerice, istražuju se navike u konzumaciji Instagrama posredstvom većeg broja stavaka, a zatim se postavi općenito pitanje kojim se mjeri generalni stav o Instagramu (npr. 1 /lošiji od drugih društvenih mreža koje poznajem/ .... 5 /puno bolji od drugih društvenih mreža koje poznajem/). U ovakvom slučaju istraživač može dvojiti koju strategiju izabrati. Prvo postaviti specifična pitanja, a zatim općenita ili obrnuto. Iako nema nekog generalne preporuke, prema mojem istraživačkom iskustvu bolje je prvo postaviti specifična pitanja budući da to omogućuje ispitanicima da procjene specifične aspekte teme te zatim da svoj opći sud baždare temeljem datih odgovora. S druge strane ako se opće pitanje postavi prvo, postoji veća vjerojatnost da će ono usmjeriti način na koji će ispitanici interpretirati i odgovarati na kasnija, specifičnija pitanja, tj. veća je vjerojatnost da će se pojaviti učinak prethodnih odgovora na način da će ispitanici svoje kasnije specifične odgovore usklađivati s odgovorom na opće pitanje. Ukoliko na općenito pitanje nije iskreno odgovoreno (npr. zbog socijalne poželjnosti pruženog odgovora ili zbog željom za specifičnom prezentacijom sebe), tada takva strategija odgovaranja može izazvati probleme u pogledu valjanosti odgovora na veći broj pitanja koja slijede.
+
+d.  **Finalizacija upitnika**
+
+Finalizacija upitnika podrazumijeva određeni broj radnji kojima se provjerava da li je upitnik konstruiran shodno zahtjevima nacrta istraživanja te da li je komunikacijski optimiran (forma, verbalizacija i poredak pitanja). Ova završna faza izrade upitnika obično sadrži sljedeće:
+
+1.  Istraživač provjerava da li su svi ciljevi istraživanja pokriveni postavljenim pitanjima.
+
+2.  Provjerava jesu li sva pitanja nužna.
+
+3.  Provjerava se kakav je poredak blokova pitanja i poredak pitanja unutar blokova pitanja.
+
+4.  Piše se **uvodni tekst** – uvodni tekst koji se čita / prikazuje sudionicima istraživanja na početku istraživanja, a kojim se ispitanike:
+
+    a.  Informira o ciljevima istraživanja.
+
+    b.  Informira se o načinu izbora uzorka.
+
+    c.  Informira se o dužini upitnika.
+
+    d.  Garantira mu se anonimnost.
+
+Iako možda na prvi pogled ne djeluje kao posebno važna etapa, dobro strukturiranje uvodnog teksta važno je za valjano anketno istraživanje. Naime, anketiranje uvijek ima neku kontekstualnu pozadinu s kojom je potrebno upoznati ispitanike. Ukoliko istraživači ispitanicima ne pruže relevantne kontekstualne informacije o istraživanju (npr. svrha i ciljevi istraživanja, razlog zbog kojeg su izabrani u istraživanje, način izbora, tj. uzorkovanja), oni će morati sami pretpostaviti kontekstualni pozadinu istraživanja. U tom slučaju velika je vjerojatnost da će je različiti ispitanici definirati na različite načine, tj. da će formulirati vlastite hipoteze o istraživačkim ciljevima, o razlozima zašto se istraživanje provodi ili o načinu na koji će se koristiti podaci što može utjecati i na način njihovog sudjelovanja u istraživanju, odgovaranja, angažmana i slično. Dakle, ispitanicima treba predočiti generalne ciljeve istraživanja kao i specifične ciljeve pojedinih pitanja te ih upoznati i s načinom na koji će se tretirati podaci. Jednostavno, moraju biti upoznati zašto se istraživanje provodi, zašto baš oni sudjeluju u istraživanju, te što se planira s podacima koje će se prikupiti.
+
+
+**Uzorak**
+
+Istraživanja posredstvom ankete obično se provode na uzorcima. Naime, zbog praktičnih i financijskih razloga uglavnom nije moguće provoditi istraživanja na čitavoj populaciji. Da bi se razumio pojam uzorka i njegova funkcija u istraživanju treba razumjeti razliku između populacije i uzorka.
+
+Populacija obuhvaća sve moguće članove neke skupine s određenim karakteristikama na određenom području. Za razliku od toga uzorak je dio populacije na kojem se provodi istraživanje i temeljem kojeg se zaključuje o čitavoj populaciji. Uzorak je „model" populacije koji predstavlja populaciju. On je populacija u malom, njen izdvojeni dio koji je preslikava s obzirom na njena najvažnija svojstva. Prema tome, za uzorak možemo konstatirati da predstavlja manji ali pažljivo odabrani skup članova populacije pomoću kojega se spoznaju pojedina populacijska obilježja, tj. pomoću kojeg se procjenjuju stvarne populacijske vrijednosti. Dakle, na temelju rezultata koji su dobiveni na uzorku obično se donosi zaključak o stvarnom stanju u cijeloj populaciji.
+
+Da bi procjena populacijskih vrijednosti na temelju vrijednosti utvrđenih na uzorku bila valjana potrebno je da uzorak što bolje predstavlja populaciju. Ovaj zahtjev naziva se zahtjevom za reprezentativnošću uzorka. Budući da uzorak nikada ne može u potpunosti reprezentirati stanje u populaciji u pripremi uzorka potrebno je odlučiti koja su to populacijska obilježja po kojima uzorak treba biti reprezentativan. Zbog toga istraživač prije konstrukcije uzorka obično donosi odluku koja će populacijska obilježja kontrolirati u procesu konstrukcije uzorka. Takva obilježja obično se nazivaju kriterijima reprezentativnosti uzorka. U slučaju uzoraka koji se ekstrahiraju iz opće populaciji kao kriteriji kontrole reprezentativnosti obično se koriste najvažnija sociodemografska obilježja (spol, dob, obrazovanje, regionalna pripadnost, veličina naselja, radni status). Ukoliko je uzorak reprezentativan po kontroliranim kriterijima reprezentativnosti tada se i procjena populacijskih vrijednosti (populacijskih parametara) može izvesti na temelju vrijednosti ustanovljenih na uzorku.
+
+Struktura reprezentativnog uzorka opće populacije na osnovi kriterija spola, dobi, mjesta stanovanja i obrazovanja u slučaju Hrvatske izgleda na sljedeći način:
+
+**Tablica 4:** *Struktura reprezentativnog uzorka po kriterijima spola, dobi, mjesta stanovanja i obrazovanja (N=1000). – PREPRAVITI PREMA POPISU 2021*
+
+| **Populacija** | **Udio u populaciji** | **Udio u uzorku** | **N (broj ispitanika)** |
+|---|---|---|---|
+| Muškarci | 48% | 48% | 480 |
+| Žene | 52% | 52% | 520 |
+| Mlađa dob | 25% | 25% | 250 |
+| Srednja dob | 40% | 40% | 400 |
+| Starija dob | 35% | 35% | 350 |
+| Grad | 60% | 60% | 600 |
+| Selo | 40% | 40% | 400 |
+| OŠ | 23% | 23% | 230 |
+| SŠ | 60% | 60% | 600 |
+| VŠ | 17% | 17% | 170 |
+
+**Vrste uzoraka**
+
+Na najopćenitijoj razini, uzorci koji se koriste u istraživanju metodom ankete mogu se podijeliti na probabilističke uzorke (uzorci s poznatom vjerojatnošću izbora) i neprobabilističke uzorke (uzorci s nepoznatom vjerojatnošću izbora) (Milas, 2009).
+
+**Slučajni ili probabilistički uzorci** (uzorci s poznatom vjerojatnošću izbora): Matematički konstruirani uzorci izabrani na temelju proračuna vjerojatnosti s kojom svaki član populacije može biti izabran u uzorak. Temelje se na Bernoullijevom teoremu / zakonu velikih brojeva. Ovaj teorem tvrdi da će se bilo koji dovoljno velik slučajno izvučen uzorak iz neke populacije vjerojatno slagati s matičnom populacijom po svojoj distribuciji raznih karakteristika. Dvije su glavne prednosti probabilističkih uzorka:
+
+-   Primjenom probabilističkog uzorkovanja minimizira se pristranost u uzorkovanju (npr. prilikom ekstrakcije uzorka iz opće populacije minimizira se vjerojatnost da će neke demografske kategorije biti zastupljenije u uzorku).
+
+-   Teorija vjerojatnosti omogućuje istraživaču da izračuna prirodu i razmjere pristranosti u rezultatima istraživanja, tj. da odredi grešku u procjeni koja potiče od same slučajnosti izbora uzorka (Aaker, Kumar i Day, 2008). Drugim riječima, probabilistički uzorci omogućuju izračunavanje standardne pogreške proporcije uzorka i standardne pogreške aritmetičke sredine uzorka, tj. omogućuju procjenu intervala unutar kojeg se može očekivati prava populacijska vrijednost.
+
+Vrste slučajnih uzoraka:
+
+a)  *Jednostavni slučajni uzorak*
+
+Jednostavni slučajni uzorak je uzorak u kojem se izbor jedinica uzorka bira na temelju tablice slučajnih brojeva ili računalnim generiranje slučajnih brojeva. Dakle, radi se o principu uzorkovanja gdje se iz populacije čiji je broj konačan i poznat izabire N slučajeva, na način da svaki slučaj ima jednaku vjerojatnost izbora. Prema tome, u slučaju ovakvog uzorkovanja istraživač mora posjedovati potpuni popis populacije koju istražuje (Milas, 2009:416).
+
+b)  *Sistematski slučajni uzorak*
+
+Sistematski slučajni uzorak predstavlja uzorak u kojem su jedinice uzorka izlučene iz populacije temeljem nekog sistematskog postupka. Primjerice, odabire se svaki deseti ili trideset član neke poznate populacije. U ovom slučaju također je potreban popis svih jedinica populacije. Prva etapa u ovom uzorkovanju je određivanje tzv. „koraka" izbora jedinica uzorka. Npr. ako populacija ima 100 članova, a treba nam uzorak od njih 10, tada se korak definira kao svaki deseti član. Dakle, ako se izabire svaki deseti, izabrat će se deset članova od njih 100 koji čine populaciju. Nakon što se odredi korak, slučajnim izborom izabire se početni član populacije od kojeg se kreće u izbor. Npr. slučajnim odabirom izabran je 26 član populacije kao prvi izbor. To znači da će nakon njega u uzorak ući 36 član (26 + 10 /korak/ = 36), zatim 46, pa 56 itd.
+
+c)  Slučajni stratificirani uzorak:
+
+U slučaju ovog uzorka populacija se prije izbora uzorka najprije podijeli na poduzorke ili stratume. Stratumi predstavljaju populacijske grupe. Primjerice, osobe sa završenom osnovnom školom mogu biti određene kao jedan stratum, osobe sa završenom srednjom školom kao drugi stratum, a osobe sa završenim fakultetom kao treći stratum. Nakon toga se unutar svakog stratuma slučajnim izborom izabire potreban broj članova uzorka. Najčešće se koristi tzv. proporcionalno stratificiranje. To znači da se iz svakog stratuma slučajnim odabirom odabire onoliki broj jedinica koliki je udio tog stratuma u populaciji. Primjerice, ako je udio osoba sa završenim fakultetom u Hrvatskoj 17%, tada se iz tog stratuma odabire 17% od svih jedinica ukupnog uzorka. Npr. ako je veličina ukupnog uzorka 1000 ispitanika to bi značilo da iz ovog stratuma treba slučajnim odabirom izabrati 170 ispitanika (170=17% od 1000).
+
+Stratifikacija uzorka može biti višeetapna: uzorak je moguće stratificirati s obzirom na različita obilježja u više etapa (koraka). Primjerice, u istraživanjima na uzroku opće populacije obično se provodi tzv. „dvoetapna" stratifikacija, tj. uzorak se stratificira na sljedeći način:
+
+1.  Etapa – stratifikacija po regionalnoj pripadnosti: Uzorak građana RH se stratificira najprije prema regionalnoj pripadnosti. Cjelokupni teritorij RH podjeli se u pet ili šest tradicionalnih regija (najčešće se definiraju kao skupovi županija). To znači da se u prvom koraku točno odredi broj sudionika istraživanja iz svake regije.
+
+2.  Etapa – stratifikacija po veličini naselja: Svaka od definiranih regija stratificira se s obzirom na veličinu naselja. Npr. regija se podjeli na 4 stratuma s obzirom na veličinu naselja: do 2.000 stanovnika, 2.001-10.000 stanovnika, 10.001–100.000 stanovnika, više od 100.000 stanovnika. Zatim se odredi koliko sudionika istraživanja unutar pojedine regije treba uključiti u uzorak iz svake od ove 4 grupe naselja
+
+***Tablica 5:** Prva etapa stratificiranja: stratifikacija po regionalnoj pripadnosti*
+
+| **Regije** | **% (udio u populaciji)** | **N** |
+|---|---|---|
+| 1 – Zagreb i okolica | 25% | 250 |
+| 2 – Sjeverna Hrvatska | 17,8% | 178 |
+| 3 – Slavonija | 17,8% | 178 |
+| 4 – Lika i Banovina | 8,2% | 82 |
+| 5 – Istra, Hrvatsko primorje i Gorski Kotar | 11,8% | 118 |
+| 6 – Dalmacija | 19,1% | 191 |
+| | **100%** | **1000** |
+
+***Tablica 6:**. Druga etapa stratificiranja: startifikacija po veličini naselja*
+
+| **1. Zagreb i okolica** | **870.591** | **%** | **N** |
+|---|---|---|---|
+| 1.1. > 100 000 | 560245 | 64% | 160 |
+| 1.2. 10 001 – 100 000 | 86262 | 10% | 25 |
+| 1.3. 2 000 – 10 000 | 44048 | 5% | 13 |
+| 1.4. < 2 000 | 180036 | 21% | 52 |
+| **2. Sjeverna Hrvatska** | **624.947** | **%** | **N** |
+| 2.1. > 100 000 | 0 | 0% | 0 |
+| 2.2. 10 001 – 100 000 | 117664 | 19% | 33 |
+| 2.3. 2 000 – 10 000 | 97111 | 16% | 28 |
+| 2.4. < 2 000 | 410172 | 66% | 117 |
+| **3. Slavonija** | **614.155** | **%** | **N** |
+| 3.1. > 100 000 | 0 | 0% | 0 |
+| 3.2. 10 001 – 100 000 | 220354 | 36% | 64 |
+| 3.3. 2 000 – 10 000 | 167555 | 27% | 48 |
+| 3.4. < 2 000 | 226246 | 37% | 66 |
+| **4. Lika i Banovina** | **308.036** | **%** | **N** |
+| 4.1. > 100 000 | 0 | 0% | 0 |
+| 4.2. 10 001 – 100 000 | 92541 | 30% | 24 |
+| 4.3. 2 000 – 10 000 | 44356 | 14% | 12 |
+| 4.4. < 2 000 | 171139 | 56% | 46 |
+| **5. Primorje, Gorski Kotar i Istra** | **417.985** | **%** | **N** |
+| 5.1. > 100 000 | 119309 | 29% | 34 |
+| 5.2. 10 001 – 100 000 | 67332 | 16% | 19 |
+| 5.3. 2 000 – 10 000 | 72352 | 17% | 20 |
+| 5.4. < 2 000 | 158992 | 38% | 45 |
+| **6. Dalmacija** | **669.819** | **%** | **N** |
+| 6.1. > 100 000 | 139083 | 21% | 40 |
+| 6.2. 10 001 – 100 000 | 164592 | 25% | 47 |
+| 6.3. 2 000 – 10 000 | 133607 | 20% | 37 |
+| 6.4. < 2 000 | 232537 | 35% | 67 |
+
+Nakon toga, izabiru se konkretna naselja unutar svake regije te se određuje procedura slučajnog izbora sudionika istraživanja unutar naselja.
+
+d)  *Klaster uzorak:*
+
+Klaster uzorak se koristi kada se ne poznaju važni populacijski parametri. U slučaju ovog uzorka jedinice odabira nisu pojedinci već skupine ili „klasteri" (eng. *clusters*). U takvom načinu uzorkovanja slučajno se biraju skupine unutar kojih potom svi članovi ulaze u uzorak. Npr. želi se istražiti koliko srednjoškolaca redovito čita dnevne novine. Umjesto da se kao jedinice uzorka definiraju učenici, uzorkovanje će se obaviti na način da će se uzrokovati srednje škole, pa će se unutar svake srednje škole slučajnim izborom izabrati jedan razred čiji će učenici ući u uzorak. Dakle, u ovakvom načinu uzorkovanja slučajno se biraju skupine unutar kojih se potom ispituju svi članovi (Milas, 2009: 426).
+
+**Neslučajni ili neprobabilistički uzorci** (uzorci s nepoznatom vjerojatnošću izbora): Kod neprobabilističkih uzoraka radi se o svim ostalim vrstama uzoraka u kojima se izbor jedinica uzorka ne temelji na slučajnosti izbora. Kod ovih uzoraka jedinice populacije koje ulaze u uzorak biraju se u skladu s određenim kriterijima koje definira sam istraživač – nekim njegovim pretpostavkama, očekivanjima, znanjem o populaciji i slično. Shodno tome ovakvi uzorci obično su po nekom selekcijskom kriteriju pristrani. Zbog toga nisu prikladni za generalizaciju rezultata istraživanja s uzorka na populaciju, tj. u slučaju ovakvih uzoraka istraživači trebaju biti vrlo oprezni ukoliko se rezultati istraživanja prikupljeni na uzorku žele generalizirati. To ujedno znači da ovakvi uzorci nisu ni prikladni za procjenu populacijskih parametara. Primjerice, ukoliko istraživanje provodite na prigodnom uzorku, a želite procijeniti koliki broj ljudi u Hrvatskoj dnevno koristi društvenu mrežu Instagram, podaci koje prikupite neće vam omogućiti takvu procjenu. Ovu činjenicu posebice treba imati na umu budući da se zadnjih godina, uslijed sveprisutnosti društvenih mreža kao i pojave brojnih digitalnih alata za provedbu anketnih istraživanja (npr. SurveyMonkey, Google Forms, LimeSurvey itd.) drastično raste broj istraživanja koja se provode posredstvom Interneta. U daleko najvećem broju slučajeva takva istraživanja se provode na nekoj vrsti neprobabilističkih uzoraka (najčešće na prigodnim uzorcima), koji ne podrazumijevaju jednaku vjerojatnost izbora populacijskih jedinica u uzorak. U pravilu to su uzroci generirani nekom vrstom poziva za sudjelovanje u istraživanju ili izlučeni iz tzv. opt-in panela. Iako istraživanja provedena na ovakvim uzorcima mogu pružiti korisne uvide, osobito u ranoj fazi istraživanja ili za potrebe generiranja hipoteza, njihovi rezultati zahtijevaju pažljivu interpretaciju i nije ih primjereno koristiti za donošenje zaključaka o cijeloj populaciji. Dakle ponovimo, prilikom tumačenja rezultata istraživanja koji su na prikupljeni na neprobabilističkim uzorcima, a takvih je u zadnje vrijeme sve više i više, treba biti svjestan činjenice da se posredstvom njih, bez obzira koliko velik bio uzorak, nikako ne mogu procjenjivati populacijski parametri.
+
+U pravilu, neslučajni uzorci se koriste u eksploratornim istraživanjima, tj. u istraživanjima kada želimo na temelju empirijskih podataka steći prve uvide u fenomen koji se istražuje, konstruirati neku radnu hipotezu koja će se kasnije testirati na reprezentativnom uzorku ili kada nemamo nikakvih mogućnosti za drugo uzorkovanje. U tavkim slučajevima oni ispunjavaju svoju svrhu. U istraživanjima metodom ankete najčešće se koriste sljedeći neprobabilistički uzorci.
+
+a)  *Kvotni uzorak*
+
+Poseban oblik ne-probabilističkog uzorka u kojem se unaprijed odrede potencijalno značajne podgrupe za koje se vjeruje da se razlikuju u mjerenom svojstvu i pazi se da u uzorku budu zastupljene jednako kao i u populaciji. Primjerice, unaprijed se odredi točan broj ispitanika određenih karakteristika koje je potrebno istražiti – točan broj muškaraca i žena; mlađih i starijih; više ili manje obrazovanih. Nakon toga izbor članova uzorka ne odvija se po načelu slučajnog odabira, već je izbor konkretnih sudionika ispitanika prepušten istraživaču. Npr. ako se istraživanje provodi u gradu Zagrebu i jedna od definiranih kvota određena je kao 10 žena sa završenom srednjom školom, istraživač može izabrati bilo kojih 10 žena navedenog obrazovnog profila. U suštini, kod kvotnog uzorka riječ je o neprobabilističkoj verziji stratificiranog uzorka. To znači da je broj ispitanika (kvota) unutar pojedine podgrupe najčešće proporcionalan udjelu te grupe u populaciji, ali da se ne primjenjuje slučajni odabir sudionika istraživanja unutar grupe.
+
+b)  *Prigodni uzorak*
+
+Prigodni uzorak predstavlja skupinu pojedinaca koji su dostupni u trenutku kada se provodi istraživanje. Dakle, izabiru se oni sudionici istraživanja koji su u trenutku provođenja istraživanja „pri ruci", do kojih se može doći. Npr. istražujemo li navike u korištenju Instagrama na uzorku studenata Hrvatskih studija, prigodni uzorak činili bi studenti komunikologije koji pohađaju kolegij *Metodologija istraživanja masovne komunikacije*.
+
+c)  *Namjerni uzorak*
+
+Ovo je uzorak koji je konstruiran na osnovu neke posebne strategije odabira sudionika istraživanja, tj. izbor sudionika obavlja se temeljem nekog posebnog kriterija. Obično se koristi neki kriterij koji osigurava veću homogenost ili bolju informiranost sudionika o temi istraživanja. Najčešći tip takvog uzorka je *uzorak tipičnih slučajeva*. To znači da se u uzorak izabiru pojedinci koji posjeduju određene tipične karakteristike, a koje su važne s obzirom na ciljeve istraživanja. Npr. ukoliko nas zanimaju navike srednjoškolaca koji intenzivno koriste Instagram, tada ćemo u uzorak uključiti srednjoškolce koji minimalno četiri ili pet puta dnevno pristupaju ovoj društvenoj mreži.
+
+d)  *Uzorak snježne grude (snowball uzorak)*
+
+Ova vrsta uzorka je koristi se pri istraživanju relativno malih i teško dostupnih skupina koje karakterizira određeno svojstvo i ponašanje, a o kojima nema popisa. Dakle, uzorak se zasniva na početnom odabiru kruga ljudi za koje se zna da posjeduju potrebne karakteristike, a koji zatim sami šire uzorak upućujući istraživača na osobe koje bi također mogao uključiti u uzorak. Koristi se:
+
+-   *kada je nemoguće pribaviti popis članova populacije,*
+
+-   *kada je populacija izrazito rijetka ili "nevidljiva" te je teško naći članove te populacije.*
+
+**Odluka o veličini slučajnog uzorka**
+
+Ne postoji jedinstveni kriterij o kojem ovisi poželjna veličina slučajnog uzorka. U velikom broju slučajeva odluka o veličini uzorka ovisi i o samim provedbenim mogućnostima istraživanja, ali i o svrsi i problematici istraživanja. Primjerice, ako se provodi eksploratorno istraživanje čije je cilj stjecanje prvih uvida u predmet istraživanja ili je cilj prikupljanje podataka kako bi se konstruirale hipoteze koje će se testirati u nekim drugim istraživanjima, tada se istraživanje može raditi i na manjim uzorcima. U slučaju istraživanja kojim se žele utvrditi kauzalni odnosi između varijabli ili testirati neke hipoteze, potrebniji su veći uzorci. No, generalno gledajući na potrebnu veličinu slučajnog uzorka najviše utječe varijabilnost pojave te dopuštena pogreška u zaključivanju. Drugim riječima, što je pojava varijabilnija, što više varira, te ukoliko si istraživači ne mogu dopustiti malu pogrešku u zaključivanju tada je potreban veći uzorak. S druge strane ako je moguće tolerirati veću pogrešku u zaključivanju i ukoliko se pretpostavlja da pojava nije jako varijabilna tada je moguće istraživanje raditi na manjim uzorcima.
+
+Korisni postupak u određivanju željene veličine slučajnih uzorka je računanje standardne pogreške proporcije. Ako znamo da pojava maksimalno varira (raspodjeljuje se u omjeru 50:50) i ako nije moguće dopustiti pogrešku u zaključivanju veću od +/- 3% tada je potreban uzorak od minimalno 1000 sudionika istraživanja. Naime, standardna pogreška proporcije pri ovoj varijaciji i pri ovoj veličini uzorka iznosi cca 3%. To znači da se na izračunatu vrijednost neke pojave dodaje i oduzima 3%, tj. da se očekuje kako će se prava populacijska vrijednost pojaviti u intervalu od +/- 3% od vrijednosti dobivene na uzorku. Ukoliko si istraživač može priuštiti veću pogrešku od +/- 3% tada može istraživanje obaviti na manjem uzorku.
+
+Dakle, standardna pogreška proporcije slučajnog uzorka ukazuje na raspon unutar kojeg se može očekivati prava populacijska vrijednosti. Npr. ako u uzroku od 1000 ispitanika, 50% sudionika istraživanja izjavi da čita neki Internet portal, a taj rezultat je podrazumijeva standardnu pogrešku proporcije od +/-3,2%, tada to znači da s 95% vjerojatnosti možemo biti sigurni da taj portal čita između 46,8% i 53,2% članova populacije iz koje je uzorak izabran. To znači da standardna pogreška proporcije nije samo sredstvo koje može služiti kao orijentir pri donošenju odluke o veličini uzorka, već je i vrlo važan instrument pravilnog zaključivanja s uzorka na populaciju. Bez nje nije opravdano prikazivati očekivane populacijske vrijednosti.
+
+Standardna pogreška proporcije računa se na sljedeći način:
+
+Budući da se obično izražava s određenom vjerojatnošću, dobivena vrijednost standardne pogreške proporcije najčešće se množi s 1,96 što podrazumijeva 95% interval pouzdanosti. To podrazumijeva da standardnu pogrešku tada tumačimo s 95% sigurnošću ili vjerojatnošću, tj. prihvaćamo je s 5% rizika pogreške u procjeni.
+
+**Tablica 7:** *Standardne pogreške procjene proporcije pri maksimalnoj varijaciji uzorka na razini vjerojatnosti od 95%*
+
+| Veličina uzorka | Maksimalna veličina standardne greške pri maksimalnoj varijaciji uzorka uz vjerojatnost od 95% |
+|---|---|
+| 50 | -/+ 14,2% |
+| 75 | +/-11,5% |
+| 100 | +/-10% |
+| 200 | +/-7,1% |
+| 500 | +/-4,5% |
+| 1000 | +/-3,2% |
+| 2000 | +/-2,2% |
+| 5000 | +/-1,4% |
+
+Vrijednosti u tablici ukazuju na jedno važno obilježje odnosa između visine standardne pogreške proporcije i veličine uzorka. Ukazuju da se očekivani iznos maksimalne standardne pogreške proporcije linearno ne smanjuje povećanjem uzorka. Npr. pri veličini slučajnog uzorka od 1000 sudionika istraživanja maksimalna standardna pogreška proporcije je +/- 3,2%. No, ukoliko uzorak poduplamo, tj. povećamo ga na 2000 ispitanika, ona se neće smanjiti za duplo. Njen iznos pri veličini slučajnog uzorka od 2000 sudionika istraživanja iznosi +/- 2,2%. To ukazuje da iz perspektive vjerojatnosti pogreške nije potrebno istraživanja raditi na jako velikim uzorcima. Ukoliko je moguće tolerirati pogrešku u procjeni do 2% ili 3%, slučajni uzorci od 1000 do 2000 sudionika istraživanja biti će sasvim zadovoljavajući. Ukoliko je moguće tolerirati pogrešku u do 5% tada će zadovoljavajući uzorak iznositi 500 sudionika istraživanja.
+
+**Pogreške u procjeni s uzorka na populaciju**
+
+Budući da uzorak ne obuhvaća cijelu populaciju, već predstavlja model populacije on uvijek sadrži i mogućnost pogreške (Halmi, 1999:39). Pogreške u zaključivanju s uzorka na populaciju mogu se podijeliti na tzv. *uzoračke pogreške* i *neuzoračke pogreške*.
+
+**Uzoračke pogreške**
+
+Riječ je o pogreškama (eng. sampling errors) koje se pojavljuju u istraživanjima koja se provode na uzorcima ispitanika, a proizlaze iz procesa uzorkovanja. Manifestiraju se u razlikama dobivenih rezultata i stvarnih vrijednosti koje bi se dobile kada bi bila ispitana cijela populacija.
+
+Uzoračke pogreške mogu se podijeliti na:
+
+1.  Greške koje nastaju zbog pogrešaka u izboru uzorka – npr. kriva procedura, podzastupljenost u izbor sudionika istraživanja specifičnih sociodemografskih obilježja.
+
+2.  Greške koje nastaju kao posljedica same slučajnosti odabira, tj. kao posljedica slučajnih varijacija u uzorku. Riječ je o očekivanim varijacijama slučajnih uzoraka koje su posljedica činjenice da se istraživanje provodi na uzorku, a ne na populaciji. Dakle, sama slučajnost izbora uvijek rezultira određenom pogreškom. Greške koje kod slučajnih uzoraka nastaju kao posljedica slučajnih varijacija mogu se kontrolirati računanjem spomenute pogreške proporcije ili računanjem standardne pogreške aritmetičke sredine u slučaju mjerenja na intervalnim ili omjernim varijablama. Dakle, poznavanjem ovih parametara može se zaključiti kolika je, s obzirom na veličinu uzorka i varijabilnost pojave, pogreška procjene, tj. kolika je pogreška uslijed slučajne varijacije uzorka, tj. uslijed same slučajnosti izbora uzorka iz neke populacije. Primjerice, ako neka aritmetička sredina izračunata na uzorku iznosi 3,2 a izračunata standardna pogreška aritmetičke sredine na razini vjerojatnosti od 95% iznosi 0,5 tada možemo zaključiti da se populacijska aritmetička sredina s 95% vjerojatnošću nalazi u intervalu 2,7 – 3,7.
+
+Standardna pogreška aritmetičke sredine izračunate na nekom uzorku računa se slično kao i standardna pogreška proporcije:
+
+Neuzoračke pogreške mogu se podijeliti na sljedeći način:
+
+1.  Greške koje potječu od anketara.
+
+2.  Greške koje potječu od ispitanika.
+
+3.  Greške koje potječu iz samog upitnika.
+
+Greške koje potiču od anketara posljedica su činjenice da je anketiranje komunikacijski proces. Primjerice, iako je je anketa vrsta strukturiranog intervjua moguće je da različiti anketari na različite načine vode intervju. Oni mogu naglašavati određene riječi, apostrofirati određene pojmove na različite načine, ne pridržavati se uputa za anketiranje, preskakati neka pitanja, mogu poticati ispitanika, davati mu sugestije za određene odgovore i sl. Greške koje potječu od sudionika istraživanja mogu biti posljedica pogrešne interpretacije značenja pitanja, nepažnje ili nezainteresiranosti sudionika istraživanja, namjernog davanja krivog odgovora, laganja i tsl. Greške koje potječu iz samog upitnika obično su povezane uz strukturiranje upitnika, npr. uz redoslijed postavljanja pitanja, formu pitanja, lošu verbalnu konstrukciju pitanja itd.
+
+**Pogreška u tumačenju standardne pogreške**
+
+Dakle, statistička pogreška proporcije uzorka (kao i standardna pogreška aritmetičke sredine) važan je indikator moguće pogreške u interpretaciji rezultata istraživanja. Ona je ušla i u „javnu upotrebu" budući da je vrlo često novinari i politički analitičari predstavljaju prilikom medijske prezentacija istraživanja rejtinga političkih stranaka i kandidata. Budući da su ta istraživanja medijski izrazito zanimljiva, pogotovo u neposredno prije političkih izbora, učestalo se objavljuju kako na portalima tako i u drugim medijima (radio, TV, tisak).
+
+Međutim, ovaj vrlo važan statistički indikator pri tom se vrlo često pogrešno interpretira.
+
+Primjerice, prilikom analize podrške kandidatima ili strankama na uzorku neke standardne veličine, npr. 600 sudionika, novinari i analitičari obično konstatiraju da je „razlika između dvaju kandidata unutar statističke pogreške koja iznosi 4 %". No, statistička pogreška koju se u ovakvim slučajevima spominje odnosi se na maksimalnu standardnu pogrešku proporcije, tj. slučajnu pogrešku pri maksimalnoj varijaciji (50%). Ovo je jedan od učestalijih problema koji se pojavljuje u medijima pri interpretaciji "pogreške uzorka". Dakle, uzima se da je veličina standardne pogreške proporcije ista za sve proporcije na uzorku određene veličine. Međutim, ona varira ovisno o proporciji za koju se računa. Tako je u slučaju kandidata, koji imaju manju podršku od 50% (npr. 30% i 32%) veličina standardne pogreške nešto manja – za ove proporcije na uzorku od 600 ispitanika ona iznosi +/- 3,7% (p=0,05).
+
+Drugi problem s interpretacijom ovog pokazatelja, koji se uglavnom uopće ne razmatra, odnosi se na to da on procjenjuje vjerojatnost pogreške samo na temelju jednog izvorišta – slučajne varijabilnosti uzorka i što ga u suštini ima smisla računati samo za slučajne uzorke. Ako ostavimo po strani problem slučajnosti uzorka to znači da ovaj pokazatelj ne govori ništa o drugoj vrsti uzoračke pogreške, tj. o onoj koja proizlazi iz moguće pristranosti u izboru uzorka. Pri tom je poseban problem u suvremenim anketnim istraživanjima koja smjeraju imati visoku prediktivnu valjanost drastičan pad odaziva na sudjelovanje što može imati znatne reperkusije na preciznost mjerenja. Treće, standardna pogreška proporcije ne upućuje na spomenute neuzoračke pogreške. Primjerice, davanje neiskrenih odgovora, neodgovaranje na pitanje, izbjegavanje odgovaranja tvrdnjom da su neodlučni itd. Prema tome, prilikom predstavljanja rezultata istraživanja često se iz vida ispušta činjenica da je tzv. „statistička greška" tj. standardna pogreška proporcije, samo dio ukupne greške istraživanja.
+
+**Neuzoračke pogreške**
+
+Ova pogreške (eng. non-sampling errors) nemaju svoje ishodište u uzorku, već proizlaze iz načina na koji je anketa provedena. Primjerice, svako anketno istraživanje ujedno je i komunikacijski proces (sinkron ili asinkron) te stoga može generirati različite vrste „nerazumijevanja". Također, pogreške u unosu podataka u bazu ili u njihovoj obradi ili interpretaciji, isto mogu utjecati na valjanost spoznaja prikupljenih anketnim istraživanjem.
+
+Neke do najčešćih podvrsta neuzoračkih grešaka u anketnim istraživanjima prema Foddyu (1993) su one koje se vezuju uz uključenost ispitanika u proces anketiranja, njihovu motiviranost kao i njihovo razumijevanje anketnim pitanja. Npr:
+
+1.  Ispitanici ne razumiju pitanje na način na koji je ono postavljeno, tj. krivo interpretiraju smisao pitanja i shodno tome daju „pogrešne odgovore".
+
+2.  Ispitanici ne ulažu dovoljno napora kako bi protumačili pitanje ili na pravi način interpretirali ono što se od njih traži.
+
+3.  Ispitanici pogrešno memoriraju pojedine događaje pa daju krive odgovore na pitanja koja uključuju neki vremenski okvir (npr. posljednjih godinu dana).
+
+4.  Ispitanici nisu voljni surađivati u procesu anketiranja, odgovaraju na pitanja, ali samo tako da se što brže „riješe ankete".
+
+Tome treba dodati i druge mogućnosti pogrešaka koje potiču „od stranje ispitanika", kao što su davanje neiskrenih odgovora, izbjegavanje odgovaranja koji se procjenjuju nepoželjnima zbog straha ili nelagode ispitanika. U takvim okolnostima dolazi do **iskrivljavanja stvarnog mišljenja**, jer ispitanici biraju odgovore koji su im na određeni način „sigurniji" ili djeluju „neutralnije". To posebno dolazi do izražaja kod pitanja koja se odnose na vrijednosne stavove, ili političke preferencije. Tipičan primjer toga je tzv. **efekt spirale šutnje** (Noelle-Neumann), gdje pojedinci izbjegavaju izražavanje mišljenja za koje percipiraju da su u manjini, zbog bojazni da će biti izolirani ili negativno ocijenjeni.
+
+Neuzoračke pogreške mogu proizaći i iz pogrešaka istraživača, iz rada anketara ili iz pogrešaka pri bilježenju odgovora u slučaju kada je riječ o samoispunjavanju ankete (npr online istraživanje).
+
+Primjerice, loša verbalizacije pitanja, neadekvatan broj ponuđenih opcija, neadekvatan izbor skale, prevelik broj pitanja, neadekvatan poredak pitanja u anketi, također su generatori pogrešaka u anketnim istraživanjima. Loše koncipiran upitnik rezultirat će nevaljalim odgovorima, a posljedično tome i nevaljalim spoznajama. Stoga je za izbjegavanje ove vrste pogrešaka nužno poznavati pravila postavljanja anketnih pitanja, a na koja smo uputili u ovom udžbeniku, kao i mogućnosti i ograničenja vrsta pitanja kao i ljestvica za mjerenje stavova.
+
+Također, u anketnim istraživanjima u kojima se podaci prikupljaju posredstvom anketara (anketa licem u lice kao i telefonska anketa) pogreške mogu proizaći iz pogrešaka u radu anketara. Primjerice, sugeriranje odgovora ispitaniku, preskakanje određenih pitanja kako bi se anketa brže završila, djelomično čitanje pitanja, pogreške u bilježenju odgovora, tj. u njihovom zapisivanju.
+
+Prema tome, neuzoračke pogreške predstavljaju ozbiljan izazov za pouzdanost i valjanost anketnih istraživanja. One nisu posljedica lošeg uzorkovanja, već proizlaze iz niza čimbenika povezanih s komunikacijom, ponašanjem i motivacijom ispitanika, ali i s postupcima istraživača i anketara. Budući da se radi o pogreškama koje se često ne mogu kvantificirati niti jednostavno otkriti, njihovo prepoznavanje i prevencija zahtijevaju prvenstveno pažljivo pripremanje anketnog istraživanja i pažljivo koncipiranje anketnog upitnika, paženljivu provedbu ankete i obradu podataka.
+
+[^18]: Napomena o parametrijskim procedurama
+
+[^19]: Napomena o korelaciji
+
+[^20]: Napomena o semantičkom diferencijalu
+
+[^21]: Napomena o centriranju podataka
