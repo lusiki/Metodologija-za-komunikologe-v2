@@ -3,6 +3,7 @@ _book/
 _output/
 site_libs/
 .quarto/
+*.html
 
 # Quarto generated figure directories
 *_files/
