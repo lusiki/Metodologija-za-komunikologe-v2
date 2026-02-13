@@ -1,6 +1,7 @@
 # Quarto build output
 _book/
 _output/
+site_libs/
 .quarto/
 
 # Quarto generated figure directories
@@ -32,3 +33,6 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.bak
+
+/.quarto/
+**/*.quarto_ipynb
