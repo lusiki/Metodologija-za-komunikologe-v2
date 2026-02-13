@@ -2,6 +2,9 @@ project:
   type: book
   output-dir: _book
 
+execute:
+  freeze: auto
+
 book:
   title: "Metode istraživanja masovne komunikacije"
   subtitle: "Metodološke osnove istraživanja masovne komunikacije u komunikologiji, sociologiji i drugim društvenim znanostima"
