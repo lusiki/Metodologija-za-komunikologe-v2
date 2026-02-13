@@ -2,30 +2,9 @@
 title: "Nacrt istraživanja"
 ---
 
-EmpiristiÄko-pozitivistiÄka spoznajna tradicija ishodiÅ¡te je
-kvantitativnih metoda istraÅ¾ivanja u druÅ¡tvenim znanostima. Stoga je i
-naÄin na koji se posredstvom kvantitativnih metoda pokuÅ¡ava spoznati
-kompleksnost druÅ¡tvenog svijeta sliÄan naÄinu na koji to Äine prirodne
-znanosti u spoznavanju prirodnog svijeta. Kvantitativne metode
-istraÅ¾ivanja najÄeÅ¡Ä‡e se upotrebljavaju kada se Å¾ele spoznati kauzalne
-relacije u nekom druÅ¡tvenom fenomenu (uzroci i posljedice), kada se Å¾eli
-utvrditi povezanost izmeÄ‘u varijabli (korelacija), kada se Å¾ele
-testirati razlike izmeÄ‘u pojedinih grupa sudionika istraÅ¾ivanja s
-obzirom na njihove prosjeÄne vrijednosti na nekoj varijabli ili kada se
-Å¾ele opisati razliÄita kvantitativna svojstva druÅ¡tvenih pojava
-(rasprostranjenost, intenzitet i tsl.). Kvantitativne metode takoÄ‘er se
-koriste kada se istraÅ¾ivanjima Å¾ele provjeriti, opovrgnuti ili
-nadograditi pojedine znanstvene teorije, tj. kada se u istraÅ¾ivanje
-kreÄ‡e od hipoteza koje se izvode iz pojedinih teorijskih koncepata, a
-koje se Å¾ele testirati novim empirijskim podacima.
+Empirističko-pozitivistička spoznajna tradicija ishodište je kvantitativnih metoda istraživanja u društvenim znanostima. Stoga je i način na koji se posredstvom kvantitativnih metoda pokušava spoznati kompleksnost društvenog svijeta sličan načinu na koji to čine prirodne znanosti u spoznavanju prirodnog svijeta. Kvantitativne metode istraživanja najčešće se upotrebljavaju kada se žele spoznati kauzalne relacije u nekom društvenom fenomenu (uzroci i posljedice), kada se želi utvrditi povezanost između varijabli (korelacija), kada se žele testirati razlike između pojedinih grupa sudionika istraživanja s obzirom na njihove prosječne vrijednosti na nekoj varijabli ili kada se žele opisati različita kvantitativna svojstva društvenih pojava (rasprostranjenost, intenzitet i tsl.). Kvantitativne metode također se koriste kada se istraživanjima žele provjeriti, opovrgnuti ili nadograditi pojedine znanstvene teorije, tj. kada se u istraživanje kreće od hipoteza koje se izvode iz pojedinih teorijskih koncepata, a koje se žele testirati novim empirijskim podacima.
 
-Dakle, kvantitativne metode druÅ¡tvenih istraÅ¾ivanja fokusirane su na
-mjerenje druÅ¡tvenih pojava / fenomena sa ciljem njihove kvantifikacije.
-Mjerenje se obavlja na naÄin da se u pripremi istraÅ¾ivanja posredstvom
-procesa operacionalizacije, teorijski konstrukti definiraju kao niz
-mjerljivih varijabli. Varijable su promjenjiva obiljeÅ¾ja, tj. obiljeÅ¾ja
-koja mogu poprimiti razliÄite vrijednosti. Postoji niz razliÄitih
-klasifikacija varijabli meÄ‘u kojima je temeljna ona koja ih dijeli na:
+Dakle, kvantitativne metode društvenih istraživanja fokusirane su na mjerenje društvenih pojava / fenomena sa ciljem njihove kvantifikacije. Mjerenje se obavlja na način da se u pripremi istraživanja posredstvom procesa operacionalizacije, teorijski konstrukti definiraju kao niz mjerljivih varijabli. Varijable su promjenjiva obilježja, tj. obilježja koja mogu poprimiti različite vrijednosti. Postoji niz različitih klasifikacija varijabli među kojima je temeljna ona koja ih dijeli na:
 
 1.  Nominalne
 
@@ -35,495 +14,201 @@ klasifikacija varijabli meÄ‘u kojima je temeljna ona koja ih dijeli na:
 
 4.  Omjerne
 
-**Nominalne varijable** su klasifikacije kojima se razliÄiti objekti ili
-obiljeÅ¾ja rasporeÄ‘uju u kvalitativno razliÄite grupe. Primjerice
-nominalna varijabla je mjesto stanovanja. Dakle, brojevi u sluÄaju
-nominalnih varijabli predstavljaju samo oznake pripadanja odreÄ‘enoj
-klasi (npr. 1-grad, 2-selo)[^14].
+**Nominalne varijable** su klasifikacije kojima se različiti objekti ili obilježja raspoređuju u kvalitativno različite grupe. Primjerice nominalna varijabla je mjesto stanovanja. Dakle, brojevi u slučaju nominalnih varijabli predstavljaju samo oznake pripadanja određenoj klasi (npr. 1-grad, 2-selo)[^14].
 
-**Ordinalne varijable** predstavljaju rangiranje nekih svojstava
-temeljem odreÄ‘enog kriterija (npr. viÅ¡e-manje, bolje-loÅ¡ije i tsl.). Kod
-ordinalnih varijabli brojevi oznaÄavaju samo redoslijed ali ne i stvarni
-razmak meÄ‘u rangiranim objektima. Primjerice, ordinalne varijable su
-razina obrazovanja ili Äinovi u vojsci.
+**Ordinalne varijable** predstavljaju rangiranje nekih svojstava temeljem određenog kriterija (npr. više-manje, bolje-lošije i tsl.). Kod ordinalnih varijabli brojevi označavaju samo redoslijed ali ne i stvarni razmak među rangiranim objektima. Primjerice, ordinalne varijable su razina obrazovanja ili činovi u vojsci.
 
-**Intervalne varijable** su numeriÄke varijable kod kojih, osim Å¡to
-postoji rangiranje izmeÄ‘u vrijednosti, postoji i ekvidistanca. Naime,
-razlike izmeÄ‘u bilo koje dvije susjedne vrijednosti su precizne i
-konstantne. Primjer je temperatura izraÅ¾ena u stupnjevima Celzijusa.
-MoÅ¾emo reÄ‡i da je razlika izmeÄ‘u 10 i 20 stupnjeva ista kao i razlika
-izmeÄ‘u 30 i 40 stupnjeva Celzijusa. Bitno obiljeÅ¾je ovih varijabli je da
-je nula arbitrarno odreÄ‘ena. Stoga u sluÄaju intervalnih varijabli nula
-ne znaÄi nepostojanje pojave[^15]. Intervalne varijable dopuÅ¡taju
-numeriÄke operacije (npr. raÄunanje prosjeÄen vrijednosti, provoÄ‘enje
-testova statistiÄke znaÄajnosti). Primjer intervalnih varijabli:
-temperatura u stupnjevima Celzijusa, broj ostvarenih bodova na testu.
+**Intervalne varijable** su numeričke varijable kod kojih, osim što postoji rangiranje između vrijednosti, postoji i ekvidistanca. Naime, razlike između bilo koje dvije susjedne vrijednosti su precizne i konstantne. Primjer je temperatura izražena u stupnjevima Celzijusa. Možemo reći da je razlika između 10 i 20 stupnjeva ista kao i razlika između 30 i 40 stupnjeva Celzijusa. Bitno obilježje ovih varijabli je da je nula arbitrarno određena. Stoga u slučaju intervalnih varijabli nula ne znači nepostojanje pojave[^15]. Intervalne varijable dopuštaju numeričke operacije (npr. računanje prosječen vrijednosti, provođenje testova statističke značajnosti). Primjer intervalnih varijabli: temperatura u stupnjevima Celzijusa, broj ostvarenih bodova na testu.
 
-**Omjerne varijable** su numeriÄke varijable kod kojih je nula je
-ishodiÅ¡te mjerenja i upuÄ‡uje na nepostojanje svojstva koje se mjeri. U
-sluÄaju ovih varijabli omjeri meÄ‘u brojevima odgovaraju omjerima u
-stvarnosti. Npr., omjerne varijable su visina ili teÅ¾ina.
+**Omjerne varijable** su numeričke varijable kod kojih je nula je ishodište mjerenja i upućuje na nepostojanje svojstva koje se mjeri. U slučaju ovih varijabli omjeri među brojevima odgovaraju omjerima u stvarnosti. Npr., omjerne varijable su visina ili težina.
 
-Mjerenje varijabli podrazumijeva dodjeljivanje brojeva onim svojstvima
-koja se mjere. Prema tome, podaci koji se prikupljaju kvantitativnim
-metodama istraÅ¾ivanja imaju formu numeriÄkih pokazatelja. O karakteru
-pojava koje se istraÅ¾uje govori se u terminima frekvencija, postotaka,
-indeksa, tj. u terminima numeriÄkih vrijednosti. Zbog toga je i
-poznavanje statistiÄkih tehnika obrade podataka jedan od nuÅ¾nih
-preduvjeta pravilne interpretacije podatka prikupljenih kvantitativnim
-metodama istraÅ¾ivanja.
+Mjerenje varijabli podrazumijeva dodjeljivanje brojeva onim svojstvima koja se mjere. Prema tome, podaci koji se prikupljaju kvantitativnim metodama istraživanja imaju formu numeričkih pokazatelja. O karakteru pojava koje se istražuje govori se u terminima frekvencija, postotaka, indeksa, tj. u terminima numeričkih vrijednosti. Zbog toga je i poznavanje statističkih tehnika obrade podataka jedan od nužnih preduvjeta pravilne interpretacije podatka prikupljenih kvantitativnim metodama istraživanja.
 
-NajÄeÅ¡Ä‡e koriÅ¡tene kvantitativne metode istraÅ¾ivanja u komunikacijskim
-znanostima su *metoda ankete i metoda analize sadrÅ¾aja*[^16]. Metodom
-ankete uglavnom se istraÅ¾uju navike u konzumaciji medija, stavovi prema
-medijima, povjerenje u medije, razina medijske pismenosti, reakcije na
-pojedine komunikacijske kampanje i tsl. Metodom analize sadrÅ¾aja
-istraÅ¾uje se zastupljenost pojedinih tema u medijskim objavama, naÄin na
-koji mediji govore o pojedinim dogaÄ‘ajima, kako prezentiraju pojedine
-druÅ¡tvene aktere, koje poruke odaÅ¡ilju i tsl. Upravo zbog njihovog
-intenzivnog koriÅ¡tenja, u poglavljima koja slijede podrobnije Ä‡e biti
-opisana osnovna svojstva i osnovna izvedbena pravila u koriÅ¡tenju ovih
-dvaju metoda.
+Najčešće korištene kvantitativne metode istraživanja u komunikacijskim znanostima su *metoda ankete i metoda analize sadržaja*[^16]. Metodom ankete uglavnom se istražuju navike u konzumaciji medija, stavovi prema medijima, povjerenje u medije, razina medijske pismenosti, reakcije na pojedine komunikacijske kampanje i tsl. Metodom analize sadržaja istražuje se zastupljenost pojedinih tema u medijskim objavama, način na koji mediji govore o pojedinim događajima, kako prezentiraju pojedine društvene aktere, koje poruke odašilju i tsl. Upravo zbog njihovog intenzivnog korištenja, u poglavljima koja slijede podrobnije će biti opisana osnovna svojstva i osnovna izvedbena pravila u korištenju ovih dvaju metoda.
 
-## Priprema istraÅ¾ivanja posredstvom kvantitativnih metoda
+## Priprema istraživanja posredstvom kvantitativnih metoda
 
-Proces istraÅ¾ivanja posredstvom kvantitativnih metoda sastoj se od
-logiÄkog slijeda postupaka koje treba provesti kako bi se doÅ¡lo do
-pouzdanih i valjanih informacija. Ti se postupci obiÄno svrstavaju u
-nekoliko meÄ‘usobno povezanih faza (Halmi, 1999:37).
+Proces istraživanja posredstvom kvantitativnih metoda sastoj se od logičkog slijeda postupaka koje treba provesti kako bi se došlo do pouzdanih i valjanih informacija. Ti se postupci obično svrstavaju u nekoliko međusobno povezanih faza (Halmi, 1999:37).
 
-1.  Definiranje problema i ciljeva istraÅ¾ivanja
+1.  Definiranje problema i ciljeva istraživanja
 
 2.  Postavljanje hipoteza
 
-3.  OdreÄ‘ivanje izvora podataka i nacrta istraÅ¾ivanja
+3.  Određivanje izvora podataka i nacrta istraživanja
 
-4.  OdreÄ‘ivanje metoda
+4.  Određivanje metoda
 
 5.  Uzorkovanje
 
-6.  Analiza podataka i interpretacija rezultata istraÅ¾ivanja
+6.  Analiza podataka i interpretacija rezultata istraživanja
 
-7.  Pisanje istraÅ¾ivaÄkog izvjeÅ¡taja (znanstveni Älanka, monografija,
-    istraÅ¾ivaÄki izvjeÅ¡taj i tsl.)
+7.  Pisanje istraživačkog izvještaja (znanstveni članka, monografija, istraživački izvještaj i tsl.)
 
-Realizacija istraÅ¾ivanja posredstvom kvantitativnih metoda podrazumijeva
-paÅ¾ljivo planiranje svih navedenih faza istraÅ¾ivanja, definiranje
-istraÅ¾ivaÄkih procedura i odreÄ‘enje naÄina njihove kontrole.
+Realizacija istraživanja posredstvom kvantitativnih metoda podrazumijeva pažljivo planiranje svih navedenih faza istraživanja, definiranje istraživačkih procedura i određenje načina njihove kontrole.
 
-Planiranje i priprema kvantitativnog istraÅ¾ivanja obavlja se u
-posredstvom izrade **nacrta istraÅ¾ivanja**. Nacrt istraÅ¾ivanja je
-sistematski strukturiran plan istraÅ¾ivaÄkog procesa u kojemu je
-dokumentiran naÄin na koji istraÅ¾ivaÄ Å¾eli pristupiti planiranom
-istraÅ¾ivanju kao i procedure koje Å¾eli koristiti. Nacrtom istraÅ¾ivanja
-se osigurava:
+Planiranje i priprema kvantitativnog istraživanja obavlja se u posredstvom izrade **nacrta istraživanja**. Nacrt istraživanja je sistematski strukturiran plan istraživačkog procesa u kojemu je dokumentiran način na koji istraživač želi pristupiti planiranom istraživanju kao i procedure koje želi koristiti. Nacrtom istraživanja se osigurava:
 
--   SistematiÄnost istraÅ¾ivanja: jasno definiranje ciljeva i hipoteza te
-    izbora metoda.
+-   Sistematičnost istraživanja: jasno definiranje ciljeva i hipoteza te izbora metoda.
 
--   MetodiÄnost istraÅ¾ivanja: svi postupci koji Ä‡e biti poduzeti u
-    istraÅ¾ivanju unaprijed su planirani.
+-   Metodičnost istraživanja: svi postupci koji će biti poduzeti u istraživanju unaprijed su planirani.
 
-Nacrtom istraÅ¾ivanja istraÅ¾ivaÄ prije same realizacije istraÅ¾ivanja Å¾eli
-pruÅ¾iti koncizne odgovore na sljedeÄ‡a pitanja:
+Nacrtom istraživanja istraživač prije same realizacije istraživanja želi pružiti koncizne odgovore na sljedeća pitanja:
 
--   Å to je predmet istraÅ¾ivanja?
+-   Što je predmet istraživanja?
 
--   Å to su ciljevi istraÅ¾ivanja?
+-   Što su ciljevi istraživanja?
 
--   Koja je osnovna(e) hipoteza(e) od koje se kreÄ‡e u istraÅ¾ivanje?
+-   Koja je osnovna(e) hipoteza(e) od koje se kreće u istraživanje?
 
--   Kako je operacionaliziran teorijski koncept od kojeg se kreÄ‡e u
-    istraÅ¾ivanje?
+-   Kako je operacionaliziran teorijski koncept od kojeg se kreće u istraživanje?
 
--   Koja metoda istraÅ¾ivanja Ä‡e se koristiti i na koji naÄin?
+-   Koja metoda istraživanja će se koristiti i na koji način?
 
--   Kako Ä‡e se postupati s podacima u fazi njihove obrade?
+-   Kako će se postupati s podacima u fazi njihove obrade?
 
-Struktura nacrta istraÅ¾ivanja nije strogo kodificirana, no obiÄno se
-nacrt istraÅ¾ivanja strukturira posredstvom sljedeÄ‡ih poglavlja.
+Struktura nacrta istraživanja nije strogo kodificirana, no obično se nacrt istraživanja strukturira posredstvom sljedećih poglavlja.
 
 1.  **Uvod**
 
-U uvodu se obiÄno ukratko naznaÄuje predmet istraÅ¾ivanja, navodi se Å¡to
-je u fokusu interesa istraÅ¾ivanja, zbog Äega je istraÅ¾ivanje znanstveno
-i druÅ¡tveno relevantno. MoÅ¾e se naznaÄiti i Å¡iri teorijski okvir iz
-kojeg se kreÄ‡e u istraÅ¾ivanje te eventualno opisati kakve su oÄekivane
-znanstvene i druÅ¡tvene konzekvence istraÅ¾ivanja koje se namjerava
-provesti.
+U uvodu se obično ukratko naznačuje predmet istraživanja, navodi se što je u fokusu interesa istraživanja, zbog čega je istraživanje znanstveno i društveno relevantno. Može se naznačiti i širi teorijski okvir iz kojeg se kreće u istraživanje te eventualno opisati kakve su očekivane znanstvene i društvene konzekvence istraživanja koje se namjerava provesti.
 
-1.  **Predmet istraÅ¾ivanja**
+1.  **Predmet istraživanja**
 
-U ovom poglavlju detaljno se opisuje predmet istraÅ¾ivanja. Specificiraju
-se njegova najvaÅ¾nija obiljeÅ¾ja koja su predmet interesa te njegova
-znanstvena, struÄna ili druÅ¡tvena relevantnost. TakoÄ‘er, obiÄno se
-navode ili konkretni teorijski razlozi ili neki drugi razlozi koji
-motiviraju usmjeravanje istraÅ¾ivaÄke prakse na izabrani predmet
-istraÅ¾ivanja. Primjerice, neki od moguÄ‡ih predmeta istraÅ¾ivanja u
-komunikacijskim znanostima mogu se definirati na sljedeÄ‡i naÄin:
-*povjerenje u medije, razine medijske pismenosti u opÄ‡oj populaciji,
-struktura medijskih publika ili doseg dnevnih novina.*
+U ovom poglavlju detaljno se opisuje predmet istraživanja. Specificiraju se njegova najvažnija obilježja koja su predmet interesa te njegova znanstvena, stručna ili društvena relevantnost. Također, obično se navode ili konkretni teorijski razlozi ili neki drugi razlozi koji motiviraju usmjeravanje istraživačke prakse na izabrani predmet istraživanja. Primjerice, neki od mogućih predmeta istraživanja u komunikacijskim znanostima mogu se definirati na sljedeći način: *povjerenje u medije, razine medijske pismenosti u općoj populaciji, struktura medijskih publika ili doseg dnevnih novina.*
 
 2.  **Teorijski pregled (i) definiranje osnovnih pojmova**
 
-Teorijski pregled ili teorijski okvir dio je nacrata istraÅ¾ivanja u
-kojem se upuÄ‡uje na postojeÄ‡e teorije koje su relevantne za prouÄavanje
-izabranog predmeta istraÅ¾ivanja ili na onu teoriju od koje se kreÄ‡e u
-istraÅ¾ivanje. Dakle, ovdje se upuÄ‡uje na glavna teorijska odreÄ‘enje
-predmeta istraÅ¾ivanja koja su veÄ‡ razvijena u okviru znanosti ili na
-odreÄ‘ene teorijske propozicije unutar jedne ili viÅ¡e relevantnih teorija
-koje se Å¾ele empirijski testirati. Smisao ovog poglavlja moÅ¾e se pronaÄ‡i
-i u predstavljanju vaÅ¾eÄ‡ih teorija iz podruÄja istraÅ¾ivanja te njihove
-kritiÄke usporedbe (Tkalac VerÄiÄ‡, SinÄiÄ‡ Ä†oriÄ‡, PoloÅ¡ki VokiÄ‡, 2010).
+Teorijski pregled ili teorijski okvir dio je nacrata istraživanja u kojem se upućuje na postojeće teorije koje su relevantne za proučavanje izabranog predmeta istraživanja ili na onu teoriju od koje se kreće u istraživanje. Dakle, ovdje se upućuje na glavna teorijska određenje predmeta istraživanja koja su već razvijena u okviru znanosti ili na određene teorijske propozicije unutar jedne ili više relevantnih teorija koje se žele empirijski testirati. Smisao ovog poglavlja može se pronaći i u predstavljanju važećih teorija iz područja istraživanja te njihove kritičke usporedbe (Tkalac Verčić, Sinčić Ćorić, Pološki Vokić, 2010).
 
-3.  **Ciljevi istraÅ¾ivanja**
+3.  **Ciljevi istraživanja**
 
-Ciljevi istraÅ¾ivanja predstavljaju konkretne â€žzahtjeve" za pojedinim
-tipovima podataka, informacija ili spoznaja, tj. podrazumijevaju
-precizno odreÄ‘ivanje onoga Å¡to se istraÅ¾ivanjem Å¾eli postiÄ‡i. Njihova
-realizacija omoguÄ‡uje spoznaju onih obiljeÅ¾ja predmeta istraÅ¾ivanja koja
-su od predmeta istraÅ¾ivaÄkog interesa. Dakle, pomoÄ‡u ciljeva
-istraÅ¾ivanja istraÅ¾ivaÄ odreÄ‘uje Å¡to Å¾eli saznati o predmetu
-istraÅ¾ivanja.
+Ciljevi istraživanja predstavljaju konkretne „zahtjeve" za pojedinim tipovima podataka, informacija ili spoznaja, tj. podrazumijevaju precizno određivanje onoga što se istraživanjem želi postići. Njihova realizacija omogućuje spoznaju onih obilježja predmeta istraživanja koja su od predmeta istraživačkog interesa. Dakle, pomoću ciljeva istraživanja istraživač određuje što želi saznati o predmetu istraživanja.
 
-Prilikom definiranja ciljeva istraÅ¾ivanja bitno je sljedeÄ‡e:
+Prilikom definiranja ciljeva istraživanja bitno je sljedeće:
 
-1.  Ciljevi istraÅ¾ivanja moraju se moÄ‡i realizirati!
+1.  Ciljevi istraživanja moraju se moći realizirati!
 
-2.  Ne smiju biti preopÄ‡eniti *(* npr*. utjecaj medija na mlade).*
+2.  Ne smiju biti preopćeniti *(* npr*. utjecaj medija na mlade).*
 
-3.  Ukoliko je potrebno moguÄ‡e je definirati jedan generalan cilj
-    istraÅ¾ivanja i viÅ¡e specifiÄnih ciljeva istraÅ¾ivanja[^17].
+3.  Ukoliko je potrebno moguće je definirati jedan generalan cilj istraživanja i više specifičnih ciljeva istraživanja[^17].
 
-Ciljevi istraÅ¾ivanja obiÄno se navode takstativno, npr.:
+Ciljevi istraživanja obično se navode takstativno, npr.:
 
-1.  Utvrditi Äitanost pojedinih rubrika dnevnih novina.
+1.  Utvrditi čitanost pojedinih rubrika dnevnih novina.
 
 2.  Odrediti najpopularnije rubrike u dnevnim novinama.
 
-3.  Definirati razloge Äitanosti dnevnih novina.
+3.  Definirati razloge čitanosti dnevnih novina.
 
-4.  Utvrditi socio-demografsku strukturu Äitatelja dnevnih novina.
+4.  Utvrditi socio-demografsku strukturu čitatelja dnevnih novina.
 
-```{=html}
-<!-- -->
-```
 4.  **Hipoteze**
 
-Kao Å¡to smo naveli, kvantitativne metode istraÅ¾ivanja uobiÄajeno se
-koriste kada se istraÅ¾ivanjem Å¾eli testirati neka hipoteza(e). Dakle,
-uobiÄajeni idealtipski postupak kvantitativnih istraÅ¾ivanja
-podrazumijeva izvoÄ‘enje hipoteza iz odreÄ‘ene teorije. Temeljem
-prikupljenih empirijskih podataka one se ili potvrÄ‘uju ili odbacuju.
-Shodno tome teorija od koje se kreÄ‡e u istraÅ¾ivanje se odbacuje ili
-potvrÄ‘uje ili modificira.
+Kao što smo naveli, kvantitativne metode istraživanja uobičajeno se koriste kada se istraživanjem želi testirati neka hipoteza(e). Dakle, uobičajeni idealtipski postupak kvantitativnih istraživanja podrazumijeva izvođenje hipoteza iz određene teorije. Temeljem prikupljenih empirijskih podataka one se ili potvrđuju ili odbacuju. Shodno tome teorija od koje se kreće u istraživanje se odbacuje ili potvrđuje ili modificira.
 
-Zbog navedenog, jedan od uobiÄajenih dijelova nacrta istraÅ¾ivanja je i
-onaj u kojem se specificiraju hipoteze od kojih se kreÄ‡e u istraÅ¾ivanje.
-VujeviÄ‡ hipoteze definira kao misaone odnose meÄ‘u pojmovima (VujoviÄ‡,
-2006:86), a Halmi kao nedokazanu tvrdnju, pretpostavku koja se
-empirijski moÅ¾e provjeriti (Halmi, 1999:38). Hipoteza treba ispunjavati
-sljedeÄ‡e uvjete (Milas, 2009:69).
+Zbog navedenog, jedan od uobičajenih dijelova nacrta istraživanja je i onaj u kojem se specificiraju hipoteze od kojih se kreće u istraživanje. Vujević hipoteze definira kao misaone odnose među pojmovima (Vujović, 2006:86), a Halmi kao nedokazanu tvrdnju, pretpostavku koja se empirijski može provjeriti (Halmi, 1999:38). Hipoteza treba ispunjavati sljedeće uvjete (Milas, 2009:69).
 
--   Mora biti primjerena problemu / predmetu istraÅ¾ivanja.
+-   Mora biti primjerena problemu / predmetu istraživanja.
 
--   Mora biti jasna i nedvosmislena, postavljena na naÄin koji dopuÅ¡ta
-    opovrgavanje.
+-   Mora biti jasna i nedvosmislena, postavljena na način koji dopušta opovrgavanje.
 
--   Mora biti najjednostavniji moguÄ‡i odgovor na problem.
+-   Mora biti najjednostavniji mogući odgovor na problem.
 
--   Mora biti razloÅ¾na i vjerojatna prije same provjere.
+-   Mora biti razložna i vjerojatna prije same provjere.
 
 -   Mora biti provjerljiva.
 
-Da bi hipoteza bila provjerljiva, potrebno ju je izraziti u mjerljivim
-terminima (Tkalac VerÄiÄ‡, SinÄiÄ‡ Ä†oriÄ‡, PoloÅ¡ki VokiÄ‡, 2010).
-â€žPretvaranje" teorijskih pojmova u mjerljive varijable naziva se
-*operacionalizacija*. Dakle, operacionalizacijom se prelazi s teorijskog
-na empirijski aspekt istraÅ¾ivanja -- teorijski pojmovi transformiraju se
-u mjerljive entitete. Zbog tog razloga i hipoteze se uobiÄajeno
-definiraju kao pretpostavljeni odnos izmeÄ‘u varijabli koje se
-istraÅ¾ivanjem mjere. Primjerice, Äesto se hipoteza odreÄ‘uje kao
-pretpostavljeni suodnos izmeÄ‘u neke nezavisne i zavisne varijable.
+Da bi hipoteza bila provjerljiva, potrebno ju je izraziti u mjerljivim terminima (Tkalac Verčić, Sinčić Ćorić, Pološki Vokić, 2010). „Pretvaranje" teorijskih pojmova u mjerljive varijable naziva se *operacionalizacija*. Dakle, operacionalizacijom se prelazi s teorijskog na empirijski aspekt istraživanja – teorijski pojmovi transformiraju se u mjerljive entitete. Zbog tog razloga i hipoteze se uobičajeno definiraju kao pretpostavljeni odnos između varijabli koje se istraživanjem mjere. Primjerice, često se hipoteza određuje kao pretpostavljeni suodnos između neke nezavisne i zavisne varijable.
 
-**Nezavisne varijable** su one za koje se smatra da ovisno o njihovoj
-varijaciji variraju i neke druge varijable. **Zavisne varijable** su one
-koje variraju zavisno od varijacija nezavisne varijable. Npr., ukoliko
-kao nezavisnu varijablu odredimo dob Äitatelja dnevnih novina, a kao
-zavisnu uÄestalost Äitanja dnevnih novina, tada moÅ¾emo postaviti
-sljedeÄ‡u istraÅ¾ivaÄku hipotezu: *osobe starije od 45 godina ÄeÅ¡Ä‡e Äitaju
-dnevne novine od osoba mlaÄ‘ih od 45 godina.*
+**Nezavisne varijable** su one za koje se smatra da ovisno o njihovoj varijaciji variraju i neke druge varijable. **Zavisne varijable** su one koje variraju zavisno od varijacija nezavisne varijable. Npr., ukoliko kao nezavisnu varijablu odredimo dob čitatelja dnevnih novina, a kao zavisnu učestalost čitanja dnevnih novina, tada možemo postaviti sljedeću istraživačku hipotezu: *osobe starije od 45 godina češće čitaju dnevne novine od osoba mlađih od 45 godina.*
 
-SpecifiÄan tip hipoteze koji je karakteristiÄan u kvantitativnim
-istraÅ¾ivanjima je tzv. **nul-hipoteza**. Naziva se joÅ¡ i â€žstatistiÄkom
-hipotezom". Postavlja se pri provedbi statistiÄkih testova, primjerice
-kada se Å¾eli testirati statistiÄka znaÄajnost razlika izmeÄ‘u razliÄitih
-grupa sudionika istraÅ¾ivanja dobivenih nekim mjerenjem dobivenih nekim
-mjerenjem. Naziva se nul-hipoteza, jer je postavljena u nijeÄnom obliku
-(Milas, 2009:71), a podrazumijeva pretpostavku da razlike izmeÄ‘u grupa
-ne postoje, tj. da je razlika izmeÄ‘u grupa nula. Ukoliko se testiranjem
-utvrdi da razlike postoje, nul-hipoteza se odbacuje. TakoÄ‘er,
-nul-hipoteza se koristi i u korelacijskim analizama, a pretpostavlja
-nepostojanje pozvanosti izmeÄ‘u testiranih varijabli.
+Specifičan tip hipoteze koji je karakterističan u kvantitativnim istraživanjima je tzv. **nul-hipoteza**. Naziva se još i „statističkom hipotezom". Postavlja se pri provedbi statističkih testova, primjerice kada se želi testirati statistička značajnost razlika između različitih grupa sudionika istraživanja dobivenih nekim mjerenjem dobivenih nekim mjerenjem. Naziva se nul-hipoteza, jer je postavljena u niječnom obliku (Milas, 2009:71), a podrazumijeva pretpostavku da razlike između grupa ne postoje, tj. da je razlika između grupa nula. Ukoliko se testiranjem utvrdi da razlike postoje, nul-hipoteza se odbacuje. Također, nul-hipoteza se koristi i u korelacijskim analizama, a pretpostavlja nepostojanje pozvanosti između testiranih varijabli.
 
-Primjer nul-hipoteze: *Ne postoji statistiÄki znaÄajna razlika u
-prosjeÄnoj vrijednosti muÅ¡karaca i Å¾ena na testu medijske pismenosti*.
+Primjer nul-hipoteze: *Ne postoji statistički značajna razlika u prosječnoj vrijednosti muškaraca i žena na testu medijske pismenosti*.
 
 5.  **Varijable**
 
-ObiÄno se u nacrtu istraÅ¾ivanja prezentira i popis glavnih varijabli
-koje Ä‡e se mjeriti te se definira njihova funkcija (npr. zavisne i
-nezavisne varijable) kao i pretpostavljeni odnos (korelacijski ili
-kauzalni). Izbor varijabli koje Ä‡e se mjeriti u istraÅ¾ivanju mora
-proizlaziti iz postavljenih ciljeva istraÅ¾ivanja i definiranih hipoteza.
-Dakle, istraÅ¾ivanjem nema smisla mjeriti one varijable koje su s obzirom
-na predloÅ¾ene ciljeve i hipoteze nepotrebne.
+Obično se u nacrtu istraživanja prezentira i popis glavnih varijabli koje će se mjeriti te se definira njihova funkcija (npr. zavisne i nezavisne varijable) kao i pretpostavljeni odnos (korelacijski ili kauzalni). Izbor varijabli koje će se mjeriti u istraživanju mora proizlaziti iz postavljenih ciljeva istraživanja i definiranih hipoteza. Dakle, istraživanjem nema smisla mjeriti one varijable koje su s obzirom na predložene ciljeve i hipoteze nepotrebne.
 
-6.  **Izvori podataka i metode istraÅ¾ivanja**
+6.  **Izvori podataka i metode istraživanja**
 
-U nacrtu istraÅ¾ivanja potrebno je jasno definirati izvore i metode
-prikupljanja podataka. Izvori podataka mogu biti primarni i sekundarni.
-Sekundarni izvori su oni koji postoje neovisno od samog istraÅ¾ivaÄa, tj.
-koji sadrÅ¾e veÄ‡ prikupljene podatke. Npr. rezultati prijaÅ¡njih
-istraÅ¾ivanja, arhivska graÄ‘a, dokumentacija i tsl. Kada se koriste
-sekundarni izvori podataka govori se da se obraÄ‘uju â€žsekundarni podaci".
-Analiza takvih tipova podataka obiÄno se naziva i *desk analiza* ili
-*analiza za stolom*. Primarni podaci su oni podaci koji su prikupljeni u
-samom istraÅ¾ivanju koji se prikupljaju u okviru istraÅ¾ivaÄkog projekta
-koji se provodi.
+U nacrtu istraživanja potrebno je jasno definirati izvore i metode prikupljanja podataka. Izvori podataka mogu biti primarni i sekundarni. Sekundarni izvori su oni koji postoje neovisno od samog istraživača, tj. koji sadrže već prikupljene podatke. Npr. rezultati prijašnjih istraživanja, arhivska građa, dokumentacija i tsl. Kada se koriste sekundarni izvori podataka govori se da se obrađuju „sekundarni podaci". Analiza takvih tipova podataka obično se naziva i *desk analiza* ili *analiza za stolom*. Primarni podaci su oni podaci koji su prikupljeni u samom istraživanju koji se prikupljaju u okviru istraživačkog projekta koji se provodi.
 
-Kvantitativne metode koje su na raspolaganju istraÅ¾ivaÄu za prikupljanje
-primarnih podataka primjerice mogu biti metoda ankete, metoda analize
-sadrÅ¾aja ili metoda eksperimenta. U ovom poglavlju nacrta istraÅ¾ivanja
-istraÅ¾ivaÄ navodi koju metodu Ä‡e koristiti (npr. telefonska anketa),
-moÅ¾e ukratko objasniti razloge zbog kojih je planira koristiti te
-predoÄiti osnovna obiljeÅ¾ja mjernog instrumenta. To znaÄi da se upuÄ‡uje
-na strukturu upitnika, tematske blokove i broj pitanja, vrste ljestvica
-ili na strukturu matrice za analizu sadrÅ¾aja.
+Kvantitativne metode koje su na raspolaganju istraživaču za prikupljanje primarnih podataka primjerice mogu biti metoda ankete, metoda analize sadržaja ili metoda eksperimenta. U ovom poglavlju nacrta istraživanja istraživač navodi koju metodu će koristiti (npr. telefonska anketa), može ukratko objasniti razloge zbog kojih je planira koristiti te predočiti osnovna obilježja mjernog instrumenta. To znači da se upućuje na strukturu upitnika, tematske blokove i broj pitanja, vrste ljestvica ili na strukturu matrice za analizu sadržaja.
 
-TakoÄ‘er, obiÄno se u posebnom podpoglavlju upuÄ‡uje i na vrstu i veliÄinu
-uzorka na kojem se provodi istraÅ¾ivanje. Dakle, potrebno je izvijestiti
-o planiranom broju sudionika istraÅ¾ivanja te o tome hoÄ‡e li se
-istraÅ¾ivanje provesti na sluÄajnim ili nesluÄajnim uzorcima. Uz to
-obiÄno se opisuje proces uzorkovanja, tj. objaÅ¡njava se kakav je
-konkretan plan izbora jedinca uzorka.
+Također, obično se u posebnom podpoglavlju upućuje i na vrstu i veličinu uzorka na kojem se provodi istraživanje. Dakle, potrebno je izvijestiti o planiranom broju sudionika istraživanja te o tome hoće li se istraživanje provesti na slučajnim ili neslučajnim uzorcima. Uz to obično se opisuje proces uzorkovanja, tj. objašnjava se kakav je konkretan plan izbora jedinca uzorka.
 
-7.  **Plan statistiÄke obrade podataka**
+7.  **Plan statističke obrade podataka**
 
-Navodi se koje se procedure statistiÄke obrade podataka namjeravaju
-koristiti.
+Navodi se koje se procedure statističke obrade podataka namjeravaju koristiti.
 
 8.  **Terminski plan**
 
-Ukoliko je potrebno razraÄ‘uje se terminski plan provedbe svih faza
-istraÅ¾ivanja.
+Ukoliko je potrebno razrađuje se terminski plan provedbe svih faza istraživanja.
 
-VaÅ¾no je napomenuti da je nacrt istraÅ¾ivanja u sluÄaju kvantitativnih
-metoda u pravilu â€žfiksiran", tj. zatvoren. Iako to nuÅ¾no ne mora biti
-pravilo, on se u pravilu ne mijenja tijekom samog istraÅ¾ivanja.
-Primjerice, rijetko se postavljaju novi ciljevi istraÅ¾ivanja ili se
-nadodaju nove hipoteze ili nove metode. Prema tome, istraÅ¾ivaÄi u
-sluÄaju provedbe istraÅ¾ivanja posredstvom kvantitativnih metoda
-istraÅ¾ivanja uglavnom ostaju u metodskim i izvedbenim gabaritima koji su
-predviÄ‘eni nacrtom istraÅ¾ivanja. U pravilu, nacrt kvantitativnog
-istraÅ¾ivanja ne mijenja se tijekom samog istraÅ¾ivaÄkog postupka.
+Važno je napomenuti da je nacrt istraživanja u slučaju kvantitativnih metoda u pravilu „fiksiran", tj. zatvoren. Iako to nužno ne mora biti pravilo, on se u pravilu ne mijenja tijekom samog istraživanja. Primjerice, rijetko se postavljaju novi ciljevi istraživanja ili se nadodaju nove hipoteze ili nove metode. Prema tome, istraživači u slučaju provedbe istraživanja posredstvom kvantitativnih metoda istraživanja uglavnom ostaju u metodskim i izvedbenim gabaritima koji su predviđeni nacrtom istraživanja. U pravilu, nacrt kvantitativnog istraživanja ne mijenja se tijekom samog istraživačkog postupka.
 
 
-## Priprema istraÅ¾ivanja posredstvom kvalitativnih metoda
+## Priprema istraživanja posredstvom kvalitativnih metoda
 
-Za razliku od istraÅ¾ivanja koja se provode kvantitativnim metodama,
-istraÅ¾ivanja koja se provode kvalitativnim metodama u znatno veÄ‡oj mjeri
-su â€žotvorenog dizajna". To znaÄi da je nacrt istraÅ¾ivanja nije
-â€žfiksiran" veÄ‡ je otvoren za promjenu i doradu tijekom samog
-istraÅ¾ivanja. Tijekom samog istraÅ¾ivanja moguÄ‡e je postavljati nova
-istraÅ¾ivaÄka pitanja, predlagati uvoÄ‘enje novih sudionika istraÅ¾ivanja
-ili uvoditi nove metode istraÅ¾ivanja.
+Za razliku od istraživanja koja se provode kvantitativnim metodama, istraživanja koja se provode kvalitativnim metodama u znatno većoj mjeri su „otvorenog dizajna". To znači da je nacrt istraživanja nije „fiksiran" već je otvoren za promjenu i doradu tijekom samog istraživanja. Tijekom samog istraživanja moguće je postavljati nova istraživačka pitanja, predlagati uvođenje novih sudionika istraživanja ili uvoditi nove metode istraživanja.
 
-Upravo je otvorenost dizajna jedna od kljuÄnih odrednica samog procesa
-istraÅ¾ivanja. Willig (2016) napominje da kvalitativne metode
-istraÅ¾ivanja moraju biti dovoljno fleksibilne kako bi dozvolile
-izranjanje novih i nepredviÄ‘enih kategorija znaÄenja i iskustva.
+Upravo je otvorenost dizajna jedna od ključnih odrednica samog procesa istraživanja. Willig (2016) napominje da kvalitativne metode istraživanja moraju biti dovoljno fleksibilne kako bi dozvolile izranjanje novih i nepredviđenih kategorija značenja i iskustva.
 
-Nacrt kvalitativnog istraÅ¾ivanja ugrubo moÅ¾emo podijeliti u nekoliko
-poglavlja. Kao i u sluÄaju kvantitativnih istraÅ¾ivanja, u poglavlju
-â€žPredmet istraÅ¾ivanja" potrebno je opisati predmet i temu istraÅ¾ivanja.
-Uz ovo poglavlje, sugeriramo da se nacrt kvalitativnog istraÅ¾ivanja
-strukturira na naÄin da u njemu budu ukljuÄene komponente koje sugerira
-Maxvell (2012). To su:
+Nacrt kvalitativnog istraživanja ugrubo možemo podijeliti u nekoliko poglavlja. Kao i u slučaju kvantitativnih istraživanja, u poglavlju „Predmet istraživanja" potrebno je opisati predmet i temu istraživanja. Uz ovo poglavlje, sugeriramo da se nacrt kvalitativnog istraživanja strukturira na način da u njemu budu uključene komponente koje sugerira Maxvell (2012). To su:
 
 -   Ciljevi.
 
 -   Konceptualni kontekst.
 
--   IstraÅ¾ivaÄka pitanja.
+-   Istraživačka pitanja.
 
 -   Metode.
 
 -   Valjanost
 
-U poglavlju *Ciljevi* obiÄno se ekspliciraju razlozi zbog kojih se
-provodi istraÅ¾ivanje. Primjerice, moÅ¾e se navesti zbog Äega se
-istraÅ¾ivanje smatra vrijednim za provesti, Å¡to se njim Å¾eli razjasniti,
-Å¡to se Å¾eli zakljuÄiti i tsl.
+U poglavlju *Ciljevi* obično se ekspliciraju razlozi zbog kojih se provodi istraživanje. Primjerice, može se navesti zbog čega se istraživanje smatra vrijednim za provesti, što se njim želi razjasniti, što se želi zaključiti i tsl.
 
-IduÄ‡a komponenta nacrta istraÅ¾ivanja moÅ¾e se definirati kao
-*Konceptualni kontekst*. Konceptualni kontekst zapravo je sistem
-koncepata, oÄekivanja, pregled literature i teorija koje podupiru i koje
-istraÅ¾ivaÄa informiraju o predmetu istraÅ¾ivanja.
+Iduća komponenta nacrta istraživanja može se definirati kao *Konceptualni kontekst*. Konceptualni kontekst zapravo je sistem koncepata, očekivanja, pregled literature i teorija koje podupiru i koje istraživača informiraju o predmetu istraživanja.
 
-SrediÅ¡nji dio nacrta kvalitativnog istraÅ¾ivanja su *IstraÅ¾ivaÄka
-pitanja*. Ona su ujedno i glavni moment razlikovanja kvalitativnog
-istraÅ¾ivaÄkog dizajna od kvantitativnog. Naime, u sluÄaju kvantitativnog
-dizajna postavljaju se ciljevi istraÅ¾ivanja i hipoteze koje se obiÄno
-deduciraju iz neke opÄ‡enite teorije koja se istraÅ¾ivanjem testira. U
-sluÄaju kvantitativnog istraÅ¾ivanja hipoteze i ciljevi istraÅ¾ivanja
-supstituiraju se istraÅ¾ivaÄkim pitanjima. IstraÅ¾ivaÄka pitanja
-usmjeravaju istraÅ¾ivanje na ono Å¡to se njime Å¾eli otkriti. U suÅ¡tini
-radi se o izdvajanju odreÄ‘enih aspekata fenomena koji se istraÅ¾uje, a za
-koje je istraÅ¾ivaÄ zainteresiran. Na taj naÄin pokuÅ¡ava se bolje
-fokusirati ili usmjeriti samo istraÅ¾ivanje (Willig, 2016:117). Bitno je
-napomenuti da formulacija istraÅ¾ivaÄkih pitanja ima konzekvence i u
-pogledu izbora metoda istraÅ¾ivanja. Primjerice, ukoliko su istraÅ¾ivaÄka
-pitanja postavljena na naÄin da su usmjerena prema deskripciji iskustva
-aktera u odreÄ‘enom dogaÄ‘aju, to znaÄi da se kao metoda nameÄ‡u intervjui
-ili fokus grupe. Ukoliko su usmjerena prema opisu nekih oblika ponaÅ¡anja
-koje je vizualno dostupno, kao metoda se nameÄ‡e promatranje. Drugim
-rijeÄima, pojedina istraÅ¾ivaÄka pitanja odreÄ‘uju i izbor samih
-kvalitativnih metoda koje se mogu koristiti u istraÅ¾ivaÄkom projektu.
+Središnji dio nacrta kvalitativnog istraživanja su *Istraživačka pitanja*. Ona su ujedno i glavni moment razlikovanja kvalitativnog istraživačkog dizajna od kvantitativnog. Naime, u slučaju kvantitativnog dizajna postavljaju se ciljevi istraživanja i hipoteze koje se obično deduciraju iz neke općenite teorije koja se istraživanjem testira. U slučaju kvantitativnog istraživanja hipoteze i ciljevi istraživanja supstituiraju se istraživačkim pitanjima. Istraživačka pitanja usmjeravaju istraživanje na ono što se njime želi otkriti. U suštini radi se o izdvajanju određenih aspekata fenomena koji se istražuje, a za koje je istraživač zainteresiran. Na taj način pokušava se bolje fokusirati ili usmjeriti samo istraživanje (Willig, 2016:117). Bitno je napomenuti da formulacija istraživačkih pitanja ima konzekvence i u pogledu izbora metoda istraživanja. Primjerice, ukoliko su istraživačka pitanja postavljena na način da su usmjerena prema deskripciji iskustva aktera u određenom događaju, to znači da se kao metoda nameću intervjui ili fokus grupe. Ukoliko su usmjerena prema opisu nekih oblika ponašanja koje je vizualno dostupno, kao metoda se nameće promatranje. Drugim riječima, pojedina istraživačka pitanja određuju i izbor samih kvalitativnih metoda koje se mogu koristiti u istraživačkom projektu.
 
-IduÄ‡e poglavlje u dizajnu kvalitativnog istraÅ¾ivanja moÅ¾e se nasloviti
-kao *Metode*. U ovom poglavlju navode se metode istraÅ¾ivanja koje se
-planiraju koristiti te se legitimiraju razlozi zbog kojih se planiraju
-koristiti. Izuzev navoÄ‘enja metoda, u ovom poglavlju prezentira se i
-poÄetna ideja o vrsti materijala koji Ä‡e se analizirati kao i o uzorku
-koji Ä‡e biti obuhvaÄ‡en istraÅ¾ivanjem. Primjerice, ukoliko se
-istraÅ¾ivanje planira provesti analizom diskursa potrebno je navesti koji
-su izvori materijala koji Ä‡e se analizirati. Ukoliko se provode
-intervjui ili grupne diskusije potrebno je navesti tko Ä‡e biti sudionici
-istraÅ¾ivanja, kakva su njihova obiljeÅ¾ja temeljem kojih Ä‡e se izabirati,
-koliki broj intervjua ili diskusija se planira realizirati.
+Iduće poglavlje u dizajnu kvalitativnog istraživanja može se nasloviti kao *Metode*. U ovom poglavlju navode se metode istraživanja koje se planiraju koristiti te se legitimiraju razlozi zbog kojih se planiraju koristiti. Izuzev navođenja metoda, u ovom poglavlju prezentira se i početna ideja o vrsti materijala koji će se analizirati kao i o uzorku koji će biti obuhvaćen istraživanjem. Primjerice, ukoliko se istraživanje planira provesti analizom diskursa potrebno je navesti koji su izvori materijala koji će se analizirati. Ukoliko se provode intervjui ili grupne diskusije potrebno je navesti tko će biti sudionici istraživanja, kakva su njihova obilježja temeljem kojih će se izabirati, koliki broj intervjua ili diskusija se planira realizirati.
 
-Maxwell predlaÅ¾e da se prilikom dizajna kvalitativnog istraÅ¾ivanja
-paÅ¾nja obrati i na naÄin validacije podataka. Dakle, istraÅ¾ivaÄ na kraju
-nacrta istraÅ¾ivanja moÅ¾e navesti procedure i postupke koje Ä‡e koristiti
-kako bi bio siguran da su njegove interpretacije i zakljuÄci valjani.
+Maxwell predlaže da se prilikom dizajna kvalitativnog istraživanja pažnja obrati i na način validacije podataka. Dakle, istraživač na kraju nacrta istraživanja može navesti procedure i postupke koje će koristiti kako bi bio siguran da su njegove interpretacije i zaključci valjani.
 
-Naposljetku, joÅ¡ jednom je potrebno napomenuti da je nacrt istraÅ¾ivanja
-u sluÄaju kvalitativnih metoda nije fiksiran. On je podloÅ¾an promjenama.
-Sasvim je legitimno da istraÅ¾ivaÄ tijekom samog istraÅ¾ivanja donosi
-odluku o postavljanju novih istraÅ¾ivaÄkih pitanja, koriÅ¡tenju
-alternativnih metoda ili promjeni uzoraka sudionika ili izvora graÄ‘e
-koja se podvrgava analizi. Otvorenost dizajna istraÅ¾ivanja, njegova
-fleksibilnost, inherentna je karakteristika istraÅ¾ivanja koje se provode
-kvalitativnim metodama istraÅ¾ivanja.
+Naposljetku, još jednom je potrebno napomenuti da je nacrt istraživanja u slučaju kvalitativnih metoda nije fiksiran. On je podložan promjenama. Sasvim je legitimno da istraživač tijekom samog istraživanja donosi odluku o postavljanju novih istraživačkih pitanja, korištenju alternativnih metoda ili promjeni uzoraka sudionika ili izvora građe koja se podvrgava analizi. Otvorenost dizajna istraživanja, njegova fleksibilnost, inherentna je karakteristika istraživanja koje se provode kvalitativnim metodama istraživanja.
 
-**[Uzorkovanje i vrste uzorka u kvalitativnim metodama
-istraÅ¾ivanja**
+**Uzorkovanje i vrste uzorka u kvalitativnim metodama istraživanja**
 
-[NajÄeÅ¡Ä‡i cilj kvantitativnih istraÅ¾ivanja je procjena populacijskih
-parametara. Stoga kvantiÂ­tativni istraÅ¾ivaÄi obiÄno nastoje smanjiti
-pristranost u istraÅ¾ivanju tako Å¡to Å¾ele osigurati da njihov uzorak
-precizno reprezentira populaciju iz koje je ekstrahiran (Murphy, 2020).
-Zbog tog razlog kvantitativne tehnike uzorkovanja su dizajnirane tako da
-prvenstveno minimiziraju pristranosti u izoru jedinica uzorka iz
-populacije te maksimiziraju generabilnost prikupljenih podataka (Koerber
-i McMichael, 2008). Umjesto da smjeraju generalizaciji podataka s uzorka
-na populaciju, uobiÄajena svrha kvalitativnih istraÅ¾ivanja moÅ¾e se
-opisati sintagmom â€žpogleda kroz prozor" ili â€žzrcaljenja" specifiÄne
-situacije ili fenomena koji se prouÄava (Giacomini i Cook, 2000: 470).
-Drugim rijeÄima, naÄelo reprezentativnosti u kvalitativnim
-istraÅ¾ivanjima nije kljuÄno naÄelo uzorkovanja, tj. logika uzorkovanja u
-kvalitativnim istraÅ¾ivanjima priliÄno je drugaÄija.
+Najčešći cilj kvantitativnih istraživanja je procjena populacijskih parametara. Stoga kvantitativni istraživači obično nastoje smanjiti pristranost u istraživanju tako što žele osigurati da njihov uzorak precizno reprezentira populaciju iz koje je ekstrahiran (Murphy, 2020). Zbog tog razlog kvantitativne tehnike uzorkovanja su dizajnirane tako da prvenstveno minimiziraju pristranosti u izoru jedinica uzorka iz populacije te maksimiziraju generabilnost prikupljenih podataka (Koerber i McMichael, 2008). Umjesto da smjeraju generalizaciji podataka s uzorka na populaciju, uobičajena svrha kvalitativnih istraživanja može se opisati sintagmom „pogleda kroz prozor" ili „zrcaljenja" specifične situacije ili fenomena koji se proučava (Giacomini i Cook, 2000: 470). Drugim riječima, načelo reprezentativnosti u kvalitativnim istraživanjima nije ključno načelo uzorkovanja, tj. logika uzorkovanja u kvalitativnim istraživanjima prilično je drugačija.
 
-[Uzorkovanjem u kvalitativnim istraÅ¾ivanjima, bez obzira o kojoj vrsti
-kvalitativnog materijala se radi, Å¾eli se mimimizirati moguÄ‡nost da
-rezultati istraÅ¾ivanja budu drugaÄiji no Å¡to bi bili da se istraÅ¾ivanje
-provodi od strane drugih istraÅ¾ivaÄa, te da su istraÅ¾ivanjem obuhvaÄ‡eni
-neki drugi individualni sluÄajevi unutar skupa onih sluÄajeva koji su
-relevantni za problem istraÅ¾ivanja (Koerber i McMichael, 2008:
-463).
+Uzorkovanjem u kvalitativnim istraživanjima, bez obzira o kojoj vrsti kvalitativnog materijala se radi, želi se mimimizirati mogućnost da rezultati istraživanja budu drugačiji no što bi bili da se istraživanje provodi od strane drugih istraživača, te da su istraživanjem obuhvaćeni neki drugi individualni slučajevi unutar skupa onih slučajeva koji su relevantni za problem istraživanja (Koerber i McMichael, 2008: 463).
 
-[Razvojem kvalitativnih metoda istraÅ¾ivanja isprofilirali su se i
-uobiÄajeni tipovi uzoraka koji se koriste u kvalitativnim istraÅ¾ivaÄkim
-projektima. To su prigodni uzorak, svrhoviti uzorak (moÅ¾e se koristiti i
-termin â€žnamjerni") te teorijski uzorak.
+Razvojem kvalitativnih metoda istraživanja isprofilirali su se i uobičajeni tipovi uzoraka koji se koriste u kvalitativnim istraživačkim projektima. To su prigodni uzorak, svrhoviti uzorak (može se koristiti i termin „namjerni") te teorijski uzorak.
 
-[Prigodni uzorak
+**Prigodni uzorak**
 
-[Prigodni uzorak u kvalitativnim istraÅ¾ivanjima ima svojstva istoimenog
-uzorka koji se koristi u kvantitativnim istraÅ¾ivanjima (objaÅ¡njeno u
-poglavlju...). Dakle, rijeÄ je o takvom odabiru u kojem koristimo one
-sudionike koji su nam u trenutku regrutacije bili na raspolaganju.
-Primjerice, u uzorak ukljuÄujemo osobe koje se odazovu na poziv za
-sudjelovanje (primjerice poziv za sudjelovanje u istraÅ¾ivanju objavi se
-na druÅ¡tvenim mreÅ¾ama), kad istraÅ¾ivaÄ prihvatit bilo koga koji se
-zatekne na mjestu provoÄ‘enja istraÅ¾ivanja ili kad odluÄi da se u odabiru
-neÄ‡e baviti suÅ¡tinskim zahtjevima uzorkovanja.
+Prigodni uzorak u kvalitativnim istraživanjima ima svojstva istoimenog uzorka koji se koristi u kvantitativnim istraživanjima (objašnjeno u poglavlju...). Dakle, riječ je o takvom odabiru u kojem koristimo one sudionike koji su nam u trenutku regrutacije bili na raspolaganju. Primjerice, u uzorak uključujemo osobe koje se odazovu na poziv za sudjelovanje (primjerice poziv za sudjelovanje u istraživanju objavi se na društvenim mrežama), kad istraživač prihvatit bilo koga koji se zatekne na mjestu provođenja istraživanja ili kad odluči da se u odabiru neće baviti suštinskim zahtjevima uzorkovanja.
 
-[Svrhoviti uzorak
+**Svrhoviti uzorak**
 
-[Svrhoviti uzorak podrazumijeva odabir onih sudionika istraÅ¾ivanja koji
-mogu pruÅ¾iti adekvatne informacije kao odgovore na postavljena
-istraÅ¾ivaÄka pitanja. Dakle, rijeÄ je o pristupu u kojem se koristi
-strategija odabira sudionika po nekom kriteriju koji obiÄno osigurava
-izbor onih osoba koje su relevantnije, npr. informiranije, ili imaju
-bogatije iskustvo, u vezi teme koja je predmet istraÅ¾ivanja. Postoje tri
-podvrste svrhovitog uzorka koje se obiÄno koriste u kvalitativnim
-istraÅ¾ivanjima.
+Svrhoviti uzorak podrazumijeva odabir onih sudionika istraživanja koji mogu pružiti adekvatne informacije kao odgovore na postavljena istraživačka pitanja. Dakle, riječ je o pristupu u kojem se koristi strategija odabira sudionika po nekom kriteriju koji obično osigurava izbor onih osoba koje su relevantnije, npr. informiranije, ili imaju bogatije iskustvo, u vezi teme koja je predmet istraživanja. Postoje tri podvrste svrhovitog uzorka koje se obično koriste u kvalitativnim istraživanjima.
 
-[*[Uzorak tipiÄnih sluÄajeva]{.underline}*: subjekti istraÅ¾ivanja su
-osobe koje su s obzirom na svoje iskustvo, naÄin Å¾ivota, vrstu
-socijalnih interakcija one koje su najrelevantnije za fenomen koji
-moÅ¾emo istraÅ¾iti. Relevantnost njihovog iskustva osnovna je garancija
-valjanosti rezultata istraÅ¾ivanja. Primjerice, provodi se istraÅ¾ivanje
-kako bi se spoznale navike u izradi Instagram storya u Z generaciji. U
-ovom sluÄaju uzorak tipiÄnih sluÄajeva mogli bismo konstruirati na
-sljedeÄ‡i naÄin. Temeljem kvantitativnih podataka o koriÅ¡tenju Instagrama
-i izradi Instagram storija moÅ¾emo doÄ‡i do informacija koliko Äesto
-prosjeÄan korisnik Instagram iz Z generacije kreira storije. Ako je to
-jednom tjedno, tada Ä‡emo u uzorak ukljuÄiti one pripadnike Z generacije
-koji jednom tjedno kreiraju Instagram storije.
+*Uzorak tipičnih slučajeva*: subjekti istraživanja su osobe koje su s obzirom na svoje iskustvo, način života, vrstu socijalnih interakcija one koje su najrelevantnije za fenomen koji možemo istražiti. Relevantnost njihovog iskustva osnovna je garancija valjanosti rezultata istraživanja. Primjerice, provodi se istraživanje kako bi se spoznale navike u izradi Instagram storya u Z generaciji. U ovom slučaju uzorak tipičnih slučajeva mogli bismo konstruirati na sljedeći način. Temeljem kvantitativnih podataka o korištenju Instagrama i izradi Instagram storija možemo doći do informacija koliko često prosječan korisnik Instagram iz Z generacije kreira storije. Ako je to jednom tjedno, tada ćemo u uzorak uključiti one pripadnike Z generacije koji jednom tjedno kreiraju Instagram storije.
 
-[[*Uzorak maksimalnih varijacija*:]{.underline} sudionici istraÅ¾ivanja
-su osobe s raznolikim iskustvima ili karakteristikama relevantnim za
-fenomen koji je predmet istraÅ¾ivanja. Prema tome, u uzorak se ukljuÄuju
-sudionici koji su relevantni za odreÄ‘eni socijalni fenomen, bez obzira
-na "stupanj" njihove relevantnosti / involviranosti / informiranosti ili
-neku drugu karakteristiku". Dakle, uzorkovanjem se Å¾eli postiÄ‡i
-raznolikost sudionika istraÅ¾ivanja koji se tretiraju kao relevantni za
-fenomen, s obzirom na njihove karakteristike, iskustva, rutine ili
-stavove. Primjerice, ukoliko metodom intervjua istraÅ¾ujemo pripadnike Z
-generacije koji kreiraju Instagram storije, tada Ä‡emo u istraÅ¾ivanje
-uvrstiti ispitanike koji se meÄ‘usobno razlikuju s obzirom na intenzitet
-kreiranja storija. Primjerice, planiramo uzorak od 15 ispitanika od
-kojih Ä‡e 5 biti oni koji izraÄ‘uju storije jednom mjeseÄno ili rjeÄ‘e, 5
-onih koji Ä‡e kreirati storije nekoliko puta mjeseÄno te 5 koji ih
-kreiraju jednom tjedno ili ÄeÅ¡Ä‡e.
+*Uzorak maksimalnih varijacija*: sudionici istraživanja su osobe s raznolikim iskustvima ili karakteristikama relevantnim za fenomen koji je predmet istraživanja. Prema tome, u uzorak se uključuju sudionici koji su relevantni za određeni socijalni fenomen, bez obzira na "stupanj" njihove relevantnosti / involviranosti / informiranosti ili neku drugu karakteristiku". Dakle, uzorkovanjem se želi postići raznolikost sudionika istraživanja koji se tretiraju kao relevantni za fenomen, s obzirom na njihove karakteristike, iskustva, rutine ili stavove. Primjerice, ukoliko metodom intervjua istražujemo pripadnike Z generacije koji kreiraju Instagram storije, tada ćemo u istraživanje uvrstiti ispitanike koji se međusobno razlikuju s obzirom na intenzitet kreiranja storija. Primjerice, planiramo uzorak od 15 ispitanika od kojih će 5 biti oni koji izrađuju storije jednom mjesečno ili rjeđe, 5 onih koji će kreirati storije nekoliko puta mjesečno te 5 koji ih kreiraju jednom tjedno ili češće.
 
-[*[Uzorak devijantnijih sluÄajeva]{.underline}* (moÅ¾e se koristiti i
-termin â€žuzorak atipiÄnih sluÄajeva"): subjekti istraÅ¾ivanja su osobe
-koje su s obzirom na svoje iskustvo, naÄin Å¾ivota, vrstu socijalnih
-interakcija one koje predstavljaju odreÄ‘eni izuzetak od "oÄekivanih
-pravila". Kada Å¾elimo istraÅ¾iti neke pojave ili aspekte pojava koje se
-pojavljuju kao devijacije ili izuzeci. Dakle, istraÅ¾ivaÄi namjerno
-biraju sluÄajeve koji su atipiÄni, ekstremni, rijetki ili odstupaju od
-â€žpravila" ili opÄ‡eg obrasca. Primjerice, u uzorka ukljuÄujemo korisnike
-Instagrama, ali koji nikada ne kreiraju Instagram storije.
+*Uzorak devijantnijih slučajeva* (može se koristiti i termin „uzorak atipičnih slučajeva"): subjekti istraživanja su osobe koje su s obzirom na svoje iskustvo, način života, vrstu socijalnih interakcija one koje predstavljaju određeni izuzetak od "očekivanih pravila". Kada želimo istražiti neke pojave ili aspekte pojava koje se pojavljuju kao devijacije ili izuzeci. Dakle, istraživači namjerno biraju slučajeve koji su atipični, ekstremni, rijetki ili odstupaju od „pravila" ili općeg obrasca. Primjerice, u uzorka uključujemo korisnike Instagrama, ali koji nikada ne kreiraju Instagram storije.
 
-[Teorijski uzorak
+**Teorijski uzorak**
 
-[Ovo je uzorak osoba (ili neke druge graÄ‘e) odabranih postupno, tijekom
-procesa istraÅ¾ivanja. RijeÄ je o tome da se analitiÄki materijal ili
-sudionici istraÅ¾ivanja izabiru se po kriteriju relevantnosti za
-istraÅ¾ivaÄko pitanje, teorijsku poziciju, analitiÄki okvir ili teoriju
-koja se razvija. U teorijskom uzorkovanju obiÄno se polazi od
-pretpostavke da kriteriji uzorkovanja postaju vidljivi tek nakon Å¡to se
-zapoÄne s istraÅ¾ivanjem, tj. da je strukturu uzorka moguÄ‡e mijenjati
-shodno spoznajama do kojih se dolazi u istraÅ¾ivanju. Drugim rijeÄima,
-nove spoznaje do kojih se dolazi tijekom istraÅ¾ivanja mogu promijeniti
-pretpostavke o potrebnoj strukturi uzorka, mogu utjecati na spoznaju da
-su potrebni novi ispitanici, koji se po nekim obiljeÅ¾jima razlikuju od
-prvobitno planiranih, a koji Ä‡e donijeti neku novu spoznajnu kvalitetu.
-Ova koncepcija uzorkovanja dolazi iz tzv. utemeljene teorije (eng.
-Groundet Theory) koja je detaljnije objaÅ¡njena u poglavlju Utemeljena
-teorija i kodiranje.
+Ovo je uzorak osoba (ili neke druge građe) odabranih postupno, tijekom procesa istraživanja. Riječ je o tome da se analitički materijal ili sudionici istraživanja izabiru se po kriteriju relevantnosti za istraživačko pitanje, teorijsku poziciju, analitički okvir ili teoriju koja se razvija. U teorijskom uzorkovanju obično se polazi od pretpostavke da kriteriji uzorkovanja postaju vidljivi tek nakon što se započne s istraživanjem, tj. da je strukturu uzorka moguće mijenjati shodno spoznajama do kojih se dolazi u istraživanju. Drugim riječima, nove spoznaje do kojih se dolazi tijekom istraživanja mogu promijeniti pretpostavke o potrebnoj strukturi uzorka, mogu utjecati na spoznaju da su potrebni novi ispitanici, koji se po nekim obilježjima razlikuju od prvobitno planiranih, a koji će donijeti neku novu spoznajnu kvalitetu. Ova koncepcija uzorkovanja dolazi iz tzv. utemeljene teorije (eng. Groundet Theory) koja je detaljnije objašnjena u poglavlju Utemeljena teorija i kodiranje.
+
+[^14]: Napomena o nominalnim varijablama
+
+[^15]: Napomena o intervalnim varijablama
+
+[^16]: Vidi poglavlja o anketi i analizi sadržaja
+
+[^17]: Napomena o ciljevima istraživanja
