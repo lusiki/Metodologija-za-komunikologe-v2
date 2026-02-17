@@ -1,0 +1,2251 @@
+---
+title: "Računalna analiza teksta"
+author: "Dominik Burić"
+format:
+ html:
+ toc: true
+ toc-depth: 3
+ number-sections: true
+ number-sections: true
+lang: hr
+---
+
+# Uvod u računalnu analizu teksta
+
+Zamislimo istraživača koji proučava način na
+koji mediji izvještavaju o klimatskim promjenama u hrvatskom javnom
+prostoru. Pred sobom ima korpus od stotinu tisuća članaka objavljenih na
+vodećim informativnim portalima tijekom posljednjeg desetljeća, tisuće
+kolumni, eseja, članaka u kojem se prenose reakcije političara i
+predlažu određene javne politike, stotine
+tisuća komentara čitatelja i objava na društvenim mrežama. Tradicionalnim metodama
+ručne analize sadržaja, čak i s timom od desetak
+kodirača koji rade
+puno radno vrijeme, analiza ovako opsežnog materijala trajala bi
+godinama. No pitanja koja istraživač želi postaviti zahtijevaju upravo
+takav opseg jer se tiču suptilnih promjena u diskursu kroz vrijeme,
+razlika između medija različitih političkih orijentacija, dinamike javne
+rasprave i načina na koji se znanstveni konsenzus prevodi u medijske
+narative. Upravo u takvim situacijama računalna analiza teksta postaje
+nezamjenjiv metodološki alat.
+
+Računalna analiza teksta, poznata i pod nazivima *text mining*,
+*computational text analysis* ili *text as data*, predstavlja skup
+metoda koje koriste računalne algoritme za sustavno ekstrahiranje
+informacija iz nestrukturiranih tekstualnih podataka. U kontekstu
+istraživanja masovne komunikacije, ove metode omogućuju analizu korpusa
+veličine i složenosti koja bi bila nedostižna tradicionalnim pristupima,
+otvarajući nova istraživačka pitanja i pružajući empirijsku osnovu za
+teorije koje su ranije bile testirane samo na ograničenim uzorcima.
+
+Važnost računalne analize teksta za komunikološka istraživanja proizlazi
+iz nekoliko konvergentnih trendova. S jedne strane, digitalizacija
+medijskog prostora generira enormne količine tekstualnih podataka koji
+dokumentiraju javnu komunikaciju u neviđenoj granularnosti. Svaki članak
+na informativnom portalu, svaka objava na društvenim mrežama, svaki
+komentar čitatelja predstavlja potencijalni izvor uvida u
+medijsku dinamiku. S druge strane, napredak u
+računalnoj lingvistici i strojnom učenju pruža sve sofisticiranije alate
+za obradu i analizu tih podataka. Konvergencija obilnih podataka i
+moćnih alata otvara nove horizonte za empirijsko istraživanje
+komunikacijskih fenomena.
+
+**Epistemološke pretpostavke računalne analize teksta**
+
+Međutim, ulazak u svijet računalne analize teksta zahtijeva od
+istraživača ne samo tehničke vještine, već i temeljito 
+razumijevanje epistemoloških pretpostavki, mogućnosti i
+ograničenja ovih metoda. Četiri su važne pretpostavke koje
+vrijede za sve metode računalne analize teksta i koje svaki istraživač
+mora internalizirati prije nego što pristupi primjeni ovih
+^[TODO za Burića: dodati referencu za četiri epistemološke pretpostavke, npr. Grimmer i Stewart (2013).\] tehnika.
+
+Prva pretpostavka glasi da sve kvantitativne modele tekstualnih podataka
+treba tretirati kao pogrešne, ali potencijalno korisne.
+
+Druga pretpostavka ističe da kvantitativne metode za tekst pojačavaju
+ljudske sposobnosti, ali ih ne zamjenjuju. Računalna analiza može
+obraditi količine teksta koje bi bile nemoguće za ljudsku analizu,
+identificirati obrasce koji bi promakli ljudskom oku i kvantificirati
+fenomene na način koji omogućuje statističko zaključivanje. Međutim,
+računala ne "razumiju" tekst u smislu u kojem to čine ljudi.
+Interpretacija rezultata, procjena njihove smislenosti, povezivanje s
+teorijskim okvirima i donošenje zaključaka ostaju ljudske zadaće.
+Pokušaj potpune automatizacije istraživačkog procesa gotovo sigurno vodi
+do trivialnih ili pogrešnih zaključaka.
+
+Treća pretpostavka naglašava da je potrebna ekstenzivna validacija
+specifična za problem. Ne postoji univerzalni algoritam koji funkcionira
+za sve istraživačke zadatke i sve korpuse. Metoda koja izvrsno
+funkcionira za klasifikaciju vijesti prema temama možda će podbaciti za
+analizu sentimenta u komentarima na društvenim mrežama. Algoritam
+treniran na engleskim tekstovima neće nužno dobro funkcionirati na
+hrvatskim tekstovima. Zato je svako istraživanje dužno uključiti
+rigoroznu validaciju koja demonstrira da odabrane metode proizvode
+valjane rezultate u specifičnom kontekstu primjene. Četvrta pretpostavka
+upozorava da računalne metode za tekst ne otklanjaju potrebu za pomnim
+čitanjem i analitičkim razmišljanjem. Upravo suprotno, one zahtijevaju
+još više pomnog čitanja jer istraživač mora razumjeti podatke koje
+analizira, mora moći procijeniti smislenost rezultata algoritama i mora
+znati interpretirati kvantitativne nalaze u svjetlu kvalitativnog
+razumijevanja tekstualnog materijala. Računalna analiza ne eliminira
+interpretaciju, već joj pruža kvantitativnu podlogu.
+
+Razumijevanje ovih pretpostavki posebno je važno u kontekstu
+komunikoloških istraživanja gdje su pitanja značenja, interpretacije i
+konteksta centralna. Za razliku od analize numeričkih podataka gdje
+postoji relativno jasna veza između mjerenja i koncepta, tekstualni
+podaci zahtijevaju interpretativni korak koji model ne može obaviti
+autonomno. Algoritam može prebrojati riječi, izračunati statističke
+obrasce i grupirati dokumente prema sličnosti, ali ne može razumjeti
+ironiju, prepoznati kulturne reference ili procijeniti relevantnost
+nalaza za teorijska pitanja discipline.
+
+Ukratko, računalna analiza teksta nije čarobno rješenje koje
+automatizira istraživački proces, već sofisticirani alat koji, kada se
+koristi promišljeno, može značajno proširiti doseg i dubinu
+komunikoloških istraživanja. Uspješna primjena zahtijeva ne samo
+tehničke vještine, već i teorijsku sofisticiranost, kritičku refleksiju
+i kontinuirani dijalog između kvantitativnih metoda i kvalitativnog
+razumijevanja.
+
+::: {.callout-warning title="TODO za Burića"}
+Prepisati ovaj odlomak tako da se eksplicitno navedu faze računalne analize teksta. Predložena struktura: "U ovom poglavlju predstavit ćemo cijeli proces računalne analize teksta. On se sastoji od sljedećih faza: (1) priprema podataka, (2) reprezentacija teksta, (3) primjena analitičkih metoda, (4) interpretacija i validacija rezultata. U prvoj fazi potrebno je... U drugoj se... Idući korak podrazumijeva..." Nakon toga detaljno predstaviti svaku fazu kao što je već napravljeno u potpoglavljima.
+:::
+
+Ovo poglavlje udžbenika vodi čitatelja kroz
+cijeli proces računalne analize teksta, od pripreme sirovih podataka do
+interpretacije rezultata. Započinjemo s postupcima pripreme podataka
+koji transformiraju nestrukturirani tekst u oblik pogodan za analizu.
+Zatim razmatramo različite načine reprezentacije teksta koji omogućuju
+njegovu kvantitativnu obradu. Predstavljamo temeljne pristupe analizi,
+uključujući nadzirano strojno učenje, tematsko modeliranje, analizu
+sentimenta i ekstrakciju entiteta. Prelazimo na sofisticiranije tehnike
+analize na razini diskursa, uključujući analizu kolokacija, okvira i
+retoričke strukture. Kritički razmatramo ograničenja metoda i etička
+pitanja koja postavljaju. Zaključujemo pogledom na buduće pravce razvoja
+polja. Kroz cijeli tekst oslanjamo se na primjere iz hrvatskog medijskog
+prostora i naglašavamo specifične izazove koji proizlaze iz
+karakteristika hrvatskog jezika.
+
+# Priprema podataka za analizu
+
+::: {.callout-warning title="TODO za Burića"}
+Provjeriti hijerarhiju naslova. Potpoglavlja od Tokenizacije do Normalizacije teksta trebaju biti jasno označena kao dijelovi poglavlja "Priprema podataka za analizu".
+:::
+
+Zamislimo situaciju u kojoj istraživač masovne komunikacije želi
+analizirati više od pedeset tisuća komentara čitatelja objavljenih ispod
+članaka vodećih hrvatskih informativnih portala tijekom jedne izborne
+kampanje. Sirovi tekst koji prikuplja iz digitalnog okruženja
+predstavlja kaotičan niz znakova, interpunkcijskih oznaka, pogrešno
+napisanih riječi, emotikona i raznovrsnih tipografskih varijacija.
+Komentar poput "neznam sta bi reko o ovim politicarima... DOSTA JE!!!
+😡😡😡 #izbori2024" sadrži pravopisne pogreške, ispuštene dijakritičke
+znakove, višestruke interpunkcijske znakove, emotikone i hashtag. Takav
+materijal u svom izvornom obliku nije pogodan za sustavnu analizu jer
+analitičke metode zahtijevaju određenu razinu strukturiranosti i
+konzistentnosti podataka. Priprema podataka stoga predstavlja temeljni
+korak koji prethodi svakoj računalno potpomognutoj analizi teksta, a
+njezina kvaliteta izravno određuje valjanost i pouzdanost konačnih
+rezultata istraživanja.
+
+::: {.callout-warning title="TODO za Burića"}
+Na kraju uvoda u ovo poglavlje dodati poveznicu na ono što slijedi. Naznačiti o čemu se raspravlja u sljedećim potpoglavljima: tokenizacija, uklanjanje zaustavnih riječi, stemizacija i lematizacija, izazovi hrvatskog jezika, čišćenje i normalizacija.
+:::
+
+Proces pripreme podataka
+obuhvaća niz postupaka kojima se nestrukturirani tekst transformira u
+oblik prikladan za kvantitativnu obradu. Može se reći da ovaj postupak
+predstavlja svojevrsni most između sirovog jezičnog materijala i njegova
+numeričkog prikaza koji omogućuje primjenu statističkih i računalnih
+metoda. Valja napomenuti da odluke donesene u ovoj fazi imaju
+dalekosežne posljedice jer svako pojednostavljenje teksta nužno
+uključuje određeni gubitak informacija. Istraživač stoga mora pažljivo
+balansirati između potrebe za redukcijom složenosti i očuvanja
+semantički relevantnih svojstava teksta.
+
+Priprema podataka nije neutralan tehnički postupak već epistemološki čin
+koji odražava teorijske pretpostavke istraživača o prirodi jezika i
+komunikacije. Kada odlučujemo koje elemente teksta zadržati, a koje
+odbaciti, implicitno definiramo što smatramo značajnim za naše
+istraživačko pitanje. Upravo zato je od iznimne važnosti da istraživač
+razumije logiku svakoga koraka u procesu pripreme te da svoje odluke
+može argumentirano obrazložiti.
+
+## Tokenizacija kao temeljna operacija
+
+Prva i najtemeljnija operacija u pripremi tekstualnih podataka jest
+tokenizacija, postupak raščlanjivanja kontinuiranog niza teksta na
+diskretne jedinice koje nazivamo tokenima. Token predstavlja najmanju
+jedinicu analize, a ovisno o istraživačkom pitanju može predstavljati:
+
+- pojedinačnu riječ,
+
+- n-gram^[N-gram je niz od *n* uzastopnih tokena (riječi) u tekstu. Bigram se sastoji od dva tokena, trigram od tri itd. Detaljnije objašnjenje slijedi u potpoglavlju o n-gramima i kolokacijama.],
+
+- rečenicu
+
+- odlomak. 
+
+U kontekstu istraživanja masovne komunikacije najčešće se kao token
+koristi pojedinačna riječ budući da riječi predstavljaju temeljne
+nositelje značenja u jeziku.
+
+::: {.callout-warning title="TODO za Burića"}
+Dodati kratke praktične upute o tokenizaciji: kojim se alatom provodi (npr. `tidytext` paket u R-u s funkcijom `unnest_tokens()`, ili `nltk`/`spaCy` u Pythonu), prikazati kratak primjer koda na hrvatskom tekstu.
+:::
+
+Premda se tokenizacija može činiti
+trivijalnom operacijom koja se svodi na razdvajanje teksta prema
+razmacima, u praksi ovaj postupak uključuje niz odluka koje mogu
+značajno utjecati na rezultate analize. Promotrimo rečenicu "Predsjednik
+Vlade RH posjetio je tvrtku INA-u." Jednostavna tokenizacija prema
+razmacima proizvela bi tokene: "Predsjednik", "Vlade", "RH", "posjetio", "je", "tvrtku", "INA-u."\]. Međutim,
+ovakva tokenizacija postavlja nekoliko pitanja. Treba li "RH" tretirati
+kao token ili proširiti u "Republika Hrvatska"? Kako postupiti s
+kraticom "g." koja uključuje točku? Je li "INA-u." jedan token ili treba
+odvojiti interpunkciju? Kako postupiti s crticom unutar naziva? Odgovori
+na ova pitanja ovise o specifičnostima istraživačkog pitanja i
+karakteristikama korpusa.
+
+Tablica 2 prikazuje različite strategije tokenizacije i njihove
+rezultate za odabrani primjer rečenice.
+
+Usporedba strategija tokenizacije na primjeru rečenice "Predsjednik
+Vlade RH posjetio je tvrtku
+INA-u."
+
+ -----------------------------------------------------------------------------------------------------------
+ Strategija Rezultat za "INA-u." Rezultat za Broj tokena
+ tokenizacije "g." 
+ ---------------------- -------------------- ---------------- ----------------------------------------------
+ Jednostavna (razmaci) INA-u. g. 9
+
+ S odvajanjem INA-u,. g,. 11
+ interpunkcije 
+
+ S rastavljanjem crtica INA, -, u,. g,. 13
+
+ Normalizirana ina g ^[TODO za Burića: pojasniti kako se dolazi do ovog broja tokena u normaliziranoj varijanti.\] 8
+ -----------------------------------------------------------------------------------------------------------
+
+Za hrvatske tekstove dodatnu komplikaciju predstavljaju enklitike,
+kratke nenaglašene riječi koje se u govoru vežu uz prethodnu ili
+sljedeću riječ. U pisanom tekstu one su odvojene razmacima, no njihova
+gramatička funkcija vezana je uz druge riječi u rečenici. Primjerice, u
+rečenici "Vidjeli smo ga" zamjenica "ga" funkcionira kao objekt glagola,
+no tokenizacija je tretira kao zasebnu jedinicu, što je ispravno za
+većinu analiza.
+
+## Uklanjanje zaustavnih riječi
+
+Nakon tokenizacije, korpus tipično sadrži velik broj visokofrekventnih
+riječi koje nose malo semantičke vrijednosti. Riječi poput "i", "ili",
+"je", "su", "na", "u", "za" pojavljuju se u gotovo svakom dokumentu i
+dominiraju distribucijom frekvencija. Ove se riječi konvencionalno
+nazivaju zaustavnim riječima jer ne doprinose razlikovanju dokumenata
+prema sadržaju. U analizi tematske strukture korpusa novinarskih
+članaka, činjenica da svi članci sadrže veznik "i" ne govori nam ništa o
+njihovu sadržaju. Uklanjanje zaustavnih riječi stoga smanjuje
+dimenzionalnost podataka i poboljšava omjer signala i šuma u analizi.
+Tipična lista zaustavnih riječi za hrvatski jezik sadrži nekoliko
+stotina najčešćih riječi uključujući članove, veznike, prijedloge,
+pomoćne glagole i najčešće zamjenice. Međutim, sastavljanje takve liste
+nije trivijalan zadatak i uključuje interpretativne odluke. Je li riječ
+"može" zaustavna riječ ili sadržajna riječ? Odgovor ovisi o kontekstu. U
+korpusu političkih govora, modalni glagoli poput "može", "mora", "treba"
+mogu nositi značajnu informaciju o diskurzivnim strategijama govornika.
+U tehničkim tekstovima, iste riječi možda nemaju takvu funkciju.
+
+Tablica 3 prikazuje primjer tipičnih hrvatskih zaustavnih riječi
+organiziranih prema vrstama riječi.
+
+Primjeri hrvatskih zaustavnih riječi prema vrstama riječi
+
+ -----------------------------------------------------------------------
+ Vrsta riječi Primjeri zaustavnih riječi
+ ----------------------- -----------------------------------------------
+ Veznici i, ili, ali, nego, jer, da, kako, dok, kad
+
+ Prijedlozi u, na, za, s, sa, od, do, iz, po, o, prema
+
+ Zamjenice ja, ti, on, ona, ono, mi, vi, oni, one, ona,
+ ovaj, taj, onaj
+
+ Pomoćni glagoli sam, si, je, smo, ste, su, biti, jesam, nisam
+
+ Čestice li, ne, ni, još, već, samo, baš, čak
+ -----------------------------------------------------------------------
+
+::: {.callout-warning title="TODO za Burića"}
+Dodati praktične upute za uklanjanje zaustavnih riječi: koji alat se koristi (npr. `tidytext::stop_words` za engleski, prilagođene liste za hrvatski), kako se kreira lista zaustavnih riječi za hrvatski jezik, kratak primjer u R-u ili Pythonu.
+:::
+
+Uklanjanje zaustavnih riječi može se
+provesti korištenjem unaprijed definiranih lista ili automatski,
+identificiranjem riječi čija frekvencija prelazi određeni prag.
+Oba pristupa imaju prednosti i nedostatke.
+Unaprijed definirane liste omogućuju preciznu kontrolu, ali zahtijevaju
+prilagodbu specifičnom korpusu. Automatski pristupi su fleksibilniji,
+ali mogu ukloniti riječi koje su relevantne za specifično istraživačko
+pitanje. Preporučljivo je da istraživač pregleda listu zaustavnih riječi
+i prilagodi je potrebama svog istraživanja.
+
+## Stemizacija i lematizacija
+
+^[Infleksivna morfologija označava sustav u kojem se gramatička značenja (padež, broj, rod, vrijeme) izražavaju promjenom oblika riječi, tj. dodavanjem nastavaka na osnovu riječi.] Infleskivna priroda
+hrvatskog jezika rezultira time da se ista riječ pojavljuje u mnogim
+različitim oblicima ovisno o gramatičkom kontekstu. Glagol "govoriti"
+može se pojaviti kao "govorim", "govoriš", "govori", "govorimo",
+"govorite", "govore", "govorio", "govorila", "govorili", "govorile",
+"govoreći" i u brojnim drugim oblicima. Za analitičke svrhe, sve ove
+oblike želimo tretirati kao različite varijante iste temeljne
+konceptualne jedinice. Stemizacija i
+lematizacija dva su komplementarna pristupa rješavanju ovog problema,
+pri čemu oba teže svođenju različitih morfoloških varijanti riječi na
+zajednički korijen. Njihova temeljna logika je
+intuitivno jasna jer ako znamo da oblici "ekonomija", "ekonomije",
+"ekonomski" i "ekonomista" dijele zajedničku semantičku jezgru, ima
+smisla tretirati ih kao iste konceptualne jedinice.
+
+Stemizacija predstavlja heuristički pristup koji koristi skup pravila za
+uklanjanje sufiksa i prefiksa s riječi kako bi se dobio korijen ili
+stem. [Gdje su ti algortimi? Kako se njima upravlja?] Algoritmi za
+stemizaciju operiraju isključivo nad oblikom riječi bez obzira na
+njezino značenje ili gramatičku funkciju u rečenici. Rezultat stemizacije nije nužno valjana riječ u jeziku već
+apstraktni korijen koji služi kao oznaka klase morfološki srodnih
+riječi. Primjerice, stemizacija riječi "ekonomski", "ekonomije" i
+"ekonomista" mogla bi proizvesti korijen "ekonom" koji nije samostalna
+hrvatska riječ, ali služi kao zajednički identifikator za sve tri
+izvorne riječi. Lematizacija, s druge strane, predstavlja lingvistički
+sofisticiraniji pristup koji svodi riječi na njihov kanonski oblik ili
+lemu, odnosno oblik koji bi se pronašao kao natuknica u rječniku. Za
+imenice to je nominativ jednine, za glagole infinitiv, za pridjeve
+nominativ jednine muškog roda. Za razliku od stemizacije, lematizacija
+uzima u obzir kontekst u kojem se riječ javlja i njezinu gramatičku
+funkciju. Tako će riječ "bolje" biti ispravno svedena na lemu "dobar"
+kao komparativ pridjeva, dok bi stemizacija vjerojatno proizvela
+nevaljani korijen poput "bolj".
+
+Tablica 4 ilustrira razliku između stemizacije i lematizacije na
+konkretnim primjerima.
+
+Usporedba stemizacije i lematizacije za odabrane riječi
+
+ ------------------------------------------------------------------------------
+ Izvorni oblik Rezultat stemizacije Rezultat lematizacije Napomena
+ --------------- ---------------------- ----------------------- ---------------
+ govorila govor govoriti Glagol u
+ prošlom vremenu
+
+ gospodarstva gospodar gospodarstvo Imenica u
+ genitivu
+
+ europskim europs europski Pridjev u
+ instrumentalu
+
+ bolje bolj dobar Komparativ
+ pridjeva
+
+ novinarka novinar novinarka Imenica ženskog
+ roda
+ ------------------------------------------------------------------------------
+
+Odluka između stemizacije i lematizacije ovisi o specifičnostima
+istraživačkog pitanja i dostupnim resursima. Stemizacija je računalno
+učinkovitija i ne zahtijeva opsežne lingvističke resurse, što je čini
+praktičnom za brzu obradu velikih korpusa. Međutim, njezina agresivnost
+može rezultirati gubitkom semantičkih distinkcija ili, suprotno,
+neuspjehom u prepoznavanju morfološki nepravilnih oblika. Lematizacija
+pruža veću preciznost i zadržava semantičku koherentnost, ali zahtijeva
+^[Primjerice, za hrvatski jezik dostupni su alati poput Croatian Lemmatizer (dostupan putem ReLDI projekta), CLASSLA pipeline za južnoslavenske jezike, te Stanza NLP koji podržava hrvatski.\] sofisticirane lingvističke alate
+uključujući leksičke baze podataka i sustave za
+označavanje vrsta riječi.
+
+## Izazovi specifični za hrvatski jezik
+
+Primjena metoda računalne analize teksta na hrvatski jezik suočava se s
+nizom specifičnih izazova koji proizlaze iz lingvističkih karakteristika
+hrvatskog i relativne oskudnosti dostupnih jezičnih resursa. Dok su
+alati i metode razvijene pretežno za engleski jezik dostigli visoku
+razinu sofisticiranosti, njihova prilagodba morfološki bogatijim i
+resursno siromašnijim jezicima poput hrvatskog ostaje aktivan
+istraživački problem. Morfološka složenost hrvatskog jezika stoga
+predstavlja izazov računalnoj obradi teksta. Hrvatski pripada skupini
+slavenskih jezika s bogatom flektivnom morfologijom, što znači da
+imenice, pridjevi i zamjenice poznaju sedam padeža u jednini i množini,
+dok glagoli variraju prema licu, broju, vremenu, načinu i vidu.
+Posljedica toga je izrazito visok broj različitih oblika koje ista
+leksička jedinica može poprimiti. Procjenjuje se da prosječna hrvatska
+imenica ima četrnaest različitih morfoloških realizacija, dok glagoli
+mogu imati i preko stotinu oblika kada se uključe svi aspekti
+konjugacije. Ova morfološka raznolikost drastično povećava
+dimenzionalnost podataka i otežava prepoznavanje obrazaca.
+
+Relativno slobodan redoslijed riječi u hrvatskom predstavlja dodatnu
+komplikaciju za metode koje se oslanjaju na sekvencijalne obrasce poput
+analize n-grama. Dok u engleskom jeziku pozicija riječi unutar rečenice
+ima snažnu gramatičku funkciju, u hrvatskom se ista informacija kodira
+morfološkim nastavcima, a redoslijed riječi služi pretežno pragmatičkim
+i stilskim funkcijama. Rečenice "Marko je vidio Anu", "Anu je vidio
+Marko" i "Vidio je Marko Anu" izražavaju istu propoziciju, ali s
+različitim informacijskim fokusom. To znači da ista propozicija može
+biti izražena na više sintaktički različitih načina, što komplicira
+usporedbu tekstova i identifikaciju obrazaca.
+
+Nedostatak lingvističkih resursa za hrvatski jezik predstavlja praktičnu
+prepreku implementaciji sofisticiranih metoda analize. Dok za engleski
+jezik postoje opsežne leksičke baze poput ^[Više o WordNetu na <https://wordnet.princeton.edu/>. Hrvatski WordNet (CroWN) dostupan je putem projekta <http://meta-share.ffzg.hr/>.] WordNeta s desecima
+tisuća sinkroniziranih koncepata, validirani rječnici sentimenata s
+desecima tisuća označenih riječi te napredni sustavi za morfološku
+analizu, za hrvatski su takvi resursi znatno oskudniji. Hrvatski WordNet
+postoji, ali je manjeg opsega od engleskog originala. Rječnici
+sentimenata za hrvatski razvijaju se u akademskim projektima poput ^[Više o CroSentiLex-u vidjeti u: Glavaš, G., Šnajder, J. i Dalbelo Bašić, B. (2012). Semi-supervised Acquisition of Croatian Sentiment Lexicon. TODO: provjeriti točnu referencu i dodati link.] CroSentiLex, no
+njihova pokrivenost i validacija variraju.
+
+Specifičnosti digitalnog registra hrvatskog jezika dodatno usložnjavaju
+analizu tekstova s društvenih mreža i komentara na portalima. Korisnici
+često koriste nestandardne oblike pisanja uključujući ispuštanje
+dijakritičkih znakova, uporabu engleskih riječi i fraza, regionalizme i
+žargonizme te razne oblike kreativnog pravopisa. Tekst poput "neznam sta
+bi reko, bas mi je bed" uključuje više odstupanja od standardnog jezika
+koja algoritmi pripremljeni za standardni hrvatski neće ispravno
+obraditi.
+
+Tablica 5 sažima ključne izazove hrvatskog jezika za računalnu analizu
+teksta.
+
+Izazovi primjene računalne analize teksta na hrvatski jezik
+
+ ------------------------------------------------------------------------
+ Izazov Opis problema Implikacije za analizu
+ ------------ ---------------------- ------------------------------------
+ Morfološka 7 padeža, bogata Visoka dimenzionalnost, otežano
+ složenost konjugacija grupiranje
+
+ Slobodan Gramatika kodirana Ograničena korisnost sekvencijalnih
+ redoslijed morfemima metoda
+ riječi 
+
+ Oskudica Manji leksikoni i Niža preciznost jezičnih alata
+ resursa alati 
+
+ Digitalni Ispuštanje Potrebna dodatna normalizacija
+ registar dijakritika, anglizmi 
+ ------------------------------------------------------------------------
+
+## Čišćenje i normalizacija teksta
+
+Sirovi tekst prikupljen iz digitalnih izvora gotovo uvijek sadrži
+elemente koji nisu relevantni za sadržajnu analizu, a mogu ometati rad
+analitičkih alata ili iskriviti rezultate. Čišćenje teksta obuhvaća skup
+postupaka kojima se uklanjaju takvi neželjeni elementi i standardizira
+format podataka. Premda se može činiti tehničkim i rutinskim, ovaj korak
+zahtijeva pažljivo razmatranje jer svaka odluka o uklanjanju ili
+transformaciji utječe na konačnu analizu.
+
+Uklanjanje interpunkcije jedan je od najčešćih koraka čišćenja. Točke,
+zarezi, upitnici i drugi interpunkcijski znakovi obično ne nose
+semantičku informaciju relevantnu za analizu sadržaja te se rutinski
+uklanjaju. Međutim, postoje konteksti u kojima interpunkcija može biti
+značajna. U analizi emocionalnog intenziteta višestruki uskličnici ili
+upitnici mogu signalizirati pojačanu emocionalnu angažiranost autora, pa
+bi njihovo uklanjanje značilo gubitak relevantne informacije.
+
+Tekstovi prikupljeni s interneta često sadrže HTML oznake, URL adrese i
+posebne znakove koji su relevantni za prikaz teksta u pregledniku, ali
+nemaju sadržajnu vrijednost. Uklanjanje takvih elemenata 
+
+::: {.callout-warning title="TODO za Burića"}
+Navesti standardni protokol čišćenja teksta taksativno (po fazama) i navesti alate kojima se svaka faza odrađuje. Npr.: (1) uklanjanje HTML oznaka (`rvest` paket u R-u), (2) uklanjanje URL-ova (regex), (3) normalizacija razmaka, (4) obrada emotikona/emojija, (5) normalizacija dijakritika. Za svaku fazu navesti konkretnu funkciju ili alat.
+:::
+
+dio je standardnog
+protokola čišćenja. Posebnu pažnju zahtijevaju
+emotikoni i emojiji koji su sve prisutniji u tekstovima digitalnih
+medija. Iako nemaju leksičko značenje u tradicionalnom smislu, emojiji
+često nose značajnu emocionalnu informaciju i mogu biti relevantni za
+određene tipove analize poput analize sentimenata.
+
+Normalizacija dijakritika specifičan je izazov za hrvatski jezik.
+Korisnici digitalnih medija često ispuštaju dijakritičke znakove pišući
+"zasto" umjesto "zašto" ili "covjek" umjesto "čovjek". Istraživač može
+odlučiti normalizirati takve oblike na standardnu ortografiju ili pak
+zadržati nestandardne oblike kao indikator registra ili
+sociolingvističkih karakteristika autora. Prva opcija pojednostavljuje
+analizu dok druga zadržava potencijalno relevantnu informaciju.
+
+Ovo je sada zadnji odjeljak poglavlja. Tu se obično jasno sumira što je
+sve objašnjeno. To znači da bi trebalo napisati nešto nalik
+sljedećem: Prema tome, prvi i važan korak u računalnoj analizi
+teksta je priprema podataka za analizu. Kao što smo u ovom poglavlju
+naveli ona se obavlja kroz četiri faze U tu svrhu koristi se\.... (*neki
+alat -- to je ono što nedostaje, npr, kad radiš unos podataka u spss,
+prvo napraviš bazu u excelu u kojem strukturiraš podatke kao kombinaciju
+varijabli i slučajeva, i onda je uneseš u spss, ovdje mi fali upravo
+objašnjenje što je pandan excelu, u čemu se to radi i na koji način*)..
+U idućoj tablici sistematizran je pregled svih koraka u pripremi
+podataka za računalnu analizu teksta.
+
+Tablica 6 prikazuje pregled koraka pripreme podataka i njihovih
+implikacija za analizu.
+
+Pregled koraka pripreme podataka i njihovih implikacija za analizu
+
+ --------------------------------------------------------------------------------------
+ Korak Svrha Potencijalni gubitak informacija
+ -------------------------- ------------------ ----------------------------------------
+ Tokenizacija Raščlamba teksta Gubitak informacija o sekvencijalnim
+ na analitičke odnosima
+ jedinice 
+
+ Uklanjanje stop-riječi Redukcija šuma i Gubitak gramatičkih i pragmatičkih
+ dimenzionalnosti signala
+
+ Lematizacija/stemizacija Svođenje na Gubitak morfoloških distinkcija
+ korijenske oblike 
+
+ Čišćenje i normalizacija Standardizacija Gubitak stilističkih i registarskih
+ formata signala
+ --------------------------------------------------------------------------------------
+
+Uzevši sve navedeno u obzir, postupak pripreme podataka može se
+konceptualizirati kao serija transformacija koje sirovi tekst prevode u
+strukturirani oblik spreman za analizu. Svaki korak uključuje implicitne
+i eksplicitne odluke o tome što je relevantno za istraživanje, a što
+predstavlja šum koji treba ukloniti. Kvaliteta pripreme podataka izravno
+utječe na valjanost rezultata, a transparentnost u dokumentiranju
+primijenjenih postupaka nužan je preduvjet znanstvene ponovljivosti.
+Istraživač koji razumije logiku i implikacije svakoga koraka u procesu
+pripreme može donijeti informirane odluke koje optimalno služe
+specifičnom istraživačkom pitanju.
+
+# Reprezentacija teksta
+
+Nakon što su podaci pripremljeni i sređeni, idući korak u provedbi
+računalne analize teksta je pretvaranje tekstualnih podataka u oblik
+koji će omogućiti sustavnu usporedbu i statističku analizu. To nazivamo
+reprezentacijom teksta (predlažem da na ovaj način, u uvodu u svako
+poglavlje objasniš ukratko, na samom početku o čemu se radi)
+
+Primjerice, zamislimo istraživača koji želi usporediti kako tri vodeća
+hrvatska informativna portala izvještavaju o klimatskim promjenama. Na
+raspolaganju mu je korpus od nekoliko tisuća članaka prikupljenih
+tijekom jednogodišnjeg razdoblja. Nakon što je proveo tokenizaciju,
+uklonio stop-riječi i normalizirao tekst, suočava se s temeljnim
+pitanjem: kako pretvoriti ove tekstualne podatke u oblik koji će
+omogućiti sustavnu usporedbu i statističku analizu? Kako reprezentirati
+tekst na način koji će računalu omogućiti prepoznavanje sličnosti i
+razlika između dokumenata, identificiranje karakterističnih tema za
+svaki portal te otkrivanje obrazaca u medijskom diskursu?
+
+Reprezentacija teksta odnosi se na postupke kojima se tekstualni podaci
+transformiraju u matematičke strukture, najčešće vektore ili matrice,
+pogodne za računalnu obradu. Ova transformacija predstavlja ključan
+korak jer kvaliteta reprezentacije izravno utječe na uspješnost svih
+naknadnih analitičkih postupaka, 
+
+::: {.callout-warning title="TODO za Burića"}
+Navesti kojim se alatom provodi reprezentacija teksta. Npr. `tidytext` i `quanteda` u R-u, ili `scikit-learn` i `gensim` u Pythonu. Poželjno je dodati kratak primjer koda za stvaranje document-term matrice.
+:::
+
+a obavlja se \..... Loše odabrana reprezentacija može prikriti relevantne obrasce
+ili, suprotno, proizvesti artefakte koji ne odražavaju stvarne
+karakteristike teksta.
+
+Temeljni izazov reprezentacije teksta proizlazi iz fundamentalne razlike
+između prirode jezika i zahtjeva kvantitativnih metoda. Jezik je
+semantički bogat, kontekstualno ovisan i inherentno višeznačan sustav u
+kojem značenje proizlazi iz složenih odnosa između riječi, rečenica i
+šireg diskursnog konteksta. S druge strane, statistički algoritmi
+zahtijevaju precizno definirane numeričke vrijednosti organizirane u
+pravilne strukture. Svaka reprezentacija stoga nužno uključuje određenu
+razinu pojednostavljenja i gubitka informacija, a istraživačev zadatak
+je odabrati pristup koji optimalno balansira između računalne
+učinkovitosti i očuvanja semantički relevantnih svojstava 
+
+::: {.callout-warning title="TODO za Burića"}
+Dodati poveznicu prema sljedećim potpoglavljima. Navesti da postoji nekoliko modela reprezentacije teksta, od kojih će biti podrobnije objašnjeni model vreće riječi, TF-IDF vaganje i matrica supojavljivanja, te ukratko opisati čemu svaki služi.
+:::
+
+teksta.
+
+## Model vreće riječi
+
+Model vreće riječi, poznat i pod engleskim nazivom Bag-of-Words ili
+skraćenicom BoW, predstavlja najjednostavniji i povijesno najraniji
+pristup reprezentaciji teksta za kvantitativnu analizu. Osnovna
+intuicija ovog modela proizlazi iz pretpostavke da se sadržaj dokumenta
+može aproksimirati jednostavnim prebrojavanjem riječi koje se u njemu
+pojavljuju, pri čemu se potpuno zanemaruje redoslijed riječi i
+gramatička struktura. Metaforički rečeno, zamišljamo da sve riječi iz
+dokumenta ubacujemo u veliku vreću, miješamo ih i potom samo brojimo
+koliko puta se svaka riječ pojavljuje.
+
+Premda se ova pretpostavka može činiti drastičnim pojednostavljenjem,
+praksa je pokazala da za mnoge analitičke zadatke takva reprezentacija
+pruža iznenađujuće dobre rezultate. Ako želimo klasificirati novinarske
+članke prema temama, činjenica da članak sadrži riječi poput
+"inflacija", "kamatna stopa", "BDP" i "proračun" snažno sugerira da se
+radi o ekonomskoj tematici, neovisno o tome kojim redoslijedom se te
+riječi pojavljuju u tekstu. Slično tome, visoka frekvencija riječi poput
+"utakmica", "gol", "prvak" i "reprezentacija" pouzdano identificira
+sportski sadržaj.
+
+Formalno, model vreće riječi reprezentira korpus dokumenata pomoću
+matrice dokument-termin. Radi se o matrici u kojoj svaki redak
+predstavlja jedan dokument, svaki stupac predstavlja jednu jedinstvenu
+riječ iz cjelokupnog vokabulara korpusa, a vrijednost u svakoj ćeliji
+označava frekvenciju pojavljivanja te riječi u tom dokumentu. Ako imamo
+korpus od $m$ dokumenata i vokabular od $n$ jedinstvenih riječi,
+rezultirajuća matrica ima dimenzije $m \times n$.
+
+Zamislimo konkretan primjer s tri kratka naslova novinskih članaka:
+"Vlada najavljuje nove porezne reforme", "Premijer najavljuje reforme
+zdravstvenog sustava" i "Nove mjere za poticanje gospodarstva". Matrica
+dokument-termin za ovaj mini-korpus prikazana je u tablici 7.
+
+Primjer matrice dokument-termin za tri kratka dokumenta
+
+ ---------------------------------------------------------------------------------------------------------------------------------
+ Dokument vlada najavljuje nove porezne reforme premijer zdravstvenog sustava mjere poticanje gospodarstva
+ ---------- ------- ------------ ------ --------- --------- ---------- -------------- --------- ------- ----------- --------------
+ D1 1 1 1 1 1 0 0 0 0 0 0
+
+ D2 0 1 0 0 1 1 1 1 0 0 0
+
+ D3 0 0 1 0 0 0 0 0 1 1 1
+ ---------------------------------------------------------------------------------------------------------------------------------
+
+Iz ove matrice možemo vidjeti da dokumenti D1 i D2 dijele dvije riječi
+("najavljuje" i "reforme"), dok D3 nema zajedničkih riječi s ostala dva
+dokumenta osim pridjeva "nove" koji dijeli s D1. Ova informacija može
+poslužiti za kvantifikaciju sličnosti između dokumenata, primjerice
+korištenjem kosinusne sličnosti ili drugih mjera udaljenosti u
+vektorskom prostoru.
+
+Model vreće riječi ima nekoliko značajnih ograničenja koje treba imati
+na umu. Budući da se potpuno zanemaruje redoslijed riječi, rečenice
+"Marko voli Anu" i "Ana voli Marka" imaju identičnu reprezentaciju
+premda izražavaju različite propozicije. Slično tome, rečenica "Film
+nije bio dosadan" i "Film je bio dosadan" imaju gotovo identičnu
+reprezentaciju jer se razlikuju samo u jednoj riječi, premda izražavaju
+suprotne evaluacije. Ova ograničenja motiviraju razvoj sofisticiranijih
+metoda reprezentacije.
+
+## TF-IDF: Vaganje važnosti riječi
+
+Jednostavno prebrojavanje riječi, kako ga provodi model vreće riječi,
+tretira sve riječi kao jednako važne. Međutim, intuitivno je jasno da
+sve riječi ne nose jednaku količinu informacija. Riječ koja se
+pojavljuje u gotovo svakom dokumentu korpusa, poput veznika "i" ili
+glagola "je", govori nam vrlo malo o sadržaju specifičnog dokumenta. S
+druge strane, riječ koja se pojavljuje samo u malom broju dokumenata
+može biti ključna za razumijevanje njihove specifičnosti. Primjerice,
+riječ "fotonaponski" u korpusu ekonomskih vijesti vjerojatno se
+pojavljuje samo u člancima o obnovljivim izvorima energije i kao takva
+je visoko informativna za identificiranje te podteme.
+
+TF-IDF, kratica za term frequency-inverse document frequency, jest
+statistička mjera koja pokušava uhvatiti ovu intuiciju dodjeljivanjem
+veće težine riječima koje su karakteristične za pojedine dokumente, a
+manje težine riječima koje su uobičajene u cijelom korpusu. Mjera je
+osmišljena sredinom dvadesetog stoljeća u kontekstu informacijskog
+pretraživanja, ali je postala standardni alat u širokom rasponu primjena
+računalne analize teksta.
+
+Mjera TF-IDF sastoji se od dva komponenta. Prvi komponenta, frekvencija
+termina (TF), jednostavno mjeri koliko se često određena riječ
+pojavljuje u dokumentu. Može se izraziti kao sirovi broj pojavljivanja
+ili, češće, kao relativna frekvencija dobivena dijeljenjem broja
+pojavljivanja s ukupnim brojem riječi u dokumentu. Formalno, za riječ
+$t$ u dokumentu $d$:
+
+$$TF(t,d) = \frac{f_{t,d}}{\sum_{t' \in d}^{}f_{t',d}}$$
+
+U ovoj formuli $f_{t,d}$ označava broj pojavljivanja riječi $t$ u
+dokumentu $d$, a nazivnik predstavlja ukupan broj riječi u dokumentu.
+
+Drugi komponenta, inverzna frekvencija dokumenta (IDF), mjeri koliko je
+riječ rijetka ili česta u cijelom korpusu. Definira se kao logaritam
+omjera ukupnog broja dokumenata i broja dokumenata koji sadrže tu riječ:
+
+$$IDF(t,D) = ln\left( \frac{N}{\left| \{ d \in D:t \in d\} \right|} \right)$$
+
+U ovoj formuli $N$ označava ukupan broj dokumenata u korpusu $D$, a
+nazivnik broji koliko dokumenata sadrži riječ $t$. Logaritamska
+transformacija služi ublažavanju ekstremnih vrijednosti.
+
+Konačna vrijednost TF-IDF dobiva se množenjem ova dva komponenta:
+
+$$TF\text{-}IDF(t,d,D) = TF(t,d) \times IDF(t,D)$$
+
+Promotrimo što ova formula implicira. Riječ koja se često pojavljuje u
+jednom dokumentu, ali rijetko u ostalima, imat će visoku vrijednost
+TF-IDF jer će oba faktora biti visoka. Riječ koja se pojavljuje u svim
+dokumentima imat će IDF jednak nuli jer je logaritam od 1 jednak nuli,
+pa će njezina TF-IDF vrijednost također biti nula bez obzira na to
+koliko se često pojavljuje. Na taj način mjera automatski neutralizira
+utjecaj općenitih, visokofrekventnih riječi.
+
+Tablica 8 prikazuje hipotetski primjer TF-IDF vrijednosti za odabrane
+riječi u tri dokumenta o ekonomskoj tematici.
+
+Hipotetske TF-IDF vrijednosti za odabrane riječi u tri ekonomska teksta
+
+ -------------------------------------------------------------------------------
+ Riječ D1 (Fiskalna politika) D2 (Monetarna politika) D3 (Opći pregled)
+ -------------- ---------------------- ----------------------- -----------------
+ proračun 0.089 0.012 0.031
+
+ deficit 0.076 0.008 0.022
+
+ kamatna 0.011 0.094 0.028
+
+ inflacija 0.023 0.081 0.035
+
+ gospodarstvo 0.018 0.021 0.019
+ -------------------------------------------------------------------------------
+
+Iz tablice vidimo da riječi "proračun" i "deficit" imaju najviše
+vrijednosti u dokumentu D1 koji se bavi fiskalnom politikom, dok
+"kamatna" i "inflacija" dominiraju u D2 o monetarnoj politici. Riječ
+"gospodarstvo" ima slične, relativno niske vrijednosti u sva tri
+dokumenta jer se pojavljuje u svima i nema diskriminacijsku snagu.
+
+## Matrica supojavljivanja
+
+Prethodno razmatrane metode reprezentacije fokusirale su se na odnos
+između riječi i dokumenata, tretirajući svaku riječ kao nezavisnu
+jedinicu. Međutim, značenje riječi u prirodnom jeziku uvelike ovisi o
+kontekstu u kojem se pojavljuje i o drugim riječima s kojima se redovito
+javlja zajedno. Lingvistička hipoteza distribucijske semantike, koju je
+formulirao ^[Harris, Z.S. (1954). Distributional Structure. *Word*, 10(2-3), 146-162.] Zellig Harris sredinom dvadesetog stoljeća, tvrdi da riječi koje se pojavljuju
+u sličnim kontekstima imaju slična značenja. Ova intuicija motivira
+pristup reprezentaciji teksta temeljen na analizi supojavljivanja
+riječi.
+
+Matrica supojavljivanja bilježi koliko se često parovi riječi pojavljuju
+zajedno unutar definiranog kontekstualnog prozora. Za razliku od matrice
+dokument-termin gdje redci predstavljaju dokumente, u matrici
+supojavljivanja i redci i stupci predstavljaju riječi iz vokabulara.
+Vrijednost u ćeliji $(i,j)$ označava koliko se puta riječ $i$ pojavila u
+neposrednoj blizini riječi $j$ u cijelom korpusu. Veličina
+kontekstualnog prozora, najčešće definirana kao određeni broj riječi
+prije i poslije ciljne riječi, parametar je koji istraživač mora
+odrediti ovisno o analitičkim ciljevima.
+
+Zamislimo da analiziramo korpus novinskih članaka o hrvatskom turizmu i
+definiramo kontekstualni prozor od dvije riječi s obje strane. Ako se u
+tekstu često pojavljuju fraze poput "turistička sezona", "ljetna
+sezona", "zimska sezona", matrica supojavljivanja će zabilježiti visoke
+vrijednosti za parove (turistička, sezona), (ljetna, sezona) i (zimska,
+sezona).
+
+Tablica 9 prikazuje hipotetski isječak matrice supojavljivanja za mali
+skup riječi iz korpusa o ekonomiji.
+
+Hipotetski isječak matrice supojavljivanja za ekonomski vokabular
+
+ ------------------------------------------------------------------------
+ rast pad gospodarstvo inflacija plaće
+ ------------------ ------ ------ ------------------ ----------- --------
+ rast \- 12 87 23 45
+
+ pad 12 \- 65 34 38
+
+ gospodarstvo 87 65 \- 41 52
+
+ inflacija 23 34 41 \- 28
+
+ plaće 45 38 52 28 \-
+ ------------------------------------------------------------------------
+
+Iz tablice možemo iščitati da se "rast" i "gospodarstvo" vrlo često
+pojavljuju zajedno (87 supojavljivanja), dok "rast" i "pad" supostoje
+znatno rjeđe (12), što je očekivano jer se radi o antonimima koji se
+rijetko koriste u istom kontekstu. Zanimljivo je primijetiti da
+"gospodarstvo" ima visoke vrijednosti supojavljivanja sa svim ostalim
+riječima jer je to općeniti termin koji se prirodno kombinira s raznim
+ekonomskim konceptima.
+
+Ključna prednost matrice supojavljivanja jest što omogućuje otkrivanje
+semantičkih odnosa između riječi. Riječi koje se pojavljuju u sličnim
+kontekstima imat će slične profile supojavljivanja, odnosno slične retke
+u matrici. To znači da možemo mjeriti semantičku sličnost između riječi
+usporedbom njihovih vektora supojavljivanja.
+
+Tablica 10 pruža usporedni pregled triju metoda reprezentacije teksta.
+
+Usporedba metoda reprezentacije teksta
+
+ -------------------------------------------------------------------------------
+ Metoda Struktura Što mjeri Tipična primjena
+ ----------------- ----------------- ---------------- --------------------------
+ Vreća riječi Matrica Frekvencija Klasifikacija dokumenata,
+ (BoW) dokument-termin riječi u pretraživanje
+ dokumentima 
+
+ TF-IDF Matrica Važnost riječi Identificiranje ključnih
+ dokument-termin s za dokument u termina, usporedba
+ težinama korpusu dokumenata
+
+ Matrica Matrica Kontekstualna Semantička analiza,
+ supojavljivanja riječ-riječ bliskost riječi analiza diskursa
+ -------------------------------------------------------------------------------
+
+Valja zaključiti da različite metode reprezentacije teksta nude
+komplementarne perspektive na tekstualne podatke.
+
+Model vreće riječi pruža jednostavan i robustan temelj za mnoge
+analitičke zadatke, posebno za klasifikaciju dokumenata gdje je cilj
+razlikovati dokumente prema općenitim tematskim karakteristikama.
+
+TF-IDF nadograđuje taj temelj uvođenjem koncepta težina koje
+reflektiraju diskriminacijsku vrijednost riječi, čineći reprezentaciju
+osjetljivijom na karakteristične termine pojedinih dokumenata.
+
+Matrica supojavljivanja otvara prozor u semantičke odnose koji
+definiraju značenje riječi u kontekstu, omogućujući sofisticiranije
+analize diskurzivnih obrazaca.
+
+U praksi, izbor metode reprezentacije ovisi o specifičnostima
+istraživačkog pitanja, karakteristikama korpusa i računalnim resursima.
+Za jednostavne klasifikacijske zadatke na velikim korpusima, TF-IDF
+reprezentacija često predstavlja optimalan balans između informativnosti
+i računalne učinkovitosti. Za eksplorativne analize semantičkih odnosa i
+diskurzivnih obrazaca, matrica supojavljivanja i tehnike koje na njoj
+počivaju mogu pružiti bogatije uvide. Sofisticirane studije često
+kombiniraju više pristupa, koristeći svaki za aspekte analize kojima
+najbolje odgovara.
+
+Napredak u dubokom učenju donio je nove pristupe reprezentaciji teksta
+koji nadilaze jednostavne statističke mjere. Vektorske reprezentacije
+riječi (word embeddings) poput Word2Vec ili GloVe uče guste vektorske
+reprezentacije riječi iz velikih korpusa, zahvaćajući semantičke odnose
+na način koji omogućuje aritmetičke operacije nad značenjima. Još
+napredniji pristup predstavljaju kontekstualizirane reprezentacije
+temeljene na transformerima (BERT, GPT) koje generiraju reprezentacije
+ovisne o kontekstu, tako da ista riječ dobiva različitu reprezentaciju
+ovisno o rečenici u kojoj se pojavljuje. Ovi pristupi postižu impresivne
+rezultate na širokom rasponu zadataka, ali zahtijevaju značajne
+računalne resurse i specijalizirano znanje za primjenu.
+
+# Vrste analize teksta
+
+Nakon razmatranja postupaka pripreme podataka i metoda reprezentacije teksta,
+dolazi se do ključnog pitanja: kako iz pripremljenih tekstualnih podataka
+izvući smislene zaključke koji će odgovoriti na istraživačka
+pitanja? Odgovor ovisi o prirodi problema koji se želi riješiti i o vrsti
+znanja koje se želi generirati. Istraživač masovne komunikacije može biti
+zainteresiran za automatsku klasifikaciju velikog broja članaka prema
+temama, za otkrivanje skrivenih tematskih struktura u korpusu, za
+mjerenje emocionalnog tona medijskog izvještavanja ili za
+identificiranje ključnih aktera u javnom diskursu. Svaki od ovih
+zadataka zahtijeva drugačiji analitički pristup, a izbor metode ima
+dalekosežne implikacije za vrstu uvida koje je moguće dobiti.
+
+U ovom poglavlju predstavljene su četiri
+temeljne vrste pristupa analizi teksta koje se
+razlikuju prema logici zaključivanja, potrebnim resursima i vrstama
+pitanja na koja mogu odgovoriti. Nadzirano strojno učenje koristi
+unaprijed označene primjere za treniranje modela koji će klasificirati
+nove tekstove u poznate kategorije. Nenadzirano strojno učenje otkriva
+latentne strukture u podacima bez prethodnog definiranja kategorija.
+Rječnički pristupi oslanjaju se na unaprijed definirane popise riječi s
+pridruženim vrijednostima za mjerenje specifičnih dimenzija teksta poput
+sentimenta. Ekstrakcija entiteta identificira i klasificira imenice koje
+označavaju konkretne objekte iz stvarnog svijeta poput osoba,
+organizacija i lokacija.
+
+## Nadzirano strojno učenje
+
+Zamislimo istraživača koji analizira tisuće komentara objavljenih na
+društvenim mrežama tijekom predizborne kampanje. Cilj je kategorizirati
+svaki komentar prema tome podržava li određenog kandidata, kritizira ga
+ili je neutralan. Ručno kodiranje tolikog broja komentara zahtijevalo bi
+mjesece rada i značajne financijske resurse. Nadzirano strojno učenje
+nudi alternativu: istraživač ručno kodira relativno mali uzorak
+komentara, a zatim koristi te označene primjere za treniranje algoritma
+koji će automatski klasificirati preostale komentare. Na taj način
+kombiniraju se prednosti ljudske prosudbe s računalnom učinkovitošću.
+
+Proces nadziranog učenja započinje s ručnim označavanjem skupa
+dokumenata prema kategorijama od interesa. Ovaj označeni skup dijeli se
+na trenažni skup, koji služi za učenje algoritma, i testni skup, koji
+služi za evaluaciju performansi. Algoritam analizira karakteristike
+dokumenata u trenažnom skupu, tipično njihovu vektorsku reprezentaciju
+temeljenu na frekvencijama riječi, i uči pravila koja povezuju te
+karakteristike s kategorijama. Naučena pravila potom se primjenjuju na
+testni skup, a usporedba predikcija algoritma s pravim oznakama pruža
+objektivnu mjeru uspješnosti.
+
+::: {.callout-warning title="TODO za Burića"}
+Umjesto detaljnog opisa evaluacijskih metrika, važnije je predočiti kako se nadzirano strojno učenje teksta konkretno provodi. Dodati jednostavan primjer: npr. klasifikacija novinskih članaka prema temama koristeći `quanteda` ili `tidymodels` u R-u, s prikazom koda za pripremu podataka, treniranje modela i provjeru rezultata.
+:::
+
+Evaluacija klasifikatora oslanja se na
+standardne metrike koje kvantificiraju različite aspekte performansi.
+Točnost (accuracy) mjeri udio ispravno klasificiranih dokumenata u
+ukupnom broju dokumenata:
+
+$$\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}$$
+
+U ovoj formuli $TP$ označava broj pravilno prepoznatih pozitivnih
+slučajeva (true positives), $TN$ broj pravilno prepoznatih negativnih
+slučajeva (true negatives), $FP$ broj lažno pozitivnih slučajeva (false
+positives), a $FN$ broj lažno negativnih slučajeva (false negatives).
+
+Preciznost (precision) mjeri udio pravilno klasificiranih pozitivnih
+slučajeva među svim slučajevima koje je model klasificirao kao
+pozitivne:
+
+$$\text{Precision} = \frac{TP}{TP + FP}$$
+
+Odziv (recall) mjeri udio pravilno klasificiranih pozitivnih slučajeva
+među svim stvarno pozitivnim slučajevima:
+
+$$\text{Recall} = \frac{TP}{TP + FN}$$
+
+F1 mjera je harmonijska sredina preciznosti i odziva, pružajući
+uravnoteženu mjeru performansi:
+
+$$F_{1} = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
+
+Tablica 11 ilustrira interpretaciju ovih metrika na primjeru
+klasifikacije komentara.
+
+Evaluacijske metrike za nadzirano učenje
+
+ -----------------------------------------------------------------------------------------
+ Metrika Formula Interpretacija u kontekstu Tipična vrijednost
+ ------------ ----------------------- ------------------------------ ---------------------
+ Točnost (TP+TN)/(TP+TN+FP+FN) Udio ispravno klasificiranih 0.70-0.90
+ komentara 
+
+ Preciznost TP/(TP+FP) Pouzdanost kada model kaže 0.60-0.85
+ "pozitivan" 
+
+ Odziv TP/(TP+FN) Koliko pozitivnih komentara 0.60-0.85
+ model pronalazi 
+
+ F1 Harmonijska sredina P i Uravnotežena mjera performansi 0.65-0.85
+ R 
+ -----------------------------------------------------------------------------------------
+
+::: {.callout-warning title="TODO za Burića"}
+Pojednostaviti opis algoritama strojnog učenja. Studenti na HKS-u i FHS-u ne trebaju razumjeti matematičke detalje algoritama, već trebaju razumjeti logiku pristupa i znati ga primijeniti. Fokus staviti na to KADA koristiti koji pristup i KAKO ga primijeniti (s kojim alatom, na koji način), a tehničke detalje eventualno staviti u fusnote ili dodatak.
+:::
+
+Među algoritmima nadziranog učenja koji se
+primjenjuju na tekstualne podatke, logistička regresija, Naive Bayes i
+Support Vector Machines (SVM) predstavljaju klasične pristupe koji se i
+dalje široko koriste. Logistička regresija modelira vjerojatnost
+pripadnosti kategoriji kao logističku funkciju linearne kombinacije
+značajki, nudeći interpretabilne koeficijente koji pokazuju doprinos
+svake riječi klasifikaciji. Naive Bayes temelji se na Bayesovom teoremu
+uz pretpostavku uvjetne nezavisnosti značajki, što je snažna
+simplifikacija koja ipak često proizvodi dobre rezultate. SVM traži
+hiperravninu koja maksimalno razdvaja kategorije u višedimenzionalnom
+prostoru značajki.
+
+Praktična primjena nadziranog učenja u istraživanju masovne komunikacije
+može se ilustrirati primjerom klasifikacije vijesti prema temama na
+hrvatskim portalima. Istraživač započinje definiranjem kategorijalne
+sheme, primjerice: politika, gospodarstvo, sport, kultura, crna kronika.
+Zatim nasumično odabire uzorak od nekoliko stotina članaka koje ručno
+kodira prema definiranim kategorijama. Ovaj označeni skup predstavlja
+"zlatni standard" na temelju kojega će algoritam učiti. Kritično je
+osigurati da su kategorije jasno definirane i međusobno isključive, te
+da više kodera postiže visoku razinu slaganja kako
+bi se osigurala pouzdanost oznaka.
+
+Nakon označavanja, tekstualne podatke treba transformirati u numeričku
+reprezentaciju. Najčešći pristup koristi TF-IDF vrijednosti riječi kao
+značajke, stvarajući visokodimenzionalni vektor za svaki dokument.
+Algoritam zatim uči statističke obrasce koji povezuju ove vektorske
+reprezentacije s kategorijama. Primjerice, model može naučiti da visoka
+TF-IDF vrijednost riječi "proračun" i "ministar" snažno indicira
+kategoriju politike, dok visoke vrijednosti za "pogodak" i "utakmica"
+indiciraju sport.
+
+Ključno metodološko pitanje jest kako podijeliti podatke za treniranje i
+evaluaciju. Standardni pristup koristi unakrsnu validaciju
+(cross-validation) gdje se podaci dijele na k podskupova, a model se
+trenira k puta, svaki put koristeći različiti podskup za testiranje. Ovo
+pruža robusniju procjenu performansi nego jednostavna podjela na
+trenažni i testni skup. Za vremenski strukturirane podatke poput
+novinarskih članaka, preporučuje se korištenje temporalne validacije
+gdje se model trenira na starijim člancima i testira na novijima, što
+bolje simulira stvarnu primjenu.
+
+## Tematsko modeliranje: Latent Dirichlet Allocation
+
+Za razliku od nadziranog učenja koje zahtijeva unaprijed definirane
+kategorije, tematsko modeliranje pripada skupini nenadziranih metoda
+koje otkrivaju latentne strukture u podacima bez prethodne
+specifikacije. Najutjecajniji pristup tematskom modeliranju jest Latent
+Dirichlet Allocation (LDA), statistički model razvijen početkom dvadeset
+i prvog stoljeća koji pretpostavlja da je svaki dokument mješavina
+nekoliko apstraktnih tema, a svaka tema karakterizirana distribucijom
+preko riječi.
+
+Intuicija iza LDA-e može se ilustrirati primjerom iz novinarstva.
+Zamislimo članak na temu klimatskih promjena i energetske politike.
+Takav članak vjerojatno sadrži riječi iz različitih tematskih domena:
+riječi vezane uz klimu poput "temperatura", "emisije", "ugljik", riječi
+vezane uz energetiku poput "elektrane", "obnovljivi", "fosilna", te
+riječi vezane uz politiku poput "zakon", "regulativa", "vlada". LDA
+formalno modelira ovu intuiciju pretpostavljajući da autor dokumenta
+implicitno odabire mješavinu tema, a zatim za svaku riječ u dokumentu
+odabire jednu od tema i generira riječ prema distribuciji te teme.
+
+::: {.callout-warning title="TODO za Burića"}
+Pojednostaviti objašnjenje LDA modela. Dirichletovu distribuciju dovoljno je spomenuti u fusnoti. Za studente je važnije razumjeti intuiciju: svaki dokument je mješavina tema, a svaka tema je mješavina riječi. LDA algoritam automatski otkriva te mješavine. Tehničke detalje staviti u fusnotu ili dodatak.
+:::
+
+Matematički, LDA
+koristi Dirichletovu distribuciju kao a priori distribuciju za mješavine
+tema u dokumentima i za distribucije riječi u temama. Dirichletova
+distribucija je multivarijatna generalizacija beta distribucije i
+parametrizirana je vektorom koncentracijskih parametara $\alpha$. Za
+dokument $d$, distribucija tema $\theta_{d}$ generira se iz Dirichletove
+distribucije:
+
+$$\theta_{d} \sim \text{Dirichlet}(\alpha)$$
+
+Slično tome, za svaku temu $k$, distribucija riječi $\phi_{k}$ generira
+se iz Dirichletove distribucije:
+
+$$\phi_{k} \sim \text{Dirichlet}(\beta)$$
+
+Generativni proces za svaku riječ $w_{dn}$ u dokumentu $d$ uključuje
+prvo odabir teme $z_{dn}$ prema distribuciji tema dokumenta, a zatim
+odabir riječi prema distribuciji riječi odabrane teme:
+
+$$z_{dn} \sim \text{Categorical}\left( \theta_{d} \right)$$
+
+$$w_{dn} \sim \text{Categorical}\left( \phi_{z_{dn}} \right)$$
+
+Inferiranje latentnih tema iz opaženih dokumenata računalno je zahtjevan
+problem jer zahtijeva izračun posteriorne distribucije latentnih
+varijabli s obzirom na opažene podatke. U praksi se koriste
+aproksimativne metode poput Gibbsovog uzorkovanja ili varijacijske
+inferecije.
+
+Tablica 12 prikazuje hipotetski primjer rezultata LDA analize na korpusu
+hrvatskih političkih vijesti.
+
+Primjer rezultata LDA analize na korpusu političkih vijesti
+
+ ------------------------------------------------------------------------
+ Tema Karakteristične riječi Interpretacija
+ --------- ------------------------------------- ------------------------
+ Tema 1 proračun, deficit, porez, prihod, Fiskalna politika
+ rashod 
+
+ Tema 2 EU, Bruxelles, komisija, fond, Europska politika
+ članica 
+
+ Tema 3 škola, učenik, nastavnik, Obrazovna politika
+ obrazovanje, reforma 
+
+ Tema 4 bolnica, liječnik, pacijent, Zdravstvena politika
+ zdravstvo, lista 
+
+ Tema 5 izbori, stranka, kandidat, glasač, Izborna politika
+ kampanja 
+ ------------------------------------------------------------------------
+
+Praktična primjena LDA-e zahtijeva donošenje nekoliko ključnih odluka.
+Istraživač mora odrediti broj tema $K$ koji nije poznat unaprijed.
+Premali broj tema rezultirat će preširokim, heterogenim temama, dok
+prevelik broj može fragmentirati koherentne teme i proizvesti teme koje
+je teško interpretirati. Ne postoji objektivno ispravna vrijednost jer
+optimalan broj ovisi o karakteristikama korpusa i istraživačkim
+ciljevima. U praksi se često eksperimentira s različitim vrijednostima i
+kombinira kvantitativne mjere poput koherentnosti tema s kvalitativnom
+procjenom interpretabilnosti.
+
+Interpretacija tema zahtijeva pažljivu analizu distribucija riječi. Za
+svaku temu, istraživač pregledava najvjerojatnije riječi i pokušava
+identificirati koherentni koncept koji ih povezuje. Ovaj proces nije
+mehanički jer zahtijeva domensko znanje i kontekstualno razumijevanje.
+Primjerice, tema s riječima "bolnica", "liječnik", "pacijent",
+"zdravstvo" intuitivno sugerira zdravstvenu politiku. Međutim, tema s
+riječima "projekt", "sredstva", "program", "provedba" mogla bi se
+odnositi na različite domene ovisno o širem kontekstu korpusa.
+
+Za istraživanje masovne komunikacije, LDA omogućuje praćenje tematske
+strukture medijskog prostora kroz vrijeme. Istraživač može analizirati
+kako se zastupljenost pojedinih tema mijenja, identificirati događaje
+koji su potaknuli porast određenih tema ili usporediti tematski fokus
+različitih medija. Primjerice, analiza hrvatskih informativnih portala
+tijekom pandemije COVID-19 mogla bi otkriti kako je zdravstvena tema
+progresivno dominirala medijskim prostorom, potiskujući druge teme, te
+kako se s vremenom javljaju podteme vezane uz ekonomske posljedice,
+cijepljenje i različite mjere.
+
+Valja napomenuti i ograničenja LDA modela. Model pretpostavlja da su
+dokumenti vreće riječi, zanemarujući redoslijed i strukturu teksta. Ne
+postoji mehanizam za modeliranje odnosa između tema, poput hijerarhije
+ili vremenske dinamike, premda postoje proširenja modela koja adresiraju
+ova ograničenja. Konačno, interpretatilnost tema nije garantirana jer
+model može producirati statistički koherentne, ali semantički nejasne
+
+::: {.callout-warning title="TODO za Burića"}
+Ovo je ključni nedostatak koji se provlači kroz cijeli tekst: fali praktični dio. Studenti trebaju znati GDJE i KAKO konkretno provesti računalnu analizu teksta. Predlog: dodati primjer s konkretnim tekstom (pola kartice) i pokazati korak po korak kako izvesti analizu u R-u ili Pythonu, od učitavanja teksta do interpretacije rezultata. Alternativno, u svakom potpoglavlju dodati kratki "Kako to napraviti" okvir s primjerom koda.
+:::
+
+teme.
+
+## Analiza sentimenta
+
+Analiza sentimenta, poznata i kao opinion mining, predstavlja skup
+metoda za automatsko određivanje emocionalnog tona ili evaluativne
+orijentacije teksta. U najjednostavnijem obliku, cilj je klasificirati
+tekst kao pozitivan, negativan ili neutralan. Sofisticiranije varijante
+mogu mjeriti intenzitet sentimenta na kontinuiranoj skali, razlikovati
+više emocionalnih kategorija poput radosti, tuge, straha i ljutnje, ili
+identificirati aspekte objekta na koje se sentiment odnosi.
+
+Za istraživanje masovne komunikacije analiza sentimenta pruža alate za
+kvantifikaciju emocionalnog tona medijskog izvještavanja i javnog
+diskursa. Istraživač može pratiti kako se sentiment prema određenom
+političaru mijenja tijekom kampanje, uspoređivati emocionalni ton
+izvještavanja različitih medija o istoj temi ili analizirati kako
+publika reagira na određene događaje. Takve analize mogu otkriti obrasce
+koji bi promakli kvalitativnom čitanju ograničenog broja tekstova.
+
+Rječnički pristupi analizi sentimenta oslanjaju se na unaprijed
+definirane popise riječi s pridruženim sentiment vrijednostima. Ideja je
+jednostavna: tekst koji sadrži mnogo pozitivnih riječi vjerojatno
+izražava pozitivan sentiment, dok tekst bogat negativnim riječima
+vjerojatno izražava negativan sentiment. Različiti ^[Leksikoni sentimenta su rječnici u kojima je svakoj riječi pridružena oznaka sentimenta (pozitivno/negativno) ili numerička vrijednost valencije. Koriste se kao gotovi resursi za automatsku analizu sentimenta. Primjeri: AFINN, SentiWordNet, a za hrvatski CroSentiLex. Dostupni su kao R paketi (`tidytext::get_sentiments()`) ili kao preuzimljive datoteke.\] leksikoni koriste
+različite pristupe kodiranju sentimenta. Neki koriste jednostavnu
+binarnu klasifikaciju pozitivno/negativno, dok drugi pridružuju
+numeričke vrijednosti na skali intenziteta.
+
+Tablica 13 prikazuje usporedbu najčešće korištenih sentimentnih
+leksikona.
+
+Usporedba sentimentnih leksikona
+
+ ------------------------------------------------------------------------
+ Leksikon Broj riječi Tip kodiranja Primjer
+ --------------- ------------------- ---------------------- -------------
+ AFINN \~2.500 Numerička skala (-5 do "izvrstan" =
+ +5) +4, "grozan"
+ = -4
+
+ Bing \~6.800 Binarna klasifikacija "sjajan" =
+ pozitivno,
+ "loše" =
+ negativno
+
+ NRC \~14.000 Emocije + polaritet "smrt" =
+ negativno,
+ strah, tuga
+ ------------------------------------------------------------------------
+
+Izračun sentimenta dokumenta najčešće se provodi agregiranjem sentiment
+vrijednosti pojedinačnih riječi. Najjednostavniji pristup jednostavno
+zbraja vrijednosti svih riječi koje se nalaze u leksikonu, proizvodeci
+ukupni skor sentimenta. Sofisticiranije metode mogu
+vagati doprinose prema frekvenciji riječi ili poziciji u dokumentu.
+
+Rječnički pristupi imaju nekoliko značajnih ograničenja. Budući da
+tretiraju svaku riječ neovisno o kontekstu, ne mogu uhvatiti nijanse
+poput negacije, gdje fraza "nije loše" zapravo izražava blago pozitivan
+sentiment premda sadrži negativnu riječ "loše". Također ne prepoznaju
+sarkazam i ironiju, gdje pozitivne riječi mogu biti korištene za
+izražavanje negativnog sentimenta. Složene rečenice koje sadrže i
+pozitivne i negativne elemente bit će pogrešno svedene na prosjek.
+
+Za hrvatski jezik dodatno ograničenje predstavlja oskudica validiranih
+sentimentnih leksikona. Dok za engleski postoje opsežni resursi
+razvijani desetljećima, hrvatski leksikoni tipično su manji i manje
+temeljito validirani. Projekti poput CroSentiLex razvijaju resurse za
+hrvatski, ali istraživači moraju biti svjesni ograničene pokrivenosti i
+potencijalne potrebe za prilagodbom specifičnom korpusu.
+
+Osim rječničkih pristupa, postoje i pristupi temeljeni na strojnom
+učenju koji tretiraju analizu sentimenta kao klasifikacijski problem.
+Model se trenira na korpusu tekstova označenih prema sentimentu i uči
+prepoznavati obrasce koji indiciraju pozitivan ili negativan ton. Ovi
+pristupi mogu bolje uhvatiti kontekstualne nijanse, uključujući negaciju
+i složene evaluativne izraze, no zahtijevaju značajne resurse za
+pripremu trenažnih podataka.
+
+U novije vrijeme, pristupi temeljeni na dubokom učenju i velikim
+jezičnim modelima postižu impresivne rezultate u analizi sentimenta.
+Modeli poput BERT-a, fino podešeni za sentiment klasifikaciju, mogu
+razumjeti složene obrasce i kontekstualne ovisnosti koje su bile izvan
+dosega ranijih metoda. Za hrvatski jezik dostupni su višejezični modeli
+koji, premda nisu optimizirani specifično za hrvatski, često postižu
+pristojne rezultate zahvaljujući transferu znanja iz bogatijih jezika.
+
+Primjena analize sentimenta u istraživanju masovne komunikacije može se
+ilustrirati analizom komentara čitatelja na hrvatskim informativnim
+portalima. Istraživač može pratiti kako se sentiment komentara mijenja u
+funkciji teme članka, vremena objave ili političke orijentacije portala.
+Takve analize mogu otkriti polarizaciju javnog mnijenja, identificirati
+teme koje izazivaju snažne emocionalne reakcije ili pratiti dinamiku
+javne rasprave tijekom kontroverznih događaja.
+
+Kritički osvrt na analizu sentimenta mora uključiti razmatranje
+valjanosti mjera. Što zapravo mjerimo kada izračunavamo "sentiment"
+teksta? Agregirani score koji kombinira sve riječi u dokumentu može
+prikriti složenost evaluativne strukture teksta. Članak koji
+uravnoteženo prikazuje i pozitivne i negativne aspekte može imati
+neutralan agregirani sentiment, premda zapravo sadrži snažne evaluacije
+u oba smjera. Za neke istraživačke svrhe, praćenje proporcije pozitivnih
+i negativnih riječi odvojeno može biti informativnije od jedinstvenog
+sentiment scorea.
+
+## Ekstrakcija entiteta: koje aktere mediji spominju?
+
+U analizi medijskog sadržaja često nas zanima ne samo što mediji govore,
+nego i o kome govore. Koji se politički akteri najčešće spominju? Koje
+organizacije dominiraju ekonomskim vijestima? Koje lokacije su u fokusu
+međunarodnog izvještavanja? Prepoznavanje imenovanih entiteta (Named
+Entity Recognition, skraćeno NER) predstavlja tehniku koja automatski
+identificira i klasificira imenice koje označavaju konkretne objekte iz
+stvarnog svijeta.
+
+Imenovani entiteti obuhvaćaju riječi ili fraze koje se odnose na
+jedinstvene objekte koji imaju vlastita imena. Tipične kategorije
+uključuju osobe, organizacije, lokacije, vremenske oznake i novčane
+vrijednosti. Proces prepoznavanja entiteta konceptualno se sastoji od
+dvije faze. Detekcija entiteta identificira dijelove teksta koji
+predstavljaju imenice, razlikujući ih od općih imenica i drugih vrsta
+riječi. Klasifikacija entiteta zatim svakom detektiranom entitetu
+pridružuje kategoriju iz unaprijed definiranog skupa.
+
+Za označavanje entiteta koriste se standardizirane sheme poput BIO
+notacije (Begin-Inside-Outside). U ovoj notaciji svaki token dobiva
+oznaku koja kombinira poziciju u entitetu i kategoriju entiteta. Token
+koji započinje entitet osobe označava se s "B-PER", tokeni koji
+nastavljaju taj entitet označavaju se s "I-PER", dok tokeni koji nisu
+dio nijednog entiteta dobivaju oznaku "O".
+
+Tablica 14 prikazuje primjer ekstrakcije entiteta iz hipotetskog
+novinskog naslova.
+
+Primjer ekstrakcije entiteta iz naslova "Premijer Plenković u
+Bruxellesu razgovarao s čelnicima EU o 7 milijardi eura"
+
+ -----------------------------------------------------------------------
+ Tekst Entitet Kategorija
+ --------------------- --------------------- ---------------------------
+ Premijer Plenković Plenković OSOBA
+
+ u Bruxellesu Bruxelles LOKACIJA
+
+ s čelnicima EU EU ORGANIZACIJA
+
+ o 7 milijardi eura 7 milijardi eura NOVČANA VRIJEDNOST
+
+ u petak petak VRIJEME
+
+ Europska komisija Europska komisija ORGANIZACIJA
+ -----------------------------------------------------------------------
+
+Za istraživanje masovne komunikacije ekstrakcija entiteta otvara brojne
+analitičke mogućnosti. Analiza vidljivosti aktera može kvantificirati
+koliko često se pojedini političari, stranke ili institucije spominju u
+medijima i kako se ta vidljivost mijenja kroz vrijeme. Mrežna analiza
+može rekonstruirati odnose između entiteta na temelju njihova
+supojavljivanja u tekstu.
+
+Ekstrakcija entiteta suočava se s nekoliko izazova koje istraživač mora
+uzeti u obzir. Višeznačnost je čest problem jer ista riječ može
+označavati entitete različitih kategorija ovisno o kontekstu.
+Varijabilnost imenovanja odnosi se na činjenicu da se isti entitet može
+pojavljivati pod različitim imenima. Za hrvatski jezik prepoznavanje
+entiteta dodatno je otežano morfološkim bogatstvom jer se ime
+"Plenković" pojavljuje u različitim padežima kao
+"Plenkovića", "Plenkoviću" i slično.
+
+Tehnike prepoznavanja entiteta razvijale su se kroz nekoliko generacija.
+Pristupi temeljeni na pravilima koriste ručno definirane obrasce i
+gramatička pravila za identifikaciju entiteta. Primjerice, pravilo može
+specificirati da riječ koja počinje velikim slovom nakon titule poput
+"gospodin" ili "ministrica" vjerojatno predstavlja ime osobe. Ovakvi
+pristupi postižu visoku preciznost za jasno definirane obrasce, ali
+imaju ograničen odziv jer ne mogu pokriti sve načine na koje se entiteti
+pojavljuju u tekstu.
+
+Statistički pristupi koriste algoritme strojnog učenja trenirane na
+označenim podacima. Modeli poput uvjetnih nasumičnih polja (Conditional
+Random Fields, CRF) pokazali su se posebno učinkovitima jer mogu
+modelirati zavisnosti između susjednih oznaka. ^[Neuronske mreže su računalni modeli inspirirani biološkim neuronskim mrežama mozga. Sastoje se od međusobno povezanih čvorova (neurona) organiziranih u slojeve koji uče obrasce iz podataka. "Duboko učenje" označava neuronske mreže s više skrivenih slojeva. Transformer arhitektura je specifična vrsta neuronske mreže koja je temelj suvremenih jezičnih modela poput GPT-a i BERT-a.] Suvremeni sustavi za prepoznavanje entiteta
+uglavnom se temelje na dubokom učenju i neuronskim mrežama, posebno
+arhitekturama temeljenim na transformerima i prethodno treniranim
+jezičnim modelima poput BERT-a koji postižu iznimne rezultate
+zahvaljujući sposobnosti hvatanja složenih kontekstualnih
+ovisnosti.
+
+Za istraživanje masovne komunikacije, ekstrakcija entiteta omogućuje
+konstrukciju mreža aktera na temelju supojavljivanja u medijskim
+tekstovima. Ako se dva političara često spominju u istim člancima, to
+sugerira da ih mediji percipiraju kao povezane, bilo kroz suradnju ili
+sukob. Vizualizacija mreže supojavljivanja može otkriti klastere aktera,
+centralne figure i mostove između grupa. Longitudinalna analiza može
+pratiti kako se pozicije aktera u mreži mijenjaju kroz vrijeme,
+odražavajući promjene u političkom krajoliku.
+
+Tablica 15 pruža usporedni pregled pristupa analizi teksta.
+
+Usporedni pregled pristupa analizi teksta
+
+ -----------------------------------------------------------------------------
+ Pristup Prednosti Ograničenja Tipična primjena
+ ------------- ------------------ ------------------ -------------------------
+ Nadzirano Visoka preciznost Zahtijeva označene Klasifikacija vijesti,
+ učenje za definirane podatke detekcija lažnih vijesti
+ kategorije 
+
+ Nenadzirano Otkriva nepoznate Zahtijeva Eksploracija korpusa,
+ učenje (LDA) strukture interpretaciju praćenje tema
+
+ Rječnički Transparentnost, Kontekstualna Analiza sentimenta,
+ pristupi bez potrebe za neosjetljivost longitudinalne studije
+ treniranjem 
+
+ Ekstrakcija Identificira Višeznačnost, Analiza vidljivosti,
+ entiteta konkretne aktere varijabilnost mrežna analiza
+ -----------------------------------------------------------------------------
+
+Zaključno, svaki od predstavljenih pristupa nudi jedinstvenu perspektivu
+na tekstualne podatke i odgovara na različite vrste istraživačkih
+pitanja. Nadzirano učenje omogućuje preciznu klasifikaciju prema
+unaprijed definiranim kategorijama kada imamo jasnu konceptualnu shemu i
+resurse za označavanje primjera. Nenadzirano učenje otkriva latentne
+tematske strukture i posebno je korisno u eksplorativnoj fazi
+istraživanja kada još ne znamo koje kategorije su relevantne. Rječnički
+pristupi kvantificiraju sentiment i emocije na transparentan i
+reproducibilan način, idealni za longitudinalne usporedbe. Ekstrakcija
+entiteta identificira ključne aktere i omogućuje analize vidljivosti i
+relacija. Vješt istraživač kombinira ove pristupe kako bi iz tekstualnih
+podataka izvukao bogat spektar uvida o medijskom diskursu i
+komunikacijskim praksama, birajući metode koje najbolje odgovaraju
+specifičnim istraživačkim pitanjima i dostupnim resursima.
+
+# Analiza na razini diskursa
+
+Dosadašnja poglavlja fokusirala su se pretežno na analizu pojedinačnih
+riječi ili dokumenata kao cjelina. Međutim, značenje u tekstu rijetko
+proizlazi iz izoliranih riječi; ono nastaje kroz odnose između riječi,
+kroz načine na koje se riječi kombiniraju u veće jedinice, kroz obrasce
+koji se ponavljaju kroz korpus i kroz implicitne strukture koje
+organiziraju diskurs. Kada novinar izvještava o "ekonomskoj krizi",
+značenje te fraze nije jednostavno zbroj značenja riječi "ekonomska" i
+"kriza", već ^[Emergentna svojstva su ona koja nastaju iz interakcije dijelova sustava, a nisu prisutna u pojedinim dijelovima samima za sebe. Primjerice, značenje fraze "crno tržište" ne proizlazi iz značenja riječi "crno" i "tržište" pojedinačno.\] emergentna cjelina s
+vlastitim konotacijama, asocijacijama i pragmatičkim implikacijama.
+Slično tome, način na koji mediji uokviruju određenu temu, koje metafore
+koriste, koje aktere stavljaju u prvi plan, a koje marginaliziraju, ima
+dalekosežne posljedice za javno razumijevanje društvenih fenomena.
+
+U ovom poglavlju prelazimo s razine pojedinačnih riječi na razinu
+diskursa, odnosno na analizu širih jezičnih obrazaca i struktura koje
+organiziraju značenje u tekstu. Počinjemo s n-gramima i kolokacijama,
+tehnikama koje nam omogućuju da identificiramo uobičajene kombinacije
+riječi i izmjerimo snagu njihove asocijacije. Središnji dio poglavlja
+posvećujemo analizi okvira, jednoj od najvažnijih metoda u istraživanju
+masovne komunikacije, koja ispituje kako mediji konstruiraju određene
+interpretacije stvarnosti. Razmatramo i analizu retoričke strukture koja
+ispituje kako se dijelovi teksta povezuju u koherentnu cjelinu. Konačno,
+predstavljamo mrežnu analizu riječi koja omogućuje vizualizaciju i
+kvantifikaciju odnosa između riječi u korpusu.
+
+## N-grami i kolokacije
+
+, U prethodnim poglavljima pokazali smo kako se medijske
+objave mogu analizirati kroz prizmu pojedinačnih riječi, tretirajući
+dokument kao "vreću riječi" bez obzira na redoslijed i međusobne odnose.
+Međutim, jezik ne funkcionira kao nasumični niz izoliranih riječi.
+Riječi se kombiniraju u uobičajene obrasce, neke kombinacije su češće
+nego što bismo očekivali na temelju slučajnosti, a te kombinacije često
+nose značenje koje nadilazi značenje sastavnih dijelova. Britanski
+lingvist John ^[Firth, J.R. (1957). A Synopsis of Linguistic Theory 1930-1955. U: *Studies in Linguistic Analysis*, Special volume of the Philological Society, 1-32.] Rupert Firth sažeo
+je ovu ideju čuvenom izrekom: "Riječ ćeš upoznati po društvu koje drži."
+N-grami i kolokacije predstavljaju tehnike koje nam omogućuju da
+istražimo to "društvo" koje riječi drže.
+
+N-gram je uzastopni niz od n riječi u tekstu. Kada je n jednak 1,
+govorimo o unigramima, što odgovara analizi pojedinačnih riječi kakvu
+smo već razmatrali. Kada je n jednak 2, govorimo o bigramima ili
+parovima uzastopnih riječi. Trigram je niz od tri uzastopne riječi, i
+tako dalje. Primjerice, rečenica "Vlada je usvojila proračun" sadrži
+sljedeće bigrame: "Vlada je", "je usvojila", "usvojila proračun".
+Trigrami iste rečenice bili bi: "Vlada je usvojila", "je usvojila
+proračun". Primjetimo da se n-grami preklapaju: riječ "usvojila"
+pojavljuje se i kao drugi element prvog trigrama i kao prvi element
+drugog trigrama.
+
+Analiza bigrama otkriva uzastopne parove riječi koji se često pojavljuju
+zajedno. U korpusu hrvatskih političkih govora, najčešći bigrami
+vjerojatno uključuju kombinacije poput "Republika Hrvatska", "Europska
+unija", "Hrvatski sabor", "socijalna pravda", "gospodarski rast" ili
+"fiskalna politika". Mnogi od ovih bigrama predstavljaju ustaljene fraze
+ili termine čije je značenje više od zbroja sastavnih dijelova.
+"Europska unija" nije samo bilo koja unija koja je europska, već
+specifična politička i ekonomska zajednica s jasno definiranim
+značenjem.
+
+Tablica 16 prikazuje primjere najčešćih bigrama iz hipotetskog korpusa
+hrvatskih političkih govora.
+
+Primjeri čestih bigrama u ^[TODO za Burića: dodati izvor za ovu tvrdnju.\] korpusu političkih
+govora
+
+ ------------------------------------------------------------------------
+ Bigram Frekvencija Tip fraze
+ -------------------------- ---------------- ----------------------------
+ Republika Hrvatska 2.847 Službeni naziv
+
+ Europska unija 1.923 Politička organizacija
+
+ Hrvatski sabor 1.456 Institucija
+
+ gospodarski rast 987 Ekonomski termin
+
+ javni interes 756 Pravni pojam
+
+ socijalna pravda 612 Ideološki koncept
+ ------------------------------------------------------------------------
+
+Međutim, kao i kod analize pojedinačnih riječi, najčešći bigrami često
+nisu najinformativniji. Dominiraju kombinacije funkcionalnih riječi
+poput "u kojima", "za koje", "da se", "koji su" i slično. Ove
+kombinacije su česte, ali rijetko nose značajan sadržaj za većinu
+istraživačkih pitanja. Zato se primjenjuju slične tehnike filtriranja
+kao kod pojedinačnih riječi: uklanjanje bigrama koji sadrže zaustavne
+riječi, fokusiranje na bigrame koji sadrže imenice, pridjeve ili
+glagole, ili korištenje statističkih mjera koje identificiraju bigrame s
+neočekivano visokom frekvencijom.
+
+Kolokacija je širi pojam od bigrama. Dok bigram zahtijeva da riječi budu
+neposredno susjedne, kolokacija označava tendenciju dviju riječi da se
+pojavljuju u međusobnoj blizini, unutar određenog prozora konteksta, čak
+i ako nisu neposredno susjedne. Primjerice, riječi "donijeti" i "odluka"
+čine kolokaciju u hrvatskom jeziku: one se često pojavljuju zajedno u
+frazi "donijeti odluku", ali mogu biti razdvojene drugim riječima u
+konstrukcijama poput "donijeti važnu odluku" ili "donijeti konačnu
+političku odluku". Kolokacije odražavaju idiomatske i konvencionalne
+načine izražavanja u jeziku.
+
+Za identifikaciju statistički značajnih kolokacija koriste se razne
+mjere asocijacije koje kvantificiraju snagu veze između dviju riječi.
+Ove mjere uspoređuju opaženu frekvenciju zajedničkog pojavljivanja s
+očekivanom frekvencijom pod pretpostavkom nezavisnosti. Ako se dvije
+riječi pojavljuju zajedno češće nego što bismo očekivali na temelju
+njihovih individualnih frekvencija, to sugerira da postoji neka veza
+između njih.
+
+Uzajamna informacija (Pointwise Mutual Information, PMI) jedna je od
+najčešće korištenih mjera. Definira se kao:
+
+$$PMI\left( w_{1},w_{2} \right) = \log_{2}\frac{P\left( w_{1},w_{2} \right)}{P\left( w_{1} \right) \cdot P\left( w_{2} \right)}$$
+
+U ovoj formuli $P\left( w_{1},w_{2} \right)$ označava vjerojatnost
+zajedničkog pojavljivanja riječi $w_{1}$ i $w_{2}$ unutar definiranog
+prozora, a $P\left( w_{1} \right)$ i $P\left( w_{2} \right)$ označavaju
+marginalne vjerojatnosti pojedinih riječi. Vjerojatnosti se procjenjuju
+iz korpusa kao relativne frekvencije. Ako je PMI jednak nuli, riječi su
+nezavisne, odnosno pojavljuju se zajedno točno onoliko često koliko
+bismo očekivali na temelju slučajnosti. Pozitivne vrijednosti PMI
+ukazuju na pozitivnu asocijaciju gdje se riječi privlače, dok negativne
+vrijednosti ukazuju na negativnu asocijaciju gdje se riječi međusobno
+izbjegavaju. Tipične jake kolokacije imaju PMI vrijednosti između 3 i
+10.
+
+T-vrijednost (t-score) predstavlja alternativnu mjeru koja uzima u obzir
+varijabilnost podataka:
+
+$$t = \frac{O - E}{\sqrt{O}}$$
+
+U ovoj formuli $O$ označava opaženu frekvenciju kolokacije, a $E$
+očekivanu frekvenciju pod pretpostavkom nezavisnosti. T-vrijednost je
+konzervativnija od PMI i favorizira česte kolokacije. Visoke
+t-vrijednosti tipično imaju kombinacije čestih riječi koje se redovito
+pojavljuju zajedno, dok rijetke ali snažno asocirane kombinacije mogu
+imati niže t-vrijednosti.
+
+Tablica 17 uspoređuje karakteristike različitih mjera asocijacije.
+
+Usporedba mjera asocijacije za identifikaciju kolokacija
+
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Mjera Formula Karakteristike Primjena
+ ---------------- --------------------------------------------------------------------------------------------------- --------------------------- ----------------
+ PMI $$\log_{2}\frac{P\left( w_{1},w_{2} \right)}{P\left( w_{1} \right) \cdot P\left( w_{2} \right)}$$ Osjetljiva na rijetke Specifični
+ riječi termini, idiomi
+
+ T-vrijednost $$\frac{O - E}{\sqrt{O}}$$ Favorizira česte Uobičajeni
+ kombinacije jezični obrasci
+
+ Log-likelihood $$2\sum O \cdot ln\frac{O}{E}$$ Robusna, statistički Opća primjena
+ testabilna 
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+U kontekstu istraživanja masovne komunikacije, analiza n-grama i
+kolokacija može odgovoriti na niz pitanja. Koje su karakteristične fraze
+pojedinih političkih stranaka ili političara? Istraživač može usporediti
+bigrame i trigrame u govorima različitih aktera i identificirati jezične
+markere koji razlikuju njihov diskurs. Kako se kolokacije određene
+riječi razlikuju između medija? Primjerice, koje riječi mediji
+različitih političkih orijentacija povezuju s riječju "migranti"? Jedan
+medij možda preferira kolokacije poput "ilegalni migranti" i "migrantska
+kriza", dok drugi preferira "zaštita izbjeglica" i "humanitarna pomoć".
+Ove razlike u kolokacijama odražavaju različite interpretativne okvire
+koje mediji primjenjuju na istu temu.
+
+Longitudinalna analiza kolokacija može pratiti promjene u jezičnoj
+upotrebi kroz vrijeme. Koje su se nove kolokacije pojavile s riječju
+"klima" u posljednjem desetljeću? Vjerojatno bismo vidjeli porast
+kolokacija poput "klimatska kriza", "klimatske promjene", "klimatska
+neutralnost" koje odražavaju promjene u javnom diskursu o okolišu.
+Slično tome, analiza kolokacija riječi "digitalni" kroz vrijeme mogla bi
+otkriti pomak od tehničkih kolokacija poput "digitalni signal" prema
+društvenim kolokacijama poput "digitalna pismenost", "digitalna
+transformacija" i "digitalni jaz".
+
+Kontekstualna analiza sentimenta predstavlja posebno važnu primjenu
+n-grama. Jednostavni rječnički pristupi sentimentu tretiraju svaku riječ
+neovisno o kontekstu, što dovodi do pogrešaka kod negacija. Rečenica
+"Film nije bio loš" izražava blago pozitivan sentiment, no jednostavni
+pristup prepoznaje samo riječ "loš" i klasificira rečenicu kao
+negativnu. Analiza bigrama omogućuje da identificiramo obrasce poput
+"nije loš", "nije dobro", "nikad sretniji" i tretiramo ih kao cjeline s
+vlastitim sentimentom. Slično tome, pojačivači poput "vrlo" i "izrazito"
+te ublažavači poput "pomalo" i "donekle" modificiraju sentiment
+susjednih riječi na načine koje možemo uhvatiti analizom bigrama.
+
+## Analiza okvira
+
+Uokvirivanje (framing) predstavlja jedan od središnjih koncepata u
+istraživanju masovne komunikacije. Ideja je da mediji ne samo prenose
+informacije o događajima, nego ih aktivno interpretiraju, odabirući
+određene aspekte stvarnosti, naglašavajući ih i čineći ih istaknutijima,
+dok druge aspekte marginaliziraju ili potpuno ignoriraju.
+^[Entman, R.M. (1993). Framing: Toward Clarification of a Fractured Paradigm. *Journal of Communication*, 43(4), 51-58.] Robert Entman, jedan
+od najutjecajnijih teoretičara uokvirivanja, definirao je ovaj koncept
+na način koji je postao kanonski u literaturi: uokvirivanje je proces
+"odabira nekih aspekata percipirane stvarnosti i činjenja tih aspekata
+istaknutijima u komunikacijskom tekstu, na način da se promovira
+određena definicija problema, kauzalna interpretacija, moralna
+evaluacija i/ili preporuka tretmana."
+
+Entmanova definicija identificira četiri ključne funkcije okvira.
+Definicija problema određuje o čemu se zapravo radi, što je u igri, tko
+ili što je pogođeno. Kauzalna interpretacija identificira uzroke
+problema, pripisujući odgovornost određenim akterima, silama ili
+okolnostima. Moralna evaluacija procjenjuje aktere i njihove postupke u
+terminima dobrog i lošeg, pravednog i nepravednog. Preporuka tretmana
+sugerira rješenja, akcije koje bi trebalo poduzeti, politike koje bi
+trebalo implementirati.
+
+Klasičan primjer koji ilustrira moć uokvirivanja jest izvještavanje o
+demonstracijama. Isti događaj može biti uokviren kao "mirni prosvjed
+građana za svoja prava" ili kao "nasilni neredi koji ugrožavaju javni
+red". Prvi okvir definira problem kao nepoštivanje građanskih prava,
+uzrok pripisuje vlastima koje ta prava krše, moralno evaluira
+prosvjednike kao legitimne aktere i implicira da bi vlasti trebale
+odgovoriti na zahtjeve. Drugi okvir definira problem kao narušavanje
+javnog reda, uzrok pripisuje prosvjednicima, moralno ih evaluira kao
+prijetnju i implicira da bi policija trebala uspostaviti red. Odabir
+okvira utječe na to kako će publika razumjeti događaj, koje uzroke će
+pripisati, koje aktere će smatrati odgovornima i koje reakcije će
+smatrati prikladnima.
+
+Tablica 18 prikazuje Entmanove funkcije okvira s primjerima iz hrvatskog
+medijskog konteksta.
+
+Entmanove funkcije okvira primijenjene na temu migracija
+
+ -----------------------------------------------------------------------
+ Funkcija okvira Definicija Primjer: tema migracija
+ ---------------------- --------------- --------------------------------
+ Definicija problema Što je u "Sigurnosna prijetnja"
+ pitanju? vs. "Humanitarna kriza"
+
+ Kauzalna Tko/što je "Krijumčari" vs. "Ratovi i
+ interpretacija uzrok? siromaštvo"
+
+ Moralna evaluacija Tko je "Ilegalni uljezi" vs. "Ranjive
+ dobar/loš? osobe"
+
+ Preporuka tretmana Što treba "Zatvoriti granice" vs. "Pružiti
+ učiniti? zaštitu"
+ -----------------------------------------------------------------------
+
+Računalna analiza okvira pokušava automatizirati ili barem podržati
+identifikaciju okvira u velikim korpusima teksta. Ovo je izazovan
+zadatak jer okviri nisu eksplicitno označeni u tekstu, već proizlaze iz
+kompleksne interakcije leksičkih izbora, retoričkih struktura, metafora,
+narativnih obrazaca i implicitnih pretpostavki. Ipak, određene tehnike
+mogu pomoći u identifikaciji elemenata koji konstituiraju okvire.
+
+Leksički pristupi polaze od pretpostavke da se okviri manifestiraju kroz
+karakteristične riječi i fraze. Istraživač može definirati "rječnike
+okvira" koji sadrže riječi tipične za pojedine okvire, analogno
+sentimentnim rječnicima. Primjerice, okvir "ekonomske racionalnosti"
+mogao bi uključivati riječi poput "učinkovitost", "troškovi",
+"konkurentnost", "produktivnost", "ulaganje", dok okvir "ljudskih prava"
+mogao bi uključivati "dostojanstvo", "zaštita", "jednakost",
+"diskriminacija", "pravednost". Prebrajanjem riječi iz svakog rječnika
+može se procijeniti relativna prominentnost različitih okvira u tekstu
+ili korpusu.
+
+Kolokacijska analiza pruža sofisticiraniji pristup identifikaciji
+okvira. Umjesto da prebrojimo pojedinačne riječi, analiziramo koje
+riječi se tipično pojavljuju zajedno s ključnim pojmovima. Ako nas
+zanima kako je uokvirena tema migracija, možemo analizirati kolokacije
+riječi "migranti", "izbjeglice", "azilanti" i srodnih termina. Usporedba
+kolokacija između različitih medija ili vremenskih razdoblja može
+otkriti sistematske razlike u uokvirivanju. Istraživač može izračunati
+log-likelihood omjere za kolokacije u dva korpusa i identificirati
+kolokacije koje su statistički značajno češće u jednom korpusu nego u
+drugom. Ove "karakteristične kolokacije" predstavljaju empirijsku osnovu
+za identifikaciju različitih interpretativnih okvira.
+
+Analiza metafora predstavlja posebno važan pristup jer metafore često
+čine srž konceptualnih okvira. Kognitivni lingvisti George Lakoff i Mark
+Johnson pokazali su da metafore nisu samo stilsko ukrašavanje, već
+temeljni način na koji konceptualiziramo apstraktne pojmove. Metafora
+"EKONOMIJA JE ZDRAVLJE" strukturira ekonomski diskurs kroz pojmove poput
+"zdravog gospodarstva", "bolesne ekonomije", "oporavka", "dijagnoze".
+Automatska identifikacija metafora u tekstu ostaje izazovan zadatak, no
+kolokacije koje kombiniraju apstraktne i konkretne domene mogu ukazivati
+na metaforički jezik.
+
+Istraživač koji koristi računalne metode za analizu okvira mora biti
+svjestan da one pružaju indikatore, a ne definitivne identifikacije
+okvira. Kolokacije, teme i leksičke frekvencije mogu ukazati na obrasce
+koji sugeriraju određene okvire, no konačna interpretacija zahtijeva
+kvalitativnu analizu konkretnih tekstova. Najbolja praksa kombinira
+računalno potpomognutu identifikaciju obrazaca s detaljnom analizom
+reprezentativnih primjera koji ilustriraju i validiraju te obrasce.
+
+## Analiza retoričke strukture
+
+Tekst nije samo skup rečenica poredanih jedna za drugom; rečenice su
+međusobno povezane odnosima koji čine tekst koherentnom cjelinom.
+Teorija retoričke strukture (Rhetorical Structure Theory, RST), koju su
+razvili William Mann i Sandra Thompson, pruža okvir za analizu tih
+odnosa. Prema RST-u, tekst se može rastaviti na elementarne diskurzivne
+jedinice, obično klauzule, koje su povezane retoričkim relacijama poput
+uzroka, posljedice, kontrasta, elaboracije, dokaza i sličnih.
+
+Razmotrimo primjer iz političkog izvještavanja: "Vlada je povećala porez
+na dohodak. To će negativno utjecati na potrošnju građana." Dvije
+rečenice povezane su relacijom uzrok-posljedica: prva rečenica navodi
+uzrok (povećanje poreza), a druga posljedicu (pad potrošnje).
+Alternativna struktura mogla bi biti: "Vlada je povećala porez na
+dohodak, iako je obećala suprotno." Ovdje je relacija kontrast ili
+koncesija: druga klauzula uvodi informaciju koja je u napetosti s
+očekivanjem koje proizlazi iz prve.
+
+RST razlikuje nukleus i satelit u većini relacija. Nukleus je centralni,
+nezavisni dio koji može stajati sam, dok je satelit periferni dio koji
+dopunjuje, objašnjava ili modificira nukleus. U relaciji dokaza, tvrdnja
+je nukleus, a dokaz je satelit koji podupire tu tvrdnju. U relaciji
+elaboracije, općenita izjava je nukleus, a specifičniji detalji su
+sateliti. Neke relacije su simetrične poput kontrasta ili slijeda, gdje
+oba dijela imaju jednak status.
+
+Tablica 19 prikazuje tipove diskurzivnih relacija i njihove leksičke
+signale.
+
+Tipovi diskurzivnih relacija i njihovi leksički signali
+
+ -----------------------------------------------------------------------
+ Tip relacije Tipični veznici Diskurzivna funkcija
+ ------------------ ---------------------- -----------------------------
+ Kauzalna jer, zato, stoga, Objašnjenje, argumentacija
+ budući da 
+
+ Kontrastna ali, međutim, ipak, no Suprotstavljanje, koncesija
+
+ Aditivna i, također, osim toga, Nadogradnja, nabrajanje
+ nadalje 
+
+ Temporalna zatim, potom, nakon Sekvenciranje, naracija
+ toga, prije 
+
+ Kondicijska ako, ukoliko, pod Hipotetički scenariji
+ uvjetom 
+ -----------------------------------------------------------------------
+
+Za istraživače masovne komunikacije, čak i djelomična analiza retoričke
+strukture može biti vrijedna. Distribucija relacija u korpusu može
+otkriti karakteristike diskursa. Tekstovi bogati relacijama dokaza i
+uzroka mogu sugerirati argumentativni, analitički stil. Tekstovi s
+dominantnim relacijama slijeda i elaboracije mogu sugerirati narativni,
+deskriptivni stil. Usporedba distribucije relacija između žanrova,
+medija ili autora može otkriti sistematske razlike u diskurzivnim
+praksama.
+
+Analiza diskurzivnih veznika predstavlja jednostavniji pristup koji ne
+zahtijeva potpunu RST analizu. Veznici poput "jer", "zato", "stoga"
+signaliziraju kauzalne relacije. Veznici poput "ali", "međutim", "ipak"
+signaliziraju kontrastne relacije. Prebrajanjem i analizom distribucije
+ovih veznika može se dobiti gruba slika retoričke organizacije teksta.
+Primjena u analizi medijskih tekstova može uključivati usporedbu
+argumentativne strukture izvještavanja različitih medija o istoj temi.
+Koriste li određeni mediji više kauzalnih objašnjenja, dok se drugi
+oslanjaju na puko navođenje činjenica? Kako se struktura argumentacije
+razlikuje u vijestima, komentarima i analizama?
+
+## Mreže riječi i vizualizacija
+
+Dosadašnje tehnike koje smo razmatrali produciraju tablice frekvencija,
+mjera asocijacije i distribucija. Međutim, odnosi između riječi u tekstu
+inherentno su mrežni: riječi su povezane s drugim riječima kroz
+kolokacije, supojavljivanja i semantičke odnose. Mrežna analiza riječi
+eksplicira ovu strukturu, omogućujući vizualizaciju i kvantifikaciju
+kompleksnih obrazaca koji bi inače ostali skriveni.
+
+U mreži riječi, čvorovi predstavljaju riječi, a veze (bridovi)
+predstavljaju odnose između riječi. Veze mogu biti definirane na
+različite načine: bigram relacije gdje riječ A neposredno prethodi
+riječi B, kolokacijske relacije gdje se riječi pojavljuju zajedno unutar
+prozora, korelacijske relacije gdje se riječi pojavljuju u istim
+dokumentima, ili semantičke relacije gdje su riječi sinonimi ili
+hiperonimi. Veze mogu biti usmjerene ili neusmjerene, te mogu imati
+težine koje odražavaju snagu asocijacije.
+
+Mrežna analiza omogućuje izračun raznih mrežnih metrika koje
+kvantificiraju strukturu diskursa. Stupanj čvora (degree) mjeri broj
+veza koje čvor ima, ukazujući na "povezanost" riječi. Riječi s visokim
+stupnjem su centralne u diskursu, povezujući mnoge druge riječi.
+[Međupoloženost je samo jedan od mjera centralnosti, još se koriste i
+\"snaga čvora\" i \"bliskost čvora\"
+([https://hrcak.srce.hr/281481?trk=public_post_comment-text](../customXml/item1.xml))] Međupoloženost
+(betweenness centrality) mjeri koliko često čvor
+leži na najkraćim putevima između drugih čvorova, ukazujući na
+"mostovnu" ulogu riječi koja povezuje inače odvojene dijelove mreže.
+
+::: {.callout-warning title="TODO za Burića"}
+Razmotriti uklanjanje ove formule. Formula za međupoloženost čvora nije potrebna za razinu ovog udžbenika. Dovoljno je opisati koncept riječima.
+:::
+
+Formalno, međupoloženost čvora $v$ definira
+se kao:
+
+$$B(v) = \sum_{s \neq v \neq t}^{}\frac{\sigma_{st}(v)}{\sigma_{st}}$$
+
+U ovoj formuli $\sigma_{st}$ označava broj najkraćih puteva između
+čvorova $s$ i $t$, a $\sigma_{st}(v)$ broj tih puteva koji prolaze kroz
+$v$. Visoka međupoloženost ukazuje da je riječ ključna za povezivanje
+različitih dijelova diskursa.
+
+Detekcija zajednica (community detection) identificira skupine čvorova
+koje su gusto povezane međusobno, a slabo povezane s ostatkom mreže.
+Algoritmi poput Louvainove metode mogu automatski identificirati ove
+zajednice. U mreži riječi, zajednice često odgovaraju tematskim ili
+semantičkim skupinama. Primjerice, u mreži konstruiranoj iz političkih
+govora, jedna zajednica mogla bi sadržavati riječi vezane uz ekonomiju
+poput proračun, deficit, porez i rast, druga riječi vezane uz socijalnu
+politiku poput mirovina, zdravstvo i obrazovanje, a treća riječi vezane
+uz vanjsku politiku poput EU, NATO i diplomacija.
+
+Tablica 20 prikazuje mrežne metrike i njihovu interpretaciju u analizi
+diskursa.
+
+Mrežne metrike i njihova interpretacija u analizi diskursa
+
+ --------------------------------------------------------------------------
+ Metrika Definicija Interpretacija u diskursu
+ ---------------- ----------------- ---------------------------------------
+ Stupanj Broj veza čvora Povezanost, prominentnost
+
+ Međupoloženost Broj najkraćih Mostovna uloga, povezivanje tema
+ puteva kroz čvor 
+
+ Bliskost Prosječna Globalna centralnost
+ udaljenost do 
+ svih čvorova 
+
+ Koeficijent Udio povezanih Lokalna kohezija
+ klasteriranja susjeda 
+ --------------------------------------------------------------------------
+
+U kontekstu istraživanja masovne komunikacije, mreže riječi mogu
+vizualizirati i kvantificirati strukturu diskursa na načine koji
+nadilaze jednostavne liste frekvencija. Usporedba mreža između
+različitih medija može otkriti sistematske razlike u načinu na koji
+organiziraju i povezuju koncepte. Dva medija mogu koristiti slične
+riječi, ali ih povezivati na različite načine, što se manifestira u
+različitoj topologiji njihovih mreža. Dinamička analiza mreža može
+pratiti kako se struktura diskursa mijenja kroz vrijeme,
+identificirajući pojavu novih klastera, nestanak starih veza ili
+promjene u centralnosti pojedinih pojmova.
+
+Mreže supojavljivanja entiteta predstavljaju posebno korisnu primjenu za
+istraživanje masovne komunikacije. Ako povežemo osobe koje se spominju u
+istim člancima, dobivamo mrežu koja odražava medijsku percepciju odnosa
+između aktera. Političari koji se često spominju zajedno mogu biti
+percipirani kao saveznici ili protivnici; analiza konteksta može
+razlikovati ove dvije interpretacije. Centralni akteri u mreži su oni
+koji povezuju različite sfere javnog života, dok se periferni akteri
+pojavljuju samo u specifičnim kontekstima. Analiza promjena u mreži kroz
+vrijeme može otkriti kako se politički krajolici restrukturiraju, kako
+novi akteri ulaze u centar pozornosti, a stari marginaliziraju.
+
+Vizualizacija mreže riječi može biti moćan komunikacijski alat za
+prezentaciju nalaza istraživanja, no zahtijeva pažljivu izradu.
+Prezasićene mreže s previše čvorova i veza postaju nečitljive.
+Preporučuje se ograničiti mrežu na nekoliko stotina najvažnijih čvorova,
+koristiti veličinu čvorova proporcionalnu njihovoj centralnosti, boju
+čvorova za označavanje zajednica i debljinu veza proporcionalnu snazi
+asocijacije. Interaktivne vizualizacije koje omogućuju zumiranje i
+filtriranje mogu pomoći u eksploraciji kompleksnih mreža.
+
+Integracija različitih tehnika diskurzivne analize omogućuje bogatiji
+uvid nego što bi svaka pojedinačno mogla pružiti. Tipičan integrirani
+radni tijek započinje eksplorativnom analizom kolokacija i mreža riječi
+kako bi se stekao uvid u opću strukturu korpusa. Na temelju tih uvida
+razvijaju se specifične hipoteze o okvirima ili diskurzivnim
+strategijama. Zatim se koristi ciljana analiza kolokacija određenih
+ključnih riječi, distribucije diskurzivnih veznika ili sentimentnih
+obrazaca kako bi se kvantificirali relevantni obrasci. Konačno, provodi
+se kvalitativna analiza reprezentativnih tekstova koji ilustriraju
+identificirane obrasce, validirajući kvantitativne nalaze i pružajući
+dublje razumijevanje diskurzivnih mehanizama.
+
+# Ograničenja metode
+
+::: {.callout-warning title="TODO za Burića (STRUKTURALNI KOMENTAR)"}
+Prije poglavlja "Ograničenja metode" potrebno je riješiti problem koji se provlači kroz cijeli tekst: nedostaje praktični prikaz kako se konkretno provodi računalna analiza teksta. Dvije mogućnosti:
+
+1. U svakom potpoglavlju dodati kratke praktične upute (koji alat, kako se koristi, primjer koda)
+2. Napisati zasebno poglavlje prije "Ograničenja" u kojem se na primjeru teksta od pola kartice prikaže cijeli postupak analize: od brojanja riječi, preko analize sentimenta, do analize okvira i vizualne prezentacije rezultata
+
+Druga opcija je možda preglednija i pedagogički jasnija.
+:::
+
+U prethodnim poglavljima
+predstavljen je impresivan arsenal tehnika za računalnu analizu teksta:
+od pripreme podataka i reprezentacije, preko klasifikacije i tematskog
+modeliranja, do sofisticirane diskurzivne analize. Čitatelj bi mogao
+steći dojam da su ove metode gotovo magične u svojoj sposobnosti da iz
+velikih količina nestrukturiranog teksta izvuku smislene uvide o
+društvenim fenomenima. Međutim, svaka metoda ima svoja ograničenja, a
+kritičko razumijevanje tih ograničenja nužno je za odgovorno i valjano
+istraživanje. Kao što su ^[TODO za Burića: dodati reference za navedene tvrdnje.] Grimmer, Roberts i
+Stewart upozorili, automatske metode analize
+teksta "nisu zamjena za pažljivo razmišljanje i pomno čitanje te
+zahtijevaju opsežnu i problemski specifičnu validaciju."
+
+## Valjanost i pouzdanost
+
+Valjanost i pouzdanost tradicionalni su kriteriji kvalitete mjerenja u
+društvenim znanostima, a njihova primjena na računalnu analizu teksta
+zahtijeva pažljivu konceptualizaciju.
+
+::: {.callout-note title="Napomena"}
+Razmotriti mogućnost da se valjanost i pouzdanost mjerenja obrade u zasebnom poglavlju udžbenika, gdje bi bile detaljnije pokrivene u kontekstu svih metoda istraživanja.
+:::
+
+Valjanost mjerenja odnosi se na pitanje
+mjeri li naša mjera ono što mislimo da mjeri. U kontekstu analize
+teksta, valjanost ima nekoliko dimenzija. Sadržajna valjanost pita
+pokriva li naša operacionalizacija sve relevantne aspekte koncepta koji
+želimo mjeriti. Primjerice, ako mjerimo sentiment teksta prebrojavanjem
+pozitivnih i negativnih riječi iz rječnika, pokriva li taj rječnik sve
+relevantne načine izražavanja sentimenta u našem korpusu? Propuštamo li
+ironiju, sarkazam, implicitne evaluacije? Konstruktna valjanost pita
+odgovara li naša mjera teorijskom konstruktu koji je u pozadini. Ako
+koristimo tematsko modeliranje za identifikaciju "tema" u korpusu,
+odgovaraju li statistički identificirane teme onome što teorija
+komunikacije podrazumijeva pod "temama"? Prediktivna valjanost pita
+predviđa li naša mjera druge varijable s kojima bi teorijski trebala
+biti povezana.
+
+Problem valjanosti posebno je akutan kod prijenosa metoda i resursa iz
+jednog konteksta u drugi. Sentimentni rječnik razvijen za analizu
+recenzija proizvoda na engleskom možda neće valjano mjeriti sentiment u
+hrvatskim političkim komentarima. Klasifikator treniran na američkim
+vijestima možda neće valjano kategorizirati hrvatske vijesti. Svaki
+prijenos zahtijeva revalidaciju u novom kontekstu.
+
+Pouzdanost odnosi se na konzistentnost mjerenja. ^[U klasičnoj psihometriji test-retest postupak zamijenjen je Cronbach Alpha koeficijentom kao indikatorom pouzdanosti. U računalnoj analizi teksta, analogni pokazatelj pouzdanosti je Krippendorffov alfa koeficijent koji mjeri slaganje između kodirača (ili između čovjeka i algoritma). TODO za Burića: proširiti usporedbu s klasičnim pristupima pouzdanosti.] Test-retest pouzdanost pita hoće li
+ponovljena primjena iste metode na iste podatke proizvesti iste
+rezultate. Za determinističke algoritme poput prebrajanja riječi iz
+rječnika ovo je trivijalno zadovoljeno. Međutim, mnogi suvremeni
+algoritmi uključuju stohastičke elemente: inicijalizacija parametara,
+uzorkovanje tijekom treniranja, odabir podskupova podataka. Rezultati
+takvih algoritama mogu varirati između pokretanja. Istraživač mora
+provjeriti jesu li zaključci robusni na ove varijacije.
+
+Tablica 21 prikazuje dimenzije valjanosti i pouzdanosti u kontekstu
+računalne analize teksta.
+
+Dimenzije valjanosti i pouzdanosti u računalnoj analizi teksta
+
+ -----------------------------------------------------------------------
+ Aspekt Pitanje Primjer u analizi teksta
+ ------------- -------------- ------------------------------------------
+ Sadržajna Pokriva li Je li rječnik sentimenta potpun za domenu?
+ valjanost mjera sve 
+ aspekte 
+ koncepta? 
+
+ Konstruktna Odgovara li Odgovaraju li LDA teme teorijskim
+ valjanost mjera konceptima?
+ teorijskom 
+ konstruktu? 
+
+ Prediktivna Predviđa li Korelira li automatski sentiment s
+ valjanost mjera povezane ljudskim procjenama?
+ varijable? 
+
+ Test-retest Daje li metoda Variraju li rezultati između pokretanja?
+ pouzdanost konzistentne 
+ rezultate? 
+ -----------------------------------------------------------------------
+
+## Pristranost u podacima
+
+Rezultati računalne analize teksta mogu biti samo onoliko dobri koliko
+su dobri podaci na kojima se temelje. Pristranost (bias) može ući u
+analizu na više točaka: u konstrukciji korpusa, u označenim podacima za
+treniranje i u samim algoritmima.
+
+Pristranost uzorkovanja javlja se kada korpus nije reprezentativan za
+populaciju o kojoj želimo zaključivati. Ako analiziramo "hrvatsko
+novinarstvo", ali naš korpus sadrži samo članke iz dvaju najvećih
+portala, naši zaključci neće neće biti
+generabilni, tj. neće se moći poopćiti na cjelokupno
+novinarstvo. Ako analiziramo "javno mnijenje" na temelju objava
+na društvenim mrežama, moramo biti svjesni da korisnici društvenih mreža
+nisu reprezentativni uzorak populacije: mlađi su, urbaniziraniji,
+obrazovaniji.
+
+Temporalna pristranost nastaje kada korpus pokriva samo određeno
+vremensko razdoblje. Jezik se mijenja, teme dolaze i odlaze, stilovi
+izvještavanja evoluiraju. Model treniran na člancima iz 2015. godine
+možda neće dobro funkcionirati na člancima iz 2024. godine. Pandemija
+COVID-19 uvela je čitav novi vokabular koji modeli trenirani prije 2020.
+neće prepoznati.
+
+Pristranost u označenim podacima posebno je relevantna za nadzirano
+učenje. Ljudski koderi koji označavaju podatke za treniranje unose
+vlastite pristranosti, nekonzistentnosti i pogreške. Ako su koderi
+dominantno jednog političkog uvjerenja, njihove procjene sentimenta ili
+kategorizacije mogu sistematski favorizirati jednu stranu.
+
+Algoritmička pristranost odnosi se na sistemske pogreške koje algoritmi
+uče iz podataka. ^[Jezični modeli (eng. *language models*) su računalni sustavi trenirani na velikim količinama teksta koji "uče" statističke obrasce jezika. Najpoznatiji primjeri su GPT (OpenAI), BERT (Google) i Claude (Anthropic). Ovi modeli mogu generirati tekst, odgovarati na pitanja, prevoditi i obavljati razne jezične zadatke.] Jezični modeli trenirani na velikim korpusima interneta uče i reproduciraju
+stereotipe, predrasude i neravnoteže prisutne u tim podacima. Ova
+pristranost posebno je problematična jer je često nevidljiva: model može
+postizati visoku točnost na standardnim metrikama, a ipak sistematski
+diskriminirati određene grupe.
+
+Problem generalizacije i prekomjernog prilagođavanja zaslužuje posebnu
+pažnju. Prekomjerno prilagođavanje (overfitting) javlja se kada model
+nauči specifičnosti trenažnih podataka umjesto generalizirajućih
+obrazaca. Takav model ima izvrsne performanse na trenažnim podacima, ali
+loše performanse na novim podacima. U kontekstu analize teksta,
+klasifikator može naučiti da su članci određenog autora tipično
+pozitivni, pa klasificira kao pozitivno sve što dolazi od tog autora,
+čak i kada je sadržaj negativan. Strategije za izbjegavanje prekomjernog
+prilagođavanja uključuju podjelu podataka na trenažni, validacijski i
+testni skup, unakrsnu validaciju i regularizaciju.
+
+Domenski pomak predstavlja poseban izazov koji nastaje kada se model
+primjenjuje na podatke koji dolaze iz drugačije distribucije nego
+trenažni podaci. Klasifikator treniran na vijestima iz jednog medija
+možda neće funkcionirati na vijestima iz drugog medija koji ima
+drugačiji stil, vokabular ili tematski fokus. Čak i unutar istog medija,
+članci iz različitih rubrika mogu biti dovoljno različiti da model
+treniran na jednoj rubrici loše funkcionira na drugoj. Istraživač mora
+pažljivo razmisliti o tome odgovaraju li njegovi podaci za treniranje
+podacima na kojima će se model primjenjivati.
+
+## Interpretabilnost i problem crne kutije
+
+Različiti algoritmi nude različite stupnjeve interpretabilnosti, odnosno
+mogućnosti da istraživač razumije zašto je model donio određenu odluku.
+
+Na jednom kraju spektra nalaze se rječnički pristupi koji su potpuno
+transparentni. Ako tekst ima pozitivan sentiment, istraživač može točno
+vidjeti koje su riječi tome doprinijele jer se postupak svodi na
+prebrojavanje unaprijed definiranih riječi. Ova transparentnost
+omogućuje provjeru smislenosti rezultata i identifikaciju potencijalnih
+problema.
+
+Logistička regresija i slični linearni modeli također nude relativno
+dobru interpretabilnost. Svaka riječ ima koeficijent koji pokazuje
+koliko i u kojem smjeru utječe na predikciju. Istraživač može pregledati
+riječi s najvišim i najnižim koeficijentima i procijeniti jesu li ti
+odnosi smisleni.
+
+Na drugom kraju spektra nalaze se duboki neuronski mrežni modeli poput
+transformera koji su notorno teški za interpretaciju. Ovi modeli imaju
+stotine milijuna ili čak milijarde parametara organiziranih u kompleksne
+arhitekture s višestrukim slojevima nelinearnih transformacija. Zašto je
+model određeni tekst klasificirao kao negativan? Odgovor se ne može
+jednostavno svesti na nekoliko ključnih riječi jer model uzima u obzir
+kompleksne interakcije između riječi, pozicije i konteksta.
+
+Tablica 22 prikazuje stupnjeve interpretabilnosti različitih metoda.
+
+Stupnjevi interpretabilnosti različitih metoda
+
+ -----------------------------------------------------------------------------
+ Metoda Interpretabilnost Prednosti Nedostaci
+ -------------- --------------------------- ----------------- ----------------
+ Rječnički Visoka Potpuna Ograničena
+ pristupi transparentnost fleksibilnost
+
+ Logistička Visoka Koeficijenti Linearnost može
+ regresija pokazuju doprinos biti ograničenje
+
+ Stabla Srednja Vizualizacija Nestabilnost,
+ odlučivanja pravila prekomjerno
+ prilagođavanje
+
+ SVM Niska do srednja Dobra Teško
+ generalizacija interpretirati u
+ visokim
+ dimenzijama
+
+ Neuronske Niska Visoka "Crna kutija"
+ mreže prediktivna moć 
+
+ Transformeri Vrlo niska Vrhunske Gotovo potpuna
+ (BERT) performanse neprozirnost
+ -----------------------------------------------------------------------------
+
+## Etička razmatranja
+
+Računalna analiza teksta, posebno kada se primjenjuje na ljudsku
+komunikaciju, otvara niz etičkih pitanja koja istraživač mora uzeti u
+obzir.
+
+Privatnost postaje sve relevantnija tema kako se metode primjenjuju na
+sve veće količine osobnih podataka. Objave na društvenim mrežama,
+komentari, poruke -- sve to može sadržavati osjetljive osobne
+informacije. Čak i kada su ti tekstovi "javno" dostupni, to ne znači da
+su njihovi autori pristali na to da budu predmet istraživanja.
+Agregirana analiza velike količine javnih objava može otkriti
+informacije koje pojedinci nisu namjeravali dijeliti: zdravstveno
+stanje, političke stavove, seksualne preferencije, financijsku
+situaciju.
+
+Pristanak je složeno pitanje u kontekstu analize teksta. Tradicionalni
+model informiranog pristanka teško je primjenjiv kada se analiziraju
+tisuće ili milijuni tekstova napisanih od različitih autora. Korištenje
+javno dostupnih podataka bez eksplicitnog pristanka može biti zakonito,
+ali etička opravdanost ovisi o kontekstu: analizirati javne govore
+političara drugačije je od analiziranja osobnih objava privatnih osoba.
+
+Potencijalna zloupotreba istraživačkih rezultata zahtijeva anticipaciju
+mogućih štetnih primjena. Metode za detekciju sentimenta mogu se
+koristiti za praćenje javnog mnijenja u legitimne svrhe, ali i za
+nadzor, manipulaciju ili ciljano uznemiravanje. Metode za klasifikaciju
+teksta mogu se koristiti za filtriranje spam poruka, ali i za cenzuru
+legitimnog govora.
+
+Transparentnost i reproducijalnost etičke su norme znanstvene prakse
+koje dobivaju posebnu težinu u kontekstu računalnih metoda. Istraživač
+bi trebao jasno dokumentirati svoje metode, podatke i analitičke odluke
+na način koji omogućuje drugima da procijene i repliciraju rezultate.
+
+## Validacija kao nužnost
+
+S obzirom na sva navedena ograničenja, validacija postaje ne samo
+preporučljiva, već nužna komponenta svakog ozbiljnog istraživanja koje
+koristi računalnu analizu teksta. Validacija nije jednokratni korak na
+kraju analize, već kontinuirani proces koji prožima cijeli istraživački
+tijek.
+
+Validacija reprezentacije provjerava odgovara li način na koji smo
+reprezentirali tekst našem istraživačkom pitanju. Jesu li izbori koje
+smo napravili prilikom pripreme podataka opravdani za naš specifični
+kontekst? Jesmo li izgubili relevantne informacije?
+
+Validacija modela provjerava proizvodi li model rezultate koji
+odgovaraju ljudskim procjenama. Za klasifikacijske zadatke, to uključuje
+usporedbu predikcija modela s "zlatnim standardom" ljudskog kodiranja.
+Za nenadziranu analizu poput tematskog modeliranja, validacija može
+uključivati procjenu koherentnosti tema od strane ljudskih ocjenjivača.
+
+Robusnost zaključaka testira jesu li zaključci osjetljivi na analitičke
+odluke. Što se događa ako promijenimo prag za uklanjanje rijetkih
+riječi? Ako koristimo drugačiji algoritam? Ako podijelimo podatke
+drugačije? Zaključci koji se drže robusnim kroz varijacije u analitičkim
+odlukama zaslužuju veće povjerenje od onih koji ovise o specifičnim,
+proizvoljnim izborima.
+
+Grimmer, Roberts i Stewart zagovaraju pristup "ljudi u petlji"
+(human-in-the-loop) gdje računalne metode služe kao alat za pojačavanje
+ljudskih analitičkih sposobnosti, a ne kao njihova zamjena. Računalo
+može identificirati obrasce, sortirati dokumente, kvantificirati
+fenomene. Ali interpretacija značenja, procjena relevantnosti,
+povezivanje s teorijom i donošenje zaključaka ostaju ljudske zadaće.
+
+# Zaključak i budući pravci
+
+Područje računalne analize teksta prolazi kroz razdoblje iznimno brzih
+promjena. Metode koje su prije samo nekoliko godina predstavljale
+vrhunac tehnologije danas su zamijenjene novim pristupima koji postižu
+impresivne rezultate na zadacima koji su se činili nedostižnima. Veliki
+jezični modeli poput GPT-a, Clauda i Llame transformirali su način na
+koji računala procesiraju i generiraju tekst. Multimodalna analiza
+proširuje fokus s čistog teksta na integraciju slike, zvuka i videa.
+Višejezični modeli smanjuju barijere za jezike s manjim resursima poput
+hrvatskog.
+
+## Veliki jezični modeli
+
+Razvoj transformer arhitekture pokrenuo je revoluciju u obradi prirodnog
+jezika. Transformeri koriste mehanizam samopažnje (self-attention) koji
+omogućuje modelu da pri obradi svake riječi uzme u obzir sve ostale
+riječi u tekstu, zahvaćajući složene kontekstualne ovisnosti koje su
+bile izvan dosega ranijih arhitektura.
+
+Za istraživanje masovne komunikacije, veliki jezični modeli otvaraju
+transformativne mogućnosti. Automatska anotacija tekstova postaje
+dostupnija jer se modeli mogu koristiti za klasifikaciju bez opsežnog
+ručnog označavanja. ^[TODO za Burića: objasniti ovaj pojam ili dodati fusnotu s definicijom.] Zero-shot i few-shot
+učenje predstavljaju paradigmatski pomak jer
+omogućuju klasifikaciju tekstova samo na temelju opisa kategorija, bez
+potrebe za stotinama označenih primjera.
+
+Međutim, s velikim mogućnostima dolaze i značajni izazovi. Neprozirnost
+velikih modela nadilazi čak i ranija ograničenja interpretabilnosti.
+Halucinacije, odnosno samopouzdano generiranje netočnih informacija,
+predstavljaju ozbiljan problem za primjene koje zahtijevaju faktičku
+točnost.
+
+## Multimodalnost i višejezičnost
+
+Tradicionalna analiza teksta fokusira se isključivo na verbalni sadržaj,
+no medijska komunikacija sve više uključuje multimodalni sadržaj: tekst
+popraćen slikama, video materijali s titlovima, infografike koje
+kombiniraju vizualne i tekstualne elemente. Napredak u računalnom vidu i
+multimodalnim modelima otvara mogućnosti za integrirane analize koje
+zahvaćaju ovu kompleksnost.
+
+Za istraživanje masovne komunikacije, multimodalna analiza posebno je
+relevantna jer suvremeni medijski sadržaj rijetko je čisto tekstualan.
+Vijesti na portalima redovito uključuju fotografije koje uokviruju
+priču. Objave na društvenim mrežama kombiniraju tekst, slike, video i
+emoji. Političke kampanje koriste vizualne strategije koje nadopunjuju
+ili čak proturječe verbalnim porukama. Analiza koja se ograničava na
+tekst propušta značajan dio komunikacijske slike.
+
+Modeli poput CLIP-a, Flaminga ili GPT-4V mogu procesirati istovremeno
+tekst i slike, omogućujući pitanja poput: kakav je odnos između tona
+naslova i emocionalnog naboja popratne fotografije? Kako se vizualno
+predstavljanje političara razlikuje od verbalnog opisa? Je li vizualni
+sadržaj konzistentan s tekstualnim ili postoji napetost? Ova pitanja
+otvaraju nove istraživačke horizonte za komunikologe.
+
+Za hrvatski jezik posebno je obećavajući razvoj višejezičnih modela.
+Modeli poput mBERT-a, XLM-RoBERTa ili višejezičnih verzija GPT-a
+trenirani su na tekstovima iz stotinu i više jezika istovremeno. Ovi
+modeli mogu prenositi znanje naučeno na jezicima s obilnim resursima na
+jezike s manje resursa, uključujući hrvatski. Preliminarna istraživanja
+pokazuju da višejezični modeli postižu pristojne rezultate na hrvatskim
+zadacima čak i bez specifičnog treniranja na hrvatskom tekstu. S finim
+podešavanjem na hrvatske podatke, rezultati se značajno poboljšavaju.
+
+Razvoj sintetičkih podataka i generativne umjetne inteligencije donosi i
+nove izazove. Sposobnost velikih jezičnih modela da generiraju
+koherentan tekst koji je teško razlikovati od ljudski napisanog teksta
+ima dalekosežne implikacije. S jedne strane, sintetički podaci mogu
+pomoći istraživačima u proširenju ograničenih trenažnih skupova. S druge
+strane, isti kapacitet omogućuje proizvodnju dezinformacija na
+industrijskoj skali. Istraživači masovne komunikacije suočavaju se s
+rastućim izazovom proučavanja medijskog prostora u kojem značajan dio
+sadržaja može biti strojno generiran. Detekcija generiranog teksta
+postaje nova istraživačka domena, premda je to utrka u kojoj se napadači
+i branitelji neprestano prilagođavaju.
+
+## Pet principa odgovorne primjene
+
+Ako je nešto jasno iz rasprave o ograničenjima, to je da računalna
+analiza teksta zahtijeva promišljenu, kritičku i odgovornu primjenu. Na
+temelju literature i iskustva, možemo formulirati pet principa koji bi
+trebali voditi istraživače masovne komunikacije u korištenju ovih
+metoda.
+
+Prvi princip glasi: budite skromni u tvrdnjama. Rezultati modela su
+aproksimacije, ne istine. Nijedan algoritam ne može uhvatiti svu
+složenost ljudske komunikacije. Zaključci trebaju odražavati epistemičku
+skromnost primjerenu ograničenjima metoda.
+
+Drugi princip zahtijeva: budite transparentni u metodama. Jasno
+dokumentirajte sve analitičke odluke, od pripreme podataka do
+interpretacije rezultata. Omogućite drugima da procijene i repliciraju
+vaš rad. Transparentnost je preduvjet znanstvene kredibilnosti.
+
+Treći princip upozorava: budite skeptični prema rezultatima. Ne
+prihvaćajte rezultate zdravo za gotovo samo zato što dolaze iz
+sofisticiranog algoritma. Tražite alternativna objašnjenja, testirajte
+robusnost, validirajte s ljudskim procjenama.
+
+Četvrti princip naglašava: budite etični u primjeni. Razmislite o
+mogućim štetama koje vaše istraživanje može uzrokovati. Poštujte
+privatnost subjekata čiji tekstovi se analiziraju. Anticipirajte
+potencijalne zloupotrebe vaših metoda i rezultata.
+
+Peti princip savjetuje: budite usmjereni na pitanja, ne na metode.
+Metode su alati za odgovaranje na pitanja, ne ciljevi sami po sebi.
+Najbolja istraživanja počinju s važnim pitanjima o medijskoj
+komunikaciji i društvu, a zatim traže najprikladnije metode za
+odgovaranje na ta pitanja.
+
+Tablica 23 sažima pet principa odgovorne primjene.
+
+Pet principa odgovorne primjene računalne analize teksta
+
+ ---------------------------------------------------------------------------
+ Princip Objašnjenje Praktična implikacija
+ ----------------- -------------------- ------------------------------------
+ Skromnost Rezultati su Izbjegavati pretjerane tvrdnje
+ aproksimacije 
+
+ Transparentnost Dokumentirati sve Omogućiti replikaciju
+ odluke 
+
+ Skepticizam Ne prihvaćati Validirati i testirati
+ nekritički 
+
+ Etičnost Anticipirati štete Poštivati privatnost i dostojanstvo
+
+ Usmjerenost na Metode služe Početi s teorijskim pitanjima
+ pitanja pitanjima 
+ ---------------------------------------------------------------------------
+
+## Završne misli
+
+Računalna analiza teksta nije čarobno rješenje koje automatizira
+istraživački proces, već sofisticirani alat koji, kada se koristi
+promišljeno, može značajno proširiti doseg i dubinu komunikoloških
+istraživanja. Uspješna primjena zahtijeva ne samo tehničke vještine, već
+i teorijsku sofisticiranost, kritičku refleksiju i kontinuirani dijalog
+između kvantitativnih metoda i kvalitativnog razumijevanja.
+
+S principima odgovorne primjene na umu, budućnost računalne analize
+teksta u istraživanju masovne komunikacije izgleda uzbudljivo i
+obećavajuće. Izazovi su značajni, ali tako su i mogućnosti. Istraživači
+koji se pripreme za ovu budućnost bit će u poziciji da pruže uvide koji
+su i metodološki rigorozni i supstantivno značajni, doprinoseći našem
+razumijevanju medijske komunikacije u sve složenijem informacijskom
+krajoliku.
+
+Završno, analiza teksta podsjeća nas da tekst nije samo spremnik
+informacija koje treba izvući, već aktivni konstrukt koji oblikuje naše
+razumijevanje svijeta. Mediji ne samo izvještavaju o stvarnosti; oni je
+interpretiraju, uokviruju i konstruiraju. Tehnike predstavljene u ovom
+poglavlju pružaju alate za sistematsko istraživanje tih konstruktivnih
+procesa na razini koja nadilazi pojedinačne tekstove, omogućujući uvide
+u šire diskurzivne prakse koje oblikuju javnu sferu.

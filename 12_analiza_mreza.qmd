@@ -2169,7 +2169,7 @@ ggraph(demo_data, layout = "fr") +
     title = "Mrezna vizualizacija s ggraph paketom",
     subtitle = "Velicina cvora prema stupnju, boja prema zajednici"
   ) +
-  theme_graph() +
+  theme_void() +
   theme(legend.position = "bottom")
 ```
 
