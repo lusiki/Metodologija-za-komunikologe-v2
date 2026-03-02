@@ -70,10 +70,3 @@ format:
     number-depth: 3
     code-fold: true
     code-tools: true
-  pdf:
-    documentclass: book
-    lang: hr
-    number-sections: true
-  docx:
-    number-sections: true
-    lang: hr
