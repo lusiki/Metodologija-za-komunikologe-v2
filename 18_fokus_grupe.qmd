@@ -1,0 +1,355 @@
+# Fokus grupe (grupne diskusije)
+
+Fokus grupe ili grupne diskusije su pažljivo planirane rasprave sa svrhom stjecanja uvida u
+određenu temu. Odvijaju se u vidu grupnog razgovora, tj. diskusije šest do osam sudionika
+kojom upravlja moderator. U najvećem broju slučajeva traju u rasponu od sat i pol do dva sata.
+Osnovni cilj fokus grupa je razviti diskusiju kako bi se prikupile informacije o percepciji ili
+stavovima sudionika o specifičnoj temi (Kruger i Casey, 2004). Stoga fokus grupe nisu samo
+grupe ljudi koji o nečemu diskutiraju ili razgovaraju već su to posebno dizajnirane grupe u
+smislu da imaju svrhu, određenu veličinu, sastav i procedure (Kruger i Casey, 2004:4).
+U okviru jednog istraživačkog projekta uvijek se provodi veći broj fokus grupa. Iako nema
+nekog čvrstog pravila, minimalno se realiziraju dvije ili tri, a uglavnom i više od tri fokus grupe.
+Broj grupa koje se realiziraju u sklopu jednog istraživanja ovisi o temi, o populaciji koji se
+istražuje kao i o tome koliko je potrebno dok se spoznaje ne saturiraju, tj. dok ne dođe do
+zasićenja informacija, odnosno do trenutka kada nove fokus grupe više ne donose bitno nove
+informacije, perspektive ili uvide.
+Svrhe i ciljevi grupnih diskusija
+Generlano može se reći da fokus grupe imaju dvije svrhe. Prva svrha može se definirati kao
+spoznajna svrha. To znači da se fokus grupe provode kako bi se došlo do određenih spoznaja.
+Primjerice, Skoko i Benković (2009:220) navode da se fokus grupe, između ostalog, koriste i
+za:
+• razumijevanje ponašanja (npr. ponašanje potrošača, ponašanje glasača itd.);
+• razumijevanje motiva i značenja koji leže ispod tih pogleda i mišljenja;
+• obrazlaganje nalaza kvantitativnog istraživanja (dubinski pogled);
+• brzinsko istraživanje novih područja.
+Također, slično navode i Kurger i Casey (2004) kada ističu da fokus grupe mogu biti realizirane
+kako bi se ispunile neke od funkcija poput generiranja ideja, planiranja, odlučivanja,
+procjenjivanja, reagiranja na prijedloge i sl. Fokus grupama se stječu uvidi o ponašanju u
+određenim vrstama socijalnih interakcija, o motivaciji socijalnih aktera, njihovim društvenim
+navikama i tsl. Dakle, o spoznajnim svrhama fokus grupa može se govoriti kada se govori o
+
+tome da se fokus grupe provode kako bi se spoznalo nešto o ponašanju ljudi ili kako bi se
+spoznali njihovi stavovi i mišljenja.
+Grupne diskusije često se koriste u primijenjenim komunikološkim istraživanjima. One su
+danas vrlo često korišteno istraživačko oruđe u rukama komunikacijskih stručnjaka s područja
+odnosa s javnostima kao i tržišnih komunikacija. Primjerice, često se koriste kao metoda kojom
+se u pripremi komunikacijskih kampanja testira prihvatljivost komunikacijskih rješenja –
+njihova razumljivost, informativnost, originalnosti i sl. Dakle, često se posredstvom ove
+metode komunikacijska rješenja pokušavaju sadržajno optimizirati.
+Druga svrha fokus grupa je metodološke prirode. To znači da se grupne diskusije u brojnim
+slučajevima provode kako bi se prikupile informacije koje će poslužiti za pripremu
+kvantitativnog istraživanja. Primjerice, posredstvom grupnih diskusija mogu se prikupiti
+podaci koji će omogućiti preciznije postavljanje hipoteza koje će se testirati kvantitativnim
+istraživanjem ili koji će omogućiti razvoj mjernih ljestvica, specifičnih anketnih pitanja i slično.
+Dakle, u takvim slučajevima grupne diskusije se provode kao eksploratorno istraživanje
+posredstvom kojeg se istraživači familijariziraju s predmetom istraživanja i njegovim
+specifičnostima te spoznaje koje prikupe koriste za pripremu kvantitativnog istraživanja.
+Spoznajne koristi od grupnih diskusija
+Za razliku od individualnih intervjua, fokus grupe generiraju podatke kroz dinamiku
+međusobne razmjene mišljenja, nadovezivanje sudionika jednih na druge te spontano
+propitivanje izrečenih stavova. Upravo je ta interakcijska dimenzija ključna metodološka
+prednost fokus grupa. Riječ je o tome da moderator, kroz proces moderiranja grupne diskusije,
+uz prikupljanje planiranih informacija nastoji postići i tzv. „rad grupe“.
+To znači da ideja fokus grupa nije pronaći osam osoba, smjestiti ih u jednu prostoriju i
+postavljati im pitanja na koja oni pojedinačno odgovaraju. Osnovni koncept koji stoji u
+pozadini provođenja grupnih diskusija temelji se na stvaranju grupne kohezije i grupne
+dinamike koje poticajno djeluju na iznošenje stavova, ideja, mišljenja i prijedloga te potiču
+osobnu refleksiju sudionika o određenim događajima ili vlastitom ponašanju.
+
+Prema tome, pretpostavka s kojom se ulazi u grupnu diskusiju jest da će se tijekom njezina
+provođenja razviti „rad grupe“, odnosno da će se stvoriti dinamika koja će intenzivirati
+diskusiju i podići njezinu kvalitativnu razinu. Očekuje se da će grupna atmosfera pozitivno
+djelovati na sudionike te da će oni iznijeti bogatiji korpus stavova i mišljenja nego što bi to bio
+slučaj u individualnim intervjuima. Ovu pretpostavku možemo nazvati i pretpostavkom o
+„tajnoj agendi“ grupnih diskusija. „Rad grupe“ pojavljuje se tek nakon što je postignuta
+zadovoljavajuća razina kohezije unutar same grupe i predstavlja temeljni cilj svake kvalitetno
+provedene fokus grupe.
+Principi izbora sudionika grupnih diskusija
+Kao i kod intervjua, tako se i u slučaju fokus grupa principi uzorkovanja razlikuju od uobičajenih
+principa uzorkovanja u istraživanjima metodom ankete. U grupnim diskusijama sudionici
+istraživanja su one osobe koje su relevantne za određenu temu. U istraživanju posredstvom
+fokus grupa sudjeluju one osobe za koje se pretpostavlja da imaju relevantno mišljenje o
+predmetu istraživanja ili da imaju neka relevantna obilježja koja su bitna s obzirom na ciljeve
+istraživanja. Shodno tome, istraživanja se obično provode na nekom od uzoraka opisanih u
+poglavlju Uzorkovanje i vrste uzorka u kvalitativnim metodama istraživanja. Najčešće su to
+svrhoviti uzorci, uzorci tipičnih slučajeva ili uzorci maksimalnih varijacija.
+Pri izboru konkretnih sudionika grupnih diskusija važno je ispuniti dva zahtjeva. Prvo, sudionici
+diskusija moraju biti homogeni po karakteristikama koje su važne s obzirom na samu temu
+grupne diskusije. Dakle, sudionici fokus grupa u pogledu određenog broja karakteristika
+moraju biti međusobno slični. Primjerice, ukoliko se istražuju navike u korištenju društvenih
+mreža u populaciji do 50 godina starosti, bilo bi dobro da se sastav grupa definira s obzirom
+na dob i intenzitet korištenja društvenih mreža. U tom slučaju istraživanje bi se moglo provesti
+posredstvom četiri fokus grupe. U dvije grupe sudjelovale bi osobe mlađe dobi (npr. do 30
+godina), pri čemu bi prva grupa bila sastavljena od osoba koje su intenzivni korisnici društvenih
+mreža, a druga od osoba koje su povremeni korisnici društvenih mreža. U trećoj i četvrtoj grupi
+sudjelovale bi osobe u dobi od 30 do 50 godina, i to na način da bi treću grupu činili intenzivni
+korisnici, a četvrtu povremeni korisnici društvenih mreža. Dakle, svaka grupa bila bi homogena
+s obzirom na dob i intenzitet korištenja društvenih mreža. Ovakav grupni dizajn omogućio bi
+prikupljanje tipičnih ili zajedničkih iskustava u korištenju društvenih mreža osoba slične dobi,
+
+što je vrlo važno budući da se rezultati grupnih diskusija interpretiraju na grupnoj, a ne na
+individualnoj razini (Skoko i Benković, 2009: 225).
+Drugi zahtjev koji je obično potrebno ispuniti prilikom izbora sudionika grupnih diskusija
+odnosi se na to da fokus grupe trebaju sačinjavati osobe koje se ne poznaju. Ovaj zahtjev
+proizlazi iz pretpostavke da su ljudi spremniji iznijeti svoje mišljenje ili opisati svoje iskustvo
+među neznancima nego među poznatim osobama. Drugim riječima, zbog mogućeg socijalnog
+pritiska pretpostavlja se da će osobe biti iskrenije i otvorenije u okružju koje čine neznanci.
+Uloga sudionika grupnih diskusija
+Sudionici fokus grupa istraživačima pružaju potrebne informacije (mišljenja, iskustva, rutine,
+emocije) o temi koja se istražuje. No unutar te opće funkcije moguće je razlikovati tri specifične
+uloge koje sudionici preuzimaju tijekom grupne diskusije.
+1. Sudionici fokus grupa kao reporteri: od sudionika se traži da svjedoče, izvještavaju o
+određenim događajima, načinu na koji su ih oni vidjeli ili doživjeli. U tom kontekstu dvije
+su moguće uloge sudionika:
+a) Sudionici kao reporteri svojeg ponašanja.
+b) Sudionici kao reporteri nekog događaja ili „tuđeg“ ponašanja.
+2. Sudionici fokus grupa kao interpretatori: od sudionika fokus grupa se traži da interpretiraju
+određene događaje ili fenomene ili da ih komentiraju.
+3. Sudionici fokus grupa kao suradnici: sudionici se tretiraju kao suradnici u procesi
+generiranja ideja. Primjerice, fokus grupa se provodi s ciljem kako bi se osmislila
+komunikacijska kampanja za neki proizvod. Grupe sačinjavaju osobe koje su korisnici tog
+proizvoda. Cilj grupne diskusije je prikupiti njihove ideje o tome kako definirati sadržaj
+komunikacijske poruke, koje dobre strane proizvoda istaknuti, izdvojiti njegove prednosti u
+odnosu na konkurentske proizvode i tsl.
+Moderator i vođenje grupnih diskusija
+Fokus grupe vodi moderator. Najčešće je riječ o istraživaču koji je uključen u sve faze (ili u
+većinu faza) istraživačkog projekta i koji ima iskustvo u vođenju, tj. moderiranju grupnih
+diskusija. On / ona moderira grupnu diskusiju na temelju vodiča ili protokola za vođenje fokus
+
+grupe, koji je po funkciji sličan vodiču ili protokolu za vođenje intervjua. U vodiču/protokolu
+za moderiranje nalazi se popis tematskih smjernica diskusije i okvirnih pitanja koja se
+postavljaju u diskusiji, a kako bi se realizirali ciljevi istraživanja. Osim vođenja diskusije, tj.
+njezina tematskog usmjeravanja, uloga moderatora uključuje poticanje sudionika da slobodno
+izražavaju svoje stavove, mišljenja, osjećaje i emocije bez ikakve pristranosti ili pritiska od
+strane ostalih sudionika fokus grupe. Uz tematsko usmjeravanje diskusije, moderator treba
+poticati grupnu koheziju i omogućiti kvalitetan rad grupe. Stoga treba posjedovati
+komunikacijske vještine koje će potaknuti „otvaranje“ diskutanata te treba biti nepristran u
+odnosu na sudionike ili temu istraživanja. Ne smije stvarati pritisak na diskutante kako bi se
+usuglasili, već mora poticati i pozitivne i negativne komentare. Također, njegov zadatak je
+pozorno pratiti njihov misaoni proces, postavljati pitanja, slušati, pružiti svakome priliku da se
+uključi i voditi konverzaciju u zacrtanom smjeru (Krueger i Casey, 2000: 11).
+Kvalitetno vođenje fokus grupa moguće je samo ukoliko je moderator znalac u problematici
+koja se istražuje, znalac u vođenju grupa, kao i osoba talentirana za rad u tako kompleksnom
+mikrosocijalnom okružju kao što su grupne diskusije. Pritom „biti znalac“ u vođenju grupa
+prvenstveno podrazumijeva bogato iskustvo, sate provedene u grupnim diskusijama, dok
+talent podrazumijeva niz uglavnom urođenih osobina kao što su ekstrovertiranost,
+komunikativnost, duhovitost, druželjubivost, dobrohotnost, spontanost, sposobnost
+zapažanja sitnica, brzina reakcije i sl. Drugim riječima, podrazumijeva pojedine komponente
+socijalne i emocionalne inteligencije istraživača.
+To ujedno znači da su za uspješnu realizaciju istraživanja posredstvom fokus grupa potrebne
+sposobnosti koje se teško mogu „udžbenički“ naučiti. Udžbenička pravila su načelna i malo
+znače u uobičajenim, u mnogim slučajevima nepovoljnim grupnim situacijama, koje variraju
+od nezainteresiranosti sudionika, njihove nemogućnosti da se udalje od uobičajenih
+perspektiva, do šutnje, prevelikog emotivnog angažmana i polarizacije stavova. Stoga je
+vođenje grupa uglavnom stvar snalaženja u trenutku, otvorenosti moderatora, njegovih
+verbalnih sposobnosti, intuitivnosti, emocionalnih i socijalnih karakteristika, ali i njegova
+autoriteta – i sve to multiplicirano iskustvom. Upravo su to najvažnije predispozicije za
+istraživanje posredstvom fokus grupa. Stvaranje dobre grupne kohezije i dinamike, eksplicitno
+i implicitno slušanje, neutraliziranje osoba koje narušavaju dinamiku grupnih diskusija (npr.
+
+žele dominirati diskusijom), angažiranje „spavača“ – neaktivnih sudionika diskusije,
+pravovremeno otvaranje relevantnih potpitanja, odmicanje od protokola kako bi se otvorilo
+novo istraživačko pitanje koje nije bilo predviđeno nacrtom, a čije je otvaranje bitno za
+realizaciju već postavljenih ciljeva – to se ne može naučiti niti standardizirati, niti se može
+uokviriti nekim metodološkim normama. Bez svega toga i svako naknadno metodološko
+formaliziranje zapravo je bespredmetno. Ukoliko moderator svojim radom ne stvori
+preduvjete za generiranje bogatstva kvalitativnog materijala, napor uložen u pripremu
+istraživanja, kao i napor uložen u obradu podataka, od male je koristi (Burić, 2024).
+Vodič ili protokol za moderiranje fokus grupa
+Vodič ili protokol za grupne diskusije ima istu funkciju kao vodič ili protokol u slučaju intervjua.
+On je u pravilu slabo strukturiran, tj. sastoji se od natuknica i provizornih pitanja koja
+usmjeravaju diskusiju u određenom smjeru. U suštini, u njemu su označene teme koje je
+potrebno obraditi te određena pitanja koja moderator ne bi trebao ispustiti iz vida. Međutim,
+kao i u slučaju intervjua, i vođenje fokus grupa je otvoren proces. To znači da je tijekom same
+grupne diskusije moguće „izranjanje“ određenih tema i pitanja koja nisu predviđena. Iako je
+vodič najčešće slabo strukturiran, Krueger i Casey (2000) navode kako postoji nekoliko tipičnih
+grupa pitanja kroz koja moderator prolazi tijekom fokus grupa. To su:
+1. Pitanja kojima se otvara diskusija
+Svrha ovih pitanja nije prikupljanje informacija bitnih s obzirom na ciljeve istraživanja, već
+poticanje sudionika diskusije da govore i da se osjećaju ugodno (Krueger i Casey, 2000: 44).
+Ona služe kao poticaj sudionicima na uključivanje u diskusiju već u njezinoj početnoj fazi.
+Među praktikantima fokus grupa ova vrsta pitanja kolokvijalno se naziva „pitanja za
+zagrijavanje“.
+2. Uvodna pitanja
+Služe za upoznavanje s temom rasprave i osvješćivanje potencijalne povezanosti sudionika s
+temom. Ona su dizajnirana tako da potaknu razgovor među diskutantima, ali i da moderatoru
+rasprave stvore uvodnu sliku o stavovima diskutanata.
+
+3. Prijelazna pitanja
+Ova pitanja usmjeravaju diskusiju prema ključnim temama zbog kojih se ona i provodi.
+4. Ključna pitanja
+Riječ je o pitanjima koja su ključna u pogledu ispunjavanja glavnih ciljeva istraživanja. Ujedno,
+riječ je o pitanjima kojima se traže odgovori koji zahtijevaju najveću pažnju u procesu
+interpretacije. Njima se posvećuje najviše vremena u grupnoj diskusiji.
+5. Završna pitanja
+Radi se o pitanjima kojima moderator obično omogućuje sudionicima diskusije da sumiraju
+sve ključne činjenice. U suštini, njima se dolazi do zaključnog komentara sudionika grupne
+diskusije.
+Na koncu valja napomenuti da, budući da je „rad grupe“ ključni moment metode fokus grupa,
+specifična i krucijalna korist koja proizlazi iz njezina prakticiranja, nema potrebe da istraživači
+detaljiziraju vodič. Treba uvijek imati na umu da vodič za fokus grupe nije upitnik. Kao što smo
+već naveli, on je isključivo smjerokaz tijeka diskusije, sustav natuknica i uputa o ciljevima
+istraživanja, o generalnim istraživačkim pitanjima. Vodič ili protokol za vođenje grupnih
+diskusija pomaže moderatoru da usmjerava diskusiju u željenom smjeru. On nije eksplicitan
+popis pitanja koja je bezuvjetno potrebno postaviti diskutantima.
+PRIMJER VODIČA
+
+Projektivne tehnike
+Praktikanti fokus grupa ne bi smjeli smetnuti s uma da grupne diskusije za sudionike imaju
+obilježja malog društvenog eksperimenta. Naime, budući da se sudjelovanjem u fokus
+grupama nalaze u okolnostima koje nisu uobičajene, sam kontekst grupne rasprave može
+sudionicima djelovati neprirodno ili eksperimentalno. Stoga bez obzira na vještinu
+moderatora, njegove komunikacijske sposobnosti i umijeće stvaranja poticajne grupne
+atmosfere, sama situacija istraživanja može stvoriti niz inhibicija za diskutante. Prije svega,
+može ih ograničiti u izražavanju, izazvati samocenzuru, reducirati kreativnost kao i intenzitet
+uključenosti u diskusiju. Također, ne treba zaboraviti ni činjenicu da kada raspravljaju o
+određenim temama, ljudi vrlo često raspravljaju u okviru „standardnih“ referentnih okvira, tj.
+ne izlaze iz okvira poznatih načina razmišljanja i tumačenja ili ne mogu uvijek jasno artikulirati
+što misle ili osjećaju. Primjerice, kada se grupnim diskusijama istražuju stavovi o političkim
+akterima sudionici se često ne uspijevaju udaljiti od uobičajenih narativa i jednostavnih
+racionalizacija koje u vezi ove teme dominiraju javnim i medijskim prostorom. Umjesto da se
+diskusijom generiraju kompleksnije refleksije na temu koja se istražuju, fokus grupama često
+se perpetuiraju uobičajeni interpretativni obrasci. Posljedično tome smanjuje se i analitička
+vrijednost prikupljenog kvalitativnog materijala.
+Upravo zbog toga u situacijama kada se očekuje da u diskusiji o određenoj temi sudionici neće
+biti u stanju izaći iz ustaljenih narativnih okvira, neće biti u mogućnosti podrobnije artikulirati
+vlastite stavove ili objasniti svoja razmišljanja, istraživači mogu donijeti odluku da u tom dijelu
+rasprave koriste neku od raspoloživih projektivnih tehnika.
+Projektivne tehnike su „kvalitativni alati“ čije korištenje podrazumijeva da se sudionicima
+grupnih diskusija pruže nedovoljno strukturirani materijali ili simbolički podražaji s ciljem
+poticanja spontanih reakcija kroz koje se zatim neizravno otkrivaju njihovi stavovi, mišljenja,
+osjećaji, vrijednosti ili značenjske strukture.
+Prema tome, kada se donosi odluka o korištenju projektivnih tehnika, pretpostavlja se da će
+se njihovom upotrebom podići kvaliteta diskusije, potaknuti kreativnost i imaginativnost
+sudionika te im se omogućiti odmak od uobičajenih narativa. Istodobno, njihovo korištenje
+prikladno je za neutraliziranje tzv. „situacije inkvizicije“. Riječ je o situaciji koja nastaje upravo
+zbog suzdržanosti diskutanata ili nemogućnosti jasne verbalne artikulacije stavova i iskustava.
+U takvoj situaciji fokus grupe pretvaraju se u niz pojedinačnih intervjua u grupnom okruženju.
+
+Dakle, umjesto da moderira grupnu raspravu, moderator u ovakvim slučajevima zapravo
+preuzima ulogu intervjuera, a sudionici postaju ispitanici koji u suštini pojedinačno, i često vrlo
+šturo, odgovaraju na pitanja moderatora.
+Iako se projektivne tehnike mogu koristiti u istraživanju brojnih tema, one su posebice
+spoznajno plodonosne u slučajevima kada se istražuju individualni ili kolektivni identiteti,
+načini na koje se percipiraju društveni akteri (npr. dojam o političkim akterima ili
+institucijama), kada se istražuje korporativni ili brend imidž te različite društvene predodžbe.
+Praktikantima fokus grupa na raspolaganju stoji veći broj projektivnih tehnika koje se, s
+obzirom na svoje specifične ciljeve i modalitete primjene, mogu grupirati u nekoliko
+kategorija. U nastavku bit će predstavljene one koje sam koristio u svojoj istraživačkoj praksi.
+Vježbe nekompletnih stimulansa
+Vježbe nekompletnih stimulansa predstavljaju onu vrstu projektivnih tehnika u kojima se
+sudionicima izlažu namjerno nedovršeni, dvosmisleni ili fragmentirani podražaji, poput
+započetih rečenica, nedovršenih priča, slika ili situacija. Zadatak sudionika je da ponuđeni
+materijal dovrše, interpretiraju ili mu pripišu značenje.
+Najčešće korištene projektivne tehnike koje ulaze u ovu kategoriju su asocijacija na
+riječ, test nedovršenih rečenica i test nedovršenih priča. Korištenjem ovih jednostavnih
+projektivnih tehnika istraživači mogu identificirati tipične dojmove i predodžbe vezane uz
+predmet istraživanja, da li prema njemu postoji pozitivan ili negativan odnos, razinu
+informiranosti i znanja, postojeće stereotipe i slično.
+Tehnika asocijacija na riječ: Što Vam prvo padne na pamet kad kažem EU:
+Test nedovršenih rečenica: EU je trenutno u krizi, ta kriza posljedica je (nastavite):
+Tehnike sortiranja i rangiranja
+Tehnike sortiranja i rangiranja podrazumijevaju postupke u kojima se od sudionika traži da
+ponuđene pojmove, tvrdnje, objekte ili slike međusobno uspoređuju, razvrstavaju u kategorije
+ili poredaju prema određenim kriterijima. Iako su kriteriji ponekad unaprijed definirani, oni su
+često prepušteni samim sudionicima, čime se otvara prostor za artikulaciju subjektivnih logika
+koje postoje u vezi teme. Primjerice, sortiranje pojmova (npr. obilježja nekog objekta ili
+događaja) provodi se tako da se sudionicima predoče kartice s popisom pojmova, pri čemu se
+
+od većeg skupa pojmova (npr. 50 ili 100 pojmova) traži izdvajanje ograničenog broja onih koje
+smatraju najrelevantnijima za opis onoga što se istražuje. Nakon toga sudionici obrazlažu
+razloge koji stoje u pozadini logike sortiranja. Isti se postupak može primijeniti i na vizualne
+materijale, poput fotografija ili ilustracija.
+Tehnike mapiranja
+Tehnike mapiranja obuhvaćaju skup postupaka u kojima se od sudionika traži da rasporede,
+tj. unutar određene zamišljene ili stvarne sheme prostorno organiziraju pojmove, objekte,
+aktere ili ideje. Sudionici grupnih diskusija pritom sami određuju odnose bliskosti ili udaljenosti
+među njima, čime se vizualizira subjektivna percepcija strukture istraživanog fenomena.
+Tehnike mapiranja osobito su korisne u istraživanjima pozicioniranosti. Primjerice u
+istraživanjima tržišta čiji je cilj istražiti pozicioniranosti robnih marki u svijesti potrošača ili u
+istraživanjima za potrebe razvoja političkog marketinga i političke komunikacije u kojima se
+istražuje doživljaj političkih stranaka ili kandidata. Najjednostavnija tehnika mapiranja je ona
+u kojoj se od sudionika traži da na koordinatom sustavu prvo definiraju dimenzije
+pozicioniranja, a zatim unutar njega smještaju pojedine objekte.
+Složenija je tzv. pikado tehnika. Na flip chartu ili digitalnom platnu nacrta se pikado ploča, a
+zadatak sudionika je da unutar nje, na koncentričnim krugovima, rasporede pojmove,
+brendove, političke aktere ili druge relevantne objekte u odnosu na središte. Pritom središte
+podrazumijeva idealni položaj. Prije pozicioniranja moderator definira dimenzije, tj. kriterije
+za pozicioniranje. Dakle, udaljenost pojedinog objekta od središta dimenzije odražava stupanj
+percepcije njegove udaljenosti od idealnog položaja na svakoj dimenziji. Nakon što je
+pozicioniranje obavljeno provodi se rasprava kako bi se dodatno objasnila logika
+pozicioniranja.
+Jedna od češće korištenih tehnika mapiranja je i tehnika umne mape (eng. mind mapping).
+Osnovni cilj korištenja ove tehnike je vizualizirati način na koji sudionici konceptualno
+povezuju neki središnji pojam s nizom pridruženih ideja, asocijacija i značenja. Postupak
+započinje definiranjem središnjeg pojma ili ključne teme. Ona se ispisuje na središtu flip charta
+ili digitalnog platna, nakon čega sudionici grade stablo asocijacija – spontano dodaju pojmove
+za koje smatraju da su u nekoj relaciji sa središtem, tj. dodaju pojmove, slike ili kratke opise
+koji se granaju iz tog unaprijed određenog središta. Prema tome, odnosi među pojmovima
+postupno se razrađuju kroz dodatna grananja i međusobna povezivanja.
+
+Analitička vrijednost tehnike umnog mapiranja proizlazi iz mogućnosti uvida u strukturu
+asocijacija kao i pronalaska logike grupiranja i grananja pojmova ili predodžbi. U grupnom
+kontekstu, umno mapiranje dodatno potiče interakciju među sudionicima jer se mapa razvija
+kroz zajedničku raspravu, pregovaranje i nadopunjavanje. Ova tehnika korisna je u svim onim
+situacijama kada je cilj definirati simboličke okvire i semantička polja unutar kojih sudionici
+smještaju određeni fenomen ili pojavu.
+Vježbe imaginacije
+Vježbe imaginacije mogle bi se definirati kao projektivne tehnike kojima se sudionike grupnih
+diskusija potiče da o istraživanoj temi govore posredno, kroz zamišljene scenarije, likove i
+vizualne reprezentacije. U vježbe imaginacije svrstavaju se tehnike
+poput tehnike personifikacije, tehnike zamišljenog univerzuma i tehnike kolaža.
+Pri primjeni tehnike personifikacije moderator od sudionika diskusije traži da zamisle da je
+određeni objekt osoba te zatim da opišu njegove demografske i statusne karakteristike.
+Primjerice sudionicima diskusije postavljaju se sljedeća pitanja: kada bi stranka bila osoba, bi
+li bila muškarac ili žena? Kakve bi bile njene ostale demografske osobine? Kakav bi bio njen
+psihološki profil, socijalni status te uz koje vrijednosti bi pristajala? Slična je svrha i korištenja
+tehnike zamišljenog univerzuma. Pri njenom korištenju sudionici trebaju zamisliti neki objekt
+kao osobu koja nastanjuje specifičnu civilizaciju, a s ciljem da se opišu njena simbolička
+svojstva.
+Tehnika kolaža vjerojatno je najkorištenija projektivna tehnika u okviru grupnih diskusija.
+Sudionicima fokus grupa podjele se različiti materijali, primjerice časopisi, novine, slike,
+fotografije, kartice s riječima, flomasteri, post-it papirići te škare i ljepilo, a sa svrhom da izrade
+kolaž na određenu temu. Dakle, polazi se od pretpostavke da značenja koja diskutanti pridaju
+predmetu istraživanja, njihove emocije prema njemu ili način na koji ga vrednuju mogu biti
+posredovani kroz slike i predodžbe. Nakon završetka, diskutanti zajedno s moderatorom
+analiziraju kolaž i njegove pojedinačne elemente, tumačeći slike, riječi, boje i sintagme te
+objašnjavajući kako ti elementi odražavaju njihove stavove, osjećaje i doživljaj teme
+istraživanja.
+Prema tome, Projektivne tehnike predstavljaju vrijedan metodološki alat u provedbi fokus
+grupa. Njihova upotreba posebice je korisna u situacijama u kojima se nastoji dublje doprijeti
+
+do stavova i mišljenja diskutanata te kada se žele istražiti implicitna, tj. latentna značenja
+određenih fenomena ili pojava. Također, primjenom projektivnih tehnika moguće je ublažiti
+inhibiciju i samocenzuru sudionika fokus grupa te izbjeći prikupljanje ustaljenih narativa o
+istraživanoj temi. Istodobno, projektivne tehnike doprinose kvaliteti same grupne dinamike
+jer potiču interakciju i zajedničko promišljanje sudionika diskusije, čime se ostvaruje i temeljni
+cilj grupne diskusije, tzv. rad grupe, tj. stvaranje grupne integracije koja rezultira snježnom
+grudom spoznaja.
+Stoga, kada se projektivne tehnike promišljeno uključe u grupnu diskusiju one postaju koristan
+instrument za generiranje interpretativno bogatih uvida, onih koji mogu značajno obogatiti
+razumijevanje istraživane teme.
+Interpretacija podataka prikupljenih grupnim diskusijama
+Interpretacija podataka prikupljenih grupnim diskusijama, kao i u slučaju intervjua obavljaju
+se nakon transkripcije. Suštinski, analiza transkripata fokus grupa gotovo je potpuno identična
+kao analiza transkripata intervjua. Dakle, i u ovom slučaju kao osnovni instrument sređivanja
+prikupljenog materijala koristiti se postupak kodiranja. Kao što smo naveli i u poglavlju
+intervju, osnovni principi kodiranja, a koji su svojstveni i za obradu kvalitativnog materijala
+prikupljenog fokus grupama, detaljno su predstavljeni u poglavlju Utemeljena teorija i
+kodiranje.
+Ograničenja grupnih diskusija
+Nekoliko je osnovnih problema s kojima se moraju suočiti praktikanti grupnih diskusija. Prvo,
+to se odnosi na spomenutu potrebu stvaranja grupne dinamike. Naime, u određenim
+situacijama, posebice kada je moderator početnik ili kada je sastav grupe specifičan, grupnu
+dinamiku teško je postići pa se stoga i osnovna pretpostavka koja leži u pozadini ove metode,
+a to je „rad grupe“, ne može ostvariti. U takvim slučajevima grupa funkcionira kao niz
+„intervjua u grupi“, a ne kao grupna diskusija. Također, problem se može javiti i kada su
+prisutne velike varijacije u podacima koji se prikupljaju grupnim diskusijama, tj. kada postoje
+značajne varijacije među grupama u pogledu iskaza sudionika istraživanja. U takvim
+slučajevima istraživanje iziskuje da se provede nekoliko dodatnih grupnih diskusija kako bi se
+mogli ustanoviti pojedini tipični obrasci odgovora, stavova ili mišljenja. I treće, problem se
+
+može javiti i prilikom interpretacije podataka. Naime, i u slučaju grupnih diskusija kao i u
+slučaju ostalih kvalitativnih metoda, način interpretacije podataka može rezultirati prevelikom
+subjektivnošću pri izvođenju zaključaka.
+

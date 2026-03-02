@@ -1,0 +1,257 @@
+# Analiza diskursa
+
+Kao i analiza sadržaja, analiza diskursa ili analiza rasprave nenametljiva je istraživačka metoda.
+Riječ je o kvalitativnoj metodi istraživanja koja se bavi jezikom i njegovom ulogom u
+konstruiranju društvenog života. Njome se istražuje kako pojedini modaliteti govora i obilježja
+teksta utječu na način konstrukcije društvene zbilje, tj. kako utječu na način na koji ljudi vide i
+interpretiraju društveni svijet. Posljedično tome, analiza diskursa usmjerena je na
+interpretacije značenja teksta te kritičko propitivanje društvenog, političkog, kulturnog i
+ideološkog konteksta u kojem se neko značenje formira.
+Halmi, Belušić i Ogresta (2004) ističu da je analiza diskursa naziv za mnoge različite pristupe u
+proučavanju teksta ili nekog drugog empirijskog materijala. Navode da se ova metoda razvila
+iz različitih teorijskih tradicija i disciplinarnih područja te da shodno tome postoji mnogo
+različitih stilova analize diskursa. Zajedničko obilježje različitih inačica analize diskursa je
+odbacivanje shvaćanja prema kojima je jezik isključivo jednostavno, neutralno sredstvo
+održavanja i opisivanja riječi. Među praktičarima analize diskursa jezik se drži kao jedan od
+glavnih mehanizama za konstrukciju društvene zbilje. Drugim riječima, diskursi se mogu
+odrediti kao skupovi iskaza koji konstruiraju objekte i različite subjektivne pozicije društvenih
+aktera. Kada se takve pozicije od strane socijalnih aktera jednom usvoje, one definiraju način
+viđenja svijeta i određene načine bivanja u njemu (Willig, 2016). Dakle, diskursi definiraju
+način viđenja društvenog svijeta i razumijevanja vlastitog položaja u njemu te utječu na
+legitimaciju društvenog poretka. Zbog tog razloga analiza diskursa često je usmjerena na
+istraživanje veze između jezika i različitih ideoloških koncepata. Istražuje se koji je efekt jezika
+i kako on utječe na ostvarivanje određenih političkih ili ekonomskih interesa (Waugh i
+suradnici, 2015). Primjerice, može se postaviti hipoteza da „dominantni diskursi privilegiraju
+one verzije društvene stvarnosti koje legitimiraju postojeće odnose moći i društvene
+strukture“ (Willig, 2016: 280). Zbog toga analiza diskursa polazi i od premise da su diskursi
+neodvojivi od institucionalnih praksi, tj. od načina organiziranja, reguliranja društvenog života
+i upravljanja njime (Willig, 2016: 281)25.
+25 Npr., Britanski lingvist Norman Fairclough (2005) u razvoju vlastite metode analize diskursa naglasak stavlja
+na korištenje jezika kao alata za uspostavljanje moći i dominacije u javnim institucijama ili pak općenito u
+društvu.
+
+Ishodišta analize diskursa
+Analiza diskursa relativno je mlada istraživačka metoda. Uslijed utjecaja različitih
+intelektualnih tradicija razvija se od 60-tih godina prošlog stoljeća. Halmi, Belušić i Ogresta
+(2004: 36) navode da se razvija potaknuta kritikama neopozitivizma i pod snažnim utjecajem
+strukturalističkih i poststrukturalističkih ideja te uslijed postmodernističkih napada na
+tradicionalnu epistemologiju. Dakle, analiza diskursa razvija se kao dio šireg epistemološkog
+obrata, tj. kao jedan moment u afirmaciji tzv. socijalno-konstruktivističkog pristupa u
+proučavanju društvene stvarnosti26. Tip znanja kojem se stremi u istraživanjima koja proizlaze
+iz ove epistemološke paradigme nije znanje o svijetu ili znanje o tome kakve su stvari „u
+stvarnosti“, već prije znanje o procesu putem kojeg je to znanje konstruirano. Shodno tome
+ovaj pristup reafirmira i društvenu funkciju jezika. On polazi od toga da nije stvarnost ta koja
+određuje kako će se opisivati ili kako će se o njoj govoriti, već je jezik taj koji određuje stvarnost
+(Willig, 2016: 52–53). Drugačije rečeno, jezik se ne shvaća kao neutralno sredstvo
+komunikacije, već kao instrument putem kojeg se konstruira društvena zbilja. Zbog ovako
+istaknute pozicije jezika, analiza diskursa usko je povezana s lingvistikom i semiotikom.
+Primjerice, Halmi, Belušić i Ogresta (2004) navode da se među mnoštvom teorijskih tradicija
+iz kojih se razvija analiza diskursa posebice ističe kritička lingvistika ili socijalna semiotika.
+Njezina glavna pretpostavka je da smisao određenog pojma „ne proizlazi iz prirođene značajke
+odnosa između riječi koja služi za objašnjenje i samog pojma koji ta riječ objašnjava, nego iz
+sustava suprotnosti u koji je taj odnos usađen“ (Halmi, Belušić i Ogresta, 2004: 37). Za ovu
+tradiciju važna je činjenica da pojedina lingvistička forma može imati jak učinak na to kako će
+neki događaj biti shvaćen ili protumačen u medijima ili društvu općenito.
+Također, teorijska podloga za analizu diskursa može se pronaći i u konverzacijskoj analizi. Ona
+se usmjerava na funkcionalnu ili akcijsku orijentaciju neke rasprave. Ne bavi se vezom između
+riječi i značenja, već razlogom zašto se neka značenja vezuju uz određenu riječ. Važna teorijska
+tradicija koja motivira analizu diskursa je i poststrukturalizam, posebice Foucaultovi radovi.
+Bitna značajka poststrukturalizma je njegova orijentacija na latentnu strukturu teksta, a ne na
+ono što je eksplicitno izgovoreno ili napisano (Halmi, Belušić i Ogresta, 2004: 37). Primjerice,
+26 Willig (2016) ističe da je u središtu tog pristupa konstrukcija „znanja“, tj. da je ovaj pristup fokusiran na
+izučavanje kako ljudi kroz upotrebu jezika konstruiraju različite verzije realnosti.
+
+Foucaultov predmet interesa nisu detalji izgovorenoga ili već napisanog teksta, već njegova
+latentna struktura i njezino povijesno ishodište. Ova teorijska tradicija rezultirala je jednom
+specifičnom inačicom analize diskursa koja se obično opisuje terminom Foucaultovska analiza
+diskursa (vidi Willig, 2016).
+Potrebno je napomenuti da se analiza diskursa značajno razlikuje od analize sadržaja. Naime,
+iako postoje kvalitativne verzije, analiza sadržaja primarno je kvantitativna metoda
+istraživanja. Također, za razliku od analize sadržaja koja se uglavnom zadržava u gabaritima
+samog sadržaja, tj. interpretacija se uglavnom zadržava u okvirima sadržaja koji se analizira,
+važan moment u analizi diskursa je analiza konteksta u kojem se jezik upotrebljava, a koji
+generira specifičnosti određenog diskursa. Dakle, za razliku od analize sadržaja, za analizu
+diskursa možemo konstatirati da proučava jezik „izvan nivoa rečenice, odnosno govora i
+pisanog teksta“ (Lakić, 2009: 91).
+Područje primjene analize diskursa unutar komunikologije
+Analiza diskursa zadnjih godina sve češće se koristi unutar komunikoloških istraživanja. Naime,
+istraživanja posredstvom ove metode mogu značajno doprinijeti razumijevanju načina na koji
+se kroz medije posreduju narativi o društvenim odnosima svojstvenim nekom društvu.
+Primjerice, mediji funkcioniraju kao agensi javnog mnijenja, tj. imaju utjecaj na javno mnijenje
+o određenom društvenom problemu ili određenom društvenom fenomenu. U tom kontekstu,
+analiza diskursa može se koristiti kao metoda kojom će se istražiti kako mediji konstruiraju
+neki društveni problem, kako ga opisuju, govore li o njemu iz perspektive određenih
+društvenih grupa koje raspolažu društvenom moći, zastupaju li određene interese ili kroz taj
+govor prenose određene ideologije. Primjerice, u članku Nezaposlenost i neformalna
+ekonomija u Hrvatskoj: analiza diskursa, Tihana Rubić (2013) analizira medijski i kolokvijalni
+diskurs o nezaposlenima i nezaposlenosti, tj. analizira kako se kroz medije i kroz naracije
+nezaposlenih perpetuiraju tipične predodžbe o nezaposlenima kao trpećim pojedincima.
+Dakle, sama činjenica da mediji predstavljaju značajno sredstvo konstrukcije društvene zbilje,
+tj. načina na koji pojedinci vide svijet oko sebe, legitimira opravdanost korištenja ove metode
+u komunikacijskim znanostima. Kada se tome doda činjenica da mediji nikada nisu u
+potpunosti ideološki neutralni, tj. da se kroz medijske objave prelamaju određeni svjetonazori
+
+ili ideološki koncepti, analiza diskursa i više je nego koristan metodološki alat u rukama
+komunikologa. Kako se određene ideologije „upisuju“ u medijske objave, prelamaju li se kroz
+njih određene pozicije društvene moći, može li se u njima prepoznati manifestacija
+partikularnih političkih ili ekonomskih interesa, samo su neka od pitanja na koja komunikolozi
+mogu odgovoriti posredstvom analize diskursa.
+Provođenje analize diskursa
+Analiza diskursa nije „stroga“ metoda. To znači da postoji mnoštvo različitih pristupa u analizi
+diskursa pri čemu nisu zadani strogi metodološki zahtjevi u pogledu načina njene izvedbe27.
+Zbog tog razloga Fairclough metodu analize diskursa naziva transdiciplinarnom. Iz toga
+proizlazi da istraživač treba biti otvoren prema pomicanju ionako slabih granica koje određuju
+ovu metodu. On ih može razmicati, proširivati, uvoditi nove momente u pristupu analizi i
+interpretaciji. Ovakav status analize diskursa ujedno onemogućuje striktno, taksativno
+definiranje etapa i faza u njenoj provedbi kao i striktno određenje njenih najvažnijih metodskih
+postupaka28. Stoga ćemo navesti samo ključne točke u analizi diskursa koje navode pojedini
+autori.
+Fairclough (2003) ističe kako je u analizi diskursa važno pronaći ključne riječi u nekom tekstu,
+a zatim otkriti karakteristične obrasce odnosno veze između detektiranih riječi i onih koje se
+pojavljuju uz njih i koje zajedno daju određeni kontekst i specifično značenje sadržaju koji se
+prenosi. Sama detekcija riječi iziskuje interpretaciju. Ona je složen proces. S jedne strane ona
+je stvar razumijevanja rečenica ili konteksta većih dijelova teksta, razumijevanja onoga što
+govornik namjerava poručiti, odnosno što želi postići svojim izjavama. S druge strane,
+interpretacija je stvar rasuđivanja odnosno istraživačeve procjene o različitim aspektima
+govora, npr. govori li subjekt ozbiljno ili ne, jesu li njegove tvrdnje istinite ili nisu, govori li u
+skladu s realnim stanjem u društvu i institucijama kojima pripada. Polazeći od toga, može se
+konstatirati da Fairclough implicitno sugerira tri osnovna koraka u analizi diskursa:
+27 Primjerice, Halmi, Belušić i Ogresta (2004) tvrde da postoji najmanje 57 varijanti analize diskursa.
+28 Na to upućuju i Halmi, Belušić i Ogresta kada navode da ne postoji gotov recept koji o tome kako
+pristupiti analizi teksta. Puno je lakše navesti i raspravljati o ključnim temama analize diskursa nego
+nekoga naučiti kako pristupiti analizi teksta (Halmi, Belušić i Ogresta 40: 2004).
+
+1. Tekst. Analiza teksta fokusira se na formalne karakteristike tekstova (rječnik, gramatika,
+kohezija, struktura teksta).
+2. Diskurzivna praksa. Analiza je usmjerena na proizvodnju, upotrebu i distribuciju diskursa
+koji je predmet proučavanja.
+3. Društvena praksa. Analiza društvene prakse (ili socio-kulutrne prakse) se bavi društvenim i
+kulturnim zbivanjima. Ovaj razina analize navodi istraživača da ne proučava ne samo formu
+teksta već i to kako se tekst koristi u odgovarajućem društvenom kontekstu.
+Predstavljajući jednu specifičnu inačicu analize, koju naziva foucaultovskom analizom
+diskursa, Willig (2016) navodi nekoliko osnovnih faza u provedbi ove vrste istraživanja. Pritom
+treba napomenuti da Willig ovu vrstu analize diskursa opisuje kao onu koja postavlja pitanja o
+odnosu između diskursa i načina mišljenja i osjećaja ljudi, te o odnosu djelovanja (prakse) i
+materijalnih uvjeta pod kojima može doći do određenih iskustava i djelovanja.
+Dakle, njena se specifičnost može pronaći u tome što je, između ostalog, usmjerena i na
+analizu konstruiranja psihičkog života pojedinca (Willig, 2016: 280–281). Zbog tog razloga
+Willig analizu diskursa pozicionira unutar kvalitativnih metoda istraživanja koje su pogodne za
+primjenu i u psihologiji. Prema autorici, ova se inačica analize diskursa provodi posredstvom
+šest faza (Willig, 2016: 284–287).
+1. Faza - Diskurzivne konstrukcije: Prva faza analize posvećena je načinima na koji su
+konstruirani diskurzivni objekt. O tome na koji će se diskurzivni objekt istraživač
+usredotočiti ovisi o istraživačkog pitanja. Primjerice, ako smo zainteresirano za to kako
+ljudi govore o „bolesti“, kao diskurzivni objekt definira se pojam „bolesti“. Prva faza
+analize podrazumijeva identificiranje različitih načina na koje se diskurzivni objekt
+konstruira u tekstu. Dakle, izdvajaju se svi slučajevi referiranja na pojam bolesti.
+2. Faza - Diskursi: U ovoj fazi istraživač se usredotočuje na razlike među različitim
+diskurzivnim konstrukcijama. Naime, ono što može izgledati kao jedan isti diskurzivni
+objekt može biti konstruirano na različite načine. Cilj ove faze je odrediti mjesto
+različitih diskurzivnih konstrukcija unutar širih diskursa. Npr., žena koja govori o
+iskustvu života sa suprugom oboljelim od raka može se oslanjati na biomedicinski
+diskurs dok govori o iskustvu s medicinskim tretmanom, može se oslanjati na psihološki
+diskurs dok iznosi svoje interpretacije o tome zašto se suprug razbolio, a može govoriti
+
+i iz perspektive diskursa zajedničkog života dok govori o načinima na koji ona i suprug
+zajednički proživljavaju njegovu bolest i zajednički se bore protiv raka. U sva tri slučaja
+jedan širi diskurzivni objekt je definiran kao „bolest“.
+3. Faza - Praktično usmjerenje: Ova faza sastoji se od detaljnijeg ispitivanja diskurzivnih
+konteksta unutar kojih se javljaju različite konstrukcije diskurzivnih objekata. Pokušava
+se otkriti što se postiže konstrukcijom objekta na konkretan način, na konkretnom
+mjestu unutar teksta. Utvrđuje kako je pojedina konstrukcija povezana s
+konstrukcijama koje se javljaju u ostatku teksta. Primjerice, korištenje diskursa
+zajedničkog života u navedenom primjeru može se tumačiti kao posljedica želje žene
+da istakne svoje značenje u procesu liječenja.
+4. Faza - Pozicioniranost: U ovoj fazi analizira se koje subjektivne pozicije pojedini diskursi
+konstruiraju. Naime, diskursi konstruiraju i subjekte, tj. određuju pozicije unutar neke
+mreže značenja kojima se korisnici jezika mogu poslužiti. Shodno tome, u ovoj se fazi
+se gleda koje socijalne pozicije omogućuju određeni diskursi.
+5. Faza - Praksa: U ovoj fazi utvrđuju se prakse koje se vezuju uz određene diskurse, tj.
+koje socijalne prakse iz perspektive određenog diskursa postaju legitimne. Willig
+napominje da prakse reproduciraju diskurse koje ih legitimiraju. Na taj način,
+govorenje i postupanje podupiru jedno drugo.
+6. Faza - Subjektivnost: Završna faza podrazumijeva istraživanje odnosa između diskursa
+i subjektivnosti. Diskursi čine dostupnim određene načine gledanja na svijet i određene
+načine života u svijetu. Oni konstruiraju kako društvene tako i psihološke realnosti.
+Stoga se u ovoj fazi analize utvrđuju posljedice koje zauzimanje različitih subjektivnih
+pozicija ima po subjektivno iskustvo pojedinaca.
+Kritička analiza diskursa
+Kao što smo naveli, među teoretičarima analize diskursa, diskurs se često povezuje s
+konceptom društvene moći. Pretpostavka prema kojoj diskursi izražavaju težnju društvenih
+aktera za manifestacijom moći te socijalnom dominacijom osnovno je uporište one inačice
+analize diskursa koja se naziva kritička analiza diskursa (eng. Critical Discourse Analysis – CDA).
+Ova inačica analize diskursa smjera pokazati kako određeni diskursi funkcioniraju u specifičnim
+socijalnim i kulturnim praksama, kako se posredstvom njih manifestiraju odnosi moći u
+društvu i kako se prenose određene ideologije. Drugim riječima, kritička analiza diskursa polazi
+
+od diskursa kao čina govorenja ili pisanja, kao korpusa znanja i kao skupa postupaka koji
+određuju prihvatljive načine komuniciranja i uporabe tog znanja, no kojima se zagovaraju
+određeni društveni interesi. Kritičkom analizom diskursa želi se istražiti kako jezik funkcionira
+u specifičnim socijalnim i kulturnim praksama te kako je diskurs oblikovan odnosima moći.
+Prema tome, posredstvom ove inačice analize diskursa pokušava se spoznati čije interese kroz
+određeni diskurs zagovaraju pojedine društvene grupe, pojedinci ili institucije, i kakva je
+njihova sposobnost promicanja interesa i ideologija temeljem korištenja određenog /
+određenih diskursa.
+Iako postoje različite verzije kritičke analize diskursa, Waugh i suradnici navode da postoji niz
+elemenata koji su zajednički svim verzijama (Waugh i suradnici, 2015: 75).
+Primjerice:
+• kritička analiza diskursa je problemski orijentirana, interdisciplinarna i eklektična
+metoda;
+• u fokusu njenog interesa je interes za demistifikaciju ideologija i društvene moći kroz
+sustavno istraživanje semiotičkih podataka;
+• ona polazi od uvjerenja da su društvena i politička pitanja konstruirana kroz diskurs i
+da se manifestiraju kroz diskurs;
+• odnosi moći se pregovaraju i ostvaruju kroz diskurs;
+• diskurs reproducira i reflektira društvene odnose;
+• ideologije se reproduciraju kroz diskurs;
+• diskurs ima važnu povijesnu dimenziju;
+• diskurs je oblik socijalne prakse i akcije;
+Waugh i suradnici (2015) navode da postoji pet glavnih teorijskih modela kritičke analize
+diskursa. Prvi je dijalektičko-relacijski pristup Normana Fairclougha. On u svojoj knjizi Jezik i
+moć iz 1989., koja se smatra pionirskim djelom za razvitak CDA, opisuje dvije glavne značajke
+jezika i analizira međusobne odnose: upotrebu različitih jezičnih stilova u odnosu na različite
+segmente društvenog života.
+Drugi je Van Dijkov sociokognitivni pristup. On diskurs drži multidimenzionalnim društvenim
+fenomenom koji je u trenutku analize lingvistički objekt, ali i oblik socijalne interakcije i
+
+društvene prakse te mentalne reprezentacije događaja i/ili stvarnosti. Treći je pristup
+društvenih aktera (Social Actors Approach) Thea van Leeuwena, a njegova je temeljna
+postavka da su diskursi zapravo rekontekstualizacije društvenih praksi.
+Diskursno-povijesni pristup Ruth Wodak (Discourse-Historical Approach) temelji se na
+istraživanju poslijeratne Austrije, a bavi se uglavnom analizom političkog diskursa te nastoji
+razviti konceptualne alate za određene društvene pojave i probleme. Peti pristup, tzv.
+dispozitivna analiza, temelji se na teoriji diskursa Michela Foucaulta te je fokusiran na
+kulturološke i društvene momente unutar diskursa, tj. na makrorazinu u odnosu na lingvističku
+mikrorazinu. Diskursu se pristupa ponajprije iz sociokulturne perspektive, a tek zatim sa
+strukturalno-lingvističke strane.
+Iako je analiza diskursa interdisciplinarna i kvalitativna metoda istraživanja te je primjenjiva na
+istraživanje različitih društvenih fenomena, moguće joj je uputiti i nekoliko metodoloških
+kritika. Prije svega, to se odnosi na vrijednosnu neutralnost istraživanja te na objektivnost u
+zaključivanju. Naime, u slučaju analize diskursa postoji mogućnost prevelike subjektivnosti u
+pojedinim etapama istraživanja. Primjerice, postoji mogućnost subjektivnosti pri odabiru
+materijala koji će se istražiti, ali i subjektivnosti pri izvođenju zaključaka. Treba imati na umu
+da se radi o inherentno kvalitativnoj i interpretativnoj metodi istraživanja.
+Kritika analize diskursa
+Unatoč velikoj popularnosti i heurističkoj vrijednosti u društvenim i humanističkim
+znanostima, analiza diskursa, a posebice njezina kritička inačica (CDA), suočava se s pojedinim
+epistemološkim i metodološkim prigovorima. Kritike se najčešće fokusiraju na pitanja
+objektivnosti, reprezentativnosti uzorka te političke pristranosti istraživača.
+Jedna od najznačajnijih kritika odnosi se na problem cirkularnosti i subjektivnosti
+interpretacije. Kritičari poput Widdowsona (2004) ističu da istraživači diskursa često pristupaju
+tekstu s unaprijed formiranim političkim stavovima ili hipotezama o odnosima moći. Umjesto
+da dopuste podacima da govore sami za sebe, oni selektivno interpretiraju jezične strukture
+kako bi potvrdili svoje početne pretpostavke. U tom smislu, analiza diskursa može postati
+"ideološka interpretacija" radije nego rigorozna znanstvena analiza, čime se gubi distinkcija
+između znanstvenog rada i političkog aktivizma.
+
+Nadalje, pitanje reprezentativnosti i generalizacije predstavlja također značajan izazov. Budući
+da se analiza diskursa oslanja na dubinsku interpretaciju manjeg broja tekstova ili govornih
+situacija, često joj se prigovara nedostatak statističke relevantnosti. Stubbs (1997) naglašava
+da bez primjene kvantitativnih metoda (poput korpusne lingvistike), istraživač ne može sa
+sigurnošću tvrditi da su uočeni obrasci doista dominantni u širem društvenom kontekstu, a ne
+tek izolirani incidenti ili idiosinkrazije autora teksta.
+Dakle, s epistemološkog stajališta, radikalni socijalni konstruktivizam koji stoji u temeljima
+analize diskursa ponekad vodi u opasnost od relativizma. Ako je sve "samo diskurs" i ako ne
+postoji objektivna izvandiskurzivna stvarnost, postavlja se pitanje na temelju čega istraživač
+može kritizirati postojeće odnose moći. Ako su sve istine konstruirane, tada je i sama kritička
+analiza samo još jedan "režim istine" bez povlaštenog pristupa objektivnosti.

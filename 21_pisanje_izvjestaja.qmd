@@ -1,0 +1,54 @@
+# Pisanje istraživačkog izvještaja zasnovanog na kvalitativnim podacima
+
+Pisanje kvalitativnog istraživačkog izvještaja složen je i zahtjevan proces.
+Kao prvo, pisanje kvalitativnog izvještaja prije svega zahtijeva vrijeme. Kvalitativni podaci –
+bilo da su rezultat intervjua, fokus grupa, opservacija ili analize dokumenata – i nakon
+kodiranja bogati su značenjem, višeslojni su i često proturječni. Njihovo interpretativno
+oblikovanje traži mnogo više od pukog rezimiranja kodiranja: ono zahtijeva dubinsko
+razumijevanje konteksta i vrlo često - kontinuirano vraćanje na sirovi empirijski materijal. Zbog
+toga istraživači nerijetko na pisanje kvalitativnog istraživačkog izvještaja potroše više vremena
+nego što je to slučaj s pisanjem kvantitativnih istraživačkih izvještaja. Tome doprinosi i to što
+je razliku od kvantitativnih istraživanja, pisanje kvalitativnog izvještaja uglavnom puno manje
+standardizirano. Obično je istraživač taj koji uspostavlja vlastitu logiku izlaganja, utemeljenu
+na teorijskom okviru, istraživačkim pitanjima i naravi samih podataka. Stoga se pisanje
+kvalitativnog izvještaja može se usporediti s režiranjem dokumentarnog filma. Režiser iz obilja
+snimljenog materijala odabire kadrove koji najbolje prenose značenje i grade narativnu
+cjelinu. Pritom se mnogi kadrovi izostavljaju jer ne doprinose cjelokupnoj slici, pa čak i ako su
+sami po sebi zanimljivi. Isto vrijedi i za kvalitativnog istraživača: on selektivno uključuje one
+iskaze, tematske cjeline i analitičke uvide koji podupiru ključne tvrdnje, pri čemu mora stalno
+balansirati između vjerodostojne reprezentacije stvarnosti i narativne konstrukcije.
+Središnje mjesto u kvalitativnom pisanju zauzima koncept guste deskripcije (thick description),
+koji je u znanstveni diskurs uveo antropolog Clifford Geertz (1973). Ovaj pristup podrazumijeva
+da se ponašanje i izjave sudionika ne promatraju izolirano, već se interpretiraju u njihovom
+širem kulturnom, društvenom i simboličkom kontekstu. Gusta deskripcija omogućuje čitatelju
+da dublje razumije društveni svijet sudionika kvalitativnih istraživanja, gotovo iz njihove
+vlastite perspektive, pri čemu interpretacije istraživača ostaju ukorijenjene u značenjskim
+strukturama samih aktera. U praksi ona uključuje detaljan prikaz konteksta u kojemu se podaci
+pojavljuju. To znači da se opisuju odnosi među akterima, prostor, jezik, vremenski okvir kao i
+subjektivna perspektiva sudionika. Povezuju se pojedinačne izjave s kolektivnim obrascima
+ponašanja i tumačenja, a važan je i refleksivan pristup ulozi istraživača i njegovom utjecaju na
+proces interpretacije.
+
+Ovakav pristup omogućuje da izvještaj ne ostane na razini ilustrativnih primjera, već da
+preraste u dublju analizu. Jedan od ključnih elemenata guste deskripcije jesu upravo citati
+sudionika. U izvještajima koji se temelje na rezultatima intervjua ili fokus grupa, istraživači
+često uključuju brojne citate, kojima podupiru vlastite interpretacije i osiguravaju njihovu
+empirijsku utemeljenost.
+Kako bi citati ispunili svoju analitičku funkciju, potrebno ih je uključivati promišljeno i uz
+pridržavanje tehničkih i etičkih smjernica. Svaki citat treba biti jasno smješten unutar
+analitičkog okvira i interpretiran u odnosu na temu kojom se bavi, ne smije ostati sam sebi
+prepušten. Moguće je skraćivati duže iskaze radi preglednosti, ali bez narušavanja njihova
+značenja, uz jasno označene izostavljene dijelove. Posebna pažnja posvećuje se zaštiti
+identiteta sudionika. Potrebno je koristiti pseudonime ili oznake koje ne otkrivaju njihove
+stvarne osobne podatke. Također, potrebno je održati ravnotežu između količine citata i
+ostalih dijelova istraživačkog izvještaja, kako bi on ostao jasan i usmjeren, a ne pretrpan nizom
+neobrađenih izjava.
+Kvalitativni istraživački izvještaj najčešće sadrži sljedeće dijelove:
+• Uvod: definira se istraživački problem, postavljaju istraživačka pitanja i iznosi teorijski
+okvir.
+• Metodologija: opisuje se način prikupljanja podataka, profil sudionika, kodiranje i
+analitički pristup.
+• Analitički dio: središnji segment izvještaja, organiziran kroz tematske cjeline ili
+analitičke kategorije. Interpretacije se isprepliću s ilustrativnim citatima.
+• Diskusija i zaključci: rezultati se povezuju s teorijskim pretpostavkama, ukazuje se na
+ograničenja istraživanja te se otvaraju nova pitanja i pravci za buduća istraživanja.

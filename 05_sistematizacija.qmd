@@ -1,0 +1,86 @@
+# Sistematizacija znanosti i znanstvenih istraživanja
+
+Postoje različiti načini sistematizacije znanosti. Npr. prema Pravilniku o znanstvenim i
+umjetničkim područjima, poljima i granama Nacionalnog vijeća za znanost2, znanstvena
+područja mogu se definirati na sljedeći način: prirodne znanosti, tehničke znanosti,
+biomedicinske i zdravstvene znanosti, biotehničke znanosti, društvene znanosti, humanističke
+znanosti te interdisciplinarna područja znanosti.
+Vjerojatno je najopćenitija podjela znanosti podjela na prirodne, društvene i humanističke
+znanosti. Prirodne znanosti proučavaju prirodni svijet i prirodne fenomene, a društvene svijet
+društvenog života, društvenih interakcija i društvenih odnosa. Njemački filozof Wilhelm
+Windelband znanosti dijeli na nomotetske znanosti i idiografske znanosti. Nomotetske
+znanosti su one koje nastoje otkriti ponavljajuće pravilnosti, tj. prirodne ili društvene zakone.
+Idiografske znanosti su one koje su usmjerene na subjektivne, pojedinačne i, kao takve, na
+neponovljive fenomene (enciklopedija.hr3).
+Drugi njemački filozof, Wilhelm Dilthey, razvio je koncept tzv. duhovnih znanosti koje je
+pokušao odvojiti od prirodnih znanosti (vidi Dilthey, 1980). Duhovne znanosti, u koje spadaju
+i povijesne, znanosti su koje se bave djelovanjem čovjeka. Prema Diltheyu, kod prirodnih
+znanosti, koje objašnjavaju prirodnu zbilju, stvari se promatraju izvana, postoji distanciranost
+onoga tko promatra i onoga što se promatra. Za razliku od toga, u duhovnim znanostima ne
+postoji distanca između subjekta i objekta promatranja, što omogućuje razumijevanje
+društvenih pojava. Dakle, Dilthey duhovne znanosti određuje kao one koje se bave prirodom
+čovjeka i njegovog djelovanja. Ovaj Diltheyev koncept dodatno je razradio njemački sociolog
+Max Weber koji je u sociologiju uveo koncept razumijevanja (Verstehen) kao ključni analitički
+alat za proučavanje društvenog djelovanja. Prema Weberu, cilj društvenih znanosti nije puko
+vanjsko objašnjavanje činjenica, već razumijevanje subjektivnog značenja i smisla koji
+pojedinci pridaju svojim postupcima (Weber, 1989).
+2 Dostupno na https://narodne-novine.nn.hr/clanci/sluzbeni/2009_09_118_2929.html
+3 http://www.enciklopedija.hr/natuknica.aspx?id=66216, pristupljeno 11. 1. 2018.
+
+Znanosti se mogu u jednom užem smislu podijeliti i s obzirom na njihovu krajnju svrhu. Ukoliko
+je primarna svrha znanstvenog istraživanja izgradnja znanstvenih teorija, tj. doprinos izgradnji
+znanja unutar nekog znanstvenog područja ili izgradnja tzv. propozicijskog znanja (Mokyr,
+2007: [3]), tada govorimo o akademskim ili fundamentalnim znanostima. U slučaju ove vrste
+znanosti, spoznaje do kojih se dolazi znanstvenim istraživanjima nužno ne moraju biti
+praktično primjenjive. Ukoliko je riječ o istraživanjima čiji je cilj spoznaja zbog neke praktične
+primjene – rješavanje nekog konkretnog problema, razvoj tehnologije, unaprjeđenje uvjeta
+društvenog života i sl., tj. ukoliko je cilj znanstvenog istraživanja izgradnja tzv. instrumentalnog
+ili „korisnog“ znanja – tada je riječ o primijenjenim znanostima ili primijenjenim znanstvenim
+istraživanjima. Primjerice, fundamentalna znanstvena istraživanja u okviru komunikologije
+bave se testiranjem pojedinih teorijskih propozicija agenda-setting teorije, nadopunjavanjem
+teorijskog koncepta framinga ili provjerom pojedinih postavki Lazarsfeldove teorije
+dvostupanjske komunikacije. Nasuprot tome, primijenjena komunikološka istraživanja
+provode mediji kako bi utvrdili brojnost i strukturu svoje publike. Također, ovakva istraživanja
+provode i agencije za tržišne komunikacije i istraživanje javnog mnijenja prilikom testiranja
+učinkovitosti provedenih komunikacijskih kampanja.
+Znanstvena istraživanja možemo podijeliti i s obzirom na njihove tipične ciljeve, a shodno tome
+i na njihov krajnji spoznajni domet. U tom kontekstu možemo govoriti o eksplorativnim,
+deskriptivnim i kauzalnim istraživanjima. Eksplorativna istraživanja nam služe da steknemo
+prvi uvid u temu ili istraživački problem. Obično se koriste kada je predmet istraživanja slabo
+istražen i poznat, a istraživač nedovoljno familijariziran s njime. Svrha ovakvih istraživanja je
+razumijevanje problematike koja je u središtu znanstvenog interesa, identificiranje
+relevantnih pitanja i generiranje istraživačkih hipoteza. Ova vrsta istraživanja često se koristi
+u početnim fazama znanstvenog procesa. U društvenim znanostima ona se vrlo često provode
+posredstvom kvalitativnih metoda istraživanja, poput dubinskih intervjua ili fokus-grupa. Na
+primjer, ako istražujemo zašto mladi sve manje koriste određenu društvenu mrežu, a o tome
+još nema dovoljno podataka, primijenit ćemo eksplorativni pristup kako bismo prikupili
+preliminarne spoznaje i generirali hipoteze na ovu temu.
+Deskriptivna istraživanja provode se kad istraživači imaju osnovne uvide u obilježja znanstvene
+problematike koja se istražuje, no žele doći do novih spoznaja – tj. žele opisati određene
+
+pojave i njihova obilježja. Ova istraživanja obično odgovaraju na pitanja poput „što“, „tko“,
+„gdje“, na koji način, „kada“. U društvenim znanostima deskriptivna istraživanja vrlo često se
+provode metodom ankete. Na primjer, ako želimo spoznati koliko često studenti koriste
+digitalne alate tijekom studija, koliko vremena provode na internetu ili koje društvene mreže
+najviše koriste, upotrijebit ćemo metodu ankete. Dakle, deskriptivna istraživanja opisuju
+obilježja pojava ili obilježja relacija između varijabli koje čine pojavu (npr. utvrđuje se
+intenzitet korelacije ili se testira statistička značajnost razlika prikupljenih na uzorku), ali
+posredstvom njih nije moguće utvrditi kauzalne veze, tj. uzročno-posljedične odnose između
+varijabli.
+Za tu svrhu koriste se kauzalna istraživanja. Glavno pitanje koje ovo istraživanje postavlja jest:
+„Uzrokuje li pojava X pojavu Y?“ Za razliku od deskriptivnih istraživanja, koja opisuju pojave,
+utvrđuju kvantitativne manifestacije pojava ili eventualno utvrđuju snagu povezanosti između
+varijabli, kauzalna istraživanja smjeraju objasniti uzročno-posljedične odnose između pojava.
+Najčešće se provode metodom eksperimenta na način da istraživač aktivno manipulira jednom
+nezavisnom varijablom (ili grupom varijabli) kako bi proučio njihov učinak na tzv. zavisnu
+varijablu.
+Kao što smo napomenuli, od prvih dana svog utemeljenja, komunikologija se razvijala kao
+primijenjena, tj. praktična i kao fundamentalna znanstvena disciplina. Važan razlog njenog
+nastanka kao znanstvene discipline upravo je izgradnja instrumentalnog znanja, znanja
+„potrebnog za rješavanje konkretnih problema u gospodarskoj, vojnoj i političkoj uporabi
+medija za reklamu i propagandu“ (Kunczik i Zipfel, 2006: 32). Paralelno s tim praktičnim
+razlozima, uspostavljala se i njena teorijska osnova, tj. gomilanje instrumentalnog znanja kao
+posljedicu je imalo razvoj i propozicijskog znanja o suodnosu medija i društva, utjecaju medija
+na pojedince, medijskim učincima i sl. Upravo zbog ovakvog, pomalo nespecifičnog razvojnog
+puta, u idućem poglavlju predočeni su istraživački problemi kojima su se bavili utemeljitelji
+komunikologije i iz čijeg se rada fundirala komunikologija kao znanstvena disciplina.

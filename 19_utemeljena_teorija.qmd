@@ -1,0 +1,203 @@
+# Utemeljena teorija i kodiranje
+
+Kao što smo naveli, intervjui i fokus grupe rezultiraju obiljem kvalitativnog materijala. Prvi
+korak u njegovom sređivanju, a što je preduvjet interpretacije, izrada je transkripata. Drugi
+korak je sređivanje podataka, tj. uvođenje reda u podatke, a provodi se posredstvom procesa
+kodiranja, tj. kategoriziranja i smislenog povezivanja iskaza, odgovora i stavova sudionika
+intervjua ili fokus grupa. Proces kodiranja, njegove faze i obilježja iscrpno objašnjava tzv.
+utemeljena teorija (eng. Grounded Theory). Ova metodološka strategija, ili svojevrsna
+normativna znanstvena teorija, pruža vrlo korisne oslonce za analizu kvalitativnog materijala,
+posebice pruža odlično metodološko uporište za pristup analizi materijala prikupljenog
+dubinskim intervjuima ili fokus grupama.
+Utemeljenu teoriju (eng. Grounded Theory) fundirali su sociolozi Barney Glaser i Anselm
+Strauss. Predstavili su je u knjizi The Discovery of Grounded Theory: Strategies of Qualitative
+Research (1967). Smatrali su da istraživačka kultura u društvenim znanostima favorizira
+kvantitativnu verifikaciju te da podcjenjuje kvalitativne studije čiji je cilj generiranje teorija.
+Stoga su razvili metodološku strategiju koja razvija teorijske uvide o društvu temeljem
+podataka prikupljenih različitim kvalitativnim metodama istraživanja.
+Najznačajnije obilježje utemeljene teorije ono je prema kojem kvalitativno istraživanje ne
+kreće od postojeće teorije koju se pokušava testirati, nego kreće od prikupljanja podataka koji
+će pružiti razumljivu i dostatnu osnovu za oblikovanje novih znanstvenih teorija (Škrbić
+Alempijević, Potkonjak i Rubić 2016).
+Dakle, suština utemeljene teorije nalazi se u propoziciji da teorija nastaje iz podataka, a ne
+odvojeno od njih. To znači da istraživači ne započinju istraživanje s unaprijed formuliranim
+hipotezama ili teorijskim propozicijama, već dopuštaju da podaci koje prikupljaju sami oblikuju
+teorijske uvide i okvire. Upravo zbog toga se i u pripremi kvalitativnih istraživanja ne razvijaju
+istraživačke hipoteze, već se postavljaju generalizirana istraživačka pitanja. Prema
+propozicijama utemeljene teorije, najbolji uvidi i teorije proizlaze iz stvarnih, empirijskih
+podataka, a ne iz pretpostavki ili već postojećih teorijskih okvira. To ujedno i znači da se
+istraživači koji koriste ovaj pristup ohrabruju da njihovu analizu zadrže u granicama
+prikupljenih podataka. Dakle, naziv utemeljena teorija podrazumijeva proces generiranja, tj.
+
+stvaranja teorije iz podataka, odnosno utemeljenje teorijskih konstrukata u podacima. Ona se
+razvija tijekom samog istraživačkog procesa kroz stalni proces dinamičke interakcije između
+prikupljanja i analize podataka.
+Ključne uporišne točke utemeljene teorije su metoda stalne usporedbe, teorijsko uzorkovanje
+te kodiranje (Jeđud, 2007: 87).
+Metoda stalne usporedbe ili „kruženje po podacima“ podrazumijeva da istraživač istovremeno
+prikuplja, analizira i povezuje podatke, i to kroz cijeli proces istraživanja. Dakle, istraživanje je
+otvoreni proces u kojem istraživač neprestano propituje svoje prethodne zaključke, validira ih
+i rekonceptualizira uslijed spoznaja do kojih dolazi tijekom istraživačkog procesa. Ovo načelo
+utemeljene teorije povezano je s teorijskim uzorkovanjem. Ono podrazumijeva proces
+prikupljanja podataka te selekciju građe koja se analizira na temelju njene relevantnosti za
+istraživačko pitanje, teoretsku poziciju, analitički okvir i teoriju koju razvijamo. Drugim
+riječima, uzorkovanje, tj. dodavanje novih empirijskih evidencija i empirijske građe u proces
+analize, vođeno je procesom same analize. Primjerice, ukoliko istraživač zaključi da je za
+potrebe proširivanja već donesenih zaključaka potreban novi korpus empirijskog materijala,
+on se naknadno uključuje u analizu. Teorijsko uzorkovanje se prekida kada se postigne
+teorijska zasićenost, tj. kada novi podaci više ne donose nove informacije.
+Kao što smo već spomenuli, prije početka završne faze u interpretaciji kvalitativnih podataka,
+poželjno je da se podaci klasificiraju i reduciraju, tj. da se uobliče u formu koja omogućuje
+lakšu interpretaciju. Zbog toga je proces kodiranja, tj. uvođenja reda u podatke, jedno od
+ključnih mjesta utemeljene teorije. Naime, prema autorima utemeljene teorije, teorija ne
+proizlazi iz sirovih podataka, već iz podataka koji su prema određenoj logici „dovedeni u red“.
+To je suština kodiranja.
+Tri razine kodiranja
+Kodiranje podrazumijeva grupiranje sličnih podataka, npr. iskaza prikupljenih fokus grupama,
+pri čemu se to grupiranje temelji na nekoj, najčešće tematskoj logici. Kodiranje je osnovni
+analitički postupak utemeljenje teorije (Škrbić Alempijević, Potkonjak i Rubić 2016). Ove
+autorice navode da danas postoje dvije ključne sistematizacije kodiranja, prema Corbin I
+Strauss (1990) te prema Charmaz (2011).
+
+Detaljnije ćemo predstavit principe kodiranje koje su razvili Corbin i Strauss23. Oni razlikuju tri
+faze u kodiranju kvalitativnog materijala: otvoreno kodiranje, osno ili aksijalno kodiranje te
+selektivno kodiranje (Škrbić Alempijević, Potkonjak i Rubić 2016).
+1. Otvoreno kodiranje (Open Coding)
+Otvoreno kodiranje je početna faza analize podataka u kojoj istraživači identificiraju i
+označavaju značajne grupe podataka (kao što su rečenice, izrazi ili događaji) koji mogu biti
+relevantni za istraživačko pitanje. Obuhvaća kompariranje podataka te definiranje sličnosti i
+razlika među podacima. Ova faza kodiranja povezuje se sa stvaranjem oznaka ili „etiketa“, što
+znači da se podaci, tj. kvalitativna građa, razvrstana prema sličnosti te identificirana kroz
+razlike, pokušavaju konceptualno imenovati, odnosno označiti (etiketirati) (Škrbić Alempijević,
+Potkonjak i Rubić, 2016: 51).
+Dakle, cilj otvorenog kodiranja jest prepoznati što više mogućih tema, kategorija i fenomena
+u podacima, bez prethodnih pretpostavki. U ovoj fazi uspostavljeni kodovi služe kao temelj za
+kasnije faze kodiranja.
+2. Aksijalno / osno kodiranje
+Provodi se nakon što su podaci inicijalno kodirani u fazi otvorenog kodiranja. Ovdje se nastoji
+povezati različite kategorije i kodove iz prve faze. Cilj je stvoriti međusobne veze između
+kodova i razumjeti kako se pojedini aspekti podataka odnose na središnje pojmove ili tematske
+kategorije. U ovoj fazi se traže uzročno-posljedične veze, kontrasti i varijacije, te se razvijaju
+centralne kategorije koje objašnjavaju glavne fenomene. Istraživači postavljaju pitanja poput:
+"Kako ove kategorije djeluju zajedno?", "Koji su uzroci i posljedice ovih kategorija?", "Koje su
+relacije između njih?"
+3. Selektivno kodiranje (Selective Coding)
+Selektivno kodiranje je posljednja faza kodiranja u utemeljenoj teoriji. Ona pretpostavlja da
+već imamo razvijene dostatne kategorije. U ovoj fazi kodiranja istraživači se fokusiraju na
+razvijanje središnje kategorije koja najbolje objašnjava sve ostale kategorije i fenomene
+23 Za detaljnije upoznavanje s procesom kodiranja koje je razvila Charmatz, pogledati Škrbić
+Alempijević, Potkonjak i Rubić 2016. str. 53-56.
+
+identificirane tijekom otvorenog i osnog kodiranja. Selektivno kodiranje podrazumijeva
+integriranje i povezivanje kategorija u koherentnu, središnju teorijsku cjelinu.
+Ideja središnje kategorije jest da daje „jasnu sliku koja tu kategoriju ili konceptualnu etiketu
+integrira u cjelokupnu analizu“ (Corbin i Strauss, 1990: 14, prema Škrbić Alempijević,
+Potkonjak i Rubić, 2016: 52). Središnja kategorija je jedna vrsta nadkategorije; ona integrira
+sve konceptualne oznake, potkategorije i niže kategorije. Središnja kategorija ima sposobnost
+da efektno i dostatno objašnjava fenomen koji se istražuje (Škrbić Alempijević, Potkonjak i
+Rubić, 2016: 52). Ova faza kodiranja ključna je za razvoj teorije jer u njoj istraživači destiliraju
+najvažniju, sveobuhvatnu kategoriju koja objašnjava glavnu dinamiku istraživane teme. Dakle,
+na određeni način središnja kategorija predstavlja suštinu teorije koja se pojavljuje nakon
+analize podataka.
+Važno je napomenuti da je kodiranje ključni interpretativni proces u kvalitativnim
+istraživanjima. Iako se kodiranje danas obavlja posredstvom računalnih programa za
+kvalitativnu obradu podataka (npr. Atlas.ti, NVivo, MaxQDA24) važno je istaknuti da je riječ o
+izrazito kreativnoj fazi kvalitativnog istraživanja, a čiji ishod ovisi o brojnim čimbenicima – od
+toga koliko istraživač poznaje problematiku istraživanja, njegovih interpretativnih sposobnosti
+kao i sposobnosti konceptualiziranja, pa do vremena koje je potrebno uložiti u sve faze
+kodiranja, kao i revidiranje kodiranja. Naime, kodiranje nije linearan proces. Kvaliteta ishoda
+kodiranja u velikoj mjeri ovisi o tome u kojoj je mjeri istraživač spreman „kružiti po podacima“,
+uspoređivati ih, povezivati, odustajati od postojećih kategorija ili stvarati nove. To znači da bi
+istraživač trebao ostati empirijski osjetljiv i fleksibilan kroz cijeli istraživački proces, tj. da ne bi
+trebao biti dogmatičan u pogledu konstruiranih kodova, već da bi ih trebao mijenjati ako
+procijeni da ne pristaju novim podacima koji se pojavljuju. Dakle, kodiranje nije mehaničko
+označavanje kvalitativnog materijala, već dinamičan i refleksivan proces u kojem istraživač
+stalno iznova preispituje svoje uvide, razvija kategorije i traži njihove međusobne odnose.
+24 Uz kodiranje, programski paketi za kvalitativnu obradu podatak pružaju niz drugih funkcionalnosti, npr. analizu
+relacija između koncepata i tema, vizualizaciju podataka Vizualizacije (word clouds, modeli, grafovi) povezivanje
+citata s teorijskim izvorima, uvoz podatak iz drugih izvora i sl.
+
+Također, bez obzira na to što produžava vrijeme potrebno za analizu podataka, kodiranje
+doprinosi smanjenju subjektivnosti u interpretativnom procesu te olakšava zaključivanje. Na
+temelju čak i jednostavnog, tzv. baznog kodiranja, puno je vjerojatnije da će „koncept izrasti
+iz podataka“. Istraživači će jednostavnije predočiti svoje spoznaje, a zaključci će biti
+transparentniji, tj. bit će razvidnije kako su utemeljeni u podacima. Samo na taj način moguće
+je razviti valjanu teoriju koja je utemeljena na podacima.
+Nakon što je empirijski materijal kodiran, kreće se u pisanje istraživačkog izvještaja. U njemu
+trebaju biti prezentirane najvažnije kategorije empirijskih podataka koje su utvrđene u
+procesu obrade te zaključci koji se mogu donijeti na temelju njihove analize. Također, u
+istraživanje je potrebno uvrstiti i citate iskaza sudionika kako bi se legitimirao proces kodiranja,
+ali i kako bi se pokazala neposredna razmišljanja sugovornika o predmetu istraživanja.
+Primjer kodiranja kvalitativnog materijala prema Corbin i Strauss
+Provedeno je deset dubinskih intervjua s građanima Pule kako bi se istražila njihova percepcija
+grada, kvalitete života u Puli i obilježja Pule kao specifičnog urbanog centra. Neki od
+prikupljenih odgovora su sljedeći:
+“rimski grad”, položaj uz more, ni premali ni prevelik, mirniji život, ni grad – ni selo, život bez
+stresa, sve je nadohvat ruke, tolerancija prema ljudima različitih vjera i nacija, suživot, nema
+velikih socijalnih razlika, politički sukobi u zoni “normalnog”, brojne povijesne atrakcije, idealan
+omjer veličine grada i broja stanovnika, arena, hrvatska verzija multikulturalizma, lakše za
+obitelj, “blizu kontinentu”, austro-ugarska na moru, opušteniji život, blizu turistima iz EU,
+mediteran na kontinentu, konsenzus oko bitnih političkih pitanja.
+Ovi odgovori kodirani su shodno preporukama Corbina i Straussa
+Inicijalno kodiranje
+Kod br. 1. Optimalna veličina grada: ni premali ni prevelik, niti grad niti selo, idealan omjer
+veličine grada i broja stanovnika.
+Kod br. 2. Lakša organizacija svakodnevnice: mirniji, opušteniji život, život bez stresa, lakše za
+obitelj, sve je nadohvat ruke.
+Kod br. 3. Tolerantnost: tolerancija prema ljudima različitih vjera i nacija, suživot, hrvatska
+verzija multikulturalizma
+
+Kod b4. Nekonfliktnost: nema velikih socijalnih razlika, konsenzus oko bitnih pitanja, politički
+sukobi u zoni “normalnog”.
+Kod br. 5. Povijest: brojne povijesne atrakcije, arena, “rimski grad”.
+Kod br. 6. Geografski položaj:- položaj uz more, “blizu kontinentu”, austro-ugarska na moru,
+blizu turistima iz EU, mediteran na kontinentu.
+Osno kodiranje
+Inicijalni kodovi Osni kodovi
+Kod br. 1: Optimalna veličina grada – ni premali ni prevelik, niti
+grad niti selo, idealan omjer veličine grada i broja stanovnika. „Grad po mjeri
+Kod br. 2: Lakša organizacija svakodnevnice - mirniji, opušteniji čovjeka“
+život, život bez stresa, lakše za obitelj, sve je nadohvat ruke.
+Kod br. 3: Tolerantnost – tolerancija prema ljudima različitih vjera i
+„Društvena
+nacija, suživot, hrvatska verzija multikulturalizma
+stabilnost i
+Kod b4. 4: Nekonfliktnost – nema velikih socijalnih razlika,
+sigurnost“
+konsenzus oko bitnih pitanja, politički sukobi u zoni “normalnog”.
+Kod br. 5: Povijest - brojne povijesne atrakcije, arena, “rimski grad”.
+„Bogata tradicija i
+Kod br. 6: Geografski položaj - položaj uz more, “blizu kontinentu”,
+povoljan geografski
+austro-ugarska na moru, blizu turistima iz EU, mediteran na
+položaj“
+kontinentu.
+
+Seletktivno kodiranje
+Optimalna veličina
+Grad po mjeri
+čovjeka
+Lakša organizacija svakodnevnice
+Grad ugodan za život /
+siguran / miran / bez
+konflikata – nekonfliktna
+urbana zajednica
+Tolerantnost
+Socijalna
+stabilnost
+SREDIŠNJA KATEGORIJA
+Nekonfliktnost
+Miran grad bogate urbane
+povijesti i kvalitetnog
+života u sadašnjosti
+Povijest
+Bogata tradicija i
+povoljan
+geografski položaj
+Geografski položaj položaje
+Tumačenje ishoda kodiranja:
+Pula se od njenih stanovnika doživljava kao grad bogate urbane povijesti i kvalitetnog života u
+sadašnjosti. Njena bogata povijest te povoljan geografski položaj određuju i njegovu
+sadašnjost. Obilježava ju kvalitetan urbani ambijent, sigurnost, niska razina konflikta te
+društvena tolerancija. Pula je grad po mjeri građana – grad optimalne veličine u kojem je
+kvalitetno moguće organizirati svakodnevnice socijalni život.

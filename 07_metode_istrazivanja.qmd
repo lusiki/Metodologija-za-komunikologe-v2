@@ -1,0 +1,248 @@
+# Metode istraživanja u društvenim znanostima
+
+Društvene znanosti, pa tako i komunikologija, su multimetodske. To znači da su razvile brojne
+metode, istraživačke tehnike i metodske postupke. Na najopćenitijoj razini, spomenuto
+metodsko bogatstvo može se klasificirati u dvije kategorije: u kvantitativne i kvalitativne
+metode istraživanja.
+Kvantitativne metode istraživanja znanstvenici koriste kada pokušavaju objasniti kvantitativna
+obilježja pojava kao i relacije između pojavama koje se istražuju (npr. broj ljudi koji konzumira
+određeni medij), dok kvalitativne metode koriste kada pokušavaju interpretirati motive
+socijalnih aktera (npr. što ih potiče da konzumiraju određeni medij) i značenja koja oni pridaju
+svojim akcijama ili pojedinim fenomenima u socijalnom svijetu. Bez obzira na razlike koje
+među njima postoje, istraživači koji koriste bilo kvantitativne, bilo kvalitativne metode, polaze
+od toga da znanstveno spoznavanje društvenih fenomena mora biti utemeljeno na podacima
+iz stvarnog svijeta (Marvasti, 2004). Dakle, i kvantitativne i kvalitativne metode istraživanja
+koriste se kako bi se posredstvom empirijskih podataka opisala, objasnila, razumjela i
+interpretirala kompleksna društvena stvarnost, tj. komplementarne su po svom osnovnom
+cilju. Ono što ih razlikuje jest način na koji to čine, a što je posljedica njihovih specifičnih
+filozofskih i epistemoloških izvora. Kvantitativne metode istraživanja svoje ishodište imaju
+primarno u empirističkoj i pozitivističkoj spoznajno-teorijskoj tradiciji. Kvalitativne metode
+istraživanja svoje spoznajno-teorijske korijene pak baštine u hermeneutičkoj tradiciji,
+fenomenologiji, kao i općenito u interpretativnim pristupima razvijenim u okviru društvenih
+znanosti, npr. u etnometodologiji i simboličkom interakcionizmu.
+Spoznajno-teorijske osnove kvantitativnih metoda istraživanja
+Empirizam kao specifična filozofska tradicija pojavljuje se u Engleskoj u drugoj polovini 17.
+stoljeća. Najistaknutiji predstavnici empirizma su John Locke, Francis Bacon i David Hume.
+Osnovni postulat empirističke filozofije je onaj prema kojem je spoznaja moguća samo
+temeljem iskustva. Pozitivizam kao specifičan filozofski smjer, blizak empirizmu, nastaje u 19.
+stoljeću, a njegove ideje prvi je proklamirao Auguste Comte. U svom djelu Tečaj pozitivne
+filozofije on odbacuje metafiziku kao princip spoznaje te, kao i empiristi, naglašava iskustvo
+
+kao jedini izvor pozitivne spoznaje. Smatra da je spoznaja moguća samo na temelju empirijskih
+činjenica, a idealni način spoznavanja je onaj koji je utemeljen u okviru prirodnih znanosti, tj.
+onaj koji koriste fizika, kemija ili biologija. Daljnji doprinos razradi empirističko-pozitivističkih
+principa početkom dvadesetog stoljeća dali su filozofi tzv. logičkog pozitivizma. Logički
+pozitivisti Bečkog kruga (npr. Hahn, Neurath, Carnap)9 znanstveno shvaćanje svijeta
+prvenstveno određuju dvama osnovnim kriterijima: empirizmom, prema kojem je iskustvo
+jedini izvor spoznaje, te logičkom analizom kojom se provjerava smislenost znanstvenih iskaza.
+Na taj način, logički pozitivisti utemeljili su princip verifikacije, tvrdeći da su znanstveno
+priznate samo one tvrdnje koje se mogu izravno provjeriti iskustvenim promatranjem ili
+eksperimentom. Smatraju da znanstveno shvaćanje svijeta ne poznaje nikakvu bezuvjetno
+valjanu spoznaju iz čistog uma, nikakve sintetičke sudove „a priori“ te da znanstveno shvaćanje
+svijeta ne poznaje nikakve nerješive zagonetke, već da je usmjereno na rješavanje empirijskih
+problema (Hahn, Neurath, Carnap, 2005).
+Prema Milasu (2009: 15), pozitivizmu je svojstveno uvjerenje o postojanju spoznatljive zbilje
+upravljane nepromjenjivim prirodnim zakonima. Stoga se znanost, sukladno pozitivističkom
+učenju, treba baviti otkrivanjem zakona koji uobličuju ono što prepoznajemo pod objektivnom
+stvarnošću. Pozitivističko gledište, shodno Milasu, može se razložiti na nekoliko temeljnih
+načela:
+1. Prirodom vlada red.
+2. Priroda je spoznatljiva.
+3. Znanje je nadmoćno neznanju.
+4. Sve prirodne pojave imaju prirodne uzroke.
+5. Ništa nije samo po sebi razumljivo.
+6. Znanje se usvaja iskustvom.
+Prema pozitivističkom shvaćanju, ova načela primjenjiva su i na društvene znanosti.
+Prvenstveno se to odnosi na shvaćanje da se društvo može razumjeti kao uređeni sustav u
+kojem vlada red. Drugim riječima, u društvu djeluje niz zakona neovisnih o pojedincima. Stoga
+francuski sociolog Émile Durkheim ističe da se sociologija bavi proučavanjem društvenih
+9 Uz djelovanje tzv. Bečkog kruga, logički pozitivizam razvijan je i u okviru tzv. Berlinskog kruga.
+
+činjenica, tj. da se bavi onime što je izvanjsko pojedincu i što je nezavisno o pojedinačnom
+djelovanju (Durkheim, 1999). Društveni zakoni koji čine objektivnu, od pojedinca neovisnu
+društvenu stvarnost, mogu se spoznati empirijskim činjenicama. Zbog toga bi i društvene
+znanosti, kao i prirodne, trebale biti usmjerene spoznavanju društvenih zakona, tj. kauzalnih
+odnosa između varijabli. Zbog toga bi se iz pozitivističke perspektive istraživački postupci
+društvenih znanosti trebali temeljiti na identičnim metodskim principima kao i istraživački
+postupci u prirodnim znanostima. Ovo predstavlja ključnu komponentu ideje metodološkog
+monizma, tj. ideju jedinstva metoda istraživanja u prirodnim i društvenim znanostima (Halmi,
+1999: 12). Drugim riječima, pozitivistička spoznajno-teorijska tradicija sugerira da način
+bavljenja znanošću, način na koji se postavljaju znanstvena pitanja i daju znanstveni odgovori
+u slučaju društvenih i prirodnih znanosti treba biti identičan. Kao i prirodne, i društvene
+znanosti trebaju se usmjeriti prema traganju za kauzalnim odnosima. Kao i u prirodnim
+znanostima, i u društvenim znanostima istraživač „nastoji utvrditi što se zbilo s deskriptivnim
+varijablama, pa zbivanja pretvara u ljestvice, mjerenja, brojeve, tabele, grafikone itd., a
+matematičko-statističke formalizacije sastavni su dio znanstvenog istraživanja“ (Tomić-
+Koludrović i Leborić, 2002: 203-204). Dakle, ova spoznajno-teorijska tradicija promiče ideju da
+društvene znanosti svoje predmete trebaju proučavati na identičan način kao što to rade i
+prirodne znanosti. Upravo navedenu epistemološku postavku možemo smatrati kamenom
+temeljcem razvoja kvantitativnih metoda istraživanja u društvenim znanostima. Njezina
+ključna obilježja bila bi sljedeća:
+• Društveni svijet je neovisan o pojedinačnom djelovanju.
+• Spoznaja društvenog svijeta pretpostavlja spoznaju društvenih zakona.
+• Osjetilno / empirijsko opažanje utemeljuje pravo znanje o društvu.
+• Ideal empirijskih evidencija onaj je iz prirodnih znanosti: svojstva društvenog svijeta
+mogu se objasniti kvantitativnim podacima (statistička forma podataka).
+• Istraživanje započinje teorijom iz koje se izvode hipoteze koje se zatim testiraju
+temeljem empirijskih podataka. Testiranjem se hipoteze prihvaćaju, modificiraju ili
+odbacuju. Time se i sama teorija od koje se kreće u istraživanje prihvaća, nadograđuje,
+modificira ili odbacuje.
+
+Posljedično ovim spoznajno-teorijskim postulatima, kao osnovna obilježja kvantitativnih
+metoda u društvenim znanostima možemo izdvojiti sljedeće:
+Tablica 2. Osnovna obilježja kvantitativnih metoda istraživanja u društvenim znanostima
+Pretpostavke:
+▪ Društvene činjenice imaju objektivnu realnost
+▪ Varijable se mogu identificirati, a odnosi mjeriti
+▪ Pogled izvana
+▪ Istraživač unaprijed zna što traži
+▪ Dizajn istraživanja je zatvoren – svi aspekti istraživanja pažljivo su dizajnirani prije
+nego što se krene u istraživanje
+Svrha:
+▪ Testiranje hipoteza
+▪ Poopćavanje
+▪ Predikcija
+▪ Kauzalna objašnjenja
+Pristup:
+▪ Počinje hipotezom i teorijama
+▪ Upotreba formalnih instrumenata
+▪ Deduktivno zaključivanje
+▪ Reducira podatke na numeričke indicije
+Uloga istraživača:
+▪ Odvojenost i nepristranost
+▪ Objektivna interpretacija – precizno mjerenje, objektivnost, pouzdanost
+Izvor: Adaptirano prema Skoko-Benković (2009).
+Dobar primjer komunikološkog istraživanja koje bi bilo provedeno metodom kojoj su
+svojstvena sva predočena obilježja kvantitativnih metoda, istraživanje je medijske pismenosti
+metodom ankete. Takvo istraživanje moglo bi biti provedeno na način da se u izradu mjernog
+instrumenta tj. ankete, krene od nekih od postojećih definicija medijske pismenosti.
+Primjerice, medijska pismenost se uobičajeno definira kao sposobnost pristupanja, analize i
+vrednovanja medija u različitim formama te kao kompetentna komunikacija unutar tih formi
+(Livingstone, 2004, Bulger, 2012). Na osnovu ove definicije mogu se razviti empirijski indikatori
+(pitanja u upitniku) posredstvom kojih će se mjeriti medijska pismenost na određenoj
+populaciji (npr. svi punoljetni građani RH). Prilikom konstrukcije mjernog instrumenta
+
+(upitnika) pazit će se na pouzdanost i valjanost konstruiranih mjera. U nacrtu istraživanja biti
+će postavljeno nekoliko istraživačkih hipoteza koje će se testirati na osnovu prikupljenih
+podataka. Npr. moguće je postaviti hipotezu da razina medijske pismenosti ovisi o
+obrazovanju osobe. Ili, moguće je postaviti hipotezu da su osobe mlađe od 40 godina medijski
+pismenije od osoba starijih od 40 godina. Nakon što se na određenom znanstveno
+konstruiranom uzorku provede istraživanje i prikupe podaci, temeljem statističkih procedura
+testirat će se postavljene hipoteze te će se na osnovu rezultata statističkih testova kao
+objektivnih mjerila one odbaciti ili prihvatiti. Shodno tome donijeti će se i zaključci.
+
+Spoznajno-teorijske osnove kvalitativnih metoda istraživanja
+Glavni prigovor korištenju kvantitativnih metoda istraživanja u društvenim znanostima
+apostrofira da „kvantifikacija nameće određenu (lažnu) čvrstoću društvenom životu koju on
+ne posjeduje“ (Tomić-Koludrović i Leburić, 2002:204). Pritom se primarno misli da se
+korištenjem kvantitativnih metoda istraživanja složeni, promjenjivi i kontekstualno uvjetovani
+društveni fenomeni svode na brojčane pokazatelje koji ne mogu u potpunosti objasniti i koji
+zanemaruju subjektivna iskustva društvenih aktera. Stoga brojni društveni znanstvenici kao
+bolju alternativu za proučavanje društvenog svijeta predlažu kvalitativne metode istraživanja.
+Njihovi zagovornici tvrde da društveni svijet nije moguće proučavati na način na koji prirodne
+znanosti proučavaju prirodni jer su društveni fenomeni uvijek socijalno konstruirani;
+posljedica su društvenih interakcija, komunikacije, posredovanja značenja i interpretacija.
+Stoga smatraju da je potrebno koristiti drugačiji metodski pristup. Taj drugačiji metodski
+pristup u proučavanju društvenih pojava temelji se na korištenju tzv. kvalitativnih metoda
+istraživanja. Kvalitativne metode mogu se definirati kao multiparadigmatski i multimetodski
+usmjerena istraživanja koja uključuju naturalistički i interpretativni pristup predmetu
+istraživanja (Halmi i Crnoja, 2003:1). To znači da istraživanja koja se provode posredstvom
+kvalitativnih metoda uvijek pristupaju proučavanju subjekta u njegovom povijesnom i
+društvenom kontekstu nastojeći razumjeti i interpretirati smisao ili značenje njegovih akcija,
+doživljaja i svakodnevnog iskustva.
+Spomenuto određenje kvalitativnih metoda sintetizira njihova najčešće isticana obilježja.
+Primjerice, Marshall i Rossman (2011:3) navode da se osnovna obilježja kvalitativnih metoda
+istraživanja mogu svesti na sljedeće:
+• Istraživanja koja se provode posredstvom kvalitativnih metoda odvijaju se u prirodnom
+socijalnom okruženju;
+• oslanjaju se na višestrukost metoda koje poštuju prirodu sudionika istraživanja;
+• fokusirana su na kontekst;
+• fundamentalno su interpretativna.
+Shodno tome, Marshall i Rosman navode da „kvalitativni istraživači“:
+• vide socijalni svijet kao hositički i kompleksan;
+
+• sistematski reflektiraju korake u provođenju istraživanja;
+• ostaju senzitivni prema osobnoj biografiji / društvenom identitetu sudionika
+istraživanja i načinu na koji oni utječe na istraživanje;
+• koriste kompleksne načine rezoniranja i zaključivanja koji su višeznačni i iterativni.
+Willig (2016: 35) napominje da su „kvalitativni istraživači“ obično zainteresirani za značenje,
+tj. zainteresirani su za to kako ljudi pridaju smisao svijetu i kako doživljavaju ono što im se
+događa. Dakle, kvalitativni istraživači skloni su baviti se kvalitetom i teksturom ljudskog
+iskustva prije nego identifikacijom uzročno-posljedičnih odnosa. Slično ističe i Marvasti
+(2004:7) kada kaže da istraživanja koja se provode kvalitativnim metodama pružaju detaljan
+opis suštine ljudskog iskustva. Sumirajući specifičnosti kvalitativnih metoda istraživanja u
+odnosu na kvantitativne, Tomić-Koludrović i Leburić (2002) ističu da su kvalitativne metode
+istraživanja koncentrirane na značenje ili na ponašanje, tj. da se osnovni cilj kvalitativnog
+istraživanja svodi na dokumentiranje svijeta s različitih pozicija sudionika istraživanja. Prema
+tome, jedno od najvažnijih obilježja kvalitativnih metoda istraživanja je „centralnost
+interpretacije“ (Tomić-Koludrović i Leburić, 2002:209). Svrha interpretacije je „razumijevanje
+svijeta“, razumijevanje značenja koja ljudi pridaju svojim akcijama ili razumijevanje motiva koji
+ih pokreću u njihovom djelovanju. Spasić (1998:9) navodi da je zastupnicima interpretativnog
+pristupa u društvenim znanostima važno zahvaćanje akterova unutrašnjeg doživljaja situacije
+i vlastitog djelovanja. Upravo na temelju tog impulsa počinje se razvijati kvalitativna
+metodologija u društvenim znanostima (Spasić, 1998:9).
+U jednom širem smislu, kvalitativne metode istraživanja svoje korijene baštine u
+hermeneutičkoj tradiciji i fenomenologiji te u pojedinim propozicijama etnometodologije i
+simboličkog interakcionizma.
+Hermeneutika je izvorno filozofski nauk o razumijevanju i tumačenju biblijskih, pravnih,
+književnih i filozofskih spisa10. U jednom širem smislu može se odrediti kao vještina tumačenja
+i razumijevanja tekstova. Kao specifična spoznajna vještina u društvene znanosti ulazi
+posredstvom filozofije Wilhelma Diltheya. Već smo napomenuli da on razvija koncept
+duhovnih znanosti kojim one znanosti koje se bave posljedicom djelovanja ljudi pokušava
+10 http://www.enciklopedija.hr/natuknica.aspx?id=25156 (22. 1. 2018.)
+
+odijeliti od prirodnih znanosti. Prema Diltheyu, duhovne znanosti utemeljenje su u psihološkoj
+ili duhovnoj prirodi ljudskog djelovanja. Budući da se bave duhovnom prirodom čovjeka i
+njegovog djelovanja one su inherentno interpretativne. Zbog toga je i hermeneutički princip
+razumijevanja ono što ih prema Diltheyu razlikuje od prirodnih znanosti11. Kao što smo naveli,
+Diltheyovu koncepciju prihvatio je, a zatim i dalje razradio jedan od utemeljitelja suvremene
+sociologije Max Weber. Njegov metodološki pristup znan je kao metodološki individualizam.
+Weber smatra da se sve društvene pojave mogu svesti na individualno djelovanje. Stoga je i
+zadatak društvenih znanosti upravo rekonstrukcija individualnog djelovanja. Rekonstruirati
+individualno djelovanje znači razumjeti ga, tj. razumjeti motive koji pokreću aktivnosti
+hermeneutičkog pristupa kao i Weberovog metodološkog individualizma promiče ideju da su
+društvena zbivanja posljedica pojedinačnog djelovanja i kao takvi obično jednokratni i
+neponovljivi, da društvene znanosti proučavaju upravo pojedinačne događaje, a da bi se oni
+mogli razumjeti potrebno je razumjeti unutarnja stanja pojedinaca i motive koji stoje u
+pozadini njihovog djelovanja12.
+Uz hermeneutičku tradiciju, važno zaleđe razvoja kvalitativnih metoda istraživanja može se
+pronaći i u fenomenologijskoj spoznajno-teorijskoj tradiciji. Njezin utemeljitelj je njemački
+filozof Edmund Husserl. On je ideju fenomenologije predstavio u djelu Logička istraživanja
+(objavljeno 1900./1901.). Filozofija se prema Husserlu treba baviti „fenomenima“, tj. onim što
+se pojavljuje u ljudskoj svijesti, načinom na koji se iskustvo o stvarima koje nas okružuju
+upisuje u našu svijest. Husserl smatra da središnje mjesto filozofske analize treba postati
+individualno iskustvo, tj. manifestiranje suština pojava u ljudskoj svijesti. Dakle,
+fenomenologija na prvo mjesto stavlja ljude, njihovo iskustvo, način na koji ljudi doživljavaju
+svijet oko sebe. Ova temeljna fenomenologijska pozicija inspirira jednu od suštinskih
+propozicija kvalitativnih metoda istraživanja – usmjerenost na iskustvo. Cilj istraživanja
+11 Prema Diltheyu priroda vječito ostaje strana i nepoznata, a duhovno-povijesne pojave mogu se razumjeti. Kod
+prirodnih znanosti, tj. „objašnjavalačkih znanosti“, stvari se promatraju izvana, postoji distanciranost onoga tko
+promatra i onoga što se promatra. Kod duhovnih znanosti ne postoji distanca subjekta i objekta promatranja.
+Istraživač se prešutno uživljava u situaciju te ovakva ontološka bliskost između onog tko istražuje i onog što se
+istražuje omogućuje razumijevanje društvenih pojava.
+12 Nasuprot toga, prirodne znanosti moglo bi se opisati na sljedeći način: prirodne znanosti bave se univerzalnim
+pojavama / činjenicama. One činjenicama prilaze izvana i nastoje ih objasniti pomoću općih principa. Objasniti
+pojave znači rekonstruirati uzroke i posljedice. Rekonstrukcija uzroka i posljedica podrazumijeva spoznaju
+ponavljajućih pravilnosti. Spoznati ponavljajuće pravilnosti znači utvrditi zakonitosti.
+
+inspiriranog fenomenologijskim principima je „što bliže prići iskustvu pojedinaca te dobiti
+pristup njihovom doživljajnom svijetu“ (Willig, 2013:50). Upravo u kontekstu
+fenomenologijske tradicije treba promatrati i činjenicu da kvalitativne metode istraživanja u
+jednom velikom dijelu nastoje pružiti odgovor na pitanje „kako izgleda svijet za ovog sudionika
+istraživanja“ (Willig, 2013:50).
+Glavne fenomenologijske propozicije korespondiraju i s osnovnim postavkama one teorijske
+tradicije u sociologiji koja se naziva etnometodologija. Ona stavlja naglasak na način na koji
+ljudi konstruiraju smisao svog društvenog djelovanja. Promiče istraživanja „metoda“ koje
+članovi društva koriste u konstrukciji društvenog poretka (Abercrombie i Hill, 2008:83).
+Pojedina ishodišta kvalitativnih metoda istraživanja mogu se pronaći i u teorijskoj tradiciji
+simboličkog interakcionizma. Ona se razvija na učenju Georga Herberta Meada o prirodi
+društvenih interakcija kao i na radovima sociologa Herberta Blumera. Simbolički
+interakcionizam postulira tezu da ljudi u međusobnim interakcijama ne reagiraju „direktno“,
+već da se njihova reakcija zasniva na značenjima koje oni takovim akcijama pridaju. U ovom je
+smislu artikulirana i temeljna teorijska pretpostavka simboličkog interakcionizma,
+pretpostavka da društvena stvarnost onakva kakova se osjeća, spoznaje i razumijeva jest
+producirana društvenom simboličkom interakcijom (Afrić, 1988: 2). Upravo u navedenoj
+teorijskoj propoziciji simboličkog interakcionizma možemo potražiti ishodište još jednog
+značajnog obilježja kvalitativnih metoda istraživanja - nastojanja da se protumače različita
+značenja koja ljudi pridaju svojem djelovanju te značenja koje pridaju različitim društvenim
+procesima u kojima sudjeluju.

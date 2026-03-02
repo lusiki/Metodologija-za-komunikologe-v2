@@ -1,0 +1,63 @@
+# Kvalitativne metode istraživanja u društvenim znanostima
+
+Kao što smo spomenuli, kvalitativne metode istraživanja primarno se razvijaju iz
+hermeneutičke i fenomenologijske spoznajno-teorijske tradicije. Ne koriste se kako bi se
+spoznale kauzalne relacije ili kvantitativna obilježja društvenih pojava, već se u pravilu koriste
+kada istraživače zanima na koji način društveni akteri interpretiraju svijet oko sebe kao i svoje
+postupke. Marshal i Rossman (2011) ističu da se kvalitativne metode istraživanja fokusiraju na
+individualno proživljeno iskustvo, društvo i kulturu te jezik i komunikaciju. Tkalac Verčić i
+suradnice (2010:18–19) naglašavaju da kvalitativne metode istraživanja, između ostalog,
+definiraju i sljedeće odrednice: istraživač je zainteresiran za proces, naglasak je na značenju,
+istraživač je osnovni instrument za prikupljanje i interpretaciju rezultata, istraživanja
+podrazumijevaju terenski rad i odlazak u stvarno okruženje, proces zaključivanja je induktivan.
+Dakle, svrha kvalitativnih metoda istraživanja je razumjeti ili interpretirati način na koji ljudi
+vide neki fenomen, način na koji objašnjavaju svoje djelovanje ili opisuju motive svog
+djelovanja. Stoga niti ne barataju matematičko-statističkim kvantifikacijama fenomena kojima
+se bave. One nisu zainteresirane za kvantitativna obilježja, već za dokumentiranje svijeta s
+različitih pozicija ljudi, nastoje razumjeti kako ljudi izrađuju i organiziraju svoj društveni svijet
+(Tomić-Koludrović i Leborić, Anči, 2002: 209, 251). Drugačije rečeno, kvalitativne metode
+istraživanja koriste se kada se istraživači bave iskustvom ljudi, načinom na koji se društveni
+fenomeni „upisuju“ u svijest pojedinaca, tj. načinom na koji on doživljava svijet oko sebe, kako
+ga tumači i kako shodno tome organizira svoje društveno djelovanje. Zbog toga se
+kvalitativnim metodama istraživanja prikuplja, a zatim i analizira prilično raznolik materijal
+(Strauss, 2003). Primjerice, transkripti intervjua i fokus grupa, rezultati terenskog promatranja,
+različiti dnevnici i pisma, fotografije i videozapisi su samo neki od primjera podataka koji se
+koriste kako bi se rekonstruirala značenja koja ljudi pridaju svojim iskustvima i društvenim
+interakcijama ili kako organiziraju svoje rutine i svakodnevnice. Ovakve vrste empirijskog
+materijala omogućuju istraživačima da uđu u svakodnevni svijet ispitanika, promatraju
+obrasce ponašanja, otkriju skrivene norme i vrijednosti te steknu dublje razumijevanje
+konteksta u kojem se određeni fenomen pojavljuje.
+
+Mimo navedenog, istraživači često koriste kvalitativne metode kao eksploratorni istraživački
+alat kojim se ulazi u „nepoznati teren“ društvenih pojava. Primjerice, kada bismo željeli istražiti
+navike i prakse studenata komunikologije u korištenju društvene mreže Snapchat, prikladno
+bi bilo istraživanje započeti s nizom intervjua ili grupnih diskusija. Na osnovu tih istraživanja
+mogla bi se spoznati osnovna obilježja studentskih praksi u korištenju ove društvene mreže,
+mogli bi se interpretirati razlozi njenog korištenja te doći do refleksije studenata na uobičajene
+prakse u korištenju ove društvene mreže.
+Također, za razliku od kvantitativnih metoda istraživanja, kvalitativne metode ne koriste se
+kako bi se testirale znanstvene teorije. One nisu primjerene za testiranje teorija i iz njih
+izvedenih hipoteza! Istraživanja koja se provode posredstvom kvalitativnih metoda uglavnom
+imaju upravo suprotnu intenciju – stvaranje empirijskih generalizacija o obilježjima predmeta
+istraživanja, na čemu posebice inzistira tzv. utemeljena teorija (vidi poglavlje Utemljena
+teorija). Dakle, kvalitativne metode istraživanja prvenstveno su induktivnog karaktera –
+temeljem prikupljenih podataka stvaraju se empirijske generalizacije, tj. teorijski koncepti koji
+se zatim mogu provjeravati kvantitativnim istraživanjima (Daymon i Hollaway, 2002).
+Danas kvalitativne metode istraživanja imaju široku primjenu u okviru komunikacijskih
+znanosti, posebice u kontekstu istraživačkih pitanja koja se odnose na način recepcije
+medijskih poruka i načina njihovog procesuiranja. Primjerice, istraživačka pitanja na koja je
+moguće odgovoriti kvalitativnim metodama istraživanja odnose se na to kako primatelji
+tumače medijske objave – na koji način ih dekodiraju, interpretiraju i razumiju, koje tipične
+„portrete stvarnosti” prepoznaju u medijskom izvještavanju, kako tumače komunikacijske
+poruke, što su izvori povjerenja ili nepovjerenja u medije. Također, kvalitativne metode
+istraživanja pogodne su za istraživanje navika u konzumaciji medija kao i iskustva
+konzumenata medija.
+Iako među kvalitativne metode istraživanja ulaze brojne istraživačke tehnike i postupci kao što
+su etnografska metoda, narativna analiza, analiza usmene predaje, analiza slučaja,
+promatranje, konverzacijska analiza, u idućim poglavljima detaljnije će biti opisana metodska
+svojstva i izvedbena pravila sljedeće tri metode: metoda intervjua, metoda grupnih diskusija i
+analiza diskursa.
+
+Naime, ove tri metode omogućuju realizaciju najvećeg broja potencijalnih ciljeva istraživanja
+s kojima se susreću komunikolozi koji, bilo u akademskim institucijama, bilo u komercijalnim
+institucijama, provode istraživanja posredstvom kvalitativnih metoda.

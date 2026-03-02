@@ -1,0 +1,199 @@
+# Intervju
+
+Intervju se najčešće koristi kada se želi doprijeti do mišljenja i stavova pojedinaca o određenoj
+temi ili određenom fenomenu. Omogućuje istraživaču da sasluša sudionika istraživanja, tj. da
+iz prve ruke čuje njegova razmišljanja, stavove ili pojedine momente iz njegova životnog
+iskustva. Jedan od uobičajenih zahtjeva intervjua jest uspostavljanje prisnog odnosa između
+istraživača i sudionika istraživanja, što osigurava da pitanja, kao i odgovori, idu „u dubinu“, tj.
+omogućuje sudioniku opširno obrazloženje i tumačenje stavova, navika, ponašanja i
+emocionalnih stanja. Zbog tog razloga kao sinonim vrlo često se koristi i naziv dubinski intervju
+(eng. in-depth interview). Zbog toga ovu vrstu intervjua ne treba miješati s uobičajenim
+novinarskim intervjuom. Dok je novinarski intervju najčešće usmjeren na dobivanje
+informacija koje su zanimljive široj javnosti, često je vremenski ograničen i strukturiran oko
+neke društveno aktualne teme, dubinski intervju ima primarno znanstvenu svrhu. Njegov je
+cilj posredstvom dubinske komunikacije sustavno i metodički prikupiti podatke koji će
+omogućiti dublje razumijevanje određenog fenomena, iskustva ili društvenog procesa.
+U najvećem broju slučajeva intervju se provodi kao „nedirektivni“ intervju. To znači da je
+struktura intervjua ograničena tematikom, ali istovremeno i otvorena za njezino proširivanje.
+Drugim riječima, sudionik istraživanja raspravlja ili diskutira o definiranoj temi, a ne odgovara
+na specifična pitanja koja iziskuju odgovore tipa da ili ne, slažem se ili ne slažem se i tsl. Isto
+tako, iako postoji definirana tema samog intervjua, intervjuer je slobodan voditi intervju u
+različitim smjerovima ovisno o pojedinom sudioniku istraživanja. Prema tome, ukoliko se za to
+ukaže potreba, intervjuer tijekom vođenja intervjua ima slobodu kreirati nova, dodatna
+pitanja, a ne samo ona koja su predviđena tzv. protokolom ili vodičem za intervju. To je ujedno
+i razlog zbog kojeg se intervju najčešće provodi u formi polustrukturiranog intervjua. To znači
+da postoji unaprijed pripremljen skup tematskih cjelina i okvirnih pitanja, ali redoslijed njihova
+postavljanja i način formulacije mogu varirati. Takva fleksibilnost omogućuje prilagodbu
+intervjua specifičnostima svake pojedinog sudionika istraživanja.
+Ovaj naziv također se često koristi kao sinonim za metodu intervjua / dubinskog intervjua.
+Intervju se može primijeniti u različitim situacijama. Može se koristiti u eksploratornim
+istraživanjima, kao sredstvo upoznavanja istraživača s nekom problematikom koja je predmet
+
+njegovog znanstvenog interesa. Primjerice, ukoliko istraživač želi detaljno istražiti korištenje
+pametnih telefona u adolescentskoj dobi te utvrditi različite psihosocijalne pokretače njihovog
+intenzivnog korištenja, to može učiniti na način da prvo provede istraživanje metodom
+intervjua, a zatim metodom ankete21. Posredstvom intervjua istraživač će doći u doticaj s
+neposrednim iskustvima, stavovima i mišljenjima adolescenata o korištenju pametnih
+telefona. Ta saznanja zatim može iskoristiti u pripremi ankete. Dakle, intervjui su dobro
+metodsko rješenje za početnu eksploraciju područja kojeg se želi detaljno istražiti. Također,
+oni su vrlo pogodni u slučajevima kada se istražuju pripadnici nekih rijetkih populacija.
+Primjerice, stručnjaci u određenom području. Isto tako koriste se prilikom istraživanja tema
+koje mogu biti potencijalno neugodne za sudionike istraživanja, koje su socijalo osjetljive, tj.
+kada je potrebno jamčiti visoki stupanj anonimnosti sudionika istraživanja. Intervju se može
+koristiti i kao sredstvo bolje interpretacije kvantitativnih podataka, npr. kada se žele objasniti
+ili produbiti, proširiti spoznaje do kojih se došlo anketnim istraživanjem. U takvim slučajevima
+nakon realizacije anketnog istraživanja može se napraviti dodatno istraživanje posredstvom
+intervjua.
+Generalno gledajući, intervjui se najčešće koriste u slučajevima kada se istraživanjem želi:
+• dobiti iscrpniji, dublji, bolji uvid u stavove i razmišljanje pojedinaca;
+• objasniti podrijetlo stavova i razmišljanja;
+• tipologizirati određene obrasce mišljenja, stavova ili ponašanja;
+• steći uvid u iskustvo ljudi;
+• istražiti i opisati motive koji pokreću ljude na određene akcije;
+• doći do interpretacije pojedinaca o pojedinim događajima iz njihovog života ili njihove
+društvene okoline;
+• opisati emocije, vrednovanje i analizu neke situacije.
+Danas se intervjui intenzivno primjenjuju u brojnim komunikološkim istraživanjima.
+Primjerice, istraživanje medijskih učinaka tema je koja je jako pogodna za istraživanje ovom
+metodom. Posredstvom intervjua može se doći do niza evidencija konzumenata različitih
+medija i medijskih sadržaja o tome kako doživljavaju medije, kako mediji utječu na formiranje
+njihovih stavova imaju li utjecaja na njihovo ponašanje i sl. Također, intervju je vrlo prikladna
+21 Vidi Ivasović Burić
+
+metoda za istraživanja navika u konzumaciji medija i medijskih sadržaja. Primjerice, kroz
+intervju se mogu prikupiti iscrpna objašnjenja o tome zbog čega pojedinci mijenjaju svoje
+prakse u konzumaciji medija ili zbog čega imaju veću razinu povjerenja u neke medije.
+Također, intervju je korisna metoda kada se želi istražiti na koji način pojedinci interpretiraju
+pojedine medijske objave i pojedine medijske poruke. Posredstvom intervjua može se doći do
+„tipičnih“ tumačenja pojedinih medijskih sadržaja i njihovih obilježja od strane sudionika
+istraživanja.
+Vođenje intervjua
+Intervju se uvijek provodi u formi razgovora „jedan na jedan“. Obično se provodi na mjestu
+koje predloži sam sudionik istraživanja (kućanstvo, ured i sl.). Uglavnom traje od 40 minuta do
+dva sata.
+Početak intervjua vrlo je bitna faza od koje u velikoj mjeri ovisi hoće li intervju biti uspješan ili
+ne (isto vrijedi i za fokus-grupe). Na početku intervjua potrebno je uspostaviti kontakt s
+ispitanikom te steći njegovo povjerenje. Naime, svaki je intervju za ispitanika pomalo
+neprirodna situacija. On se nalazi u centru pažnje, od njega se nešto očekuje, treba izražavati
+svoje mišljenje i govoriti o svojim iskustvima. To za ljude u velikom broju slučajeva može biti
+izvor neugode, što posljedično može rezultirati i različitim inhibicijama – npr. neiskrenošću,
+davanjem djelomičnih odgovora, brzanjem i sl. Stoga je bitno da intervjuer prilikom
+započinjanja intervjua stvori atmosferu povjerenja. To podrazumijeva upoznavanje ispitanika
+s temom intervjua, informiranje o metodi – slobodnom razgovoru u kojem nema točnih i
+netočnih odgovora, koji nije test, u kojem se razgovara o određenoj temi – objašnjenje razloga
+zbog kojih je izabrani ispitanik osoba čije se mišljenje želi spoznati i sl. Tek nakon toga potrebno
+je započeti s intervjuom.
+Intervju se obavlja temeljem tzv. vodiča za intervju ili protokola za intervju. On ima sličnu
+funkciju kao upitnik u anketnom istraživanju. Služi kako bi se pomoću njega vodio i usmjeravao
+razgovor. Međutim, za razliku od upitnika, u vodiču nisu prisutna pitanja s ponuđenim
+opcijama odgovora. Ponuđena su slabo strukturirana pitanja, tematske natuknice ili instrukcije
+za vođenje intervjua. Također, specifičnost metode intervjua jest ta da se predviđena pitanja
+ili teme razgovora ne moraju uvijek obrađivati na isti način i istim redoslijedom. Prema tome,
+
+vodič treba razumjeti kao putokaz za razgovor. On prije svega služi kao podsjetnik na teme
+koje se moraju obraditi intervjuom. Dakle, zadatak intervjuera jest voditi intervju u smjeru koji
+naznačava vodič, obraditi teme koje su istaknute u vodiču, pri čemu postoji sloboda u pogledu
+načina vođenja intervjua. Zbog toga se kao važno obilježje metode intervjua obično ističe
+njegova „otvorenost“. To znači da intervjuer ima slobodu proširivati ili nadopunjavati
+postojeća pitanja ili postaviti nova pitanja za koja smatra da su relevantna, iako ona nisu
+predviđena samim vodičem. Takva pitanja mogu proizaći iz samih odgovora sudionika
+istraživanja na prethodno postavljena pitanja. Stoga je u procesu intervjuiranja ključna uloga
+intervjuera. On mora aktivno sudjelovati u intervjuu, pratiti izlaganje sudionika, biti aktivan
+sudionik intervjua kao komunikacijskog procesa, a ne isključivo osoba koja bilježi ono što
+sudionik govori22. Intervjuer mora postavljati relevantna potpitanja, tražiti objašnjenja
+prethodno pruženih odgovora, ako je potrebno dati primjere i sl. Pri tome je vrlo bitno da se
+poštuje „pravilo iscrpnosti“ u vođenju intervjua. Pravilo iscrpnosti podrazumijeva da intervjuer
+uvijek treba tražiti da sudionik istraživanja objasni svoje odgovore, tj. ne smije se zadovoljiti
+šturim, kratkim, nepotpunim odgovorima. Primjerice, pretpostavimo da je u projektu kojim se
+istražuje zadovoljstvo kvalitetom programa HRT-a u intervjuu postavljeno sljedeće pitanje te
+da je dobiven sljedeći odgovor:
+PITANJE: Zašto ste zadovoljni programom HRT-a?
+ODGOVOR: Dobro je, sve je ok, nemam se na što žaliti.
+U ovom slučaju intervjuer ne bi trebao biti zadovoljan pruženim odgovorom, već bi trebao
+nastaviti propitivati razloge zbog kojih se sugovornik „nema na što žaliti“, što znači „da je sve
+ok“, tj. tražiti produbljivanje i razjašnjenje pruženog odgovora. Bitno je da potpitanja koja
+logično slijede iz glavnog pitanja moraju biti postavljena, iako možda nisu izravno naznačena
+Važno je razlikovati legitimno vođenje intervjua od nedopuštenog usmjeravanja sudionika istraživanja. Iako je
+uloga intervjuera aktivna te podrazumijeva postavljanje potpitanja, razjašnjavanje i produbljivanje odgovora,
+intervjuer pritom ne smije sugerirati poželjne odgovore niti implicitno nametati vlastite interpretacije. Sugestivna
+pitanja (npr. ona koja u sebi već sadrže vrijednosni sud ili pretpostavku) mogu narušiti autentičnost iskaza te
+dovesti do iskrivljavanja podataka. Granica između vođenja i usmjeravanja nalazi se u namjeri i formulaciji
+pitanja. Dok je vođenje usmjereno na razjašnjavanje i produbljivanje značenja sudionikovih iskaza, usmjeravanje
+podrazumijeva pokušaj oblikovanja odgovora u skladu s očekivanjima istraživača. Upravo zbog toga kvaliteta
+intervjua uvelike ovisi o metodološkoj osjetljivosti i refleksivnosti intervjuera.
+
+u vodiču. Jedino se na taj način osigurava realizacija zahtjeva iscrpnosti. Upravo zbog toga
+bitna je kontinuirana uključenost intervjuera u proces intervjua i njegova posvećenost. On
+mora pratiti način na koji sudionik intervjua odgovara i pravovremeno donositi odluke o tome
+koji odgovor sudionika iziskuje dodatno proširenje, što je potrebno iscrpnije propitati, što
+zahtijeva objašnjenje i tsl.
+Različite vrste potpitanja kojima se služe intervjueri kako bi se ispunio zahtjev iscrpnosti mogu
+se klasificirati na sljedeći način:
+• Otvoreno sondiranje: pitanja koja počinju sa kako, što, koji, kada i tko. Uspješno potiču
+odgovor i reduciraju opreznost (defanzivnost) sudionika istraživanja.
+• Usporedbe i kontrasti: pitanja su to koja od sudionika zahtijevaju da diskutiraju o
+sličnostima i razlikama. Ovaj tip pitanja pomaže sudioniku intervjua da razvije i izrazi svoje
+mišljenje.
+• Proširenje: pitanja koja se nastavljaju na već pružene informacije.
+• Pojašnjenje: pitanja koja traže dodatna objašnjena o nečem što je već rečeno.
+Također, kako bi potaknuo odgovore sudionika intervjua, intervjuer može koristiti različite
+stimulanse – slike, članke o nekoj temi, videoisječke itd.
+Prilikom vođenja intervjua intervjuer može svojim riječima ponoviti na koji je način shvatio
+odgovor sudionika istraživanja. Dakle, slobodan je ponuditi vlastitu interpretaciju odgovora
+kako bi od sudionika intervjua dobio potvrdu o tome je li pravilno razumio i pravilno
+interpretirao njegov odgovor. Na taj način posredno se osigurava veća valjanost samih nalaza
+istraživanja. Dakle, poželjno je da intervjuer kod važnih tema ili prilikom završetka intervjua:
+• ponovi svoje shvaćanje komentara sudionika služeći se svojim riječima;
+• pita sudionika je li njegova interpretacija ispravna i treba li nešto ispraviti;
+• provjeri je li zapamtio ono najbitnije što je sudionik istraživanja želio poručiti.
+
+Temeljem svega navedenog za intervju se može ustvrditi da je riječ o metodi istraživanja koja
+u svojoj suštini predstavlja razgovor u formi „suradnje između sudionika i intervjuera“ i u
+kojem:
+• intervjuer ne bježi od vlastitih interpretacija odgovora sudionika istraživanja;
+• vođenje intervjua nalikuje pisanju priče u kojoj sudjeluju dva aktera;
+• vođenje intervjua predstavlja akt međusobne suradnje.
+Vođenje intervjua zahtijeva kombinaciju triju vještina: postavljanja pitanja, slušanja i vođenja
+bilješki. Naime, kao što smo napomenuli, aktivno slušanje pretpostavlja ujedno i pravilno
+vođenje intervjua, tj. ono je pretpostavka za postavljanje relevantnih pitanja i potpitanja koja
+izranjaju tijekom intervjua. Također, bitno je napomenuti da intervjuer prilikom vođenja
+intervjua uvijek vodi i bilješke. One ne podrazumijevaju bilježenje svega što sudionik navede,
+već bilježenje najbitnijih spoznaja do kojih dolazi tijekom samog intervjua, onih momenata
+koje intervjuer procjenjuje kao krucijalne te na koje treba obratiti posebnu pozornost prilikom
+interpretacije prikupljenih iskaza. Takve bilješke obično se vode ili u posebnoj bilježnici ili na
+marginama protokola za provođenje intervjua.
+Bitno je napomenuti da je uobičajena praksa pri vođenju intervjua snimanje tijeka intervjua
+diktafonom. Time se izbjegava mogućnost da istraživač prema svojim bilješkama parafrazira
+misli sudionika, što može imati konzekvence na valjanost interpretacije. Isto tako, snimljeni
+intervju štiti istraživača jer je ono što su sugovornici izrekli sačuvano u izvornom obliku.
+Snimljeni materijal omogućuje istraživaču i da ponovnim slušanjem intervjua stekne uvid u
+vlastite tehnike intervjuiranja kako bi ih usavršio. Snimanje ujedno pruža i zaštitu sudionicima
+u istraživanju jer će njihovi stavovi i mišljenja biti interpretirani onako kako su ih i izrazili
+(Seidman, 2006).
+Obrada podatka prikupljenih intervjuom i njihova interpretacija
+Prvi korak u obradi podataka je transkripcija snimljenog govornog materijala. Transkripcija
+podrazumijeva prenošenje odgovora sudionika istraživanja sa snimke u pisanu formu. Detaljna
+i pažljiva transkripcija, koja uključuje i verbalni i neverbalni dio (smijeh, stanke, uzdasi i sl.),
+
+bitna je istraživačima iz razloga što naknadno mogu izvršiti analizu ne izostavljajući niti jedan
+dio intervjua (Seidman, 2006).
+Iako se u konkretnim istraživačkim praksama vrlo često s obradom podataka započinje tek
+nakon kraja terenskog rada, bolja je solucija poštivati princip simultanosti terenskog rada i
+interpretacije. Dakle, analizu podataka ne treba tretirati kao zasebnu fazu istraživanja, već kao
+fazu koja se odvija zajedno s prikupljanjem podataka. Drugim riječima, prilikom samog
+provođenja istraživanja istraživač treba voditi računa o tome kako interpretirati iskaze
+sudionika istraživanja te koja su njihova značenja u kontekstu onoga što se istraživanjem želi
+spoznati.
+Prije početka završne faze u interpretaciji podataka, poželjno je da se podaci klasificiraju i
+reduciraju, tj. da se uobliče u formu koja omogućuje lakšu interpretaciju. Naime, količina
+empirijskog materijala koja se prikuplja kvalitativnim istraživačkim projektima prilično je
+velika. Ona uključuje nevažne, manje važne i vrlo važne empirijske podatke. Shodno tome,
+interpretacija kvalitativnih podataka često nalikuje „probijanju kroz džunglu“, tj. iziskuje da se,
+uslijed potrebe fokusiranja na važne iskaze i podatke, eliminiraju oni manje važni. Taj postupak
+„sređivanja podataka“ obično se provodi posredstvom procesa kodiranja. Kodiranje
+pretpostavlja kategoriziranje/tipologiziranje iskaza, odgovora i stavova sudionika intervjua. To
+znači da po smislu ili po nekom drugom kriteriju identične ili slične iskaze grupiramo u
+kategorije kojima onda dajemo određeni naziv. Drugim riječima, suština procesa kodiranja jest
+reduciranje i klasificiranje ili etiketiranje prikupljenog empirijskog materijala. Proces kodiranja,
+njegove faze i obilježja iscrpno objašnjava tzv. utemeljena teorija (eng. grounded theory), koja
+je predstavljena u poglavlju Utemeljena teorija i kodiranje.

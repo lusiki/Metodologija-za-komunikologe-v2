@@ -1,0 +1,45 @@
+# Razvoj znanosti prema Thomasu Kuhnu
+
+Nešto drugačije promišljanje o razvoju znanosti artikulirao je Thomas Kuhn. Do izlaska njegove
+knjige Struktura znanstvenih revolucija (1999 [1962]), bilo je uobičajeno viđenje znanstvenog
+rada kao kumulativnog procesa. No, Kuhn iznosi ideju da se znanost ne razvija kumulacijom,
+već revolucijom pristupa. Smatra da se razvoj znanosti može promatrati kao proces
+smjenjivanja različitih znanstvenih paradigmi. Pojam znanstvene paradigme može se razumjeti
+kao sklop znanja i uvjerenja, teorija i metoda u koje znanstvenici vjeruju, tj. koje smatraju
+plodonosnim u pogledu rješavanja određenih znanstvenih zagonetki.
+Konkretno, Kuhn navodi da paradigma s „jedne strane označava čitavu konstelaciju uvjerenja,
+vrijednosti i tehnika itd. koje dijele članovi jedne određene zajednice, a s druge strane
+označava jednu vrstu elemenata u toj konstelaciji, ona konkretna rješenja zagonetki koja,
+upotrijebljena kao modeli ili kao primjeri, mogu zamijeniti eksplicitna pravila kao temelj za
+rješavanje ostalih zagonetki normalne znanosti“ (Kuhn, 1999: 184).
+Dakle, paradigma predstavlja uvriježeni način rješavanja znanstvenih zagonetki u određenoj
+epohi, način na koji se postavljaju znanstvena pitanja, kao i način na koji se na njih odgovara.
+Prema Kuhnu, razdoblja znanstvenog razvoja u kojima prihvaćene teorije i metode mogu
+uspješno odgovoriti na postavljena znanstvena pitanja jesu razdoblja normalne znanosti.
+Međutim, kada nove spoznaje i nove činjenice koje se akumuliraju znanstvenim istraživanjima
+počnu dovoditi u pitanje način na koji prihvaćene teorije objašnjavaju prirodu svijeta,
+postojeća paradigma postaje spoznajno neučinkovita. Unutar nje se pojavljuju anomalije –
+paradigma više nije u mogućnosti objasniti prirodu novih empirijskih činjenica. Takvo razdoblje
+Kuhn naziva razdobljem znanstvene krize. Kriza se razrješava znanstvenom revolucijom koja
+podrazumijeva promjenu paradigme. To znači da se mijenja uobičajeni način znanstvenog
+proučavanja, mijenjaju se teorije koje objašnjavaju prirodu svijeta, kao i metode kojima se on
+proučava. Pojavljuju se teorije koje bolje objašnjavaju nove činjenice ili objašnjavaju više
+važnijih činjenica – oko njih nastaje nova paradigma.
+Postoje različiti primjeri koji omogućuju da se razvoj pojedinih znanosti objasni Kuhnovim
+konceptom. Primjerice, zamjena tzv. mijazmatskog načela u objašnjenju nastanka bolesti
+
+(ustajali zrak kao faktor nastanka bolesti) tzv. germinativnom teorijom (mikroorganizmi kao
+uzročnici nastanka bolesti) jedan je od primjera koji je sukladan ideji promjene znanstvene
+paradigme. Slično je i sa zamjenom geocentričnog shvaćanja svemira heliocentričnim.
+Potrebno je napomenuti da je Kuhnov koncept primjereniji za analizu razvoja prirodnih
+znanosti. Naime, za razliku od prirodnih znanosti, društvene znanosti u mnogo većoj mjeri
+obilježava svojstvo multiparadigmatičnosti. Prema američkom sociologu Georgeu Ritzeru,
+multiparadigmatičnost označava koegzistenciju više temeljnih teorijskih perspektiva unutar
+discipline, koje nerijetko nemaju zajednički epistemološki okvir niti teže integraciji. Ta
+raznolikost se prikazuje kao bogatstvo discipline, nasuprot jedinstvenosti paradigmi
+karakterističnoj za prirodne znanosti (Brezovec, 2025).
+Primjerice, iz jedne šire perspektive, Lazarsfeldova teorija dvostupanjskog tijeka komunikacije,
+kao i agenda-setting teorija, mogu se razumjeti kao dva paradigmatska teorijska okvira kojima
+se objašnjava djelovanje medija masovne komunikacije. Oba je ova paradigmatska okvira i
+danas moguće koristiti kao početne točke od kojih se kreće u analizu medijskih učinaka. Dakle,
+u društvenim znanostima prije postoji suživot paradigmi nego njihova stroga supstitucija.

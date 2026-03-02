@@ -18,35 +18,47 @@ book:
 
     - part: "Temelji znanstvenog istraživanja"
       chapters:
-        - 01_znanost.qmd
-        - 02_metode.qmd
-        - 03_nacrt.qmd
+        - 01_osnovna_obiljezja.qmd
+        - 02_ciljevi.qmd
+        - 03_pseudoznanost.qmd
+        - 04_kuhn.qmd
+        - 05_sistematizacija.qmd
+        - 06_razvoj_komunikologije.qmd
+        - 07_metode_istrazivanja.qmd
 
-    - part: "Metode prikupljanja podataka"
+    - part: "Kvantitativne metode istraživanja u društvenim znanostima"
       chapters:
-        - 04_anketa.qmd
-        - 05_analiza_sadrzaja.qmd
-        - 06_kvalitativne.qmd
-        - 07_mjesovita.qmd
+        - 08_kvantitativne_metode.qmd
+        - 09_priprema_kvantitativnih.qmd
+        - 10_anketa.qmd
+        - 11_analiza_sadrzaja.qmd
+        - 12_analiza_sadrzaja_digitalno.qmd
+        - 13_analiza_mreza.qmd
+        - 14a_deskriptivna_statistika.qmd
+        - 14b_statisticko_zakljucivanje.qmd
+        - 14c_statisticki_testovi.qmd
 
-    - part: "Analiza podataka"
+    - part: "Kvalitativne metode istraživanja u društvenim znanostima"
       chapters:
-        - 08_deskriptivna_statistika.qmd
-        - 09_statisticko_zakljucivanje.qmd
-        - 10_statisticki_testovi.qmd
+        - 15_kvalitativne_metode.qmd
+        - 16_priprema_kvalitativnih.qmd
+        - 17_intervju.qmd
+        - 18_fokus_grupe.qmd
+        - 19_utemeljena_teorija.qmd
+        - 20_analiza_diskursa.qmd
+        - 21_pisanje_izvjestaja.qmd
 
-    - part: "Računalne metode"
+    - part: "Mješovita metodologija"
       chapters:
-        - 11_racunalna_analiza_teksta.qmd
-        - 12_analiza_mreza.qmd
+        - 22_mjesovita_metodologija.qmd
 
     - part: "Okvir i perspektive"
       chapters:
-        - 13_etika.qmd
-        - 14_valjanost.qmd
-        - 15_racunalna_drustvena_znanost.qmd
+        - 23_etika.qmd
+        - 24_valjanost.qmd
+        - 26_racunalna_drustvena_znanost.qmd
 
-    - literatura.qmd
+    - 25_literatura.qmd
 
 format:
   html:

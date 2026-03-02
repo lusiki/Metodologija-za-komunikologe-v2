@@ -1,0 +1,54 @@
+# Znanost i pseudoznanost
+
+Suvremena filozofija znanosti bavi se i kriterijima posredstvom kojih se znanost razgraničava
+od drugih načina spoznaje svijeta. Primjerice, društveni svijet se može spoznavati i osobnim
+uvidima, intuicijom, zdravorazumskim razmišljanjem, filozofskim promišljanjem ili
+posredstvom umjetnosti. Svaki od ovih načina spoznaje svijeta ima neka svoja pravila i
+postavlja svoja specifična pitanja te se po tome i razlikuje od znanstvenog spoznavanja.
+Također, izuzev razlikovanja znanosti od ostalih vrsta spoznaje, filozofija znanosti veliku je
+pažnju posvetila razlikovanju znanosti od tzv. pseudoznanosti. Nažalost, danas kada upravo
+digitalne medijske tehnologije olakšavaju širenje empirijski neutemeljenih tvrdnji i različitih
+paraznanstvenih teorija koje se služe znanstvenom terminologijom kako bi zadobile privid
+legitimnosti, ovo razlikovanje postaje sve važnije. Takve tvrdnje, iako formalno oponašaju
+znanstveni diskurs, u suštini zanemaruju stroge protokole empirijske provjerljivosti koje nalaže
+znanost. Upravo zbog mogućnosti ekstremno brzog širenja neprovjerenih informacija, teorija
+zavjera i pseudoznanstvenih teza, razumijevanje jasne granice između znanstvene
+argumentacije i pseudoznanstvene retorike danas jest važnije nego ikada.
+Pseudoznanost se može definirati kao aktivnost koja oponaša znanost, pokušaj da se „kopira“
+znanstvena procedura kao i znanstveno rezoniranje bez strogog pridržavanja načela
+znanstvenog istraživanja. Dakle, pseudoznanost krivotvori znanstvenu proceduru na način da
+ju oponaša ili lažira. Najpoznatiji filozofi koji su se bavili problematikom razgraničenja znanosti
+i pseudoznanosti su Imre Lakatos i Karl Popper.
+U svom djelu Logika znanstvenog otkrića, Popper (1973 [1959]) kao kriterij razgraničenja
+znanosti od pseudoznanosti uvodi kriterij opovrgljivosti. Popper iznosi tezu da znanstvene
+teorije moraju imati svojstvo opovrgljivosti. Ukoliko se neka teorija ne može opovrgnuti
+empirijskim dokazima, tada se prema Popperu o njoj ne može govoriti kao o znanstvenoj
+teoriji. Prema Popperu, primjeri pseudoznanstvenih teorija su marksizam i psihoanaliza. To su
+teorije s velikim potencijalom za „imuniziranje“, tj. otvaraju prostor da se u teoriju stalno
+uvode nove teorijske propozicije, što onemogućuje njihovo opovrgavanje (Popper, 2004).
+Primjerice, Popper navodi da prema Marxu revolucionarne promjene započinju na način da se
+prvo mijenjaju sredstva za proizvodnju, zatim društveni uvjeti proizvodnje, pa politička moć i
+
+na kraju ideološka uvjerenja. Međutim, ruskom socijalističkom revolucijom 1918. prvo se
+promijenila politička moć, a tek zatim je ideologija počela mijenjati društvene uvjete i sredstva
+proizvodnje. Dakle, stvari su se događale suprotno Marxovoj teoriji. Reinterpretacija Marxove
+teorije revolucije od strane njegovih sljedbenika, a s ciljem izbjegavanja njene opovrgljivosti,
+imunizirala ju je od daljnjih napada transformirajući je u vulgarno-marksističku teoriju po kojoj
+ekonomski motivi i klasna borba prožimaju društveni život (Popper, 2004: 55-56). Drugim
+riječima, Marxovi nastavljači nisu prihvaćali empirijsko opovrgavanje njegove vizije
+društvenog razvoja, već su kontinuirano smišljali nova objašnjenja kojima su opravdavali, tj.
+imunizirali neuspjehe Marxovih predviđanja.
+Također, Popper kao opovrgljivu nije smatrao niti psihoanalitičku teoriju Sigmunda Freuda. On
+ju opisuje kao teoriju „kompatibilnu s mnogo svjetova“. Primjerice, prema psihoanalitičkoj
+teoriji, problemi u ponašanju buntovnog kao i anksioznog adolescenta mogu se objasniti
+Edipovim kompleksom (O'Hear, 2007: 53). Budući da se teorijske propozicije Freudove teorije
+mogu koristiti u različitim slučajevima, a nisu provjerljive, one nisu niti opovrgljive. Posljedično
+tome, Freudovu teoriju, kao i Marxovu, Popper nije smatrao znanstvenim teorijama.
+Upravo u pokušaju kontinuiranog opovrgavanja postojećih teorija Popper vidi osnovni smisao
+znanstvenog djelovanja. Stoga se prema njegovom konceptu i znanstveni napredak može
+promatrati iz perspektive kontinuiranih pokušaja opovrgavanja „starih“ teorija. Posljedica
+toga je razvoj znanosti. Naime, pokušavajući opovrgnuti teorije, znanstvenici zapravo
+omogućuju njihovu evoluciju, budući da se na taj način stare teorije dorađuju, tj. stare
+teorijske propozicije modificiraju se na način da se usklađuju s novim empirijskim činjenicama.
+Dakle, Popper drži da je pokušaj opovrgavanja znanstvenih teorija uzrok evolucije u znanosti,
+tj. uzrok znanstvenog razvoja.

@@ -1,0 +1,179 @@
+# Priprema istraživanja posredstvom kvalitativnih metoda
+
+Za razliku od istraživanja koja se provode kvantitativnim metodama, istraživanja koja se
+provode kvalitativnim metodama u znatno većoj mjeri su „otvorenog dizajna“. To znači da je
+nacrt istraživanja nije „fiksiran“ već je otvoren za promjenu i doradu tijekom samog
+istraživanja. Tijekom samog istraživanja moguće je, čak je i preporučljivo, postavljati nova
+istraživačka pitanja, predlagati uvođenje novih sudionika istraživanja ili uvoditi nove metode
+istraživanja.
+Upravo je otvorenost dizajna jedna od ključnih odrednica samog procesa istraživanja
+posredstvom kvalitativnih metoda. Willig (2016) napominje da kvalitativne metode
+istraživanja moraju biti dovoljno fleksibilne kako bi dozvolile izranjanje novih i nepredviđenih
+kategorija značenja i iskustva.
+Nacrt kvalitativnog istraživanja ugrubo možemo podijeliti u nekoliko poglavlja. Kao i u slučaju
+kvantitativnih istraživanja, u poglavlju „Predmet istraživanja“ potrebno je opisati predmet i
+temu istraživanja. Uz ovo poglavlje, sugeriramo da se nacrt kvalitativnog istraživanja
+strukturira na način da u njemu budu uključene komponente koje sugerira Maxvell (2012). To
+su:
+• Ciljevi
+• Konceptualni kontekst
+• Istraživačka pitanja
+• Metode
+• Valjanost
+U poglavlju Ciljevi obično se ekspliciraju razlozi zbog kojih se provodi istraživanje. Primjerice,
+može se navesti zbog čega se istraživanje smatra vrijednim za provesti, što se njime želi
+razjasniti, što se želi zaključiti i tsl.
+Iduća komponenta nacrta istraživanja može se definirati kao konceptualni kontekst.
+Konceptualni kontekst zapravo je sustav koncepata, očekivanja, pregled literature i teorija
+koje podupiru i koje istraživača informiraju o predmetu kvalitativnog istraživanja.
+Središnji dio nacrta kvalitativnog istraživanja su Istraživačka pitanja. Ona su ujedno i ključni
+moment razlikovanja kvalitativnog istraživačkog dizajna od kvantitativnog. Naime, u slučaju
+
+kvantitativnog dizajna postavljaju se ciljevi istraživanja i hipoteze koje se obično deduciraju iz
+neke općenite teorije koja se istraživanjem testira. U slučaju kvalitativnog istraživanja hipoteze
+i ciljevi istraživanja supstituiraju se istraživačkim pitanjima. Istraživačka pitanja usmjeravaju
+istraživanje na ono što se njime želi otkriti. U suštini radi se o izdvajanju određenih aspekata
+fenomena koji se istražuje, a za koje je istraživač zainteresiran. Bitno je napomenuti da
+formulacija istraživačkih pitanja ima konzekvence i u pogledu izbora metoda istraživanja.
+Primjerice, ukoliko su istraživačka pitanja postavljena na način da su usmjerena prema
+deskripciji iskustva aktera u određenom događaju, to znači da se kao metoda nameću intervjui
+ili fokus grupe. Ukoliko su usmjerena prema opisu nekih oblika ponašanja koje je vizualno
+dostupno, kao metoda se nameće promatranje. Drugim riječima, pojedina istraživačka pitanja
+određuju i izbor samih kvalitativnih metoda koje se mogu koristiti u istraživačkom projektu.
+Iduće poglavlje u dizajnu kvalitativnog istraživanja može se nasloviti kao Metode. U ovom
+poglavlju navode se metode istraživanja koje se planiraju koristiti te se legitimiraju razlozi zbog
+kojih se planiraju koristiti. Izuzev navođenja metoda, u ovom poglavlju prezentira se i početna
+ideja o vrsti materijala koji će se analizirati kao i o uzorku koji će biti obuhvaćen istraživanjem.
+Primjerice, ukoliko se istraživanje planira provesti analizom diskursa, potrebno je navesti koji
+su izvori materijala koji će se analizirati. Ukoliko se provode intervjui ili grupne diskusije,
+potrebno je navesti tko će biti sudionici istraživanja, kakva su njihova obilježja temeljem kojih
+će se izabirati, koliki broj intervjua ili diskusija se planira realizirati.
+Maxwell predlaže da se prilikom dizajniranja kvalitativnog istraživanja pažnja obrati i na način
+validacije podataka. Dakle, istraživač na kraju nacrta istraživanja može navesti procedure i
+postupke koje će koristiti kako bi bio siguran da su njegove interpretacije i zaključci valjani.
+Naposljetku, još jednom je potrebno napomenuti da nacrt istraživanja u slučaju kvalitativnih
+metoda nije fiksiran. On je podložan promjenama. Sasvim je legitimno da istraživač tijekom
+samog istraživanja donosi odluku o postavljanju novih istraživačkih pitanja, korištenju
+alternativnih metoda ili promjeni uzoraka sudionika ili izvora građe koja se podvrgava analizi.
+Otvorenost dizajna istraživanja, njegova fleksibilnost, inherentna je karakteristika istraživanja
+koje se provode kvalitativnim metodama istraživanja.
+
+Uzorkovanje i vrste uzorka u kvalitativnim metodama istraživanja
+Najčešći cilj kvantitativnih istraživanja je procjena populacijskih parametara. Stoga kvanti-
+tativni istraživači obično nastoje smanjiti pristranost u istraživanju tako što žele osigurati da
+njihov uzorak precizno reprezentira populaciju iz koje je ekstrahiran (Murphy, 2020). Zbog tog
+razlog kvantitativne tehnike uzorkovanja su dizajnirane tako da prvenstveno minimiziraju
+pristranosti u izoru jedinica uzorka iz populacije te maksimiziraju generabilnost prikupljenih
+podataka (Koerber i McMichael, 2008).
+Umjesto da smjeraju generalizaciji podataka s uzorka na populaciju, uobičajena svrha
+kvalitativnih metoda istraživanja može se opisati sintagmom „pogleda kroz prozor“ ili
+„zrcaljenja“ specifične situacije ili fenomena koji se proučava (Giacomini i Cook, 2000: 470).
+Drugim riječima, načelo reprezentativnosti u kvalitativnim istraživanjima nije ključno načelo
+uzorkovanja, tj. logika uzorkovanja u kvalitativnim istraživanjima prilično je drugačija.
+Uzorkovanjem u kvalitativnim istraživanjima, bez obzira o kojoj vrsti kvalitativnog materijala
+se radi, želi se minimizirati mogućnost da rezultati istraživanja budu drugačiji no što bi bili da
+se istraživanje provodi od strane drugih istraživača, te da su istraživanjem obuhvaćeni neki
+drugi individualni slučajevi unutar skupa onih slučajeva koji su relevantni za problem
+istraživanja (Koerber i McMichael, 2008: 463). Osim toga, suština kvalitativnog uzorkovanja
+leži u odabiru slučajeva koji su posebno informativni i koji najbolje oslikavaju raznolikost
+iskustava, stavova ili ponašanja relevantnih za istraživačko pitanje. Za razliku od kvantitativnog
+uzorkovanja, gdje je cilj statistička reprezentativnost, kvalitativno uzorkovanje naglašava
+strateški odabir slučajeva kako bi se omogućilo detaljno i kontekstualno razumijevanje
+fenomena.
+Dakle, cilj uzorkovanja u kvalitativnim istraživanjima je stvoriti bogatu, nijansiranu sliku
+proučavanog fenomena i omogućiti istraživaču uvid u složene procese, interakcije i značenja
+koja sudionici pridaju svojim iskustvima. U tu svrhu isprofilirali su se i uobičajeni tipovi uzoraka
+koji se koriste u kvalitativnim istraživačkim projektima. To su prigodni uzorak, svrhoviti uzorak
+(može se koristiti i termin „namjerni“) te teorijski uzorak.
+
+Prigodni uzorak
+Prigodni uzorak u kvalitativnim istraživanjima ima svojstva istoimenog uzorka koji se koristi u
+kvantitativnim istraživanjima (objašnjeno u poglavlju…). Dakle, riječ je o takvom odabiru u
+kojem koristimo one sudionike koji su nam u trenutku regrutacije bili na raspolaganju.
+Primjerice, u uzorak uključujemo osobe koje se odazovu na poziv za sudjelovanje (primjerice,
+poziv za sudjelovanje u istraživanju objavi se na društvenim mrežama), kad istraživač prihvati
+bilo koga tko se zatekne na mjestu provođenja istraživanja ili kad odluči da se u odabiru neće
+baviti suštinskim zahtjevima uzorkovanja.
+Svrhoviti uzorak
+Svrhoviti uzorak podrazumijeva odabir onih sudionika istraživanja koji mogu pružiti adekvatne
+informacije kao odgovore na postavljena istraživačka pitanja. Dakle, riječ je o pristupu u kojem
+se koristi strategija odabira sudionika po nekom kriteriju koji obično osigurava izbor onih
+osoba koje su relevantnije, npr. informiranije ili imaju bogatije iskustvo u vezi s temom koja je
+predmet istraživanja. Postoje tri podvrste svrhovitog uzorka koje se obično koriste u
+kvalitativnim istraživanjima.
+Uzorak tipičnih slučajeva: subjekti istraživanja su osobe koje su, s obzirom na svoje iskustvo,
+način života ili vrstu socijalnih interakcija, najrelevantnije za fenomen koji istražujemo.
+Relevantnost njihovog iskustva osnovna je garancija valjanosti rezultata istraživanja.
+Primjerice, provodi se istraživanje kako bi se spoznale navike u izradi Instagram storyja u Z
+generaciji. U ovom slučaju uzorak tipičnih slučajeva mogli bismo konstruirati na sljedeći način:
+temeljem kvantitativnih podataka o korištenju Instagrama i izradi Instagram storyja možemo
+doći do informacija koliko često prosječan korisnik Instagrama iz Z generacije kreira storyje.
+Ako je to jednom tjedno, tada ćemo u uzorak uključiti one pripadnike Z generacije koji jednom
+tjedno kreiraju Instagram storyje.
+Uzorak maksimalnih varijacija: sudionici istraživanja su osobe s raznolikim iskustvima ili
+karakteristikama relevantnim za fenomen koji je predmet istraživanja. Prema tome, u uzorak
+se uključuju sudionici koji su relevantni za određeni socijalni fenomen, bez obzira na „stupanj”
+njihove relevantnosti, involviranosti, informiranosti ili neku drugu karakteristiku. Dakle,
+uzorkovanjem se želi postići raznolikost sudionika istraživanja koji se tretiraju kao relevantni
+za fenomen s obzirom na njihove karakteristike, iskustva, rutine ili stavove. Primjerice, ukoliko
+
+metodom intervjua istražujemo pripadnike Z generacije koji kreiraju Instagram storyje, tada
+ćemo u istraživanje uvrstiti ispitanike koji se međusobno razlikuju s obzirom na intenzitet
+kreiranja storyja. Primjerice, planiramo uzorak od 15 ispitanika od kojih će 5 biti oni koji
+izrađuju storyje jednom mjesečno ili rjeđe, 5 onih koji će kreirati storyje nekoliko puta
+mjesečno te 5 koji ih kreiraju jednom tjedno ili češće.
+Uzorak devijantnijih slučajeva (može se koristiti i termin „uzorak atipičnih slučajeva”): subjekti
+istraživanja su osobe koje su, s obzirom na svoje iskustvo, način života ili vrstu socijalnih
+interakcija, one koje predstavljaju određeni izuzetak od „očekivanih pravila”. Koristi se kada
+želimo istražiti neke pojave ili aspekte pojava koje se pojavljuju kao devijacije ili izuzeci. Dakle,
+istraživači namjerno biraju slučajeve koji su atipični, ekstremni, rijetki ili odstupaju od „pravila”
+ili općeg obrasca. Primjerice, u uzorak uključujemo korisnike Instagrama koji nikada ne kreiraju
+Instagram storyje.
+Teorijski uzorak
+Ovo je uzorak osoba (ili neke druge građe) odabranih postupno, tijekom procesa istraživanja.
+Riječ je o tome da se analitički materijal ili sudionici istraživanja biraju prema kriteriju
+relevantnosti za istraživačko pitanje, teorijsku poziciju, analitički okvir ili teoriju koja se razvija.
+U teorijskom uzorkovanju obično se polazi od pretpostavke da kriteriji uzorkovanja postaju
+vidljivi tek nakon što se započne s istraživanjem, tj. da je strukturu uzorka moguće mijenjati
+shodno spoznajama do kojih se dolazi u istraživanju. Drugim riječima, nove spoznaje do kojih
+se dolazi tijekom istraživanja mogu promijeniti pretpostavke o potrebnoj strukturi uzorka,
+mogu utjecati na spoznaju da su potrebni novi ispitanici, koji se po nekim obilježjima razlikuju
+od prvobitno planiranih, a koji će donijeti neku novu spoznajnu kvalitetu. Ova koncepcija
+uzorkovanja dolazi iz tzv. utemeljene teorije (eng. Grounded Theory), koja je detaljnije
+objašnjena u poglavlju Utemeljena teorija i kodiranje.
+Veličina uzorka u kvalitativnim metodama istraživanja
+Za razliku od kvantitativnih istraživanja, u kojima se veličina uzorka određuje statističkim
+pravilima kako bi se omogućila generalizacija rezultata s uzorka na populaciju, tj. uz pomoć
+željene standardne pogreške, kao i procjene heterogenosti populacije, u kvalitativnim
+istraživanjima odluka o veličini uzorka temelji se na principu dubine i kvalitete podataka. Cilj
+kvalitativnog uzorkovanja nije brojčana reprezentacija populacije, već obuhvat dovoljnog
+
+broja sudionika ili slučajeva kako bi se istraživač mogao detaljno upoznati s fenomenom i
+razumjeti različite perspektive.
+Pri određivanju veličine uzorka pažnju treba obraditi na kompleksnost fenomena ili pojave
+koja se istražuje. Fenomeni koji imaju različite rezonance među različitim društvenim
+skupinama, koji su višeslojni ili uključuju više dimenzija iskustva, obično zahtijevaju veći broj
+sudionika jer je samo tako moguće obuhvatiti sve relevantne perspektive. S druge strane,
+jednostavniji ili relativno homogeni fenomeni mogu se istražiti uz manji broj sudionika.
+Uzmimo kao primjer istraživanje korištenja društvenih mreža među studentima na sveučilištu.
+Fenomen je kompleksan jer studenti različitih godina studija ili različitih fakulteta mogu imati
+različite prakse, stavove i motive korištenja društvenih mreža. Zbog te heterogenosti,
+adekvatan bi bio uzorak maksimalnih varijacija, a potreban je i nešto veći uzorak, npr. 20 do
+25 sudionika. Kada se govori o „većem“ uzorku u kvalitativnim istraživanjima, treba biti
+svjestan da se ne radi o veličinama od nekoliko stotina ispitanika kao što je to slučaj u
+kvantitativnim istraživanjima, već najviše o nekoliko desetaka ispitanika. Razlog tome je u tzv.
+faktoru saturacije informacija koji je ujedno i drugi kriterij određivanja veličine uzorka u
+kvantitativnim istraživanjima. Saturacija informacija se postiže kada novi sudionici istraživanja
+ne donose značajne nove informacije o fenomenu koji se proučava, odnosno kada se podaci
+počinju ponavljati te istraživaču postaje jasno da je dovoljno dobro obuhvatio sve relevantne
+perspektive i sva relevantna iskustva. To se obično događa nakon određenog broja intervjua:
+5, 10, 20, ali nikada nakon puno većeg broja od navedenih. To ujedno i znači da veličina uzorka
+u kvalitativnom istraživanju nije fiksna, već se određuje postupno, tijekom samog procesa
+prikupljanja i analize podataka, uz stalno praćenje raznolikosti i dubine informacija. Dakle, u
+ovom primjeru istraživanja studenata o korištenju društvenih mreža, istraživač bi mogao
+započeti s planom da provede 20 intervjua. Tijekom prikupljanja podataka, međutim,
+primijetio bi da se informacije počinju ponavljati i da dodatni sudionici ne donose značajne
+nove uvide o fenomenu. U tom slučaju, iako je početni plan predviđao veći broj intervjua,
+istraživanje se može završiti nakon 15 intervjua jer je postignuta saturacija informacija i
+obuhvaćena je dovoljna raznolikost perspektiva za dubinsku analizu.
+Kriterij saturacije ključan je mehanizam u donošenju odluke o veličini uzorka.

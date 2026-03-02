@@ -1,0 +1,152 @@
+# Priprema istraživanja posredstvom kvantitativnih metoda
+
+Proces istraživanja posredstvom kvantitativnih metoda sastoj se od logičkog slijeda postupaka
+koje treba provesti kako bi se došlo do pouzdanih i valjanih informacija. Ti se postupci obično
+se svrstavaju u nekoliko međusobno povezanih faza (Halmi, 1999:37) kao što su:
+1. Definiranje predmeta istraživanja
+2. Postavljanje ciljeva istraživanja i istraživačkih hipoteza
+3. Izbor metoda istraživanja i izvora podataka / analitičke građe
+4. Definiranje metode uzorkovanja i uzorkovanje
+5. Obrada i analiza podataka
+6. Pisanje istraživačkog izvještaja (znanstveni članka, monografija, istraživački izvještaj i
+tsl.)
+Provođenje istraživanja posredstvom kvantitativnih metoda podrazumijeva pažljivo planiranje
+svih navedenih faza istraživanja, a to se obavlja izradom nacrta istraživanja. Nacrt istraživanja
+je sistematski strukturiran plan istraživačkog procesa u kojemu je dokumentiran način na koji
+istraživač želi pristupiti planiranom istraživanju kao i procedure koje želi koristiti.
+Nacrtom istraživanja istraživač prije same realizacije istraživanja želi pružiti koncizne odgovore
+na sljedeća pitanja:
+• Što je predmet istraživanja?
+• Što su ciljevi istraživanja?
+• Koja je osnovna(e) hipoteza(e) od koje se kreće u istraživanje?
+• Kako je operacionaliziran teorijski koncept od kojeg se kreće u istraživanje?
+• Koja metoda istraživanja će se koristiti i na koji način?
+• Kako će se postupati s podacima u fazi njihove obrade?
+Struktura nacrta istraživanja nije strogo kodificirana, no obično se nacrt istraživanja strukturira
+posredstvom sljedećih poglavlja.
+
+1. Uvod
+U uvodu se obično ukratko naznačuje predmet istraživanja, navodi se što je u fokusu interesa
+istraživanja, zbog čega je istraživanje znanstveno i društveno relevantno. Može se naznačiti i
+širi teorijski okvir iz kojeg se kreće u istraživanje te eventualno opisati kakve su očekivane
+znanstvene i društvene konzekvence istraživanja koje se namjerava provesti.
+2. Predmet istraživanja
+U ovom poglavlju detaljno se opisuje predmet istraživanja. Specificiraju se njegova najvažnija
+obilježja, ona koja su predmet interesa te njegova znanstvena, stručna ili društvena
+relevantnost. Također, obično se navode ili konkretni teorijski ili neki drugi razlozi koji
+motiviraju provođenje istraživanja. Primjerice, neki od mogućih predmeta istraživanja u
+komunikacijskim znanostima mogu se definirati na sljedeći način: povjerenje u medije, razine
+medijske pismenosti u općoj populaciji, struktura medijskih publika ili doseg dnevnih novina.
+3. Teorijski pregled / teorijski okvir
+U poglavlju teorijski pregled ili teorijski okvir upućuje se na postojeće teorije koje su
+relevantne za proučavanje izabranog predmeta istraživanja ili na onu teoriju od koje se kreće
+u istraživanje. Dakle, ovdje se ukazuje na glavna teorijska određenje predmeta istraživanja
+koja su već razvijena u okviru znanosti ili na određene teorijske propozicije unutar jedne ili
+više relevantnih teorija koje se žele empirijski testirati. Smisao ovog poglavlja može se pronaći
+i u predstavljanju važećih teorija iz područja istraživanja te njihove kritičke usporedbe (Tkalac
+Verčić, Sinčić Ćorić, Pološki Vokić, 2010).
+4. Ciljevi istraživanja
+U ovom poglavlju predstavljaju se ciljevi istraživanja, tj. konkretni „zahtjevi“ za pojedinim
+tipovima podataka, informacija ili spoznaja. Suštinski, ciljevi istraživanja podrazumijevaju
+precizno određivanje onoga što se istraživanjem želi istražiti. Realizacija ciljeva istraživanja
+omogućuje spoznaju onih obilježja predmeta istraživanja koja su od predmeta istraživačkog
+interesa.
+Prilikom definiranja i opisivanja ciljeva istraživanja bitno je sljedeće:
+1. Ciljevi istraživanja moraju se moći realizirati!
+2. Ne smiju biti preopćeniti ( npr. utjecaj medija na mlade).
+
+3. Ukoliko je potrebno moguće je definirati jedan generalan cilj istraživanja i više
+specifičnih ciljeva istraživanja15.
+Također, važno je napomenuti da se u nacrtu istraživanja, ciljevi istraživanja navode
+takstativno, npr.:
+1. Utvrditi čitanost pojedinih rubrika dnevnih novina.
+2. Odrediti najpopularnije rubrike u dnevnim novinama.
+3. Definirati razloge čitanosti dnevnih novina.
+4. Utvrditi sociodemografsku strukturu čitatelja dnevnih novina.
+5. Hipoteze
+Kao što smo naveli, kvantitativne metode istraživanja uobičajeno se koriste kada se
+istraživanjem želi testirati jedna ili više hipoteza. Hipoteze koje se empirijski testiraju obično
+se izvode iz neke teorije koja je od predmeta interesa, tj. koja se testira sa ciljem da se neke
+od njenih propozicija, ili teorija u cijelosti, nadopuni, odbaci ili potvrdi. Na osnovi prikupljenih
+empirijskih podataka hipoteze od koje se krenulo u istraživanje se ili potvrđuju ili odbacuju, a
+shodno tome i teorija od koje se kreće u istraživanje se odbacuje, potvrđuje ili modificira.
+Zbog navedenog, jedan od uobičajenih dijelova nacrta istraživanja je i onaj u kojem se
+specificiraju hipoteze od kojih se kreće u istraživanje. Vujević hipoteze definira kao misaone
+odnose među pojmovima (Vujović, 2006:86), a Halmi kao nedokazanu tvrdnju, pretpostavku
+koja se empirijski može provjeriti (Halmi, 1999:38). Hipoteza treba ispunjavati sljedeće uvjete
+(Milas, 2009:69):
+• mora biti primjerena problemu / predmetu istraživanja;
+• mora biti jasna i nedvosmislena, postavljena na način koji dopušta opovrgavanje;
+• mora biti najjednostavniji mogući odgovor na problem;
+• mora biti razložna i vjerojatna prije same provjere;
+• mora biti provjerljiva.
+15 Npr. generalni cilj istraživanja može biti definiran na sljedeći način: Utvrditi razinu medijske pismenosti u
+urbanoj populaciji u dobi od 30 do 50 godina. Polazeći od ovog generalnog cilja istraživanja mogu se razraditi
+sljedeći specifični ciljevi: Utvrditi sposobnost kritičke evaluacije medijskog sadržaja, utvrditi mogućnost pristupa
+pojedinim vrstama medijskog sadržaja, utvrditi mogućnost kreacije pojedinih vrsta medijskog sadržaja. Dakle,
+specifični ciljevi istraživanja se obično definiraju kako bi se njihovom realizacijom realizirao generalni cilj
+istraživanja.
+
+Da bi hipoteza bila provjerljiva, potrebno ju je izraziti u mjerljivim terminima (Tkalac Verčić,
+Sinčić Ćorić, Pološki Vokić, 2010). „Pretvaranje“ teorijskih pojmova u mjerljive varijable naziva
+se operacionalizacija. Dakle, operacionalizacijom se prelazi s teorijskog na empirijski aspekt
+istraživanja – teorijski pojmovi transformiraju se u mjerljive entitete. Zbog tog razloga i
+hipoteze se uobičajeno definiraju kao pretpostavljeni odnos između varijabli koje se
+istraživanjem mjere. Primjerice, često se hipoteza određuje kao pretpostavljeni suodnos
+između neke nezavisne i zavisne varijable.
+Specifični tip hipoteze koji je svojstven kvantitativnim istraživanjima je tzv. nul-hipoteza.
+Naziva se još i „statističkom hipotezom“. Postavlja se pri provedbi statističkih testova,
+primjerice kada se želi testirati statistička značajnost razlika između različitih grupa sudionika
+istraživanja dobivena nekim mjerenjem. Naziva se nul-hipoteza, jer je postavljena u niječnom
+obliku (Milas, 2009:71), a podrazumijeva pretpostavku da razlike između grupa ne postoje, tj.
+da je razlika između grupa nula. Ukoliko se testiranjem utvrdi da razlike postoje, nul-hipoteza
+se odbacuje. Također, nul-hipoteza se koristi i u korelacijskim analizama, a pretpostavlja
+nepostojanje pozvanosti između testiranih varijabli.
+Primjer nul-hipoteze: Ne postoji statistički značajna razlika u prosječnoj vrijednosti muškaraca
+i žena na testu medijske pismenosti.
+6. Varijable
+Obično se u nacrtu istraživanja prezentira i popis glavnih varijabli koje će se mjeriti te se
+definira njihova funkcija (npr. zavisne i nezavisne varijable) kao i pretpostavljeni odnos
+(korelacijski ili kauzalni). Izbor varijabli koje će se mjeriti u istraživanju mora proizlaziti iz
+postavljenih ciljeva istraživanja i definiranih hipoteza. Dakle, istraživanjem nema smisla mjeriti
+one varijable koje su s obzirom na predložene ciljeve i hipoteze nepotrebne.
+Nezavisne varijable su one za koje se pretpostavlja da svojim promjenama utječu na promjene
+drugih varijabli. Zavisne varijable su one čije se vrijednosti mijenjaju kao posljedica varijacija
+nezavisne varijable. Primjerice, ako kao nezavisnu varijablu odredimo dob čitatelja dnevnih
+novina, a kao zavisnu varijablu učestalost čitanja dnevnih novina, možemo postaviti sljedeću
+istraživačku hipotezu: osobe starije od 45 godina češće čitaju dnevne novine nego osobe
+mlađe od 45 godina.
+
+7. Izvori podataka i metode istraživanja
+U nacrtu istraživanja potrebno je jasno definirati izvore i metode prikupljanja podataka. Izvori
+podataka mogu biti primarni i sekundarni. Sekundarni izvori su oni koji postoje neovisno od
+samog istraživača, tj. koji sadrže već prikupljene podatke. Npr. rezultati prijašnjih istraživanja,
+arhivska građa, dokumentacija i tsl. Kada se koriste sekundarni izvori podataka govori se da se
+istraživanjem obrađuju „sekundarni podaci“. Analiza takvih tipova podataka obično se naziva
+i desk analiza / analiza za stolom. Primarni podaci su oni koji se prikupljaju prvi put, posebno
+za potrebe konkretnog istraživanja. Istraživač ih dobiva neposredno iz izvora koji se definira u
+fazi pripreme istraživanja, primjerice anketiranjem, intervjuiranjem, promatranjem i sl.
+Kvantitativne metode koje su na raspolaganju istraživaču za prikupljanje primarnih podataka
+primjerice mogu biti metoda ankete, metoda analize sadržaja ili metoda eksperimenta. U
+ovom poglavlju nacrta istraživanja istraživač također navodi koju metodu će koristiti (npr.
+telefonska anketa), može ukratko objasniti razloge zbog kojih je planira koristiti te predočiti
+osnovna obilježja mjernog instrumenta.
+8. Uzorak i uzorkovanje
+Budući da se velika većina istraživanja u društvenim znanostima provodi na uzorcima16, obično
+se u posebnom poglavlju nacrta istraživanja navodi veličina i vrsta planiranog uzorka. Dakle,
+potrebno je izvijestiti o planiranom broju sudionika istraživanja te o tome hoće li se istraživanje
+provesti na slučajnim ili neslučajnim uzorcima. Uz to obično se opisuje proces uzorkovanja, tj.
+objašnjava se kakav je konkretan plan izbora jedinca uzorka.
+9. Plan statističke obrade podataka
+Navodi se koje se procedure statističke obrade podataka namjeravaju koristiti.
+10. Terminski plan
+Ukoliko je potrebno razrađuje se terminski plan provedbe svih faza istraživanja.
+Važno je napomenuti da je nacrt istraživanja u slučaju kvantitativnih metoda u pravilu
+„fiksiran“, tj. zatvoren. Iako to nužno ne mora biti pravilo, on se u pravilu ne mijenja tijekom
+samog istraživanja. Primjerice, rijetko se postavljaju novi ciljevi istraživanja ili se dodaju nove
+hipoteze ili nove metode. Prema tome, u slučaju provedbe istraživanja posredstvom
+16 Izuzeci su obično neke specifične, male populacije koje je moguće u potpunosti obuhvatiti istraživanjem.
+
+kvantitativnih metoda istraživanja istraživači uglavnom ostaju u metodskim i izvedbenim
+gabaritima koji su predviđeni nacrtom istraživanja. U pravilu, nacrt kvantitativnog istraživanja
+ne mijenja se tijekom samog istraživačkog postupka.

@@ -1,0 +1,71 @@
+# Kvantitativne metode istraživanja u društvenim znanostima
+
+Empirističko-pozitivistička spoznajna tradicija ishodište je kvantitativnih metoda istraživanja u
+društvenim znanostima. Stoga je i način na koji se posredstvom kvantitativnih metoda
+pokušava spoznati kompleksnost društvenog svijeta sličan načinu na koji to čine prirodne
+znanosti u spoznavanju prirodnog svijeta. Kvantitativne metode istraživanja najčešće se
+upotrebljavaju kada se žele spoznati kauzalne relacije u nekom društvenom fenomenu (uzroci
+i posljedice), kada se želi utvrditi povezanost između varijabli (korelacija), kada se žele testirati
+razlike između pojedinih grupa sudionika istraživanja s obzirom na njihove prosječne
+vrijednosti na nekoj varijabli ili kada se žele opisati različita kvantitativna svojstva društvenih
+pojava (rasprostranjenost, intenzitet i tsl.). Kvantitativne metode također se koriste kada se
+istraživanjima žele provjeriti, opovrgnuti ili nadograditi pojedine znanstvene teorije, tj. kada
+se u istraživanje kreće od hipoteza koje se izvode iz pojedinih teorijskih koncepata, a koje se
+žele testirati novim empirijskim podacima.
+Dakle, kvantitativne metode društvenih istraživanja fokusirane su na mjerenje društvenih
+pojava / fenomena s ciljem njihove kvantifikacije. Mjerenje se obavlja na način da se procesom
+operacionalizacije teorijski konstrukti transformiraju u niz mjerljivih varijabli. Varijable su
+promjenjiva obilježja, tj. obilježja koja mogu poprimiti različite vrijednosti. Postoji niz različitih
+klasifikacija varijabli među kojima je temeljna ona koja ih dijeli na:
+1. Nominalne varijable
+2. Ordinalne varijable
+3. Intervalne varijable
+4. Omjerne varijable
+Nominalne varijable su kategorijske varijable čije vrijednosti predstavljaju različite kategorije
+ili skupine, ali ne postoji prirodan ili logički redoslijed među tim kategorijama. One služe
+isključivo za klasifikaciju i identifikaciju različitih grupa. Primjerice nominalna varijabla je
+mjesto stanovanja. Dakle, brojevi u slučaju nominalnih varijabli predstavljaju samo oznake
+pripadanja određenoj klasi (npr. 1-grad, 2-selo)13.
+13 Više o varijablama vidi: Halmi,1999; Tkalac Verčić, Sinčić Čorić, Pološki Vokić, 2010.
+
+Ordinalne varijable predstavljaju posebnu vrstu kategorijskih varijabli kod kojih je moguće
+uspostaviti prirodan redoslijed među kategorijama, odnosno rangirati ih. Ipak, važno je
+napomenuti da razmaci između susjednih kategorija nisu nužno jednaki niti apsolutno
+mjerljivi, što ih razlikuje od kvantitativnih varijabli. Ključna značajka ordinalnih varijabli jest
+upravo mogućnost rangiranja, što omogućuje prepoznavanje relativnog položaja pojedine
+vrijednosti u odnosu na druge. Primjeri takvih varijabli nalazimo u svakodnevnim
+istraživanjima – ocjene zadovoljstva poput „nezadovoljan“, „djelomično zadovoljan“,
+„zadovoljan“ i „vrlo zadovoljan“ jasno pokazuju redoslijed, ali ne i jednaki razmak između
+kategorija. Slično, razina obrazovanja („osnovna škola“, „srednja škola“, „fakultet“,
+„magisterij/doktorat“) i socioekonomski status („nizak“, „srednji“, „visok“) također odražavaju
+rang, ali ne kvantificiraju točne razlike između stupnjeva.
+Intervalne varijable su numeričke varijable kod kojih, osim što postoji rangiranje između
+vrijednosti, postoji i ekvidistanca. Naime, razlike između bilo koje dvije susjedne vrijednosti su
+precizne i konstantne. Primjer je temperatura izražena u stupnjevima Celzijusa: razlika između
+10 i 20 stupnjeva ista je kao razlika između 30 i 40 stupnjeva. Bitno obilježje ovih varijabli je
+da je nula arbitrarno određena, što znači da nula ne označava nepostojanje pojave. Intervalne
+varijable dopuštaju izvođenje numeričkih operacija, poput računanja prosječne vrijednosti ili
+provođenja testova statističke značajnosti. Primjeri intervalnih varijabli uključuju temperaturu
+u stupnjevima Celzijusa i broj ostvarenih bodova na testu.
+Omjerne varijable su numeričke varijable kod kojih je nula ishodište mjerenja i označava
+nepostojanje svojstva koje se mjeri. U slučaju ovih varijabli omjeri među brojevima odgovaraju
+omjerima u stvarnosti. Primjeri omjernih varijabli uključuju visinu i težinu.
+Mjerenje u znanosti podrazumijeva dodjeljivanje brojeva onim svojstvima, tj. varijablama koja
+se mjere prema određenim logičkim pravilima. Prema tome, podaci koji se prikupljaju
+kvantitativnim metodama istraživanja imaju formu numeričkih pokazatelja. O svojstvima
+pojava koje se istražuje govori se u terminima frekvencija, postotaka, indeksa, tj. u terminima
+numeričkih vrijednosti. Zbog toga je i poznavanje statističkih tehnika obrade podataka jedan
+od nužnih preduvjeta pravilne interpretacije podatka prikupljenih kvantitativnim metodama
+istraživanja.
+
+Najčešće korištene kvantitativne metode istraživanja u komunikacijskim znanostima su
+metoda ankete i metoda analize sadržaja14. Metodom ankete uglavnom se istražuju navike u
+konzumaciji medija, stavovi prema medijima, povjerenje u medije, razina medijske
+pismenosti, reakcije na pojedine komunikacijske kampanje i tsl. Metodom analize sadržaja
+istražuje se zastupljenost pojedinih tema u medijskim objavama, način na koji mediji govore o
+pojedinim događajima, kako prezentiraju pojedine društvene aktere, koje poruke odašilju i tsl.
+Upravo zbog njihovog intenzivnog korištenja, u poglavljima koja slijede podrobnije će biti
+opisana osnovna svojstva i osnovna izvedbena pravila u korištenju ovih dvaju metoda.
+14 Metoda eksperimenta u komunikologiji koristi se manje učestalo od metode ankete i analize sadržaja. Zbog
+toga posebno nije ni obrađena. Zainteresirani čitatelji mogu steći uvid u osnovna obilježja metode eksperimenta
+u knjizi Gorana Milasa Istraživačke metode u psihologiji i drugim društvenim znanostima (Naklada Slap, 2009).
