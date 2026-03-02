@@ -26,113 +26,127 @@ set.seed(42)
 
 # Statistički testovi u praksi
 
-U prethodnim poglavljima postavili smo teorijske temelje inferencijalne statistike – razumjeli smo logiku testiranja hipoteza, ulogu p-vrijednosti i vrste pogrešaka koje možemo napraviti. Sada je vrijeme da te principe primijenimo kroz najčešće korištene statističke testove u istraživanju masovne komunikacije. Svaki test dizajniran je za specifičnu vrstu istraživačkog pitanja i specifičnu vrstu podataka.
+Zamislimo istraživačicu koja je provela opsežno istraživanje o medijskim navikama i percepcijama hrvatskih građana. Prikupila je podatke od 200 ispitanika o njihovom povjerenju u različite medijske izvore, vremenu provedenom na društvenim mrežama, vrsti sadržaja koji konzumiraju i demografskim obilježjima. Sada sjedi pred tablicom podataka i mora odgovoriti na niz istraživačkih pitanja. Je li prosječno povjerenje u televizijske vijesti značajno različito od neutralne vrijednosti na skali? Razlikuje li se percipirani kredibilitet vijesti između tradicionalnih medija i društvenih mreža? Postoji li povezanost između tipa sadržaja koji ljudi dijele i platforme koju koriste? Može li vrijeme provedeno na društvenim mrežama predvidjeti razinu političke polarizacije? Svako od ovih pitanja zahtijeva primjenu drugačijeg statističkog testa, a odabir pravog testa ovisi o vrsti istraživačkog pitanja i vrsti podataka.
 
-Istraživač masovne komunikacije svakodnevno se suočava s pitanjima koja zahtijevaju statističko testiranje. Je li nova strategija naslova na portalu dovela do statistički značajnog povećanja broja klikova? Razlikuje li se percipirana kredibilnost vijesti između tradicionalnih medija i društvenih mreža? Postoji li povezanost između vremena provedenog na društvenim mrežama i političke polarizacije? Može li duljina članka predvidjeti broj komentara koje će članak generirati? Odgovori na ova pitanja zahtijevaju primjenu odgovarajućih statističkih testova.
+U prethodnom poglavlju postavljeni su teorijski temelji inferencijalne statistike, tj. razjašnjena je logika testiranja hipoteza, uloga p-vrijednosti i vrste pogrešaka koje se mogu pojaviti pri statističkom zaključivanju (v. poglavlje 9). Sada je potrebno te principe primijeniti kroz najčešće korištene statističke testove u istraživanju masovne komunikacije. Istraživač masovne komunikacije svakodnevno se suočava s pitanjima koja zahtijevaju statističko testiranje, bilo da se radi o usporedbi prosječnih vrijednosti između grupa, ispitivanju povezanosti između kategorijskih varijabli ili predviđanju ishoda na temelju skupa prediktora. Odabir odgovarajućeg testa ovisi o nekoliko faktora, ponajprije o vrsti istraživačkog pitanja (usporedba, povezanost ili predviđanje), vrsti varijabli (numeričke ili kategorijske), broju grupa koje se uspoređuju te prirodi podataka (nezavisni ili upareni).
 
-Izbor pravog testa ovisi o nekoliko faktora: vrsti istraživačkog pitanja (usporedba, povezanost, predviđanje), vrsti varijabli (numeričke ili kategorijske), broju grupa koje uspoređujemo i prirodi podataka (nezavisni ili upareni). U ovom poglavlju sustavno ćemo proći kroz najvažnije testove, počevši od t-testa za usporedbu prosjeka, preko ANOVA-e za usporedbu više grupa, hi-kvadrat testa za kategorijske varijable, do korelacije i regresijske analize za ispitivanje odnosa između varijabli.
+Poglavlje je organizirano u tri veća odjeljka. U prvom se obrađuju testovi za usporedbu prosjeka, tj. t-test u svojim trima varijantama (jednodetaljuzorkovni, nezavisni i zavisni) te analiza varijance (ANOVA) za usporedbu triju ili više grupa. Drugi odjeljak posvećen je testovima za ispitivanje povezanosti, uključujući hi-kvadrat test za kategorijske varijable te Pearsonovu korelaciju za numeričke varijable. Treći odjeljak pokriva regresijsku analizu, od jednostavne linearne regresije do višestruke regresije s više prediktora, te završava diskusijom o razlici između statističke i praktične značajnosti. Poglavlje uključuje i cjelovit primjer koji demonstrira primjenu više testova na istom skupu podataka te usporednu tablicu svih obrađenih testova.
 
 ## T-test i ANOVA
 
+Oba testa obrađena u ovom odjeljku, t-test i ANOVA, bave se istim temeljnim pitanjem: razlikuju li se prosjeci numeričke varijable između grupa? Razlika je u broju grupa koje se uspoređuju. T-test je primjeren kada se uspoređuju prosjeci dviju grupa (ili jedan prosjek s poznatom vrijednošću), dok ANOVA omogućuje usporedbu prosjeka triju ili više grupa u jednom testu. Oba testa temelje se na logici testiranja hipoteza obrađenoj u poglavlju 9 te koriste mjere centralne tendencije i varijabilnosti opisane u poglavlju 8.
+
 ### T-test: usporedba prosjeka
 
-T-test je vjerojatno najčešće korišteni statistički test u društvenim znanostima. Koristi se kada želimo usporediti prosjeke – bilo da uspoređujemo jedan prosjek s teorijskom vrijednošću, ili prosjeke između dvije grupe. Za razliku od z-testa koji zahtijeva poznavanje populacijske standardne devijacije, t-test koristi procjenu iz uzorka, što ga čini praktičnijim za stvarno istraživanje.
+**T-test** je vjerojatno najčešće korišteni statistički test u društvenim znanostima. Koristi se kada je cilj usporediti prosjeke, bilo da se uspoređuje jedan prosjek s teorijskom vrijednošću ili prosjeci između dviju grupa. Za razliku od z-testa koji zahtijeva poznavanje populacijske standardne devijacije, t-test koristi procjenu iz uzorka, što ga čini praktičnijim za stvarno istraživanje.
 
-Postoje tri varijante t-testa, svaka za različitu situaciju: jedan-uzorkovni t-test (usporedba prosjeka uzorka s poznatom vrijednošću), nezavisni t-test (usporedba prosjeka između dvije nezavisne grupe) i zavisni t-test (usporedba prosjeka za iste ispitanike u dva uvjeta).
+Postoje tri varijante t-testa, svaka za različitu situaciju. **Jedan-uzorkovni t-test** koristi se za usporedbu prosjeka uzorka s poznatom vrijednošću. **Nezavisni t-test** služi za usporedbu prosjeka između dviju nezavisnih grupa. **Zavisni t-test** primjenjuje se kada se uspoređuju prosjeci za iste ispitanike u dva uvjeta.
 
 #### Jedan-uzorkovni t-test
 
-**Jedan-uzorkovni t-test** koristi se kada želimo testirati je li prosječna vrijednost u našem uzorku značajno različita od neke hipotetske vrijednosti. Na primjer, Nova TV tvrdi da njihov prosječni gledatelj provede 45 minuta dnevno gledajući njihov program. Istraživač prikupi podatke od 30 nasumično odabranih gledatelja i želi testirati ovu tvrdnju.
+**Jedan-uzorkovni t-test** koristi se kada je cilj testirati razlikuje li se prosječna vrijednost u uzorku značajno od neke hipotetske vrijednosti. Na primjer, Nova TV tvrdi da njihov prosječni gledatelj provede 45 minuta dnevno gledajući njihov program. Istraživač prikupi podatke od 30 nasumično odabranih gledatelja i želi provjeriti ovu tvrdnju.
 
-Imamo uzorak od $N = 30$ gledatelja. Prosječno vrijeme gledanja u uzorku je $\bar{X} = 38.5$ minuta, sa standardnom devijacijom $s = 12.0$ minuta. Postavljamo hipoteze:
+Uzorak obuhvaća $N = 30$ gledatelja. Prosječno vrijeme gledanja u uzorku iznosi $\bar{X} = 38.5$ minuta, sa standardnom devijacijom $s = 12.0$ minuta. Postavljaju se hipoteze:
 
 $$H_0: \mu = 45 \text{ minuta}$$
 $$H_1: \mu \neq 45 \text{ minuta}$$
 
-Testna statistika za jedan-uzorkovni t-test je:
+Testna statistika za jedan-uzorkovni t-test jest:
 
 $$t = \frac{\bar{X} - \mu_0}{s / \sqrt{N}}$$
 
-gdje je $\mu_0$ hipotetska populacijska sredina (45 minuta), $s$ standardna devijacija uzorka, i $N$ veličina uzorka. Ključna razlika od z-testa je da koristimo procijenjenu standardnu pogrešku $s/\sqrt{N}$ umjesto prave $\sigma/\sqrt{N}$, što uvodi dodatnu nesigurnost koju kompenziramo korištenjem t-distribucije umjesto normalne.
+Ova formula kaže da se razlika između opaženog prosjeka uzorka ($\bar{X}$) i hipotetske populacijske sredine ($\mu_0$) dijeli sa standardnom pogreškom ($s/\sqrt{N}$). Rezultirajuća t-vrijednost govori koliko je standardnih pogrešaka prosjek uzorka udaljen od hipotetske vrijednosti. Ključna razlika u odnosu na z-test je da se koristi procijenjena standardna pogreška $s/\sqrt{N}$ umjesto prave $\sigma/\sqrt{N}$, što uvodi dodatnu nesigurnost koja se kompenzira korištenjem t-distribucije umjesto normalne.
 
 ```{r}
 #| label: fig-one-sample-t
-#| fig-cap: "Jedan-uzorkovni t-test: vrijeme gledanja Nova TV"
+#| fig-cap: "Jedan-uzorkovni t-test: distribucija vremena gledanja Nova TV. Puna linija označava opaženi prosjek uzorka, a isprekidana linija hipotetsku vrijednost od 45 minuta prema tvrdnji Nova TV. Vidljivo je da se distribucija uzorka grupira oko vrijednosti niže od tvrdnje."
 
 set.seed(123)
 vrijeme_gledanja <- rnorm(30, mean = 38.5, sd = 12)
 
-mean_vrijeme <- mean(vrijeme_gledanja)
+prosjek_vrijeme <- mean(vrijeme_gledanja)
 sd_vrijeme <- sd(vrijeme_gledanja)
 n <- length(vrijeme_gledanja)
 mu0 <- 45
 
-t_stat <- (mean_vrijeme - mu0) / (sd_vrijeme / sqrt(n))
-p_val <- 2 * pt(abs(t_stat), df = n-1, lower.tail = FALSE)
+t_statistika <- (prosjek_vrijeme - mu0) / (sd_vrijeme / sqrt(n))
+p_vrijednost <- 2 * pt(abs(t_statistika), df = n-1, lower.tail = FALSE)
 
 df_vrijeme <- data.frame(vrijeme = vrijeme_gledanja)
 
 ggplot(df_vrijeme, aes(x = vrijeme)) +
-  geom_histogram(aes(y = after_stat(density)), bins = 12, 
+  geom_histogram(aes(y = after_stat(density)), bins = 12,
                  fill = "gray60", color = "black") +
   geom_vline(xintercept = mu0, linetype = "dashed", linewidth = 1) +
-  geom_vline(xintercept = mean_vrijeme, linewidth = 1) +
-  annotate("text", x = mu0 + 2, y = 0.035, 
-           label = paste("Nova TV tvrdnja\n(45 min)"), 
+  geom_vline(xintercept = prosjek_vrijeme, linewidth = 1) +
+  annotate("text", x = mu0 + 2, y = 0.035,
+           label = paste("Nova TV tvrdnja\n(45 min)"),
            hjust = 0, size = 3.5) +
-  annotate("text", x = mean_vrijeme - 2, y = 0.03, 
-           label = paste("Opaženo\n(", round(mean_vrijeme, 1), " min)"), 
+  annotate("text", x = prosjek_vrijeme - 2, y = 0.03,
+           label = paste("Opa\u017eeno\n(", round(prosjek_vrijeme, 1), " min)"),
            hjust = 1, size = 3.5) +
   labs(
     title = "Distribucija vremena gledanja Nova TV (N = 30)",
-    subtitle = paste("t =", round(t_stat, 2), "| p =", round(p_val, 3)),
+    subtitle = paste("t =", round(t_statistika, 2), "| p =", round(p_vrijednost, 3)),
     x = "Vrijeme gledanja (minute)",
-    y = "Gustoća"
+    y = "Gusto\u0107a"
   )
 ```
 
-Za naš primjer, $t = (38.5 - 45) / (12/\sqrt{30}) = -2.97$. S 29 stupnjeva slobode, p-vrijednost iznosi približno 0.006. Budući da je $p < 0.05$, odbacujemo nultu hipotezu i zaključujemo da prosječno vrijeme gledanja značajno se razlikuje od 45 minuta koje tvrdi Nova TV. Gledatelji u našem uzorku provode značajno manje vremena gledajući program nego što televizija tvrdi.
+Za navedeni primjer, $t = (38.5 - 45) / (12/\sqrt{30}) = -2.97$. S 29 stupnjeva slobode, p-vrijednost iznosi približno 0.006. Budući da je $p < 0.05$, nulta se hipoteza odbacuje i zaključuje se da prosječno vrijeme gledanja značajno se razlikuje od 45 minuta koje tvrdi Nova TV. Gledatelji u uzorku provode značajno manje vremena gledajući program nego što televizija tvrdi. U programskom jeziku R, jedan-uzorkovni t-test provodi se funkcijom `t.test()`, pri čemu argument `mu` specificira hipotetsku populacijsku sredinu s kojom se uspoređuje prosjek uzorka.
+
+```{r}
+#| label: jednodetaljuzorkovni-t-test-primjer
+#| echo: true
+
+# Jedan-uzorkovni t-test: je li prosjek razlicit od 45?
+t.test(vrijeme_gledanja, mu = 45)
+```
+
+Iz rezultata funkcije `t.test()` mogu se iščitati svi ključni elementi statističkog testa: testna statistika (*t*), stupnjevi slobode (*df*), p-vrijednost, 95%-tni interval pouzdanosti te procjena prosjeka uzorka. Ova funkcija automatski koristi t-distribuciju s $N - 1$ stupnjeva slobode, čime se ispravno uzima u obzir nesigurnost procjene standardne pogreške iz uzorka.
+
+S razumijevanjem jednodetaljuzorkovnog t-testa, moguće je prijeći na situaciju u kojoj se uspoređuju prosjeci između dviju nezavisnih grupa.
 
 #### Nezavisni t-test
 
-**Nezavisni t-test** (independent samples t-test) koristi se kada želimo usporediti prosjeke između dvije **nezavisne** grupe. Na primjer, uspoređujemo angažman s člancima između dvije različite vrste naslova, ili kredibilitet vijesti između HRT-a i komercijalne televizije.
+**Nezavisni t-test** (engl. *independent samples t-test*) koristi se kada je cilj usporediti prosjeke između dviju **nezavisnih** grupa. Na primjer, može se uspoređivati angažman s člancima između dviju različitih vrsta naslova, ili kredibilitet vijesti između HRT-a i komercijalne televizije.
 
-Index.hr želi testirati dvije strategije naslova. Nasumično dodjeljuju 50 članaka senzacionalnim naslovima i 50 informativnim naslovima, te mjere broj klikova. Nulta hipoteza je da nema razlike u prosječnom broju klikova između dvije grupe:
+Zamislimo da novinski portal želi testirati dvije strategije naslova. Nasumično se dodjeljuje 50 članaka senzacionalnim naslovima i 50 informativnim naslovima, te se mjeri broj klikova. Nulta hipoteza glasi da nema razlike u prosječnom broju klikova između dviju grupa:
 
 $$H_0: \mu_1 = \mu_2$$
 $$H_1: \mu_1 \neq \mu_2$$
 
-Postoje dvije verzije nezavisnog t-testa. **Studentov t-test** pretpostavlja jednake varijance u obje grupe i koristi združenu (pooled) varijancu. **Welchov t-test** ne pretpostavlja jednake varijance i općenito je robusniji izbor. U R-u, funkcija `t.test()` defaultno koristi Welchovu verziju.
+Postoje dvije verzije nezavisnog t-testa. **Studentov t-test** pretpostavlja jednake varijance u obje grupe i koristi združenu (engl. *pooled*) varijancu. **Welchov t-test** ne pretpostavlja jednake varijance i općenito je robusniji izbor. U R-u, funkcija `t.test()` zadano koristi Welchovu verziju.
 
 ```{r}
 #| label: fig-independent-t
-#| fig-cap: "Nezavisni t-test: senzacionalni vs. informativni naslovi"
+#| fig-cap: "Nezavisni t-test: usporedba broja klikova između senzacionalnih i informativnih naslova. Rombovi označavaju prosjeke svake grupe. Vidljivo je da senzacionalni naslovi generiraju znatno veći broj klikova, uz mali preklapanje distribucija."
 
 set.seed(456)
-n_per_group <- 50
+n_po_grupi <- 50
 
-naslovi_senz <- rnorm(n_per_group, mean = 850, sd = 220)
-naslovi_info <- rnorm(n_per_group, mean = 650, sd = 180)
+naslovi_senz <- rnorm(n_po_grupi, mean = 850, sd = 220)
+naslovi_info <- rnorm(n_po_grupi, mean = 650, sd = 180)
 
-mean_senz <- mean(naslovi_senz)
-mean_info <- mean(naslovi_info)
+prosjek_senz <- mean(naslovi_senz)
+prosjek_info <- mean(naslovi_info)
 sd_senz <- sd(naslovi_senz)
 sd_info <- sd(naslovi_info)
 
-# Welch t-test
-se_diff <- sqrt(sd_senz^2/n_per_group + sd_info^2/n_per_group)
-t_stat <- (mean_senz - mean_info) / se_diff
-df_welch <- (sd_senz^2/n_per_group + sd_info^2/n_per_group)^2 / 
-            ((sd_senz^2/n_per_group)^2/(n_per_group-1) + (sd_info^2/n_per_group)^2/(n_per_group-1))
-p_val <- 2 * pt(abs(t_stat), df = df_welch, lower.tail = FALSE)
+# Welchov t-test
+sp_razlika <- sqrt(sd_senz^2/n_po_grupi + sd_info^2/n_po_grupi)
+t_statistika <- (prosjek_senz - prosjek_info) / sp_razlika
+ss_welch <- (sd_senz^2/n_po_grupi + sd_info^2/n_po_grupi)^2 /
+            ((sd_senz^2/n_po_grupi)^2/(n_po_grupi-1) + (sd_info^2/n_po_grupi)^2/(n_po_grupi-1))
+p_vrijednost <- 2 * pt(abs(t_statistika), df = ss_welch, lower.tail = FALSE)
 
-# Cohen's d
-sp <- sqrt(((n_per_group-1)*sd_senz^2 + (n_per_group-1)*sd_info^2) / (2*n_per_group - 2))
-cohens_d <- (mean_senz - mean_info) / sp
+# Cohenov d
+zdruzena_sd <- sqrt(((n_po_grupi-1)*sd_senz^2 + (n_po_grupi-1)*sd_info^2) / (2*n_po_grupi - 2))
+cohenov_d <- (prosjek_senz - prosjek_info) / zdruzena_sd
 
 df_naslovi <- data.frame(
   klikovi = c(naslovi_senz, naslovi_info),
-  tip = factor(rep(c("Senzacionalni", "Informativni"), each = n_per_group))
+  tip = factor(rep(c("Senzacionalni", "Informativni"), each = n_po_grupi))
 )
 
 ggplot(df_naslovi, aes(x = tip, y = klikovi)) +
@@ -140,38 +154,48 @@ ggplot(df_naslovi, aes(x = tip, y = klikovi)) +
   stat_summary(fun = mean, geom = "point", shape = 18, size = 4) +
   labs(
     title = "Broj klikova po vrsti naslova",
-    subtitle = paste("t =", round(t_stat, 2), "| p <", "0.001", "| d =", round(cohens_d, 2)),
+    subtitle = paste("t =", round(t_statistika, 2), "| p <", "0.001", "| d =", round(cohenov_d, 2)),
     x = "Tip naslova",
     y = "Broj klikova"
   )
 ```
 
-Rezultati pokazuju značajnu razliku: senzacionalni naslovi ($M = 850$, $SD = 220$) generiraju značajno više klikova od informativnih naslova ($M = 650$, $SD = 180$), $t(94) = 4.97$, $p < 0.001$. Cohenov d od 0.99 ukazuje na veliki efekt – razlika od približno 200 klikova praktično je vrlo značajna za uredničku strategiju portala.
+Rezultati pokazuju značajnu razliku: senzacionalni naslovi ($M = 850$, $SD = 220$) generiraju značajno više klikova od informativnih naslova ($M = 650$, $SD = 180$), $t(94) = 4.97$, $p < 0.001$. Cohenov *d* od 0.99 ukazuje na veliki efekt, tj. razlika od približno 200 klikova praktično je vrlo značajna za uredničku strategiju portala. U R-u se nezavisni t-test provodi formulom `klikovi ~ tip`, koja govori da se numerička varijabla `klikovi` uspoređuje po grupama definiranima kategorijskom varijablom `tip`.
 
-**Veličina efekta – Cohenov d** standardna je mjera za t-test:
+```{r}
+#| label: nezavisni-t-test-primjer
+#| echo: true
+
+# Welchov nezavisni t-test
+t.test(klikovi ~ tip, data = df_naslovi)
+```
+
+**Veličina efekta – Cohenov *d*** standardna je mjera za t-test:
 
 $$d = \frac{\bar{X}_1 - \bar{X}_2}{s_p}$$
 
-gdje je $s_p$ združena standardna devijacija. Konvencionalna interpretacija: $|d| = 0.2$ (mali efekt), $|d| = 0.5$ (srednji efekt), $|d| = 0.8$ (veliki efekt).
+Ova formula kaže da se razlika između prosjeka dviju grupa dijeli sa združenom standardnom devijacijom ($s_p$), čime se dobiva standardizirani broj koji govori koliko je standardnih devijacija jedna grupa udaljena od druge. Konvencionalna interpretacija prema Cohenu (1988) jest: $|d| = 0.2$ (mali efekt), $|d| = 0.5$ (srednji efekt), $|d| = 0.8$ (veliki efekt).
+
+U prethodnom primjeru uspoređivane su dvije nezavisne grupe ispitanika. No, ponekad se isti ispitanici mjere u dvama različitim uvjetima, što zahtijeva drugačiji pristup.
 
 #### Zavisni t-test
 
-**Zavisni t-test** (paired t-test) koristi se kada iste osobe mjerimo dva puta, ili kada imamo uparene opservacije. Na primjer, mjerimo stavove o medijskom izvještavanju prije i nakon medijske intervencije, ili uspoređujemo kredibilitet dvije vijesti kod istih ispitanika.
+**Zavisni t-test** (engl. *paired t-test*) koristi se kada se iste osobe mjere dva puta ili kada postoje uparene opservacije. Na primjer, mogu se mjeriti stavovi o medijskom izvještavanju prije i nakon medijske intervencije, ili uspoređivati kredibilitet dviju vijesti kod istih ispitanika.
 
-Portal Index.hr testira učinak fact-check oznaka. 40 ispitanika ocjenjuje kredibilitet vijesti (1-10 skala), prvo bez oznake, zatim s fact-check oznakom. Ključna prednost zavisnog t-testa je što kontrolira za individualne razlike – uspoređujemo promjenu unutar svake osobe, ne razlike između osoba.
+Zamislimo da portal testira učinak fact-check oznaka. 40 ispitanika ocjenjuje kredibilitet vijesti (skala 1–10), najprije bez oznake, a zatim s fact-check oznakom. Ključna prednost zavisnog t-testa jest što kontrolira individualne razlike jer se uspoređuje promjena unutar svake osobe, ne razlike između osoba.
 
 $$H_0: \mu_D = 0 \text{ (nema razlike)}$$
 $$H_1: \mu_D \neq 0$$
 
-gdje je $\mu_D$ populacijska sredina razlika između dva mjerenja. Testna statistika je:
+gdje je $\mu_D$ populacijska sredina razlika između dvaju mjerenja. Testna statistika jest:
 
 $$t = \frac{\bar{D}}{s_D / \sqrt{N}}$$
 
-gdje je $\bar{D}$ prosječna razlika i $s_D$ standardna devijacija razlika.
+Ova formula kaže da se prosječna razlika između dvaju mjerenja ($\bar{D}$) dijeli sa standardnom pogreškom tih razlika ($s_D / \sqrt{N}$). Intuitivno, test provjerava je li prosječna promjena dovoljno velika u odnosu na tipičnu varijabilnost promjena među ispitanicima.
 
 ```{r}
 #| label: fig-paired-t
-#| fig-cap: "Zavisni t-test: kredibilitet prije i nakon fact-check oznake"
+#| fig-cap: "Zavisni t-test: kredibilitet vijesti prije i nakon fact-check oznake. Svaka točka predstavlja jednog ispitanika. Dijagonalna isprekidana linija označava liniju bez promjene. Činjenica da gotovo sve točke leže iznad dijagonale vizualno potvrđuje konzistentan pozitivan učinak fact-check oznaka na percipirani kredibilitet."
 
 set.seed(789)
 n_ispitanika <- 40
@@ -180,156 +204,193 @@ kredibilitet_prije <- rnorm(n_ispitanika, mean = 5.2, sd = 1.5)
 kredibilitet_poslije <- kredibilitet_prije + rnorm(n_ispitanika, mean = 1.2, sd = 0.8)
 
 razlike <- kredibilitet_poslije - kredibilitet_prije
-mean_diff <- mean(razlike)
-sd_diff <- sd(razlike)
-t_stat <- mean_diff / (sd_diff / sqrt(n_ispitanika))
-p_val <- 2 * pt(abs(t_stat), df = n_ispitanika - 1, lower.tail = FALSE)
+prosjek_razlika <- mean(razlike)
+sd_razlika <- sd(razlike)
+t_statistika <- prosjek_razlika / (sd_razlika / sqrt(n_ispitanika))
+p_vrijednost <- 2 * pt(abs(t_statistika), df = n_ispitanika - 1, lower.tail = FALSE)
 
-df_paired <- data.frame(
+df_upareni <- data.frame(
   prije = kredibilitet_prije,
   poslije = kredibilitet_poslije
 )
 
-ggplot(df_paired, aes(x = prije, y = poslije)) +
+ggplot(df_upareni, aes(x = prije, y = poslije)) +
   geom_point(alpha = 0.7, size = 2) +
   geom_abline(intercept = 0, slope = 1, linetype = "dashed") +
-  geom_point(aes(x = mean(prije), y = mean(poslije)), 
+  geom_point(aes(x = mean(prije), y = mean(poslije)),
              color = "black", size = 4, shape = 18) +
-  annotate("text", x = mean(df_paired$prije) + 0.3, y = mean(df_paired$poslije) + 0.3,
+  annotate("text", x = mean(df_upareni$prije) + 0.3, y = mean(df_upareni$poslije) + 0.3,
            label = "Prosjek", size = 3.5) +
   labs(
     title = "Kredibilitet prije vs. nakon fact-check oznake",
-    subtitle = paste("Prosječna razlika =", round(mean_diff, 2), "| t =", round(t_stat, 2), "| p <", "0.001"),
+    subtitle = paste("Prosje\u010dna razlika =", round(prosjek_razlika, 2), "| t =", round(t_statistika, 2), "| p <", "0.001"),
     x = "Kredibilitet PRIJE",
     y = "Kredibilitet NAKON"
   ) +
   coord_fixed(ratio = 1)
 ```
 
-Rezultati pokazuju da fact-check oznake značajno povećavaju percipiranu kredibilnost vijesti. Prosječna razlika od 1.2 boda na skali 1-10 statistički je značajna ($t(39) = 9.49$, $p < 0.001$). Činjenica da gotovo sve točke leže iznad dijagonale (linije bez promjene) vizualno potvrđuje konzistentan pozitivan učinak fact-checkinga.
+Rezultati pokazuju da fact-check oznake značajno povećavaju percipiranu kredibilnost vijesti. Prosječna razlika od 1.2 boda na skali 1–10 statistički je značajna ($t(39) = 9.49$, $p < 0.001$). U R-u se zavisni t-test provodi dodavanjem argumenta `paired = TRUE` u funkciju `t.test()`.
+
+```{r}
+#| label: zavisni-t-test-primjer
+#| echo: true
+
+# Zavisni (upareni) t-test
+t.test(kredibilitet_poslije, kredibilitet_prije, paired = TRUE)
+```
+
+S razumijevanjem t-testa za usporedbu dviju grupa, moguće je prijeći na situaciju u kojoj se uspoređuju tri ili više grupa, za što je potrebna analiza varijance.
 
 ### ANOVA: usporedba više grupa
 
-Kada želimo usporediti prosjeke između **tri ili više grupa**, t-test više nije prikladan. Mogli bismo provoditi multiple t-testove (uspoređujući sve parove grupa), ali to bi infliralo stopu pogreške tipa I. Ako uspoređujemo 4 grupe, imamo 6 mogućih parova. S $\alpha = 0.05$ za svaki test, ukupna vjerojatnost barem jedne pogreške tipa I raste na približno 26%. Umjesto toga, koristimo **analizu varijance** (ANOVA), koja testira postoji li **bilo kakva** razlika između grupa u jednom testu.
+Kada je cilj usporediti prosjeke između **triju ili više grupa**, t-test više nije prikladan. Moguće bi bilo provoditi višestruke t-testove (uspoređujući sve parove grupa), ali to bi infliralo stopu pogreške tipa I (v. poglavlje 9). Ako se uspoređuju 4 grupe, postoji 6 mogućih parova. S $\alpha = 0.05$ za svaki test, ukupna vjerojatnost barem jedne pogreške tipa I raste na približno 26%. Umjesto toga koristi se **analiza varijance** (ANOVA), koja testira postoji li **bilo kakva** razlika između grupa u jednom testu.
 
 #### Logika ANOVA-e
 
-ANOVA uspoređuje dvije vrste varijabilnosti: **varijabilnost između grupa** (between-group variability) – koliko se grupni prosjeci razlikuju jedni od drugih, i **varijabilnost unutar grupa** (within-group variability) – koliko pojedinačne opservacije variraju unutar svake grupe. Ako grupni prosjeci variraju puno više nego što bi se očekivalo samo na temelju slučajne varijabilnosti unutar grupa, to sugerira da grupna pripadnost zaista utječe na ishod.
+ANOVA uspoređuje dvije vrste varijabilnosti: **varijabilnost između grupa** (engl. *between-group variability*), tj. koliko se grupni prosjeci razlikuju jedni od drugih, i **varijabilnost unutar grupa** (engl. *within-group variability*), tj. koliko pojedinačne opservacije variraju unutar svake grupe. Ako grupni prosjeci variraju puno više nego što bi se očekivalo samo na temelju slučajne varijabilnosti unutar grupa, to sugerira da grupna pripadnost zaista utječe na ishod.
 
-Testna statistika za ANOVA-u je **F-omjer**:
+Testna statistika za ANOVA-u jest **F-omjer**:
 
 $$F = \frac{\text{MS}_{\text{between}}}{\text{MS}_{\text{within}}} = \frac{\text{Varijanca između grupa}}{\text{Varijanca unutar grupa}}$$
 
-Ako nulta hipoteza je istinita (sve grupe imaju istu sredinu), očekujemo $F \approx 1$. Veliki F omjer (F >> 1) sugerira da su razlike između grupa veće nego što bi bile slučajno.
+Ova formula kaže da se varijanca objašnjena razlikama između grupa dijeli s varijancom koja ostaje neobjašnjena unutar grupa. Ako je nulta hipoteza istinita (sve grupe imaju istu sredinu), očekuje se $F \approx 1$ jer bi obje varijance bile približno jednake. Veliki F-omjer ($F \gg 1$) sugerira da su razlike između grupa veće nego što bi nastale samo slučajno.
 
-Istraživač želi usporediti percipiranu kredibilnost vijesti iz četiri različita izvora: HRT, Nova TV, Index.hr i Facebook. 80 ispitanika nasumično je dodijeljeno u jednu od četiri grupe (po 20 u svakoj), gdje čitaju istu vijest ali s različitom oznakom izvora, i ocjenjuju kredibilitet na skali 1-10.
+Zamislimo istraživanje koje uspoređuje percipiranu kredibilnost vijesti iz četiri različita izvora: HRT, Nova TV, Index.hr i Facebook. 80 ispitanika nasumično je dodijeljeno u jednu od četiri grupe (po 20 u svakoj), gdje čitaju istu vijest ali s različitom oznakom izvora, i ocjenjuju kredibilitet na skali 1–10.
 
 $$H_0: \mu_1 = \mu_2 = \mu_3 = \mu_4$$
 $$H_1: \text{Barem jedan prosjek se razlikuje}$$
 
 ```{r}
 #| label: fig-anova
-#| fig-cap: "ANOVA: kredibilitet vijesti po izvoru"
+#| fig-cap: "ANOVA: kredibilitet vijesti po izvoru. Rombovi označavaju prosjeke svake grupe, a isprekidana horizontalna linija ukupni prosjek svih grupa. Vidljiv je jasan trend od visokog kredibiliteta HRT-a do niskog kredibiliteta Facebooka."
 
 set.seed(101)
-n_per_izvor <- 20
+n_po_izvoru <- 20
 
-kredibilitet_HRT <- rnorm(n_per_izvor, mean = 7.5, sd = 1.2)
-kredibilitet_NovaTV <- rnorm(n_per_izvor, mean = 6.8, sd = 1.3)
-kredibilitet_Index <- rnorm(n_per_izvor, mean = 5.5, sd = 1.4)
-kredibilitet_Facebook <- rnorm(n_per_izvor, mean = 4.2, sd = 1.6)
+kredibilitet_HRT <- rnorm(n_po_izvoru, mean = 7.5, sd = 1.2)
+kredibilitet_NovaTV <- rnorm(n_po_izvoru, mean = 6.8, sd = 1.3)
+kredibilitet_Index <- rnorm(n_po_izvoru, mean = 5.5, sd = 1.4)
+kredibilitet_Facebook <- rnorm(n_po_izvoru, mean = 4.2, sd = 1.6)
 
-anova_data <- data.frame(
-  kredibilitet = c(kredibilitet_HRT, kredibilitet_NovaTV, 
+anova_podaci <- data.frame(
+  kredibilitet = c(kredibilitet_HRT, kredibilitet_NovaTV,
                    kredibilitet_Index, kredibilitet_Facebook),
-  izvor = factor(rep(c("HRT", "Nova TV", "Index.hr", "Facebook"), each = n_per_izvor),
+  izvor = factor(rep(c("HRT", "Nova TV", "Index.hr", "Facebook"), each = n_po_izvoru),
                  levels = c("HRT", "Nova TV", "Index.hr", "Facebook"))
 )
 
 # ANOVA
-anova_model <- aov(kredibilitet ~ izvor, data = anova_data)
-anova_summary <- summary(anova_model)
-f_stat <- anova_summary[[1]]$`F value`[1]
-p_val <- anova_summary[[1]]$`Pr(>F)`[1]
+anova_model <- aov(kredibilitet ~ izvor, data = anova_podaci)
+anova_sazetak <- summary(anova_model)
+f_statistika <- anova_sazetak[[1]]$`F value`[1]
+p_vrijednost <- anova_sazetak[[1]]$`Pr(>F)`[1]
 
-# Eta squared
-ss_between <- anova_summary[[1]]$`Sum Sq`[1]
-ss_total <- sum(anova_summary[[1]]$`Sum Sq`)
-eta_sq <- ss_between / ss_total
+# Eta kvadrat
+ss_izmedju <- anova_sazetak[[1]]$`Sum Sq`[1]
+ss_ukupno <- sum(anova_sazetak[[1]]$`Sum Sq`)
+eta_kvadrat <- ss_izmedju / ss_ukupno
 
-grand_mean <- mean(anova_data$kredibilitet)
+ukupni_prosjek <- mean(anova_podaci$kredibilitet)
 
-ggplot(anova_data, aes(x = izvor, y = kredibilitet)) +
+ggplot(anova_podaci, aes(x = izvor, y = kredibilitet)) +
   geom_boxplot(fill = "gray70", color = "black", width = 0.5, outlier.shape = 1) +
   stat_summary(fun = mean, geom = "point", shape = 18, size = 4) +
-  geom_hline(yintercept = grand_mean, linetype = "dashed", alpha = 0.5) +
-  annotate("text", x = 0.6, y = grand_mean + 0.3, label = "Grand mean", size = 3) +
+  geom_hline(yintercept = ukupni_prosjek, linetype = "dashed", alpha = 0.5) +
+  annotate("text", x = 0.6, y = ukupni_prosjek + 0.3, label = "Ukupni prosjek", size = 3) +
   labs(
     title = "Kredibilitet vijesti po izvoru",
-    subtitle = paste("F(3, 76) =", round(f_stat, 2), "| p <", "0.001", "| η² =", round(eta_sq, 2)),
+    subtitle = paste("F(3, 76) =", round(f_statistika, 2), "| p <", "0.001", "| \u03b7\u00b2 =", round(eta_kvadrat, 2)),
     x = "Izvor vijesti",
     y = "Kredibilitet (1-10)"
   )
 ```
 
-Rezultati ANOVA-e pokazuju značajnu razliku u kredibilitetu između izvora, $F(3, 76) = 28.4$, $p < 0.001$. Veličina efekta $\eta^2 = 0.53$ ukazuje da izvor vijesti objašnjava 53% varijabilnosti u percipiranom kredibilitetu – što je vrlo velik efekt. Vizualno je jasno da HRT uživa najveći kredibilitet, dok Facebook ima najniži.
+Rezultati ANOVA-e pokazuju značajnu razliku u kredibilitetu između izvora, $F(3, 76) = 28.4$, $p < 0.001$. Veličina efekta $\eta^2 = 0.53$ ukazuje da izvor vijesti objašnjava 53% varijabilnosti u percipiranom kredibilitetu, što je vrlo velik efekt. Vizualno je jasno da HRT uživa najveći kredibilitet, dok Facebook ima najniži. U R-u se jednosmjerna ANOVA provodi funkcijom `aov()`, a rezultati se pregledavaju funkcijom `summary()`.
+
+```{r}
+#| label: anova-primjer
+#| echo: true
+
+# Jednosmjerna ANOVA
+anova_model <- aov(kredibilitet ~ izvor, data = anova_podaci)
+summary(anova_model)
+```
 
 #### Post-hoc testovi
 
-Ako ANOVA pokaže značajan rezultat, znamo da postoji **neka** razlika, ali ne znamo **koji** parovi grupa se razlikuju. Za to koristimo **post-hoc testove** koji uspoređuju sve moguće parove grupa uz kontrolu za višestruko testiranje. Najčešći je **Tukeyjev HSD** (Honestly Significant Difference) test.
+Ako ANOVA pokaže značajan rezultat, poznato je da postoji **neka** razlika među grupama, ali nije poznato **koji** parovi grupa se razlikuju. Za to se koriste **post-hoc testovi** koji uspoređuju sve moguće parove grupa uz kontrolu za višestruko testiranje. Najčešći je **Tukeyjev HSD** (engl. *Honestly Significant Difference*) test, koji se u R-u provodi funkcijom `TukeyHSD()`.
 
 ```{r}
 #| label: fig-tukey
-#| fig-cap: "Tukeyjev post-hoc test: parovi usporedbe"
+#| fig-cap: "Tukeyjev post-hoc test: 95%-tni intervali pouzdanosti za razlike između svih parova izvora vijesti. Intervali koji ne uključuju nulu (isprekidana vertikalna linija) označavaju statistički značajne razlike."
 
-tukey_result <- TukeyHSD(anova_model)
-tukey_df <- as.data.frame(tukey_result$izvor)
-tukey_df$comparison <- rownames(tukey_df)
-tukey_df$significant <- tukey_df$`p adj` < 0.05
+tukey_rezultat <- TukeyHSD(anova_model)
+tukey_podaci <- as.data.frame(tukey_rezultat$izvor)
+tukey_podaci$usporedba <- rownames(tukey_podaci)
+tukey_podaci$znacajno <- tukey_podaci$`p adj` < 0.05
 
-ggplot(tukey_df, aes(x = reorder(comparison, diff), y = diff)) +
+ggplot(tukey_podaci, aes(x = reorder(usporedba, diff), y = diff)) +
   geom_point(size = 3) +
   geom_errorbar(aes(ymin = lwr, ymax = upr), width = 0.2) +
   geom_hline(yintercept = 0, linetype = "dashed") +
   coord_flip() +
   labs(
     title = "Tukey HSD: 95% intervali pouzdanosti razlika",
-    subtitle = "Intervali koji ne uključuju 0 = značajna razlika",
+    subtitle = "Intervali koji ne uklju\u010duju 0 = zna\u010dajna razlika",
     x = "Usporedba",
     y = "Razlika u kredibilitetu"
   )
 ```
 
-Interpretacija: intervali pouzdanosti koji ne uključuju nulu označavaju značajne razlike. Rezultati pokazuju da se HRT značajno razlikuje od svih ostalih izvora, Nova TV se razlikuje od Index.hr i Facebooka, a Index.hr se razlikuje od Facebooka. Sve razlike slijede očekivani obrazac – tradicionalni mediji imaju veći kredibilitet od digitalnih izvora.
+```{r}
+#| label: tukey-primjer
+#| echo: true
+
+# Tukeyjev post-hoc test
+TukeyHSD(anova_model)
+```
+
+Interpretacija: intervali pouzdanosti koji ne uključuju nulu označavaju značajne razlike. Rezultati pokazuju da se HRT značajno razlikuje od svih ostalih izvora, Nova TV se razlikuje od Index.hr-a i Facebooka, a Index.hr se razlikuje od Facebooka. Sve razlike slijede očekivani obrazac, tj. tradicionalni mediji imaju veći kredibilitet od digitalnih izvora.
+
+Prije interpretacije rezultata ANOVA-e i post-hoc testova, potrebno je provjeriti jesu li zadovoljene pretpostavke na kojima se test temelji.
 
 #### Pretpostavke ANOVA-e
 
-ANOVA pretpostavlja: **normalnost** (podaci unutar svake grupe približno normalno distribuirani), **homogenost varijanci** (standardne devijacije slične u svim grupama) i **nezavisnost** (opservacije međusobno nezavisne). Homogenost varijanci provjerava se Leveneovim testom. Ako je p-vrijednost Leveneovog testa manja od 0.05, varijance nisu homogene i možda je potrebna alternativna metoda poput Welchove ANOVA-e.
+ANOVA se temelji na tri temeljne pretpostavke koje moraju biti zadovoljene da bi rezultati bili valjani. Prva je pretpostavka **normalnosti**, koja zahtijeva da podaci unutar svake grupe budu približno normalno distribuirani. U praksi, ANOVA je relativno robusna na umjerena odstupanja od normalnosti, posebice s većim uzorcima, zahvaljujući centralnom graničnom teoremu (v. poglavlje 9). Normalnost se može provjeriti vizualno pomoću histograma ili Q-Q dijagrama, a formalno Shapiro-Wilkovim testom koji se u R-u provodi funkcijom `shapiro.test()`. Ako je p-vrijednost Shapiro-Wilkovog testa manja od 0.05, pretpostavka normalnosti nije zadovoljena, premda s uzorcima većim od 30 po grupi ovaj test postaje preosjetljiv i često signalizira statistički značajna, ali praktično zanemariva odstupanja.
+
+Druga pretpostavka jest **homogenost varijanci**, tj. zahtjev da standardne devijacije budu približno jednake u svim grupama. Ova se pretpostavka provjerava Leveneovim testom, koji se u R-u provodi funkcijom `car::leveneTest()`. Ako je p-vrijednost Leveneovog testa manja od 0.05, varijance nisu homogene i potrebno je razmotriti alternativu. U tom slučaju može se koristiti Welchova ANOVA, koja se u R-u provodi funkcijom `oneway.test()` i ne pretpostavlja jednake varijance, čime pruža robusnije rezultate.
+
+Treća pretpostavka jest **nezavisnost opservacija**, tj. zahtjev da opservacije unutar svake grupe i između grupa budu međusobno nezavisne. Ova pretpostavka proizlazi iz dizajna istraživanja, a ne iz samih podataka, te se ne može testirati statističkim testom. Osigurava se pravilnim uzorkovanjem i eksperimentalnim dizajnom (v. poglavlje 3). Kršenje nezavisnosti, primjerice kada se ispitanici međusobno poznaju ili kada se isti ispitanik mjeri u više grupa bez odgovarajuće kontrole, može ozbiljno narušiti valjanost zaključaka.
+
+Svi dosad obrađeni testovi, tj. t-test i ANOVA, bave se usporedbom prosjeka numeričkih varijabli. Međutim, mnoga istraživačka pitanja u komunikologiji uključuju kategorijske varijable, za čiju analizu su potrebni drugačiji testovi.
 
 ## Hi-kvadrat i korelacije
 
 ### Hi-kvadrat test
 
-Hi-kvadrat ($\chi^2$) test koristi se kada su **obje varijable kategorijske**. Ne uspoređujemo prosjeke, već frekvencije. Postoje dvije glavne verzije: test dobrote uklapanja (jedna varijabla) i test nezavisnosti (dvije varijable). U istraživanju masovne komunikacije, najčešće koristimo test nezavisnosti za ispitivanje povezanosti između kategorijskih varijabli.
+**Hi-kvadrat** ($\chi^2$) **test** koristi se kada su **obje varijable kategorijske**. U tom slučaju ne uspoređuju se prosjeci, već frekvencije. Postoje dvije glavne verzije: test dobrote uklapanja (jedna varijabla) i test nezavisnosti (dvije varijable). U istraživanju masovne komunikacije, najčešće se koristi test nezavisnosti za ispitivanje povezanosti između kategorijskih varijabli.
 
 #### Test nezavisnosti
 
-Istražujemo jesu li tip sadržaja koji ljudi dijele i društvena mreža koju koriste nezavisni. Anketiramo 200 korisnika i kreiramo kontingencijsku tablicu koja prikazuje frekvencije kombinacija kategorija.
+Zamislimo istraživanje koje ispituje jesu li tip sadržaja koji ljudi dijele i društvena mreža koju koriste nezavisni. Anketira se 200 korisnika i kreira kontingencijska tablica koja prikazuje frekvencije kombinacija kategorija.
 
 $$H_0: \text{Tip sadržaja i platforma su nezavisni}$$
 $$H_1: \text{Postoji povezanost}$$
 
-Testna statistika je:
+Testna statistika jest:
 
 $$\chi^2 = \sum \frac{(O - E)^2}{E}$$
 
-gdje je $O$ opažena frekvencija i $E$ očekivana frekvencija pod pretpostavkom nezavisnosti. Očekivana frekvencija za svaku ćeliju računa se kao:
+Ova formula kaže da se za svaku ćeliju kontingencijske tablice izračunava kvadrat razlike između opažene frekvencije ($O$) i očekivane frekvencije ($E$), podijeljen s očekivanom frekvencijom. Zatim se ti omjeri zbrajaju preko svih ćelija. Što je veća razlika između opaženih i očekivanih frekvencija, to je veća hi-kvadrat vrijednost i jači dokazi protiv nezavisnosti. Očekivana frekvencija za svaku ćeliju računa se kao:
 
 $$E_{ij} = \frac{(\text{zbroj retka } i) \times (\text{zbroj stupca } j)}{\text{ukupni N}}$$
 
+Ova formula kaže da se očekivana frekvencija za svaku ćeliju kontingencijske tablice izračunava tako da se umnožak ukupnog broja opservacija u retku i ukupnog broja opservacija u stupcu podijeli s ukupnim brojem opservacija. Intuitivno, očekivana frekvencija govori koliko bi opservacija u svakoj ćeliji trebalo biti ako ne postoji nikakva povezanost između varijabli, tj. ako su varijable doista nezavisne.
+
 ```{r}
 #| label: fig-chi-square
-#| fig-cap: "Hi-kvadrat test: tip sadržaja po platformi"
+#| fig-cap: "Hi-kvadrat test: distribucija tipa sadržaja po platformi. Stupci prikazuju broj korisnika za svaku kombinaciju tipa sadržaja i platforme. Nejednaka distribucija unutar platformi sugerira da tip sadržaja i platforma nisu nezavisni."
 
 platforme_tablica <- matrix(c(30, 15, 25,
                               35, 40, 20,
@@ -338,47 +399,57 @@ platforme_tablica <- matrix(c(30, 15, 25,
 rownames(platforme_tablica) <- c("Vijesti", "Zabava", "Osobno")
 colnames(platforme_tablica) <- c("Facebook", "Instagram", "Twitter")
 
-chi_test <- chisq.test(platforme_tablica)
+hi_test <- chisq.test(platforme_tablica)
 
-# Cramér's V
-n_total <- sum(platforme_tablica)
+# Cramerov V
+n_ukupno <- sum(platforme_tablica)
 k <- min(nrow(platforme_tablica), ncol(platforme_tablica))
-cramers_v <- sqrt(chi_test$statistic / (n_total * (k - 1)))
+cramerov_v <- sqrt(hi_test$statistic / (n_ukupno * (k - 1)))
 
-# Reshape for ggplot
-df_platform <- as.data.frame(as.table(platforme_tablica))
-names(df_platform) <- c("Sadrzaj", "Platforma", "Frekvencija")
+# Preoblikovanje za ggplot
+df_platforma <- as.data.frame(as.table(platforme_tablica))
+names(df_platforma) <- c("Sadrzaj", "Platforma", "Frekvencija")
 
-ggplot(df_platform, aes(x = Platforma, y = Frekvencija, fill = Sadrzaj)) +
+ggplot(df_platforma, aes(x = Platforma, y = Frekvencija, fill = Sadrzaj)) +
   geom_col(position = "dodge", color = "black") +
   scale_fill_grey(start = 0.4, end = 0.8) +
   labs(
-    title = "Distribucija tipa sadržaja po platformi",
-    subtitle = paste("χ² =", round(chi_test$statistic, 2), 
-                     "| df =", chi_test$parameter,
-                     "| p =", round(chi_test$p.value, 3),
-                     "| V =", round(cramers_v, 2)),
+    title = "Distribucija tipa sadr\u017eaja po platformi",
+    subtitle = paste("\u03c7\u00b2 =", round(hi_test$statistic, 2),
+                     "| df =", hi_test$parameter,
+                     "| p =", round(hi_test$p.value, 3),
+                     "| V =", round(cramerov_v, 2)),
     x = "Platforma",
     y = "Broj korisnika",
-    fill = "Tip sadržaja"
+    fill = "Tip sadr\u017eaja"
   )
 ```
 
-Rezultati pokazuju značajnu povezanost između tipa sadržaja i platforme, $\chi^2(4) = 16.8$, $p = 0.002$. Cramér's V od 0.20 ukazuje na slab do umjeren efekt. Vizualno možemo vidjeti da Facebook dominira za vijesti, Instagram za zabavni sadržaj, dok osobni sadržaj ima ujednačeniju distribuciju.
+Rezultati pokazuju značajnu povezanost između tipa sadržaja i platforme, $\chi^2(4) = 16.8$, $p = 0.002$. Cramerov *V* od 0.20 ukazuje na slab do umjeren efekt. Vizualno se može vidjeti da Facebook dominira za vijesti, Instagram za zabavni sadržaj, dok osobni sadržaj ima ujednačeniju distribuciju. U R-u se hi-kvadrat test provodi funkcijom `chisq.test()`.
 
-#### Veličina efekta – Cramér's V
+```{r}
+#| label: hi-kvadrat-primjer
+#| echo: true
 
-Za hi-kvadrat test, **Cramér's V** mjeri snagu povezanosti:
+# Hi-kvadrat test nezavisnosti
+chisq.test(platforme_tablica)
+```
+
+#### Veličina efekta – Cramerov V
+
+Za hi-kvadrat test, **Cramerov *V*** mjeri snagu povezanosti:
 
 $$V = \sqrt{\frac{\chi^2}{N \times (k-1)}}$$
 
-gdje je $k$ manji od broja redaka ili stupaca. Interpretacija: $V = 0.1$ (slab efekt), $V = 0.3$ (srednji efekt), $V = 0.5$ (jak efekt). Za tablice 2×2, Cramér's V je ekvivalentan phi ($\phi$) koeficijentu.
+Ova formula kaže da se hi-kvadrat vrijednost dijeli s umnoškom ukupnog broja opservacija ($N$) i manjeg od broja redaka ili stupaca umanjenog za 1 ($k - 1$), a zatim se vadi korijen. Rezultirajuća vrijednost kreće se od 0 (nikakva povezanost) do 1 (savršena povezanost). Konvencionalna interpretacija prema Cohenu (1988) jest: $V = 0.1$ (slab efekt), $V = 0.3$ (srednji efekt), $V = 0.5$ (jak efekt). Za tablice 2×2, Cramerov *V* ekvivalentan je phi ($\phi$) koeficijentu.
+
+Hi-kvadrat test primjenjiv je na kategorijske varijable. Kada su obje varijable numeričke, za ispitivanje njihove povezanosti koristi se korelacijska analiza.
 
 ### Pearsonova korelacija
 
-**Pearsonova korelacija** ($r$) mjeri snagu i smjer **linearne** povezanosti između dvije numeričke varijable. Vrijednosti se kreću od -1 (savršena negativna korelacija) do +1 (savršena pozitivna korelacija), s 0 označavajući nikakvu linearnu povezanost.
+**Pearsonova korelacija** ($r$) mjeri snagu i smjer **linearne** povezanosti između dviju numeričkih varijabli. Vrijednosti se kreću od -1 (savršena negativna korelacija) do +1 (savršena pozitivna korelacija), s 0 označavajući nikakvu linearnu povezanost.
 
-Analiziramo 50 hrvatskih influencera i njihovu Instagram aktivnost. Mjere su broj pratitelja (u tisućama) i prosječan broj lajkova po objavi. Želimo testirati postoji li povezanost između veličine publike i angažmana.
+Zamislimo analizu 50 hrvatskih influencera i njihove Instagram aktivnosti. Mjere su broj pratitelja (u tisućama) i prosječan broj lajkova po objavi. Cilj je testirati postoji li povezanost između veličine publike i angažmana.
 
 $$H_0: \rho = 0 \text{ (nema linearne korelacije)}$$
 $$H_1: \rho \neq 0$$
@@ -387,7 +458,7 @@ gdje je $\rho$ (rho) populacijska korelacija.
 
 ```{r}
 #| label: fig-correlation
-#| fig-cap: "Korelacija: broj pratitelja i angažman na Instagramu"
+#| fig-cap: "Korelacija između broja pratitelja i angažmana na Instagramu. Svaka točka predstavlja jednog influencera. Linija prikazuje linearni trend s 95%-tnim intervalom pouzdanosti (sivo područje). Pozitivan nagib ukazuje na to da influenceri s više pratitelja tendiraju imati i veći angažman."
 
 set.seed(202)
 n_influencera <- 50
@@ -398,8 +469,8 @@ pratitelji[pratitelji < 10] <- 10
 likovi <- 200 + 0.5 * pratitelji + rnorm(n_influencera, mean = 0, sd = 40)
 likovi[likovi < 50] <- 50
 
-cor_val <- cor(pratitelji, likovi)
-cor_test <- cor.test(pratitelji, likovi)
+kor_vrijednost <- cor(pratitelji, likovi)
+kor_test <- cor.test(pratitelji, likovi)
 
 df_infl <- data.frame(pratitelji = pratitelji, likovi = likovi)
 
@@ -407,17 +478,25 @@ ggplot(df_infl, aes(x = pratitelji, y = likovi)) +
   geom_point(alpha = 0.7, size = 2) +
   geom_smooth(method = "lm", se = TRUE, color = "black", fill = "gray80") +
   labs(
-    title = paste("Korelacija: r =", round(cor_val, 2)),
-    subtitle = paste("t =", round(cor_test$statistic, 2), 
+    title = paste("Korelacija: r =", round(kor_vrijednost, 2)),
+    subtitle = paste("t =", round(kor_test$statistic, 2),
                      "| p <", "0.001",
-                     "| 95% CI [", round(cor_test$conf.int[1], 2), ",",
-                     round(cor_test$conf.int[2], 2), "]"),
-    x = "Broj pratitelja (tisuće)",
-    y = "Prosječan broj lajkova"
+                     "| 95% CI [", round(kor_test$conf.int[1], 2), ",",
+                     round(kor_test$conf.int[2], 2), "]"),
+    x = "Broj pratitelja (tisu\u0107e)",
+    y = "Prosje\u010dan broj lajkova"
   )
 ```
 
-Rezultati pokazuju značajnu pozitivnu korelaciju između broja pratitelja i angažmana, $r = 0.65$, $t(48) = 5.96$, $p < 0.001$. Prema konvencionalnoj interpretaciji, ovo je jaka korelacija. Interval pouzdanosti [0.44, 0.79] sugerira da je prava populacijska korelacija vjerojatno u tom rasponu.
+Rezultati pokazuju značajnu pozitivnu korelaciju između broja pratitelja i angažmana, $r = 0.65$, $t(48) = 5.96$, $p < 0.001$. Prema konvencionalnoj interpretaciji, ovo je jaka korelacija. Interval pouzdanosti [0.44, 0.79] sugerira da je prava populacijska korelacija vjerojatno u tom rasponu. U R-u se Pearsonova korelacija testira funkcijom `cor.test()`.
+
+```{r}
+#| label: korelacija-primjer
+#| echo: true
+
+# Pearsonova korelacija
+cor.test(pratitelji, likovi)
+```
 
 #### Interpretacija korelacije
 
@@ -429,27 +508,27 @@ Rezultati pokazuju značajnu pozitivnu korelaciju između broja pratitelja i ang
 | 0.60 - 0.79 | Jaka |
 | 0.80 - 1.00 | Vrlo jaka |
 
-: Smjernice za interpretaciju korelacije {#tbl-correlation}
+: Smjernice za interpretaciju apsolutne vrijednosti Pearsonovog koeficijenta korelacije. Ovi pragovi su orijentacijski i njihova primjena ovisi o kontekstu istraživanja. U nekim područjima komunikoloških istraživanja korelacija od 0.30 može se smatrati praktično značajnom, dok u drugim područjima tek korelacije iznad 0.60 imaju praktične implikacije. {#tbl-correlation}
 
-Važno upozorenje: **korelacija ne implicira uzročnost**. Visoka korelacija između broja pratitelja i lajkova može značiti: više pratitelja → više lajkova (izloženost), bolji sadržaj → i više pratitelja i više lajkova (zajednički uzrok), ili čak obrnuto – više lajkova povećava vidljivost → više pratitelja. Za kauzalne zaključke potrebni su eksperimentalni dizajni ili napredne kauzalne metode.
+Važno upozorenje: **korelacija ne implicira uzročnost**. Visoka korelacija između broja pratitelja i lajkova može značiti da više pratitelja dovodi do više lajkova (izloženost), da bolji sadržaj dovodi i do više pratitelja i do više lajkova (zajednički uzrok), ili čak obrnuto, tj. da više lajkova povećava vidljivost i tako privlači više pratitelja. Za kauzalne zaključke potrebni su eksperimentalni dizajni ili napredne kauzalne metode (v. poglavlje 3 o istraživačkim nacrtima).
 
 ## Regresija i interpretacija
 
 ### Jednostavna linearna regresija
 
-Dok korelacija mjeri snagu povezanosti, **regresijska analiza** ide korak dalje: omogućuje nam da **predviđamo** vrijednosti jedne varijable na temelju druge i kvantificiramo koliko dobro možemo to učiniti. Regresija je možda najmoćniji i najčešće korišteni alat u društvenim znanostima.
+Dok korelacija mjeri snagu povezanosti, **regresijska analiza** ide korak dalje: omogućuje **predviđanje** vrijednosti jedne varijable na temelju druge te kvantificiranje koliko se dobro to predviđanje može ostvariti. Regresija je možda najmoćniji i najčešće korišteni alat u kvantitativnim društvenim znanostima.
 
 **Jednostavna linearna regresija** modelira odnos između jedne prediktorne varijable (X) i jedne kriterijske varijable (Y) pomoću pravca:
 
 $$Y = b_0 + b_1 X + \epsilon$$
 
-gdje je $b_0$ odsječak (intercept) – predviđena vrijednost Y kada je X = 0, $b_1$ nagib (slope) – za koliko se Y mijenja kada se X poveća za 1 jedinicu, i $\epsilon$ pogreška (reziduali) – razlika između opaženih i predviđenih vrijednosti.
+Ova formula kaže da se predviđena vrijednost kriterijske varijable $Y$ dobiva zbrajanjem odsječka $b_0$ (predviđena vrijednost $Y$ kada je $X$ jednak nuli) s umnoškom nagiba $b_1$ i vrijednosti prediktora $X$. Član $\epsilon$ predstavlja rezidual, tj. razliku između opažene i predviđene vrijednosti. Nagib $b_1$ interpretira se kao očekivana promjena u $Y$ za svaku jediničnu promjenu u $X$, dok odsječak $b_0$ govori od koje vrijednosti ta promjena kreće.
 
-Index.hr želi znati može li duljina članka (u riječima) predvidjeti broj komentara. Analiziramo 100 članaka.
+Zamislimo da novinski portal želi znati može li duljina članka (u riječima) predvidjeti broj komentara. Analizira se 100 članaka.
 
 ```{r}
 #| label: fig-simple-regression
-#| fig-cap: "Jednostavna regresija: duljina članka vs. broj komentara"
+#| fig-cap: "Jednostavna linearna regresija: predviđanje broja komentara na temelju duljine članka. Svaka točka predstavlja jedan članak. Linija prikazuje regresijski pravac s 95%-tnim intervalom pouzdanosti. Pozitivan nagib sugerira da dulji članci tendiraju imati više komentara."
 
 set.seed(303)
 n_clanaka <- 100
@@ -461,11 +540,11 @@ broj_komentara <- 10 + 0.05 * duljina_rijeci + rnorm(n_clanaka, mean = 0, sd = 1
 broj_komentara[broj_komentara < 0] <- 0
 
 reg_model <- lm(broj_komentara ~ duljina_rijeci)
-reg_summary <- summary(reg_model)
+reg_sazetak <- summary(reg_model)
 
 b0 <- coef(reg_model)[1]
 b1 <- coef(reg_model)[2]
-r_squared <- reg_summary$r.squared
+r_kvadrat <- reg_sazetak$r.squared
 
 df_reg <- data.frame(duljina = duljina_rijeci, komentari = broj_komentara)
 
@@ -473,26 +552,39 @@ ggplot(df_reg, aes(x = duljina, y = komentari)) +
   geom_point(alpha = 0.6, size = 2) +
   geom_smooth(method = "lm", se = TRUE, color = "black", fill = "gray80") +
   labs(
-    title = "Predviđanje broja komentara na temelju duljine članka",
-    subtitle = paste("Y =", round(b0, 1), "+", round(b1, 3), "× X | R² =", round(r_squared, 2)),
-    x = "Duljina članka (riječi)",
+    title = "Predvi\u0111anje broja komentara na temelju duljine \u010dlanka",
+    subtitle = paste("Y =", round(b0, 1), "+", round(b1, 3), "\u00d7 X | R\u00b2 =", round(r_kvadrat, 2)),
+    x = "Duljina \u010dlanka (rije\u010di)",
     y = "Broj komentara"
   )
 ```
 
-Regresijska jednadžba: Broj komentara = 10.2 + 0.05 × Duljina. Interpretacija nagiba: za svaku dodatnu riječ, očekujemo 0.05 više komentara, ili ekvivalentno, za svakih 100 riječi dulji članak očekujemo 5 dodatnih komentara. $R^2 = 0.35$ znači da duljina članka objašnjava 35% varijabilnosti u broju komentara.
+Regresijska jednadžba: Broj komentara = 10.2 + 0.05 × Duljina. Interpretacija nagiba: za svaku dodatnu riječ očekuje se 0.05 više komentara, ili ekvivalentno, za svakih 100 riječi dulji članak očekuje se 5 dodatnih komentara. $R^2 = 0.35$ znači da duljina članka objašnjava 35% varijabilnosti u broju komentara. U R-u se linearna regresija provodi funkcijom `lm()`, a rezultati se pregledavaju funkcijom `summary()`.
+
+```{r}
+#| label: regresija-primjer
+#| echo: true
+
+# Jednostavna linearna regresija
+reg_model <- lm(broj_komentara ~ duljina_rijeci)
+summary(reg_model)
+```
+
+Iz rezultata funkcije `summary()` mogu se iščitati koeficijenti regresije (odsječak i nagib) s pripadajućim standardnim pogreškama, t-vrijednostima i p-vrijednostima, te koeficijent determinacije $R^2$ koji govori koliki postotak varijabilnosti u kriterijskoj varijabli objašnjava model.
 
 ### Višestruka regresija
 
 **Višestruka regresija** proširuje jednostavnu regresiju na više prediktora:
 
-$$Y = b_0 + b_1 X_1 + b_2 X_2 + ... + b_k X_k + \epsilon$$
+$$Y = b_0 + b_1 X_1 + b_2 X_2 + \ldots + b_k X_k + \epsilon$$
 
-HRT želi predvidjeti gledanost večernjih vijesti na temelju više faktora: duljine emisije (minute), broja breaking news tema i je li vikend.
+Ova formula proširuje jednostavnu regresiju na situaciju s $k$ prediktora. Svaki koeficijent $b_i$ interpretira se kao očekivana promjena u $Y$ za jediničnu promjenu u $X_i$, pri čemu su svi ostali prediktori konstantni. Ova interpretacija *ceteris paribus* (lat. „pod uvjetom da je sve ostalo jednako") ključna je razlika u odnosu na jednostavnu regresiju i omogućuje razdvajanje doprinosa pojedinih prediktora.
+
+Zamislimo da HRT želi predvidjeti gledanost večernjih vijesti na temelju više faktora: duljine emisije (minute), broja *breaking news* tema i toga je li vikend.
 
 ```{r}
 #| label: fig-multiple-regression
-#| fig-cap: "Višestruka regresija: predviđanje gledanosti"
+#| fig-cap: "Višestruka regresija: predviđene vs. opažene vrijednosti gledanosti. Svaka točka predstavlja jednu emisiju. Što su točke bliže dijagonalnoj liniji (isprekidano), to je model bolji u predviđanju. R² od 0.58 ukazuje na umjereno dobro uklapanje modela."
 
 set.seed(404)
 n_emisija <- 150
@@ -501,96 +593,138 @@ duljina_emisije <- rnorm(n_emisija, mean = 25, sd = 5)
 broj_breaking <- rpois(n_emisija, lambda = 2.5)
 vikend <- rbinom(n_emisija, 1, prob = 0.29)
 
-gledanost <- 200 + 3 * duljina_emisije + 15 * broj_breaking - 50 * vikend + 
+gledanost <- 200 + 3 * duljina_emisije + 15 * broj_breaking - 50 * vikend +
              rnorm(n_emisija, mean = 0, sd = 25)
 gledanost[gledanost < 50] <- 50
 
-gledanost_data <- data.frame(
+gledanost_podaci <- data.frame(
   gledanost = gledanost,
   duljina = duljina_emisije,
   breaking = broj_breaking,
   vikend = factor(vikend, labels = c("Radni dan", "Vikend"))
 )
 
-multi_reg <- lm(gledanost ~ duljina + breaking + vikend, data = gledanost_data)
-multi_summary <- summary(multi_reg)
+visestruki_model <- lm(gledanost ~ duljina + breaking + vikend, data = gledanost_podaci)
+visestruki_sazetak <- summary(visestruki_model)
 
-# Predicted vs observed
-gledanost_data$predicted <- fitted(multi_reg)
+# Predvidjene vs. opazene vrijednosti
+gledanost_podaci$predvidjeno <- fitted(visestruki_model)
 
-ggplot(gledanost_data, aes(x = predicted, y = gledanost)) +
+ggplot(gledanost_podaci, aes(x = predvidjeno, y = gledanost)) +
   geom_point(alpha = 0.6, size = 2) +
   geom_abline(intercept = 0, slope = 1, linetype = "dashed") +
   labs(
-    title = paste("Model fit: R² =", round(multi_summary$r.squared, 2)),
-    subtitle = "Predviđena vs. opažena gledanost (tisuće)",
-    x = "Predviđena gledanost",
-    y = "Opažena gledanost"
+    title = paste("Model fit: R\u00b2 =", round(visestruki_sazetak$r.squared, 2)),
+    subtitle = "Predvi\u0111ena vs. opa\u017eena gledanost (tisu\u0107e)",
+    x = "Predvi\u0111ena gledanost",
+    y = "Opa\u017eena gledanost"
   )
 ```
 
-Regresijska jednadžba: Gledanost = 198 + 3.1 × Duljina + 14.8 × Breaking - 48.5 × Vikend. Interpretacija (sve ostalo jednako): svaka dodatna minuta emisije → +3.100 gledatelja, svaka dodatna breaking news tema → +14.800 gledatelja, vikend vs. radni dan → -48.500 gledatelja. $R^2 = 0.58$ znači da model objašnjava 58% varijabilnosti u gledanosti.
+```{r}
+#| label: visestruka-regresija-primjer
+#| echo: true
+
+# Visestruka regresija
+visestruki_model <- lm(gledanost ~ duljina + breaking + vikend, data = gledanost_podaci)
+summary(visestruki_model)
+```
+
+Regresijska jednadžba: Gledanost = 198 + 3.1 × Duljina + 14.8 × Breaking - 48.5 × Vikend. Interpretacija koeficijenata (uz kontrolu svih ostalih prediktora): svaka dodatna minuta emisije povezana je s povećanjem gledanosti od 3.100, svaka dodatna *breaking news* tema povezana je s povećanjem od 14.800, a vikend je u odnosu na radni dan povezan sa smanjenjem gledanosti od 48.500. $R^2 = 0.58$ znači da model objašnjava 58% varijabilnosti u gledanosti, što ukazuje na umjereno dobar model.
+
+Neovisno o tome koji se statistički test koristi, od t-testa do višestruke regresije, interpretacija rezultata zahtijeva razlikovanje statističke od praktične značajnosti.
 
 ### Statistička vs. praktična značajnost
 
-Završavamo s najvažnijom lekcijom: razlika između **statističke značajnosti** i **praktične značajnosti**. P-vrijednost govori o statističkoj značajnosti, ali ne o praktičnoj važnosti.
+Jedno od najvažnijih pitanja pri interpretaciji rezultata svakoga statističkog testa jest razlikovanje **statističke značajnosti** od **praktične značajnosti** (v. poglavlje 9). P-vrijednost govori o statističkoj značajnosti, ali ne o praktičnoj važnosti rezultata.
 
-S dovoljno velikim uzorkom, čak i trivijalni efekti postaju statistički značajni. Istraživač koji testira novi format naslova na 50,000 članaka može otkriti da senzacionalni naslovi povećavaju klikove za 0.8% ($p < 0.001$). Statistički visoko značajno! Ali praktično beznačajno za uredničku strategiju.
+S dovoljno velikim uzorkom, čak i trivijalni efekti postaju statistički značajni. Istraživač koji testira novi format naslova na 50.000 članaka može otkriti da senzacionalni naslovi povećavaju klikove za 0.8% ($p < 0.001$). Rezultat je statistički visoko značajan, ali praktično beznačajan za uredničku strategiju. S druge strane, istraživač koji testira isti format na 100 članaka može otkriti povećanje od 45% ($p = 0.08$). Rezultat nije statistički značajan prema konvencionalnom pragu, ali je praktično vrlo važan i zaslužuje daljnje istraživanje.
 
-S druge strane, istraživač koji testira isti format na 100 članaka može otkriti povećanje od 45% ($p = 0.08$). Nije statistički značajno prema konvencionalnom pragu, ali praktično vrlo važno i zaslužuje daljnje istraživanje.
+**Kompletno izvještavanje** rezultata zahtijeva navođenje p-vrijednosti kao mjere statističke značajnosti, veličine efekta kao mjere praktične značajnosti, intervala pouzdanosti kao mjere preciznosti procjene te kontekstualne interpretacije onoga što brojke znače u stvarnom svijetu. Primjer lošeg izvještavanja glasi: „Razlika je bila značajna, $p < 0.05$." Primjer dobrog izvještavanja glasi: „Senzacionalni naslovi ($M = 850$, $SD = 220$) generirali su značajno više klikova od informativnih naslova ($M = 650$, $SD = 180$), $t(98) = 4.82$, $p < 0.001$, $d = 0.98$, 95% CI [118, 282]. Ova razlika od približno 200 klikova predstavlja 31% povećanje i ima snažne praktične implikacije za uredničku strategiju portala."
 
-**Kompletno izvještavanje** uvijek uključuje: p-vrijednost (statistička značajnost), veličinu efekta (praktična značajnost), interval pouzdanosti (preciznost procjene) i kontekst (što brojke znače u stvarnom svijetu).
+## Cjelovit primjer: od istraživačkog pitanja do više testova
 
-Primjer lošeg izvještavanja: "Razlika je bila značajna, $p < 0.05$."
+Da bi se demonstrirala primjena više statističkih testova na istom skupu podataka, razmotrit će se sljedeći istraživački scenarij. Istraživačica analizira angažman čitatelja na hrvatskom novinskom portalu. Prikupljeni su podaci o 120 članaka, uključujući kategoriju članka (politika, sport, kultura), duljinu članka u riječima, broj komentara te informaciju je li članak objavljen na naslovnici.
 
-Primjer dobrog izvještavanja: "Senzacionalni naslovi ($M = 850$, $SD = 220$) generirali su značajno više klikova od informativnih naslova ($M = 650$, $SD = 180$), $t(98) = 4.82$, $p < 0.001$, $d = 0.98$, 95% CI [118, 282]. Ova razlika od približno 200 klikova predstavlja 31% povećanje i ima snažne praktične implikacije za uredničku strategiju portala."
+```{r}
+#| label: cjeloviti-primjer
+#| echo: true
 
----
+# Simulacija podataka o clancima na novinskom portalu
+set.seed(2024)
+n_clanaka <- 120
+
+kategorija <- rep(c("Politika", "Sport", "Kultura"), each = 40)
+duljina <- c(rnorm(40, 600, 150), rnorm(40, 400, 100), rnorm(40, 500, 120))
+komentari <- c(rnorm(40, 45, 20), rnorm(40, 30, 15), rnorm(40, 25, 12))
+naslovnica <- c(rbinom(40, 1, 0.6), rbinom(40, 1, 0.4), rbinom(40, 1, 0.3))
+
+portal_podaci <- data.frame(
+  kategorija = factor(kategorija),
+  duljina = pmax(duljina, 100),
+  komentari = pmax(round(komentari), 0),
+  naslovnica = factor(naslovnica, labels = c("Ne", "Da"))
+)
+
+# 1. ANOVA: razlikuje li se broj komentara po kategoriji?
+cat("=== ANOVA: komentari po kategoriji ===\n")
+anova_rezultat <- aov(komentari ~ kategorija, data = portal_podaci)
+print(summary(anova_rezultat))
+
+# 2. Post-hoc: koji se parovi razlikuju?
+cat("\n=== Tukey HSD post-hoc ===\n")
+print(TukeyHSD(anova_rezultat))
+
+# 3. Hi-kvadrat: povezanost kategorije i naslovnice
+cat("\n=== Hi-kvadrat: kategorija x naslovnica ===\n")
+kont_tablica <- table(portal_podaci$kategorija, portal_podaci$naslovnica)
+print(chisq.test(kont_tablica))
+
+# 4. Korelacija: duljina clanka i broj komentara
+cat("\n=== Korelacija: duljina i komentari ===\n")
+print(cor.test(portal_podaci$duljina, portal_podaci$komentari))
+
+# 5. Regresija: predvidjanje komentara
+cat("\n=== Regresija: predvidjanje komentara ===\n")
+reg_rezultat <- lm(komentari ~ duljina + kategorija + naslovnica, data = portal_podaci)
+print(summary(reg_rezultat))
+```
+
+Ovaj primjer ilustrira kako se na istom skupu podataka primjenjuju različiti statistički testovi ovisno o istraživačkom pitanju. ANOVA je korištena za ispitivanje razlika u broju komentara između kategorija članaka, pri čemu je Tukeyjev post-hoc test identificirao koji se parovi kategorija značajno razlikuju. Hi-kvadrat test ispitao je povezanost između kategorije članka i prisutnosti na naslovnici, tj. jesu li članci iz pojedinih kategorija češće na naslovnici. Korelacijska analiza ispitala je linearnu povezanost između duljine članka i broja komentara. Naposljetku, višestruka regresija integrirala je sve prediktore u jedan model, omogućujući procjenu doprinosa svakoga prediktora uz kontrolu ostalih.
+
+Valja primijetiti da svaki test odgovara na drugačije pitanje i koristi drugačiji aspekt podataka. T-test i ANOVA uspoređuju prosjeke numeričke varijable između grupa, hi-kvadrat test ispituje povezanost između kategorijskih varijabli, korelacija mjeri linearnu povezanost između numeričkih varijabli, a regresija omogućuje predviđanje i razdvajanje doprinosa više prediktora. Odabir pravog testa stoga ovisi ponajprije o vrsti istraživačkog pitanja i vrsti varijabli, a ne o osobnim preferencijama istraživača.
+
+## Usporedba statističkih testova
+
+| Test | Istraživačko pitanje | Vrsta podataka | R funkcija | Mjera veličine efekta |
+|:-----|:---------------------|:---------------|:-----------|:---------------------|
+| Jedan-uzorkovni t-test | Razlikuje li se prosjek od poznate vrijednosti? | Jedna numerička varijabla | `t.test(x, mu = ...)` | Cohenov *d* |
+| Nezavisni t-test | Razlikuju li se prosjeci dviju grupa? | Numerička + kategorijska (2 grupe) | `t.test(y ~ x)` | Cohenov *d* |
+| Zavisni t-test | Razlikuju li se uparena mjerenja? | Numerička (upareni podaci) | `t.test(x, y, paired = TRUE)` | Cohenov *d* |
+| Jednosmjerna ANOVA | Razlikuju li se prosjeci triju ili više grupa? | Numerička + kategorijska (3+ grupa) | `aov(y ~ x)` | $\eta^2$ |
+| Hi-kvadrat test | Postoji li povezanost između kategorijskih varijabli? | Dvije kategorijske varijable | `chisq.test()` | Cramerov *V* |
+| Pearsonova korelacija | Postoji li linearna povezanost? | Dvije numeričke varijable | `cor.test(x, y)` | $r$ |
+| Jednostavna regresija | Može li se predvidjeti Y na temelju X? | Numeričke varijable | `lm(y ~ x)` | $R^2$ |
+| Višestruka regresija | Može li se predvidjeti Y na temelju više prediktora? | Numeričke i/ili kategorijske | `lm(y ~ x1 + x2 + ...)` | $R^2$ |
+
+: Usporedni pregled statističkih testova s pripadajućim istraživačkim pitanjima, vrstama podataka, R funkcijama i mjerama veličine efekta. Tablica služi kao referentni vodič za odabir odgovarajućeg testa u istraživačkoj praksi. {#tbl-usporedba-testova}
+
+Ova tablica sistematizira sve testove obrađene u poglavlju i za svaki navodi tipično istraživačko pitanje, vrstu podataka za koju je primjeren, odgovarajuću R funkciju te standardnu mjeru veličine efekta. Valja primijetiti da odabir testa ovisi ponajprije o vrsti istraživačkog pitanja i vrsti varijabli, a ne o osobnim preferencijama istraživača. Pogrešan odabir testa može dovesti do nevaljanih zaključaka, stoga je razumijevanje pretpostavki svakoga testa ključno za kompetentnu primjenu statističkih metoda u komunikološkim istraživanjima.
 
 ## Sažetak poglavlja
 
-U ovom poglavlju prošli smo kroz najčešće korištene statističke testove u istraživanju masovne komunikacije. Svaki test ima specifičnu primjenu ovisno o vrsti istraživačkog pitanja i vrsti podataka.
+Statistički testovi u praksi omogućuju primjenu logike testiranja hipoteza (v. poglavlje 9) na konkretna istraživačka pitanja u komunikologiji. Ovladavanje odabirom i primjenom odgovarajućih testova nužan je preduvjet za kompetentno kvantitativno istraživanje masovne komunikacije. Svaki test ima specifičnu primjenu ovisno o vrsti istraživačkog pitanja i vrsti podataka.
 
-**T-test** koristi se za usporedbu prosjeka:
+**T-test** koristi se za usporedbu prosjeka i postoji u tri varijante. Jedan-uzorkovni t-test uspoređuje prosjek uzorka s poznatom hipotetskom vrijednošću, koristeći formulu $t = (\bar{X} - \mu_0) / (s/\sqrt{N})$. Nezavisni t-test uspoređuje prosjeke između dviju nezavisnih grupa, pri čemu je Welchova verzija robusnija jer ne pretpostavlja jednake varijance. Zavisni t-test uspoređuje prosjeke za uparena mjerenja istih ispitanika u dva uvjeta. Za sve varijante t-testa, veličina efekta izražava se Cohenovim *d*, gdje vrijednosti od 0.2, 0.5 i 0.8 konvencionalno označavaju mali, srednji i veliki efekt.
 
-- **Jedan-uzorkovni t-test**: usporedba prosjeka uzorka s poznatom vrijednošću ($t = (\bar{X} - \mu_0) / (s/\sqrt{N})$)
-- **Nezavisni t-test**: usporedba prosjeka između dvije nezavisne grupe (Welchova verzija robusnija)
-- **Zavisni t-test**: usporedba prosjeka za uparene mjere (iste osobe u dva uvjeta)
-- Veličina efekta: Cohenov d (mali = 0.2, srednji = 0.5, veliki = 0.8)
+**Analiza varijance** (ANOVA) koristi se za usporedbu prosjeka između triju ili više grupa, čime se izbjegava inflacija pogreške tipa I koja bi nastala provođenjem višestrukih t-testova. F-omjer uspoređuje varijabilnost između grupa s varijabilnošću unutar grupa. Značajan F-omjer indicira da postoji barem jedna razlika između grupa, ali ne identificira koji se parovi razlikuju, za što su potrebni post-hoc testovi poput Tukeyjevog HSD testa. Veličina efekta izražava se eta-kvadratom ($\eta^2$), koji govori koliki postotak ukupne varijabilnosti objašnjava grupna pripadnost. Pretpostavke ANOVA-e uključuju normalnost distribucija unutar grupa, homogenost varijanci i nezavisnost opservacija.
 
-**ANOVA** koristi se za usporedbu prosjeka između tri ili više grupa:
+**Hi-kvadrat test** koristi se za ispitivanje povezanosti između dviju kategorijskih varijabli uspoređujući opažene frekvencije s frekvencijama očekivanim pod pretpostavkom nezavisnosti. Formula $\chi^2 = \sum (O-E)^2/E$ kvantificira ukupno odstupanje opaženih od očekivanih frekvencija. Veličina efekta mjeri se Cramerovim *V*, gdje vrijednosti od 0.1, 0.3 i 0.5 konvencionalno označavaju slab, srednji i jak efekt.
 
-- F-omjer uspoređuje varijabilnost između i unutar grupa
-- Značajan rezultat indicira da postoji neka razlika, ali ne koja
-- Post-hoc testovi (npr. Tukey HSD) identificiraju koji se parovi razlikuju
-- Veličina efekta: $\eta^2$ (postotak objašnjene varijance)
+**Pearsonova korelacija** mjeri snagu i smjer linearne povezanosti između dviju numeričkih varijabli, s vrijednostima u rasponu od -1 do +1. Testira se protiv nulte hipoteze $\rho = 0$. Konvencionalna interpretacija razlikuje slabu ($|r| < 0.4$), umjerenu ($0.4 \leq |r| < 0.6$) i jaku ($|r| \geq 0.6$) korelaciju. Ključno je upozorenje da korelacija ne implicira uzročnost jer postoji niz alternativnih objašnjenja za opaženu povezanost.
 
-**Hi-kvadrat test** koristi se za kategorijske varijable:
+**Regresijska analiza** omogućuje predviđanje i objašnjenje. Jednostavna regresija modelira odnos $Y = b_0 + b_1 X + \epsilon$, dok višestruka regresija proširuje model na više prediktora koji se mogu kontrolirati međusobno. Koeficijent determinacije $R^2$ kvantificira postotak varijabilnosti u kriterijskoj varijabli objašnjen prediktorima, a regresijski koeficijenti ($b$) interpretiraju se kao očekivana promjena u $Y$ za jediničnu promjenu u prediktoru uz kontrolu ostalih varijabli.
 
-- Test nezavisnosti ispituje povezanost između dvije kategorijske varijable
-- Uspoređuje opažene i očekivane frekvencije: $\chi^2 = \sum (O-E)^2/E$
-- Veličina efekta: Cramér's V (mali = 0.1, srednji = 0.3, veliki = 0.5)
+Pri izvještavanju rezultata svakoga statističkog testa potrebno je navesti deskriptivne statistike ($M$, $SD$, $N$), testnu statistiku ($t$, $F$, $\chi^2$, $r$), p-vrijednost, veličinu efekta i, gdje je primjereno, interval pouzdanosti. Statistička značajnost ($p < 0.05$) nije isto što i praktična značajnost jer s velikim uzorcima trivijalni efekti postaju statistički značajni, dok s malim uzorcima važni efekti mogu ostati statistički neznačajni. Rezultate je uvijek potrebno interpretirati u kontekstu veličine efekta i praktičnih implikacija za istraživačko područje.
 
-**Pearsonova korelacija** mjeri snagu linearne povezanosti:
-
-- Vrijednosti od -1 do +1
-- Testira se protiv nulte hipoteze $\rho = 0$
-- Korelacija ne implicira uzročnost!
-- Interpretacija: slaba (<0.4), umjerena (0.4-0.6), jaka (>0.6)
-
-**Regresija** omogućuje predviđanje i objašnjenje:
-
-- Jednostavna regresija: $Y = b_0 + b_1X + \epsilon$
-- Višestruka regresija: više prediktora istovremeno
-- $R^2$ kvantificira postotak objašnjene varijabilnosti
-- Koeficijenti ($b$) interpretiraju se kao promjena u Y za jediničnu promjenu u X
-
-**Izvještavanje rezultata** treba biti kompletno:
-
-- Uvijek navodite deskriptivne statistike (M, SD, N)
-- Testna statistika (t, F, $\chi^2$, r)
-- P-vrijednost i veličina efekta
-- Intervali pouzdanosti gdje primjereno
-- Kontekstualna interpretacija praktične važnosti
-
-Statistička značajnost ($p < 0.05$) nije isto što i praktična značajnost. S velikim uzorcima trivijalni efekti postaju "značajni", dok s malim uzorcima važni efekti mogu ostati "neznačajni". Uvijek interpretirajte rezultate u kontekstu veličine efekta i praktičnih implikacija za istraživačko područje.
+Statistički testovi obrađeni u ovom poglavlju predstavljaju temeljni alat za analizu strukturiranih kvantitativnih podataka, tj. podataka organiziranih u varijable i opservacije. Međutim, velik dio komunikacijskih podataka postoji u nestrukturiranom obliku kao tekst, bilo da se radi o novinskim člancima, komentarima čitatelja, objavama na društvenim mrežama ili transkriptima intervjua. Analiza takvih podataka zahtijeva drugačiji metodološki pristup. U sljedećem poglavlju (poglavlje 11) obrađuje se **računalna analiza teksta**, skup metoda koje koriste računalne algoritme za sustavno ekstrahiranje informacija iz tekstualnih podataka, čime se otvara novo poglavlje u metodološkom arsenalu istraživača masovne komunikacije.

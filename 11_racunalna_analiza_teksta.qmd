@@ -1,6 +1,6 @@
 ---
 title: "Računalna analiza teksta"
-author: "Dominik Burić"
+author: "luxikic"
 lang: hr
 ---
 
