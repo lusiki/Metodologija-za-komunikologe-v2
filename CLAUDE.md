@@ -10,132 +10,70 @@ You are the chief editor and co-author. When assigned a section you write excell
 
 ## Book Structure
 
-The book has five parts. Part I (Temelji znanstvenog istraživanja) covers the foundations of scientific inquiry. Part II (Metode prikupljanja podataka) covers data collection methods. Part III (Analiza podataka) covers statistics. Part IV (Računalne metode) covers computational approaches. Part V (Okvir i perspektive) covers ethics, validity, and the future of the discipline.
+The book has six parts with 28 chapters, each in its own .qmd file. Files are numbered sequentially 00–28.
 
 ### UVOD
 
 ```
-Uvod                                          → 00_uvod.qmd
+00  Uvod                                      → 00_uvod.qmd
 ```
 
 ### DIO I: TEMELJI ZNANSTVENOG ISTRAŽIVANJA
 
 ```
-1. Znanost i znanstvena spoznaja              → 01_znanost.qmd
-   1.1 Ciljevi znanstvene spoznaje
-   1.2 Znanost i pseudoznanost
-   1.3 Razvoj znanosti prema Thomasu Kuhnu
-   1.4 Sistematizacija znanosti i znanstvenih istraživanja
-   1.5 Razvoj komunikologije: utemeljitelji i prva istraživanja
-
-2. Epistemološke osnove istraživanja           → 02_metode.qmd
-   2.1 Spoznajno-teorijske osnove kvantitativnih metoda istraživanja
-   2.2 Spoznajno-teorijske osnove kvalitativnih metoda istraživanja
-
-3. Nacrt istraživanja                         → 03_nacrt.qmd
-   3.1 Istraživačko pitanje i predmet istraživanja
-   3.2 Hipoteze
-   3.3 Varijable i operacionalizacija
-   3.4 Mjerne ljestvice i mjerenje
-   3.5 Istraživački nacrti (eksperimentalni, korelacijski, longitudinalni)
-   3.6 Uzorkovanje
+01  Osnovna obilježja znanosti                → 01_osnovna_obiljezja.qmd
+02  Ciljevi znanstvene spoznaje               → 02_ciljevi.qmd
+03  Znanost i pseudoznanost                   → 03_pseudoznanost.qmd
+04  Razvoj znanosti prema Thomasu Kuhnu       → 04_kuhn.qmd
+05  Sistematizacija znanosti                  → 05_sistematizacija.qmd
+06  Razvoj komunikologije                     → 06_razvoj_komunikologije.qmd
+07  Epistemološke osnove istraživanja         → 07_metode_istrazivanja.qmd
 ```
 
-### DIO II: METODE PRIKUPLJANJA PODATAKA
+### DIO II: KVANTITATIVNE METODE ISTRAŽIVANJA
 
 ```
-4. Anketa                                     → 04_anketa.qmd
-   4.1 Povijesni razvoj ankete
-   4.2 Vrste anketa (lice u lice, telefonska, online)
-   4.3 Postupak izrade upitnika
-   4.4 Tipovi pitanja i ljestvice
-   4.5 Anketomanija i problemi s metodom ankete
-   4.6 Pogreške u anketnim istraživanjima
-
-5. Analiza sadržaja                           → 05_analiza_sadrzaja.qmd
-   5.1 Pojam i povijesni razvoj
-   5.2 Analiza sadržaja tradicionalnih medija
-   5.3 Analiza sadržaja u digitalnom okružju
-   5.4 Pouzdanost i valjanost u analizi sadržaja
-
-6. Kvalitativne metode                        → 06_kvalitativne.qmd
-   6.1 Etnografska metoda
-   6.2 Analiza diskursa
-   6.3 Intervju
-   6.4 Fokus grupe
-   6.5 Utemeljena teorija i kodiranje
-   6.6 Pisanje kvalitativnog izvještaja
-
-7. Mješovita metodologija                     → 07_mjesovita.qmd
+08  Uvod u kvantitativne metode               → 08_kvantitativne_metode.qmd
+09  Priprema kvantitativnog istraživanja      → 09_priprema_kvantitativnih.qmd
+10  Anketa                                    → 10_anketa.qmd
+11  Analiza sadržaja                          → 11_analiza_sadrzaja.qmd
+12  Analiza sadržaja u digitalnom okružju     → 12_analiza_sadrzaja_digitalno.qmd
+13  Analiza mreža                             → 13_analiza_mreza.qmd
+14  Deskriptivna statistika                   → 14_deskriptivna_statistika.qmd
+15  Osnove statističkog zaključivanja         → 15_statisticko_zakljucivanje.qmd
+16  Statistički testovi u praksi              → 16_statisticki_testovi.qmd
 ```
 
-### DIO III: ANALIZA PODATAKA
+### DIO III: KVALITATIVNE METODE ISTRAŽIVANJA
 
 ```
-8. Deskriptivna statistika                    → 08_deskriptivna_statistika.qmd
-   8.1 Mjere centralne tendencije
-   8.2 Mjere varijabilnosti
-   8.3 Vizualizacija podataka
-
-9. Osnove statističkog zaključivanja          → 09_statisticko_zakljucivanje.qmd
-   9.1 Od uzorka do populacije
-   9.2 Intervali pouzdanosti
-   9.3 Testiranje hipoteza
-
-10. Statistički testovi u praksi              → 10_statisticki_testovi.qmd
-    10.1 T-test i ANOVA
-    10.2 Korelacija
-    10.3 Hi-kvadrat test
-    10.4 Regresija
+17  Uvod u kvalitativne metode                → 17_kvalitativne_metode.qmd
+18  Priprema kvalitativnog istraživanja       → 18_priprema_kvalitativnih.qmd
+19  Intervju                                  → 19_intervju.qmd
+20  Fokus grupe                               → 20_fokus_grupe.qmd
+21  Utemeljena teorija                        → 21_utemeljena_teorija.qmd
+22  Analiza diskursa                          → 22_analiza_diskursa.qmd
+23  Pisanje kvalitativnog izvještaja          → 23_pisanje_izvjestaja.qmd
 ```
 
-### DIO IV: RAČUNALNE METODE
+### DIO IV: MJEŠOVITA METODOLOGIJA
 
 ```
-11. Računalna analiza teksta                  → 11_racunalna_analiza_teksta.qmd
-    11.1 Uvod u računalnu analizu teksta
-    11.2 Priprema podataka za analizu
-    11.3 Reprezentacija teksta
-    11.4 Pristupi analizi teksta
-
-12. Analiza mreža                             → 12_analiza_mreza.qmd
-    12.1 Relacijska perspektiva
-    12.2 Osnovni elementi i vrste mreža
-    12.3 Mjere centralnosti
-    12.4 Struktura zajednica
-    12.5 Primjene u komunikologiji
+24  Mješovita metodologija                    → 24_mjesovita_metodologija.qmd
 ```
 
 ### DIO V: OKVIR I PERSPEKTIVE
 
 ```
-13. Etika znanstvenih istraživanja            → 13_etika.qmd
-    13.1 Etička načela u društvenim istraživanjima
-    13.2 Informirani pristanak i privatnost
-    13.3 Etički izazovi digitalnih istraživanja
-    13.4 Algoritamska pristranost i odgovornost
-    13.5 Institucionalni okvir (etička povjerenstva)
-
-14. Valjanost i pouzdanost                    → 14_valjanost.qmd
-    14.1 Koncept valjanosti
-    14.2 Koncept pouzdanosti
-    14.3 Valjanost i pouzdanost u kvantitativnim istraživanjima
-    14.4 Kriteriji kvalitete u kvalitativnim istraživanjima
-    14.5 Reproducibilnost i replikacijska kriza
-
-15. Računalna društvena znanost               → 15_racunalna_drustvena_znanost.qmd
-    15.1 Što je računalna društvena znanost
-    15.2 Epistemološke implikacije računalnog obrata
-    15.3 Algoritamska posredovanost komunikacije
-    15.4 Nove metode i metodološka integracija
-    15.5 Programska pismenost kao kompetencija
-    15.6 Budućnost komunikologije kao hibridne discipline
+25  Etika znanstvenih istraživanja            → 25_etika.qmd
+26  Valjanost i pouzdanost                    → 26_valjanost.qmd
+27  Računalna društvena znanost               → 27_racunalna_drustvena_znanost.qmd
 ```
 
 ### LITERATURA
 
 ```
-Literatura                                    → literatura.qmd
+28  Literatura                                → 28_literatura.qmd
 ```
 
 ## Source Blueprint
@@ -244,8 +182,5 @@ Before submitting any section, confirm all of the following. No bullet points or
 
 ## Status Notes
 
-Chapters 13 (Etika) and 14 (Valjanost) are currently empty placeholders and need full writing.
-Chapter 3 (Nacrt istraživanja) is assembled from extracted content and needs editorial unification.
-Chapter 15 (Računalna društvena znanost) needs major restructuring from 36 sections down to 6.
-Chapter 5, section 5.3 (Analiza sadržaja u digitalnom okružju) is currently empty and needs writing.
-Chapter 6, section 6.1 (Etnografska metoda) is a stub and needs writing.
+Chapter 25 (Etika) and Chapter 26 (Valjanost) are currently empty placeholders and need full writing.
+Chapter 27 (Računalna društvena znanost) needs major restructuring from 36 sections down to 6.

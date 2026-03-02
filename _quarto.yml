@@ -34,31 +34,31 @@ book:
         - 11_analiza_sadrzaja.qmd
         - 12_analiza_sadrzaja_digitalno.qmd
         - 13_analiza_mreza.qmd
-        - 14a_deskriptivna_statistika.qmd
-        - 14b_statisticko_zakljucivanje.qmd
-        - 14c_statisticki_testovi.qmd
+        - 14_deskriptivna_statistika.qmd
+        - 15_statisticko_zakljucivanje.qmd
+        - 16_statisticki_testovi.qmd
 
     - part: "Kvalitativne metode istraživanja u društvenim znanostima"
       chapters:
-        - 15_kvalitativne_metode.qmd
-        - 16_priprema_kvalitativnih.qmd
-        - 17_intervju.qmd
-        - 18_fokus_grupe.qmd
-        - 19_utemeljena_teorija.qmd
-        - 20_analiza_diskursa.qmd
-        - 21_pisanje_izvjestaja.qmd
+        - 17_kvalitativne_metode.qmd
+        - 18_priprema_kvalitativnih.qmd
+        - 19_intervju.qmd
+        - 20_fokus_grupe.qmd
+        - 21_utemeljena_teorija.qmd
+        - 22_analiza_diskursa.qmd
+        - 23_pisanje_izvjestaja.qmd
 
     - part: "Mješovita metodologija"
       chapters:
-        - 22_mjesovita_metodologija.qmd
+        - 24_mjesovita_metodologija.qmd
 
     - part: "Okvir i perspektive"
       chapters:
-        - 23_etika.qmd
-        - 24_valjanost.qmd
-        - 26_racunalna_drustvena_znanost.qmd
+        - 25_etika.qmd
+        - 26_valjanost.qmd
+        - 27_racunalna_drustvena_znanost.qmd
 
-    - 25_literatura.qmd
+    - 28_literatura.qmd
 
 format:
   html:
