@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hr" xml:lang="hr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Osnove statističkog zaključivanja</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="15_statisticko_zakljucivanje_files/libs/clipboard/clipboard.min.js"></script>
+<script src="15_statisticko_zakljucivanje_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="15_statisticko_zakljucivanje_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="15_statisticko_zakljucivanje_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="15_statisticko_zakljucivanje_files/libs/quarto-html/popper.min.js"></script>
+<script src="15_statisticko_zakljucivanje_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="15_statisticko_zakljucivanje_files/libs/quarto-html/anchor.min.js"></script>
+<link href="15_statisticko_zakljucivanje_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="15_statisticko_zakljucivanje_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="15_statisticko_zakljucivanje_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="15_statisticko_zakljucivanje_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="15_statisticko_zakljucivanje_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#osnove-statističkog-zaključivanja" id="toc-osnove-statističkog-zaključivanja" class="nav-link active" data-scroll-target="#osnove-statističkog-zaključivanja"><span class="header-section-number">1</span> Osnove statističkog zaključivanja</a>
+  <ul class="collapse">
+  <li><a href="#od-uzorka-do-populacije" id="toc-od-uzorka-do-populacije" class="nav-link" data-scroll-target="#od-uzorka-do-populacije"><span class="header-section-number">1.1</span> Od uzorka do populacije</a>
+  <ul class="collapse">
+  <li><a href="#normalna-distribucija" id="toc-normalna-distribucija" class="nav-link" data-scroll-target="#normalna-distribucija"><span class="header-section-number">1.1.1</span> Normalna distribucija</a></li>
+  <li><a href="#centralni-granični-teorem" id="toc-centralni-granični-teorem" class="nav-link" data-scroll-target="#centralni-granični-teorem"><span class="header-section-number">1.1.2</span> Centralni granični teorem</a></li>
+  <li><a href="#standardna-pogreška" id="toc-standardna-pogreška" class="nav-link" data-scroll-target="#standardna-pogreška"><span class="header-section-number">1.1.3</span> Standardna pogreška</a></li>
+  </ul></li>
+  <li><a href="#inferencijalna-statistika" id="toc-inferencijalna-statistika" class="nav-link" data-scroll-target="#inferencijalna-statistika"><span class="header-section-number">1.2</span> Inferencijalna statistika</a>
+  <ul class="collapse">
+  <li><a href="#logika-testiranja-hipoteza" id="toc-logika-testiranja-hipoteza" class="nav-link" data-scroll-target="#logika-testiranja-hipoteza"><span class="header-section-number">1.2.1</span> Logika testiranja hipoteza</a></li>
+  <li><a href="#testna-statistika-i-kritična-regija" id="toc-testna-statistika-i-kritična-regija" class="nav-link" data-scroll-target="#testna-statistika-i-kritična-regija"><span class="header-section-number">1.2.2</span> Testna statistika i kritična regija</a></li>
+  <li><a href="#p-vrijednost" id="toc-p-vrijednost" class="nav-link" data-scroll-target="#p-vrijednost"><span class="header-section-number">1.2.3</span> P-vrijednost</a></li>
+  <li><a href="#vrste-pogrešaka" id="toc-vrste-pogrešaka" class="nav-link" data-scroll-target="#vrste-pogrešaka"><span class="header-section-number">1.2.4</span> Vrste pogrešaka</a></li>
+  <li><a href="#moć-testa" id="toc-moć-testa" class="nav-link" data-scroll-target="#moć-testa"><span class="header-section-number">1.2.5</span> Moć testa</a></li>
+  </ul></li>
+  <li><a href="#cjelovit-primjer-od-istraživačkog-pitanja-do-zaključka" id="toc-cjelovit-primjer-od-istraživačkog-pitanja-do-zaključka" class="nav-link" data-scroll-target="#cjelovit-primjer-od-istraživačkog-pitanja-do-zaključka"><span class="header-section-number">1.3</span> Cjelovit primjer: od istraživačkog pitanja do zaključka</a></li>
+  <li><a href="#usporedba-ključnih-koncepata" id="toc-usporedba-ključnih-koncepata" class="nav-link" data-scroll-target="#usporedba-ključnih-koncepata"><span class="header-section-number">1.4</span> Usporedba ključnih koncepata</a></li>
+  <li><a href="#sažetak-poglavlja" id="toc-sažetak-poglavlja" class="nav-link" data-scroll-target="#sažetak-poglavlja"><span class="header-section-number">1.5</span> Sažetak poglavlja</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Osnove statističkog zaključivanja</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="osnove-statističkog-zaključivanja" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Osnove statističkog zaključivanja</h1>
+<p>Zamislimo istraživačicu koja provodi anketu o povjerenju u medije među 500 nasumično odabranih hrvatskih građana, pri čemu prikupljeni podaci iz tog uzorka daju prosječnu ocjenu povjerenja od 5.2 na skali od 1 do 10. Istraživačica se nadalje suočava s fundamentalnim pitanjem koje čini srž statističkog zaključivanja: što joj taj podatak zapravo govori o cjelokupnoj populaciji od četiri milijuna odraslih hrvatskih građana, budući da je anketirala samo manji dio? Nastaju brojna nezanemariva pitanja koja zahtijevaju sistematičan pristup. Je li 5.2 dovoljno blizu stvarnoj prosječnoj ocjeni u cijeloj populaciji, ili je to samo slučajna varijacija koja proizlazi iz toga što je uzorak nedovoljan? Koliko bi procjena mogla odstupati od istinite vrijednosti i kako kvantificirati tu nesigurnost? Ako HRT tvrdi da je prosječno povjerenje u njihov program 6.0, može li se na temelju prikupljenih podataka zaključiti da ta tvrdnja doista ne odgovara stvarnosti, ili je razlika od 0.8 u ocjeni samo rezultat slučajnog fluktuiranja uzorka? Odgovori na sva ova pitanja zahtijevaju poznavanje alata koji omogućuju sistematičan prelazak od konkretnih podataka iz uzorka prema općenitim zaključcima o populaciji, što je u jeziku statistike poznato kao <strong>statističko zaključivanje</strong>.</p>
+<p>Istraživač masovne komunikacije rijetko ima materijalnu mogućnost analizirati cijelu populaciju koja ga zanima, tj. donositi zaključke bez da je naprije prikupio podatke. Kada se istražuje percepcija kredibiliteta vijesti, medijskih navika, stavova prema novinskoj praksi ili učinaka medijskih sadržaja, nije moguće anketirati ili promatrati sve članove populacije. Umjesto toga, provodi se <strong>uzorkovanje</strong>, tj. odabir manjeg broja jedinki iz populacije koja nas zanima, pa se prikupljaju podaci iz tog uzorka od, primjerice, 500 ili 1000 ispitanika. Na temelju informacija iz tog uzorka želi se izvući zaključak o cijeloj <strong>populaciji</strong>, što je proces koji predstavlja srž <strong>inferencijalne statistike</strong>, tj. te grane statistike koja omogućuje generalizaciju od specifičnog prema općenitom. Za razliku od deskriptivne statistike (v. poglavlje 14), koja isključivo opisuje podatke prikupljene u uzorku koristeći empirijske mjere kao što su sredina, medijan i standardna devijacija, inferencijalna statistika koristi teorijske distribucije i vjerojatnost kako bi omogućila prelazak sa uzorka na populaciju. Ova razlika je fundamentalna: deskriptivna statistika говori „što je bilo u mojim podacima”, dok inferencijalna statistika govori „što je vjerojatno biti u cijeloj populaciji”.</p>
+<p>Osnova statističke inferencije leži na ideji da, premda će prava vrijednost populacijskog parametra (poput stvarne prosječne gledanosti svih televizijskih programa u Hrvatskoj ili autentičnog postotka građana koji vjeruju vijestima) zauvijek ostati nepoznata, moguće je kvantificirati stupanj nesigurnosti koji prati našu procjenu te donositi racionalne odluke unatoč toj inherentnoj nesigurnosti. Svaki put kada se u medijima čita izvještaj o istraživanju javnog mnijenja, anketi o medijskim navikama ili studiji o učincima medijskih poruka, rezultati koji se prikazuju dobiveni su iz uzoraka a ne iz cijele populacije, tj. nastali su procesom zaključivanja. Pitanja poput „Je li porast nepovjerenja u medije statistički značajan ili je to samo slučajno fluktuiranje?” ili „Postoji li stvarna razlika u gledanosti između televizijskih kuća ili je to samo random šum u podacima?” zahtijevaju poznavanje principa inferencijalne statistike. U kontekstu istraživanja masovne komunikacije, razumijevanje statističkog zaključivanja stoga ima izuzetnu praktičnu važnost jer omogućuje distinkciju između stvarnih efekata i slučajne varijabilnosti u podacima, što je nužan preduvjet za kvalitetno znanstveno zaključivanje.</p>
+<p>Poglavlje je organizirano u dva veća odjeljka koji čine logičku cjelinu. U prvom dijelu razmatra se put od uzorka prema populaciji, počevši od objašnjenja normalne distribucije kao teoretske osnove, zatim centralnog graničnog teorema koji opravdava korištenje normalne distribucije čak i kada podaci nisu normalno distribuirani, te standardne pogreške i intervala pouzdanosti kao mjera nesigurnosti procjene. Drugi dio posvećen je inferencijalnoj statistici u užem smislu, gdje se detaljno razrađuje logika testiranja hipoteza, pojam testne statistike i kritične regije, interpretacija p-vrijednosti kao često pogrešno shvaćenog koncepta, vrste pogrešaka tipa I i II koje se javljaju u statističkom zaključivanju, te moć testa kao mjera osjetljivosti statističkog testa. Poglavlje se zaključuje cjelovitim praktičnim primjerom koji sistematski povezuje sve obrađene koncepte u jedinstven istraživački scenarij iz domene masovne komunikacije, čime se demonstrira kako se teorijski koncepti primjenjuju u stvarnoj istraživačkoj praksi.</p>
+<section id="od-uzorka-do-populacije" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="od-uzorka-do-populacije"><span class="header-section-number">1.1</span> Od uzorka do populacije</h2>
+<section id="normalna-distribucija" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="normalna-distribucija"><span class="header-section-number">1.1.1</span> Normalna distribucija</h3>
+<p>Kada istraživač crta histogram podataka – bilo da se radi o dnevnoj gledanosti televizijskih vijesti, vremenu provedenom na člancima portala, kvaliteti novinskog izvještavanja ili ocjenama kredibiliteta medija – često se primjećuje karakterističan, ponavljajući obrazac distribucije vrijednosti. Podaci se grupiraju oko srednje vrijednosti, postepeno se razmaknjujući prema krajnjim vrijednostima s obje strane, stvarajući oblik koji podsjeća na zvono. Ovaj obrazac je tako česta pojava u prirodi i društvenim znanostima da je dobio poseban status u teorijskoj statistici. Tehnički se naziva <strong>normalna distribucija</strong>, poznata i kao „zvonasta krivulja” ili <em>Gaussova distribucija</em> (engl. <em>bell curve</em>), i predstavlja najjednostavniju i ujedno najvažniju kontinuiranu teorijsku distribuciju u statističkoj analizi. Zbog svoje važnosti, normalna distribucija je temelj većine parametrijskih statističkih testova.</p>
+<p>Razlog za često pojavljivanje normalnosti u empirijskim podacima leži u fundamentalnoj karakteristici mnogih fenomena: većina varijabli nastaje kao rezultat velikog broja malih, međusobno nezavisnih utjecaja. Razmotrimo vrijeme koje čitatelj provede na članku o politici na nekom novinskom portalu, budući da to nije determinirana vrijednost već rezultat brojnih faktora koji se zbrajaju. To vrijeme ovisi o interesu čitatelja za određenu temu, količini slobodnog vremena koju raspolaže, duljini članka i njegove složenosti, kvaliteti novinarskog pisanja, prisutnosti vizualnih elemenata koji mogu skrenuti pozornost, izvora iz kojega je čitač stigao do članka, te brojnih drugih malih čimbenika. Kada mnogo takvih nezavisnih faktora doprinosi konačnoj vrijednosti – što je uobičajeno u realnom svijetu – rezultirajuća distribucija tih vrijednosti tendira biti normalna. Ovo svojstvo formalnog karaktera iskazuje se centralnim graničnim teoremom, o čemu će biti više riječi posteriormente.</p>
+<p>Normalna distribucija je <strong>kontinuirana</strong> distribucija, što znači da teoretski može poprimiti bilo koju vrijednost unutar svog raspona, a ne samo diskretne brojeve. Ovo je fundamentalno drugačije od diskretnih distribucija poput binomne, gdje je moguće dobiti točno tri ili četiri uspjeha, ali ne 3.5 uspjeha. Varijable poput vremena čitanja članka ili dnevne gledanosti programa mogu poprimiti bilo koju vrijednost, uključujući i decimalne. Normalna distribucija je u potpunosti određena s dva parametra koja je definiraju: <strong>sredina</strong> <span class="math inline">\(\mu\)</span> (čita se „mi”), koja određuje gdje je distribucija smještena na brojčanoj osi, i <strong>standardna devijacija</strong> <span class="math inline">\(\sigma\)</span> (čita se „sigma”), koja određuje razastrtost ili „širinu” distribucije oko sredine. Drugim riječima, sredina nam govori o „tipičnoj” ili „očekivanoj” vrijednosti slučajne varijable, dok nam standardna devijacija kaže za koliko se vrijednosti tipično razlikuju od te sredine, tj. mjeri varijabilnost oko centra.</p>
+<p>U teoretskoj matematičkoj notaciji, normalnu distribuciju zapisuje se na sljedeći način: <span class="math inline">\(X \sim \text{Normal}(\mu, \sigma)\)</span>, što se čita kao „varijabla <span class="math inline">\(X\)</span> slijedi normalnu distribuciju sa sredinom <span class="math inline">\(\mu\)</span> i standardnom devijacijom <span class="math inline">\(\sigma\)</span>“. Ako se pretpostavi, primjerice, da vrijeme čitanja članaka na nekom novinskom portalu slijedi normalnu distribuciju sa sredinom od 120 sekundi i standardnom devijacijom od 30 sekundi, taj bi se podatak kompaktno zapisao kao <span class="math inline">\(X \sim \text{Normal}(120, 30)\)</span>. Ova matematička notacija omogućuje preciznu specifikaciju distribucije bez potrebe za detaljnim riječničkim opisima.</p>
+<p>Posebna varijanta normalne distribucije je <strong>standardna normalna distribucija</strong>, koja se karakterizira sredinom od točno nula i standardnom devijacijom od točno jedan, tj. <span class="math inline">\(\mu = 0\)</span> i <span class="math inline">\(\sigma = 1\)</span>. Bilo koja normalna distribucija može se transformirati u standardnu normalnu distribuciju primjenom <strong>z-transformacije</strong>, koja matematički izgleda ovako:</p>
+<p><span class="math display">\[z = \frac{X - \mu}{\sigma}\]</span></p>
+<p>Ova formula radi sljedeće: od svake opažene vrijednosti <span class="math inline">\(X\)</span> oduzme se sredina distribucije <span class="math inline">\(\mu\)</span>, a dobiveni rezultat podijeli se sa standardnom devijacijom <span class="math inline">\(\sigma\)</span>. Rezultat toga transformacije je z-vrijednost, broj koji pokazuje koliko je standardnih devijacija neka opservacija udaljena od sredine distribucije, tj. njezina pozicija u odnosu na sredinu mjerena u jedinicama standardne devijacije. Za primjer, ako čitatelj provede 180 sekundi na članku (uz <span class="math inline">\(\mu = 120\)</span> i <span class="math inline">\(\sigma = 30\)</span>), njegova z-vrijednost iznosi <span class="math inline">\((180 - 120)/30 = 2.0\)</span>, što znači da je proveo točno dvije standardne devijacije više vremena od prosjeka. Zahvaljujući z-transformaciji, moguće je koristiti jedinstvene tablice vjerojatnosti neovisno o originalnim jedinicama mjerenja (sekunde, minuta, broj klikova, broj komentara itd.), što čini analizu univerzalno primjenjivom.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="sc">-</span><span class="dv">4</span>, <span class="dv">4</span>, <span class="at">by =</span> <span class="fl">0.01</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">dnorm</span>(x, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>df_norm <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> x, <span class="at">y =</span> y)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_norm, <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y)) <span class="sc">+</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_area</span>(<span class="at">data =</span> <span class="fu">subset</span>(df_norm, x <span class="sc">&gt;=</span> <span class="sc">-</span><span class="dv">1</span> <span class="sc">&amp;</span> x <span class="sc">&lt;=</span> <span class="dv">1</span>),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y), <span class="at">fill =</span> <span class="st">"gray70"</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_area</span>(<span class="at">data =</span> <span class="fu">subset</span>(df_norm, x <span class="sc">&gt;=</span> <span class="sc">-</span><span class="dv">2</span> <span class="sc">&amp;</span> x <span class="sc">&lt;=</span> <span class="sc">-</span><span class="dv">1</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y), <span class="at">fill =</span> <span class="st">"gray50"</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_area</span>(<span class="at">data =</span> <span class="fu">subset</span>(df_norm, x <span class="sc">&gt;=</span> <span class="dv">1</span> <span class="sc">&amp;</span> x <span class="sc">&lt;=</span> <span class="dv">2</span>),</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y), <span class="at">fill =</span> <span class="st">"gray50"</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">2</span>, <span class="sc">-</span><span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>), <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">0</span>, <span class="at">y =</span> <span class="fl">0.15</span>, <span class="at">label =</span> <span class="st">"68%"</span>, <span class="at">size =</span> <span class="dv">4</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>) <span class="sc">+</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">0</span>, <span class="at">y =</span> <span class="fl">0.02</span>, <span class="at">label =</span> <span class="st">"95%"</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="sc">-</span><span class="dv">3</span><span class="sc">:</span><span class="dv">3</span>,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"-3σ"</span>, <span class="st">"-2σ"</span>, <span class="st">"-1σ"</span>, <span class="st">"μ"</span>, <span class="st">"+1σ"</span>, <span class="st">"+2σ"</span>, <span class="st">"+3σ"</span>)) <span class="sc">+</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Standardna normalna distribucija"</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Empirijsko pravilo: 68% unutar ±1σ, 95% unutar ±2σ"</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Standardne devijacije od sredine"</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Gustoća vjerojatnosti"</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-normal-distribution" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-normal-distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="15_statisticko_zakljucivanje_files/figure-html/fig-normal-distribution-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-normal-distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Normalna distribucija s označenim empirijskim pravilom. Tamnije sivo područje obuhvaća 68% podataka (±1σ), a ukupno označeno područje obuhvaća 95% podataka (±2σ).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Neovisno o konkretnim vrijednostima sredine i standardne devijacije, sve normalne distribucije dijele važna zajednička svojstva koja čine analizu mogućom. <strong>Empirijsko pravilo</strong> (poznato i kao pravilo 68-95-99.7) precizno iskazuje da približno 68% opservacija pada unutar jedne standardne devijacije od sredine (<span class="math inline">\(\mu \pm \sigma\)</span>), približno 95% opservacija pada unutar dvije standardne devijacije (<span class="math inline">\(\mu \pm 2\sigma\)</span>), i približno 99.7% opservacija pada unutar tri standardne devijacije (<span class="math inline">\(\mu \pm 3\sigma\)</span>). Ovo pravilo omogućuje brzu heurističku procjenu normalnosti empirijske distribucije: ako su promatrani podaci vrlo daleko od ovih teoretskih postotaka, to upućuje na zaključak da distribucija vjerojatno nije normalna ili da su prisutni outliers koji izobličavaju očekivanu distribuciju.</p>
+<p>Za konkretan primjer iz prakse, pretpostavimo da vrijeme čitanja članaka na nekom novinskom portalu slijedi normalnu distribuciju s <span class="math inline">\(\mu = 120\)</span> sekundi i <span class="math inline">\(\sigma = 30\)</span> sekundi. Prema empirijskom pravilu, može se očekivati da 68% čitatelja provede između 90 i 150 sekundi čitajući članke (što je 120 ± 30), da 95% čitatelja provede između 60 i 180 sekundi (što je 120 ± 60), i da gotovo svi čitatelji (99.7%) provede između 30 i 210 sekundi (što je 120 ± 90). U R okruženju, rad s normalnom distribucijom omogućen je putem ugrađenih funkcija <code>dnorm()</code> (za gustoću vjerojatnosti), <code>pnorm()</code> (za kumulativnu vjerojatnost), <code>qnorm()</code> (za kvantile) i <code>rnorm()</code> (za slučajni uzorak). Funkcija <code>pnorm()</code> izračunava kumulativnu vjerojatnost, tj. vjerojatnost da varijabla poprimi vrijednost manju ili jednaku zadanoj vrijednosti. Primjerice, za izračun udjela čitatelja koji čitaju kraće od 90 sekundi koristi se <code>pnorm(90, mean = 120, sd = 30)</code>, što vraća vrijednost od približno 0.159, tj. približno 16% čitatelja.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Udio citatelja koji citaju krace od 90 sekundi</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">pnorm</span>(<span class="dv">90</span>, <span class="at">mean =</span> <span class="dv">120</span>, <span class="at">sd =</span> <span class="dv">30</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1586553</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Udio citatelja koji citaju izmedju 90 i 150 sekundi</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">pnorm</span>(<span class="dv">150</span>, <span class="at">mean =</span> <span class="dv">120</span>, <span class="at">sd =</span> <span class="dv">30</span>) <span class="sc">-</span> <span class="fu">pnorm</span>(<span class="dv">90</span>, <span class="at">mean =</span> <span class="dv">120</span>, <span class="at">sd =</span> <span class="dv">30</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.6826895</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Z-vrijednost za citatelja koji cita 180 sekundi</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>(<span class="dv">180</span> <span class="sc">-</span> <span class="dv">120</span>) <span class="sc">/</span> <span class="dv">30</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+</div>
+<p>Za kontinuirane distribucije poput normalne, vjerojatnost se nikad ne pripisuje pojedinačnim točkama već umjesto toga intervalima vrijednosti. Pitanje „kolika je vjerojatnost da čitatelj provede točno 120.0000… sekundi” nema doista nikakva smislenog odgovora iz perspektive statističke teorije jer je odgovor matematički nula. Međutim, pitanje „kolika je vjerojatnost da čitatelj provede između 110 i 130 sekundi” ima jasan i mjerljiv odgovor, a taj se odgovor daje geometrijski kao <strong>površina ispod krivulje</strong> normalnoj distribuciji između tih dviju točaka. Ova površina odgovara proporcionalno vjerojatnosti te slučajne varijable da poprimi vrijednost unutar tog intervala.</p>
+<p>S razumijevanjem kako je normalna distribucija određena, kako se transformira putem z-transformacije i kako se interpretira vjerojatnost u kontinuiranom slučaju, moguće je razmotriti fundamentalno pitanje koje je u samom jezgru statističkog zaključivanja: što se precizno događa kada istraživač izračunava prosjek iz uzorka i želi zaključiti o populacijskoj sredini? Odgovor na to pitanje dolazi iz teorema koji je revolucionirao statistiku.</p>
+</section>
+<section id="centralni-granični-teorem" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="centralni-granični-teorem"><span class="header-section-number">1.1.2</span> Centralni granični teorem</h3>
+<p>Zamislimo sljedeći teorijski eksperiment koji ilustrira osnove statističkog zaključivanja. Novinski redakcijski tim provodi istraživanje o zadovoljstvu gledatelja programa Hrvatske radiotelevizije. U prvom tjednu istraživanja nasumično se biraju i anketiraju 50 gledatelja, pa se dobije prosječna satisfakcija od 7.2 na skali od 1 do 10. Sljedeći tjedan tim provodi identičan postupak – opet biranja 50 različitih gledatelja – i dobije prosječnu satisfakciju od 7.5. Treći tjedan eksperiment se ponavlja, ponovno s 50 novim gledateljima, a rezultat je 6.9. Ako bi se ovaj postupak ponavljao stotinama puta – svaki put s novim, nasumično odabranim uzorkom od 50 gledatelja – što bi se moglo opaziti kada bi se sve te prosječne vrijednosti prikupile i analizirale? Distribucija svih tih prosječnih satisfakcija iz različitih uzoraka naziva se <strong>uzorkovna distribucija prosjeka</strong> (engl. <em>sampling distribution of the mean</em>), i ona ima zadivljujuća i empirijski verificirana svojstva koja su formalnog karaktera iskazana u <strong>centralnom graničnom teoremu</strong> (CGT), jednom od najutjecajnijih i najjednostavnijih teorema u teoriji vjerojatnosti (Rice, 2007).</p>
+<p>Razmotrimo konkretnu numeričku situaciju kako bi se ilustrirala snaga CGT-a. Pretpostavimo da stvarna prosječna satisfakcija svih gledatelja HRT-a u populaciji (populacijska sredina) iznosi točno <span class="math inline">\(\mu = 7.0\)</span>, sa standardnom devijacijom <span class="math inline">\(\sigma = 2.0\)</span>. Ako se iz te populacije uzme uzorak od <span class="math inline">\(N = 50\)</span> gledatelja i izračuna prosječna satisfakcija tog uzorka, gotovo je sigurno da se neće dobiti točno 7.0, tj. populacijska sredina. Možda će uzorak dati 7.3, ili 6.8, ili neka druga vrijednost u blizini te sredine. Nadalje, kada se eksperiment ponovi s potpuno novim uzorkom od ponovo 50 gledatelja, dobit će se drugačija vrijednost. Svaki put kada se uzorkuje, dobiva se malo drugačiji prosjek zbog inherentne slučajne varijacije u tome koje osobe uđu u uzorak i koju vrijednost daju, tj. jer različiti uzorci iz iste populacije daju različite prosjeke.</p>
+<p>Centralni granični teorem iskazuje duboku matematičku istinu: bez obzira kakav oblik ima originalna distribucija u populaciji – bila ona asimetrična, multimodalna, ravna, ili bilo kako drugačija – <strong>uzorkovna distribucija prosjeka postaje sve normalnija kako se veličina uzorka povećava</strong>. Ovo je izuzetno moćan i opće primjenjiv rezultat jer omogućuje korištenje normalne distribucije za inferenciju čak i u situacijama gdje originalna populacijska distribucija nije normalna. Štoviše, CGT pruža precizne matematičke formule za karakteristike uzorkovne distribucije: njezinu sredinu, standardnu devijaciju i brzinu konvergencije prema normalnosti. Da bi se konkretno ilustrirao CGT, zamislimo da je distribucija satisfakcije gledatelja u populaciji jako asimetrična – na primjer, većina gledatelja daje relativno visoke ocjene (9-10), ali postoji manji rep nepotpuno zadovoljnih ili nezadovoljnih korisnika koji daju niske ocjene (1-3). Takva distribucija pojedinačnih ocjena nisu normalna. Međutim, kada istraživač uzorkuje 50 ljudi i izračuna prosjek tog uzorka, taj prosjek „izglađuje” ekstremne vrijednosti i daje mjeru koja je stabilnija od pojedinačnih opservacija. Ako se uzorkovanje ponovi tisuću puta, distribucija tih tisuću prosječnih satisfakcija bit će približno normalna, unatoč asimetriji izvorne populacijske distribucije.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulacija uzorkovanja</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>n_uzoraka <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>velicine_uzoraka <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">30</span>, <span class="dv">100</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>pop_sredina <span class="ot">&lt;-</span> <span class="fl">7.0</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>pop_sd <span class="ot">&lt;-</span> <span class="fl">2.0</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>rezultati <span class="ot">&lt;-</span> <span class="fu">data.frame</span>()</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (n <span class="cf">in</span> velicine_uzoraka) {</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>  prosjeci <span class="ot">&lt;-</span> <span class="fu">replicate</span>(n_uzoraka, <span class="fu">mean</span>(<span class="fu">rnorm</span>(n, pop_sredina, pop_sd)))</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>  rezultati <span class="ot">&lt;-</span> <span class="fu">rbind</span>(rezultati, <span class="fu">data.frame</span>(</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">prosjek =</span> prosjeci,</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">n =</span> <span class="fu">paste</span>(<span class="st">"N ="</span>, n)</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>  ))</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>rezultati<span class="sc">$</span>n <span class="ot">&lt;-</span> <span class="fu">factor</span>(rezultati<span class="sc">$</span>n, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"N = 5"</span>, <span class="st">"N = 30"</span>, <span class="st">"N = 100"</span>))</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(rezultati, <span class="fu">aes</span>(<span class="at">x =</span> prosjek)) <span class="sc">+</span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">after_stat</span>(density)), <span class="at">bins =</span> <span class="dv">30</span>,</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>                 <span class="at">fill =</span> <span class="st">"gray60"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> pop_sredina, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">linewidth =</span> <span class="fl">0.8</span>) <span class="sc">+</span></span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>n, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Centralni granični teorem: uzorkovna distribucija prosjeka"</span>,</span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Populacija: μ = 7.0, σ = 2.0 | Isprekidana linija = populacijski prosjek"</span>,</span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Prosječna satisfakcija iz uzorka"</span>,</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Gustoća"</span></span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-clt-demonstration" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-clt-demonstration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="15_statisticko_zakljucivanje_files/figure-html/fig-clt-demonstration-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-clt-demonstration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Demonstracija centralnog graničnog teorema. S porastom veličine uzorka (N), uzorkovna distribucija prosjeka postaje sve uža i sve bliža normalnom obliku. Isprekidana linija označava populacijski prosjek (μ = 7.0).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Centralni granični teorem donosi tri fundamentalna rezultata koja opisuju svojstva uzorkovne distribucije prosjeka i koja čine temelj statističkog zaključivanja. Prvo, sredina uzorkovne distribucije (tj. prosječna vrijednost svih mogućih prosječnih vrijednosti) jednaka je populacijskoj sredini. Ako je prava prosječna satisfakcija u populaciji <span class="math inline">\(\mu = 7.0\)</span>, tada je prosječna vrijednost svih mogućih uzorkovnih prosjeka također <span class="math inline">\(7.0\)</span>. Ovo se matematički formulira kao <span class="math inline">\(E[\bar{X}] = \mu\)</span>, što znači da je uzorkovni prosjek <strong>nepristrani procjenitelj</strong> populacijske sredine, tj. u prosjeku „pogađa” pravu vrijednost parametra bez sustavnog odstupanja. To znači da, ako bi istraživač mogao ponoviti istraživanje beskonačno puta s različitim uzorcima, prosječna vrijednost svih dobivenih uzorkovnih prosjeka bila bi točno jednaka stvarnoj populacijskoj sredini, što je svojstvo od fundamentalne važnosti za validnost zaključivanja.</p>
+<p>Drugo svojstvo koje iskazuje CGT navodi da standardna devijacija uzorkovne distribucije (poznata kao <strong>standardna pogreška</strong> i označavana s SE) može se izračunati iz populacijskih parametara pomoću sljedeće formule:</p>
+<p><span class="math display">\[\text{SE} = \frac{\sigma}{\sqrt{N}}\]</span></p>
+<p>Ova formula je od velike praktične važnosti jer pokazuje kako se nesigurnost smanjuje s povećanjem uzorka. Standardna pogreška se dobiva dijeljenjem populacijske standardne devijacije (<span class="math inline">\(\sigma\)</span>) s kvadratnim korijenom veličine uzorka (<span class="math inline">\(N\)</span>). U primjeru s istraživanjem zadovoljstva gledatelja HRT-a, ako je <span class="math inline">\(\sigma = 2.0\)</span> i <span class="math inline">\(N = 50\)</span>, tada je standardna pogreška <span class="math inline">\(\text{SE} = 2.0 / \sqrt{50} \approx 0.283\)</span>. Ova formula ima ključne implikacije: standardna pogreška smanjuje se s kvadratnim korijenom veličine uzorka, što znači da se poboljšanje u preciznosti postiže sporije nego što se povećava uzorak – da bi se prepolovila standardna pogreška, potrebno je učetverostručiti veličinu uzorka, što ima važne implikacije za planiranje istraživanja.</p>
+<p>Treće, kako se veličina uzorka povećava, oblik uzorkovne distribucije sve više asimptotski pristupa normalnoj distribuciji, neovisno o obliku izvorne populacijske distribucije. Čak i ako je originalna distribucija satisfakcije gledatelja asimetrična, multimodalna ili na neki drugi način nenormalna, distribucija prosječnih satisfakcija iz uzoraka veličine 30 ili više bit će praktično normalna. U empirijskoj praksi se uobičajeno smatra da je <span class="math inline">\(N \geq 30\)</span> dovoljno za približnu normalnost uzorkovne distribucije prosjeka, premda taj prag nije apsolutevan i može varirati ovisno o stupnju nenormalnosti izvorne distribucije – ako je originalna distribucija vrlo asimetrična, može biti potreban veći uzorak.</p>
+<p>S razumijevanjem kako funkcionira uzorkovna distribucija prosjeka, njezine sredine, varijabilnosti i oblika distribucije, moguće je preciznije razmotriti standardnu pogrešku i njezinu praktičnu primjenu u kvantificiranju nesigurnosti procjena iz uzorka.</p>
+</section>
+<section id="standardna-pogreška" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="standardna-pogreška"><span class="header-section-number">1.1.3</span> Standardna pogreška</h3>
+<p><strong>Standardna pogreška</strong> (SE) mjeri koliko tipično varira procjena prosjeka od uzorka do uzorka, tj. ona je standardna devijacija uzorkovne distribucije i kao takva predstavlja mjeru nesigurnosti uzorkovnog prosjeka kao procjene populacijske sredine. Ovo se fundamentalno razlikuje od koncepta standardne devijacije, koja mjeri koliko tipično variraju pojedinačne opservacije oko sredine u samim podacima, što je često zbunjujuće razlikovanje čak i za izkušene čitatelje statističkih analiza. Razlika između ova dva koncepta je ključna za razumijevanje statističkog zaključivanja i često je uzrok pogrešnih interpretacija rezultata.</p>
+<p>Zamislimo istraživanje koje analizira prosječan broj komentara na člancima određenog novinskog portala. Standardna devijacija broja komentara po članku u prikupljenim podacima mogla bi biti <span class="math inline">\(SD = 45\)</span> komentara, što govori da se članci međusobno jako razlikuju po količini korisničkog angažmana koji generiraju – neki članci dobiju samo 5 komentara, dok drugi primaju čak 150 komentara. Ova varijabilnost je znatna i upućuje na heterogenost u tome što čitatelje budi na komentiranje. Međutim, standardna pogreška prosječnog broja komentara izračunata iz uzorka od 100 članaka bila bi <span class="math inline">\(SE = 45/\sqrt{100} = 4.5\)</span> komentara, što je deset puta manja vrijednost od standardne devijacije. To znači da su prosjeci iz različitih uzoraka veličine 100 članaka vastly manje varijabilni od pojedinačnih članka, tj. što je očekivano jer se individual varijabilnost „gladi” kada se formira prosjek.</p>
+<p>Ova fundamentalna razlika proizlazi iz matematičkog svojstva da prosjek „izglađuje” ili „ublažava” individualnu varijabilnost u podacima. Kada se prosječi 100 članaka, neki visoko komentirani članci (outliers na gornjoj strani) kompenziraju one članke s vrlo malo komentara (outliers na donjoj strani), rezultirajući prosjekom koji je relativno stabilan i predvidljiv. Što je veći uzorak na kojem se temelji prosjek, to je taj prosjek stabilniji jer ekstremne vrijednosti imaju sve manji utjecaj kada se prosječe s većim brojem „normalnih” vrijednosti. Ova stabilnost je od fundamentalne važnosti za statističko zaključivanje jer omogućuje pouzdane procjene. U praktičnoj situaciji, populacijska standardna devijacija <span class="math inline">\(\sigma\)</span> rijetko je stvarno poznata istraživaču, pa se koristi procjena iz prikupljenog uzorka <span class="math inline">\(s\)</span> (tj. standardna devijacija uzorka), čime se dobiva procjena standardne pogreške: <span class="math inline">\(\widehat{SE} = s / \sqrt{N}\)</span>. U R okruženju, standardna pogreška lako se može izračunati jednostavnim kodom gdje se standardna devijacija uzorka dijeli s kvadratnim korijenom broja opservacija: <code>sd(x) / sqrt(length(x))</code>, gdje je <code>x</code> numerički vektor podataka.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulirani podaci: broj komentara na 100 clanaka</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">789</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>komentari <span class="ot">&lt;-</span> <span class="fu">rpois</span>(<span class="dv">100</span>, <span class="at">lambda =</span> <span class="dv">58</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Standardna devijacija uzorka</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(komentari)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 7.565599</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Standardna pogreska</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(komentari) <span class="sc">/</span> <span class="fu">sqrt</span>(<span class="fu">length</span>(komentari))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.7565599</code></pre>
+</div>
+</div>
+<p>Standardna pogreška ima ključnu ulogu u konstrukciji <strong>intervala pouzdanosti</strong>, koji je osnovni alat za izvještavanje rezultata u statističkom zaključivanju. Ako istraživač želi konstruirati 95%-tni interval pouzdanosti za populacijski prosjek – što znači interval koji će s 95% vjerojatnošću sadržavati pravu populacijsku sredinu – koristi se sljedeća formula:</p>
+<p><span class="math display">\[\bar{X} \pm 1.96 \times \text{SE}\]</span></p>
+<p>Ova formula kaže da se od uzorkovnog prosjeka <span class="math inline">\(\bar{X}\)</span> oduzima i dodaje 1.96 standardnih pogrešaka, što kreira raspon vrijednosti. Broj 1.96 dolazi direktno iz standardne normalne distribucije i specifično je to z-vrijednost koja ostavlja točno 2.5% vjerojatnosti u svakom repu distribucije, što znači da se 95% standardne normalne distribucije nalazi unutar ±1.96 standardnih devijacija od sredine. Za konkretnu primjenu na primjer s novinskim portalom, ako je opažen prosječno 58 komentara sa standardnom devijacijom od 45 i uzorkom od 100 članaka, tada je <span class="math inline">\(SE = 4.5\)</span>, pa bi 95%-tni interval pouzdanosti bio: <span class="math inline">\(58 \pm 1.96 \times 4.5 = 58 \pm 8.82\)</span>, što daje interval od približno 49.18 do 66.82 komentara.</p>
+<p>Interpretacija intervala pouzdanosti zahtijeva preciznu i opreznu jezičnu formulaciju kako bi se izbjegla česta zabluda. Pravilna interpretacija glasi: ako bi se cijeli postupak uzorkovanja i konstruiranja intervala pouzdanosti ponovio mnogo puta (beskonačno puta u teoriji), tada bi u približno 95% tih ponavljanja konstruirani intervali sadržavali pravu, ali nepoznatu populacijsku sredinu. Važno je primijetiti da se ne može reći da postoji 95% vjerojatnosti da se prava sredina nalazi u nekom konkretnom intervalu koji je već izračunat, budući da je prava sredina fiksna (ali nepoznata) vrijednost, a interval je ili sadržava ili ne sadržava – vjerojatnost je već determinirana jednom kad se interval konstruira. Vjerovatnoća se, umjesto toga, odnosi na dugoročnu performansu postupka konstrukcije intervala, ne na specifični interval koji se promatrač nalazi pred sobom.</p>
+<p>Za istraživača masovne komunikacije koji bira između različitih mogućih načina izvještavanja o rezultatima istraživanja, intervali pouzdanosti pružaju korisnu i intuitivno razumljivu informaciju o preciznosti procjene. Interval pouzdanosti od 49 do 67 komentara govori nešto drugačije od intervala od 55 do 61 komentara jer prvi sugerira veliku nesigurnost u procjeni (široki interval) i da je izvorna distribucija komentara vrlo varijabilna, dok drugi ukazuje na prilično preciznu i pouzdanu procjenu. Širina intervala pouzdanosti izravno ovisi o standardnoj pogrešci, koja pak obrnuto ovisi o veličini uzorka: veći uzorci daju uže intervale i precizniju procjenu, što ima praktični značaj za planiranje veličine istraživanja.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">456</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulacija 20 uzoraka</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>n_sim <span class="ot">&lt;-</span> <span class="dv">20</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>prava_sredina <span class="ot">&lt;-</span> <span class="dv">58</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>se <span class="ot">&lt;-</span> <span class="fl">4.5</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>uzorkovni_prosjeci <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n_sim, prava_sredina, se)</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>donja_granica <span class="ot">&lt;-</span> uzorkovni_prosjeci <span class="sc">-</span> <span class="fl">1.96</span> <span class="sc">*</span> se</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>gornja_granica <span class="ot">&lt;-</span> uzorkovni_prosjeci <span class="sc">+</span> <span class="fl">1.96</span> <span class="sc">*</span> se</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>sadrzi_pravu <span class="ot">&lt;-</span> (donja_granica <span class="sc">&lt;=</span> prava_sredina) <span class="sc">&amp;</span> (gornja_granica <span class="sc">&gt;=</span> prava_sredina)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>df_ci <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">uzorak =</span> <span class="dv">1</span><span class="sc">:</span>n_sim,</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>  <span class="at">prosjek =</span> uzorkovni_prosjeci,</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">donja =</span> donja_granica,</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">gornja =</span> gornja_granica,</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">sadrzi =</span> sadrzi_pravu</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_ci, <span class="fu">aes</span>(<span class="at">x =</span> uzorak, <span class="at">y =</span> prosjek)) <span class="sc">+</span></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> prava_sredina, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">linewidth =</span> <span class="fl">0.8</span>) <span class="sc">+</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin =</span> donja, <span class="at">ymax =</span> gornja,</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>                    <span class="at">color =</span> sadrzi), <span class="at">width =</span> <span class="fl">0.3</span>, <span class="at">linewidth =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> sadrzi), <span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"TRUE"</span> <span class="ot">=</span> <span class="st">"black"</span>, <span class="st">"FALSE"</span> <span class="ot">=</span> <span class="st">"gray50"</span>),</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"TRUE"</span> <span class="ot">=</span> <span class="st">"Sadrži μ"</span>, <span class="st">"FALSE"</span> <span class="ot">=</span> <span class="st">"Ne sadrži μ"</span>)) <span class="sc">+</span></span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"95%-tni intervali pouzdanosti iz 20 uzoraka"</span>,</span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Isprekidana linija = prava populacijska sredina (μ = 58)"</span>,</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Uzorak"</span>,</span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Prosječan broj komentara"</span>,</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">""</span></span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-confidence-interval" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-confidence-interval-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="15_statisticko_zakljucivanje_files/figure-html/fig-confidence-interval-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-confidence-interval-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Ilustracija 95%-tnih intervala pouzdanosti iz 20 ponovljenih uzoraka. Svaki horizontalni segment predstavlja jedan interval pouzdanosti. Isprekidana linija označava pravu populacijsku sredinu (μ = 58). Većina intervala sadržava pravu sredinu, ali pojedini ne, što ilustrira da 95%-tni interval pouzdanosti u 5% slučajeva ne obuhvaća stvarnu vrijednost parametra.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>S razumijevanjem kako se kvantificira nesigurnost procjene putem standardne pogreške i intervala pouzdanosti – što čini osnovu svih zaključaka o populacijskim parametrima – moguće je prijeći na drugom dio ovoga poglavlja: kako donositi statističke odluke i testirati hipoteze na temelju podataka iz uzorka. To je prijelaz s opisivanja nesigurnosti na aktivno korištenje podataka za testiranje konkretnih teorijskih ili empirijskih tvrdnji.</p>
+</section>
+</section>
+<section id="inferencijalna-statistika" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="inferencijalna-statistika"><span class="header-section-number">1.2</span> Inferencijalna statistika</h2>
+<section id="logika-testiranja-hipoteza" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="logika-testiranja-hipoteza"><span class="header-section-number">1.2.1</span> Logika testiranja hipoteza</h3>
+<p>Zamislimo praktičan scenarij. Novinski portal s kojim se istraživač bavi javno tvrdi da njegovi članci prosječno generiraju točno 50 komentara po članku, što je portal naveo kao dio svoje marketinške kampanje o veličini angažmana korisnika. Istraživač koji istražuje autentičnost takvih tvrdnji i provjeravajući medijsku literalnost odluči empirijski provjeriti ovu tvrdnju, pa nasumično odabere 100 članaka iz arhive portala i otkrije da je prosječan broj komentara 58, sa standardnom devijacijom od 25 – što je očito više od tvrdnje od 50. Istraživač se nadalje suočava s praktičnim pitanjem: trebam li zaključiti da portal potcjenjuje svoj angažman jer je brojčana razlika stvarna, ili je razlika od 8 komentara jednostavno slučajno odstupanje koje može prirodno nastati zbog inherentne varijacije u uzorkovanju? Odgovor na ovo pitanje zahtijeva sistematičan pristup donošenju statističkih odluka, što je poznato kao <strong>testiranje hipoteza</strong>, tj. procedura koja pruža okvir za razlikovanje između stvarnih efekata i slučajne varijacije (Agresti i Finlay, 2009).</p>
+<p>Prije nego što se može testirati bilo što značajno, potrebno je jasno razlikovati dva fundamentalno drugačita tipa hipoteza koji se koriste u istraživanju. <strong>Istraživačka hipoteza</strong> je znanstvena tvrdnja o svijetu koja nas zanima, npr. „angažman korisnika portala doista razlikuje se od službenih procjena koje navodi portal” ili „senzacionalni naslovi statistički značajno povećavaju broj klikova na članke” ili „objavljivanje vijesti u večernjim satima smanjuje dostig na društvenim mrežama”. Ovo su teorijski orijentirane tvrdnje o komunikološkim fenomenima, o ponašanju audijencije, o učincima medijskog sadržaja na prihvat informacija, o prirodi komunikacijskih procesa. Međutim, takve istraživačke hipoteze su često formulirane na razini koja je nejasna, kvalitativna ili nejednostavno mjerljiva pomoću empirijskih podataka. Što točno znači „angažman razlikuje se”? Za koliko mora razlikovanje biti da bi se smatralo stvarnim? U kojim vremenskim periodima ili veličinama uzorka? Da bi se hipoteza mogla sustavno testirati pomoću statističkih alata, istraživačku hipotezu je potrebno prevesti u preciznu, matematičku tvrdnju, što se naziva <strong>statističkom hipotezom</strong>. U primjeru s novinskim portalom, istraživačka hipoteza „angažman razlikuje se” postaje statistička hipoteza „prava prosječna vrijednost komentara po članku (<span class="math inline">\(\mu\)</span>) razlikuje se od 50”, što se matematički zapisuje kao <span class="math inline">\(\mu \neq 50\)</span>. Ključno je razumjeti da statistički test testira statističku hipotezu formuliranu u matematičkim terminima, ne originalnu istraživačku hipotezu. Ako je studija loše dizajnirana – primjerice ako su članci odabrani pristrano ili ako je vrijeme prikupljanja podataka bilo prilagođeno rezultatima – može se dobiti statistički značajan rezultat koji zapravo ne govori ništa istinito o istraživačkoj hipotezi.</p>
+<p>Kada istraživač započinje statistički test, krucijalno je razumjeti da se ne polazi od hipoteze u koju istraživač vjeruje ili u koju želi da bude istinita. Umjesto toga, koristi se konteintuitivna, ali matematički moćna strategija: konstruira se <strong>nulta hipoteza</strong> (<span class="math inline">\(H_0\)</span>) koja predstavlja ono što istraživač <strong>ne</strong> želi biti istina, i zatim se pokušava pokazati da je ta hipoteza lažna putem empirijskih podataka:</p>
+<p><span class="math display">\[H_0: \mu = 50\]</span></p>
+<p>Nulta hipoteza u ovom scenariju tvrdi da portal govori istinu, tj. da je prosječan broj komentara po članku doista točno 50. Ona predstavlja <strong>status quo</strong>, uobičajenu tvrdnju da nema efekta, da nema razlike između grupa, da nema veze između varijabli, da je sve kako je bilo. <strong>Alternativna hipoteza</strong> (<span class="math inline">\(H_1\)</span>) predstavlja ono što istraživač sumnja da je istina, ono što želi dokazati:</p>
+<p><span class="math display">\[H_1: \mu \neq 50\]</span></p>
+<p>Ovaj pristup testiranju mnogim studentima na prvi pogled djeluje kontraintuitivno jer se čini da se postavlja hipoteza u koju se zapravo ne vjeruje. Razlog za ovaj pristup leži u logici dokazivanja: u formalnoj logici i u pravu, lakše je opovrgnuti tvrdnju nego je dokazati. Ako netko tvrdi da „svi članci o politici na portalu prosječno generiraju 50 komentara”, trebate samo jedan primjer članka koji generira drugačit broj komentara da bi upitali validnost te tvrdnje. S druge strane, čak i ako pronađete tisuću članaka koji generiraju priblično 50 komentara, nikada se ne možete biti potpuno siguran da ne postoji neki član u arhivi koji odstupa od tog prosjeka, tj. ne možete biti sigurni da je tvrdnja apsolutno istinita u svakom mogućem slučaju.</p>
+<p>Najbolji način da se razumije logika testiranja hipoteza jest analogija sa suđenjem u kaznenom postupku, što je često korištena pedagogijska analogija jer je intuitivna i relatable. Nulta hipoteza je “optuženik” kojemu se može pripisati neka krivnja, istraživač je tužitelj koji nastoji pokazati da je optuženik kriv, a statistički test je sudac koji donosi odluku. Kao što je u modernom zakonodavstvu karakteristično u Anglo-saksonskim sustavima, u statističkom testiranju vrijedi <strong>presumpcija nevinosti</strong>: nulta hipoteza (optuženik) smatra se istinitom sve dok se ne može dokazati „izvan razumne sumnje” da je lažna. Teret dokaza je na istraživaču (tužitelju) koji želi odbaciti nultu hipotezu. Statističke procedure su namjerno dizajnirane tako da štite nultu hipotezu jer, ako je ona zapravo istinita, šansa da će istraživač pogrešno zaključiti da je lažna garantirano je manja (obično ispod 5% – razina značajnosti <span class="math inline">\(\alpha\)</span>).</p>
+</section>
+<section id="testna-statistika-i-kritična-regija" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="testna-statistika-i-kritična-regija"><span class="header-section-number">1.2.2</span> Testna statistika i kritična regija</h3>
+<p>Da bi se proveo statistički test, potreban je numerički izračun koji se naziva <strong>testna statistika</strong>, tj. broj koji se računati iz podataka i koji pomaže diskriminirati između nulte i alternativne hipoteze, dajući čitljiv mjeru koji su podaci ekstremi s obzirom na nultu hipotezu. Prije nego što se može izračunati p-vrijednost ili zaključiti bilo što, istraživač mora znati kako bi se ta testna statistika ponašala ako je nulta hipoteza zaista istinita. Za primjer s novinskim portalom, standardna pogreška se izračunava kao <span class="math inline">\(SE = 25/\sqrt{100} = 2.5\)</span>. Prema nultoj hipotezi (da je <span class="math inline">\(\mu = 50\)</span>), očekuje se da će prosječan broj komentara iz uzorka biti statistički scentriran oko 50, s tipičnim odstupanjem od 2.5 komentara (što je standardna pogreška). Međutim, opažena vrijednost od 58 je <span class="math inline">\((58 - 50) / 2.5 = 3.2\)</span> standardne pogreške <strong>iznad</strong> vrijednosti što se očekuje pod nultom hipotezom. Drugim riječima, rezultat je 3.2 „koraka” udaljen od onoga što bi se očekivalo ako je <span class="math inline">\(H_0\)</span> istinita, gdje je svaki „korak” velik koliko je standardna pogreška, tj. tipična varijacija uzorkovnog prosjeka.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>mu0 <span class="ot">&lt;-</span> <span class="dv">50</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>se <span class="ot">&lt;-</span> <span class="fl">2.5</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>x_obs <span class="ot">&lt;-</span> <span class="dv">58</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">seq</span>(mu0 <span class="sc">-</span> <span class="dv">4</span><span class="sc">*</span>se, mu0 <span class="sc">+</span> <span class="dv">4</span><span class="sc">*</span>se, <span class="at">length =</span> <span class="dv">200</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">dnorm</span>(x, <span class="at">mean =</span> mu0, <span class="at">sd =</span> se)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>df_test <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> x, <span class="at">y =</span> y)</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>crit_lower <span class="ot">&lt;-</span> mu0 <span class="sc">-</span> <span class="fl">1.96</span> <span class="sc">*</span> se</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>crit_upper <span class="ot">&lt;-</span> mu0 <span class="sc">+</span> <span class="fl">1.96</span> <span class="sc">*</span> se</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_test, <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y)) <span class="sc">+</span></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_area</span>(<span class="at">data =</span> <span class="fu">subset</span>(df_test, x <span class="sc">&lt;=</span> crit_lower),</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>            <span class="at">fill =</span> <span class="st">"gray40"</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_area</span>(<span class="at">data =</span> <span class="fu">subset</span>(df_test, x <span class="sc">&gt;=</span> crit_upper),</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">fill =</span> <span class="st">"gray40"</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> x_obs, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">linewidth =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="fu">c</span>(crit_lower, crit_upper), <span class="at">linetype =</span> <span class="st">"dotted"</span>) <span class="sc">+</span></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> x_obs <span class="sc">+</span> <span class="dv">1</span>, <span class="at">y =</span> <span class="fu">max</span>(y) <span class="sc">*</span> <span class="fl">0.7</span>,</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>           <span class="at">label =</span> <span class="st">"Opaženo:</span><span class="sc">\n</span><span class="st">58"</span>, <span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> crit_upper <span class="sc">+</span> <span class="fl">0.5</span>, <span class="at">y =</span> <span class="fu">max</span>(y) <span class="sc">*</span> <span class="fl">0.3</span>,</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>           <span class="at">label =</span> <span class="st">"Kritična</span><span class="sc">\n</span><span class="st">regija"</span>, <span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Testiranje H₀: μ = 50"</span>,</span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Siva područja = kritična regija (α = 0.05) | Isprekidana linija = opažena vrijednost"</span>,</span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Prosječan broj komentara"</span>,</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Gustoća pod H₀"</span></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-hypothesis-test" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hypothesis-test-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="15_statisticko_zakljucivanje_files/figure-html/fig-hypothesis-test-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hypothesis-test-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Testiranje hipoteze o prosječnom broju komentara. Siva područja označavaju kritičnu regiju (α = 0.05), tj. raspon vrijednosti u kojima se nulta hipoteza odbacuje. Isprekidana linija prikazuje opaženu vrijednost (58), koja pada u kritičnu regiju, što znači da se nulta hipoteza odbacuje.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Da bi se odgovorilo na pitanje je li opaženi rezultat dovoljno ekstreman da bi se odbacila nulta hipoteza, potrebno je definirati što se podrazumijeva pod „ekstremnim”, tj. definirati <strong>kritičnu regiju</strong>. Kritična regija je skup vrijednosti testne statistike koji navodi istraživača da odbaci nultu hipotezu i zaključi da su podaci kompatibilni s alternativnom hipotezom. Koristi se <strong>razina značajnosti</strong> <span class="math inline">\(\alpha\)</span>, koja predstavlja maksimalnu stopu pogreške koju je istraživač spremno tolerirati – to je vjerojatnost pogreške tipa I, tj. vjerojatnost da će istraživač pogrešno odbaciti istinitu nultu hipotezu. Konvencija u većini društvenih i zdravstvenih znanosti je <span class="math inline">\(\alpha = 0.05\)</span>, što znači da istraživač prihvaća 5% rizika od pogrešnog odbacivanja istinite nulte hipoteze. Za normalnu distribuciju s dvosmjernim testom (tj. testom koji provjerava postoji li razlika bilo u kojem smjeru, gore ili dolje), kritične vrijednosti su ±1.96 standardnih pogrešaka od sredine, jer ta vrijednost ostavlja točno 2.5% vjerojatnosti u svakom repu.</p>
+<p>Opažena vrijednost od 58 komentara pada izvan tog dozvoljenog raspona – она je veća od gornje kritične vrijednosti od <span class="math inline">\(50 + 1.96 \times 2.5 = 54.9\)</span> – što znači da pada u kritičnu regiju. Stoga istraživač <strong>odbacuje nultu hipotezu</strong> i zaključuje da postoje statistički dokazi da prosječan broj komentara nije 50. U R okruženju se ovakav test jednako jednostavno provodi funkcijom <code>t.test()</code>, koja automatski izračunava testnu statistiku (t-vrijednost), stupnjeve slobode, p-vrijednost i 95%-tni interval pouzdanosti:</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulirani podaci: 100 clanaka s prosjecnim brojem komentara</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>broj_komentara <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">100</span>, <span class="at">mean =</span> <span class="dv">58</span>, <span class="at">sd =</span> <span class="dv">25</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Testiranje hipoteze da je populacijski prosjek 50</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(broj_komentara, <span class="at">mu =</span> <span class="dv">50</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  broj_komentara
+t = 3.3851, df = 99, p-value = 0.001021
+alternative hypothesis: true mean is not equal to 50
+95 percent confidence interval:
+ 53.64718 63.97857
+sample estimates:
+mean of x 
+ 58.81287 </code></pre>
+</div>
+</div>
+<p>Iz rezultata funkcije <code>t.test()</code> mogu se iščitati svi ključni elementi jednog statističkog testa: testna statistika označena s <em>t</em>, stupnjevi slobode (<em>df</em>), p-vrijednost (vjerojatnost opaženih ili ekstremnijih podataka pod <span class="math inline">\(H_0\)</span>), 95%-tni interval pouzdanosti koji kvantificira nesigurnost procjene, i procjena prosjeka samog uzorka. Sve ove informacije su međusobno povezane i trebale bi biti citane zajedno pri interpretaciji rezultata.</p>
+<p>S razumijevanjem mehanizma kako se provodi test – kako se definira nulta hipoteza, kako se konstruira testna statistika, kako se određuje kritična regija – valja se detaljnije pozabaviti jednom od najčešće pogrešno razumijevanih mjera u statistici: p-vrijednosti.</p>
+</section>
+<section id="p-vrijednost" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="p-vrijednost"><span class="header-section-number">1.2.3</span> P-vrijednost</h3>
+<p><strong>P-vrijednost</strong> je broj s vrijednostima između 0 i 1 koji predstavlja jednu od ključnih informacija u statističkom zaključivanju, ali je njegov pravi smisao često pogrešno razumljen čak i med iskusnim istraživačima. Može se definirati na dva komplementarna, ali važna načina koja se često miješaju. Prema prvoj interpretaciji (Neymanov pristup), p-vrijednost je <strong>najmanja razina značajnosti</strong> <span class="math inline">\(\alpha\)</span> koju bi istraživač trebao biti spreman tolerirati da bi mogao odbaciti nultu hipotezu na temelju empirijskih podataka. Ako je p-vrijednost 0.03, to znači da istraživač može odbaciti <span class="math inline">\(H_0\)</span> ako je spreman prihvatiti 3% stopu pogreške, ali ne može je odbaciti ako se zahtijeva stroža razina od 1% (tj. <span class="math inline">\(\alpha = 0.01\)</span>).</p>
+<p>Prema drugoj interpretaciji (Fisherov pristup), p-vrijednost je <strong>vjerojatnost dobivanja rezultata jednako ili više ekstremnih od onih koje su opaženi</strong>, pod apsolutnom pretpostavkom da je nulta hipoteza istinita. Ovaj pristup tretira p-vrijednost kao mjeru „iznenađenja” ili „neuobičajenosti” podataka u kontekstu nulte hipoteze: što je p-vrijednost niža, to su podaci „iznenađujući” ako je nulta hipoteza zaista istinita.</p>
+<p>Za konkretni primjer s novinskim portalom gdje je z-vrijednost 3.2 (što je rezultat dijeljenja razlike od 8 komentara sa standardnom pogreškom od 2.5), p-vrijednost iznosi približno 0.0014 (ili 0.14%). Interpretacija prema Fisherovom pristupu glasi: ako bi prosječan broj komentara zaista bio 50 (kako portal tvrdi), tada bi se u samo 0.14% slučajeva (ili u oko 1 od 714 ponavljanja eksperimenta) dobio prosjek koji je toliko ili više udaljen od 50 kao što je opaženi prosjek od 58. Budući da je ova vjerojatnost mnogo niža od konvencionalnog praga od 5% (α = 0.05), nulta hipoteza se odbacuje na zaključak da su podaci kompatibilni s alternativnom hipotezom. U R okruženju se p-vrijednost za z-test može izračunati pomoću funkcije <code>pnorm()</code>, koja daje kumulativnu vjerojatnost standardne normalne distribucije:</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Z-vrijednost</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>z <span class="ot">&lt;-</span> (<span class="dv">58</span> <span class="sc">-</span> <span class="dv">50</span>) <span class="sc">/</span> <span class="fl">2.5</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Dvosmjerna p-vrijednost</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>p_vrijednost <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> <span class="fu">pnorm</span>(<span class="fu">abs</span>(z)))</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>p_vrijednost</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.001374276</code></pre>
+</div>
+</div>
+<p>P-vrijednost je argumentabilan najpogrešnije shvaćen koncept u čitavoj aplikativnoj statistici, i ovo nije pretjerivanje jer brojna empirijska istraživanja pokazuju da čak i profesionalni istraživači koji redovito koriste statističke testove često pogrešno interpretiraju p-vrijednosti (Greenland i sur., 2016). To neslaganje između teorijskog značenja p-vrijednosti i njezine praksi česte pogrešne interpretacije predstavlja česti izvor greške u znanstvenoj praksi. Valja eksplicitno nabroati što p-vrijednost <strong>nije</strong>:</p>
+<p>P-vrijednost <strong>nije</strong> vjerojatnost da je nulta hipoteza istinita. U frekvenstičkom statističkom pristupu, koji je dominantan u društvenim znanostima, hipoteze su ili istinite ili nisu – nisu probabilistički konstrukti kojima se može pripisati vjerojatnost. P-vrijednost ne mjeri vjerojatnost <span class="math inline">\(P(H_0 \text{ je istinita} | \text{podaci})\)</span>, što bi bilo relevantno pitanje, već umjesto toga mjeri <span class="math inline">\(P(\text{podaci} | H_0 \text{ je istinita})\)</span>, što je fundamentalno drugačije.</p>
+<p>P-vrijednost <strong>nije</strong> vjerojatnost da su rezultati nastali slučajno. Izračun p-vrijednosti pretpostavlja da je nulta hipoteza istinita, a ne mjeri vjerojatnost te pretpostavke ili vjerojatnost slučajnosti rezultata.</p>
+<p>P-vrijednost <strong>nije</strong> vjerojatnost pogreške pri odbacivanju nulte hipoteze. To bi bila tražena informacija – „kolika je vjerojatnost da se trebam zabrinuti da sam pogriješio?” – ali ta vjerojatnost je <span class="math inline">\(\alpha\)</span> (razina značajnosti), ne p-vrijednost. Jednom kada se odbaci nulta hipoteza, nije jasno kolika je vjerojatnost da je to bila greška jer ne znamo je li <span class="math inline">\(H_0\)</span> zaista istinita ili ne.</p>
+<p>P-vrijednost <strong>nije</strong> mjera veličine efekta ili praktične važnosti. P-vrijednost može biti ekstremno mala (npr. <span class="math inline">\(p &lt; 0.001\)</span>) čak i za trivijalne i praktički beznačajne efekte ako je uzorak dovoljno velik, jer sve što p-vrijednost mjeri je razlika između podataka i onoga što se očekuje pod <span class="math inline">\(H_0\)</span>.</p>
+<p>Pravilna interpretacija p-vrijednosti može se izraziti na nekoliko ekvivalentnih načina, od kojih su neke sažetije, a druge detaljnije: „Ako bi nulta hipoteza bila istinita, podaci kao ovi ili ekstremniji javljali bi se u približno <span class="math inline">\(p\%\)</span> slučajeva” ili „Potrebno je biti spreman tolerirati stopu pogreške tipa I od najmanje <span class="math inline">\(p\)</span> da bi se odbacila <span class="math inline">\(H_0\)</span>” ili jednostavnije „Podaci pružaju dokaze snage ovisne o veličini p-vrijednosti protiv nulte hipoteze.”</p>
+<div id="tbl-p-value" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-p-value-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Standardne konvencije za izvještavanje p-vrijednosti u znanstvenoj praksi. Zvjezdice se koriste kao skraćeni zapis u tablicama rezultata.
+</figcaption>
+<div aria-describedby="tbl-p-value-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Notacija</th>
+<th style="text-align: left;">Značenje</th>
+<th style="text-align: left;">Interpretacija</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(p &gt; 0.05\)</span> ili n.s.</td>
+<td style="text-align: left;">Nije značajno</td>
+<td style="text-align: left;">Zadržava se <span class="math inline">\(H_0\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(p &lt; 0.05\)</span> (*)</td>
+<td style="text-align: left;">Značajno na razini 5%</td>
+<td style="text-align: left;">Odbacuje se <span class="math inline">\(H_0\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(p &lt; 0.01\)</span> (**)</td>
+<td style="text-align: left;">Značajno na razini 1%</td>
+<td style="text-align: left;">Odbacuje se <span class="math inline">\(H_0\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(p &lt; 0.001\)</span> (***)</td>
+<td style="text-align: left;">Vrlo značajno</td>
+<td style="text-align: left;">Odbacuje se <span class="math inline">\(H_0\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Ključno je jasno razumjeti razliku između <strong>statističke značajnosti</strong> i <strong>praktične važnosti</strong>, budući da su ova dva koncepta potpuno različita i njihovo miješanje vodi do ozbiljnih pogrešaka u interpretaciji rezultata istraživanja. Nešto može biti statističke značajno – što znači da je p &lt; 0.05 i odbacujemo nultu hipotezu – ali biti praktički trivijalno i beznačajno. Zamislimo velikoskalnu analizu milijun članak u bazi podataka neke vijesti, gdje se otkrije da prosječan broj komentara nije točno 50.0 već 50.2 – to je razlika od samo 0.2 komentara po članku. U tom scenariju, s tako velikom veličinom uzorka, p-vrijednost mogla bi biti <span class="math inline">\(p &lt; 0.001\)</span>, što sugerira jake statističke dokaze. Međutim, je li razlika od 0.2 komentara praktički važna? Bi li redakcija ili marketinški tim portala zaista mijenjali strategiju ili donosili drugačije odluke na temelju tog otkrića? Vjerojatno ne, jer je 0.2 komentara praktički neprimjetno.</p>
+<p><strong>Praktična značajnost</strong> ocjenjuje se kroz <strong>veličinu efekta</strong> i kontekst istraživanja, dva elementa koja su odvojena od p-vrijednosti. Razlika između 50 i 58 komentara (iz ranijeg primjera) može biti praktički važna jer predstavlja 16% povećanje u angažmanu, što je količina koja bi mogla biti relevantna za redakcijsku strategi. Veličina efekta mjeri se standardiziranim mjerama poput <strong>Cohenovog <em>d</em></strong> (za razlike između skupina i između uzorka i populacijske vrijednosti) ili <strong>Pearsonovog <em>r</em></strong> (za korelacije između varijabli). Cohen (1988) je predložio heurističke konvencionalne pragove za interpretaciju veličine efekta: mali efekt (<span class="math inline">\(d \approx 0.2\)</span>), srednji efekt (<span class="math inline">\(d \approx 0.5\)</span>) i veliki efekt (<span class="math inline">\(d \approx 0.8\)</span>). Međutim, važno je napomenuti da su ovi pragovi samo orijentacijski i da što se smatra „velikim” efektom stvarno ovisi o specifičnom kontekstu istraživanja, domeni i praktičnim implikacijama.</p>
+<p>Za istraživača masovne komunikacije koji je angažiran u stvarnom svakodnevnom radu istraživanja, razlikovanje statističke i praktične značajnosti ima neposredne i važne implikacije za donošenje zaključaka. Studija može pokazati da novi format ili styling novinskog naslova „statističke značajno” povećava broj klikova sa p-vrijednosti manjom od 0.001, što je po konvenciji jako značajno. Međutim, ako je praktičko povećanje samo 0.5% više klikova – što je u apsolutnom smislu i dalje minijaturno – tada se vjerojatno ne isplati investirati resurse u implementaciju tog novog formata. S druge strane, studija sa p-vrijednosti od 0.06 (što je tehnički nije “značajno”) koja pokazuje povećanje od 15% mogla bi zaslužiti daljnje i ozbiljnije istraživanje čak i ako nije prešla konvencionalni prag od 5%, jer je praktička veličina efekta velika.</p>
+<p>S razumijevanjem što p-vrijednost zaista jest, što nije, i kako se razlikuje od praktične značajnosti, istraživač je spreman za sljedeći koncept: vrste pogrešaka koje se neizbježno javljaju u statističkom zaključivanju i kako se te pogreške kontroliraju.</p>
+</section>
+<section id="vrste-pogrešaka" class="level3" data-number="1.2.4">
+<h3 data-number="1.2.4" class="anchored" data-anchor-id="vrste-pogrešaka"><span class="header-section-number">1.2.4</span> Vrste pogrešaka</h3>
+<p>Statistički testovi nisu savršeni i nisu zaštićeni od grešaka. Čak i kada se sve radi previdno i metodološki ispravno – kada se pravilno provede uzorkovanje, kada se ispravno izračuna testna statistika, kada se korektno interpretiraju rezultati – postoji mogućnost da se istraživač, ipak, krivo zaključi. Izvor te mogućnosti nije nepažnja već inherentna priroda podataka i uzorkovanja: podaci su bučni, nedostaje informacija, a ponekad uzorak jednostavno nije sasvim reprezentativan populacije čak ni sa slučajnim odabirom. Razumijevanje vrsta pogrešaka koje mogu nastati u testiranju hipoteza, i poznavanje mehanizama kako se te pogreške mogu kontrolirati ili barem minimizirati, ključno je za kompetentno i odgovorno korištenje statističkih testova u istraživanju. Postoje dva jasno razlikovanja tipa pogreške koja se mogu javiti.</p>
+<p><strong>Pogreška tipa I</strong> (često se naziva i „lažno pozitivan” rezultat) nastaje kada se odbaci istinita nulta hipoteza. U kontekstu primjera s novinskim portalom, to bi značilo zaključiti – na temelju podataka – da prosječan broj komentara nije 50 kada zapravo <strong>je</strong> 50 po članku, tj. portal je govorio istinu ali smo mi zaključili suprotno. U analogiji s kaznenim suđenjem, to odgovara osudi nevinog čovjeka. Ova pogreška je teorijski i praktički ozbiljna jer navodi na vjerovanje u efekt koji zapravo ne postoji, što može voditi do pogrešnih teorijskih zaključaka o fenomenima, donošenja beskorisnih praktičnih intervencija, istraživanja lažnih tragova, i gubitka skupih resursa na projekte koji nisu opravdani.</p>
+<p>Vjerojatnost da će se pogreška tipa I dogoditi označava se s <span class="math inline">\(\alpha\)</span> i ona je, zapravo, upravo ono što se poziva <strong>razina značajnosti</strong> testa. Kada istraživač postavlja <span class="math inline">\(\alpha = 0.05\)</span> prije provedbe studije, eksplicitno se kaže: „Prihvaćam da će se u 5% slučajeva, tijekom dugotrajne prakse ponavljanja eksperimenta, pogrešno odbaciti istinita nulta hipoteza.” Ovo je razlog zašto su konvencionalni pragovi (0.05, 0.01, 0.001) toliko važni u znanstvenoj praksi – oni predstavljaju društveno dogovorene nivoe prihvatljivog rizika od pogreške koju je velika većina znanstvene zajednice voljni tolerirati. Valja napomenuti važnu okolnost: <span class="math inline">\(\alpha\)</span> je razina greške koju istraživač bira i kontrolira <strong>prije</strong> provedbe testa, nisu nakon što se rezultati dobiju. Ako je potreban konzervativniji pristup – primjerice jer bi pogreška bila posebno skupna – može se postaviti <span class="math inline">\(\alpha = 0.01\)</span> ili čak <span class="math inline">\(\alpha = 0.001\)</span>, što čini odbacivanje <span class="math inline">\(H_0\)</span> težim.</p>
+<p><strong>Pogreška tipa II</strong> (često se naziva „lažno negativan” rezultat) nastaje kada se zadrži lažna nulta hipoteza, tj. kada se ne odbaci <span class="math inline">\(H_0\)</span> iako je ona zapravo lažna. U primjeru s novinskim portalom, to bi značilo zaključiti – na temelju podataka – da je prosječan broj komentara 50 (ili da je kompatibilan s tom tvrdnjom) kada zapravo <strong>nije</strong> 50, tj. portal je lagao ali smo to mi propustili detektirati. U analogiji s kaznenim suđenjem, to odgovara oslobađanju osobe koja je zapravo kriva. Ova pogreška je takođe ozbiljna jer sprječava otkrivanje stvarnih efekata, što može voditi do propuštanja važnih znanstvenih otkrića, nepravednog odbacivanja potencijalno korisnih teorija ili procedura, i propuštanja mogućnosti da se razumiju važne komunikacijske fenomene.</p>
+<p>Vjerojatnost da će se pogreška tipa II dogoditi označava se s <span class="math inline">\(\beta\)</span>. Za razliku od greške tipa I gdje istraživač direktno bira i kontrolira <span class="math inline">\(\alpha\)</span>, istraživač <strong>ne može direktno</strong> postaviti <span class="math inline">\(\beta\)</span> na određenu vrijednost pomoću jednog parametra. Umjesto toga, <span class="math inline">\(\beta\)</span> ovisi o nekoliko međusobnih faktora koji se međusobno utječu. Kao prvo, <span class="math inline">\(\beta\)</span> ovisi o <strong>veličini stvarnog efekta u populaciji</strong>: ako je stvarni efekt velik, lakše ga je detektirati iz uzorka i manja je vjerojatnost da će biti propušten. Ako je prava prosječna vrijednost komentara 80 umjesto 58, biti će puno lakše odbaciti nultu hipotezu da je 50. Kao drugo, <span class="math inline">\(\beta\)</span> ovisi o <strong>veličini uzorka</strong>: veći uzorak znači manju standardnu pogrešku, što omogućuje preciznije procjene i lakše razlikovanje signala od šuma. Kao treće, <span class="math inline">\(\beta\)</span> ovisi o <strong>varijabilnosti ili „bučnosti” podataka</strong>: ako su podaci vrlo varijabilni ili ima mnogo slučajne pogreške, teže je razlikovati stvarni signal efekata od pozadine buke. I kao četvrto, <span class="math inline">\(\beta\)</span> ovisi o <strong>razini <span class="math inline">\(\alpha\)</span> koja je postavljena</strong>: ako se postavlja stroža <span class="math inline">\(\alpha\)</span> (npr. 0.01 umjesto 0.05), to znači da se bira stroži kriterij za odbacivanje <span class="math inline">\(H_0\)</span>, što neposredno povećava <span class="math inline">\(\beta\)</span> jer postaje teže odbaciti <span class="math inline">\(H_0\)</span> čak i kada je lažna – postavljen je viši prag.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>mu0 <span class="ot">&lt;-</span> <span class="dv">50</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>mu1 <span class="ot">&lt;-</span> <span class="dv">55</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>se <span class="ot">&lt;-</span> <span class="fl">2.5</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>alpha <span class="ot">&lt;-</span> <span class="fl">0.05</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>crit_upper <span class="ot">&lt;-</span> mu0 <span class="sc">+</span> <span class="fu">qnorm</span>(<span class="dv">1</span> <span class="sc">-</span> alpha<span class="sc">/</span><span class="dv">2</span>) <span class="sc">*</span> se</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">40</span>, <span class="dv">65</span>, <span class="at">length =</span> <span class="dv">300</span>)</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>y_h0 <span class="ot">&lt;-</span> <span class="fu">dnorm</span>(x, <span class="at">mean =</span> mu0, <span class="at">sd =</span> se)</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>y_h1 <span class="ot">&lt;-</span> <span class="fu">dnorm</span>(x, <span class="at">mean =</span> mu1, <span class="at">sd =</span> se)</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">x =</span> x, <span class="at">y =</span> y_h0),</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y), <span class="at">linewidth =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">x =</span> x, <span class="at">y =</span> y_h1),</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y), <span class="at">linewidth =</span> <span class="dv">1</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>) <span class="sc">+</span></span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_area</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">x =</span> x[x <span class="sc">&gt;=</span> crit_upper], <span class="at">y =</span> y_h0[x <span class="sc">&gt;=</span> crit_upper]),</span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y), <span class="at">fill =</span> <span class="st">"gray30"</span>, <span class="at">alpha =</span> <span class="fl">0.4</span>) <span class="sc">+</span></span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_area</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">x =</span> x[x <span class="sc">&lt;</span> crit_upper], <span class="at">y =</span> y_h1[x <span class="sc">&lt;</span> crit_upper]),</span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y), <span class="at">fill =</span> <span class="st">"gray70"</span>, <span class="at">alpha =</span> <span class="fl">0.4</span>) <span class="sc">+</span></span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> crit_upper, <span class="at">linetype =</span> <span class="st">"dotted"</span>) <span class="sc">+</span></span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">57</span>, <span class="at">y =</span> <span class="fl">0.12</span>, <span class="at">label =</span> <span class="st">"α (Tip I)"</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">48</span>, <span class="at">y =</span> <span class="fl">0.08</span>, <span class="at">label =</span> <span class="st">"β (Tip II)"</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">50</span>, <span class="at">y =</span> <span class="fl">0.17</span>, <span class="at">label =</span> <span class="st">"H₀"</span>, <span class="at">size =</span> <span class="dv">4</span>) <span class="sc">+</span></span>
+<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">55</span>, <span class="at">y =</span> <span class="fl">0.17</span>, <span class="at">label =</span> <span class="st">"H₁"</span>, <span class="at">size =</span> <span class="dv">4</span>) <span class="sc">+</span></span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb19-27"><a href="#cb19-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Pogreške tipa I i II"</span>,</span>
+<span id="cb19-28"><a href="#cb19-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Puna linija = distribucija pod H₀ | Isprekidana = distribucija pod H₁"</span>,</span>
+<span id="cb19-29"><a href="#cb19-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Prosječan broj komentara"</span>,</span>
+<span id="cb19-30"><a href="#cb19-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Gustoća"</span></span>
+<span id="cb19-31"><a href="#cb19-31" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-type-errors" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-type-errors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="15_statisticko_zakljucivanje_files/figure-html/fig-type-errors-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-type-errors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Ilustracija pogrešaka tipa I i II. Puna linija prikazuje distribuciju testne statistike pod nultom hipotezom (H₀: μ = 50), a isprekidana linija distribuciju pod alternativnom hipotezom (H₁: μ = 55). Tamnije sivo područje desno od kritične vrijednosti pod H₀ predstavlja pogrešku tipa I (α), dok svjetlije sivo područje lijevo od kritične vrijednosti pod H₁ predstavlja pogrešku tipa II (β).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Razumijevanje postojanja, prirode i međusobnih odnosa ovih dvaju tipova pogrešaka prirodno vodi prema konceptu koji mjeri „drugostran” greške tipa II: konceptu moći testa.</p>
+</section>
+<section id="moć-testa" class="level3" data-number="1.2.5">
+<h3 data-number="1.2.5" class="anchored" data-anchor-id="moć-testa"><span class="header-section-number">1.2.5</span> Moć testa</h3>
+<p>Komplementarno konceptu pogreške tipa II, <strong>moć testa</strong> definira se kao: <span class="math inline">\(\text{Moć} = 1 - \beta\)</span>, tj. moć je jednaka jedan minus vjerojatnost greške tipa II. Ova formula kaže da je moć vjerojatnost da će test ispravno odbaciti lažnu nultu hipotezu, što znači vjerojatnost da će test „uhvatiti” ili detektirati stvarni efekt <strong>kada on zaista postoji u populaciji</strong>. „Moćan” test je onaj koji ima veliku vjerojatnost detektiranja stvarnog efekta, i moć se može intuitivno razumijevati kao osjetljivost ili sposobnost testa da razlikuje pravu situaciju od nultohipoteze.</p>
+<p>Moć testa ovisi o istim faktorima kao i <span class="math inline">\(\beta\)</span>, ali u direktnom smislu – faktori koji smanjuju <span class="math inline">\(\beta\)</span> povećavaju moć. Kao prvo, veći stvarni efekt dovodi do veće moći jer su veći efekti intuitivno lakši za detektiranje. Ako je prava prosječna vrijednost komentara u populaciji 80 umjesto tvrdnje od 50, bit će puno lakše odbaciti nultu hipotezu da je 50. Kao drugo, veći uzorak dovodi do veće moći jer preciznije procjene omogućuju finiju diskriminaciju između nulte i alternativne hipoteze – više informacija znači bolje razlikovanje. Kao treće, manja varijabilnost ili „buka” u podacima dovodi do veće moći jer manje šuma olakšava otkrivanje signala. I kao četvrto, blaža (veća) <span class="math inline">\(\alpha\)</span> razina – primjerice 0.05 umjesto 0.01 – dovodi do veće moći jer se manje strogi kriteriji za odbacivanje <span class="math inline">\(H_0\)</span> olakšavaju detekciju efekata.</p>
+<p>Konvencionalno u većini science disciplina, istraživači nastoje dizajnirati studije koje imaju moć od najmanje 0.80, što znači 80% vjerojatnosti detektiranja stvarnog efekta ako on doista postoji. Ovo nije proizvoljan ili nasumičan broj – odabir je 0.80 odražava praktičan kompromis između, s jedne strane, želje da se otkriju stvarni efekti (što zahtijeva visoku moć) i, s druge strane, praktičnih ograničenja veličine uzorka i dostupnih resursa (što često čini visoke uzorke skupima) (Cohen, 1988). Općenito, ako je moć ispod 0.60, studija je vjerojatno premalo moćna – postoji veća šansa (preko 40%) da će se propustiti stvarni efekt nego što će biti detektiran.</p>
+<p>Prije provedbe istraživanja – u fazi planiranja – istraživači mogu koristiti <strong>analizu moći</strong> kao alat za određivanje koliko veliki uzorak trebaju kako bi postigli željenu moć. Analiza moći zahtijeva da istraživač specificirani četiri parametra: očekivanu veličinu efekta (na temelju teorije ili pilot studija), željenu razinu moći (obično 0.80), razinu značajnosti (obično 0.05), i tip testa (t-test za usporedbu sredina, ANOVA za više grupa, itd.). Na temelju ovih parametara, matematička formula ili računalni program može izračunati minimalnu potrebnu veličinu uzorka. U R okruženju se analiza moći provodi pomoću funkcije <code>power.t.test()</code> i sličnih funkcija za druge testove:</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Koliki uzorak treba za detekciju srednjeg efekta (d = 0.5)?</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">power.t.test</span>(</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">delta =</span> <span class="fl">0.5</span>,     <span class="co"># ocekivana velicina efekta (Cohenov d)</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">sd =</span> <span class="dv">1</span>,           <span class="co"># standardna devijacija</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">sig.level =</span> <span class="fl">0.05</span>, <span class="co"># razina znacajnosti</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">power =</span> <span class="fl">0.80</span>,     <span class="co"># zeljena moc</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">type =</span> <span class="st">"one.sample"</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+     One-sample t test power calculation 
+
+              n = 33.3672
+          delta = 0.5
+             sd = 1
+      sig.level = 0.05
+          power = 0.8
+    alternative = two.sided</code></pre>
+</div>
+</div>
+<p>Analiza moći ima značajne praktične implikacije za planiranje istraživanja i alokaciju resursa. Studija koja je dizajnirana s nedovoljnom moći – primjerice samo 40% – je zapravo neupješna ili čak gubitak resursa, budući da će u većini slučajeva propustiti stvarne efekte. Čak i ako u populaciji postoji pravi efekt, vjerojatnije je (60%) da ga neće biti detektiran nego što će biti (40%), što čini study neupješnom u donošenju bilo kakvih čvrsta zaključka. Rezultat takve podcilane studije – ako ne pronađe značajan efekt – ne pruža nikakvu korisnu informaciju jer se ne može znati je li efekt zapravo nepostojeći ili jednostavno nije bilo dovoljno moći da se detektira. S druge strane, studija koja je dizajnirana s prekomjerno velikom moći – primjerice 99% – može biti neefikasna u korištenju resursa jer koristi više uzorka nego što je potrebno; bilo bi moguće doći do iste razine moći sa manjim i jeftinijim uzorkom.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>velicina_efekta <span class="ot">&lt;-</span> <span class="fl">0.5</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>alpha <span class="ot">&lt;-</span> <span class="fl">0.05</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>n_vrijednosti <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">10</span>, <span class="dv">150</span>, <span class="at">by =</span> <span class="dv">5</span>)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>moc_vrijednosti <span class="ot">&lt;-</span> <span class="fu">sapply</span>(n_vrijednosti, <span class="cf">function</span>(n) {</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>  se <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="sc">/</span> <span class="fu">sqrt</span>(n)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>  crit <span class="ot">&lt;-</span> <span class="fu">qnorm</span>(<span class="dv">1</span> <span class="sc">-</span> alpha<span class="sc">/</span><span class="dv">2</span>)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>  z_efekt <span class="ot">&lt;-</span> velicina_efekta <span class="sc">/</span> se</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1</span> <span class="sc">-</span> <span class="fu">pnorm</span>(crit <span class="sc">-</span> z_efekt) <span class="sc">+</span> <span class="fu">pnorm</span>(<span class="sc">-</span>crit <span class="sc">-</span> z_efekt)</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>df_moc <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">n =</span> n_vrijednosti, <span class="at">moc =</span> moc_vrijednosti)</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>n_80 <span class="ot">&lt;-</span> n_vrijednosti[<span class="fu">which.min</span>(<span class="fu">abs</span>(moc_vrijednosti <span class="sc">-</span> <span class="fl">0.80</span>))]</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_moc, <span class="fu">aes</span>(<span class="at">x =</span> n, <span class="at">y =</span> moc)) <span class="sc">+</span></span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="fl">0.80</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>) <span class="sc">+</span></span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> n_80, <span class="at">linetype =</span> <span class="st">"dotted"</span>) <span class="sc">+</span></span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> n_80 <span class="sc">+</span> <span class="dv">5</span>, <span class="at">y =</span> <span class="fl">0.5</span>,</span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a>           <span class="at">label =</span> <span class="fu">paste</span>(<span class="st">"N ≈"</span>, n_80), <span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">140</span>, <span class="at">y =</span> <span class="fl">0.82</span>, <span class="at">label =</span> <span class="st">"80% moć"</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Moć testa kao funkcija veličine uzorka"</span>,</span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Veličina efekta d = 0.5 (srednji efekt) | α = 0.05"</span>,</span>
+<span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Veličina uzorka (N)"</span>,</span>
+<span id="cb22-29"><a href="#cb22-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Moć (1 - β)"</span></span>
+<span id="cb22-30"><a href="#cb22-30" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-power-analysis" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-power-analysis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="15_statisticko_zakljucivanje_files/figure-html/fig-power-analysis-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-power-analysis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Moć testa kao funkcija veličine uzorka za srednji efekt (d = 0.5) uz razinu značajnosti α = 0.05. Horizontalna isprekidana linija označava konvencionalnu željenu moć od 80%, a okomita točkasta linija označava odgovarajuću minimalnu veličinu uzorka.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Svi mogući ishodi testiranja hipoteza – sve kombincije između toga je li nulta hipoteza zaista istinita ili nije, te je li odbačena ili zadržana – mogu se sažeti u jednu analitičku matricu koja prikazuje odnose između odluka koje istraživač donosi i stvarnog stanja u populaciji. Ova matrica je od fundamentalne važnosti za razumijevanje statističkog zaključivanja.</p>
+<div id="tbl-decision" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-decision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Ishodi testiranja hipoteza. Dva ispravna ishoda nalaze se na dijagonali (zadržavanje istinite <span class="math inline">\(H_0\)</span> i odbacivanje lažne <span class="math inline">\(H_0\)</span>), dok se dvije vrste pogrešaka nalaze izvan dijagonale.
+</figcaption>
+<div aria-describedby="tbl-decision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 35%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;"><strong><span class="math inline">\(H_0\)</span> je zapravo istinita</strong></th>
+<th style="text-align: center;"><strong><span class="math inline">\(H_0\)</span> je zapravo lažna</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Zadržava se <span class="math inline">\(H_0\)</span></strong></td>
+<td style="text-align: center;">Ispravna odluka (<span class="math inline">\(1-\alpha\)</span>)</td>
+<td style="text-align: center;">Pogreška tipa II (<span class="math inline">\(\beta\)</span>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Odbacuje se <span class="math inline">\(H_0\)</span></strong></td>
+<td style="text-align: center;">Pogreška tipa I (<span class="math inline">\(\alpha\)</span>)</td>
+<td style="text-align: center;">Ispravna odluka (Moć = <span class="math inline">\(1-\beta\)</span>)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Ova tablica pokazuje fundamentalnu i neizbjivnu napetost u testiranju hipoteza koju svaki istraživač mora razumijevati: nije moguće istovremeno minimizirati obje vrste pogrešaka uz fiksnu veličinu uzorka. Ako se smanji <span class="math inline">\(\alpha\)</span> (postane se stroži u odbacivanju <span class="math inline">\(H_0\)</span>), to automatski povećava <span class="math inline">\(\beta\)</span> (postaje teže odbaciti lažnu <span class="math inline">\(H_0\)</span>). To znači da ako istraživač želi biti posebno konzervativan i prihvatiti samo mali rizik od pogreške tipa I (npr. <span class="math inline">\(\alpha = 0.001\)</span>), tada mora tolerirati veći rizik od pogreške tipa II. Obrnuto, ako istraživač manje brine o pogrešci tipa I i koristi blažu razinu (npr. <span class="math inline">\(\alpha = 0.10\)</span>), čini će lakšim detektiranje efekata ali s većim rizikom od lažnih pozitiva. Jedini izbor koji omogućuje smanjenje obje vrste pogrešaka jest povećanje veličine uzorka, što daje više informacija. Ova fundamentalna napetost izravno odražava fundamentalnu nesigurnost koja je inherentna statističkom zaključivanju jer se nikada ne može biti potpuno siguran u zaključke na temelju uzorka – uvijek postoji neka razina neizvjesnosti.</p>
+<p>Praktične implikacije ove tablice su značajne za planiranje istraživanja i oblikovanje metodologije. Prije provedbe studije, istraživač mora donijeti eksplicitnu, informiranu odluku o tome koliki rizik pogreške tipa I je spreman tolerirati (odabir <span class="math inline">\(\alpha\)</span> – obično 0.05) i koliku razinu moći želi postići (obično 0.80), što pak određuje potrebnu veličinu uzorka. Ove odluke trebaju biti donesene unaprijed, u fazi planiranja istraživanja, prije prikupljanja podataka, kako bi se izbjegla problematična praksa poznata kao <em>p-hacking</em> ili „lovljenje značajnosti” – nepravilna analiza podataka gdje se eksperimentira s različitim analizama dok se ne pronađe statistički značajan rezultat, što je oblik iskrivljenja rezultata.</p>
+<p>Razumijevanje vrsti pogrešaka i moći testa ima i značajne implikacije za čitanje i interpretaciju literature. Kada se čita da neka studija „nije pronašla značajnu razliku” između grupa ili varijabli, od posebne je važnosti zapitati se kakvu je moć imala ta studija. Ako je moć bila niska (npr. samo 40%), neuspjeh da se pronađe efekt zapravo ne govori mnogo jer je vjerovatnije da će efekt biti propušten nego detektiran – studija je premalo moćna. Rezultat takve studije je neznačajan. S druge strane, ako je studija imala visoku moć (npr. 90%) i nije pronašla značajan efekt, to pruža mnogo jače i čvršće dokaze da efekt zapravo ne postoji ili je vrlo mali. Uopćen zaključak: interpretacija negativnog rezultata (ne pronađena značajnost) mora biti ovisna o moći studije.</p>
+</section>
+</section>
+<section id="cjelovit-primjer-od-istraživačkog-pitanja-do-zaključka" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="cjelovit-primjer-od-istraživačkog-pitanja-do-zaključka"><span class="header-section-number">1.3</span> Cjelovit primjer: od istraživačkog pitanja do zaključka</h2>
+<p>Da bi se demonstrirala praktična primjena svih koncepata obrađenih u ovom poglavlju – od normalne distribucije preko centralnog graničnog teorema, standardne pogreške, intervala pouzdanosti, testiranja hipoteza, p-vrijednosti, vrsti pogrešaka i moći testa – razmotrit će se sljedeći sustavni primjer iz domene masovne komunikacije. Istraživačica želi ispitati postoji li razlika u prosječnom vremenu čitanja između članaka koji tretiraju vijesti o zdravlju i nacionalnog prosjeka koji iznosi 90 sekundi, što je pokazano u prethodnim studijama kao vrijeme čitanja članka opće namjene.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Korak 1: Prikupljanje podataka</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulirani podaci: vrijeme citanja 80 clanaka o zdravlju (u sekundama)</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">2024</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>vrijeme_citanja <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">80</span>, <span class="at">mean =</span> <span class="dv">102</span>, <span class="at">sd =</span> <span class="dv">35</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Korak 2: Deskriptivna statistika</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>prosjek_uzorka <span class="ot">&lt;-</span> <span class="fu">mean</span>(vrijeme_citanja)</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>sd_uzorka <span class="ot">&lt;-</span> <span class="fu">sd</span>(vrijeme_citanja)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">length</span>(vrijeme_citanja)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>se <span class="ot">&lt;-</span> sd_uzorka <span class="sc">/</span> <span class="fu">sqrt</span>(n)</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Prosjek uzorka:"</span>, <span class="fu">round</span>(prosjek_uzorka, <span class="dv">2</span>), <span class="st">"sekundi</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Prosjek uzorka: 100.15 sekundi</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Standardna devijacija:"</span>, <span class="fu">round</span>(sd_uzorka, <span class="dv">2</span>), <span class="st">"sekundi</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Standardna devijacija: 36.13 sekundi</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Velicina uzorka:"</span>, n, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Velicina uzorka: 80 </code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Standardna pogreska:"</span>, <span class="fu">round</span>(se, <span class="dv">2</span>), <span class="st">"sekundi</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Standardna pogreska: 4.04 sekundi</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Korak 3: 95%-tni interval pouzdanosti</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>donja <span class="ot">&lt;-</span> prosjek_uzorka <span class="sc">-</span> <span class="fl">1.96</span> <span class="sc">*</span> se</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>gornja <span class="ot">&lt;-</span> prosjek_uzorka <span class="sc">+</span> <span class="fl">1.96</span> <span class="sc">*</span> se</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">95%-tni interval pouzdanosti: ["</span>, <span class="fu">round</span>(donja, <span class="dv">2</span>), <span class="st">","</span>, <span class="fu">round</span>(gornja, <span class="dv">2</span>), <span class="st">"]</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+95%-tni interval pouzdanosti: [ 92.23 , 108.07 ]</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Korak 4: Testiranje hipoteze H0: mu = 90</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>rezultat_testa <span class="ot">&lt;-</span> <span class="fu">t.test</span>(vrijeme_citanja, <span class="at">mu =</span> <span class="dv">90</span>)</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(rezultat_testa)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  vrijeme_citanja
+t = 2.5128, df = 79, p-value = 0.01401
+alternative hypothesis: true mean is not equal to 90
+95 percent confidence interval:
+  92.10972 108.18907
+sample estimates:
+mean of x 
+ 100.1494 </code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Korak 5: Velicina efekta (Cohenov d)</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>cohenov_d <span class="ot">&lt;-</span> (prosjek_uzorka <span class="sc">-</span> <span class="dv">90</span>) <span class="sc">/</span> sd_uzorka</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">Cohenov d:"</span>, <span class="fu">round</span>(cohenov_d, <span class="dv">3</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Cohenov d: 0.281 </code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Korak 6: Analiza moci (retrospektivna)</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>moc <span class="ot">&lt;-</span> <span class="fu">power.t.test</span>(</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">n =</span> <span class="dv">80</span>,</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">delta =</span> prosjek_uzorka <span class="sc">-</span> <span class="dv">90</span>,</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">sd =</span> sd_uzorka,</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">sig.level =</span> <span class="fl">0.05</span>,</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">type =</span> <span class="st">"one.sample"</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Moc testa:"</span>, <span class="fu">round</span>(moc<span class="sc">$</span>power, <span class="dv">3</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Moc testa: 0.699 </code></pre>
+</div>
+</div>
+<p>Ovaj primjer ilustrira cjelokupan tijek statističkog zaključivanja u praksi istraživanja masovne komunikacije. U prvom koraku prikupljaju se empirijski podaci iz stvarnog ili simuliranog uzorka. U drugom koraku izračunavaju se osnovne deskriptivne mjere (prosjek, standardna devijacija, standardna pogreška) koje pružaju osnovu za sve daljnje zaključke. U trećem koraku konstruira se interval pouzdanosti koji daje raspon od najmanje do najviše vjerovatne vrijednosti u populaciji i kvantificira nesigurnost procjene. U četvrtom koraku provodi se test hipoteze korištenjem funkcije <code>t.test()</code> koja automatski izračunava testnu statistiku, stupnjeve slobode, p-vrijednost i sve relevantne informacije za donošenje zaključka. U petom koraku izračunava se veličina efekta (Cohenov <em>d</em>) kako bi se evaluirala praktična značajnost rezultata, što je odvojeno od p-vrijednosti. U šestom koraku provodi se analiza moći funkcijom <code>power.t.test()</code> kako bi se utvrdilo je li studija imala dovoljnu osjetljivost za detekciju opaženog efekta. Svaki od ovih koraka odgovara jednom od fundamentalnih koncepata obrađenih u ovom poglavlju, a zajedno čine koherentan proces koji vodi od postavljanja istraživačkog pitanja do donosenja wissenschaftski potkrijepljenih zaključaka.</p>
+</section>
+<section id="usporedba-ključnih-koncepata" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="usporedba-ključnih-koncepata"><span class="header-section-number">1.4</span> Usporedba ključnih koncepata</h2>
+<div id="tbl-usporedba" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-usporedba-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Usporedni pregled ključnih koncepata statističkog zaključivanja s pripadajućim formulama, interpretacijama i R funkcijama za praktičnu provedbu. Tablica služi kao referentni vodič za primjenu ovih koncepata u istraživačkoj praksi masovne komunikacije.
+</figcaption>
+<div aria-describedby="tbl-usporedba-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 27%">
+<col style="width: 27%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Koncept</th>
+<th style="text-align: left;">Definicija</th>
+<th style="text-align: left;">Formula ili oznaka</th>
+<th style="text-align: left;">Praktična primjena</th>
+<th style="text-align: left;">R funkcija</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Normalna distribucija</td>
+<td style="text-align: left;">Kontinuirana distribucija određena sredinom i standardnom devijacijom</td>
+<td style="text-align: left;"><span class="math inline">\(X \sim N(\mu, \sigma)\)</span></td>
+<td style="text-align: left;">Modeliranje varijabli poput gledanosti, vremena čitanja</td>
+<td style="text-align: left;"><code>dnorm()</code>, <code>pnorm()</code>, <code>qnorm()</code>, <code>rnorm()</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Standardna pogreška</td>
+<td style="text-align: left;">Standardna devijacija uzorkovne distribucije prosjeka</td>
+<td style="text-align: left;"><span class="math inline">\(SE = \sigma / \sqrt{N}\)</span></td>
+<td style="text-align: left;">Procjena preciznosti uzorkovnog prosjeka</td>
+<td style="text-align: left;"><code>sd(x) / sqrt(length(x))</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Interval pouzdanosti</td>
+<td style="text-align: left;">Raspon koji s određenom vjerojatnošću obuhvaća populacijski parametar</td>
+<td style="text-align: left;"><span class="math inline">\(\bar{X} \pm 1.96 \times SE\)</span></td>
+<td style="text-align: left;">Izvještavanje o nesigurnosti procjene</td>
+<td style="text-align: left;"><code>t.test(x)$conf.int</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">P-vrijednost</td>
+<td style="text-align: left;">Vjerojatnost podataka ekstremnih kao opaženi, pod <span class="math inline">\(H_0\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(p\)</span></td>
+<td style="text-align: left;">Odluka o odbacivanju <span class="math inline">\(H_0\)</span></td>
+<td style="text-align: left;"><code>t.test(x, mu = ...)$p.value</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pogreška tipa I</td>
+<td style="text-align: left;">Odbacivanje istinite <span class="math inline">\(H_0\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\alpha\)</span></td>
+<td style="text-align: left;">Odabir razine značajnosti</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pogreška tipa II</td>
+<td style="text-align: left;">Zadržavanje lažne <span class="math inline">\(H_0\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\beta\)</span></td>
+<td style="text-align: left;">Procjena rizika propuštanja efekta</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Moć testa</td>
+<td style="text-align: left;">Vjerojatnost ispravnog odbacivanja lažne <span class="math inline">\(H_0\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1 - \beta\)</span></td>
+<td style="text-align: left;">Planiranje veličine uzorka</td>
+<td style="text-align: left;"><code>power.t.test()</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Ova sveobuhvatna tablica sistematizira sve koncepte obrađene u poglavlju, za svaki navedeniju definiciju, formalnu notaciju ili formulaciju, tipičnu praktičnu primjenu u istraživanju masovne komunikacije, te odgovarajuću R funkciju ili kod za praktičnu provedbu. Valja primijetiti da su svi koncepti međusobno logički i matematički povezani i čine neodjeljiv sustav: normalna distribucija i centralni granični teorem opravdavaju korištenje standardne pogreške čak i kada originalni podaci nisu normalno distribuirani, standardna pogreška je temelj za konstrukciju intervala pouzdanosti koji kvantificiraju nesigurnost, intervali pouzdanosti i p-vrijednost su međusobno povezani kroz testiranje hipoteza, a razumijevanje pogrešaka tipa I i II, kao i moći testa, omogućuje kvalitetno planiranje istraživanja prije nego što se prikupljaju podaci.</p>
+</section>
+<section id="sažetak-poglavlja" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="sažetak-poglavlja"><span class="header-section-number">1.5</span> Sažetak poglavlja</h2>
+<p>Statistički zaključak, tj. inferencijalna statistika, omogućuje sistematičan prelazak od konkretnih podataka prikupljenih iz uzorka prema općenitim zaključcima o populaciji koja nas zanima, čime se prevlađuje fundamentalni problem istraživanja: nikada ne možemo analizirati cijelu populaciju. Ovladavanje konceptima obrađenim u ovom poglavlju predstavlja nužan preduvjet za kompetentnu primjenu statističkih testova i donošenje znanstveno opravdanih zaključaka u istraživanju masovne komunikacije.</p>
+<p><strong>Normalna distribucija</strong> je teorijska kontinuirana distribucija određena sredinom (<span class="math inline">\(\mu\)</span>) i standardnom devijacijom (<span class="math inline">\(\sigma\)</span>). Njezin karakterističan zvonast oblik pojavljuje se u prirodi i društvenim znanostima jer mnoge varijable nastaju kao zbroj velikog broja malih, nezavisnih utjecaja. Empirijsko pravilo iskazuje da 68% podataka pada unutar ±1σ, 95% unutar ±2σ i 99.7% unutar ±3σ od sredine. Za kontinuirane distribucije, vjerojatnosti se računaju kao površine ispod krivulje, a standardna normalna distribucija (<span class="math inline">\(\mu = 0\)</span>, <span class="math inline">\(\sigma = 1\)</span>) služi kao referentna točka za sve normalne distribucije putem z-transformacije.</p>
+<p><strong>Centralni granični teorem</strong> objašnjava zašto prosjeci uzoraka imaju predvidljivo ponašanje neovisno o obliku originalne populacijske distribucije: uzorkovna distribucija prosjeka postaje normalna kako <span class="math inline">\(N\)</span> raste (obično je <span class="math inline">\(N \geq 30\)</span> dovoljno), sredina uzorkovne distribucije jednaka je populacijskoj sredini (<span class="math inline">\(E[\bar{X}] = \mu\)</span>), što čini uzorkovni prosjek nepristrani procjenitelj, a standardna pogreška iznosi <span class="math inline">\(SE = \sigma/\sqrt{N}\)</span>. CGT je matematički temelj koji opravdava korištenje normalne distribucije u inferencijalnoj statistici čak i kada se radi s populacijskim distribucijama koje nisu normalne.</p>
+<p><strong>Standardna pogreška</strong> mjeri nesigurnost procjene prosjeka, tj. koliko tipično varira uzorkovni prosjek od uzorka do uzorka. Fundamentalno se razlikuje od standardne devijacije koja mjeri varijabilnost pojedinačnih opservacija. Koristi se za konstrukciju <strong>intervala pouzdanosti</strong>: <span class="math inline">\(\bar{X} \pm 1.96 \times SE\)</span> za 95%-tni interval. Pravilna interpretacija intervala pouzdanosti odnosi se na dugoročnu performansu postupka: ako bi se uzorkovanje i konstrukcija intervala ponavljali beskonačno puta, 95% tako konstruiranih intervala sadržalo bi pravu populacijsku sredinu.</p>
+<p><strong>Testiranje hipoteza</strong> je sistematičan okvir za statističke odluke koji prati logiku sličnu kaznenom suđenju. Nulta hipoteza (<span class="math inline">\(H_0\)</span>) predstavlja status quo i presumira se istinitom dok se ne dokaže suprotno, a alternativna hipoteza (<span class="math inline">\(H_1\)</span>) predstavlja tvrdnju o efektu, razlici ili vezi. Testna statistika mjeri odstupanje podataka od očekivanja pod <span class="math inline">\(H_0\)</span>, a kritična regija definira vrijednosti koje vode do odbacivanja <span class="math inline">\(H_0\)</span>. <strong>P-vrijednost</strong> je vjerojatnost dobivanja podataka ekstremnih kao opaženi ili ekstremnijih pod pretpostavkom da je <span class="math inline">\(H_0\)</span> istinita. Statistička značajnost (malana p-vrijednost) ne implicira praktičnu važnost jer se veličina efekta i kontekst moraju razmatrati odvojeno.</p>
+<p><strong>Pogreške tipa I i II</strong> su neizbježne u statističkom zaključivanju. Pogreška tipa I (<span class="math inline">\(\alpha\)</span>) nastaje odbacivanjem istinite <span class="math inline">\(H_0\)</span> – to je razina značajnosti koju istraživač kontrolira prije testa – a pogreška tipa II (<span class="math inline">\(\beta\)</span>) zadržavanjem lažne <span class="math inline">\(H_0\)</span>. <strong>Moć testa</strong> (<span class="math inline">\(1-\beta\)</span>) je vjerojatnost ispravnog odbacivanja lažne <span class="math inline">\(H_0\)</span>, a cilj je da ona bude najmanje 80%. Nije moguće istovremeno minimizirati obje vrste pogrešaka uz fiksnu veličinu uzorka, pa je jedini način smanjivanja obiju povećanje veličine uzorka. Pri izvještavanju rezultata trebaju biti navedeni p-vrijednost, veličina efekta (Cohenov <em>d</em>) i interval pouzdanosti, a analiza moći trebala bi biti standardan dio planiranja istraživanja.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

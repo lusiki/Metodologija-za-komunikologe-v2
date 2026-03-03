@@ -60,6 +60,21 @@ quarto preview
 
 Knjiga je dostupna online na: **[https://lusiki.github.io/Metodologija-za-komunikologe-v2/](https://lusiki.github.io/Metodologija-za-komunikologe-v2/)**
 
+## Poglavlja za pregled (v2)
+
+Računalna poglavlja dostupna su za pregled u tri formata:
+
+| Poglavlje | HTML | PDF | DOCX |
+|-----------|------|-----|------|
+| 12. Analiza sadržaja u digitalnom okružju | [HTML](https://htmlpreview.github.io/?https://github.com/lusiki/Metodologija-za-komunikologe-v2/blob/main/v2_styled/output/html/12_analiza_sadrzaja_digitalno.html) | [PDF](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/pdf/12_analiza_sadrzaja_digitalno.pdf) | [DOCX](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/docx/12_analiza_sadrzaja_digitalno.docx) |
+| 13. Analiza mreža | [HTML](https://htmlpreview.github.io/?https://github.com/lusiki/Metodologija-za-komunikologe-v2/blob/main/v2_styled/output/html/13_analiza_mreza.html) | — | [DOCX](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/docx/13_analiza_mreza.docx) |
+| 14. Deskriptivna statistika | [HTML](https://htmlpreview.github.io/?https://github.com/lusiki/Metodologija-za-komunikologe-v2/blob/main/v2_styled/output/html/14_deskriptivna_statistika.html) | [PDF](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/pdf/14_deskriptivna_statistika.pdf) | [DOCX](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/docx/14_deskriptivna_statistika.docx) |
+| 15. Osnove statističkog zaključivanja | [HTML](https://htmlpreview.github.io/?https://github.com/lusiki/Metodologija-za-komunikologe-v2/blob/main/v2_styled/output/html/15_statisticko_zakljucivanje.html) | [PDF](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/pdf/15_statisticko_zakljucivanje.pdf) | [DOCX](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/docx/15_statisticko_zakljucivanje.docx) |
+| 16. Statistički testovi u praksi | [HTML](https://htmlpreview.github.io/?https://github.com/lusiki/Metodologija-za-komunikologe-v2/blob/main/v2_styled/output/html/16_statisticki_testovi.html) | [PDF](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/pdf/16_statisticki_testovi.pdf) | [DOCX](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/docx/16_statisticki_testovi.docx) |
+| 27. Računalna društvena znanost | [HTML](https://htmlpreview.github.io/?https://github.com/lusiki/Metodologija-za-komunikologe-v2/blob/main/v2_styled/output/html/27_racunalna_drustvena_znanost.html) | — | [DOCX](https://github.com/lusiki/Metodologija-za-komunikologe-v2/raw/main/v2_styled/output/docx/27_racunalna_drustvena_znanost.docx) |
+
+> **Napomena:** PDF za poglavlja 13 i 27 nije dostupan zbog LaTeX kompatibilnosti s kompleksnim tablicama (`kableExtra`/`tabu`).
+
 ## Licencija
 
 Sadržaj ove knjige zaštićen je autorskim pravima. &copy; Ivan Burić & Luka Šikić. Sva prava pridržana.

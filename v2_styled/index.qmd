@@ -1,0 +1,5 @@
+---
+title: "Računalne metode i statistička obrada podataka"
+---
+
+Ovaj dio knjige obuhvaća poglavlja posvećena računalnim metodama istraživanja masovne komunikacije i statističkoj obradi podataka. Sadržaj uključuje računalnu analizu teksta u digitalnom medijskom okružju, analizu društvenih mreža, deskriptivnu statistiku, osnove statističkog zaključivanja, statističke testove u praksi te pregled računalne društvene znanosti i budućnosti društvenih istraživanja.

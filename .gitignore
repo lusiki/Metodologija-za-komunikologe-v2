@@ -4,6 +4,7 @@ _output/
 site_libs/
 .quarto/
 *.html
+!v2_styled/output/**/*.html
 
 # Quarto generated figure directories
 *_files/

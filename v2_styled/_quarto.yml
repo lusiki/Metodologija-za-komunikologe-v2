@@ -1,0 +1,93 @@
+project:
+  type: book
+  output-dir: _book
+
+execute:
+  freeze: auto
+  warning: false
+  message: false
+
+book:
+  title: "Metode istraživanja masovne komunikacije"
+  subtitle: "Metodološke osnove istraživanja masovne komunikacije u komunikologiji, sociologiji i drugim društvenim znanostima"
+  author:
+    - Ivan Burić
+    - Luka Šikić
+  language: hr
+  chapters:
+    - index.qmd
+    - 00_uvod.qmd
+
+    - part: "Temelji znanstvenog istraživanja"
+      chapters:
+        - 01_osnovna_obiljezja.qmd
+        - 02_ciljevi.qmd
+        - 03_pseudoznanost.qmd
+        - 04_kuhn.qmd
+        - 05_sistematizacija.qmd
+        - 06_razvoj_komunikologije.qmd
+        - 07_metode_istrazivanja.qmd
+
+    - part: "Kvantitativne metode istraživanja"
+      chapters:
+        - 08_kvantitativne_metode.qmd
+        - 09_priprema_kvantitativnih.qmd
+        - 10_anketa.qmd
+        - 11_analiza_sadrzaja.qmd
+        - 12_analiza_sadrzaja_digitalno.qmd
+        - 13_analiza_mreza.qmd
+        - 14_deskriptivna_statistika.qmd
+        - 15_statisticko_zakljucivanje.qmd
+        - 16_statisticki_testovi.qmd
+
+    - part: "Kvalitativne metode istraživanja"
+      chapters:
+        - 17_kvalitativne_metode.qmd
+        - 18_priprema_kvalitativnih.qmd
+        - 19_intervju.qmd
+        - 20_fokus_grupe.qmd
+        - 21_utemeljena_teorija.qmd
+        - 22_analiza_diskursa.qmd
+        - 23_pisanje_izvjestaja.qmd
+
+    - part: "Mješovita metodologija"
+      chapters:
+        - 24_mjesovita_metodologija.qmd
+
+    - part: "Okvir i perspektive"
+      chapters:
+        - 25_etika.qmd
+        - 26_valjanost.qmd
+        - 27_racunalna_drustvena_znanost.qmd
+
+    - 28_literatura.qmd
+
+format:
+  html:
+    theme: cosmo
+    lang: hr
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    code-tools: true
+  pdf:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    documentclass: scrreprt
+    papersize: a4
+    fig-width: 6
+    fig-height: 4
+    fig-dpi: 300
+    keep-tex: false
+    lang: hr
+  docx:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    prefer-html: true
+    fig-width: 6
+    fig-height: 4
+    fig-dpi: 300
+    lang: hr

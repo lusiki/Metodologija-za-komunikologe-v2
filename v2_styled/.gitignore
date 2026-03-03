@@ -1,0 +1,14 @@
+/.quarto/
+**/*.quarto_ipynb
+_book/
+_freeze/
+site_libs/
+*.html
+*_files/
+*.rmarkdown
+13_analiza_mreza_complete.qmd
+13_analiza_mreza_docx.qmd
+13_analiza_mreza_docx.docx
+html_kompilacija.qmd
+pdf_kompilacija.qmd
+docx_kompilacija.qmd

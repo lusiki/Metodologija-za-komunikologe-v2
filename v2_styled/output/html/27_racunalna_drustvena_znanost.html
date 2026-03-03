@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hr" xml:lang="hr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Računalna društvena znanost, umjetna inteligencija i budućnost društvenih istraživanja</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="27_racunalna_drustvena_znanost_files/libs/clipboard/clipboard.min.js"></script>
+<script src="27_racunalna_drustvena_znanost_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="27_racunalna_drustvena_znanost_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="27_racunalna_drustvena_znanost_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="27_racunalna_drustvena_znanost_files/libs/quarto-html/popper.min.js"></script>
+<script src="27_racunalna_drustvena_znanost_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="27_racunalna_drustvena_znanost_files/libs/quarto-html/anchor.min.js"></script>
+<link href="27_racunalna_drustvena_znanost_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="27_racunalna_drustvena_znanost_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="27_racunalna_drustvena_znanost_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="27_racunalna_drustvena_znanost_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="27_racunalna_drustvena_znanost_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="27_racunalna_drustvena_znanost_files/libs/kePrint-0.0.1/kePrint.js"></script>
+
+<link href="27_racunalna_drustvena_znanost_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#što-je-računalna-društvena-znanost" id="toc-što-je-računalna-društvena-znanost" class="nav-link active" data-scroll-target="#što-je-računalna-društvena-znanost"><span class="header-section-number">1</span> Što je računalna društvena znanost</a>
+  <ul class="collapse">
+  <li><a href="#povijesni-korijeni-računalne-analize" id="toc-povijesni-korijeni-računalne-analize" class="nav-link" data-scroll-target="#povijesni-korijeni-računalne-analize"><span class="header-section-number">1.1</span> Povijesni korijeni računalne analize</a></li>
+  <li><a href="#posebnosti-računalnih-pristupa-u-usporedbi-sa-tradicionalnim-metodama" id="toc-posebnosti-računalnih-pristupa-u-usporedbi-sa-tradicionalnim-metodama" class="nav-link" data-scroll-target="#posebnosti-računalnih-pristupa-u-usporedbi-sa-tradicionalnim-metodama"><span class="header-section-number">1.2</span> Posebnosti računalnih pristupa u usporedbi sa tradicionalnim metodama</a></li>
+  </ul></li>
+  <li><a href="#epistemološke-implikacije-računalnog-obrata" id="toc-epistemološke-implikacije-računalnog-obrata" class="nav-link" data-scroll-target="#epistemološke-implikacije-računalnog-obrata"><span class="header-section-number">2</span> Epistemološke implikacije računalnog obrata</a>
+  <ul class="collapse">
+  <li><a href="#nove-vrste-istraživačkih-pitanja" id="toc-nove-vrste-istraživačkih-pitanja" class="nav-link" data-scroll-target="#nove-vrste-istraživačkih-pitanja"><span class="header-section-number">2.1</span> Nove vrste istraživačkih pitanja</a></li>
+  <li><a href="#novi-izazovi-za-valjanost-istraživačkih-zaključaka" id="toc-novi-izazovi-za-valjanost-istraživačkih-zaključaka" class="nav-link" data-scroll-target="#novi-izazovi-za-valjanost-istraživačkih-zaključaka"><span class="header-section-number">2.2</span> Novi izazovi za valjanost istraživačkih zaključaka</a></li>
+  <li><a href="#predikcija-nasuprot-objašnjenju-kao-istraživačkim-ciljevima" id="toc-predikcija-nasuprot-objašnjenju-kao-istraživačkim-ciljevima" class="nav-link" data-scroll-target="#predikcija-nasuprot-objašnjenju-kao-istraživačkim-ciljevima"><span class="header-section-number">2.3</span> Predikcija nasuprot objašnjenju kao istraživačkim ciljevima</a></li>
+  </ul></li>
+  <li><a href="#algoritamska-posredovanost-komunikacije" id="toc-algoritamska-posredovanost-komunikacije" class="nav-link" data-scroll-target="#algoritamska-posredovanost-komunikacije"><span class="header-section-number">3</span> Algoritamska posredovanost komunikacije</a>
+  <ul class="collapse">
+  <li><a href="#arhitektura-algoritamskih-sustava-za-preporuku-sadržaja" id="toc-arhitektura-algoritamskih-sustava-za-preporuku-sadržaja" class="nav-link" data-scroll-target="#arhitektura-algoritamskih-sustava-za-preporuku-sadržaja"><span class="header-section-number">3.1</span> Arhitektura algoritamskih sustava za preporuku sadržaja</a></li>
+  <li><a href="#povratne-veze-i-emergentne-dinamike-u-društvenim-mrežama" id="toc-povratne-veze-i-emergentne-dinamike-u-društvenim-mrežama" class="nav-link" data-scroll-target="#povratne-veze-i-emergentne-dinamike-u-društvenim-mrežama"><span class="header-section-number">3.2</span> Povratne veze i emergentne dinamike u društvenim mrežama</a></li>
+  <li><a href="#metodologije-za-empirijsko-proučavanje-algoritamskih-sustava" id="toc-metodologije-za-empirijsko-proučavanje-algoritamskih-sustava" class="nav-link" data-scroll-target="#metodologije-za-empirijsko-proučavanje-algoritamskih-sustava"><span class="header-section-number">3.3</span> Metodologije za empirijsko proučavanje algoritamskih sustava</a></li>
+  <li><a href="#komunikološka-relevantnost-i-važnost-razumijevanja-algoritamske-posredovanosti" id="toc-komunikološka-relevantnost-i-važnost-razumijevanja-algoritamske-posredovanosti" class="nav-link" data-scroll-target="#komunikološka-relevantnost-i-važnost-razumijevanja-algoritamske-posredovanosti"><span class="header-section-number">3.4</span> Komunikološka relevantnost i važnost razumijevanja algoritamske posredovanosti</a></li>
+  </ul></li>
+  <li><a href="#nove-metode-i-metodološka-integracija" id="toc-nove-metode-i-metodološka-integracija" class="nav-link" data-scroll-target="#nove-metode-i-metodološka-integracija"><span class="header-section-number">4</span> Nove metode i metodološka integracija</a>
+  <ul class="collapse">
+  <li><a href="#veliki-jezični-modeli-kao-nove-mogućnosti-za-tekstualnu-analizu" id="toc-veliki-jezični-modeli-kao-nove-mogućnosti-za-tekstualnu-analizu" class="nav-link" data-scroll-target="#veliki-jezični-modeli-kao-nove-mogućnosti-za-tekstualnu-analizu"><span class="header-section-number">4.1</span> Veliki jezični modeli kao nove mogućnosti za tekstualnu analizu</a></li>
+  <li><a href="#vizualna-i-multimodalna-analiza-kao-nova-dimenzija" id="toc-vizualna-i-multimodalna-analiza-kao-nova-dimenzija" class="nav-link" data-scroll-target="#vizualna-i-multimodalna-analiza-kao-nova-dimenzija"><span class="header-section-number">4.2</span> Vizualna i multimodalna analiza kao nova dimenzija</a></li>
+  <li><a href="#temporalna-analiza-i-analiza-vremenskih-procesa" id="toc-temporalna-analiza-i-analiza-vremenskih-procesa" class="nav-link" data-scroll-target="#temporalna-analiza-i-analiza-vremenskih-procesa"><span class="header-section-number">4.3</span> Temporalna analiza i analiza vremenskih procesa</a></li>
+  <li><a href="#integracija-metoda-kao-ključna-strategija" id="toc-integracija-metoda-kao-ključna-strategija" class="nav-link" data-scroll-target="#integracija-metoda-kao-ključna-strategija"><span class="header-section-number">4.4</span> Integracija metoda kao ključna strategija</a></li>
+  <li><a href="#primjer-cjelovite-integrirane-analize" id="toc-primjer-cjelovite-integrirane-analize" class="nav-link" data-scroll-target="#primjer-cjelovite-integrirane-analize"><span class="header-section-number">4.5</span> Primjer cjelovite integrirane analize</a></li>
+  </ul></li>
+  <li><a href="#programska-pismenost-kao-neophodna-kompetencija" id="toc-programska-pismenost-kao-neophodna-kompetencija" class="nav-link" data-scroll-target="#programska-pismenost-kao-neophodna-kompetencija"><span class="header-section-number">5</span> Programska pismenost kao neophodna kompetencija</a>
+  <ul class="collapse">
+  <li><a href="#temeljna-argumentacija-za-razvoj-programske-pismenosti" id="toc-temeljna-argumentacija-za-razvoj-programske-pismenosti" class="nav-link" data-scroll-target="#temeljna-argumentacija-za-razvoj-programske-pismenosti"><span class="header-section-number">5.1</span> Temeljna argumentacija za razvoj programske pismenosti</a></li>
+  <li><a href="#razlikovanje-između-skriptiranja-i-softverskog-inženjerstva" id="toc-razlikovanje-između-skriptiranja-i-softverskog-inženjerstva" class="nav-link" data-scroll-target="#razlikovanje-između-skriptiranja-i-softverskog-inženjerstva"><span class="header-section-number">5.2</span> Razlikovanje između skriptiranja i softverskog inženjerstva</a></li>
+  <li><a href="#infrastruktura-reproducibilnog-istraživanja" id="toc-infrastruktura-reproducibilnog-istraživanja" class="nav-link" data-scroll-target="#infrastruktura-reproducibilnog-istraživanja"><span class="header-section-number">5.3</span> Infrastruktura reproducibilnog istraživanja</a></li>
+  <li><a href="#strukturirani-put-stjecanja-kompetencija" id="toc-strukturirani-put-stjecanja-kompetencija" class="nav-link" data-scroll-target="#strukturirani-put-stjecanja-kompetencija"><span class="header-section-number">5.4</span> Strukturirani put stjecanja kompetencija</a></li>
+  </ul></li>
+  <li><a href="#budućnost-komunikologije-kao-hibridne-discipline" id="toc-budućnost-komunikologije-kao-hibridne-discipline" class="nav-link" data-scroll-target="#budućnost-komunikologije-kao-hibridne-discipline"><span class="header-section-number">6</span> Budućnost komunikologije kao hibridne discipline</a>
+  <ul class="collapse">
+  <li><a href="#pet-temeljnih-teza" id="toc-pet-temeljnih-teza" class="nav-link" data-scroll-target="#pet-temeljnih-teza"><span class="header-section-number">6.1</span> Pet temeljnih teza</a></li>
+  <li><a href="#implikacije-za-obrazovanje-budućih-istraživača" id="toc-implikacije-za-obrazovanje-budućih-istraživača" class="nav-link" data-scroll-target="#implikacije-za-obrazovanje-budućih-istraživača"><span class="header-section-number">6.2</span> Implikacije za obrazovanje budućih istraživača</a></li>
+  <li><a href="#etička-odgovornost-i-društveni-doprinos" id="toc-etička-odgovornost-i-društveni-doprinos" class="nav-link" data-scroll-target="#etička-odgovornost-i-društveni-doprinos"><span class="header-section-number">6.3</span> Etička odgovornost i društveni doprinos</a></li>
+  <li><a href="#zaključak" id="toc-zaključak" class="nav-link" data-scroll-target="#zaključak"><span class="header-section-number">6.4</span> Zaključak</a></li>
+  </ul></li>
+  <li><a href="#literatura" id="toc-literatura" class="nav-link" data-scroll-target="#literatura">Literatura</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Računalna društvena znanost, umjetna inteligencija i budućnost društvenih istraživanja</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Zamislimo se u situaciji istraživačice koja nastoji razumjeti kako se narativ o klimatskim promjenama u hrvatskim medijima mijenjao tijekom posljednjih deset godina. Na raspolaganju su joj deseci tisuća novinskih članaka objavljenih na portalima poput Index.hr, Jutarnjeg lista i Večernjeg lista, stotine tisuća komentara čitatelja, zapisi o dijeljenju tih članaka na društvenim mrežama te raznovrsni metapodaci o autorima, datumima i kategorijama objava. Tradicionalnim pristupom analize, u kojem bi istraživačica manuelno čitala i kodirala svaki tekst, obrada ovog korpusa zahtijevala bi godine neprekidnog rada. Čak i kada bi posjedovala neograničeno vremenske resurse, ručna analiza ne bi mogla zahvatiti dinamiku proliferacije informacija u stvarnom vremenu, niti bi mogla identificirati skrivene strukture komunikacijskih mreža ili pratiti suptilne varijacije u jezičnom uokvirivanju tema kroz dulje vremenske periode. Pred tim ograničenjima, istraživačica se okreće računalnim metodama koje joj omogućuju automatsku klasifikaciju tematskih okvira, analizu sentimenta, detekciju zajednica u mrežama dijeljenja te vizualizaciju trendova koji se razvijaju kroz vrijeme, sve to na cijelom korpusu umjesto na reprezentativnom uzorku.</p>
+<p>Upravo taj raskorak između istraživačkih pitanja koja moderna znanost o komunikaciji želi postaviti i mogućnosti koje tradicionalne kvantitativne i kvalitativne metode stvarno pružaju čini polaznu točku za razumijevanje onoga što se u suvremenoj znanstvenoj literaturi naziva <strong>računalnom društvenom znanošću</strong> (eng. <em>Computational Social Science</em>). Nije riječ samo o tehničkim alatima koji ubrzavaju postojeće analitičke postupke, tj. o instrumentima koji omogućuju brže izvršavanje operacija koje su istraživači nekada provodili manuelno, već o kvalitativno drugačijem pristupu koji otvara mogućnost postavljanja pitanja koja prije nisu bila ni zamisliva. Dok su prethodna poglavlja ove knjige detaljno razmotrila specifične računalne metode, uključujući analizu teksta prikazanu u poglavlju 11 te analizu mreža diskutiranu u poglavlju 12, ovdje nastojimo pruža širi paradigmatski okvir koji omogućuje dublje razumijevanje kako se te metode uklapaju u fundamentalnu transformaciju društvenih znanosti u cjelini. Istovremeno, ovo poglavlje nastoji povezati računalne pristupe s temeljnim metodološkim pitanjima obrađenima u ranijim dijelovima knjige, počevši od cjelovitog metodološkog nacrta raziskovanja (poglavlje 3) i strategija uzorkovanja, preko pitanja valjanosti i pouzdanosti mjerenja (poglavlje 14), sve do etičkih načela koja trebaju voditi istraživačku praksu (poglavlje 25).</p>
+<p>Poglavlje je organizirano u šest tematskih dijelova koji zajedno čine koherentan argument. Prvo razmatramo što računalna društvena znanost jest u svojoj biti, kako se ona razvijala od svojih teorijskih korijena pa do suvremenih oblika, te čime se fundamentalno razlikuje od tradicionalnih pristupa kojem se često nazivaju društvenim istraživanjima. Potom se analiziraju epistemološke implikacije računalnog obrata, tj. različiti načini na koji nove vrste podataka i nove metode njihove analize mijenjaju samu narav pitanja koja istraživač može postaviti te vrstu dokaza na koju se može osloniti. Treći dio posvećen je algoritamskoj posredovanosti suvremene komunikacije, fenomenu koji čini razumijevanje logike i arhitekture računalnih sustava nužnim preduvjetom za istraživanje suvremenih komunikacijskih procesa. Četvrti dio razmatra nove analitičke metode koje nadilaze klasičnu analizu teksta i analizu mreža, uključujući velike jezične modele, vizualnu analizu i pristupe temeljene na vremenskom dimenzioniranju fenomena. Peti dio gradi argumentaciju za programsku pismenost kao temeljnu kompetenciju suvremenog istraživača komunikacije, razmatrajući kako reproducibilnost, fleksibilnost i transparentnost analitičkog procesa zahtijevaju programerskih vještina. Poglavlje zaključuje razvojem vizije komunikologije kao hibridne discipline koja integriraj tehnički razvijene kompetencije s društvenoznanstvenim osjetljivošću i teorijskim ostajem.</p>
+<section id="što-je-računalna-društvena-znanost" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Što je računalna društvena znanost</h1>
+<p>Računalna društvena znanost označava interdisciplinarno znanstveno polje koje koristi računalne alate, tehnike i metodologije za proučavanje društvenih fenomena na skalama, brzinama i sa stupnjem preciznosti koje tradicionalnim metodama društvenog istraživanja nisu bile dostupne. Sam pojam u znanstvenu je literaturu formalno uveden utjecajnim člankom Lazera i suradnika koji je objavljen 2009. godine u prestižnom časopisu <em>Science</em>, člankom u kojem autori artikuliraju viziju nove istraživačke paradigme koja kombinira mogućnosti obrade velikih skupova podataka s teorijskom tradicijom społecznych znanosti (Lazer i sur., 2009). Međutim, potrebno je istaknuti da primjena računalnih metoda u istraživanju komunikacije i društvenih procesa ima znatno dužu povijest nego što bi sugerirala relativna recentnost popularnosti toga pojma, te je porijeklo tehnike važno razumijevanju kako je razvoj tekao.</p>
+<section id="povijesni-korijeni-računalne-analize" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="povijesni-korijeni-računalne-analize"><span class="header-section-number">1.1</span> Povijesni korijeni računalne analize</h2>
+<p>Već su rani teoretičari analize sadržaja, a posebice Bernard Berelson, prepoznali potencijal mehanizacije i automatizacije analitičkih postupaka, budući da su te operacije često previše repetitivne i vremenski zahtjevne da bi se mogu provesti manuelno na većim skupovima materijala. Premda su tehnološke mogućnosti dostupne istraživačima tog vremena bile znatno ograničenije od onoga čime raspolažemo danas, fundamentalna intuicija ostaje valjana: ako je operacija dovoljno precizno definirana, može se automatizirati (Berelson, 1952). Konkretni pokušaji računalne analize tekstualnog materijala datiraju iz šezdesetih godina dvadesetog stoljeća kada su istraživači poput Philipa Stonea razvili sofisticiran sustav nazvan <em>General Inquirer</em> koji je omogućavao automatsku kategorizaciju tekstualnih jedinica prema unaprijed definiranim semantičkim rječnicima (Stone i sur., 1966). Taj pionirski sustav, koji je radio na kapaciteti sveučilišnog računala Harvard, brojao je rekcije iz unaprijed definiranih semantičkih kategorija i tako proizvodio kvantitativne profile tekstovnih dokumenata. Dakle, težnja za automatizacijom analitičkih postupaka prisutna je u komunikologiji duže nego što se na prvi pogled čini, a principi na kojima je <em>General Inquirer</em> radio, tj. precizno pridruživanje pojedinačnih riječi unaprijed definiranim kategorijama i brojanje frekvencija, konceptualno su srodni suvremenoj praksi računalne analize teksta temeljene na rječnicima koja je detaljno razmotrena u poglavlju 11.</p>
+<p>Međutim, rani računalni pristupi bili su suštastveno ograničeni na relativno jednostavne operacije poput brojanja učestalostí riječi i mehaničkog pridruživanja unaprijed definiranih kategorija. Sofisticiranije analize značenja teksta, kontekstualnih uzajamnih veza i suptilnih semantičkih nijansi ostajale su izvan dosega tadašnje tehnologije jer su zahtijevale razumijevanje sintaktičkih struktura i dinamičkih semantičkih odnosa za koje algoritmi tog vremena nisu bili naprosto sposobni. Tek je razvoj metoda strojnog učenja tijekom prvog desetljeća dvadeset i prvog stoljeća, a kasnije i глубоких neuralnih mreža tokom drugog desetljeća, omogućio fundamentalni kvalitativni skok u sposobnostima računalne obrade tekstualnih, mrežnih i drugih vrsta podataka. Taj skok u mogućnostima nije tek povećao brzinu procesiranja već je otvorio potpuno nova istraživačka pitanja koja prije nisu bila ni tehnički niti konceptualno dostupna.</p>
+<p>Nekoliko je ključnih preraspodijela obilježilo konsolidaciju računalne društvene znanosti kao prepoznatljive i institucionalizirane discipline. Već spomenuti programatski članak Lazera i suradnika iz 2009. godine eksplicitno je artikulirao viziju nove istraživačke paradigme te je okupio istraživače iz različitih disciplina oko zajedničkog programa i koordiniranog napora. Duncan Watts, fizičar koji je preusmjerio svoju karijeru prema proučavanju društvenih fenomena, svojim je temeljitim radom na mrežama, malim svjetovima i procesima društvene kaskade demonstrirao kako se metode fizike kompleksnih sustava mogu plodno primijeniti na istraživačka pitanja koja su izravno relevantna za modernu komunikologiju (Watts, 2003). Matthew Salganik svojim sistematičnim udžbenikom <em>Bit by Bit</em> dao je prvu suaveću metodološku sintezu računalne društvene znanosti specijalno usmjerenu prema široj publici društvenih znanstvenika koji nisu nuždno informatičari (Salganik, 2018). Paralelno s tim knjižnim stvaranjem, osnivanje specijaliziranih istraživačkih centara po međunarodnim sveučilištima, pokretanje stručnog časopisa <em>Journal of Computational Social Science</em> te godišnjih međunarodnih konferencija IC2S2 označili su institucionalnu konsolidaciju i legitimaciju polja kao ozbiljne znanstvene discipline.</p>
+</section>
+<section id="posebnosti-računalnih-pristupa-u-usporedbi-sa-tradicionalnim-metodama" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="posebnosti-računalnih-pristupa-u-usporedbi-sa-tradicionalnim-metodama"><span class="header-section-number">1.2</span> Posebnosti računalnih pristupa u usporedbi sa tradicionalnim metodama</h2>
+<p>Ključna razlika između računalne društvene znanosti i tradicionalnih pristupa društvenom istraživanju ne ogleda se isključivo u bruto količini podataka koju je moguće obraditi, premda je i ta dimenzija već sama po sebi značajna i revolucionarna. Pod pojmom <strong>velikih podataka</strong> (eng. <em>Big Data</em>) u metodološkom kontekstu društvenih istraživanja podrazumijevaju se podatkovni skupovi čiji obujam, brzina generiranja te heterogenost formata i tipova nadilaze kapacitete tradicionalnih analitičkih sredstava i softvera (Salganik, 2018). Ono što velike podatke čini metodološki i teorijski značajnima nije samo količina, već činjenica da ti podaci nastaju spontano kao digitalni tragovi ljudskog ponašanja, komunikacije i interakcije u mrežnom okruženju, tj. kao nusprodukt normalnih aktivnosti korisnika mreže, a ne kao rezultat namjernog i planiranog istraživačkog dizajna. Upravo ta temeljna razlika u genezi podataka ima dalekosežne metodološke implikacije koje se rasprostranjuju kroz sve aspekte istraživačkog procesa.</p>
+<p>Ponajprije, računalna društvena znanost omogućuje istraživačima promatranje i analizu društvenih procesa dok se oni trenutno odvijaju i evolviraju, što je tradicionalnim metodama kao što su ankete ili kontrolirani laboratorijski eksperimenti uglavnom nije bilo dostupno ili je bilo samo dijelomično moguće (Watts, 2011). Dok tradicionalne metode tipično zahvaćaju statične presjeke društvene stvarnosti u diskretnim vremenskim točkama, primjerice provodeći reprezentativnu anketu jednom godišnje ili tokom jednog mjeseca, računalne metode omogućuju kontinuirano i neprekidno praćenje evolucije fenomena iz sata u sat, iz dana u dan. Istraživač može pratiti kako se javno mnijenje o nekoj biti society mijenja u stvarnom vremenu, a ne samo periodiski na godišnjoj razini, što otvara mogućnost detaljne analize brzih dinamičkih procesa poput brzog širenja vijesti kroz društvene mreže ili nastanka kolektivnih emocionalnih reaktcija na iznenadne krizne događaje.</p>
+<p>Nadalje, računalna društvena znanost karakterizirana je mogućnošću proučavanja stvarnog promatranog ponašanja umjesto isključivog oslanjanja na samoiskaze i verbalne izvještaje ispitanika o vlastitom ponašanju. Tradicionalna istraživanja komunikacije u znatnoj su mjeri ovisila o samoiskazu ispitanika prikupljenim putem anketnih upitnika, usmenih intervjua ili pisanih upitnika (v. poglavlje 10), no digitalni tragovi ostavaljeni tijekom normalnih aktivnosti na mreži pružaju neposredan uvid u stvarno ponašanje korisnika digitalnih platformi (Salganik, 2018). Umjesto da se istraživač oslanja na odgovor ispitanika na pitanje koliko vremena dnevno provodi čitajući vijesti ili kakve je članka čitao, može direktno vidjeti koje je članke korisnik stvarno kliknuo, koliko je vremena detaljno čitao, u kojem je redoslijedu čitao dijelove teksta te s kojim je sadržajem dalje komunicirao kroz dijeljenje ili komentiranje. Ova distinkcija između samo-izjavljenog ponašanja temeljenog na memoriji i formalnosti intervjua te neposredno promatranog ponašanja na digitalnim platformama ima značajne implikacije za valjanost istraživačkih zaključaka (v. poglavlje 26 o valjanosti i pouzdanosti), premda donosi i vlastita metodološka ograničenja i nove izazove o kojima će detaljnije biti govora nastavkom poglavlja.</p>
+<p>Tablica 15.1 sažima ključne razlike između tradicionalnih i računalnih pristupa istraživanju komunikacije, organizirane prema dimenzijama koje su najrelevantnije za istraživače komunikacije i društvenih znanosti.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">tibble</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Dimenzija =</span> <span class="fu">c</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Izvor podataka"</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Vremenski obuhvat"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Vrsta ponašanja"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Veličina uzorka"</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Reaktivnost"</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Tipična metoda"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Tradicionalni pristupi</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Ispitanici, dokumenti, artefakti"</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Diskretni vremenski presjeci"</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Samoiskazi o ponašanju"</span>,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Stotine do tisuće jedinica"</span>,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Visoka (ispitanik zna da je promatran)"</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Anketa, eksperiment, ručna analiza sadržaja"</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Računalni pristupi</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Digitalni tragovi, API podaci, logovi"</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Kontinuirano praćenje u stvarnom vremenu"</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Opaženo ponašanje"</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Tisuće do milijuni jedinica"</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Niska (ponašanje zabilježeno neovisno o istraživanju)"</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Automatska analiza teksta, mrežna analiza, strojno učenje"</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">align =</span> <span class="st">"lll"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>), <span class="at">full_width =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">1</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">width =</span> <span class="st">"18%"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">2</span>, <span class="at">width =</span> <span class="st">"38%"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">3</span>, <span class="at">width =</span> <span class="st">"44%"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div id="tbl-usporedba-pristupa" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-usporedba-pristupa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Usporedba tradicionalnih i računalnih pristupa istraživanju komunikacije
+</figcaption>
+<div aria-describedby="tbl-usporedba-pristupa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="table table-striped table-hover do-not-create-environment cell caption-top table-sm small">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Dimenzija</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Tradicionalni pristupi</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Računalni pristupi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 18%; font-weight: bold;">Izvor podataka</td>
+<td style="text-align: left; width: 38%;">Ispitanici, dokumenti, artefakti</td>
+<td style="text-align: left; width: 44%;">Digitalni tragovi, API podaci, logovi</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 18%; font-weight: bold;">Vremenski obuhvat</td>
+<td style="text-align: left; width: 38%;">Diskretni vremenski presjeci</td>
+<td style="text-align: left; width: 44%;">Kontinuirano praćenje u stvarnom vremenu</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 18%; font-weight: bold;">Vrsta ponašanja</td>
+<td style="text-align: left; width: 38%;">Samoiskazi o ponašanju</td>
+<td style="text-align: left; width: 44%;">Opaženo ponašanje</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 18%; font-weight: bold;">Veličina uzorka</td>
+<td style="text-align: left; width: 38%;">Stotine do tisuće jedinica</td>
+<td style="text-align: left; width: 44%;">Tisuće do milijuni jedinica</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 18%; font-weight: bold;">Reaktivnost</td>
+<td style="text-align: left; width: 38%;">Visoka (ispitanik zna da je promatran)</td>
+<td style="text-align: left; width: 44%;">Niska (ponašanje zabilježeno neovisno o istraživanju)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 18%; font-weight: bold;">Tipična metoda</td>
+<td style="text-align: left; width: 38%;">Anketa, eksperiment, ručna analiza sadržaja</td>
+<td style="text-align: left; width: 44%;">Automatska analiza teksta, mrežna analiza, strojno učenje</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>Kao što je razvidno iz tablice, razlike nisu samo kvantitativne vrste već zadiru duboko u temeljnu narav samog istraživačkog procesa i ontološke pretpostavke koje istraživač čini. Posebno je važna razlika u reaktivnosti promatranja: dok tradicionalni pristupi često značajno mijenjaju ponašanje koje pokušavaju proučavati samim činom što ga promatraju i znaju se da se promatraju (fenomen poznat u kontekstu anketnih istraživanja kao društvena poželjnost odgovora ili efekt promatranja, v. poglavlje 10), digitalni tragovi nastaju neovisno o činjenici što je istraživač prisutan ili je li istraživač uopće svjestan tog ponašanja. Međutim, ta nereaktivnost digitalnih tragova ne znači automatski da su ti podaci slobodni od izvora pristranosti i sustavnih odstupanja; naprotiv, algoritamska selekcija sadržaja koji se prikazuje korisnicima, samoselekcija korisnika pri odluci koju platformu koriste i kojim sadržajem se bave, te fundamentalna nereprezentativnost populacije korisnika digitalnih platformi u odnosu na širu društvenu populaciju uvode vlastite, ponekad još teže uočljive i razumljive, izvore pristranosti i sistematske pristrane.</p>
+<p>Sve navedene posebnosti i razlike konvergiraju u tri temeljna trenda koji čine razumijevanje računalnih pristupa ne samo poželjnim već nužnim preduvjetom za suvremene istraživače komunikacije i društvenih znanosti. Prvi trend jest eksponencijalni i kontinuirani rast količine digitalnih tragova komunikacijskog ponašanja koji se svakodnevno generiraju putem aktivnosti korisnika na različitim digitalnim platformama, od detaljnih obrazaca konzumacije informativnog sadržaja pa do kompleksnih interakcija na društvenim mrežama. Drugi trend jest sve veća algoritamska posredovanost javne komunikacije, tj. činjenica da su suvremeni procesi javne komunikacije u sve većoj mjeri oblikovani i determinirati računalnim sustavima koji automatski odlučuju što će određeni korisnik vidjeti na svojem zaslonu, u kojem će momentu to vidjeti te u kojem će kontekstu taj sadržaj biti prikazan. Treći trend jest demokratizacija i dostupnost analitičkih alata na svjetskom tržištu: tehnike i metode koje su prije dvije dekade bile dostupne isključivo specijaliziranim laboratorijima tehnoloških korporacija ili istraživačkim centrima danas su implementirane u otvorenim bibliotekama i paketima dostupnima za jezike Python i R, dostupne stvarno bilo kojem istraživaču sa osnovnim programerskim vještinama (Grimmer i sur., 2022). Ta demokratizacija mogućnosti paraaksalno povećava socijalnu odgovornost i potrebu za metodološkom rigoroznošću jer omogućuje primjenu sofisticiranih alata i tehnika čak i od strane nedovoljno educiranih i metodološki osjetljivih praktičara koji primjenjuju moćne alate bez adekvatnog razumijevanja njihovih temeljnih pretpostavki i inherentnih ograničenja.</p>
+<p>Ovaj uvodnih okvir postavlja temelje za detaljnije razmatranje epistemoloških implikacija računalnog obrata koje čine materiju sljedećeg odjeljka.</p>
+</section>
+</section>
+<section id="epistemološke-implikacije-računalnog-obrata" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Epistemološke implikacije računalnog obrata</h1>
+<p>Prethodni dio prikazao je računalnu društvenu znanost kao interdisciplinarno polje s novim vrstama podataka, metodama njihove analize i alatima koji ta radi olakšavaju. No računalni obrat u društvenim znanostima ne donosi samo praktične prednosti u pogledu veće brzine obrade i većeg obujma podataka koje je moguće istovremeno analizirati, već fundamentalno mijenja samu epistemologiju istraživačkog procesa, tj. narav pitanja koja istraživač može postaviti, vrstu dokaza na koju se može pouzdati i kriterije prema kojima ocjenjuje valjanost i kredibilnost stečenih spoznaja.</p>
+<section id="nove-vrste-istraživačkih-pitanja" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="nove-vrste-istraživačkih-pitanja"><span class="header-section-number">2.1</span> Nove vrste istraživačkih pitanja</h2>
+<p>Računalne metode omogućuju postavljanje sasvim novih vrsta istraživačkih pitanja koja tradicionalnim kvalitativnim i kvantitativnim metodama nije bilo moguće adekvatno adresirati. Istraživač sada može postaviti pitanje o tom kako se informacije šire kroz komunikacijsku mrežu u stvarnom vremenu, koje strukturne karakteristike mreže facilitiraju ili inhibiraju diseminaciju određenih tipova sadržaja te kako se dinamika širenja sadržaja mijenja ovisno o kontekstualnim faktorima poput vremena dana, vrste sadržaja, stupnja emocionalne nabijanosti poruke ili karakteristika onih koji prvi dijele sadržaj (Watts, 2011). Takva istraživačka pitanja pretpostavljaju pristup vremenski detaljnim i granularnim podacima o dinamici mrežne strukture i tokovima informacija kroz mrežu, pristup koji je postao metodološki moguć tek s pojavom digitalnih platformi i razvoj računalnih metoda za sofisticiranu analizu nastalih digitalno zabilježenih podataka.</p>
+<p>Nadalje, računalne metode omogućuju proučavanje rijetkih fenomena i iskaza koji bi u tradicionalnim uzorcima bili pristrasno podzastupljeni. Reprezentativna anketa s tisuću pažljivo odabranih ispitanika (v. poglavlje 9 o uzorkovanju) možda neće sadržavati dovoljno slučajeva nekog rijedak fenomena, primjerice specifičnog obrasca dijeljenja dezinformacija ili angažmana s politički ekstremnim sadržajem, da bi se o njemu moglo pouzdano zaključivati i izvođenje smislenih statističkih zaključaka. Digitalni tragovi, s druge strane, mogu sadržavati milijune relevantnih slučajeva i manifestacija tog fenomena što omogućuje proučavanje heterogenosti, rubnih ili marginalnih fenomena i atipičnih obrazaca s dosad nezamislivom detaljnošću i granularnošću (Salganik, 2018). Umjesto da istraživač postavlja generale pitanje utječu li društvene mreže na politički stavove korisnika općenito, može detaljno postaviti pitanje za koje specifične tipove korisnika, u kojim određenim mrežnim pozicijama, pri izloženosti kojim vrstama sadržaja i u kojim vremenskim točkama dolazi do mjerljivih i značajnih promjena u stavovima.</p>
+<p>Računalni pristup omogućuje i <strong>induktivnu eksploraciju podataka</strong> (eng. <em>inductive exploration</em>), pristup karakteriziran time što istraživač ne polazi od unaprijed strogo definirane hipoteze niti od specifičnog teorijskog modela, već dopušta da se obrasci, regularnosti i strukture spontano emergiiraju iz samih podataka. Tematsko modeliranje, detaljno prikazano u poglavlju 11, predstavlja paradigmatski primjer takve induktivne metode: istraživač ne mora ručno definirati unaprijed koje će teme tražiti u tekstualnom korpusu niti što očekuje pronaći, već algoritam sam identificira latentne tematske strukture promatrajući statističku distribuciju i co-occurrence od riječi. Ovaj induktivni pristup, važno je naglasiti, ne zamjenjuje i ne stoji u opoziciji prema deduktivnom testiranju hipoteza (v. poglavlje 15 o statističkom zaključivanju), već ga dopunjava i nadopunjava nudeći mogućnost generiranja smislenih hipoteza iz velikih korpusa podataka koje se potom mogu testirati s rigoroznim eksperimentalnim ili kvazi-eksperimentalnim metodama.</p>
+</section>
+<section id="novi-izazovi-za-valjanost-istraživačkih-zaključaka" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="novi-izazovi-za-valjanost-istraživačkih-zaključaka"><span class="header-section-number">2.2</span> Novi izazovi za valjanost istraživačkih zaključaka</h2>
+<p>Uz nove mogućnosti proučavanja društvenih fenomena dolaze i novi izazovi za valjanost i kredibilnost istraživačkih zaključaka koji nadilaze tradicionalne vrste valjanosti koje su razmotrene u poglavlju 26 o valjanosti i pouzdanosti mjerenja.</p>
+<p><strong>Konstruktna valjanost</strong> postaje posebito problematična i izazovna kada istraživač koristi digitalne tragove kao empirijske indikatore teorijskih konstrukata koji su izvorno konceptualizirani i razvijani neovisno o digitalnom kontekstu (Salganik, 2018). Primjerice, mjeri li broj pratitelja koje korisnik ima na društvenoj mreži doista društveni utjecaj kako ga razumijevamo u teorijama komunikacije i društvenih medija ili mjeri nešto potpuno drugačije, primjerice samo sposobnost privlačenja pažnje u digitalnom kontekstu, ili eventualno čak spremnost korisnika na kupnju lažnih pratitelja putem komercijalnih usluga? Mjeri li broj dijeljenja nekog članka stvarnu čitanost i razumijevanje članka ili samo privlačnost vijesti ili senzacionaliziranost naslova? Odgovor na takva temeljna pitanja zahtijeva pažljivu i detaljnu teorijsku argumentaciju koja povezuje i integriraj operacionalne mjere iz digitalnih podataka s konceptualnim definicijama teorijskih konstrukata, argumentaciju koja je u praksi digitalnog istraživanja često nedovoljno razvijena i premalo teorijski rigrozna.</p>
+<p><strong>Eksterna valjanost</strong> također predstavlja značajan metodološki izazov s obzirom na činjenicu da podaci prikupljeni s jedne digitalne platforme nužno nisu reprezentativni za širu društvenu populaciju niti za ponašanje na drugim platformama (Tufekci, 2014). Korisnici Twittera nisu reprezentativan uzorak opće svjetske populacije, niti su predstavnici hrvatske opće populacije, a njihovo ponašanje na toj specifičnoj platformi ne mora nužno odražavati njihovo ponašanje u drugim mediuma ili offline kontekstima. U hrvatskom društvenom kontekstu ovo ograničenje eksterne valjanosti je posebno kritično budući da penetracija pojedinih digitalnih platformi nije ravnomjerno distribuirana prema ključnim sociodemografskim karakteristikama kao što su starosna dob, stupanj obrazovanja, tip naselja (urbane vs ruralne zajednice), što znači da zaključci temeljeni na podacima s jedne platforme ili iz jednog vremenske periode ne mogu biti jednostavno i bez dodatne argumentacije generalizirani na hrvatsko društvo u njegovoj cjelini. Nadalje, algoritamska selekcija sadržaja koji se prikazuje istraživačevim automatiziranim alatima može uvesti sustavne pristranosti u podatke koje je teško detektirati i jos teže korigirati u analizi.</p>
+<p><strong>Temporalna valjanost</strong> (eng. <em>temporal validity</em>), izazov specifičan upravo za računalnu društvenu znanost, predstavlja važnu prepreku za generalizacije zaključaka kroz vrijeme. Digitalne platforme neprekidno i neprekidnomijenjaju svoje temeljne algoritme, sučelja, pravila korištenja te ponuda funkcionalnosti, što znači da se kontekst u kojem nastaju i svethe digitalni tragovi bitno mijenja kroz vrijeme. Istraživanje provedeno na Twitter podacima iz 2015. godine ne može se izravno i bez rezervi usporediti s istraživanjem na istom platformi koristeći podatke iz 2024. godine jer se u međuvremenu fundamentalno promijenio algoritam koji određuje vidljivost sadržaja, promijenjeni su uvjeti korištenja platforme na način koji utječe na ponašanje korisnika, a i sama populacija korisnika Twittera značajno se izmijenila u svojoj demografskoj i psihografskoj strukturi. Stoga generalizacija nalaza zahtijeva ne samo pažljiv argument o reprezentativnosti uzorka u prostornom smislu već i detaljno razmatranje reprezentativnosti kroz različita vremenska razdoblja.</p>
+<p>Tablica 15.2 sažima i klasificira specifične izazove valjanosti istraživačkih zaključaka u kontekstu računalne društvene znanosti, za svaki izazov navodeći konkretni primjer iz domene istraživanja komunikacije te moguće strategije ublažavanja ili mitigacije tih rizika.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">tibble</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Vrsta valjanosti</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Konstruktna"</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Eksterna"</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Temporalna"</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Ekološka"</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Izazov</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Digitalni tragovi kao mjere teorijskih konstrukata"</span>,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Nereprezentativnost korisnika platformi"</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Promjene platformi i algoritama kroz vrijeme"</span>,</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Ponašanje na platformi ≠ ponašanje u stvarnosti"</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Primjer</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Broj dijeljenja kao mjera utjecaja članka"</span>,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Zaključci s Twittera generalizirani na populaciju"</span>,</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Promjena algoritma mijenja vidljivost sadržaja"</span>,</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Online agresivnost ne predviđa offline ponašanje"</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Strategija ublažavanja</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Validacija s eksternim mjerama"</span>,</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Kombinacija s anketnim podacima"</span>,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Dokumentacija verzija platforme"</span>,</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Triangulacija s kvalitativnim podacima"</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">align =</span> <span class="st">"llll"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>), <span class="at">full_width =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">1</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">width =</span> <span class="st">"15%"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">2</span>, <span class="at">width =</span> <span class="st">"28%"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">3</span>, <span class="at">width =</span> <span class="st">"30%"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">4</span>, <span class="at">width =</span> <span class="st">"27%"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div id="tbl-valjanost-izazovi" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-valjanost-izazovi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Izazovi valjanosti u računalnoj društvenoj znanosti
+</figcaption>
+<div aria-describedby="tbl-valjanost-izazovi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="table table-striped table-hover do-not-create-environment cell caption-top table-sm small">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Vrsta valjanosti</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Izazov</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Primjer</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Strategija ublažavanja</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 15%; font-weight: bold;">Konstruktna</td>
+<td style="text-align: left; width: 28%;">Digitalni tragovi kao mjere teorijskih konstrukata</td>
+<td style="text-align: left; width: 30%;">Broj dijeljenja kao mjera utjecaja članka</td>
+<td style="text-align: left; width: 27%;">Validacija s eksternim mjerama</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 15%; font-weight: bold;">Eksterna</td>
+<td style="text-align: left; width: 28%;">Nereprezentativnost korisnika platformi</td>
+<td style="text-align: left; width: 30%;">Zaključci s Twittera generalizirani na populaciju</td>
+<td style="text-align: left; width: 27%;">Kombinacija s anketnim podacima</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 15%; font-weight: bold;">Temporalna</td>
+<td style="text-align: left; width: 28%;">Promjene platformi i algoritama kroz vrijeme</td>
+<td style="text-align: left; width: 30%;">Promjena algoritma mijenja vidljivost sadržaja</td>
+<td style="text-align: left; width: 27%;">Dokumentacija verzija platforme</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 15%; font-weight: bold;">Ekološka</td>
+<td style="text-align: left; width: 28%;">Ponašanje na platformi ≠ ponašanje u stvarnosti</td>
+<td style="text-align: left; width: 30%;">Online agresivnost ne predviđa offline ponašanje</td>
+<td style="text-align: left; width: 27%;">Triangulacija s kvalitativnim podacima</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>Iz pregleda u tablici je razvidno da nijedan od navedenih izazova valjanosti ne diskvalificira ili invalidira računalne pristupe kao legitimne i korisne metode znanstvenog istraživanja, no svaki od njih nužno zahtijeva eksplicitnu, detaljnu i dobronamjerni argumentaciju te primjenu odgovarajućih istraživačkih strategija za mitigaciju ili kontrolu utjecaja tih faktora. Posebno je važno ističući da se većina efektivnih strategija za ublažavanje rizika temelji na kombiniranju računalnih podataka i računalnih metoda s drugim, tradicionalnim izvorima dokaza i pristupima, čime se jasno naglašava komplementarnost i suplementarnost, a nikada supstitucija tradicionalnih i računalnih pristupa istraživanju.</p>
+</section>
+<section id="predikcija-nasuprot-objašnjenju-kao-istraživačkim-ciljevima" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="predikcija-nasuprot-objašnjenju-kao-istraživačkim-ciljevima"><span class="header-section-number">2.3</span> Predikcija nasuprot objašnjenju kao istraživačkim ciljevima</h2>
+<p>Epistemološki značajna i praktično važna distinkcija koju računalna društvena znanost stavlja u prvi plan jest temeljitost razlike između <strong>predikcije</strong> i <strong>objašnjenja</strong> kao dva fundamentalno različita istraživačka cilja. Tradicionalna društvena sveučilisna istraživanja primarno su usmjerena prema objašnjenju, tj. prema identificiranju i razumijevanju kauzalnih mehanizama i procesnih dijelova koji generiraju empirijski opažene obrasce ponašanja i društvenih fenomena. Mnoge od najmoćnijih računalnih metoda, s druge strane, optimizirane su i usmjerene prema predikciji, tj. prema sposobnosti preciznog predviđanja budućih ishoda ili točne klasifikacije novih slučajeva na temelju obrazaca naučenih iz podataka, često bez nužnog ili mogućeg razumijevanja mehanizama koji te obrasce stvarno produciraju (Grimmer i sur., 2022).</p>
+<p>Predikcija predstavlja primjeren i legitimno istraživački cilj u onim situacijama gdje je praktična korist istraživanja u sposobnosti anticipiranja budućih ishoda i činjena aktivnosti. Primjerice, model koji s visokom točnošću predviđa koje će novinske vijesti postati viralne i uvelike dijeljene koristan je za medijske kuće i izdavače neovisno o tome razumijevamo li u potpunosti i detaljno sve mehanizme koji stoje iza viralnosti ili je li naš model interpretabilan. Objašnjenje, suprotno tome, predstavlja primjeren istraživački cilj kada je fundamentalna svrha istraživanja razumijevanje kauzalnih mehanizama i procesa. Ako želimo znati zašto određene vijesti postaju viralne kako bismo mogli dizajnirati ciljane intervencije protiv brzog širenja dezinformacija i misinformacija, prediktivni model koji koristi kompleksne i neprozirne matematičke značajke jednostavno neće biti dovoljan jer ne pruža razumljiv uvid u mehanizme na koje možemo djelovati i intervenirati.</p>
+<p>Ova distinkcija između predikcije i objašnjenja kao metodoloških ciljeva ima izravne praktične implikacije za odluke o odabiru metode. Kao što je detaljno opisano i razmotreno u poglavlju 15 o statističkom zaključivanju, regresijski modeli su primarno dizajnirani za objašnjenje jer omogućuju kvalitativnu interpretaciju i razumijevanje doprinosa pojedinih prediktora te proces testiranja hipoteza o kauzalnim odnosima. Sofisticiranije metode strojnog učenja poput dubokih neuralnih mreža ili ensemble metoda mogu pružiti superiornu i točniju predikciju, no po cijenoj gubitka interpretabilnosti i razumljivosti kako model zapravo dospijeva do svojih predviđanja. Istraživač stoga mora jasno i eksplicitno artikulirati je li njegovu ili njezinoj primarnom cilj predikcija ili objašnjenje prije nego što odabere metodu, a ta odluka mora proizlaziti iz specifičnog istraživačkog pitanja te iz teorijskog i praktičkog konteksta (v. poglavlje 9 o formulaciji istraživačkih pitanja).</p>
+<p>Razmatranje epistemoloških implikacija računalnog obrata i the razmatranje metodoloških izbora nužno vodi i prema praktičnom pitanju algoritamske posredovanosti suvremene komunikacije, temom koja se redovito trebala razmotriti i razmotra u sljedećem odjeljku.</p>
+</section>
+</section>
+<section id="algoritamska-posredovanost-komunikacije" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Algoritamska posredovanost komunikacije</h1>
+<p>Dosadašnja rasprava fokusirala se na računalnu društvenu znanost kao istraživačku paradigmu, kao teoretski i metodološki okvir te kao skup tehnika za analizu podataka. No razumijevanje računalnih sustava za istraživača komunikacije ima i drugu, jednako važnu i ključnu dimenziju koja se ne može zanemariti. Suvremena javna komunikacija nije samo digitalizirana u banalno smislu da se odvija putem digitalnih tehnoloških kanala i platformi, već je fundamentalno <strong>algoritamski posredovana</strong>, što znači da računalni sustavi aktivno, kontinuirano i često neprisjetljivo odlučuju i determiniraju koji sadržaji postaju vidljivi kojim korisnicima, u kojem preciznom trenutku i u kojem je kontekstu taj sadržaj prikazan (Napoli, 2014). Istraživač koji ne razumije logiku, arhitekturu i mehanizme tih algoritamskih sustava ne može adekvatno niti dovoljno duboko analizirati fenomene koje proučava jer mu izmiče ključna i nezaobilazna odrednica koja oblikuje temeljni kontekst u kojem se društveni fenomeni manifestiraju.</p>
+<section id="arhitektura-algoritamskih-sustava-za-preporuku-sadržaja" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="arhitektura-algoritamskih-sustava-za-preporuku-sadržaja"><span class="header-section-number">3.1</span> Arhitektura algoritamskih sustava za preporuku sadržaja</h2>
+<p><strong>Algoritam preporuke sadržaja</strong> (eng. <em>recommendation algorithm</em>) može se konceptualno razumjeti kroz četiri ključne komponente i sastavnog dijelova koje zajedno čine arhitekturu sustava za personalizaciju sadržaja na digitalnim platformama. Razumijevanje ovih komponenti nužno je za istraživača komunikacije jer su ti algoritmi postali centralni za to kako se informacije distribuiraju javnoj.</p>
+<p>Prva komponentа jest <strong>reprezentacija korisnika</strong> (eng. <em>user representation</em>), tj. način na koji tehnički sustav modelira i predstavlja preferencije, stavove i ponašajne navike individualnog korisnika. Sustav uzima u obzir kategorije i tipove sadržaja koji korisnika vidljivo zanimaju i koju više angažira, duljinu vremenske periode koju korisnik provodi fokusirajući pažnju na različitim tipovima sadržaja, te s kojim sadržajima korisnik aktivno interagira putem eksplicitnih reakcija, pisanja komentara ili dijeljenja na drugima (Ricci i sur., 2015). Ova reprezentacija korisnika tipično ima matematičku formu vektora u visokodimenzionalnom vektorskom prostoru, koncept i matematička struktura slična vektorskim reprezentacijama teksta (word embeddings) što je detaljno prikazano u poglavlju 11, gdje svaka dimenzija ili komponenta vektora zahvaća određeni specifičan aspekt korisničkog profila. Korisnik u praksi nema uvid u vlastitu reprezentaciju niti ima mogućnost samostalne korekcije tih reprezentacija.</p>
+<p>Druga komponenta jest <strong>reprezentacija sadržaja</strong> (eng. <em>content representation</em>) koja na sličan način modelira i predstavlja obilježja i karakteristike svakog dijela sadržaja koji cirkulira platformom. Ona obuhvaća tekstualne elementi poput ključnih riječi ekstrahiranih iz sadržaja i tematskih oznaka, vizualne karakteristike kao što su boje i tipovi objekata, te raznovrsne metapodatke o autorstvu, vremenu objave te dosadašnjoj povijesti kako su drugi korisnici interagirali s tim sadržajem (Covington i sur., 2016). Kombinacija ovih različitih vrsta podatajnih značajki omogućuje sustavu da svaki pojedini sadržaj pozicionira u istom vektorskom prostoru u kojem su paritativno i matematički reprezentirani korisnici.</p>
+<p>Treća komponenta jest <strong>funkcija podudaranja ili sličnosti</strong> (eng. <em>matching function</em>) koja procjenjuje vjerojatnost da će određeni korisnik pozitivno reagirati ili biti zainteresiran za određeni sadržaj. U najjednostavnijem slučaju ova funkcija izračunava matematičku sličnost između korisničkog vektora i sadržajnog vektora korištenjem mjera sličnosti kao što je kosinusna distanca, no u praksi suvremeni sustavi koriste iznimno složene modele dubokog učenja koji mogu zahvatiti nelinearne i kompleksne interakcije između različitih značajki (Covington i sur., 2016). Rezultat je kako funkcije podudaranja tako i sveukupne predikcije je rang-lista sadržaja koji se sortira silazno prema predviđenoj vjerojatnosti ili intenzitetu pozitivne korisničke reakcije.</p>
+<p>Četvrta komponenta, koja je za razumijevanje društvenih i demokratskih posljedica algoritamskog posredovanja nesporno najvažnija, jest <strong>funkcija cilja</strong> (eng. <em>objective function</em>) ili ciljna funkcija koju sustav optimizira. Tipične i česte funkcije cilja uključuju maksimizaciju vremenske periode koju korisnik provodi na platformi, maksimizaciju broja interakcija i angažmana korisnika ili optimizaciju retencije i dugoročne lojalnosti korisnika (Milano i sur., 2020). Definicija i izbor funkcije cilja u praksi implicitno i neprisjetljivo određuje koje će vrste sadržaja biti sustavno favorizirane i promovsirane. Ako algoritam optimizira isključivo vrijeme provedeno na platformi, stvara se strukturni i inherentni poticaj za promociju sadržaja koji izaziva snažne emocionalnosti reaktcije kod korisnika budući da takvi sadržaji dulje zadržavaju pažnju korisnika, bez obzira jesu li taj sadržaj informativno vrijedni i točni ili su štetni, dezinformativni, te podjeljivi. Ovo nije rezultat namjernog, svakodnevnog ili zlonamjernog dizajna s ciljem štete već svrsiishodna i skoro mehanička posljedica načina na koji je funkcija cilja matematički i tehnički definirana u sustavu.</p>
+</section>
+<section id="povratne-veze-i-emergentne-dinamike-u-društvenim-mrežama" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="povratne-veze-i-emergentne-dinamike-u-društvenim-mrežama"><span class="header-section-number">3.2</span> Povratne veze i emergentne dinamike u društvenim mrežama</h2>
+<p>Razumijevanje koncepta <strong>povratne veze</strong> (eng. <em>feedback loop</em>) i kako povratne veze funkcioniraju u tehnološkim sustavima omogućuje analizu načina na koji algoritamsko posredovanje može pojačavati i amplificirati postojeće tendencije i sociološke obilježje te producirati emergentne dinamike i fenomene koji nisu bili namjera ili očekivanje izvornih dizajnera sustava. Ovi koncepti su analogan te konceptualno i teoretski sличan efektima spirale šutnje i kumulativnim procesima postavljanja dnevnog reda koje komunikologija proučava i analizira već nekoliko desetljeća, no s bitno drugačijim mehanizmima, brzinama djelovanja i skalama na kojima se odvijaju.</p>
+<p>Fenomen <strong>filter mjehurića</strong> (eng. <em>filter bubble</em>), pojam koji je popularizirao Eli Pariser (Pariser, 2011), označava situaciju u kojoj algoritmi personalizacije postupno i kontinuirano sužavaju raspon sadržaja kojem je korisnik izložen, stvarajući svojevrsni informacijski mjehurić koji filtrira i isključuje perspektive i stavove različite od onih koje korisnik u svojoj prošlosti pokazuje da preferira. Mehanizam koji dovodi do filter mjehurića je konceptualno jednostavan i direktan: kada sustav detektira da korisnik pokazuje interes i angažman za određeni tip sadržaja ili poziciju, algoritam servira sistematski više sličnog sadržaja, što potencijalno vodi u spiralu sve užeg tematskog fokusa korisnika i sve veće homogenizacije medijskog iskustva. Potrebno je međutim kritički naglasiti da empirijska istraživanja nude mješovite i heterogene dokaze o stvarnoj rasprostranjenosti i intenzitetu filter mjehurića u stvarnoj praksi, pri čemu neki autori sugeriraju da je fenomen u realnosti manje izražen nego što popularni diskurs i medijski izvještaji impliciraju (Zuiderveen Borgesius i sur., 2016).</p>
+<p>Usko povezan fenomen jest potencijalni doprinos algoritama polarizaciji javnog diskursa i društvenim polarizacijama. Ako su algoritmi sustavno orientirani prema favorizaciji sadržaja koji izaziva intenzivne emocionalne reaktcije, a takav sadržaj često uključuje ekstremne pozicije, konfliktnu retoriku i polariziran jezik, tada algoritamsko posredovanje može pojačavati i pojačati postojeće polarizacijske tendencije u društvu (Bail i sur., 2018). Ova hipoteza i argument za tako nešto ostaje aktivni predmet znanstvene debate te kauzalni odnos između algoritamskog posredovanja i polarizacije nije jednostavno i jasno установiti zbog brojnih konfundirajućih faktora i alternativnih objašnjenja. Međutim, sama mogućnost i teoretska vjerojatnost takvog odnosa čini razumijevanje algoritamske arhitekture ne samo poželjno već nužnim za istraživače komunikacije koji žele adekvatno proučavati suvremenu javnu komunikaciju.</p>
+</section>
+<section id="metodologije-za-empirijsko-proučavanje-algoritamskih-sustava" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="metodologije-za-empirijsko-proučavanje-algoritamskih-sustava"><span class="header-section-number">3.3</span> Metodologije za empirijsko proučavanje algoritamskih sustava</h2>
+<p>Istraživanje algoritamskih sustava suočava se sa suštinskim izazovom ograničenog pristupa jer tehnološke korporacije koje posjeduju te sustave tretiraju algoritme kao poslovnu tajnu ili kao intelektualno vlasništvo. Stoga su istraživači razvili i iznašli niz kreativnih metoda koje omogućuju proučavanje algoritama izvana, bez pristupa izvornom kodu sustava ili internim i povjerljivim podacima o kojem algoritam koristi.</p>
+<p><strong>Revizijske studije</strong> (eng. <em>audit studies</em>) predstavljaju metodološki pristup koji testira ponašanje algoritama kroz sistematične eksperimente s kontroliranim i namjernim unosima. Istraživač kreira veći broj različitih profila korisnika koji se razlikuju prema kontroliranim karakteristikama, izlaže ih istim ili različitim sadržajima te pažljivo prati kako sustav reagira i diferencira odgovore na te manipulacije (Sandvig i sur., 2014). Primjerice, studija može kreirati profile koji se razlikuju isključivo po naznačenoj političkoj orijentaciji te sistematski pratiti razlikuje li se sadržaj koji algoritam preporučuje tim profilima. Ovaj pristup je konceptualno i metodološki sličan eksperimentalnom nacrtu sa kontrolom varijabli što je opisano u poglavlju 9, s tom važnom razlikom da je objekt eksperimentiranja i manipulacije algoritam ili tehnološki sustav, a ne ljudski ispitanik sa svim pratećim etičkim razmatranjima.</p>
+<p><strong>Obrnuto inženjerstvo ili reverzna inženjering</strong> (eng. <em>reverse engineering</em>) označava pokušaj i proces rekonstrukcije logike, pravila i funkcionalnosti algoritma na temelju opažanja njegovih rezultata u praksi. Istraživač sistematično varira ulazne parametre i detaljno bilježi izlaze sustava, pokušavajući iz tih opažanja inducirani i rekonstruirati pravila, heuristike ili matematičke obrasce prema kojima algoritam stvarno funkcionira (Diakopoulos, 2015). U praksi, ovaj pristup zahtijeva automatizaciju interakcija s platformom, što se može postići korištenjem programskih alata za automatsko pretraživanje i ekstrakciju web stranica (eng. <em>web scraping</em>) poput Python biblioteke <em>Selenium</em> ili R paketa <em>RSelenium</em>. Istraživač automatski šalje upite platformi, sistematski prikuplja rezultate i detaljno analizira obrasce u odgovorima algoritma. Za hrvatski kontekst, ova metoda je primijenjena primjerice u istraživanjima personalizacije rezultata pretraživanja na Google.hr, gdje su istraživači kreirali profile s različitim jezičnim preferencijama i nacionalnim lokacijama te pratili razlike u prikazanim rezultatima pretraživanja.</p>
+<p><strong>Platformski eksperimenti</strong> koriste mogućnosti i funkcionalnosti koje same digitalne platforme nude za eksperimentalnu manipulaciju i testiranje različitih scenarija. Istraživač može nasumično dodijeliti sudionike eksperimenta u različite eksperimentalne uvjete koji se razlikuju po intenzitetu ili tipu izloženosti određenim vrstama sadržaja te mjeriti posljedice te diferencijalne izloženosti na stavove, ponašanja ili druge ishode (Bail i sur., 2018). Ovaj pristup u praksi zahtijeva ili direktnu suradnju s platformom, koju je često iznimno teško ostvariti bez značajnog influencija i resursa, ili kreativno korištenje eksperimentalnih mogućnosti koje platforma nudi izravno svojim komercijalnim korisnicima, poput A/B testiranja oglasa ili promocija koje je moguće podešavati.</p>
+</section>
+<section id="komunikološka-relevantnost-i-važnost-razumijevanja-algoritamske-posredovanosti" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="komunikološka-relevantnost-i-važnost-razumijevanja-algoritamske-posredovanosti"><span class="header-section-number">3.4</span> Komunikološka relevantnost i važnost razumijevanja algoritamske posredovanosti</h2>
+<p>Moglo bi se postaviti legitimno pitanje zašto bi komunikolozi kao disciplinarni stručnjaci trebali duboko razumjeti tehničke i matematičke detalje algoritamskih sustava umjesto da tu stručnu zadaću jednostavno prepuste informatičarima ili inženjerima. Odgovor na to pitanje proizlazi iz same naravi i prirode fenomena o kojima je riječ: algoritamski sustavi koji posreduju javnu komunikaciju nisu primarno tehnički artefakti već su to društveni fenomeni jer njihov temeljni značaj i relevancija proizlazi iz njihovih učinaka na fundamentalne društvene procese poput formiranja javnog mnijenja, distribucije informativnog sadržaja, artikulacije i polarizacije političkih konflikata (Gillespie, 2014).</p>
+<p>Bogatа teoretska nabava i zbirka teorija koja je razvijena u komunikologiji, poput teorija postavljanja dnevnog reda, teorija uokvirivanja i teorija usmjeravanja i manipulacije pažnje, razvijane su kroz desetljećima prije pojave algoritamskih medija (McCombs i Shaw, 1972; Entman, 1993), pružaju konceptualni aparat i teorijske resurse koji se mogu elegantno adaptirati i primjenjuje na analizu <strong>algoritamskog postavljanja dnevnog reda</strong>, tj. na analizu načina na koji algoritmi determiniraju koje teme postaju vidljive i salijentne za različite segmente javnosti. Čista tehnička ekspertiza inženjera i informatičara jednostavno nije dovoljna niti je dovoljnog dosega za evaluaciju i razumijevanje društvenih i demokratskih posljedica algoritamskih sustava jer inženjer može dizajnirati algoritam koji tehnički izvrsno optimizira matematički definiranu ciljnu funkciju, no procjena je li ta ciljna funkcija i njene implikacije etički i društveno poželjne izlazi izvan domene puro tehnike ekspertize i nužno zahtijeva teorijske okvire i normativne pristupe koje posjeduje upravo društvenih znanstvenika kao što su komunikolozi.</p>
+<p>Razumijevanje algoritamske posredovanosti u suvremenim komunikacijama prirodno i logički vodi prema razmatranju novih metoda analize i novih mogućnosti koje istraživačima stoje na raspolaganju za proučavanje suvremenih komunikacijskih fenomena, što je tema ili fokus sljedećeg odjeljka.</p>
+</section>
+</section>
+<section id="nove-metode-i-metodološka-integracija" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Nove metode i metodološka integracija</h1>
+<p>Poglavlja 11 i 12 ove knjige detaljno su obradila i analizirala računalnu analizu teksta i mrežnu analizu kao dvije temeljne i neprocjenjive računalne metode relevantne za istraživanje komunikacije i društvenih fenomena. Međutim, raspon i spektar metoda koje stoje na raspolaganju suvremenom istraživaču komunikacije znatno je širi i raznovrsniji od tih dviju temeljnih tehnika. Ovaj odjeljak nastoji razmotriti i predstaviti dodatne metode koje bitno proširuju istraživačke mogućnosti i otvare nova istraživačka pitanja, uključujući velike jezične modele, vizualnu analizu, temporalne pristupe i strategije za inteligentnu i plodnu integraciju različitih metoda.</p>
+<section id="veliki-jezični-modeli-kao-nove-mogućnosti-za-tekstualnu-analizu" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="veliki-jezični-modeli-kao-nove-mogućnosti-za-tekstualnu-analizu"><span class="header-section-number">4.1</span> Veliki jezični modeli kao nove mogućnosti za tekstualnu analizu</h2>
+<p><strong>Veliki jezični modeli</strong> (eng. <em>Large Language Models</em>, skraćeno LLM) poput GPT serije, Claude obitelji ili Gemini modela predstavljaju transformativnu tehnologiju koja u temeljima mijenja i redefiniraj način na koji je moguće i učinkovito pristupiti analizi velikih količina tekstualnih podataka. Ovi modeli su trenirani na enormnim korpusima koji sadržavaju stotine milijardi pojedinačnih riječi teksta i konzistentno demonstriraju sposobnost razumijevanja značenja i generiranja tekstualnog sadržaja koja nadilazi i daleko premašuje sve prethodne pristupe računalnoj obradi prirodnog jezika (Brown i sur., 2020). Njihova arhitektura temelji se na <strong>transformerskoj arhitekturi</strong> koja koristi mehanizam samopažnje kako bi dinamički procjenjivala relevantnost svakog dijela ulazne sekvence za obradu bilo kojeg drugog dijela teksta (Vaswani i sur., 2017). Objašnjeno u jednostavnijem jeziku, model pri obradi svake riječi u tekstu istovremeno uzima u obzir sve ostale riječi dostupne u tekstualnom kontekstu i sofisticirano procjenjuje koliko je svaka od njih relevantan za razumijevanje značenja trenutne riječi, čime postiže nevjerojatno sofisticiran uvid u semantičke kontekste i značenja.</p>
+<p>Za istraživače komunikacije, najznačajnija i最praktična mogućnost velikih jezičnih modela jest mogućnost klasifikacije tekstualnog materijala bez potrebe za iznimno opsežnim i vremenski zahtjevnim procesom treniranja modela. <strong>Učenje bez primjera</strong> (eng. <em>zero-shot learning</em>) označava pristup u kojem model klasificira tekstove samo na temelju tekstualnog opisa željenih kategorija, bez potrebe za ijednim označenim primjerom iz stvarnog eksperimentalnog korpusa (Brown i sur., 2020). <strong>Učenje s malo primjera</strong> (eng. <em>few-shot learning</em>) pruža modelu mali broj označenih primjera, tipično između tri i deset primjera, koji ilustriraju željenu klasifikaciju. Praktične implikacije ovih mogućnosti su zaista dalekosežne i revolucionarne: klasifikacija tekstualnog materijala koja bi tradicionalnim pristupom opisanim detaljno u poglavlju 11 zahtijevala nekoliko tjedana pripreme podataka, ručnog kodiranja primjera i tehničke ekspertize sada se može provesti u satima s minimalnom pripremmom.</p>
+<p>U praksi, istraživač koji želi klasificirati tisuće novinskih članaka prema tematskim okvirima može koristiti API sučelja komercijalnih modela (poput OpenAI API-ja ili Anthropic API-ja) ili može lokalno pokretati modele otvorenog koda (poput Llama obitelji modela) koristeći Python biblioteku <em>transformers</em> ili R paket <em>ellmer</em>. Sljedeći primjer ilustrira osnovnu logiku i praktičan primjer kako se poziva veliki jezični model za klasifikaciju novinske vijesti u R-u, koristeći paket <em>ellmer</em> koji pruža sveobuhvatno sučelje prema različitim LLM pružateljima.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Instalacija: install.packages("ellmer")</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ellmer)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Primjer klasifikacije novinskih naslova</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># (zahtijeva postavljanje API ključa)</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>naslovi <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Vlada najavila nove mjere za suzbijanje inflacije"</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Reprezentacija pobijedila u kvalifikacijama"</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Požar u tvornici ugašen nakon tri sata"</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Definicija kategorija za klasifikaciju</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>prompt <span class="ot">&lt;-</span> <span class="st">"Klasificiraj sljedeći naslov u jednu od kategorija:</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="st">politika, sport, crna kronika. Odgovori samo nazivom kategorije."</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Poziv modelu za svaki naslov</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>rezultati <span class="ot">&lt;-</span> <span class="fu">sapply</span>(naslovi, <span class="cf">function</span>(naslov) {</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">chat</span>(<span class="st">"gpt-4o-mini"</span>, <span class="fu">paste</span>(prompt, naslov))</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+</div>
+<p>Važno je međutim kritički i realistično naglasiti da ovaj pristup korištenju velikih jezičnih modela ima značajna i ozbiljna ograničenja. <strong>Halucinacije</strong> označavaju tendenciju modela da generira sadržaj koji zvuči uvjerljivo i gramatički ispravan ali je faktički i sadržajno netočan ili izmišljen (Ji i sur., 2023), što nužno zahtijeva detaljnu verifikaciju svakog kritičkog ili važnog rezultata prije nego što se koristi u interpretaciji ili zaključivanju. <strong>Pristranosti</strong> koje su inherentne podatcima korištenim za treniranje modela direktno se reflektiraju i manifestiraju u rezultatima koje model proizvodi, što je posebno problematično za jezike poput hrvatskog koji su sistematski podzastupljeni u podacima za treniranje u usporedbi s engleskim jezikom (Bender i sur., 2021). <strong>Reproducibilnost</strong> analiza je otežana jer komercialni modeli mogu nedostaje transparentne bilješke promijeniti ponašanje bez prethodne javne najave, a čak i uz identične parametre poziva rezultati mogu varirati među različitim izvršavanjima. Stoga je nužno temeljito dokumentirati verziju modela, sve parametre poziva te datum provedbe analize kako bi se omogućila bar približna replikacija rezultata analitičkog rada. Za hrvatski jezik specifično, performanse velikih jezičnih modela u pravilu su niže nego za engleski, no nedavna istraživanja pokazuju da najnovije generacije modela postižu zadovoljavajuće i praktički korisne rezultate na zadacima klasifikacije i ekstrakcije informacija iz hrvatskih tekstova, posebno kada su popraćeni jasnim i detaljnim instrukcijama te konkretnim primjerima na hrvatskom jeziku.</p>
+<p>Osim klasifikacije tekstualnog materijala, veliki jezični modeli omogućuju <strong>ekstrakciju informacija</strong> iz nestrukturiranih tekstova. Identifikacija ključnih aktera, njihovih tvrdnji i stavova, određenih odnosa između entiteta i specifičnih atributa u velikom tekstualnom korpusu tradicionalno bi zahtijevala ili mukotrpno ručno čitanje i kodiranje materijala ili razvoj sofisticiranih specijaliziranih sustava s detaljnim pravilima (Ziems i sur., 2024). Modeli mogu izvršiti ekstrakciju na temelju instrukcija formuliranih u prirodnom jeziku, vraćajući strukturirane i organizirane podatke iz sirovog nestrukturiranog teksta. Također, veliki jezični modeli mogu pomoći u <strong>augmentaciji i pojačavanju kvalitativnih metoda</strong>, poput induktivnog generiranja kodova iz transkripcija intervjua ili zapisnika fokus grupa (v. poglavlje 20), pri čemu istraživač zadržava i održava punu odgovornost za finalnu interpretaciju i teorijsku sintezu, no model može znatno ubrzati proces kodiranja i ukazati na obrasce i teme koje bi čovjek kao analitičar mogao slučajno previdjeti.</p>
+</section>
+<section id="vizualna-i-multimodalna-analiza-kao-nova-dimenzija" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="vizualna-i-multimodalna-analiza-kao-nova-dimenzija"><span class="header-section-number">4.2</span> Vizualna i multimodalna analiza kao nova dimenzija</h2>
+<p>Suvremena digitalna komunikacija inherentno je i fundamentalno <strong>multimodalna</strong>, tj. kombinira i integrira tekst, fotografije, video materijal i druge modalitete izražavanja u jedinstvene kompleksne komunikacijske cjeline i poruke. Objava na društvenoj mreži tipično kombinira redoslijed teksta, jednu ili više slika, ponekad video materijal, ugrađene linkove do vanjskih resursa i semantičke oznake koji zajedno tvore koherentnu i smislenu komunikacijsku poruku. Stoga je suzbijanje i ograničavanje analize samo na tekstualnu dimenziju komunikacije, premda je praktički jednostavnije za implementaciju, konceptualno i metodološki nepotpuno i neadekvatno jer ignoriraj važnu dimenziju značenja.</p>
+<p><strong>Računalni vid</strong> (eng. <em>computer vision</em>) označava granu umjetne inteligencije i strojnog učenja koja se bavi automatskom ekstrakcijom informacija iz slika, fotografija i video materijala (Joo i Steinert-Threlkeld, 2022). Suvremeni modeli temeljeni na transformerskoj arhitekturi sposobni su automatski ekstrahirati relevantne značajke iz vizualnih podataka, omogućujući analizu vizualne komunikacije na skalama i granularnosti koje fundamentalno nadilaze mogućnosti ručnog i manuelnog kodiranja. Primjerice, istraživač može automatski kodirati tisuće fotografija s naslovnica dnevnih novina prema prisutnosti određenih socijalnih aktera, prema emocionalnom izrazu lica osoba na fotografiji ili prema analizi vizualnog uokvirivanja teme.</p>
+<p>U praksi, za istraživače komunikacije najdostupniji pristup vizualnoj analizi jest korištenje multimodalnih velikih jezičnih modela koji mogu simultano i integrativno obrađivati kako tekstualnu tako i vizualnu informaciju. Modeli poput GPT-4 Vision ili Claude modela s vizualnim mogućnostima mogu odgovarati na kompleksna pitanja o sadržaju slika, opisivati detaljno vizualne elemente i klasificirati slike prema zadanim korisničkim kategorijama. Za programsku implementaciju, Python biblioteka <em>transformers</em> nudi pristup modelima otvorenog koda za sofisticiranu vizualnu analizu, dok R korisnici mogu koristiti paket <em>ellmer</em> koji detaljno podržava multimodalne pozive. Za hrvatski specifični kontekst, poseban izazov predstavlja činjenica da modeli računalnog vida mogu manje pouzdano prepoznavati i interpretirati elemente specifične za hrvatsku vizualnu kulturu, poput lokalnih simbola, tradicionalne arhitekture ili manje poznate javne osobe, što nužno zahtijeva dodatnu validaciju dobivenih rezultata kroz kvalitativnu analizu.</p>
+</section>
+<section id="temporalna-analiza-i-analiza-vremenskih-procesa" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="temporalna-analiza-i-analiza-vremenskih-procesa"><span class="header-section-number">4.3</span> Temporalna analiza i analiza vremenskih procesa</h2>
+<p>Jedna od ključnih i najznačajnijih prednosti računalne društvene znanosti jest sposobnost zahvaćanja i detaljnog mapiranja temporalne dimenzije društvenih fenomena s granularnošću i vremenskom rezolucijom koju tradicionalne metode najčešće ne omogućuju. <strong>Analiza vremenskih serija</strong> (eng. <em>time series analysis</em>) omogućuje istraživanje kako se komunikacijski fenomeni razvijaju, mijenjaju i evoluiraju kroz vrijeme, omogućujući identificiranje trendova, sezonskih obrazaca, ciklusa i anomalija u podacima (Box i sur., 2015). U kontekstu istraživanja komunikacije, vremenske serije mogu reprezentirati volumen medijskog izvještavanja o specifičnoj temi kroz vrijeme, intenzitet javne rasprave i druženja na društvenim mrežama o nekoj temi ili kontinuiranu evoluciju sentimenta prema određenom javnom akteru.</p>
+<p><strong>Detekcija događaja</strong> (eng. <em>event detection</em>) označava skupinu tehnika i algoritama za automatsku identifikaciju značajnih i anomalnih događaja ili promjena u tokovima podataka tijekom vremena (Atefeh i Khreich, 2015). U kontekstu analize društvenih medija, događaj može biti iznenadni porast količine rasprave o određenoj temi, pojava novog važnog aktora ili lika u javnom diskursu, ili fundamentalna promjena u dominantnom okviru ili narativu u medijskom izvještavanju. Za praktičnu implementaciju u R-u, paket <em>changepoint</em> omogućuje detekciju točaka promjene i prelomnih trenutaka u vremenskim serijama, dok paket <em>tseries</em> pruža bogatija sveobuhvatne alate za analizu vremenskih serija. U Pythonu, specijalizirana biblioteka <em>ruptures</em> fokusira se na detekciju točaka promjene u vremenskim nizovima.</p>
+</section>
+<section id="integracija-metoda-kao-ključna-strategija" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="integracija-metoda-kao-ključna-strategija"><span class="header-section-number">4.4</span> Integracija metoda kao ključna strategija</h2>
+<p>Metodološki najplodnije mogućnosti i najupečatljivije rezultati otvaraju se kada se različite računalne metode kombiniraju međusobno ili se inteligentno integriraju s tradicionalnim pristupima istraživanju. Integracija može poprimiti nekoliko različitih oblika i modaliteta.</p>
+<p>Kombinacija analize teksta i mrežne analize omogućuje simultano zahvaćanje kako sadržajne dimenzije tako i relacijske strukture komunikacije. Dok analiza teksta opisana u poglavlju 11 zahvaća što se konkretno komunicira i koji se temi, argumenti i okviri pojavljuju u tekstu, mrežna analiza detaljno razmotrena u poglavlju 12 zahvaća tko komunicira s kime i u kakvim strukturama te kako se komunikacijske veze distribuiraju kroz prostor (Bail, 2014). Primjerice, istraživač može provesti tematsko modeliranje na koropusu tweetova ili komentara, a zatim konstruirati mrežu u kojoj čvorovi predstavljaju korisnike, veze predstavljaju retweetove ili dijeljenja sadržaja, a numeričke vrijednosti ili atributi čvorova uključuju dominantnu temu koju korisnik proizvodii distribuira. Time se mogu identificirati tematski homogene zajednice korisnika, mostove ili veze koji povezuju tematski različite klastere, te ključne ili utjecajne aktere u diseminaciji pojedinih tema.</p>
+<p>Kombinacija računalnih i kvalitativnih metoda (v. poglavlje 23 o pisanju kvalitativnog izvještaja) pokazala se iznimno plodnom i produktivnom. Kvalitativna faza može prethoditi i otvoriti računalnoj analizi, pomažući u formulaciji i konceptualizaciji kategorija za automatsku klasifikaciju. Alternativno, računalna faza može prethoditi kvalitativnoj analizi, identificirajući obrasce, anomalije i zanimljive podskupove podataka koji zaslužuju detaljnije kvalitativno istraživanje i interpretaciju. Nelson (2020) ovaj integrativni pristup naziva <strong>računalnom utemeljenom teorijom</strong> (eng. <em>computational grounded theory</em>), preuzimajući terminologiju i princip iz kvalitativne metodologije detaljno opisane u poglavlju 21 o utemeljenoj teoriji.</p>
+<p>Posebno plodna jest kombinacija anketnih podataka (poglavlje 10 o anketnom istraživanju) i digitalnih tragova. Ankete pružaju informacije o stavovima, percepcijama i samoiskazanom ponašanju koje digitalni tragovi ne mogu izravno zahvatiti, dok digitalni tragovi pružaju neposredne informacije o stvarnom ponašanju koje ankete mogu zahvatiti samo indirektno i ograničeno (Stier i sur., 2020). Primjerice, istraživač može integrirati anketne podatke o političkim stavovima sa podacima o mrežnom ponašanju i digitalni tragovima istih ispitanika, omogućujući detaljnu analizu odnosa između deklariranih stavova i preference te stvarnog medijskog ponašanja korisnika u mrežnom okruženju.</p>
+<p>Tablica 15.3 pruža sveobuhvatan pregled mogućnosti integracije metoda u istraživanju komunikacije, za svaku kombinaciju navedavajući konkretni primjer istraživačkog pitanja te alate dostupne u R i Python jezicima koje se mogu koristiti.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">tibble</span>(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Kombinacija =</span> <span class="fu">c</span>(</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Tekst + mreže"</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Računalno + kvalitativno"</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Anketa + digitalni tragovi"</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Tekst + vizualna analiza"</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Tekst + temporalna analiza"</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Istraživačko pitanje</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Kako se teme šire kroz komunikacijsku mrežu?"</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Koji diskurzivni obrasci dominiraju online raspravama?"</span>,</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Odgovaraju li deklarirani stavovi stvarnom ponašanju?"</span>,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Kako se tekstualni i vizualni okvir vijesti dopunjavaju?"</span>,</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Kako se javni diskurs o temi mijenja kroz vrijeme?"</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Alati (R/Python)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"quanteda + igraph / gensim + networkx"</span>,</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"quanteda + RQDA / scikit-learn + Atlas.ti"</span>,</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"survey + httr / qualtrics + tweepy"</span>,</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"ellmer + magick / transformers + PIL"</span>,</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"quanteda + changepoint / gensim + ruptures"</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">align =</span> <span class="st">"lll"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>), <span class="at">full_width =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">1</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">width =</span> <span class="st">"20%"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">2</span>, <span class="at">width =</span> <span class="st">"42%"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">3</span>, <span class="at">width =</span> <span class="st">"38%"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div id="tbl-integracija-metoda" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-integracija-metoda-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Strategije integracije računalnih metoda u istraživanju komunikacije
+</figcaption>
+<div aria-describedby="tbl-integracija-metoda-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="table table-striped table-hover do-not-create-environment cell caption-top table-sm small">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Kombinacija</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Istraživačko pitanje</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Alati (R/Python)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 20%; font-weight: bold;">Tekst + mreže</td>
+<td style="text-align: left; width: 42%;">Kako se teme šire kroz komunikacijsku mrežu?</td>
+<td style="text-align: left; width: 38%;">quanteda + igraph / gensim + networkx</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 20%; font-weight: bold;">Računalno + kvalitativno</td>
+<td style="text-align: left; width: 42%;">Koji diskurzivni obrasci dominiraju online raspravama?</td>
+<td style="text-align: left; width: 38%;">quanteda + RQDA / scikit-learn + Atlas.ti</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 20%; font-weight: bold;">Anketa + digitalni tragovi</td>
+<td style="text-align: left; width: 42%;">Odgovaraju li deklarirani stavovi stvarnom ponašanju?</td>
+<td style="text-align: left; width: 38%;">survey + httr / qualtrics + tweepy</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 20%; font-weight: bold;">Tekst + vizualna analiza</td>
+<td style="text-align: left; width: 42%;">Kako se tekstualni i vizualni okvir vijesti dopunjavaju?</td>
+<td style="text-align: left; width: 38%;">ellmer + magick / transformers + PIL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 20%; font-weight: bold;">Tekst + temporalna analiza</td>
+<td style="text-align: left; width: 42%;">Kako se javni diskurs o temi mijenja kroz vrijeme?</td>
+<td style="text-align: left; width: 38%;">quanteda + changepoint / gensim + ruptures</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>Iz tablice je jasno razvidno da svaka kombinacija metoda otvara specifične istraživačke mogućnosti i mogućnosti analize koje nijedna metoda zasebna i samostalno ne bi mogla adekvatno i dovoljno duboko adresirati. Nadalje, za većinu kombinacija postoje odgovarajući alati dostupni u R-u i Pythonu, što čini ove sofisticirane pristupe praktički dostupnima istraživačima koji su savladali osnove programiranja i razumiju temeljne principe računalne analize.</p>
+</section>
+<section id="primjer-cjelovite-integrirane-analize" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="primjer-cjelovite-integrirane-analize"><span class="header-section-number">4.5</span> Primjer cjelovite integrirane analize</h2>
+<p>Kako bi se ilustrirala praktična logika i tijekoma integrirane računalne analize, u nastavku je prikazan pojednostavljeni ali sustavno razmotreni primjer cjelovitog istraživačkog tijeka na zadatku analize medijskog izvještavanja o определеnoj temi na hrvatskim portalima. Primjer je konceptualni i koristi simulirane podatke radi jasne ilustracije logičkog tijeka analitičkih koraka, no svaki korak i svaka operacija odgovara postupcima koji se mogu direktno primijeniti na stvarne i empirijske podatke iz istraživanja.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Korak 1: Simulacija podataka</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># (u stvarnom istraživanju, podaci bi se prikupili web scrapingom ili putem API-ja)</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">500</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>medijski_podaci <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">portal =</span> <span class="fu">sample</span>(<span class="fu">c</span>(<span class="st">"Portal A"</span>, <span class="st">"Portal B"</span>), n, <span class="at">replace =</span> <span class="cn">TRUE</span>, <span class="at">prob =</span> <span class="fu">c</span>(<span class="fl">0.6</span>, <span class="fl">0.4</span>)),</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">datum =</span> <span class="fu">sample</span>(<span class="fu">seq</span>(<span class="fu">as.Date</span>(<span class="st">"2023-01-01"</span>), <span class="fu">as.Date</span>(<span class="st">"2023-12-31"</span>), <span class="at">by =</span> <span class="st">"day"</span>), n, <span class="at">replace =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Simulirani sentiment: Portal A neutralniji, Portal B ekstremnije pozicije</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">sentiment =</span> <span class="fu">ifelse</span>(</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    portal <span class="sc">==</span> <span class="st">"Portal A"</span>,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="fl">0.05</span>, <span class="at">sd =</span> <span class="fl">0.3</span>),</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="sc">-</span><span class="fl">0.15</span>, <span class="at">sd =</span> <span class="fl">0.45</span>)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">sentiment =</span> <span class="fu">pmax</span>(<span class="fu">pmin</span>(sentiment, <span class="dv">1</span>), <span class="sc">-</span><span class="dv">1</span>),  <span class="co"># Ograničenje na [-1, 1]</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">mjesec =</span> <span class="fu">floor_date</span>(datum, <span class="st">"month"</span>)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Korak 2: Vizualizacija distribucije sentimenta po portalu</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(medijski_podaci, <span class="fu">aes</span>(<span class="at">x =</span> sentiment, <span class="at">fill =</span> portal)) <span class="sc">+</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"Portal A"</span> <span class="ot">=</span> <span class="st">"#2c3e50"</span>, <span class="st">"Portal B"</span> <span class="ot">=</span> <span class="st">"#7f8c8d"</span>)) <span class="sc">+</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Sentiment (negativno ← 0 → pozitivno)"</span>,</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Gustoća"</span>,</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Portal"</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">12</span>) <span class="sc">+</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-end-to-end" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-end-to-end-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="27_racunalna_drustvena_znanost_files/figure-html/fig-end-to-end-1.png" class="img-fluid figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-end-to-end-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Simulirani primjer distribucije sentimenta u medijskom izvještavanju o klimatskim promjenama na dva hrvatska portala. Razlika u distribucijama sugerira različite uredničke pristupe istoj temi.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Korak 3: Temporalna analiza</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>mjesecni_podaci <span class="ot">&lt;-</span> medijski_podaci <span class="sc">|&gt;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(portal, mjesec) <span class="sc">|&gt;</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">prosjecni_sentiment =</span> <span class="fu">mean</span>(sentiment),</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">broj_clanaka =</span> <span class="fu">n</span>(),</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(mjesecni_podaci, <span class="fu">aes</span>(<span class="at">x =</span> mjesec, <span class="at">y =</span> prosjecni_sentiment, <span class="at">color =</span> portal)) <span class="sc">+</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> <span class="st">"gray50"</span>) <span class="sc">+</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"Portal A"</span> <span class="ot">=</span> <span class="st">"#2c3e50"</span>, <span class="st">"Portal B"</span> <span class="ot">=</span> <span class="st">"#7f8c8d"</span>)) <span class="sc">+</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Mjesec"</span>,</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Prosječni sentiment"</span>,</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"Portal"</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">12</span>) <span class="sc">+</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-temporal-trend" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-temporal-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="27_racunalna_drustvena_znanost_files/figure-html/fig-temporal-trend-1.png" class="img-fluid figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-temporal-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Simulirani vremenski trend prosječnog mjesečnog sentimenta po portalima. Temporalna analiza otkriva da razlike između portala nisu konstantne već variraju ovisno o kontekstu vijesti u pojedinim mjesecima.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Ovaj primjer, premda svakako pojednostavljen u odnosu na stvarnu praksu, jasno ilustrira logiku cjelovitog tijeka analize koji započinje prikupljanjem podataka, nastavlja se njihovom organizacijom i pripremom, zatim obradom i analizom te završava vizualizacijom i interpretacijom rezultata. U stvarnom istraživanju, svaki bi korak bio znatno složeniji i zahtjevniji: prikupljanje bi uključivalo automatski web scraping s portalnih stranica koristeći R paket <em>rvest</em> ili Python biblioteku <em>BeautifulSoup</em>, analiza sentimenta koristila bi rječničke metode poput CroSentiLex leksikona za hrvatski jezik ili sofisticirane klasifikatore temeljene na velikim jezičnim modelima, a interpretacija bi nužno uključivala kontekstualizaciju nalaza u teoretskom okviru koji dolazi iz komunikološke tradicije, uključujući teorije uokvirivanja i postavljanja dnevnog reda.</p>
+<p>Razmatranje novih metoda analize i mogućnosti njihove inteligentne integracije nužno postavlja važno pitanje koje kompetencije i vještine su potrebne istraživačima kako bi mogli učinkovito koristiti te metode, što je tema centralnog fokusa sljedećeg odjeljka.</p>
+</section>
+</section>
+<section id="programska-pismenost-kao-neophodna-kompetencija" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Programska pismenost kao neophodna kompetencija</h1>
+<p>Prethodni odjeljci pokazali su jasno da suvremeno istraživanje komunikacije zahtijeva ne samo teorijsko razumijevanje već i praktičko ovladavanje računalnim metodama koje se ne mogu korisno provesti bez razvijanja programerskih kompetencija. Ovaj odjeljak gradi argumentaciju da programska pismenost za istraživača komunikacije nije samo korisna specijalizacija ili dodatna vještina nego nužna kompetencija koja je analogan statističkoj pismenosti, koju smo razmotrili detaljno u poglavljima 14, 15 i 16.</p>
+<section id="temeljna-argumentacija-za-razvoj-programske-pismenosti" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="temeljna-argumentacija-za-razvoj-programske-pismenosti"><span class="header-section-number">5.1</span> Temeljna argumentacija za razvoj programske pismenosti</h2>
+<p>Pismenost u tradicionalnom smislu tog pojma ne označava samo sposobnost dekodiranja simbola i čitanja teksta već označava duboku kompetenciju za aktivno sudjelovanje u procesima proizvodnje znanja i kritičke evaluacije argumentacije. Analogno tome, istraživač koji ne razumije osnove programiranja u eri računalne društvene znanosti nije samo tehnički i praktično ograničen kod primjene specifičnih alata već gubi sposobnost pune i autonomne participacije u procesima koji sve više definiraju proizvodnju znanja o društvu (Grimmer i sur., 2022). Tri temeljna argumenta čine argument za razvoj programske pismenosti, argumenti koji se tiču reproducibilnosti, fleksibilnosti i transparentnosti istraživačkog procesa.</p>
+<p><strong>Reproducibilnost</strong> predstavlja jedan od temeljnih kriterija i načela znanstvene prakse koja je detaljno razmotrena u poglavlju 26 o valjanosti i pouzdanosti. Istraživanje koje drugi znanstvenici ne mogu replicirati i ponovno provesti ostaje na razini anegdote ili osobnog izvještaja, koliko god sofisticirati i utjecajno izgledalo u svojoj originalnoj prezentaciji (Freese i Peterson, 2017). Kada analizu podataka provodi istraživač kroz grafičko sučelje nekog statističkog programa, svaki klik, svaka izbor opcije i svaka manipulacija moraju biti ručno dokumentirani kako bi postupak bio reproducibilan, a u praksi se takva dokumentacija rijetko provodi s potrebnom preciznošću i detaljnošću. Programski kod, naprotiv, sam po sebi predstavlja kompletnу i javnu dokumentaciju analitičkog postupka jer je svaka odluka eksplicitno zapisana u vidljivoj formi i može se identično ponovno izvršiti od strane drugog istraživača.</p>
+<p><strong>Fleksibilnost</strong> se odnosi na inherentna ograničenja koja grafička sučelja nužno i neizbježno nameću. Svako grafičko sučelje implementira a priori konačan skup funkcionalnosti koje su softverski razvojni timovi predvidjeli, no istraživačka pitanja često zahtijevaju analitičke postupke koji izlaze izvan tih unaprijed predviđenih i designiranih okvira (Wickham i Grolemund, 2017). Istraživač koji ovisi isključivo na grafičkim alatima ostaje ograničen na pitanja koja ti alati mogu tehnički adresirati, dok istraživač koji ovlada programiranjem može implementirati bilo koju proceduru koja je matematički i logički definirana ili može kombinirati različite pristupe na originalitete nove načine koje autori originalnih alata nisu niti zamišljali.</p>
+<p><strong>Transparentnost</strong> se tiče razumijevanja što se zapravo, u detaljima, događa s podacima tijekom analitičkog procesa. Grafički alati nerijetko funkcioniraju kao crne kutije u kojima korisnik unese podatke, odabere nekoliko opcija iz menija, i dobije rezultate, no bez jasnog uvida u što se točno u pozadini dogodilo s podacima, koje su se transformacije izvršile i koje su pretpostavke primijenjene. Pisanje programskog koda prisiljava istraživača na eksplicitno i vidljivo suočavanje sa svakim korakom analize, čime se bitno smanjuje rizik od nesvjesnog nerazumijevanja vlastite analize ili od skrivenih grešaka (Salganik, 2018).</p>
+</section>
+<section id="razlikovanje-između-skriptiranja-i-softverskog-inženjerstva" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="razlikovanje-između-skriptiranja-i-softverskog-inženjerstva"><span class="header-section-number">5.2</span> Razlikovanje između skriptiranja i softverskog inženjerstva</h2>
+<p>Potrebno je kritički istaknuti da programiranje za istraživača komunikacije ne označava osposobljavanje za razvoj komercijalnog softvera, dizajniranje mobilnih aplikacija ili administraciju velikih računalnih sustava. Te specijalizirane vještine i vještine pripadaju softverskom inženjerstvu kao zasebnoj i specifičnoj profesiji (Wilson i sur., 2017). Ono što istraživač društvenih znanosti stvarno trebaju jest kompetencija <strong>skriptiranja</strong>, tj. praktična sposobnost pisanja kraćih programa koji automatiziraju specifične istraživačke zadatke, manipuliraju podatkovnim skupovima i implementiraju konkretne analitičke procedure. Razlika između profesionalnog softverskog inženjera i istraživača koji koristi programiranje je analogan razlici između profesionalnog građevinara i vlasnika kuće koji ima osnovna znanja i može izvršiti manje popravke: oboje koriste neke od istih alata, no dubina stručnosti i širina primjene fundamentalno se razlikuju.</p>
+<p>U kontekstu istraživanja komunikacije dva programska jezika nameću se kao primarni izbori za istraživače. <strong>R</strong> je jezik izvorno razvijen za statističku analizu i vizualizaciju podataka koji posjeduje bogat i kontinuirano rastuć ekosustav paketa specijaliziranih za društvena istraživanja, uključujući <em>tidyverse</em> kolekciju za manipulaciju podacima, <em>ggplot2</em> za sofisticiranu vizualizaciju i <em>quanteda</em> za detaljan analizu teksta (Wickham i Grolemund, 2017). <strong>Python</strong> je jezik opće namjene s razvijenim bibliotekama za strojno učenje (<em>scikit-learn</em>), obradu prirodnog jezika (<em>spaCy</em>, <em>transformers</em>) i prikupljanje podataka s mreže (<em>BeautifulSoup</em>, <em>Selenium</em>). Istraživači koji se primarno bave statističkom analizom i vizualizacijom često preferiraju R, dok oni koji se fokusiraju na strojno učenje i automatsko prikupljanje podataka s mreže gravitiraju prema Pythonu. Izbor nije binarno ili isključujuće pitanje te mnogima istraživači koriste oba jezika ovisno o specifičnim zahtjevima pojedinog projekta.</p>
+<p>Za obradu hrvatskoga tekstualnog materijala posebno je relevantan Python paket <strong>CLASSLA</strong> koji pruža jezične resurse i alate za južnoslavenske jezike, uključujući sofisticirane funkcije za tokenizaciju, lematizaciju i morfološko označavanje vrsta riječi za hrvatski jezik. CLASSLA nudi znatno kvalitetniju i précniju lematizaciju hrvatskog teksta od alata razvijenih primarno za engleski jezik jer uzima u obzir bogatu i flektivnu morfologiju hrvatskog jezika, tj. činjenicu da se gramatička značenja poput padeža, broja i roda izražavaju kroz promjene u morfološkoj strukturi riječi. Rezultati obrade teksta u CLASSLA sustavu mogu se potom uvesti u R za daljnju statističku analizu i interpretaciju, čime se elegantno kombiniraju prednosti obaju programskih jezika.</p>
+</section>
+<section id="infrastruktura-reproducibilnog-istraživanja" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="infrastruktura-reproducibilnog-istraživanja"><span class="header-section-number">5.3</span> Infrastruktura reproducibilnog istraživanja</h2>
+<p>Argument za reproducibilnost ostaje na razini apstrakcije bez konkretnih tehnoloških alata koji tu reproducibilnost stvarno omogućuju u praksi. Tri elementa čine temeljnu infrastrukturu reproducibilnog istraživanja prema međunarodnim standardima.</p>
+<p><strong>Kontrola verzija</strong> putem sustava <strong>Git</strong> i web platforme <strong>GitHub</strong> omogućuje istraživaču da u bilo kojem trenutku može vratiti bilo koju prethodnu verziju svog koda, može paralelno eksperimentirati s različitim pristupima bez straha od trajnog gubitka rada te može produktivno surađivati s kolegama na istom istraživačkom projektu (Bryan, 2018). Git je besplatan alat otvorenog koda koji se instalira na individualno računalo istraživača, dok je GitHub mrežna platforma za dijeljenje, pohranu i suradnju na repozitorijima koda. Za istraživače koji nisu upoznati s konceptom, kontrola verzije funkcionira sličnо praćenju promjena u tekstualnim dokumentima u programu Microsoft Word, no na razini cijelog istraživačkog projekta i s naprednijom mogućnošću grananja u paralelne verzije i rad na različitim značajkama.</p>
+<p><strong>Računalne bilježnice</strong> poput Jupyter Notebooka za Python ili RMarkdown/Quarto dokumenta za R omogućuju fleksibilnu i efektivnu integraciju programskog koda, primljenih rezultata analiza i narativnog tekstualnog objašnjenja u jedinstveni, interaktivni dokument (Rule i sur., 2018). Upravo ova knjiga je napisana koristeći Quarto sustav koji omogućuje da se sve svi kodovi za analizu i vizualizaciju podataka te pratećih teorijski tekst nalaze u istom izvornom dokumentu, čime se osigurava da su svi rezultati prikazani u knjizi direktno reproducirani iz koda koji ih stvara.</p>
+<p><strong>Kontejnerizacija</strong> putem alata poput <strong>Dockera</strong> omogućuje pakiranje cjelokupnog računalnog okruženja, uključujući operativni sustav, instalirane pakete i njihove specifične verzije, u prenosivu i izoliranu jedinicu koja se može identično reproducirati na bilo kojem drugom računalu ili serveru (Boettiger, 2015). Ova tehnologija direktno adresira čest problem koji se javlja kada kod koji savršeno funkcionira na jednom istraživačevu računalu prestaje funkcionirati na drugom zbog razlika u verzijama instaliranih paketa ili drugachih sistemskih postavki. Premda kontejnerizacija predstavlja napredniju razinu tehničke kompetencije, osnovno razumijevanje njezine logike i mogućnosti korisno je za sve istraživače koji žele osigurati dugoročnu reproducibilnost svojih analiza.</p>
+</section>
+<section id="strukturirani-put-stjecanja-kompetencija" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="strukturirani-put-stjecanja-kompetencija"><span class="header-section-number">5.4</span> Strukturirani put stjecanja kompetencija</h2>
+<p>Za studente komunikologije koji žele razviti i proširiti programerske kompetencije preporučuje se strukturiran pristup koji napreduje od temelja prema specijaliziranim primjenama, pri čemu svaka faza gradi na kompetencijama stečenima tijekom prethodne faze (Grimmer i sur., 2022).</p>
+<p>Prva faza obuhvaća usvajanje osnova programske logike, tj. temeljnih koncepata kao što su varijable, tipovi podataka, kontrolne strukture (uvjetna grananja i petlje) te korištenje funkcija. Ovi koncepti su zajednički praktički svim modernim programskim jezicima i čine temelj bez kojeg daljnje napredovanje nije moguće. Za ovu fazu preporučuju se interaktivni online tečajevi poput onih na platformama Codecademy, DataCamp ili Coursera koji omogućuju učenje kroz direktnu praksu i neposrednu povratnu informaciju.</p>
+<p>Druga faza fokusira se na manipulaciju podataka u kontekstu specifičnog programskog jezika. Za R to podrazumijeva temeljito ovladavanje <em>tidyverse</em> ekosustavom, a posebice paketom <em>dplyr</em> za transformacije i manipulaciju podataka te paketom <em>ggplot2</em> za sofisticiranu vizualizaciju, alatima koji su detaljno korišteni u ranijim dijelovima ove knjige. Za Python ekvivalentni alati su biblioteka <em>pandas</em> za manipulaciju podatkovnim okvirima te biblioteke <em>matplotlib</em> i <em>seaborn</em> za kvalitativnu vizualizaciju.</p>
+<p>Treća faza uvodi specifične domenske primjene i specijalizacije relevantne upravo za istraživanje komunikacije: automatsko prikupljanje podataka s mreže, osnovnu analizu teksta (poglavlje 11) i mrežnu analizu (poglavlje 12). U ovoj fazi istraživač uči koristiti alate poput R paketa <em>rvest</em> za web scraping, <em>quanteda</em> za detaljan analizu teksta i <em>igraph</em> za mrežnu analizu, ili ekvivalentne Python biblioteke.</p>
+<p>Četvrta faza obuhvaća naprednije metode poput strojnog učenja, neuralnih mreža i rada s velikim jezičnim modelima. Važno je kritički naglasiti da ova faza ne bi trebala i ne smije prethoditi solidnom ovladavanju ranijim fazama jer primjena sofisticiranih algoritama bez temeljnog razumijevanja programiranja, manipulacije podacima i osnovne statistike vodi u čisto mehaničku aplikaciju alata bez stvarnog razumijevanja njihove logike i ograničenja.</p>
+<p>Temeljna preporuka za sve faze jest da se učenje provodi kroz avtentične istraživačke projekte budući da se apstraktno znanja konsolidira tek u primjeni na konkretne i autentične istraživačke probleme. Student komunikologije koji uči R pisanjem analitičkog skripte za analizu komentara na hrvatskim news portalima usvajat će programerske vještine znatno više učinkovito nego onaj koji prolazi generičke tečajeve programiranja bez veze s vlastitom disciplinom i vlastitim istraživačkim interesima.</p>
+<p>Stjecanje programskih kompetencija neodvojivo je od šireg i dubokog pitanja budućnosti komunikologije kao znanstvene discipline, što je tema centralnog fokusa zaključnog odjeljka ovog poglavlja.</p>
+</section>
+</section>
+<section id="budućnost-komunikologije-kao-hibridne-discipline" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Budućnost komunikologije kao hibridne discipline</h1>
+<p>Prethodna poglavlja ove knjige postupno su gradila komprehenzivnu argumentaciju da suvremeno istraživanje masovne komunikacije zahtijeva blagajnu integraciju tradicionalnih metodoloških pristupa s računalnim metodama i tehnologijama. Ovaj zaključni dio nastoji sintetizirati taj argument i detaljno razmotriti njegove implikacije za budućnost komunikologije kao priznate znanstvene discipline, za sustav obrazovanja budućih istraživača te za važnu ulogu komunikologa u širem društvenom kontekstu.</p>
+<section id="pet-temeljnih-teza" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="pet-temeljnih-teza"><span class="header-section-number">6.1</span> Pet temeljnih teza</h2>
+<p>Sadržaj ovog poglavlja može se kondenzirati u pet temeljnih teza koje zajedno čine kohezivnu argumentaciju za transformaciju komunikologije u hibridnu disciplinu koja spaja tehničko i društvenoznanstveno znanje.</p>
+<p>Prva teza glasi da digitalna transformacija komunikacije nije samo kvantitativna promjena u količini dostupnih podataka i brzini obrade već predstavlja kvalitativnu promjenu u samoj naravi fenomena koje komunikologija proučava. Algoritamska posredovanost suvremene komunikacije znači da se između pošiljatelja i primatelja poruke nalaze računalni sustavi koji aktivno, neprekidno i često nevidljivo oblikuju tko što vidi i kada, čime se fundamentalno mijenjaju temeljne pretpostavke komunikacijskih modela razvijenih u preddigitalnom dobu.</p>
+<p>Druga teza glasi da programiranje i računalna pismenost za istraživača komunikacije predstavljaju nužnu kompetenciju, a ne samo željena ali opcijska specijalizacija. Argumenti reproducibilnosti, fleksibilnosti i transparentnosti analitičkog procesa demonstriraju da istraživač bez adekvatnih programerskih kompetencija ostaje neodrživo ograničen na pitanja i analitičke postupke koje su predvidjeli dizajneri grafičkih alata, čime gubi autonomiju i intelektualnu slobodu u istraživačkom procesu.</p>
+<p>Treća teza glasi da metode poput velikih jezičnih modela, vizualne analize i temporalnih pristupa nude mogućnosti analiza koje fantastički nadilaze mogućnosti klasičnih pristupa, no te mogućnosti dolaze s vlastima, specifičnim i ozbiljnim ograničenjima u pogledu tendencije na halucinacije, sadržajnih pristranosti, nedostatka transparentnosti i izazova reproducibilnosti, ograničenjima koja zahtijevaju kritičku i šeptičnu evaluaciju umjesto nekritičkog ili entuzijastičkog prihvaćanja.</p>
+<p>Četvrta teza glasi da računalne metode omogućuju kvalitativnu transformaciju metodološke sintheze koja transcendira tradicionalnu i često sztúečnu razliku između kvantitativnog i kvalitativnog pristupa, sintezu koja je teorijski razmotrena u poglavlju 24 o mješovitoj metodologiji, ali koja s dostupnošću računalnih alata poprima nove oblike i otvara nove mogućnosti integracije.</p>
+<p>Peta i posljednja teza glasi da komunikolozi moraju proaktivno i angažirano preuzeti važnu ulogu u etičkoj evaluaciji i akademskom nadzoru algoritamskih sustava koji sve više oblikuju javnu komunikaciju, ulogu koja zahtijeva i razumijevanje tehničkih aspekata tih sustava ali i teorijske okvire, normativne orijentacije i osjetljivost za pitanja moći koju posjeduje komunikologija a koju informatičari i inženjeri tipično ne posjeduju.</p>
+</section>
+<section id="implikacije-za-obrazovanje-budućih-istraživača" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="implikacije-za-obrazovanje-budućih-istraživača"><span class="header-section-number">6.2</span> Implikacije za obrazovanje budućih istraživača</h2>
+<p>Vizija komunikologije kao hibridne discipline ima izravne i važne implikacije za strukturu, sadržaj i orijentaciju obrazovanja budućih komunikologa. Potrebna je fundamentalno integrirana koncepcija obrazovnog programa koja od početka studia povezuje teorijsku i metodološku raspravu, kvalitativne i kvantitativne pristupe, tradicionalne i računalne metode.</p>
+<p>Uvod u programiranje trebao bi biti obavezan kolegij za sve studente komunikologije, no ne kao izolirani sadržaj koji se poučava naprivu od teorije, već kao praktičan alat koji se koristi u kontekstu autentičnih istraživačkih zadataka iz domene komunikacije. Računalne metode za analizu teksta trebale bi predstavljati logični nastavak temeljnih kolegija o analizi sadržaja, pokazujući kako se iste konceptualne operacije mogu provesti na znatno većim skalama s primjenom tehnologije. Etika algoritamskih sustava trebala bi se izučavati kao integrativni kolegij koji kombinira filozofsku etiku i normativnu refleksiju s empirijskom analizom kako algoritamski sustavi utječu na društvene procese. Izvan zasebnih specijaliziranih kolegija, računalne kompetencije trebale bi biti sistematski integrirane kroz čitav kurikulum, primjerice zahtijevajući da seminarski radovi iz teorijskih kolegija uključuju barem osnovnu komponentu računalne analize ili da završni istraživački projekti koriste raznolike metode.</p>
+<p>Potrebno je međutim realistično istaknuti da obrazovanje za hibridnu disciplinu zahtijeva kulturu kontinuiranog i doživotnog učenja koja nadilazi završetak formalnog studija. Tehnološki krajolik i dostupni alati mijenjaju se brzinom koja daleko nadilazi cikluse revizije kurikuluma i programa. Alati koji su relevantni i moderni danas možda će biti zamijenjeni novim tehnologijama ili pristupima za pet godina. Stoga je stjecanje trajne i fleksibilne kompetencije usmjereno ne samo na ovladavanje specifičnim alatima aktualnih tehnologija već i na razvoj metakognitivnih vještina učenja, tj. na razvoj sposobnosti da se brzo i učinkovito savladaju novi programski paketi, novi algoritamski modeli ili novi analitički pristupi oslanjajući se na temelje stečene formalnim obrazovanjem.</p>
+</section>
+<section id="etička-odgovornost-i-društveni-doprinos" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="etička-odgovornost-i-društveni-doprinos"><span class="header-section-number">6.3</span> Etička odgovornost i društveni doprinos</h2>
+<p>Algoritamski sustavi koji posreduju sve veći udio ljudske komunikacije oblikuju fundamentalne uvjete mogućnosti za demokratsku deliberaciju, formiranje i evoluciju javnog mnijenja te artikulaciju kolektivnih identiteta i vrijednosti. Smjer u kojem će se ti sustavi evoluirati i razvijati nije tehnološki determiniran ili ispredviđen već ovisi o odlukama koje donose brojni akteri, uključujući istraživače koji proučavaju te sustave te koji produciraju znanje koje može informirati i oblikovati regulatorne i dizajnerske odluke.</p>
+<p><strong>Algoritamska pristranost</strong>, tj. sistematske pogreške u rezultatima algoritamskih sustava koje neproporcionalno i nepravedno pogađaju određene društvene grupe, nije nužno rezultat svjesne i zlonamjerne diskriminacije već može nastati iz naizgled neutralnih i tehničkih odluka (Barocas i Selbst, 2016). Pristranosti u podacima korištenim za treniranje modela, definicije ciljnih funkcija koje strukturno favoriziraju određene ishode, i povratne petlje koje pojačavaju inicijalne neravnoteže čine tri temeljna mehanizma nastanka algoritamske pristranosti. Razumijevanje ovih mehanizama (v. poglavlje 25 o etici istraživanja) zahtijeva interdisciplinarnu kompetenciju koja spaja i tehničko razumijevanje kako funkcioniraju sustavi i društvenoteorijski uvid u moć, nejednakost i društvene posljedice, kompetenciju koja upravo odgovara profilu hibridnog komunikologa kakav je opisan i argumentiran u ovom poglavlju.</p>
+<p>Istraživači komunikacije mogu i trebali bi doprinijeti na više razina. Istraživanje u službi javnog interesa uključuje sistematsku dokumentaciju efekata i implikacija algoritamskih sustava na informacijski ekosustav, na karakter javnog diskursa i na kvalitetu demokratskih procesa. Zagovaranje i aktivizam uključuju jasnu artkulaciju zašto je transparentnost algoritamskih sustava nužna za zdravu i funkcionalnu javnu sferu, posebno u kontekstu Europskog akta o digitalnim uslugama (eng. <em>Digital Services Act</em>) koji od platformi zahtijeva određenu razinu transparentnosti i odgovornosti u pogledu algoritamskog preporučivanja sadržaja (European Commission, 2022). Savjetovanje i suradnja s regulatorima uključuje pružanje teorijski i empirijski utemeljene znanstvene ekspertize. Obrazovanje i mentorstvo budućih profesionalaca uključuje integraciju etičkih razmatranja i kritičke refleksije kroz čitav kurikulum komunikoloških studija.</p>
+</section>
+<section id="zaključak" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="zaključak"><span class="header-section-number">6.4</span> Zaključak</h2>
+<p>Ovo poglavlje nastojalo je integrirati i sintetizirati sadržaje svih prethodnih poglavlja ove knjige u koherentnu i argumentativnu viziju budućnosti istraživanja masovne komunikacije. Prikazano je što je računalna društvena znanost kao polje, kako se razvijala kroz povijest i čime se fundamentalno razlikuje od tradicionalnih pristupa društvenom istraživanju. Detaljno su analizirane epistemološke implikacije računalnog obrata u drugim znanostima, uključujući nove vrste istraživačkih pitanja koje postaju dostupne, nove izazove za valjanost zaključaka i važnu distinkciju između predikcije i objašnjenja kao metodoloških ciljeva. Obširno je razmotrena algoritamska posredovanost suvremene komunikacije, njezina arhitektura, emergentne dinamike i dostupne metode za njezino empirijsko proučavanje. Prikazane su nove analitičke metode poput velikih jezičnih modela, vizualne analize i temporalnih pristupa te dinamične mogućnosti njihove integracije s tradicionalnim metodama. Temeljno je argumentirana nužnost programske pismenosti za suvremene istraživače komunikacije te je ponuđena vizija komunikologije kao hibridne discipline koja integrira tehničke i društvenoznanstvene kompetencije.</p>
+<p>Budućnost komunikologije kao prepoznate i relevantne znanstvene discipline u značajnoj mjeri ovisi o sposobnosti novih generacija istraživača da uspješno integriraju teorijsku osjetljivost za pitanja značenja, moći i društvenih odnosa s tehničkom kompetencijom za navigiranje sve složenijeg podatkovnog i algoritamskog krajolika u kojem se suvremena javna komunikacija neprekidno odvija.</p>
+</section>
+</section>
+<section id="literatura" class="level1 unnumbered">
+<h1 class="unnumbered">Literatura</h1>
+<p>Aminikhanghahi, S. i Cook, D. J. (2017). A survey of methods for time series change point detection. <em>Knowledge and Information Systems</em>, 51(2), 339–367.</p>
+<p>Angrist, J. D. i Pischke, J. S. (2009). <em>Mostly harmless econometrics: An empiricist’s companion</em>. Princeton University Press.</p>
+<p>Arrieta, A. B., Díaz-Rodríguez, N., Del Ser, J., Bennetot, A., Tabik, S., Barbado, A., … i Herrera, F. (2020). Explainable artificial intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. <em>Information Fusion</em>, 58, 82–115.</p>
+<p>Atefeh, F. i Khreich, W. (2015). A survey of techniques for event detection in Twitter. <em>Computational Intelligence</em>, 31(1), 132–164.</p>
+<p>Bail, C. A. (2014). The cultural environment: Measuring culture with big data. <em>Theory and Society</em>, 43(3–4), 465–482.</p>
+<p>Bail, C. A., Argyle, L. P., Brown, T. W., Bumpus, J. P., Chen, H., Hunzaker, M. F., … i Volfovsky, A. (2018). Exposure to opposing views on social media can increase political polarization. <em>Proceedings of the National Academy of Sciences</em>, 115(37), 9216–9221.</p>
+<p>Bakshy, E., Messing, S. i Adamic, L. A. (2015). Exposure to ideologically diverse news and opinion on Facebook. <em>Science</em>, 348(6239), 1130–1132.</p>
+<p>Barocas, S. i Selbst, A. D. (2016). Big data’s disparate impact. <em>California Law Review</em>, 104, 671–732.</p>
+<p>Bateman, J., Wildfeuer, J. i Hiippala, T. (2017). <em>Multimodality: Foundations, research and analysis</em>. De Gruyter Mouton.</p>
+<p>Bender, E. M., Gebru, T., McMillan-Major, A. i Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? <em>Proceedings of FAccT</em>, 610–623.</p>
+<p>Benoit, K., Conway, D., Lauderdale, B. E., Laver, M. i Mikhaylov, S. (2016). Crowd-sourced text analysis: Reproducible and agile production of political data. <em>American Political Science Review</em>, 110(2), 278–295.</p>
+<p>Berelson, B. (1952). <em>Content analysis in communication research</em>. Free Press.</p>
+<p>Boettiger, C. (2015). An introduction to Docker for reproducible research. <em>ACM SIGOPS Operating Systems Review</em>, 49(1), 71–79.</p>
+<p>Box, G. E., Jenkins, G. M., Reinsel, G. C. i Ljung, G. M. (2015). <em>Time series analysis: Forecasting and control</em> (5. izd.). John Wiley &amp; Sons.</p>
+<p>Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., … i Amodei, D. (2020). Language models are few-shot learners. <em>Advances in Neural Information Processing Systems</em>, 33, 1877–1901.</p>
+<p>Bryan, J. (2018). Excuse me, do you have a moment to talk about version control? <em>The American Statistician</em>, 72(1), 20–27.</p>
+<p>Burrell, J. (2016). How the machine ‘thinks’: Understanding opacity in machine learning algorithms. <em>Big Data &amp; Society</em>, 3(1), 1–12.</p>
+<p>Castellano, C., Fortunato, S. i Loreto, V. (2009). Statistical physics of social dynamics. <em>Reviews of Modern Physics</em>, 81(2), 591–646.</p>
+<p>Covington, P., Adams, J. i Sargin, E. (2016). Deep neural networks for YouTube recommendations. <em>Proceedings of the 10th ACM Conference on Recommender Systems</em>, 191–198.</p>
+<p>de Montjoye, Y. A., Hidalgo, C. A., Verleysen, M. i Blondel, V. D. (2013). Unique in the crowd: The privacy bounds of human mobility. <em>Scientific Reports</em>, 3, 1376.</p>
+<p>Diakopoulos, N. (2015). Algorithmic accountability: Journalistic investigation of computational power structures. <em>Digital Journalism</em>, 3(3), 398–415.</p>
+<p>Dunning, T. (2012). <em>Natural experiments in the social sciences</em>. Cambridge University Press.</p>
+<p>Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. <em>Journal of Communication</em>, 43(4), 51–58.</p>
+<p>Epstein, J. M. (2006). <em>Generative social science: Studies in agent-based computational modeling</em>. Princeton University Press.</p>
+<p>European Commission. (2022). <em>Digital Services Act</em>. Official Journal of the European Union.</p>
+<p>Floridi, L. i Sanders, J. W. (2004). On the morality of artificial agents. <em>Minds and Machines</em>, 14(3), 349–379.</p>
+<p>Freese, J. i Peterson, D. (2017). Replication in social science. <em>Annual Review of Sociology</em>, 43, 147–165.</p>
+<p>Gillespie, T. (2014). The relevance of algorithms. U T. Gillespie, P. J. Boczkowski i K. A. Foot (ur.), <em>Media technologies</em> (str. 167–194). MIT Press.</p>
+<p>Grimmer, J., Roberts, M. E. i Stewart, B. M. (2022). <em>Text as data: A new framework for machine learning and the social sciences</em>. Princeton University Press.</p>
+<p>James, G., Witten, D., Hastie, T. i Tibshirani, R. (2021). <em>An introduction to statistical learning</em> (2. izd.). Springer.</p>
+<p>Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., … i Fung, P. (2023). Survey of hallucination in natural language generation. <em>ACM Computing Surveys</em>, 55(12), 1–38.</p>
+<p>Joo, J. i Steinert-Threlkeld, Z. C. (2022). Image as data: Automated visual content analysis for political science. <em>Political Analysis</em>, 30(3), 468–485.</p>
+<p>Krippendorff, K. (2018). <em>Content analysis: An introduction to its methodology</em> (4. izd.). Sage.</p>
+<p>Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabási, A. L., Brewer, D., … i Van Alstyne, M. (2009). Computational social science. <em>Science</em>, 323(5915), 721–723.</p>
+<p>Lee, D. S. i Lemieux, T. (2010). Regression discontinuity designs in economics. <em>Journal of Economic Literature</em>, 48(2), 281–355.</p>
+<p>McCombs, M. E. i Shaw, D. L. (1972). The agenda-setting function of mass media. <em>Public Opinion Quarterly</em>, 36(2), 176–187.</p>
+<p>Milano, S., Taddeo, M. i Floridi, L. (2020). Recommender systems and their ethical challenges. <em>AI &amp; Society</em>, 35, 957–967.</p>
+<p>Napoli, P. M. (2014). Automated media: An institutional theory perspective on algorithmic media production and consumption. <em>Communication Theory</em>, 24(3), 340–360.</p>
+<p>Nelson, L. K. (2020). Computational grounded theory: A methodological framework. <em>Sociological Methods &amp; Research</em>, 49(1), 3–42.</p>
+<p>Nissenbaum, H. (1996). Accountability in a computerized society. <em>Science and Engineering Ethics</em>, 2(1), 25–42.</p>
+<p>Noble, S. U. (2018). <em>Algorithms of oppression: How search engines reinforce racism</em>. NYU Press.</p>
+<p>Pariser, E. (2011). <em>The filter bubble: What the Internet is hiding from you</em>. Penguin.</p>
+<p>Pasquale, F. (2015). <em>The black box society</em>. Harvard University Press.</p>
+<p>Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., … i Sutskever, I. (2021). Learning transferable visual models from natural language supervision. <em>Proceedings of ICML</em>, 8748–8763.</p>
+<p>Ricci, F., Rokach, L. i Shapira, B. (2015). <em>Recommender systems handbook</em> (2. izd.). Springer.</p>
+<p>Rule, A., Tabard, A. i Hollan, J. D. (2018). Exploration and explanation in computational notebooks. <em>Proceedings of CHI</em>, 1–12.</p>
+<p>Salganik, M. J. (2018). <em>Bit by bit: Social research in the digital age</em>. Princeton University Press.</p>
+<p>Sandvig, C., Hamilton, K., Karahalios, K. i Langbort, C. (2014). Auditing algorithms: Research methods for detecting discrimination on internet platforms. <em>Data and Discrimination: Converting Critical Concerns into Productive Inquiry</em>, 1–23.</p>
+<p>Sap, M., Card, D., Gabriel, S., Choi, Y. i Smith, N. A. (2019). The risk of racial bias in hate speech detection. <em>Proceedings of ACL</em>, 1668–1678.</p>
+<p>Stier, S., Breuer, J., Siegers, P. i Thorson, K. (2020). Integrating survey data and digital trace data: Key issues in developing an emerging field. <em>Social Science Computer Review</em>, 38(5), 503–516.</p>
+<p>Stone, P. J., Dunphy, D. C., Smith, M. S. i Ogilvie, D. M. (1966). <em>The General Inquirer: A computer approach to content analysis</em>. MIT Press.</p>
+<p>Tufekci, Z. (2014). Big questions for social media big data: Representativeness, validity and other methodological pitfalls. <em>Proceedings of ICWSM</em>, 505–514.</p>
+<p>VanderPlas, J. (2016). <em>Python data science handbook</em>. O’Reilly Media.</p>
+<p>Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., … i Polosukhin, I. (2017). Attention is all you need. <em>Advances in Neural Information Processing Systems</em>, 30, 5998–6008.</p>
+<p>Watts, D. J. (2003). <em>Six degrees: The science of a connected age</em>. W. W. Norton.</p>
+<p>Watts, D. J. (2011). <em>Everything is obvious: Once you know the answer</em>. Crown Business.</p>
+<p>Wickham, H. i Grolemund, G. (2017). <em>R for data science</em>. O’Reilly Media.</p>
+<p>Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L. i Teal, T. K. (2017). Good enough practices in scientific computing. <em>PLOS Computational Biology</em>, 13(6), e1005510.</p>
+<p>Ziems, C., Held, W., Shaikh, O., Chen, J., Zhang, Z. i Yang, D. (2024). Can large language models transform computational social science? <em>Computational Linguistics</em>, 50(1), 237–291.</p>
+<p>Zimmer, M. (2010). “But the data is already public”: On the ethics of research in Facebook. <em>Ethics and Information Technology</em>, 12(4), 313–325.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
